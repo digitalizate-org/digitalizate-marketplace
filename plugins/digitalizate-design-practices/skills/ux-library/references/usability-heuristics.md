@@ -18,7 +18,7 @@
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
 Wireframe: https://files.catbox.moe/jqo1w3.jpg
-Notion: https://app.notion.com/p/Match-Between-System-and-the-Real-World-2eba9aed53448250a43b81a51b97fcc0
+File: library/usability-heuristics/UX-334-match-between-system-and-the-real-world.md
 
 ## UX-335 — User Control and Freedom — Undo Over Confirmation
 - Score 5 · Usability Heuristics / Error recovery and reversibility
@@ -38,7 +38,7 @@ Notion: https://app.notion.com/p/Match-Between-System-and-the-Real-World-2eba9ae
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [Good UI — Undo Instead of Confirmation Dialogs](https://goodui.org/#8) · [Reddit — How I implemented an Undo/Redo system in a large complex visual application](https://www.reddit.com/r/SoftwareEngineering/comments/1lgbjr1/how_i_implemented_an_undoredo_system_in_a_large/)
 Wireframe: https://files.catbox.moe/9iogn5.jpg
-Notion: https://app.notion.com/p/User-Control-and-Freedom-Undo-Over-Confirmation-9d2a9aed534482cb815601e54ada3317
+File: library/usability-heuristics/UX-335-user-control-and-freedom-undo-over-confirmation.md
 
 ## UX-336 — Map Between System and Real World — Natural Mapping for Controls
 - Score 4 · Usability Heuristics / Natural mapping and interface metaphors
@@ -51,4 +51,4 @@ Notion: https://app.notion.com/p/User-Control-and-Freedom-Undo-Over-Confirmation
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [Laws of UX — Jakob's Law](https://lawsofux.com/jakobs-law/)
 Wireframe: https://files.catbox.moe/8r7tqm.jpg
-Notion: https://app.notion.com/p/Map-Between-System-and-Real-World-Natural-Mapping-for-Controls-b74a9aed534482d39c3d810616db3690
+File: library/usability-heuristics/UX-336-map-between-system-and-real-world-natural-mapping-for-contro.md

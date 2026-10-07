@@ -22,7 +22,7 @@
 **Measure.** Wall-clock Speedup (Time vs sequential baseline); Throughput (Tasks/minute at concurrency); Agreement Score (% consensus among branches); Cost Efficiency (Total tokens × model rates); Success Rate (% completed branches); P95 Latency (Tail completion time); Multi-Source Research: news + academic + social → synthesize findings; Content Generation: headline + body + image + CTA → complete email; Data Validation: format + business rules + external APIs → pass/fail; Creative Ideation: 3 models…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-372.png
-Notion: https://app.notion.com/p/Parallel-Chaining-134a9aed534482268e4d0143f3747502
+File: library/agentic-patterns/AGP-142-parallel-chaining.md
 
 ## AGP-171 — Sequential Chaining
 - Score 5 · Agentic Patterns / Prompt Chaining
@@ -46,4 +46,4 @@ Notion: https://app.notion.com/p/Parallel-Chaining-134a9aed534482268e4d0143f3747
 **Measure.** Success Rate (Per-stage & E2E completion); Latency (P50/P95 per stage); Cost (Σ(tokens × model_rate)); Error Recovery (% failures handled); Cache Hit Rate (% reused computations); Cost Savings ($ saved via caching); Document Analysis: parse → extract → analyze → summarize (cache parsing); Content Creation: research → outline → draft → edit (cache research); Data Pipeline: validate → transform → enrich → aggregate (cache transforms); Decision Flow: gather → evaluate → score → recommend (cache…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-373.png
-Notion: https://app.notion.com/p/Sequential-Chaining-7b8a9aed5344825b9ee801b31a1de952
+File: library/agentic-patterns/AGP-171-sequential-chaining.md

@@ -20,7 +20,7 @@
 
 Sources: [Nielsen Norman Group — Search Is Not Enough](https://www.nngroup.com/articles/search-not-enough/)
 Wireframe: https://files.catbox.moe/ywlp41.jpg
-Notion: https://app.notion.com/p/Provide-Navigation-Alongside-Search-Not-Search-Alone-b28a9aed534483698d5c01f437d86ee1
+File: library/search-filter-and-sort/UX-323-provide-navigation-alongside-search-not-search-alone.md
 
 ## UX-324 — Filter Categories — Appropriate, Predictable, and Prioritized
 - Score 5 · Search Filter & Sort / Filter design and taxonomy
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Provide-Navigation-Alongside-Search-Not-Search-
 
 Sources: [Nielsen Norman Group — Helpful Filter Categories and Values](https://www.nngroup.com/articles/filter-categories-values/) · [Good UI — Visible Filters](https://goodui.org/)
 Wireframe: https://files.catbox.moe/k3nm4w.jpg
-Notion: https://app.notion.com/p/Filter-Categories-Appropriate-Predictable-and-Prioritized-3d5a9aed534482fb859b019f66de1708
+File: library/search-filter-and-sort/UX-324-filter-categories-appropriate-predictable-and-prioritized.md
 
 ## UX-325 — Faceted Search — Show Filters and Results Simultaneously
 - Score 5 · Search Filter & Sort / Faceted search architecture
@@ -64,7 +64,7 @@ Notion: https://app.notion.com/p/Filter-Categories-Appropriate-Predictable-and-P
 
 Sources: [Nielsen Norman Group — Filters vs. Facets](https://www.nngroup.com/articles/filters-vs-facets/) · [A List Apart — Design Patterns: Faceted Navigation](https://alistapart.com/article/design-patterns-faceted-navigation/)
 Wireframe: https://files.catbox.moe/ipbd28.jpg
-Notion: https://app.notion.com/p/Faceted-Search-Show-Filters-and-Results-Simultaneously-73ea9aed534483508e4401b7c5114113
+File: library/search-filter-and-sort/UX-325-faceted-search-show-filters-and-results-simultaneously.md
 
 ## UX-326 — Autocomplete and Autosuggestion in Search
 - Score 5 · Search Filter & Sort / Search input assistance
@@ -87,7 +87,7 @@ Notion: https://app.notion.com/p/Faceted-Search-Show-Filters-and-Results-Simulta
 
 Sources: [Good UI — Auto-Suggest / Autocomplete](https://goodui.org/) · [Component Gallery — Combobox / Autocomplete](https://component.gallery/components/combobox/) · [Nielsen Norman Group — Search Is Not Enough](https://www.nngroup.com/articles/search-not-enough/)
 Wireframe: https://files.catbox.moe/fs14ff.jpg
-Notion: https://app.notion.com/p/Autocomplete-and-Autosuggestion-in-Search-559a9aed5344829db231810bc970a455
+File: library/search-filter-and-sort/UX-326-autocomplete-and-autosuggestion-in-search.md
 
 ## UX-327 — Persistent Global Search Across All Entities
 - Score 5 · Search Filter & Sort / Global Search
@@ -109,7 +109,7 @@ Notion: https://app.notion.com/p/Autocomplete-and-Autosuggestion-in-Search-559a9
 
 Sources: [HashBuilds — Command Palette Pattern](https://www.hashbuilds.com/patterns/what-is-command-palette) · [About Face Ch. 14 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/ozfkvo.jpg
-Notion: https://app.notion.com/p/Persistent-Global-Search-Across-All-Entities-5c9a9aed534483669ae6813396b48c6a
+File: library/search-filter-and-sort/UX-327-persistent-global-search-across-all-entities.md
 
 ## UX-328 — Faceted Filtering Over Browse Hierarchies
 - Score 5 · Search Filter & Sort / Filter Design
@@ -131,7 +131,7 @@ Notion: https://app.notion.com/p/Persistent-Global-Search-Across-All-Entities-5c
 
 Sources: [About Face Ch. 14 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/2z1vr8.jpg
-Notion: https://app.notion.com/p/Faceted-Filtering-Over-Browse-Hierarchies-936a9aed53448379b33981925f20b196
+File: library/search-filter-and-sort/UX-328-faceted-filtering-over-browse-hierarchies.md
 
 ## UX-329 — Per-Column Filtering and Global Search
 - Score 5 · Search Filter & Sort / Table Filtering
@@ -152,7 +152,7 @@ Notion: https://app.notion.com/p/Faceted-Filtering-Over-Browse-Hierarchies-936a9
 
 Sources: [Nielsen Norman Group — Data Tables](https://www.nngroup.com/articles/data-tables/) · [UX Patterns — Data Table](https://uxpatterns.dev/patterns/data-display/table)
 Wireframe: https://files.catbox.moe/qrav05.jpg
-Notion: https://app.notion.com/p/Per-Column-Filtering-and-Global-Search-535a9aed534482c7b91381d7d7b53a58
+File: library/search-filter-and-sort/UX-329-per-column-filtering-and-global-search.md
 
 ## UX-330 — Saved Filters and Search Views
 - Score 5 · Search Filter & Sort / Filter Management
@@ -172,7 +172,7 @@ Notion: https://app.notion.com/p/Per-Column-Filtering-and-Global-Search-535a9aed
 
 Sources: [Pencil & Paper — Data Table UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/xb8pya.jpg
-Notion: https://app.notion.com/p/Saved-Filters-and-Search-Views-d37a9aed53448334bf9501643f861163
+File: library/search-filter-and-sort/UX-330-saved-filters-and-search-views.md
 
 ## UX-331 — Global Search with Federated Results
 - Score 5 · Search Filter & Sort / Global Search
@@ -194,7 +194,7 @@ Notion: https://app.notion.com/p/Saved-Filters-and-Search-Views-d37a9aed53448334
 
 Sources: [Merveilleux.design](http://merveilleux.design/) · [— SaaS Navigation Types](https://www.merveilleux.design/en/blog/article/comprehensive-guide-for-saas-products-on-ux-navigation-types)
 Wireframe: https://files.catbox.moe/juqw27.jpg
-Notion: https://app.notion.com/p/Global-Search-with-Federated-Results-2e6a9aed534483359f1481802577bd9d
+File: library/search-filter-and-sort/UX-331-global-search-with-federated-results.md
 
 ## UX-332 — Filter Panel Persistence and Active Filter Badges
 - Score 5 · Search Filter & Sort / Filter Management
@@ -214,7 +214,7 @@ Notion: https://app.notion.com/p/Global-Search-with-Federated-Results-2e6a9aed53
 
 Sources: [UX Patterns — Data Table](https://uxpatterns.dev/patterns/data-display/table) · [Nielsen Norman Group — Data Tables](https://www.nngroup.com/articles/data-tables/)
 Wireframe: https://files.catbox.moe/7e3nc9.jpg
-Notion: https://app.notion.com/p/Filter-Panel-Persistence-and-Active-Filter-Badges-828a9aed53448396901f01365616f360
+File: library/search-filter-and-sort/UX-332-filter-panel-persistence-and-active-filter-badges.md
 
 ## UX-333 — Design for All Four Information-Seeking Modes
 - Score 4 · Search Filter & Sort / Information architecture for varied seeking behaviors
@@ -233,4 +233,4 @@ Notion: https://app.notion.com/p/Filter-Panel-Persistence-and-Active-Filter-Badg
 
 Sources: [Boxes and Arrows — Four Modes of Seeking Information](https://boxesandarrows.com/four-modes-of-seeking-information-and-how-to-design-for-them/)
 Wireframe: https://files.catbox.moe/3m2bbh.jpg
-Notion: https://app.notion.com/p/Design-for-All-Four-Information-Seeking-Modes-1eda9aed53448382bacf817b38041d09
+File: library/search-filter-and-sort/UX-333-design-for-all-four-information-seeking-modes.md

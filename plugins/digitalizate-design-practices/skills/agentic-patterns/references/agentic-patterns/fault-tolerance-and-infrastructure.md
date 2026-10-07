@@ -22,7 +22,7 @@
 **Measure.** Context Relevance (% accurate context reconstruction); Recovery Time (Seconds to restore conversation state); Memory Efficiency (% reduction in redundant processing); Continuity Score (User perceived conversation flow); Storage Overhead (MB per conversation session); Security Compliance (% encrypted context access); Customer Support: Maintain context across support ticket sessions and agent handoffs; Personal Assistants: Remember user preferences, history, and ongoing projects; Educational…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-529.png
-Notion: https://app.notion.com/p/Agent-Context-Preservation-and-Recovery-ACP-50da9aed534483cc9d3081c78d5f30bf
+File: library/agentic-patterns/AGP-017-agent-context-preservation-and-recovery-acp.md
 
 ## AGP-015 — Agent Communication Fault Tolerance (ACF)
 - Score 2 · Agentic Patterns / Fault Tolerance & Infrastructure
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Agent-Context-Preservation-and-Recovery-ACP-50d
 **Measure.** Message Delivery Rate (% successful message delivery (target: 99.94%)); Circuit Breaker Efficiency (% failures prevented from cascading); Recovery Time (Seconds to restore communication after failure); Alternative Route Success (% messages delivered via backup paths); Protocol Overhead (% additional latency for fault tolerance); Network Partition Tolerance (Time to detect and adapt to partitions); Enterprise AI Orchestration: Coordinate 100+ agents across departments with 99.94% delivery rate…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-528.png
-Notion: https://app.notion.com/p/Agent-Communication-Fault-Tolerance-ACF-49aa9aed534482b1886f01da3f73a51b
+File: library/agentic-patterns/AGP-015-agent-communication-fault-tolerance-acf.md
 
 ## AGP-103 — LLM Checkpoint Recovery (Mnemosyne) (LCR)
 - Score 2 · Agentic Patterns / Fault Tolerance & Infrastructure
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Agent-Communication-Fault-Tolerance-ACF-49aa9ae
 **Measure.** Recovery Time (Seconds to resume training); Overhead (% daily training time lost); Checkpoint Size (GB per model snapshot); Failure Detection (Time to detect node failure); Memory Utilization (% peak memory preserved); Communication Cost (Bandwidth for reconstruction); LLM Pre-training: 70B+ parameter models with week-long training cycles; Distributed Fine-tuning: Multi-node adaptation with frequent hardware failures; MoE Training: Sparse mixture-of-experts with massive checkpoint sizes; Hybrid…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-530.png
-Notion: https://app.notion.com/p/LLM-Checkpoint-Recovery-Mnemosyne-LCR-13da9aed53448221926f01a4ab04b215
+File: library/agentic-patterns/AGP-103-llm-checkpoint-recovery-mnemosyne-lcr.md
 
 ## AGP-145 — Predictive Agent Fault Tolerance (PAF)
 - Score 2 · Agentic Patterns / Fault Tolerance & Infrastructure
@@ -94,4 +94,4 @@ Notion: https://app.notion.com/p/LLM-Checkpoint-Recovery-Mnemosyne-LCR-13da9aed5
 **Measure.** Prediction Accuracy (% correct failure predictions (precision/recall)); False Positive Rate (% incorrect failure alarms); Lead Time (Minutes/hours before failure prediction); Prevention Success (% failures avoided through preemptive action); Model Confidence (Uncertainty quantification scores); Detection Latency (Time to identify anomalous patterns); Enterprise AI Fleets: Monitor 100+ agents with 97.2% accuracy for behavioral anomalies; Cloud Infrastructure: Predict resource exhaustion and…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-531.png
-Notion: https://app.notion.com/p/Predictive-Agent-Fault-Tolerance-PAF-13aa9aed53448254878b81eade8aabc1
+File: library/agentic-patterns/AGP-145-predictive-agent-fault-tolerance-paf.md

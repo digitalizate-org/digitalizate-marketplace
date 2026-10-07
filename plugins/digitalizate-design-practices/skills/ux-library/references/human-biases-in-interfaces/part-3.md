@@ -1,26 +1,4 @@
-# Human Biases in Interfaces · part 3/3 (19 entries, score 4–3)
-
-## UX-615 — Weber-Fechner Law (Just Noticeable Difference / Logarithmic Perception Law)
-- Score 4 · Human Biases in Interfaces
-- Goals: Leverage Psychology to Guide User Behavior; Drive Conversion & Decision-Making
-- Use when: Essential for performance engineering, animation design, audio/volume controls, progress indicators, pricing, and any quantitative interface element where perceived change matters. The 20% threshold is the primary design rule derived from this law.
-
-**Why.** The Weber-Fechner Law is one of the foundational principles of psychophysics, combining Ernst Heinrich Weber's 1834 discovery that the minimum detectable change in any stimulus is proportional to the current stimulus magnitude (ΔI/I = k), and Gustav Fechner's 1860 extension that perceived magnitude scales logarithmically with physical magnitude (S = k log I). In plain terms: to be noticed, a change must represent a constant *proportion* of the existing level — not an absolute amount. Doubling a whisper to two whispers is clearly perceptible; doubling a shout to two shouts is not.
-
-**Do.**
-- Apply the 20% rule as the minimum investment threshold for performance improvements: only pursue speed optimizations that reduce load time by ≥20% of the current duration — improvements below this will be invisible to users regardless of engineering cost
-- Use logarithmic scales for all continuous controls where human perception is non-linear: audio volume sliders, image brightness adjusters, map zoom levels, and font size selectors — linear scales in these contexts create the illusion of uneven response
-- Express price reductions as percentages and validate them against the JND threshold for the relevant price tier: "$10 off a $20 item" (50%) is highly salient; "$10 off a $500 item" (2%) is functionally invisible to perceived value
-- Design progress indicators with non-linear feedback curves: front-load visible progress in early stages (where proportional gains are largest relative to current position) to create motivating momentum, and avoid displays that make late-stage increments feel stagnant
-- For animation timing refinements, establish a practical threshold: changes below ~50–100ms total duration shift are below the perceptible threshold for most users — optimize elsewhere rather than pursuing sub-threshold animation polish
-- In competitive performance benchmarking, focus investment on thresholds that are *perceptibly* different to users, not merely statistically different in controlled lab measurements
-- Establish font size ratios between heading levels of at least 1.25x (Major Third scale) to ensure typographic hierarchy is visually distinct — increments below this ratio are often imperceptible in context
-
-**Measure.** Effectiveness: Task success rate, Error rate; Efficiency: Time on task; Satisfaction & Perception: Ease-of-use score, Confidence rating; How to measure: Conduct usability tests on slider controls, font size adjustments, or audio/visual calibration interfaces, measuring whether users perceive proportional versus logarithmic change scales as more intuitive and make fewer errors. Track error rates in data-entry interfaces where numerical input ranges do not align with users' perceptual expectations of proportional differences.
-
-Sources: [https://acoustics.mit.edu/faculty/makris/rspa.2022.0626.pdf](https://acoustics.mit.edu/faculty/makris/rspa.2022.0626.pdf) · [https://www.sitepoint.com/the-perception-of-performance/](https://www.sitepoint.com/the-perception-of-performance/)
-Wireframe: https://files.catbox.moe/8eaapc.jpg
-Notion: https://app.notion.com/p/Weber-Fechner-Law-Just-Noticeable-Difference-Logarithmic-Perception-Law-77aa9aed534483dc8118014108d3ed05
+# Human Biases in Interfaces · part 3/3 (18 entries, score 4–3)
 
 ## UX-616 — Zero-Risk Bias (Risk Elimination Preference)
 - Score 4 · Human Biases in Interfaces
@@ -42,7 +20,7 @@ Notion: https://app.notion.com/p/Weber-Fechner-Law-Just-Noticeable-Difference-Lo
 
 Sources: [https://psychotricks.com/zero-risk-bias/](https://psychotricks.com/zero-risk-bias/) · [https://profrjstarr.com/cognitive-biases/zero-risk-bias-why-we-try-to-eliminate-small-risks-instead-of-reducing-bigger-ones](https://profrjstarr.com/cognitive-biases/zero-risk-bias-why-we-try-to-eliminate-small-risks-instead-of-reducing-bigger-ones)
 Wireframe: https://files.catbox.moe/94964d.jpg
-Notion: https://app.notion.com/p/Zero-Risk-Bias-Risk-Elimination-Preference-603a9aed534483a88b778139de91b46c
+File: library/human-biases-in-interfaces/UX-616-zero-risk-bias-risk-elimination-preference.md
 
 ## UX-617 — Ben Franklin Effect (Cognitive Dissonance in Favor-Giving / Self-Perception Through Behavior)
 - Score 3 · Human Biases in Interfaces
@@ -64,7 +42,7 @@ Notion: https://app.notion.com/p/Zero-Risk-Bias-Risk-Elimination-Preference-603a
 
 Sources: [https://effectiviology.com/benjamin-franklin-effect/](https://effectiviology.com/benjamin-franklin-effect/) · [https://boston.aiga.org/design-behavior-and-ben-franklin/](https://boston.aiga.org/design-behavior-and-ben-franklin/)
 Wireframe: https://files.catbox.moe/mqf5h8.jpg
-Notion: https://app.notion.com/p/Ben-Franklin-Effect-Cognitive-Dissonance-in-Favor-Giving-Self-Perception-Through-Behavior-382a9aed534482e69fd081efed8b2d06
+File: library/human-biases-in-interfaces/UX-617-ben-franklin-effect-cognitive-dissonance-in-favor-giving-and.md
 
 ## UX-618 — Bystander Effect in Digital Interfaces (Diffusion of Observation / Digital Non-Intervention)
 - Score 3 · Human Biases in Interfaces
@@ -86,7 +64,7 @@ Notion: https://app.notion.com/p/Ben-Franklin-Effect-Cognitive-Dissonance-in-Fav
 
 Sources: [https://thedecisionlab.com/reference-guide/psychology/diffusion-of-responsibility](https://thedecisionlab.com/reference-guide/psychology/diffusion-of-responsibility) · [https://www.structural-learning.com/post/bystander-effect](https://www.structural-learning.com/post/bystander-effect)
 Wireframe: https://files.catbox.moe/zmnnd7.jpg
-Notion: https://app.notion.com/p/Bystander-Effect-in-Digital-Interfaces-Diffusion-of-Observation-Digital-Non-Intervention-58aa9aed534483e5a82e01a937ba1f51
+File: library/human-biases-in-interfaces/UX-618-bystander-effect-in-digital-interfaces-diffusion-of-observat.md
 
 ## UX-619 — Clustering Illusion (Apophenia / Patternicity)
 - Score 3 · Human Biases in Interfaces
@@ -108,7 +86,7 @@ Notion: https://app.notion.com/p/Bystander-Effect-in-Digital-Interfaces-Diffusio
 
 Sources: [calerovaldez.com/pdf/valdez2017framework.pdf](http://calerovaldez.com/pdf/valdez2017framework.pdf) · [profrjstarr.com](http://profrjstarr.com/)
 Wireframe: https://files.catbox.moe/bti0b4.jpg
-Notion: https://app.notion.com/p/Clustering-Illusion-Apophenia-Patternicity-07ea9aed534483a3941d81bb857d60c7
+File: library/human-biases-in-interfaces/UX-619-clustering-illusion-apophenia-and-patternicity.md
 
 ## UX-620 — Conjunction Fallacy (Linda Problem)
 - Score 3 · Human Biases in Interfaces
@@ -129,7 +107,7 @@ Notion: https://app.notion.com/p/Clustering-Illusion-Apophenia-Patternicity-07ea
 
 Sources: [https://en.wikipedia.org/wiki/Conjunction_fallacy](https://en.wikipedia.org/wiki/Conjunction_fallacy) · [https://www.alignmentforum.org/w/conjunction-fallacy](https://www.alignmentforum.org/w/conjunction-fallacy)
 Wireframe: https://files.catbox.moe/hketjy.jpg
-Notion: https://app.notion.com/p/Conjunction-Fallacy-Linda-Problem-33da9aed534482028f0a81d41479de15
+File: library/human-biases-in-interfaces/UX-620-conjunction-fallacy-linda-problem.md
 
 ## UX-621 — Denomination Effect (Currency Denomination Bias / Price-Denomination Effect)
 - Score 3 · Human Biases in Interfaces
@@ -150,7 +128,7 @@ Notion: https://app.notion.com/p/Conjunction-Fallacy-Linda-Problem-33da9aed53448
 
 Sources: [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.552888/full](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.552888/full) · [https://blog.studio.design/posts/pricing-interfaces-design/](https://blog.studio.design/posts/pricing-interfaces-design/)
 Wireframe: https://files.catbox.moe/0vdm9j.jpg
-Notion: https://app.notion.com/p/Denomination-Effect-Currency-Denomination-Bias-Price-Denomination-Effect-889a9aed534482d0a60e81e64ccea3ee
+File: library/human-biases-in-interfaces/UX-621-denomination-effect-currency-denomination-bias-and-price-den.md
 
 ## UX-622 — Distinction Bias (Joint Evaluation vs. Single Evaluation Effect)
 - Score 3 · Human Biases in Interfaces
@@ -171,7 +149,7 @@ Notion: https://app.notion.com/p/Denomination-Effect-Currency-Denomination-Bias-
 
 Sources: [https://pubmed.ncbi.nlm.nih.gov/15161394/](https://pubmed.ncbi.nlm.nih.gov/15161394/) · [https://www.beyonduxdesign.com/cognition-catalog/distinction-bias/](https://www.beyonduxdesign.com/cognition-catalog/distinction-bias/) · [https://www.patent355.com/behavioral-design-glossary/distinction-bias](https://www.patent355.com/behavioral-design-glossary/distinction-bias)
 Wireframe: https://files.catbox.moe/qk40zu.jpg
-Notion: https://app.notion.com/p/Distinction-Bias-Joint-Evaluation-vs-Single-Evaluation-Effect-09ea9aed5344834eb1c481b4ab4135c7
+File: library/human-biases-in-interfaces/UX-622-distinction-bias-joint-evaluation-vs-single-evaluation-effec.md
 
 ## UX-623 — Effort Heuristic (Effort-as-Quality Heuristic)
 - Score 3 · Human Biases in Interfaces
@@ -192,7 +170,7 @@ Notion: https://app.notion.com/p/Distinction-Bias-Joint-Evaluation-vs-Single-Eva
 
 Sources: [https://en.wikipedia.org/wiki/Effort_heuristic](https://en.wikipedia.org/wiki/Effort_heuristic) · [https://www.iabc.com/Catalyst/Article/the-effort-heuristic-why-hard-work-elevates-perceived-value](https://www.iabc.com/Catalyst/Article/the-effort-heuristic-why-hard-work-elevates-perceived-value) · [https://www.cocomore.com/blog/effort-heuristic-client-rewards-what-looks-hard-work](https://www.cocomore.com/blog/effort-heuristic-client-rewards-what-looks-hard-work)
 Wireframe: https://files.catbox.moe/ev0u5v.jpg
-Notion: https://app.notion.com/p/Effort-Heuristic-Effort-as-Quality-Heuristic-a6ba9aed53448277a531014d4891d98c
+File: library/human-biases-in-interfaces/UX-623-effort-heuristic-effort-as-quality-heuristic.md
 
 ## UX-624 — Frequency Illusion (Baader-Meinhof Phenomenon)
 - Score 3 · Human Biases in Interfaces
@@ -213,7 +191,7 @@ Notion: https://app.notion.com/p/Effort-Heuristic-Effort-as-Quality-Heuristic-a6
 
 Sources: [web.stanford.edu/~zwicky/LSA07illude.abst.pdf](http://web.stanford.edu/~zwicky/LSA07illude.abst.pdf) · [codeandpepper.com/user-experience-ux-baader-meinhof-effect/](http://codeandpepper.com/user-experience-ux-baader-meinhof-effect/) · [formpl.us](http://formpl.us/) · [linkedin.com](http://linkedin.com/)
 Wireframe: https://files.catbox.moe/1d3edr.jpg
-Notion: https://app.notion.com/p/Frequency-Illusion-Baader-Meinhof-Phenomenon-fcda9aed534482cc9262017153e44612
+File: library/human-biases-in-interfaces/UX-624-frequency-illusion-baader-meinhof-phenomenon.md
 
 ## UX-625 — Functional Fixedness
 - Score 3 · Human Biases in Interfaces
@@ -234,7 +212,7 @@ Notion: https://app.notion.com/p/Frequency-Illusion-Baader-Meinhof-Phenomenon-fc
 
 Sources: [https://www.nngroup.com/articles/functional-fixedness/](https://www.nngroup.com/articles/functional-fixedness/)
 Wireframe: https://files.catbox.moe/tfstwg.jpg
-Notion: https://app.notion.com/p/Functional-Fixedness-56da9aed5344839ea2ea01f7d4f1c7bd
+File: library/human-biases-in-interfaces/UX-625-functional-fixedness.md
 
 ## UX-626 — Gambler's Fallacy (Monte Carlo Fallacy, Maturity of Chances)
 - Score 3 · Human Biases in Interfaces
@@ -255,7 +233,7 @@ Notion: https://app.notion.com/p/Functional-Fixedness-56da9aed5344839ea2ea01f7d4
 
 Sources: [https://dl.acm.org/doi/fullHtml/10.1145/3461778.3462008](https://dl.acm.org/doi/fullHtml/10.1145/3461778.3462008) · [https://www.cs.cmu.edu/~chinmayk/assets/pdfs/Design_Patterns_of_Trading_Apps_and_Their_Effects_on_Investing_Behaviors_accepted.pdf](https://www.cs.cmu.edu/~chinmayk/assets/pdfs/Design_Patterns_of_Trading_Apps_and_Their_Effects_on_Investing_Behaviors_accepted.pdf)
 Wireframe: https://files.catbox.moe/el0gbj.jpg
-Notion: https://app.notion.com/p/Gambler-s-Fallacy-Monte-Carlo-Fallacy-Maturity-of-Chances-7a2a9aed534482a3b5b981f570a30283
+File: library/human-biases-in-interfaces/UX-626-gambler-s-fallacy-monte-carlo-fallacy-maturity-of-chances.md
 
 ## UX-627 — Hot Hand Fallacy
 - Score 3 · Human Biases in Interfaces
@@ -276,7 +254,7 @@ Notion: https://app.notion.com/p/Gambler-s-Fallacy-Monte-Carlo-Fallacy-Maturity-
 
 Sources: [https://sites.bu.edu/uea/2024/01/21/falling-for-the-hot-hand-fallacy-and-the-gamblers-fallacy-simultaneously-how/](https://sites.bu.edu/uea/2024/01/21/falling-for-the-hot-hand-fallacy-and-the-gamblers-fallacy-simultaneously-how/) · [https://dl.acm.org/doi/fullHtml/10.1145/3461778.3462008](https://dl.acm.org/doi/fullHtml/10.1145/3461778.3462008)
 Wireframe: https://files.catbox.moe/urt7xo.jpg
-Notion: https://app.notion.com/p/Hot-Hand-Fallacy-a5fa9aed53448397b80901f0fa27975d
+File: library/human-biases-in-interfaces/UX-627-hot-hand-fallacy.md
 
 ## UX-628 — Not-Invented-Here Syndrome (NIH Syndrome / Endowment Effect for Internal Solutions)
 - Score 3 · Human Biases in Interfaces
@@ -298,7 +276,7 @@ Notion: https://app.notion.com/p/Hot-Hand-Fallacy-a5fa9aed53448397b80901f0fa2797
 
 Sources: [https://wundergraph.com/blog/how-not-invented-here-kills-innovation-and-five-rules-to-avoid-it](https://wundergraph.com/blog/how-not-invented-here-kills-innovation-and-five-rules-to-avoid-it) · [https://www.theengineeringmanager.com/growth/not-invented-here-revisited/](https://www.theengineeringmanager.com/growth/not-invented-here-revisited/) · [https://www.nngroup.com/articles/groupthink-in-ux/](https://www.nngroup.com/articles/groupthink-in-ux/)
 Wireframe: https://files.catbox.moe/ga0xw5.jpg
-Notion: https://app.notion.com/p/Not-Invented-Here-Syndrome-NIH-Syndrome-Endowment-Effect-for-Internal-Solutions-2bba9aed53448353a9e20132bf0ba392
+File: library/human-biases-in-interfaces/UX-628-not-invented-here-syndrome-nih-syndrome-and-endowment-effect.md
 
 ## UX-629 — Outcome Bias (Hindsight-Based Decision Evaluation Bias)
 - Score 3 · Human Biases in Interfaces
@@ -319,7 +297,7 @@ Notion: https://app.notion.com/p/Not-Invented-Here-Syndrome-NIH-Syndrome-Endowme
 
 Sources: [https://pubmed.ncbi.nlm.nih.gov/3367280/](https://pubmed.ncbi.nlm.nih.gov/3367280/) · [https://pmc.ncbi.nlm.nih.gov/articles/PMC12372742/](https://pmc.ncbi.nlm.nih.gov/articles/PMC12372742/)
 Wireframe: https://files.catbox.moe/rit54b.jpg
-Notion: https://app.notion.com/p/Outcome-Bias-Hindsight-Based-Decision-Evaluation-Bias-e0ba9aed5344838591b9010fc081d7ac
+File: library/human-biases-in-interfaces/UX-629-outcome-bias-hindsight-based-decision-evaluation-bias.md
 
 ## UX-630 — Pareidolia (Facial Anthropomorphism / Pattern Projection in Interfaces)
 - Score 3 · Human Biases in Interfaces
@@ -340,7 +318,7 @@ Notion: https://app.notion.com/p/Outcome-Bias-Hindsight-Based-Decision-Evaluatio
 
 Sources: [Alphanome.AI](http://alphanome.ai/) · [alphanome.ai](http://alphanome.ai/) · [ijssh.net](http://ijssh.net/)
 Wireframe: https://files.catbox.moe/mxf7y7.jpg
-Notion: https://app.notion.com/p/Pareidolia-Facial-Anthropomorphism-Pattern-Projection-in-Interfaces-3c9a9aed534482d99c00816f1e8803d7
+File: library/human-biases-in-interfaces/UX-630-pareidolia-facial-anthropomorphism-and-pattern-projection-in.md
 
 ## UX-631 — Planning Fallacy (Inside View Bias / Optimistic Project Forecasting)
 - Score 3 · Human Biases in Interfaces
@@ -362,7 +340,7 @@ Notion: https://app.notion.com/p/Pareidolia-Facial-Anthropomorphism-Pattern-Proj
 
 Sources: [https://www.uxdguru.com/post/the-planning-fallacy-in-ux-research-and-design-projects](https://www.uxdguru.com/post/the-planning-fallacy-in-ux-research-and-design-projects) · [https://www.larksuite.com/en_us/topics/project-management-methodologies-for-functional-teams/planning-fallacy-for-design-and-user-experience-teams](https://www.larksuite.com/en_us/topics/project-management-methodologies-for-functional-teams/planning-fallacy-for-design-and-user-experience-teams)
 Wireframe: https://files.catbox.moe/3j40mm.jpg
-Notion: https://app.notion.com/p/Planning-Fallacy-Inside-View-Bias-Optimistic-Project-Forecasting-8d0a9aed53448294839d8112ce117ca5
+File: library/human-biases-in-interfaces/UX-631-planning-fallacy-inside-view-bias-and-optimistic-project-for.md
 
 ## UX-632 — Rosy Retrospection (Fading Affect Bias / Nostalgic Memory Bias)
 - Score 3 · Human Biases in Interfaces
@@ -383,7 +361,7 @@ Notion: https://app.notion.com/p/Planning-Fallacy-Inside-View-Bias-Optimistic-Pr
 
 Sources: [beyonduxdesign.com/cognition-catalog/rosy-retrospection/](http://beyonduxdesign.com/cognition-catalog/rosy-retrospection/) · [patent355.com](http://patent355.com/)
 Wireframe: https://files.catbox.moe/ehnatr.jpg
-Notion: https://app.notion.com/p/Rosy-Retrospection-Fading-Affect-Bias-Nostalgic-Memory-Bias-fd7a9aed534483ea800f813dd8872ba0
+File: library/human-biases-in-interfaces/UX-632-rosy-retrospection-fading-affect-bias-and-nostalgic-memory-b.md
 
 ## UX-633 — Spotlight Effect (Egocentric Attentional Overestimation)
 - Score 3 · Human Biases in Interfaces
@@ -404,4 +382,4 @@ Notion: https://app.notion.com/p/Rosy-Retrospection-Fading-Affect-Bias-Nostalgic
 
 Sources: [thedecisionlab.com/biases/spotlight-effect](http://thedecisionlab.com/biases/spotlight-effect) · [beyonduxdesign.com/cognition-catalog/spotlight-effect/](http://beyonduxdesign.com/cognition-catalog/spotlight-effect/) · [uxdesign.cc/the-spotlight-effect-in-design](http://uxdesign.cc/the-spotlight-effect-in-design)
 Wireframe: https://files.catbox.moe/7phob1.jpg
-Notion: https://app.notion.com/p/Spotlight-Effect-Egocentric-Attentional-Overestimation-ec0a9aed534482f287d301cf9f485519
+File: library/human-biases-in-interfaces/UX-633-spotlight-effect-egocentric-attentional-overestimation.md

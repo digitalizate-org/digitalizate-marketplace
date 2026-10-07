@@ -22,7 +22,7 @@
 **Measure.** Isolation Effectiveness (% context properly contained per agent); Sharing Accuracy (% relevant context successfully shared); Conflict Rate (Context conflicts per coordination event); Performance Overhead (Additional latency from isolation); Agent Focus (Task completion rate per specialized agent); Coordination Success (% successful cross-agent handoffs); Specialized Agent Teams: legal_agent → finance_agent → technical_agent → coordination_agent → synthesis_agent; Security-Sensitive Processing…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-430.png
-Notion: https://app.notion.com/p/Context-Isolate-Patterns-CIP-5dda9aed534483d09eb081fde1f6cb7f
+File: library/agentic-patterns/AGP-039-context-isolate-patterns-cip.md
 
 ## AGP-046 — Context Write Patterns (CWP)
 - Score 4 · Agentic Patterns / Context Management
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Context-Isolate-Patterns-CIP-5dda9aed534483d09e
 **Measure.** Storage Efficiency (Context compression ratio); Retrieval Speed (Time to load external context); Session Continuity (% successful context restoration); Context Integrity (% valid context after persistence); File Organization (Average depth of context hierarchy); Overflow Handling (% successful context window overflows); Agent Scratchpad: init_workspace → write_thoughts → structure_reasoning → persist_state → resume_session; Knowledge Accumulation: capture_insights → organize_hierarchically →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-436.png
-Notion: https://app.notion.com/p/Context-Write-Patterns-CWP-8a6a9aed5344823d9fb201a241142aac
+File: library/agentic-patterns/AGP-046-context-write-patterns-cwp.md
 
 ## AGP-176 — Sliding Window Management (SWM)
 - Score 4 · Agentic Patterns / Context Management
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Context-Write-Patterns-CWP-8a6a9aed5344823d9fb2
 **Measure.** Context Utilization (% of window content actively used); Coherence Score (Conversation flow continuity rating); Response Quality (Output quality with windowed context); Memory Efficiency (Information density per token); Adaptation Speed (Time to adjust window parameters); Boundary Smoothness (% seamless context transitions); Conversation Management: track_history → apply_recency_weights → score_relevance → maintain_coherence → optimize_window; Customer Support: conversation_context →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-442.png
-Notion: https://app.notion.com/p/Sliding-Window-Management-SWM-fffa9aed5344838db31a81c535081dee
+File: library/agentic-patterns/AGP-176-sliding-window-management-swm.md
 
 ## AGP-036 — Context Compress Patterns (CCP)
 - Score 3 · Agentic Patterns / Context Management
@@ -94,7 +94,7 @@ Notion: https://app.notion.com/p/Sliding-Window-Management-SWM-fffa9aed5344838db
 **Measure.** Compression Ratio (Original size / compressed size); Semantic Fidelity (% meaning preservation after compression); Information Density (Key facts per token in output); Cost Savings (% reduction in API token costs); Processing Speed (Time to compress context); Quality Score (Human/automated quality assessment); Conversation Summarization: analyze_history → cluster_topics → extract_key_points → compress_semantically → maintain_coherence; Document Compression: parse_content → identify_redundancy →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-427.png
-Notion: https://app.notion.com/p/Context-Compress-Patterns-CCP-fa8a9aed534483aea4a00168ab4a4ad3
+File: library/agentic-patterns/AGP-036-context-compress-patterns-ccp.md
 
 ## AGP-037 — Context Engineering Frameworks (CEF)
 - Score 3 · Agentic Patterns / Context Management
@@ -118,7 +118,7 @@ Notion: https://app.notion.com/p/Context-Compress-Patterns-CCP-fa8a9aed534483aea
 **Measure.** Context Engineering Frameworks ((); CEF ()); Systematic context orchestration with XML-like structuring, dynamic assembly, and failure prevention (Complexity:); high (Context Management); Overview (Flow Visualization); Interactive Demo (Code Playground); Overview (Flow); Demo (Code); 🎯 30-Second Overview (Pattern:); Systematic context orchestration with XML-like structuring, dynamic assembly, and failure prevention (Why:); Provides enterprise-grade reliability and consistency for complex…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-428.png
-Notion: https://app.notion.com/p/Context-Engineering-Frameworks-CEF-181a9aed5344831f85b4013d736ed179
+File: library/agentic-patterns/AGP-037-context-engineering-frameworks-cef.md
 
 ## AGP-038 — Context Failure Prevention (CFP)
 - Score 3 · Agentic Patterns / Context Management
@@ -142,7 +142,7 @@ Notion: https://app.notion.com/p/Context-Engineering-Frameworks-CEF-181a9aed5344
 **Measure.** Threat Detection Rate (% malicious context attempts detected); Recovery Success Rate (% successful automatic context recovery); False Positive Rate (% legitimate context incorrectly flagged); Response Time (Time from threat detection to mitigation); Context Integrity Score (Overall context health assessment); Security Coverage (% context operations under protection); Production AI Security: threat_detection → input_validation → integrity_monitoring → automatic_recovery → access_control…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-429.png
-Notion: https://app.notion.com/p/Context-Failure-Prevention-CFP-075a9aed534483b2913481588a029d07
+File: library/agentic-patterns/AGP-038-context-failure-prevention-cfp.md
 
 ## AGP-040 — Context Lifecycle Management (CLM)
 - Score 3 · Agentic Patterns / Context Management
@@ -166,7 +166,7 @@ Notion: https://app.notion.com/p/Context-Failure-Prevention-CFP-075a9aed534483b2
 **Measure.** Audit Coverage (% of context changes tracked); Compliance Score (% regulatory requirements met); Version Integrity (% successful version rollbacks); Access Control Accuracy (% unauthorized access prevented); Retention Compliance (% policies automatically enforced); Recovery Time (Average time to restore context); Financial Services: audit_trails → compliance_reporting → risk_management → regulatory_approval; Healthcare Systems: patient_context → HIPAA_compliance → audit_logs → data_retention…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-431.png
-Notion: https://app.notion.com/p/Context-Lifecycle-Management-CLM-b1fa9aed5344838c9c4b81d792edd7d4
+File: library/agentic-patterns/AGP-040-context-lifecycle-management-clm.md
 
 ## AGP-041 — Context Processing Pipelines (CPP)
 - Score 3 · Agentic Patterns / Context Management
@@ -190,7 +190,7 @@ Notion: https://app.notion.com/p/Context-Lifecycle-Management-CLM-b1fa9aed534483
 **Measure.** Pipeline Throughput (Contexts processed per second); Quality Score (Validation accuracy percentage); Error Rate (% failed context transformations); Processing Latency (End-to-end pipeline time); Data Integrity (% contexts without corruption); Cross-Modal Accuracy (% successful multi-modal integrations); Enterprise Document Processing: PDF/Word/Excel → validate → normalize → embed → index; Media Processing Pipeline: video/audio/text → extract → validate → align → integrate; Research Data…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-432.png
-Notion: https://app.notion.com/p/Context-Processing-Pipelines-CPP-9f7a9aed5344837a818901b6611839de
+File: library/agentic-patterns/AGP-041-context-processing-pipelines-cpp.md
 
 ## AGP-042 — Context Select Patterns (CSEL)
 - Score 3 · Agentic Patterns / Context Management
@@ -214,7 +214,7 @@ Notion: https://app.notion.com/p/Context-Processing-Pipelines-CPP-9f7a9aed534483
 **Measure.** Relevance Precision (% selected context actually relevant); Context Coverage (% task requirements covered by selection); Selection Speed (Time to complete context assembly); Token Efficiency (Information density per token used); Cache Hit Rate (% contexts served from cache); Quality Score (Human/automated quality assessment); Enterprise RAG: analyze_query → search_knowledge_base → rank_documents → assemble_context → optimize_tokens; Research Assistant: identify_topics → semantic_retrieval →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-433.png
-Notion: https://app.notion.com/p/Context-Select-Patterns-CSEL-c9fa9aed53448383938481e5d15f4248
+File: library/agentic-patterns/AGP-042-context-select-patterns-csel.md
 
 ## AGP-043 — Context State Machines (CSM)
 - Score 3 · Agentic Patterns / Context Management
@@ -238,7 +238,7 @@ Notion: https://app.notion.com/p/Context-Select-Patterns-CSEL-c9fa9aed5344838393
 **Measure.** State Validity (% valid state transitions); Recovery Success (% successful error recovery); Transition Latency (Average state change time); Consistency Rate (% states passing validation); Deadlock Prevention (% avoided stuck states); Synchronization Accuracy (% successful distributed sync); Customer Service Flow: greeting → problem_analysis → solution_search → resolution → validation → closure; Order Processing: received → validated → payment_processed → fulfillment → shipped → delivered →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-434.png
-Notion: https://app.notion.com/p/Context-State-Machines-CSM-a0ea9aed534483c4a6d581ce93dd0437
+File: library/agentic-patterns/AGP-043-context-state-machines-csm.md
 
 ## AGP-044 — Context Streaming Protocols (CTSP)
 - Score 3 · Agentic Patterns / Context Management
@@ -262,7 +262,7 @@ Notion: https://app.notion.com/p/Context-State-Machines-CSM-a0ea9aed534483c4a6d5
 **Measure.** Stream Latency (End-to-end context delivery time); Throughput (Context updates per second); Sync Accuracy (% contexts synchronized correctly); Buffer Utilization (% memory buffer usage); Backpressure Events (Flow control activations per hour); Connection Stability (% uptime for streaming connections); Real-Time Collaboration: context_changes → delta_compress → stream_broadcast → sync_subscribers; Live Agent Coordination: agent_state → priority_queue → flow_control → distribute_updates…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-435.png
-Notion: https://app.notion.com/p/Context-Streaming-Protocols-CTSP-07ea9aed53448278b6f581106a6e33bc
+File: library/agentic-patterns/AGP-044-context-streaming-protocols-ctsp.md
 
 ## AGP-097 — Infini-Attention Architecture (IAA)
 - Score 3 · Agentic Patterns / Context Management
@@ -286,7 +286,7 @@ Notion: https://app.notion.com/p/Context-Streaming-Protocols-CTSP-07ea9aed534482
 **Measure.** Memory Complexity (O(1) bounded memory usage); Sequence Length (Maximum processable sequence length); Compression Ratio (Information retained vs memory used); Processing Throughput (Tokens processed per second); Attention Quality (Effectiveness of long-range dependencies); Memory Update Efficiency (Information preservation quality); Book-Length Processing: continuous_reading → compressive_memory → infinite_context → coherent_understanding → full_book_analysis; Streaming Conversations…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-438.png
-Notion: https://app.notion.com/p/Infini-Attention-Architecture-IAA-429a9aed5344825ba0fa0104457228bd
+File: library/agentic-patterns/AGP-097-infini-attention-architecture-iaa.md
 
 ## AGP-101 — KV Cache Optimization (KVO)
 - Score 3 · Agentic Patterns / Context Management
@@ -310,7 +310,7 @@ Notion: https://app.notion.com/p/Infini-Attention-Architecture-IAA-429a9aed53448
 **Measure.** Memory Reduction (% memory saved through optimization); Cache Hit Rate (% requests served from cache); Context Length Support (Maximum supported context tokens); Throughput (Requests processed per second); Latency Impact (Additional processing delay); Quality Preservation (% output quality maintained); Production LLM Serving: quantize_kv_cache → distribute_across_nodes → optimize_eviction → monitor_performance → scale_horizontally; Enterprise Agent Systems: memory_optimization →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-439.png
-Notion: https://app.notion.com/p/KV-Cache-Optimization-KVO-edda9aed5344831fa6ee0162dbc1580e
+File: library/agentic-patterns/AGP-101-kv-cache-optimization-kvo.md
 
 ## AGP-119 — Memory Block Architecture (MBA)
 - Score 3 · Agentic Patterns / Context Management
@@ -334,7 +334,7 @@ Notion: https://app.notion.com/p/KV-Cache-Optimization-KVO-edda9aed5344831fa6ee0
 **Measure.** Block Access Speed (Average retrieval time per memory block); Cache Hit Rate (% memory blocks served from cache); Session Continuity (% successful cross-session memory restoration); Block Utilization (% memory blocks actively accessed); Relationship Integrity (% valid inter-block relationships); Version Consistency (% successful block version updates); Personal Assistant Memory: facts_block → procedures_block → preferences_block → relationships_block → context_assembly; Customer Service…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-440.png
-Notion: https://app.notion.com/p/Memory-Block-Architecture-MBA-088a9aed534483898941815f444ce6b3
+File: library/agentic-patterns/AGP-119-memory-block-architecture-mba.md
 
 ## AGP-168 — Semantic Context Compression (SCC)
 - Score 3 · Agentic Patterns / Context Management
@@ -358,7 +358,7 @@ Notion: https://app.notion.com/p/Memory-Block-Architecture-MBA-088a9aed534483898
 **Measure.** Compression Ratio (Semantic density improvement factor); Semantic Fidelity (% meaning preservation score); Cross-Modal Consistency (% alignment across modalities); Concept Preservation (% abstract concepts retained); Relationship Integrity (% semantic relationships maintained); Reconstruction Quality (Semantic similarity to original); Research Knowledge Compression: analyze_papers → build_concept_lattice → abstract_hierarchically → compress_semantically → validate_integrity; Multi-Modal Content…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-441.png
-Notion: https://app.notion.com/p/Semantic-Context-Compression-SCC-90fa9aed5344829eaaf6012bac0cea93
+File: library/agentic-patterns/AGP-168-semantic-context-compression-scc.md
 
 ## AGP-196 — Hierarchical Context Architecture (HCA)
 - Score 3 · Agentic Patterns / Context Management
@@ -382,4 +382,4 @@ Notion: https://app.notion.com/p/Semantic-Context-Compression-SCC-90fa9aed534482
 **Measure.** Hierarchy Depth (Average levels in context tree); Inheritance Accuracy (% correct context propagation); Scope Isolation (% prevented unauthorized access); Query Performance (Context resolution latency); Cache Hit Rate (% contexts served from cache); Override Success (% valid context overrides); Enterprise Organization: company_policies → division_rules → department_procedures → team_guidelines → individual_preferences; Multi-Tenant SaaS: platform_config → tenant_settings → workspace_rules →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-437.png
-Notion: https://app.notion.com/p/Hierarchical-Context-Architecture-HCA-3d2a9aed53448337ac83018868e641a1
+File: library/agentic-patterns/AGP-196-hierarchical-context-architecture-hca.md

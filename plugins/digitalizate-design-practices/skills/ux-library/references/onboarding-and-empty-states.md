@@ -20,7 +20,7 @@
 
 Sources: [Nielsen Norman Group — Designing Empty States in Complex Applications](https://www.nngroup.com/articles/empty-state-interface-design/) · [Component Gallery — Empty State](https://component.gallery/components/empty-state/) · [Good UI — Zero-Data / Empty States](https://goodui.org/#25) · [Interaction Design Foundation — Microinteractions](https://www.interaction-design.org/literature/article/micro-interactions-ux) · [100 Things #34 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf) · [Eleken — Empty State UX](https://www.eleken.co/blog-posts/empty-state-ux)
 Wireframe: https://files.catbox.moe/m6kdmd.jpg
-Notion: https://app.notion.com/p/Empty-States-Communicate-System-Status-Honestly-da9a9aed5344823a904381752d81c313
+File: library/onboarding-and-empty-states/UX-292-empty-states-communicate-system-status-honestly.md
 
 ## UX-293 — Promote Learning by Doing — Safe Exploration
 - Score 5 · Onboarding & Empty States / Enterprise onboarding design
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Empty-States-Communicate-System-Status-Honestly
 
 Sources: [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)
 Wireframe: https://files.catbox.moe/dvey65.jpg
-Notion: https://app.notion.com/p/Promote-Learning-by-Doing-Safe-Exploration-1d4a9aed53448234b2ee0187bd532eeb
+File: library/onboarding-and-empty-states/UX-293-promote-learning-by-doing-safe-exploration.md
 
 ## UX-294 — Contextual Tooltip Help System
 - Score 5 · Onboarding & Empty States / In-App Help
@@ -64,7 +64,7 @@ Notion: https://app.notion.com/p/Promote-Learning-by-Doing-Safe-Exploration-1d4a
 
 Sources: [UXpilot — Enterprise UX Best Practices](https://uxpilot.ai/blogs/enterprise-ux-design) · [Document360 — Contextual In-App Documentation](https://document360.com/blog/contextual-in-app-documentation/)
 Wireframe: https://files.catbox.moe/f5nwya.jpg
-Notion: https://app.notion.com/p/Contextual-Tooltip-Help-System-d28a9aed5344826f91918108f8c91d81
+File: library/onboarding-and-empty-states/UX-294-contextual-tooltip-help-system.md
 
 ## UX-295 — Help and Documentation — Contextual and Task-Focused
 - Score 4 · Onboarding & Empty States / In-context help and documentation
@@ -86,7 +86,7 @@ Notion: https://app.notion.com/p/Contextual-Tooltip-Help-System-d28a9aed5344826f
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
 Wireframe: https://files.catbox.moe/fgckes.jpg
-Notion: https://app.notion.com/p/Help-and-Documentation-Contextual-and-Task-Focused-347a9aed5344833aa6ff819363341304
+File: library/onboarding-and-empty-states/UX-295-help-and-documentation-contextual-and-task-focused.md
 
 ## UX-296 — Gradual Engagement — Demonstrate Value Before Commitment
 - Score 4 · Onboarding & Empty States / Trust building and value-first onboarding
@@ -106,7 +106,7 @@ Notion: https://app.notion.com/p/Help-and-Documentation-Contextual-and-Task-Focu
 
 Sources: [Good UI — Gradual Engagement](https://goodui.org/#22)
 Wireframe: https://files.catbox.moe/vvy8nz.jpg
-Notion: https://app.notion.com/p/Gradual-Engagement-Demonstrate-Value-Before-Commitment-260a9aed534483759889816ba8a7ff9d
+File: library/onboarding-and-empty-states/UX-296-gradual-engagement-demonstrate-value-before-commitment.md
 
 ## UX-297 — Promote Learnability Through In-Context Tips and Cues
 - Score 4 · Onboarding & Empty States / In-context learning and discoverability
@@ -126,7 +126,7 @@ Notion: https://app.notion.com/p/Gradual-Engagement-Demonstrate-Value-Before-Com
 
 Sources: [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/) · [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
 Wireframe: https://files.catbox.moe/3hh906.jpg
-Notion: https://app.notion.com/p/Promote-Learnability-Through-In-Context-Tips-and-Cues-17ca9aed534483299bfa81a67286e63d
+File: library/onboarding-and-empty-states/UX-297-promote-learnability-through-in-context-tips-and-cues.md
 
 ## UX-298 — Learnability Through Concrete Examples
 - Score 4 · Onboarding & Empty States / Onboarding Design
@@ -147,7 +147,7 @@ Notion: https://app.notion.com/p/Promote-Learnability-Through-In-Context-Tips-an
 
 Sources: [100 Things #34 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/dack3c.jpg
-Notion: https://app.notion.com/p/Learnability-Through-Concrete-Examples-dbca9aed5344829db5ed81feb516176b
+File: library/onboarding-and-empty-states/UX-298-learnability-through-concrete-examples.md
 
 ## UX-299 — First-Run Experience and Pre-Populated Samples
 - Score 4 · Onboarding & Empty States / First-Run Experience
@@ -167,7 +167,7 @@ Notion: https://app.notion.com/p/Learnability-Through-Concrete-Examples-dbca9aed
 
 Sources: [Eleken — Empty State UX](https://www.eleken.co/blog-posts/empty-state-ux)
 Wireframe: https://files.catbox.moe/keyzpg.jpg
-Notion: https://app.notion.com/p/First-Run-Experience-and-Pre-Populated-Samples-0f0a9aed53448228be7d81e17d0236e0
+File: library/onboarding-and-empty-states/UX-299-first-run-experience-and-pre-populated-samples.md
 
 ## UX-300 — Role-Based Onboarding Flows
 - Score 4 · Onboarding & Empty States / Onboarding
@@ -187,7 +187,7 @@ Notion: https://app.notion.com/p/First-Run-Experience-and-Pre-Populated-Samples-
 
 Sources: [Code Theorem — SaaS Onboarding UX](https://codetheorem.co/blogs/saas-onboarding-ux/) · [Formbricks — User Onboarding Best Practices](https://formbricks.com/blog/user-onboarding-best-practices)
 Wireframe: https://files.catbox.moe/iiyilk.jpg
-Notion: https://app.notion.com/p/Role-Based-Onboarding-Flows-d26a9aed53448369b2fe017ba66cd25e
+File: library/onboarding-and-empty-states/UX-300-role-based-onboarding-flows.md
 
 ## UX-301 — Progressive Onboarding (Feature Discovery Over Time)
 - Score 4 · Onboarding & Empty States / Onboarding
@@ -207,7 +207,7 @@ Notion: https://app.notion.com/p/Role-Based-Onboarding-Flows-d26a9aed53448369b2f
 
 Sources: [Formbricks — User Onboarding Best Practices](https://formbricks.com/blog/user-onboarding-best-practices)
 Wireframe: https://files.catbox.moe/ovub6i.jpg
-Notion: https://app.notion.com/p/Progressive-Onboarding-Feature-Discovery-Over-Time-902a9aed534483fe917401d0f35285ff
+File: library/onboarding-and-empty-states/UX-301-progressive-onboarding-feature-discovery-over-time.md
 
 ## UX-302 — Skippable, Optional Product Tours
 - Score 4 · Onboarding & Empty States / Onboarding
@@ -229,7 +229,7 @@ Notion: https://app.notion.com/p/Progressive-Onboarding-Feature-Discovery-Over-T
 
 Sources: [Formbricks — User Onboarding Best Practices](https://formbricks.com/blog/user-onboarding-best-practices)
 Wireframe: https://files.catbox.moe/6hrocy.jpg
-Notion: https://app.notion.com/p/Skippable-Optional-Product-Tours-855a9aed5344821d8b1b01bcadf1f13c
+File: library/onboarding-and-empty-states/UX-302-skippable-optional-product-tours.md
 
 ## UX-303 — Celebratory Empty States (Zero-State Completion)
 - Score 3 · Onboarding & Empty States / Empty States
@@ -243,4 +243,4 @@ Notion: https://app.notion.com/p/Skippable-Optional-Product-Tours-855a9aed534482
 
 Sources: [Eleken — Empty State UX](https://www.eleken.co/blog-posts/empty-state-ux) · [Thom McCarthy — Mastering Empty States UX](https://www.thommccarthy.dev/blogs/mastering-empty-states-ux)
 Wireframe: https://files.catbox.moe/7nw4f1.jpg
-Notion: https://app.notion.com/p/Celebratory-Empty-States-Zero-State-Completion-760a9aed534482bb9fc30123e490be07
+File: library/onboarding-and-empty-states/UX-303-celebratory-empty-states-zero-state-completion.md

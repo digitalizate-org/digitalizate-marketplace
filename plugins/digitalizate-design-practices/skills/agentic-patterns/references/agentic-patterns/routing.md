@@ -22,7 +22,7 @@
 **Measure.** Similarity Score (Distribution of route matches); Embedding Latency (Time to generate vectors); Route Precision (% correctly routed queries); Route Recall (% of queries finding a route); Cache Hit Rate (% embeddings served from cache); Threshold Effectiveness (False positive/negative rates); Semantic Search: query → embed → find most similar documents/FAQs; Intent Classification: user input → embed → match to intent clusters; Multi-lingual Support: translate meaning, not words → unified…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-374.png
-Notion: https://app.notion.com/p/Embedding-based-Routing-EBR-2d1a9aed534483fabc3d812e2bd9c40d
+File: library/agentic-patterns/AGP-067-embedding-based-routing-ebr.md
 
 ## AGP-105 — LLM-based Routing (LBR)
 - Score 4 · Agentic Patterns / Routing
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Embedding-based-Routing-EBR-2d1a9aed534483fabc3
 **Measure.** Routing Accuracy (% correctly routed queries); Classification Time (P50/P95 routing latency); Ambiguity Rate (% queries needing clarification); Cost per Route (LLM tokens × price); Fallback Rate (% routed to default handler); Cache Hit Rate (% reused routing decisions); Customer Support: analyze intent → route to sales/tech/billing specialist; Multi-Tool Agents: parse request → select appropriate tool/API; Document Processing: classify type → apply correct parser/workflow; Query Routing…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-375.png
-Notion: https://app.notion.com/p/LLM-based-Routing-LBR-f36a9aed534483c1a61981a0885d2b71
+File: library/agentic-patterns/AGP-105-llm-based-routing-lbr.md
 
 ## AGP-160 — Rule-based Routing (RBR)
 - Score 4 · Agentic Patterns / Routing
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/LLM-based-Routing-LBR-f36a9aed534483c1a61981a08
 **Measure.** Rule Coverage (% queries matched by rules); Decision Latency (Time to route (usually <5ms)); Rule Conflicts (Number of overlapping rules); Fallback Rate (% routed to default handler); Rule Maintenance (Changes per month); Accuracy (% correctly routed vs manual); Priority Escalation: if urgency="critical" AND type="security" → security_team; Department Routing: switch(category) { case "billing": finance_agent; case "tech": it_support }; Compliance Workflows: regulated industries requiring…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-377.png
-Notion: https://app.notion.com/p/Rule-based-Routing-RBR-325a9aed5344826e9bc7017a7ac8b886
+File: library/agentic-patterns/AGP-160-rule-based-routing-rbr.md
 
 ## AGP-117 — Machine Learning Model-Based Routing (MLMR)
 - Score 3 · Agentic Patterns / Routing
@@ -94,4 +94,4 @@ Notion: https://app.notion.com/p/Rule-based-Routing-RBR-325a9aed5344826e9bc7017a
 **Measure.** Routing Accuracy (F1 score per route class); Latency (P50/P95/P99 inference time); Model Drift (Distribution shift detection); Confidence Calibration (ECE (Expected Calibration Error)); Coverage (% queries above confidence threshold); Cost Efficiency (Inference cost per 1M requests); Intent Classification: customer_query → {support: 0.89, sales: 0.08, info: 0.03}; Ticket Routing: issue_description → {technical_L1: 0.72, technical_L2: 0.25, billing: 0.03}; Language Detection: multilingual_text →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-376.png
-Notion: https://app.notion.com/p/Machine-Learning-Model-Based-Routing-MLMR-aafa9aed53448211ad85011bebd5b9a9
+File: library/agentic-patterns/AGP-117-machine-learning-model-based-routing-mlmr.md

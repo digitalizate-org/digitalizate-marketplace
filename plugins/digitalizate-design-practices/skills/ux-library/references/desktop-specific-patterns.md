@@ -19,7 +19,7 @@
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [Good UI — Keyboard Shortcuts](https://goodui.org/#40) · [Laws of UX — Pareto Principle](https://lawsofux.com/pareto-principle/)
 Wireframe: https://files.catbox.moe/pe3p13.jpg
-Notion: https://app.notion.com/p/Flexibility-and-Efficiency-Power-User-Acceleration-cc4a9aed53448245a11a81e630e8145e
+File: library/desktop-specific-patterns/UX-132-flexibility-and-efficiency-power-user-acceleration.md
 
 ## UX-133 — High Information Density for Expert Enterprise Users
 - Score 5 · Desktop-Specific Patterns / Information Density
@@ -41,7 +41,7 @@ Notion: https://app.notion.com/p/Flexibility-and-Efficiency-Power-User-Accelerat
 
 Sources: [About Face 4th Ed., Ch. 9 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [YouTube: 8 Principles for Complex Desktop Apps](https://www.youtube.com/watch?v=Dvt0Vdo_Wak)
 Wireframe: https://files.catbox.moe/pwe14u.jpg
-Notion: https://app.notion.com/p/High-Information-Density-for-Expert-Enterprise-Users-053a9aed534482e08ef20160a5f8e5af
+File: library/desktop-specific-patterns/UX-133-high-information-density-for-expert-enterprise-users.md
 
 ## UX-134 — Sovereign Posture — Design for Full-Attention Desktop Apps
 - Score 5 · Desktop-Specific Patterns / Application Posture
@@ -63,7 +63,7 @@ Notion: https://app.notion.com/p/High-Information-Density-for-Expert-Enterprise-
 
 Sources: [About Face Ch. 9 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/l227wl.jpg
-Notion: https://app.notion.com/p/Sovereign-Posture-Design-for-Full-Attention-Desktop-Apps-4c3a9aed5344833eb20c812a4ff5e223
+File: library/desktop-specific-patterns/UX-134-sovereign-posture-design-for-full-attention-desktop-apps.md
 
 ## UX-135 — Smart Product Memory — Persist User Configurations
 - Score 5 · Desktop-Specific Patterns / Personalization and State Persistence
@@ -85,7 +85,7 @@ Notion: https://app.notion.com/p/Sovereign-Posture-Design-for-Full-Attention-Des
 
 Sources: [About Face Ch. 12 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/atfkmu.jpg
-Notion: https://app.notion.com/p/Smart-Product-Memory-Persist-User-Configurations-0b4a9aed5344834c8e2001e8d99ba7aa
+File: library/desktop-specific-patterns/UX-135-smart-product-memory-persist-user-configurations.md
 
 ## UX-136 — Desktop-First Design for Enterprise Applications
 - Score 5 · Desktop-Specific Patterns / Responsive Design Strategy
@@ -106,7 +106,7 @@ Notion: https://app.notion.com/p/Smart-Product-Memory-Persist-User-Configuration
 
 Sources: [Interaction Design Foundation — Responsive Design](https://www.interaction-design.org/literature/article/responsive-design-let-the-device-do-the-work)
 Wireframe: https://files.catbox.moe/isa1zz.jpg
-Notion: https://app.notion.com/p/Desktop-First-Design-for-Enterprise-Applications-a4ea9aed534482e5ad87015fd0fdb140
+File: library/desktop-specific-patterns/UX-136-desktop-first-design-for-enterprise-applications.md
 
 ## UX-137 — Master-Detail Side-by-Side Layout
 - Score 5 · Desktop-Specific Patterns / Master-Detail Pattern
@@ -128,7 +128,7 @@ Notion: https://app.notion.com/p/Desktop-First-Design-for-Enterprise-Application
 
 Sources: [Microsoft Windows Developer Blog — Master the Master-Detail Pattern](https://blogs.windows.com/windowsdeveloper/2017/05/01/master-master-detail-pattern/) · [Appli — The Master-Detail Interface Pattern](https://appli.io/the-master-detail-interface-pattern/)
 Wireframe: https://files.catbox.moe/l13qxu.jpg
-Notion: https://app.notion.com/p/Master-Detail-Side-by-Side-Layout-5f6a9aed5344836f9366817c20895456
+File: library/desktop-specific-patterns/UX-137-master-detail-side-by-side-layout.md
 
 ## UX-138 — Comprehensive Keyboard Shortcut System
 - Score 5 · Desktop-Specific Patterns / Keyboard Navigation
@@ -149,7 +149,7 @@ Notion: https://app.notion.com/p/Master-Detail-Side-by-Side-Layout-5f6a9aed53448
 
 Sources: [LinkedIn — Shortcut Productivity Hacks](https://www.linkedin.com/pulse/shortcut-productivity-hacks-boosting-efficiency-keyboard-john-tan-aztwc) · [Sparx Systems — Enterprise Architect Keyboard Shortcuts](https://sparxsystems.com/enterprise_architect_user_guide/17.1/the_application_desktop/keyboardshortcuts.html)
 Wireframe: https://files.catbox.moe/yv8w56.jpg
-Notion: https://app.notion.com/p/Comprehensive-Keyboard-Shortcut-System-0e3a9aed53448255b49401efb8847889
+File: library/desktop-specific-patterns/UX-138-comprehensive-keyboard-shortcut-system.md
 
 ## UX-139 — Resizable Split-Pane Layout
 - Score 5 · Desktop-Specific Patterns / Split-Pane Layout
@@ -170,7 +170,7 @@ Notion: https://app.notion.com/p/Comprehensive-Keyboard-Shortcut-System-0e3a9aed
 
 Sources: [Microsoft Docs — Split View](https://learn.microsoft.com/en-us/windows/apps/develop/ui/controls/split-view) · [OnePageCRM — Split Pane Design Challenges](https://developer.onepagecrm.com/blog/split-pane-and-conquering-design-challenges/)
 Wireframe: https://files.catbox.moe/q4rez1.jpg
-Notion: https://app.notion.com/p/Resizable-Split-Pane-Layout-a5ca9aed5344827688310160bedb1d51
+File: library/desktop-specific-patterns/UX-139-resizable-split-pane-layout.md
 
 ## UX-140 — Contextual Toolbar Actions
 - Score 5 · Desktop-Specific Patterns / Toolbar Design
@@ -190,7 +190,7 @@ Notion: https://app.notion.com/p/Resizable-Split-Pane-Layout-a5ca9aed53448276883
 
 Sources: [Sparx Systems — Enterprise Architect Ribbons](https://sparxsystems.com/resources/user-guides/16.0/basics/ribbons.pdf)
 Wireframe: https://files.catbox.moe/x92t6h.jpg
-Notion: https://app.notion.com/p/Contextual-Toolbar-Actions-812a9aed5344829e90ff016af3491f3d
+File: library/desktop-specific-patterns/UX-140-contextual-toolbar-actions.md
 
 ## UX-141 — Context Menu Placement and Consistency
 - Score 5 · Desktop-Specific Patterns / Context Menus
@@ -212,7 +212,7 @@ Notion: https://app.notion.com/p/Contextual-Toolbar-Actions-812a9aed5344829e90ff
 
 Sources: [Nielsen Norman Group — Contextual Menus Guidelines](https://www.nngroup.com/articles/contextual-menus-guidelines/) · [LogRocket — Creating Context Menus](https://blog.logrocket.com/ux-design/creating-context-menus/)
 Wireframe: https://files.catbox.moe/8b4gum.jpg
-Notion: https://app.notion.com/p/Context-Menu-Placement-and-Consistency-86da9aed534482a9b92a014a8a0bb4fd
+File: library/desktop-specific-patterns/UX-141-context-menu-placement-and-consistency.md
 
 ## UX-142 — Context-Sensitive Menu Content
 - Score 5 · Desktop-Specific Patterns / Context Menus
@@ -233,7 +233,7 @@ Notion: https://app.notion.com/p/Context-Menu-Placement-and-Consistency-86da9aed
 
 Sources: [Nielsen Norman Group — Contextual Menus Guidelines](https://www.nngroup.com/articles/contextual-menus-guidelines/)
 Wireframe: https://files.catbox.moe/u4zyw5.jpg
-Notion: https://app.notion.com/p/Context-Sensitive-Menu-Content-7e0a9aed5344827baa1d015d7855e2b3
+File: library/desktop-specific-patterns/UX-142-context-sensitive-menu-content.md
 
 ## UX-143 — Surface Efficient Methods In Context — Combat the Productivity Plateau
 - Score 4 · Desktop-Specific Patterns / In-context learning and efficiency nudges
@@ -254,7 +254,7 @@ Notion: https://app.notion.com/p/Context-Sensitive-Menu-Content-7e0a9aed5344827b
 
 Sources: [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)
 Wireframe: https://files.catbox.moe/ybetwc.jpg
-Notion: https://app.notion.com/p/Surface-Efficient-Methods-In-Context-Combat-the-Productivity-Plateau-ac3a9aed5344837082d4816a082facd7
+File: library/desktop-specific-patterns/UX-143-surface-efficient-methods-in-context-combat-the-productivity.md
 
 ## UX-144 — Help Users Track Actions and Thought Processes — Audit Logs and Notes
 - Score 4 · Desktop-Specific Patterns / Working memory offloading for complex data work
@@ -275,7 +275,7 @@ Notion: https://app.notion.com/p/Surface-Efficient-Methods-In-Context-Combat-the
 
 Sources: [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)
 Wireframe: https://files.catbox.moe/5wcsuo.jpg
-Notion: https://app.notion.com/p/Help-Users-Track-Actions-and-Thought-Processes-Audit-Logs-and-Notes-3a4a9aed534482b39245017ce8be7d42
+File: library/desktop-specific-patterns/UX-144-help-users-track-actions-and-thought-processes-audit-logs-an.md
 
 ## UX-145 — Multiple Pathways to the Same Goal
 - Score 4 · Desktop-Specific Patterns / Interaction Flexibility
@@ -295,7 +295,7 @@ Notion: https://app.notion.com/p/Help-Users-Track-Actions-and-Thought-Processes-
 
 Sources: [YouTube: 8 Principles for Complex Desktop Apps](https://www.youtube.com/watch?v=Dvt0Vdo_Wak) · [About Face Ch. 18 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/b1wjuu.jpg
-Notion: https://app.notion.com/p/Multiple-Pathways-to-the-Same-Goal-69fa9aed534482b6899e018b04a5dc43
+File: library/desktop-specific-patterns/UX-145-multiple-pathways-to-the-same-goal.md
 
 ## UX-146 — Dark Mode — Dark Gray, Not Pure Black
 - Score 4 · Desktop-Specific Patterns / Dark Mode Design
@@ -317,7 +317,7 @@ Notion: https://app.notion.com/p/Multiple-Pathways-to-the-Same-Goal-69fa9aed5344
 
 Sources: [Codener — Dark Mode Best Practices 2024](https://codener.com/the-best-practices-for-dark-mode-design-in-2024/)
 Wireframe: https://files.catbox.moe/up56s3.jpg
-Notion: https://app.notion.com/p/Dark-Mode-Dark-Gray-Not-Pure-Black-dbfa9aed53448362a8b381376c7b77e7
+File: library/desktop-specific-patterns/UX-146-dark-mode-dark-gray-not-pure-black.md
 
 ## UX-147 — Elevation Through Lightness in Dark Mode
 - Score 4 · Desktop-Specific Patterns / Dark Mode Design
@@ -335,7 +335,7 @@ Notion: https://app.notion.com/p/Dark-Mode-Dark-Gray-Not-Pure-Black-dbfa9aed5344
 
 Sources: [Codener — Dark Mode Best Practices 2024](https://codener.com/the-best-practices-for-dark-mode-design-in-2024/)
 Wireframe: https://files.catbox.moe/hc2oma.jpg
-Notion: https://app.notion.com/p/Elevation-Through-Lightness-in-Dark-Mode-c63a9aed5344830eacff0179eb69d307
+File: library/desktop-specific-patterns/UX-147-elevation-through-lightness-in-dark-mode.md
 
 ## UX-148 — Toolbars — Frequency, Context, Grouping
 - Score 4 · Desktop-Specific Patterns / Toolbar Design
@@ -358,7 +358,7 @@ Notion: https://app.notion.com/p/Elevation-Through-Lightness-in-Dark-Mode-c63a9a
 
 Sources: [About Face Ch. 18 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/k47xmo.jpg
-Notion: https://app.notion.com/p/Toolbars-Frequency-Context-Grouping-5efa9aed534483e086b7817ea3848bb2
+File: library/desktop-specific-patterns/UX-148-toolbars-frequency-context-grouping.md
 
 ## UX-149 — Menu Design — Predictable Hierarchy, Keyboard Shortcuts
 - Score 4 · Desktop-Specific Patterns / Menu Design
@@ -380,7 +380,7 @@ Notion: https://app.notion.com/p/Toolbars-Frequency-Context-Grouping-5efa9aed534
 
 Sources: [About Face Ch. 18 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/ah6b9f.jpg
-Notion: https://app.notion.com/p/Menu-Design-Predictable-Hierarchy-Keyboard-Shortcuts-3aea9aed534483cb9b720136d522c249
+File: library/desktop-specific-patterns/UX-149-menu-design-predictable-hierarchy-keyboard-shortcuts.md
 
 ## UX-150 — Contextual Help Over Static Documentation
 - Score 4 · Desktop-Specific Patterns / In-Product Guidance
@@ -400,7 +400,7 @@ Notion: https://app.notion.com/p/Menu-Design-Predictable-Hierarchy-Keyboard-Shor
 
 Sources: [YouTube: 8 Principles for Complex Desktop Apps](https://www.youtube.com/watch?v=Dvt0Vdo_Wak)
 Wireframe: https://files.catbox.moe/hiefw0.jpg
-Notion: https://app.notion.com/p/Contextual-Help-Over-Static-Documentation-0fda9aed534483af87e401ffba7cb50d
+File: library/desktop-specific-patterns/UX-150-contextual-help-over-static-documentation.md
 
 ## UX-151 — Overlay vs. Inline Split Pane Modes
 - Score 4 · Desktop-Specific Patterns / Split-Pane Layout
@@ -421,7 +421,7 @@ Notion: https://app.notion.com/p/Contextual-Help-Over-Static-Documentation-0fda9
 
 Sources: [Microsoft Docs — Split View Controls](https://learn.microsoft.com/en-us/windows/apps/develop/ui/controls/split-view)
 Wireframe: https://files.catbox.moe/q1wtcm.jpg
-Notion: https://app.notion.com/p/Overlay-vs-Inline-Split-Pane-Modes-643a9aed534483a69546814e443578d4
+File: library/desktop-specific-patterns/UX-151-overlay-vs-inline-split-pane-modes.md
 
 ## UX-152 — Visual Density Control (Application-Level)
 - Score 4 · Desktop-Specific Patterns / Density & Spacing
@@ -441,7 +441,7 @@ Notion: https://app.notion.com/p/Overlay-vs-Inline-Split-Pane-Modes-643a9aed5344
 
 Sources: [Envylabs — Interface Information Density](https://envylabs.com/insights/interface-information-density-best-practices)
 Wireframe: https://files.catbox.moe/0lbjc6.jpg
-Notion: https://app.notion.com/p/Visual-Density-Control-Application-Level-44fa9aed53448244899e81879fc5679e
+File: library/desktop-specific-patterns/UX-152-visual-density-control-application-level.md
 
 ## UX-153 — Responsive Layout for Enterprise Desktop
 - Score 4 · Desktop-Specific Patterns / Responsive Layout
@@ -463,7 +463,7 @@ Notion: https://app.notion.com/p/Visual-Density-Control-Application-Level-44fa9a
 
 Sources: [UXmatters — Data-Heavy User Experiences](https://www.uxmatters.com/mt/archives/2022/08/5-emerging-design-trends-for-data-heavy-user-experiences-in-2022.php)
 Wireframe: https://files.catbox.moe/jsyxmq.jpg
-Notion: https://app.notion.com/p/Responsive-Layout-for-Enterprise-Desktop-2d8a9aed534482de8dd801b979db6918
+File: library/desktop-specific-patterns/UX-153-responsive-layout-for-enterprise-desktop.md
 
 ## UX-154 — Panel Docking and Undocking
 - Score 3 · Desktop-Specific Patterns / Panel Management
@@ -483,7 +483,7 @@ Notion: https://app.notion.com/p/Responsive-Layout-for-Enterprise-Desktop-2d8a9a
 
 Sources: [DevExpress — WPF Ribbon & Toolbars](https://www.devexpress.com/products/net/controls/wpf/bars/)
 Wireframe: https://files.catbox.moe/ebt52i.jpg
-Notion: https://app.notion.com/p/Panel-Docking-and-Undocking-22ba9aed534483fd9d4f81208ae9f57a
+File: library/desktop-specific-patterns/UX-154-panel-docking-and-undocking.md
 
 ## UX-155 — Quick Access Toolbar (QAT)
 - Score 3 · Desktop-Specific Patterns / Toolbar Design
@@ -504,7 +504,7 @@ Notion: https://app.notion.com/p/Panel-Docking-and-Undocking-22ba9aed534483fd9d4
 
 Sources: [DevExpress — WPF Ribbon & Toolbars](https://www.devexpress.com/products/net/controls/wpf/bars/)
 Wireframe: https://files.catbox.moe/gh2eil.jpg
-Notion: https://app.notion.com/p/Quick-Access-Toolbar-QAT-bc9a9aed53448247900781bc06897d9a
+File: library/desktop-specific-patterns/UX-155-quick-access-toolbar-qat.md
 
 ## UX-156 — Ribbon/Tab-Based Toolbar for Feature-Rich Applications
 - Score 3 · Desktop-Specific Patterns / Toolbar Design
@@ -525,7 +525,7 @@ Notion: https://app.notion.com/p/Quick-Access-Toolbar-QAT-bc9a9aed53448247900781
 
 Sources: [DevExpress — WPF Ribbon & Toolbars](https://www.devexpress.com/products/net/controls/wpf/bars/)
 Wireframe: https://files.catbox.moe/59fxrz.jpg
-Notion: https://app.notion.com/p/Ribbon-Tab-Based-Toolbar-for-Feature-Rich-Applications-ab0a9aed5344839d995b0140b6ec358f
+File: library/desktop-specific-patterns/UX-156-ribbon-and-tab-based-toolbar-for-feature-rich-applications.md
 
 ## UX-157 — High-Density Interface Design Principles
 - Score 3 · Desktop-Specific Patterns / Density & Spacing
@@ -539,4 +539,4 @@ Notion: https://app.notion.com/p/Ribbon-Tab-Based-Toolbar-for-Feature-Rich-Appli
 
 Sources: [LinkedIn — Rethinking Density in UX](https://www.linkedin.com/pulse/rethinking-density-ux-how-design-high-information-without-de-souza-uc92e)
 Wireframe: https://files.catbox.moe/l4ytla.jpg
-Notion: https://app.notion.com/p/High-Density-Interface-Design-Principles-098a9aed5344833b9a7601dc2cdeb203
+File: library/desktop-specific-patterns/UX-157-high-density-interface-design-principles.md

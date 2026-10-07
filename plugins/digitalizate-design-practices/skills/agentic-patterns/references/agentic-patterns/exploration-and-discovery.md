@@ -14,7 +14,7 @@
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-475.png
-Notion: https://app.notion.com/p/Multi-Armed-Bandit-Optimization-MAB-c68a9aed534482e790d481bcded44973
+File: library/agentic-patterns/AGP-131-multi-armed-bandit-optimization-mab.md
 
 ## AGP-057 — Curiosity-Driven Exploration (CDE)
 - Score 1 · Agentic Patterns / Exploration & Discovery
@@ -30,7 +30,7 @@ Notion: https://app.notion.com/p/Multi-Armed-Bandit-Optimization-MAB-c68a9aed534
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-473.png
-Notion: https://app.notion.com/p/Curiosity-Driven-Exploration-CDE-d7da9aed534483bcb5e6812a1342e16e
+File: library/agentic-patterns/AGP-057-curiosity-driven-exploration-cde.md
 
 ## AGP-076 — Evolutionary Discovery Algorithms (EDA)
 - Score 1 · Agentic Patterns / Exploration & Discovery
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Curiosity-Driven-Exploration-CDE-d7da9aed534483
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-474.png
-Notion: https://app.notion.com/p/Evolutionary-Discovery-Algorithms-EDA-fe0a9aed5344833189898109d969d129
+File: library/agentic-patterns/AGP-076-evolutionary-discovery-algorithms-eda.md
 
 ## AGP-155 — Reinforcement Learning Exploration (RLE)
 - Score 1 · Agentic Patterns / Exploration & Discovery
@@ -62,4 +62,4 @@ Notion: https://app.notion.com/p/Evolutionary-Discovery-Algorithms-EDA-fe0a9aed5
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-476.png
-Notion: https://app.notion.com/p/Reinforcement-Learning-Exploration-RLE-e10a9aed534482f8a8088132e575856e
+File: library/agentic-patterns/AGP-155-reinforcement-learning-exploration-rle.md

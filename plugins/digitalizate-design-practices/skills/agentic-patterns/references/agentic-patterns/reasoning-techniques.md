@@ -22,7 +22,7 @@
 **Measure.** Analogy Quality (Structural similarity and relevance to target problem); Mapping Accuracy (Correctness of source-target correspondences); Transfer Success (Effectiveness of knowledge application); Solution Validity (Correctness in target domain after adaptation); Creative Insight (Novel solutions generated through analogical thinking); Reasoning Efficiency (Speed of solution discovery vs direct methods); Scientific Discovery: Darwin's evolution theory inspired by Malthus population theory →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-358.png
-Notion: https://app.notion.com/p/Analogical-Reasoning-AR-b98a9aed534482268f4181175755ae9b
+File: library/agentic-patterns/AGP-022-analogical-reasoning-ar.md
 
 ## AGP-028 — Chain-of-Thought (CoT)
 - Score 4 · Agentic Patterns / Reasoning Techniques
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Analogical-Reasoning-AR-b98a9aed534482268f41811
 **Measure.** Reasoning Accuracy (Correct final answers vs baseline); Step Correctness (Valid intermediate reasoning steps); Token Efficiency (Accuracy gain per token increase); Interpretability (Human rating of reasoning clarity); Consistency Rate (Agreement across multiple chains); Error Attribution (Ability to identify wrong steps); Math Word Problems: "If a train travels 60 mph for 2 hours..."
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-361.png
-Notion: https://app.notion.com/p/Chain-of-Thought-CoT-451a9aed534483c1b3cc81807a5643a3
+File: library/agentic-patterns/AGP-028-chain-of-thought-cot.md
 
 ## AGP-109 — Least-to-Most Prompting (LtM)
 - Score 4 · Agentic Patterns / Reasoning Techniques
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Chain-of-Thought-CoT-451a9aed534483c1b3cc81807a
 **Measure.** Decomposition Quality (Appropriateness and completeness of problem breakdown); Subproblem Accuracy (Correctness of individual subproblem solutions); Context Preservation (Effective use of previous solutions in later steps); Final Solution Quality (Accuracy vs direct problem solving approaches); Efficiency Gain (Performance improvement over standard prompting); Generalization (Success across different problem types and domains); Mathematical Problem Solving: Complex equation → Break into steps →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-364.png
-Notion: https://app.notion.com/p/Least-to-Most-Prompting-LtM-a86a9aed5344838c9c9b01b1f618484b
+File: library/agentic-patterns/AGP-109-least-to-most-prompting-ltm.md
 
 ## AGP-175 — Skeleton of Thoughts (SoT)
 - Score 4 · Agentic Patterns / Reasoning Techniques
@@ -94,7 +94,7 @@ Notion: https://app.notion.com/p/Least-to-Most-Prompting-LtM-a86a9aed5344838c9c9
 **Measure.** Skeleton Completeness (Coverage of all essential aspects in structure); Parallel Efficiency (Speed improvement from concurrent expansion); Integration Quality (Coherence and flow of combined sections); Consistency Score (Logical alignment across parallel developments); Structure Clarity (Logical organization and progression); Response Completeness (Thoroughness of final synthesized answer); Essay Writing: Outline main arguments → Develop each argument in parallel → Integrate into coherent…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-368.png
-Notion: https://app.notion.com/p/Skeleton-of-Thoughts-SoT-8f5a9aed534482f0a310019c8bcf693f
+File: library/agentic-patterns/AGP-175-skeleton-of-thoughts-sot.md
 
 ## AGP-178 — Step-Back Prompting (SBP)
 - Score 4 · Agentic Patterns / Reasoning Techniques
@@ -118,7 +118,7 @@ Notion: https://app.notion.com/p/Skeleton-of-Thoughts-SoT-8f5a9aed534482f0a31001
 **Measure.** Question Quality (Appropriateness and relevance of step-back questions); Knowledge Activation (Effectiveness in accessing relevant principles); Principle-Application Bridge (Quality of connection between abstract and specific); Solution Improvement (Enhanced accuracy vs direct reasoning); Reasoning Depth (Richness of conceptual foundation provided); Transfer Efficiency (Speed of applying general knowledge to specific case); Physics Problem: "What's the acceleration?" → "What are Newton's laws?"
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-369.png
-Notion: https://app.notion.com/p/Step-Back-Prompting-SBP-df1a9aed5344822cafba01206850e49c
+File: library/agentic-patterns/AGP-178-step-back-prompting-sbp.md
 
 ## AGP-007 — Abductive Reasoning (ABR)
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -142,7 +142,7 @@ Notion: https://app.notion.com/p/Step-Back-Prompting-SBP-df1a9aed5344822cafba012
 **Measure.** Explanation Quality (Coherence and completeness of generated hypotheses); Hypothesis Diversity (Range of alternative explanations considered); Plausibility Ranking (Accuracy of explanation preference ordering); Predictive Power (Quality of testable predictions from hypotheses); Parsimony Balance (Optimal trade-off between simplicity and completeness); Evidence Integration (Effective use of available information); Medical Diagnosis: Patient symptoms → Multiple disease hypotheses → Most likely…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-357.png
-Notion: https://app.notion.com/p/Abductive-Reasoning-ABR-e57a9aed5344832e888181ad708ffb51
+File: library/agentic-patterns/AGP-007-abductive-reasoning-abr.md
 
 ## AGP-025 — Buffer of Thoughts (BoT)
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -166,7 +166,7 @@ Notion: https://app.notion.com/p/Abductive-Reasoning-ABR-e57a9aed5344832e888181a
 **Measure.** Buffer of Thoughts ((); BoT ()); Maintains a dynamic buffer of reusable thought patterns for analogical reasoning (Complexity:); high (Reasoning Techniques); Overview (Flow Visualization); Interactive Demo (Code Playground); Overview (Flow); Demo (Code); 🎯 30-Second Overview (Pattern:); Thought-augmented reasoning that collects diverse approaches in a buffer, distills patterns, and creates reusable templates (Why:); Builds reasoning expertise over time by learning from diverse thought processes…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-359.png
-Notion: https://app.notion.com/p/Buffer-of-Thoughts-BoT-a6ea9aed5344835e892c813c387e4261
+File: library/agentic-patterns/AGP-025-buffer-of-thoughts-bot.md
 
 ## AGP-026 — Causal Reasoning (CR)
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -190,7 +190,7 @@ Notion: https://app.notion.com/p/Buffer-of-Thoughts-BoT-a6ea9aed5344835e892c813c
 **Measure.** Causal Validity (Accuracy of identified cause-effect relationships); Mechanism Plausibility (Reasonableness of proposed causal pathways); Confound Detection (Identification of alternative explanations); Intervention Prediction (Accuracy of predicted outcomes from actions); Counterfactual Reasoning (Quality of what-if scenario analysis); Evidence Integration (Synthesis of multiple sources for causal claims); Medical Diagnosis: Symptoms → Disease mechanism → Treatment intervention → Predicted…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-360.png
-Notion: https://app.notion.com/p/Causal-Reasoning-CR-c83a9aed5344833dbe308191226ca1aa
+File: library/agentic-patterns/AGP-026-causal-reasoning-cr.md
 
 ## AGP-078 — Forest-of-Thoughts (FoT)
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -214,7 +214,7 @@ Notion: https://app.notion.com/p/Causal-Reasoning-CR-c83a9aed5344833dbe308191226
 **Measure.** Solution Diversity (Unique approaches across trees); Consensus Rate (Agreement between tree solutions); Error Tolerance (Robustness to individual tree failures); Computational Efficiency (Quality improvement per additional tree); Coverage Completeness (Solution space exploration breadth); Best Path Selection (Accuracy of optimal tree identification); Investment Analysis: Tree1(Technical), Tree2(Fundamental), Tree3(Sentiment) → Consensus decision; Medical Diagnosis: Multiple specialist…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-362.png
-Notion: https://app.notion.com/p/Forest-of-Thoughts-FoT-fd0a9aed534483b0801181052d64be1b
+File: library/agentic-patterns/AGP-078-forest-of-thoughts-fot.md
 
 ## AGP-084 — Graph-of-Thought (GoT)
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -238,7 +238,7 @@ Notion: https://app.notion.com/p/Forest-of-Thoughts-FoT-fd0a9aed534483b080118105
 **Measure.** Solution Quality (Accuracy vs linear/tree baselines); Graph Efficiency (Useful nodes / total explored nodes); Synthesis Quality (Coherence of merged solution paths); Dependency Accuracy (Correctness of thought relationships); Exploration Cost (Tokens per node + evaluation overhead); Convergence Rate (Steps to reach stable solution); Research Analysis: Node[Theory A] ← Node[Evidence 1] → Node[Synthesis] ← Node[Theory B]; Strategic Planning: Connect market analysis → product strategy → resource…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-363.png
-Notion: https://app.notion.com/p/Graph-of-Thought-GoT-2e9a9aed534482b38acc8100301be1c2
+File: library/agentic-patterns/AGP-084-graph-of-thought-got.md
 
 ## AGP-126 — Metacognitive Monitoring (MCM)
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -262,7 +262,7 @@ Notion: https://app.notion.com/p/Graph-of-Thought-GoT-2e9a9aed534482b38acc810030
 **Measure.** Confidence Calibration (Alignment between confidence and actual accuracy); Error Detection Rate (Percentage of mistakes caught before final answer); Strategy Switch Success (Improvement after method adaptation); Monitoring Overhead (Additional computational cost vs benefit); Self-Correction Accuracy (Quality of reasoning adjustments); Adaptation Speed (Time to recognize and change ineffective strategies); Medical Diagnosis: Monitor confidence → "Low confidence on rare disease" → Switch to…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-365.png
-Notion: https://app.notion.com/p/Metacognitive-Monitoring-MCM-c54a9aed53448370b34b01d1727b2ba0
+File: library/agentic-patterns/AGP-126-metacognitive-monitoring-mcm.md
 
 ## AGP-152 — ReAct
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -286,7 +286,7 @@ Notion: https://app.notion.com/p/Metacognitive-Monitoring-MCM-c54a9aed53448370b3
 **Measure.** Task Success Rate (Goals achieved vs attempted); Tool Utilization (Effective vs unnecessary tool calls); Reasoning Efficiency (Steps to solution convergence); Error Recovery (Success after tool failures); Information Quality (Relevance of gathered data); Iteration Count (Thought-Action cycles per task); Web Research: Thought → search("AI trends 2024") → Observe results → search("specific trend") → Synthesize; Data Analysis: Thought → query_database() → Observe data → calculate_stats() →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-366.png
-Notion: https://app.notion.com/p/ReAct-015a9aed5344831ba6888170f43e7156
+File: library/agentic-patterns/AGP-152-react.md
 
 ## AGP-153 — Reflective Monte Carlo Tree Search (R-MCTS)
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -310,7 +310,7 @@ Notion: https://app.notion.com/p/ReAct-015a9aed5344831ba6888170f43e7156
 **Measure.** Solution Quality (Performance vs standard MCTS baseline); Reflection Accuracy (Correctness of path quality assessments); Search Efficiency (Quality improvement per simulation); Error Correction Rate (Recovery from poor initial paths); Computational Overhead (Additional cost vs quality gains); Learning Transfer (Reflection knowledge reuse across problems); Strategic Game AI: Chess/Go with position evaluation reflection → Identify weak moves → Improve future selections; Code Generation: Generate…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-367.png
-Notion: https://app.notion.com/p/Reflective-Monte-Carlo-Tree-Search-R-MCTS-74ba9aed53448264b64501e2c6b86fba
+File: library/agentic-patterns/AGP-153-reflective-monte-carlo-tree-search-r-mcts.md
 
 ## AGP-187 — Tree-of-Thought (ToT)
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -334,7 +334,7 @@ Notion: https://app.notion.com/p/Reflective-Monte-Carlo-Tree-Search-R-MCTS-74ba9
 **Measure.** Solution Quality (Accuracy vs CoT baseline); Search Efficiency (Nodes explored per solution); Token Cost (Total tokens vs linear approaches); Path Diversity (Unique reasoning strategies explored); Evaluation Accuracy (Pruning quality (keep good, discard bad)); Budget Utilization (% of max depth/tokens used); Game of 24: Explore different operator combinations → evaluate validity → prune impossible paths; Strategic Planning: Generate scenario branches → assess outcomes → select optimal strategy…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-371.png
-Notion: https://app.notion.com/p/Tree-of-Thought-ToT-ce4a9aed534482ae89c981ee0b87e590
+File: library/agentic-patterns/AGP-187-tree-of-thought-tot.md
 
 ## AGP-197 — Test-Time Compute Scaling (TTC)
 - Score 3 · Agentic Patterns / Reasoning Techniques
@@ -358,4 +358,4 @@ Notion: https://app.notion.com/p/Tree-of-Thought-ToT-ce4a9aed534482ae89c981ee0b8
 **Measure.** Quality-Compute Efficiency (Performance improvement per additional compute unit); Difficulty Prediction Accuracy (Correct identification of problem complexity); Resource Utilization (Optimal allocation vs over/under-provisioning); Scaling Law Adherence (Performance gains following predicted scaling curves); Early Stopping Effectiveness (Quality threshold achievement speed); Cost-Benefit Ratio (Solution value vs computational expense); Mathematical Problem Solving: Easy algebra (50 tokens) →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-370.png
-Notion: https://app.notion.com/p/Test-Time-Compute-Scaling-TTC-51ca9aed5344820ba90501c974038d31
+File: library/agentic-patterns/AGP-197-test-time-compute-scaling-ttc.md

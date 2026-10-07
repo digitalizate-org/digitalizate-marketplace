@@ -14,7 +14,7 @@
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-486.png
-Notion: https://app.notion.com/p/Attention-Flow-Analysis-AFA-62ca9aed53448256896e810f99f350af
+File: library/agentic-patterns/AGP-024-attention-flow-analysis-afa.md
 
 ## AGP-051 — Contrastive Explanations (CE)
 - Score 2 · Agentic Patterns / Interpretability
@@ -30,7 +30,7 @@ Notion: https://app.notion.com/p/Attention-Flow-Analysis-AFA-62ca9aed53448256896
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-488.png
-Notion: https://app.notion.com/p/Contrastive-Explanations-CE-3faa9aed534482e3abac817ed0350ec9
+File: library/agentic-patterns/AGP-051-contrastive-explanations-ce.md
 
 ## AGP-027 — Causal Reasoning Transparency (CRT)
 - Score 1 · Agentic Patterns / Interpretability
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Contrastive-Explanations-CE-3faa9aed534482e3aba
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-487.png
-Notion: https://app.notion.com/p/Causal-Reasoning-Transparency-CRT-3c5a9aed53448337be7c01691256b44c
+File: library/agentic-patterns/AGP-027-causal-reasoning-transparency-crt.md
 
 ## AGP-107 — Latent Space Visualization (LSV)
 - Score 1 · Agentic Patterns / Interpretability
@@ -62,7 +62,7 @@ Notion: https://app.notion.com/p/Causal-Reasoning-Transparency-CRT-3c5a9aed53448
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-489.png
-Notion: https://app.notion.com/p/Latent-Space-Visualization-LSV-bb5a9aed534483abbebe8115dfbdeca0
+File: library/agentic-patterns/AGP-107-latent-space-visualization-lsv.md
 
 ## AGP-189 — Uncertainty Quantification (UQ)
 - Score 1 · Agentic Patterns / Interpretability
@@ -78,4 +78,4 @@ Notion: https://app.notion.com/p/Latent-Space-Visualization-LSV-bb5a9aed534483ab
 **Measure.** Uncertainty Quantification ((); UQ ()); Quantify and communicate AI confidence and uncertainty in predictions (Complexity:); high (Pattern); Overview (Flow Visualization); Interactive Demo (Code Playground); Overview (Flow); Demo (Code); Uncertainty Quantification (Quantify and communicate AI confidence and uncertainty in predictions); 📊 (Pattern Type); Design Pattern (🔴); Complexity (high); 🎯 (Use Cases); 4 (scenarios); ⚡ (Features); 6 (features); 📊 (Uncertainty Quantification); ( (UQ); )…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-490.png
-Notion: https://app.notion.com/p/Uncertainty-Quantification-UQ-6e4a9aed534482129408817eca9a52ce
+File: library/agentic-patterns/AGP-189-uncertainty-quantification-uq.md

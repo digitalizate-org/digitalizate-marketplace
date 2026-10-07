@@ -20,7 +20,7 @@
 
 Sources: [Nielsen Norman Group — 5 Visual Treatments That Improve Accessibility](https://www.nngroup.com/articles/visual-treatments-accessibility/) · [W3C WCAG 2.1](https://www.w3.org/TR/WCAG21/) · [ROSSUL — Enterprise UX Best Practices](https://www.rossul.com/2024/blog/enhancing-user-experience-in-b2b-enterprise-web-applications-ux-best-practices/) · [Eleken — Bulk Action UX](https://www.eleken.co/blog-posts/bulk-actions-ux)
 Wireframe: https://files.catbox.moe/pgrnvr.jpg
-Notion: https://app.notion.com/p/Color-Contrast-Minimum-4-5-1-for-Normal-Text-b38a9aed534483478cd9817e221cc048
+File: library/accessibility/UX-001-color-contrast-minimum-4-5-1-for-normal-text.md
 
 ## UX-002 — Never Rely on Color Alone to Convey Information
 - Score 5 · Accessibility / Color Accessibility
@@ -41,7 +41,7 @@ Notion: https://app.notion.com/p/Color-Contrast-Minimum-4-5-1-for-Normal-Text-b3
 
 Sources: [100 Things #11 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf) · [Nielsen Norman Group — 5 Visual Treatments That Improve Accessibility](https://www.nngroup.com/articles/visual-treatments-accessibility/)
 Wireframe: https://files.catbox.moe/gyhd15.jpg
-Notion: https://app.notion.com/p/Never-Rely-on-Color-Alone-to-Convey-Information-568a9aed5344837a91ab8182d7f0848b
+File: library/accessibility/UX-002-never-rely-on-color-alone-to-convey-information.md
 
 ## UX-003 — Full Keyboard Accessibility for All Interactive Elements
 - Score 5 · Accessibility / Keyboard navigation
@@ -64,7 +64,7 @@ Notion: https://app.notion.com/p/Never-Rely-on-Color-Alone-to-Convey-Information
 
 Sources: [Nielsen Norman Group — Keyboard-Only Navigation for Improved Accessibility](https://www.nngroup.com/articles/keyboard-accessibility/) · [Good UI — Keyboard Shortcuts](https://goodui.org/#40) · [W3C WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 Wireframe: https://files.catbox.moe/vfvyl9.jpg
-Notion: https://app.notion.com/p/Full-Keyboard-Accessibility-for-All-Interactive-Elements-86ca9aed53448351a801818e9876e326
+File: library/accessibility/UX-003-full-keyboard-accessibility-for-all-interactive-elements.md
 
 ## UX-004 — Visible Focus Indicators
 - Score 5 · Accessibility / Focus Management
@@ -85,7 +85,7 @@ Notion: https://app.notion.com/p/Full-Keyboard-Accessibility-for-All-Interactive
 
 Sources: [W3C WCAG 2.1](https://www.w3.org/TR/WCAG21/) · [Level Access — WCAG 2.1](https://www.levelaccess.com/blog/wcag-2-1-exploring-new-success-criteria/)
 Wireframe: https://files.catbox.moe/jnndxc.jpg
-Notion: https://app.notion.com/p/Visible-Focus-Indicators-56da9aed5344829c83f3811ba73570af
+File: library/accessibility/UX-004-visible-focus-indicators.md
 
 ## UX-005 — Semantic HTML and ARIA Roles
 - Score 5 · Accessibility / Semantic Markup
@@ -108,7 +108,7 @@ Notion: https://app.notion.com/p/Visible-Focus-Indicators-56da9aed5344829c83f381
 
 Sources: [W3C WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 Wireframe: https://files.catbox.moe/23bna0.jpg
-Notion: https://app.notion.com/p/Semantic-HTML-and-ARIA-Roles-03ba9aed534483f3a97481289e3132f3
+File: library/accessibility/UX-005-semantic-html-and-aria-roles.md
 
 ## UX-006 — Keyboard Navigation with Tab Focus Management
 - Score 5 · Accessibility / Keyboard Accessibility
@@ -128,7 +128,7 @@ Notion: https://app.notion.com/p/Semantic-HTML-and-ARIA-Roles-03ba9aed534483f3a9
 
 Sources: [Eleken — Bulk Action UX](https://www.eleken.co/blog-posts/bulk-actions-ux) · [UX Patterns — Data Table](https://uxpatterns.dev/patterns/data-display/table)
 Wireframe: https://files.catbox.moe/dnyn7q.jpg
-Notion: https://app.notion.com/p/Keyboard-Navigation-with-Tab-Focus-Management-858a9aed53448295b1e901fbf76f38f4
+File: library/accessibility/UX-006-keyboard-navigation-with-tab-focus-management.md
 
 ## UX-007 — Keyboard-Navigable Modals and Focus Trapping
 - Score 5 · Accessibility / Modal Accessibility
@@ -149,7 +149,7 @@ Notion: https://app.notion.com/p/Keyboard-Navigation-with-Tab-Focus-Management-8
 
 Sources: [Carbon Design System — Dialogs](https://carbondesignsystem.com/patterns/overview/)
 Wireframe: https://files.catbox.moe/rcpes1.jpg
-Notion: https://app.notion.com/p/Keyboard-Navigable-Modals-and-Focus-Trapping-dfba9aed534482b982fe01d35b1d2cce
+File: library/accessibility/UX-007-keyboard-navigable-modals-and-focus-trapping.md
 
 ## UX-008 — Meaningful Alternative Text for Images and Data Visualizations
 - Score 4 · Accessibility / Screen reader accessibility
@@ -172,7 +172,7 @@ Notion: https://app.notion.com/p/Keyboard-Navigable-Modals-and-Focus-Trapping-df
 
 Sources: [Nielsen Norman Group — 5 Visual Treatments That Improve Accessibility](https://www.nngroup.com/articles/visual-treatments-accessibility/)
 Wireframe: https://files.catbox.moe/1rbgb5.jpg
-Notion: https://app.notion.com/p/Meaningful-Alternative-Text-for-Images-and-Data-Visualizations-5a3a9aed534482809ff6816218cfe342
+File: library/accessibility/UX-008-meaningful-alternative-text-for-images-and-data-visualizatio.md
 
 ## UX-009 — Minimum Target Size — 44×44px
 - Score 4 · Accessibility / Touch and Click Targets
@@ -192,7 +192,7 @@ Notion: https://app.notion.com/p/Meaningful-Alternative-Text-for-Images-and-Data
 
 Sources: [Level Access — WCAG 2.1 New Criteria](https://www.levelaccess.com/blog/wcag-2-1-exploring-new-success-criteria/)
 Wireframe: https://files.catbox.moe/j87zxg.jpg
-Notion: https://app.notion.com/p/Minimum-Target-Size-44-44px-60da9aed534483dcae5e01bbbfa85165
+File: library/accessibility/UX-009-minimum-target-size-4444px.md
 
 ## UX-010 — Respect prefers-reduced-motion
 - Score 4 · Accessibility / Motion Accessibility
@@ -212,7 +212,7 @@ Notion: https://app.notion.com/p/Minimum-Target-Size-44-44px-60da9aed534483dcae5
 
 Sources: [AlterSquare — Microinteractions](https://altersquare.io/micro-interactions-that-actually-improve-user-experience-with-examples/)
 Wireframe: https://files.catbox.moe/lbjomn.jpg
-Notion: https://app.notion.com/p/Respect-prefers-reduced-motion-b37a9aed53448313bd73814996d5bfd8
+File: library/accessibility/UX-010-respect-prefers-reduced-motion.md
 
 ## UX-011 — Keyboard-Accessible Drag and Drop
 - Score 4 · Accessibility / Drag and Drop
@@ -231,7 +231,7 @@ Notion: https://app.notion.com/p/Respect-prefers-reduced-motion-b37a9aed53448313
 
 Sources: [Smart Interface Design Patterns — Drag and Drop UX](https://smart-interface-design-patterns.com/articles/drag-and-drop-ux/) · [Eleken — Drag and Drop UI](https://www.eleken.co/blog-posts/drag-and-drop-ui)
 Wireframe: https://files.catbox.moe/tv3110.jpg
-Notion: https://app.notion.com/p/Keyboard-Accessible-Drag-and-Drop-149a9aed53448319aa8f01813c6b7f08
+File: library/accessibility/UX-011-keyboard-accessible-drag-and-drop.md
 
 ## UX-012 — Data Visualization Accessibility
 - Score 4 · Accessibility / Chart Accessibility
@@ -252,7 +252,7 @@ Notion: https://app.notion.com/p/Keyboard-Accessible-Drag-and-Drop-149a9aed53448
 
 Sources: [Nielsen Norman Group — Treemaps](https://www.nngroup.com/articles/treemaps/) · [Pencil & Paper — Dashboard UX](https://www.pencilandpaper.io/articles/ux-pattern-analysis-data-dashboards)
 Wireframe: https://files.catbox.moe/iwwuh1.jpg
-Notion: https://app.notion.com/p/Data-Visualization-Accessibility-d23a9aed534482df9f518101354a0765
+File: library/accessibility/UX-012-data-visualization-accessibility.md
 
 ## UX-013 — Cultural Context in Color and Symbol Interpretation
 - Score 3 · Accessibility / Global Design
@@ -272,4 +272,4 @@ Notion: https://app.notion.com/p/Data-Visualization-Accessibility-d23a9aed534482
 
 Sources: [100 Things #12, #39 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/38cxy7.jpg
-Notion: https://app.notion.com/p/Cultural-Context-in-Color-and-Symbol-Interpretation-c0aa9aed534483db88520161b975209f
+File: library/accessibility/UX-013-cultural-context-in-color-and-symbol-interpretation.md

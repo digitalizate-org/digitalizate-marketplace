@@ -19,7 +19,7 @@
 
 Sources: [Laws of UX — Zeigarnik Effect](https://lawsofux.com/zeigarnik-effect/) · [Eleken — Wizard UI Pattern](https://www.eleken.co/blog-posts/wizard-ui-pattern-explained)
 Wireframe: https://files.catbox.moe/qsl57o.jpg
-Notion: https://app.notion.com/p/Zeigarnik-Effect-Persist-Incomplete-Tasks-and-Draft-States-25ba9aed5344838c8266817dcedd79c0
+File: library/workflow-and-multi-step-processes/UX-337-zeigarnik-effect-persist-incomplete-tasks-and-draft-states.md
 
 ## UX-338 — Staged Disclosure for Linear Multi-Step Processes
 - Score 5 · Workflow & Multi-Step Processes / Wizard and checkout flow structure
@@ -40,7 +40,7 @@ Notion: https://app.notion.com/p/Zeigarnik-Effect-Persist-Incomplete-Tasks-and-D
 
 Sources: [Nielsen Norman Group — Progressive Disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
 Wireframe: https://files.catbox.moe/fb2c3r.jpg
-Notion: https://app.notion.com/p/Staged-Disclosure-for-Linear-Multi-Step-Processes-02ba9aed5344828a844901d04c5d2162
+File: library/workflow-and-multi-step-processes/UX-338-staged-disclosure-for-linear-multi-step-processes.md
 
 ## UX-339 — Wizards — Use for Novice Users and Infrequent Complex Processes
 - Score 5 · Workflow & Multi-Step Processes / Wizard Patterns
@@ -62,7 +62,7 @@ Notion: https://app.notion.com/p/Staged-Disclosure-for-Linear-Multi-Step-Process
 
 Sources: [Andrew Coyle — Form Wizard Design](https://www.andrewcoyle.com/blog/how-to-design-a-form-wizard) · [FormAssembly](https://www.formassembly.com/blog/multi-step-form-best-practices/) · [Nielsen Norman Group — Wizards: Definition and Design Recommendations](https://www.nngroup.com/articles/wizards/) · [Eleken — Wizard UI Pattern](https://www.eleken.co/blog-posts/wizard-ui-pattern-explained)
 Wireframe: https://files.catbox.moe/e9wgjb.jpg
-Notion: https://app.notion.com/p/Wizards-Use-for-Novice-Users-and-Infrequent-Complex-Processes-22ea9aed534483a6820d81f004e1a017
+File: library/workflow-and-multi-step-processes/UX-339-wizards-use-for-novice-users-and-infrequent-complex-processe.md
 
 ## UX-340 — Wizard Step Indicators — Communicate the Full Process
 - Score 5 · Workflow & Multi-Step Processes / Progress Communication
@@ -83,7 +83,7 @@ Notion: https://app.notion.com/p/Wizards-Use-for-Novice-Users-and-Infrequent-Com
 
 Sources: [FormAssembly — Multi-Step Forms](https://www.formassembly.com/blog/multi-step-form-best-practices/) · [100 Things — Goal Gradient Effect (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf) · [Nielsen Norman Group — Wizards: Definition and Design Recommendations](https://www.nngroup.com/articles/wizards/) · [Component Gallery — Stepper / Progress Tracker](https://component.gallery/components/stepper/) · [Laws of UX — Goal-Gradient Effect](https://lawsofux.com/goal-gradient-effect/) · [Andrew Coyle — How to Design a Form Wizard](https://www.andrewcoyle.com/blog/how-to-design-a-form-wizard)
 Wireframe: https://files.catbox.moe/kf30cg.jpg
-Notion: https://app.notion.com/p/Wizard-Step-Indicators-Communicate-the-Full-Process-b86a9aed5344820b917481bc8a7c274d
+File: library/workflow-and-multi-step-processes/UX-340-wizard-step-indicators-communicate-the-full-process.md
 
 ## UX-341 — Approval Status Visualization
 - Score 5 · Workflow & Multi-Step Processes / Approval Workflows
@@ -104,7 +104,7 @@ Notion: https://app.notion.com/p/Wizard-Step-Indicators-Communicate-the-Full-Pro
 
 Sources: [Shyft — Mastering Approval Workflows: Approval Status Tracking](https://www.myshyft.com/blog/approval-status-tracking/)
 Wireframe: https://files.catbox.moe/bnufu4.jpg
-Notion: https://app.notion.com/p/Approval-Status-Visualization-08aa9aed534483ac877a0161d516f8a7
+File: library/workflow-and-multi-step-processes/UX-341-approval-status-visualization.md
 
 ## UX-342 — Prioritized Work Queue with Status Visibility
 - Score 5 · Workflow & Multi-Step Processes / Task Queues
@@ -125,7 +125,7 @@ Notion: https://app.notion.com/p/Approval-Status-Visualization-08aa9aed534483ac8
 
 Sources: [UXpilot — Enterprise UX Design Best Practices](https://uxpilot.ai/blogs/enterprise-ux-design)
 Wireframe: https://files.catbox.moe/szino2.jpg
-Notion: https://app.notion.com/p/Prioritized-Work-Queue-with-Status-Visibility-9f4a9aed5344825181818130fb425df1
+File: library/workflow-and-multi-step-processes/UX-342-prioritized-work-queue-with-status-visibility.md
 
 ## UX-343 — Self-Sufficient Wizard Steps — Include Relevant Context Per Step
 - Score 4 · Workflow & Multi-Step Processes / Wizard step design
@@ -146,7 +146,7 @@ Notion: https://app.notion.com/p/Prioritized-Work-Queue-with-Status-Visibility-9
 
 Sources: [Nielsen Norman Group — Wizards: Definition and Design Recommendations](https://www.nngroup.com/articles/wizards/) · [Boxes and Arrows — The Shallow Dive](https://boxesandarrows.com/the-shallow-dive/)
 Wireframe: https://files.catbox.moe/lq4lrk.jpg
-Notion: https://app.notion.com/p/Self-Sufficient-Wizard-Steps-Include-Relevant-Context-Per-Step-3cea9aed534483d1ae8381967f61ac70
+File: library/workflow-and-multi-step-processes/UX-343-self-sufficient-wizard-steps-include-relevant-context-per-st.md
 
 ## UX-344 — Flexible and Fluid Pathways Through Complex Workflows
 - Score 4 · Workflow & Multi-Step Processes / Wizard Design
@@ -166,7 +166,7 @@ Notion: https://app.notion.com/p/Self-Sufficient-Wizard-Steps-Include-Relevant-C
 
 Sources: [Eleken — Wizard UI Pattern](https://www.eleken.co/blog-posts/wizard-ui-pattern-explained) · [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)
 Wireframe: https://files.catbox.moe/z5jtl2.jpg
-Notion: https://app.notion.com/p/Flexible-and-Fluid-Pathways-Through-Complex-Workflows-35ba9aed53448250b1de81ea14d179be
+File: library/workflow-and-multi-step-processes/UX-344-flexible-and-fluid-pathways-through-complex-workflows.md
 
 ## UX-345 — Define Information Carried Between Workflow Steps
 - Score 4 · Workflow & Multi-Step Processes / State persistence in multi-step flows
@@ -187,7 +187,7 @@ Notion: https://app.notion.com/p/Flexible-and-Fluid-Pathways-Through-Complex-Wor
 
 Sources: [Boxes and Arrows — The Shallow Dive](https://boxesandarrows.com/the-shallow-dive/)
 Wireframe: https://files.catbox.moe/8j8md4.jpg
-Notion: https://app.notion.com/p/Define-Information-Carried-Between-Workflow-Steps-f83a9aed534482e0a16f81448cc44dcb
+File: library/workflow-and-multi-step-processes/UX-345-define-information-carried-between-workflow-steps.md
 
 ## UX-346 — Conditional Branching in Workflows
 - Score 4 · Workflow & Multi-Step Processes / Wizard Design
@@ -208,7 +208,7 @@ Notion: https://app.notion.com/p/Define-Information-Carried-Between-Workflow-Ste
 
 Sources: [Andrew Coyle — How to Design a Form Wizard](https://www.andrewcoyle.com/blog/how-to-design-a-form-wizard)
 Wireframe: https://files.catbox.moe/gfxewl.jpg
-Notion: https://app.notion.com/p/Conditional-Branching-in-Workflows-c79a9aed53448263ae2f01e64fbc129c
+File: library/workflow-and-multi-step-processes/UX-346-conditional-branching-in-workflows.md
 
 ## UX-347 — Eligibility Transparency in Bulk Actions
 - Score 4 · Workflow & Multi-Step Processes / Bulk Operations
@@ -227,7 +227,7 @@ Notion: https://app.notion.com/p/Conditional-Branching-in-Workflows-c79a9aed5344
 
 Sources: [Eleken — Bulk Action UX](https://www.eleken.co/blog-posts/bulk-actions-ux)
 Wireframe: https://files.catbox.moe/maz5p6.jpg
-Notion: https://app.notion.com/p/Eligibility-Transparency-in-Bulk-Actions-828a9aed534483c6b76781d91f1d11f4
+File: library/workflow-and-multi-step-processes/UX-347-eligibility-transparency-in-bulk-actions.md
 
 ## UX-348 — Cross-Page Bulk Selection
 - Score 4 · Workflow & Multi-Step Processes / Bulk Operations
@@ -246,7 +246,7 @@ Notion: https://app.notion.com/p/Eligibility-Transparency-in-Bulk-Actions-828a9a
 
 Sources: [Eleken — Bulk Action UX](https://www.eleken.co/blog-posts/bulk-actions-ux) · [Smart Interface Design Patterns — Bulk UX](https://smart-interface-design-patterns.com/articles/bulk-ux/)
 Wireframe: https://files.catbox.moe/372hfy.jpg
-Notion: https://app.notion.com/p/Cross-Page-Bulk-Selection-ebca9aed534482ad9130815a3c226d9d
+File: library/workflow-and-multi-step-processes/UX-348-cross-page-bulk-selection.md
 
 ## UX-349 — Bulk Import Five-Stage Workflow
 - Score 4 · Workflow & Multi-Step Processes / Bulk Operations
@@ -267,7 +267,7 @@ Notion: https://app.notion.com/p/Cross-Page-Bulk-Selection-ebca9aed534482ad91308
 
 Sources: [Smart Interface Design Patterns — How To Design Bulk Import UX](https://smart-interface-design-patterns.com/articles/bulk-ux/)
 Wireframe: https://files.catbox.moe/9xs61g.jpg
-Notion: https://app.notion.com/p/Bulk-Import-Five-Stage-Workflow-27ea9aed5344826e93b0819392bed450
+File: library/workflow-and-multi-step-processes/UX-349-bulk-import-five-stage-workflow.md
 
 ## UX-350 — Wizard vs. Inline Bulk Workflow Selection
 - Score 4 · Workflow & Multi-Step Processes / Bulk Operations
@@ -287,7 +287,7 @@ Notion: https://app.notion.com/p/Bulk-Import-Five-Stage-Workflow-27ea9aed5344826
 
 Sources: [Eleken — Bulk Action UX](https://www.eleken.co/blog-posts/bulk-actions-ux)
 Wireframe: https://files.catbox.moe/n1q9hx.jpg
-Notion: https://app.notion.com/p/Wizard-vs-Inline-Bulk-Workflow-Selection-7fea9aed5344828a98b1814712f1a43c
+File: library/workflow-and-multi-step-processes/UX-350-wizard-vs-inline-bulk-workflow-selection.md
 
 ## UX-351 — Conditional Approval Routing
 - Score 4 · Workflow & Multi-Step Processes / Approval Workflows
@@ -308,7 +308,7 @@ Notion: https://app.notion.com/p/Wizard-vs-Inline-Bulk-Workflow-Selection-7fea9a
 
 Sources: [Shyft — Mastering Approval Workflows](https://www.myshyft.com/blog/approval-status-tracking/)
 Wireframe: https://files.catbox.moe/t5tfak.jpg
-Notion: https://app.notion.com/p/Conditional-Approval-Routing-6c1a9aed5344831fa67d014830946d74
+File: library/workflow-and-multi-step-processes/UX-351-conditional-approval-routing.md
 
 ## UX-352 — Delegation and Backup Approvers
 - Score 4 · Workflow & Multi-Step Processes / Approval Workflows
@@ -329,7 +329,7 @@ Notion: https://app.notion.com/p/Conditional-Approval-Routing-6c1a9aed5344831fa6
 
 Sources: [Shyft — Mastering Approval Workflows](https://www.myshyft.com/blog/approval-status-tracking/)
 Wireframe: https://files.catbox.moe/52ymdf.jpg
-Notion: https://app.notion.com/p/Delegation-and-Backup-Approvers-554a9aed534483678cb101cce3abfa6c
+File: library/workflow-and-multi-step-processes/UX-352-delegation-and-backup-approvers.md
 
 ## UX-353 — Asynchronous Bulk Processing with Job Monitoring
 - Score 4 · Workflow & Multi-Step Processes / Task Queues
@@ -350,7 +350,7 @@ Notion: https://app.notion.com/p/Delegation-and-Backup-Approvers-554a9aed5344836
 
 Sources: [GeeksforGeeks — Task Queues System Design](https://www.geeksforgeeks.org/system-design/task-queues-system-design/)
 Wireframe: https://files.catbox.moe/ejvqdf.jpg
-Notion: https://app.notion.com/p/Asynchronous-Bulk-Processing-with-Job-Monitoring-200a9aed5344820fa14d8170b56bfaa8
+File: library/workflow-and-multi-step-processes/UX-353-asynchronous-bulk-processing-with-job-monitoring.md
 
 ## UX-354 — Multi-Level Undo in Visual/Configuration Builders
 - Score 4 · Workflow & Multi-Step Processes / Undo/Redo Architecture
@@ -371,7 +371,7 @@ Notion: https://app.notion.com/p/Asynchronous-Bulk-Processing-with-Job-Monitorin
 
 Sources: [YouTube — Handling Undo/Redo in Enterprise Applications](https://www.youtube.com/watch?v=eg3RCwTSEy4)
 Wireframe: https://files.catbox.moe/2nfm6l.jpg
-Notion: https://app.notion.com/p/Multi-Level-Undo-in-Visual-Configuration-Builders-81ea9aed5344838985bb011a69364942
+File: library/workflow-and-multi-step-processes/UX-354-multi-level-undo-in-visual-and-configuration-builders.md
 
 ## UX-355 — Context-Aware Undo Scope
 - Score 3 · Workflow & Multi-Step Processes / Undo/Redo Architecture
@@ -392,7 +392,7 @@ Notion: https://app.notion.com/p/Multi-Level-Undo-in-Visual-Configuration-Builde
 
 Sources: [Reddit — How I implemented an Undo/Redo system in a large complex visual application](https://www.reddit.com/r/SoftwareEngineering/comments/1lgbjr1/how_i_implemented_an_undoredo_system_in_a_large/)
 Wireframe: https://files.catbox.moe/qp6va1.jpg
-Notion: https://app.notion.com/p/Context-Aware-Undo-Scope-738a9aed53448237b4bd81ee99747814
+File: library/workflow-and-multi-step-processes/UX-355-context-aware-undo-scope.md
 
 ## UX-356 — Linear vs. Selective Undo Models
 - Score 2 · Workflow & Multi-Step Processes / Undo/Redo Architecture
@@ -437,4 +437,4 @@ Notion: https://app.notion.com/p/Context-Aware-Undo-Scope-738a9aed53448237b4bd81
 
 Sources: [Reddit — How I implemented an Undo/Redo system in a large complex visual application](https://www.reddit.com/r/SoftwareEngineering/comments/1lgbjr1/how_i_implemented_an_undoredo_system_in_a_large/)
 Wireframe: https://files.catbox.moe/h05trx.jpg
-Notion: https://app.notion.com/p/Linear-vs-Selective-Undo-Models-b1fa9aed5344834ba92d014b36094920
+File: library/workflow-and-multi-step-processes/UX-356-linear-vs-selective-undo-models.md

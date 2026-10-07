@@ -18,7 +18,7 @@
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [Laws of UX — Doherty Threshold](https://lawsofux.com/doherty-threshold/)
 Wireframe: https://files.catbox.moe/hw0dh9.jpg
-Notion: https://app.notion.com/p/Visibility-of-System-Status-244a9aed534483f4890d019066415d8e
+File: library/feedback-and-error-handling/UX-188-visibility-of-system-status.md
 
 ## UX-189 — Error Messages — Plain Language with Constructive Solutions
 - Score 5 · Feedback & Error Handling / Error message writing and presentation
@@ -38,7 +38,7 @@ Notion: https://app.notion.com/p/Visibility-of-System-Status-244a9aed534483f4890
 
 Sources: [Nielsen Norman Group — Error Message Guidelines](https://www.nngroup.com/articles/error-message-guidelines/) · [Nielsen Norman Group — 10 Design Guidelines for Errors in Forms](https://www.nngroup.com/articles/errors-forms-design-guidelines/) · [Component Gallery — Alert / Notification Banner](https://component.gallery/components/alert/) · [Eleken — Modal UX](https://www.eleken.co/blog-posts/modal-ux) · [About Face 4th Ed., Ch. 15 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/20f2u8.jpg
-Notion: https://app.notion.com/p/Error-Messages-Plain-Language-with-Constructive-Solutions-d2ca9aed53448397b7ab012952da07ee
+File: library/feedback-and-error-handling/UX-189-error-messages-plain-language-with-constructive-solutions.md
 
 ## UX-190 — Error Severity Categorization — Match Presentation to Impact
 - Score 5 · Feedback & Error Handling / Error severity and notification matching
@@ -60,7 +60,7 @@ Notion: https://app.notion.com/p/Error-Messages-Plain-Language-with-Constructive
 
 Sources: [Nielsen Norman Group — Indicators, Validations, and Notifications](https://www.nngroup.com/articles/indicators-validations-notifications/) · [Component Gallery — Alert](https://component.gallery/components/alert/) · [Component Gallery — Toast](https://component.gallery/components/toast/) · [Stack Overflow UX Discussion](https://stackoverflow.com/questions/735701/long-forms-best-way-to-display-errors-usability-question)
 Wireframe: https://files.catbox.moe/t6mmfw.jpg
-Notion: https://app.notion.com/p/Error-Severity-Categorization-Match-Presentation-to-Impact-95ca9aed53448235b83801980cc043fb
+File: library/feedback-and-error-handling/UX-190-error-severity-categorization-match-presentation-to-impact.md
 
 ## UX-191 — Provide Sufficient Context in Notifications
 - Score 5 · Feedback & Error Handling / Notification content standards
@@ -79,7 +79,7 @@ Notion: https://app.notion.com/p/Error-Severity-Categorization-Match-Presentatio
 
 Sources: [Nielsen Norman Group — Indicators, Validations, and Notifications](https://www.nngroup.com/articles/indicators-validations-notifications/)
 Wireframe: https://files.catbox.moe/epr585.jpg
-Notion: https://app.notion.com/p/Provide-Sufficient-Context-in-Notifications-af5a9aed5344836bae0d0184ae3ea86d
+File: library/feedback-and-error-handling/UX-191-provide-sufficient-context-in-notifications.md
 
 ## UX-192 — Opt-Out Confirmation for High-Consequence Actions
 - Score 5 · Feedback & Error Handling / Confirmation patterns for irreversible actions
@@ -99,7 +99,7 @@ Notion: https://app.notion.com/p/Provide-Sufficient-Context-in-Notifications-af5
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [Good UI — Undo Instead of Confirmation Dialogs](https://goodui.org/#8)
 Wireframe: https://files.catbox.moe/vbgov9.jpg
-Notion: https://app.notion.com/p/Opt-Out-Confirmation-for-High-Consequence-Actions-d5ca9aed534483a0b0978178032f622a
+File: library/feedback-and-error-handling/UX-192-opt-out-confirmation-for-high-consequence-actions.md
 
 ## UX-193 — Design Error Recovery Paths at Every Failure Point
 - Score 5 · Feedback & Error Handling / Error recovery design
@@ -120,7 +120,7 @@ Notion: https://app.notion.com/p/Opt-Out-Confirmation-for-High-Consequence-Actio
 
 Sources: [Boxes and Arrows — Foundations of Interaction Design](https://boxesandarrows.com/foundations-of-interaction-design/) · [Laws of UX — Peak-End Rule](https://lawsofux.com/peak-end-rule/)
 Wireframe: https://files.catbox.moe/phq1u3.jpg
-Notion: https://app.notion.com/p/Design-Error-Recovery-Paths-at-Every-Failure-Point-a13a9aed5344836b902a813a82ca478b
+File: library/feedback-and-error-handling/UX-193-design-error-recovery-paths-at-every-failure-point.md
 
 ## UX-194 — Inline Error Messages — Proximity to Source Field
 - Score 5 · Feedback & Error Handling / Error Message Placement
@@ -142,7 +142,7 @@ Notion: https://app.notion.com/p/Design-Error-Recovery-Paths-at-Every-Failure-Po
 
 Sources: [Stack Overflow UX Discussion](https://stackoverflow.com/questions/735701/long-forms-best-way-to-display-errors-usability-question) · [W3C WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 Wireframe: https://files.catbox.moe/0o0pht.jpg
-Notion: https://app.notion.com/p/Inline-Error-Messages-Proximity-to-Source-Field-efda9aed5344834489548150520a9004
+File: library/feedback-and-error-handling/UX-194-inline-error-messages-proximity-to-source-field.md
 
 ## UX-195 — Graceful Degradation for Network Errors
 - Score 5 · Feedback & Error Handling / Network Error Handling
@@ -163,7 +163,7 @@ Notion: https://app.notion.com/p/Inline-Error-Messages-Proximity-to-Source-Field
 
 Sources: [Carbon Design System — Notification Pattern](https://carbondesignsystem.com/patterns/notification-pattern/)
 Wireframe: https://files.catbox.moe/t5al8k.jpg
-Notion: https://app.notion.com/p/Graceful-Degradation-for-Network-Errors-8fca9aed534482b1bb9c01e7b9152c8f
+File: library/feedback-and-error-handling/UX-195-graceful-degradation-for-network-errors.md
 
 ## UX-196 — Change Blindness — Mark State Changes Explicitly
 - Score 5 · Feedback & Error Handling / Real-Time Data Communication
@@ -184,7 +184,7 @@ Notion: https://app.notion.com/p/Graceful-Degradation-for-Network-Errors-8fca9ae
 
 Sources: [100 Things #8 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/1js1lb.jpg
-Notion: https://app.notion.com/p/Change-Blindness-Mark-State-Changes-Explicitly-5cba9aed5344824f9e9701063536df61
+File: library/feedback-and-error-handling/UX-196-change-blindness-mark-state-changes-explicitly.md
 
 ## UX-197 — Habituation — Calibrate Alert Frequency to Maintain Urgency
 - Score 5 · Feedback & Error Handling / Alert System Design
@@ -204,7 +204,7 @@ Notion: https://app.notion.com/p/Change-Blindness-Mark-State-Changes-Explicitly-
 
 Sources: [100 Things #43, #45 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/z8wuhs.jpg
-Notion: https://app.notion.com/p/Habituation-Calibrate-Alert-Frequency-to-Maintain-Urgency-afba9aed534482d398d7014135a11e0c
+File: library/feedback-and-error-handling/UX-197-habituation-calibrate-alert-frequency-to-maintain-urgency.md
 
 ## UX-198 — Success State Confirmation
 - Score 5 · Feedback & Error Handling / Feedback Delivery
@@ -225,7 +225,7 @@ Notion: https://app.notion.com/p/Habituation-Calibrate-Alert-Frequency-to-Mainta
 
 Sources: [AlterSquare — Microinteractions](https://altersquare.io/micro-interactions-that-actually-improve-user-experience-with-examples/)
 Wireframe: https://files.catbox.moe/7b9k57.jpg
-Notion: https://app.notion.com/p/Success-State-Confirmation-623a9aed53448234bee3816957f4d05e
+File: library/feedback-and-error-handling/UX-198-success-state-confirmation.md
 
 ## UX-199 — Undo Feedback Toast
 - Score 5 · Feedback & Error Handling / Action Feedback
@@ -246,7 +246,7 @@ Notion: https://app.notion.com/p/Success-State-Confirmation-623a9aed53448234bee3
 
 Sources: [Eleken — Bulk Action UX](https://www.eleken.co/blog-posts/bulk-actions-ux)
 Wireframe: https://files.catbox.moe/y6k5xx.jpg
-Notion: https://app.notion.com/p/Undo-Feedback-Toast-89ca9aed534483c79fda8123a218567f
+File: library/feedback-and-error-handling/UX-199-undo-feedback-toast.md
 
 ## UX-200 — Error State Messaging with Resolution Guidance
 - Score 5 · Feedback & Error Handling / Error Messages
@@ -265,7 +265,7 @@ Notion: https://app.notion.com/p/Undo-Feedback-Toast-89ca9aed534483c79fda8123a21
 
 Sources: [Carbon Design System — Notifications](https://carbondesignsystem.com/patterns/overview/)
 Wireframe: https://files.catbox.moe/o2a145.jpg
-Notion: https://app.notion.com/p/Error-State-Messaging-with-Resolution-Guidance-b09a9aed534482448c0881910234f6cc
+File: library/feedback-and-error-handling/UX-200-error-state-messaging-with-resolution-guidance.md
 
 ## UX-201 — Unified Notification and Feedback System
 - Score 5 · Feedback & Error Handling / Notifications
@@ -287,7 +287,7 @@ Notion: https://app.notion.com/p/Error-State-Messaging-with-Resolution-Guidance-
 
 Sources: [Carbon Design System — Notifications](https://carbondesignsystem.com/patterns/overview/)
 Wireframe: https://files.catbox.moe/52tnkq.jpg
-Notion: https://app.notion.com/p/Unified-Notification-and-Feedback-System-540a9aed53448245a22b01c145ae9ebc
+File: library/feedback-and-error-handling/UX-201-unified-notification-and-feedback-system.md
 
 ## UX-202 — Confirmation Dialogs for Destructive Actions
 - Score 5 · Feedback & Error Handling / Destructive Action Safety
@@ -306,7 +306,7 @@ Notion: https://app.notion.com/p/Unified-Notification-and-Feedback-System-540a9a
 
 Sources: [Eleken — Bulk Action UX](https://www.eleken.co/blog-posts/bulk-actions-ux) · [Carbon Design System — Dialogs](https://carbondesignsystem.com/patterns/overview/)
 Wireframe: https://files.catbox.moe/f7c10t.jpg
-Notion: https://app.notion.com/p/Confirmation-Dialogs-for-Destructive-Actions-a99a9aed5344834f9d0201c7dbca8351
+File: library/feedback-and-error-handling/UX-202-confirmation-dialogs-for-destructive-actions.md
 
 ## UX-203 — Descriptive Wizard Navigation Button Labels
 - Score 4 · Feedback & Error Handling / Dialog Design
@@ -325,7 +325,7 @@ Notion: https://app.notion.com/p/Confirmation-Dialogs-for-Destructive-Actions-a9
 
 Sources: [Eleken — Modal UX](https://www.eleken.co/blog-posts/modal-ux) · [Nielsen Norman Group — Wizards: Definition and Design Recommendations](https://www.nngroup.com/articles/wizards/)
 Wireframe: https://files.catbox.moe/z7srb8.jpg
-Notion: https://app.notion.com/p/Descriptive-Wizard-Navigation-Button-Labels-18ca9aed53448318919281e63ac7971b
+File: library/feedback-and-error-handling/UX-203-descriptive-wizard-navigation-button-labels.md
 
 ## UX-204 — Notification Center with Categorization
 - Score 4 · Feedback & Error Handling / Notifications
@@ -339,4 +339,4 @@ Notion: https://app.notion.com/p/Descriptive-Wizard-Navigation-Button-Labels-18c
 
 Sources: [Carbon Design System — Notifications](https://carbondesignsystem.com/patterns/overview/)
 Wireframe: https://files.catbox.moe/c2nl3k.jpg
-Notion: https://app.notion.com/p/Notification-Center-with-Categorization-a79a9aed5344838783d381c1242c59b1
+File: library/feedback-and-error-handling/UX-204-notification-center-with-categorization.md

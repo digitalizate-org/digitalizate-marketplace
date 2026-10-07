@@ -20,7 +20,7 @@
 
 Sources: [Cognitive Load Theory — Wikipedia](https://en.wikipedia.org/wiki/Cognitive_load) · [Minimize Cognitive Load to Maximize Usability — Nielsen Norman Group](https://www.nngroup.com/articles/minimize-cognitive-load/) · [Reducing Cognitive Overload For A Better User Experience — Smashing Magazine](https://www.smashingmagazine.com/2016/09/reducing-cognitive-overload-for-a-better-user-experience/) · [Cognitive Load In UX Design — Think Design](https://think.design/blog/cognitive-load-in-ux-design/)
 Wireframe: https://files.catbox.moe/bovaka.jpg
-Notion: https://app.notion.com/p/Eliminate-Extraneous-Load-Design-Driven-Complexity-Reduction-834a9aed534482fa8d4901b03b708f4a
+File: library/cognitive-load/UX-445-eliminate-extraneous-load-design-driven-complexity-reduction.md
 
 ## UX-447 — Hick's Law: Minimize Choices at Decision Points
 - Score 5 · Cognitive Load / Decision Architecture
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Eliminate-Extraneous-Load-Design-Driven-Complex
 
 Sources: [Hick's Law — Laws of UX](https://lawsofux.com/hicks-law/) · [Hick's Law — Interaction Design Foundation](https://www.interaction-design.org/literature/article/hick-s-law-making-the-choice-easier-for-users) · [Hick's Law in UX — The Sigma](https://www.thesigma.co/journal/hicks-law-ux) · [Design Principles: Hick's Law — Marvel Blog](https://marvelapp.com/blog/design-principles-hicks-law%E2%80%8A-%E2%80%8Aquick-decision-making/)
 Wireframe: https://files.catbox.moe/dszor6.jpg
-Notion: https://app.notion.com/p/Hick-s-Law-Minimize-Choices-at-Decision-Points-42aa9aed534482478cf101cdbc0c79ca
+File: library/cognitive-load/UX-447-hick-s-law-minimize-choices-at-decision-points.md
 
 ## UX-451 — Schema Exploitation: Leverage Familiar Patterns to Reduce Learning Overhead
 - Score 5 · Cognitive Load / Mental Models
@@ -64,7 +64,7 @@ Notion: https://app.notion.com/p/Hick-s-Law-Minimize-Choices-at-Decision-Points-
 
 Sources: [Mental Models — Nielsen Norman Group](https://www.nngroup.com/articles/mental-models/) · [Schema Theory — UX Bulletin](https://www.ux-bulletin.com/schema-theory-structuring-ux-with-a-librarians-precision/) · [Jakob's Law — Helio](https://helio.app/ux-research/laws-of-ux/jakobs-law/) · [Schema Theory and UX/UI — LinkedIn](https://www.linkedin.com/pulse/schema-theory-its-impact-uxui-design-jo-ionescu-g2bjf)
 Wireframe: https://files.catbox.moe/auo29g.jpg
-Notion: https://app.notion.com/p/Schema-Exploitation-Leverage-Familiar-Patterns-to-Reduce-Learning-Overhead-1e0a9aed5344837fb5e901156d5eb672
+File: library/cognitive-load/UX-451-schema-exploitation-leverage-familiar-patterns-to-reduce-lea.md
 
 ## UX-462 — Mental Model Alignment: Bridge the Gap Between User Expectations and System Behavior
 - Score 5 · Cognitive Load / Mental Models
@@ -86,7 +86,7 @@ Notion: https://app.notion.com/p/Schema-Exploitation-Leverage-Familiar-Patterns-
 
 Sources: [Mental Models — Nielsen Norman Group](https://www.nngroup.com/articles/mental-models/) · [Schema Theory — UX Bulletin](https://www.ux-bulletin.com/schema-theory-structuring-ux-with-a-librarians-precision/) · [The Design of Everyday Things — Figr](https://figr.design/blog/the-design-of-everyday-things) · [Don Norman's Affordances — Interaction Design Foundation](https://www.interaction-design.org/literature/topics/affordances)
 Wireframe: https://files.catbox.moe/226ib1.jpg
-Notion: https://app.notion.com/p/Mental-Model-Alignment-Bridge-the-Gap-Between-User-Expectations-and-System-Behavior-603a9aed53448261bed001dd680d27b4
+File: library/cognitive-load/UX-462-mental-model-alignment-bridge-the-gap-between-user-expectati.md
 
 ## UX-463 — Form Cognitive Load: Structure, Transparency, Clarity, and Support
 - Score 5 · Cognitive Load / Form Design
@@ -108,7 +108,7 @@ Notion: https://app.notion.com/p/Mental-Model-Alignment-Bridge-the-Gap-Between-U
 
 Sources: [4 Principles to Reduce Cognitive Load in Forms — Nielsen Norman Group](https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/) · [Checkout UX Best Practices — Baymard Institute](https://baymard.com/blog/current-state-of-checkout-ux) · [E-Commerce Checkout Usability — Baymard Institute](https://baymard.com/research/checkout-usability)
 Wireframe: https://files.catbox.moe/cemwf5.jpg
-Notion: https://app.notion.com/p/Form-Cognitive-Load-Structure-Transparency-Clarity-and-Support-485a9aed534483d6811b817fd3e3278c
+File: library/cognitive-load/UX-463-form-cognitive-load-structure-transparency-clarity-and-suppo.md
 
 ## UX-465 — Recognition Over Recall: Minimize Memory Requirements
 - Score 5 · Cognitive Load / Working Memory
@@ -130,7 +130,7 @@ Notion: https://app.notion.com/p/Form-Cognitive-Load-Structure-Transparency-Clar
 
 Sources: [Working Memory and External Memory — Nielsen Norman Group](https://www.nngroup.com/articles/working-memory-external-memory/) · [Working Memory — Laws of UX](https://lawsofux.com/working-memory/) · [Don't Make Me Think — Readingraphics](https://readingraphics.com/book-summary-dont-make-me-think/) · [Reducing Cognitive Overload — Smashing Magazine](https://www.smashingmagazine.com/2016/09/reducing-cognitive-overload-for-a-better-user-experience/)
 Wireframe: https://files.catbox.moe/8gn07b.jpg
-Notion: https://app.notion.com/p/Recognition-Over-Recall-Minimize-Memory-Requirements-0bba9aed5344835f829081add89198ab
+File: library/cognitive-load/UX-465-recognition-over-recall-minimize-memory-requirements.md
 
 ## UX-466 — Selective Attention Design: Create One Clear Focal Point Per Screen
 - Score 5 · Cognitive Load / Attention Management
@@ -152,7 +152,7 @@ Notion: https://app.notion.com/p/Recognition-Over-Recall-Minimize-Memory-Require
 
 Sources: [Selective Attention & Content Blindness — UX Knowledge Base](https://uxknowledgebase.com/selective-attention-content-blindness-in-ux-design-e53033b597c6) · [Don't Make Me Think — Readingraphics](https://readingraphics.com/book-summary-dont-make-me-think/) · [Reducing Cognitive Overload — Full Clarity](https://fullclarity.co.uk/insights/cognitive-overload-in-ux-design/)
 Wireframe: https://files.catbox.moe/j945fk.jpg
-Notion: https://app.notion.com/p/Selective-Attention-Design-Create-One-Clear-Focal-Point-Per-Screen-0caa9aed5344832d8d49815188dedd21
+File: library/cognitive-load/UX-466-selective-attention-design-create-one-clear-focal-point-per.md
 
 ## UX-469 — Affordance Clarity: Make Interactivity Self-Evident
 - Score 5 · Cognitive Load / Extraneous Load Management
@@ -174,7 +174,7 @@ Notion: https://app.notion.com/p/Selective-Attention-Design-Create-One-Clear-Foc
 
 Sources: [Affordances — Interaction Design Foundation](https://www.interaction-design.org/literature/topics/affordances) · [The Design of Everyday Things — Figr](https://figr.design/blog/the-design-of-everyday-things) · [Don Norman's Seven Fundamental Design Principles — UX Collective](https://uxdesign.cc/ux-psychology-principles-seven-fundamental-design-principles-39c420a05f84)
 Wireframe: https://files.catbox.moe/zgy2jf.jpg
-Notion: https://app.notion.com/p/Affordance-Clarity-Make-Interactivity-Self-Evident-8eca9aed5344828d8897816ca1013cfb
+File: library/cognitive-load/UX-469-affordance-clarity-make-interactivity-self-evident.md
 
 ## UX-472 — Micro-Interaction Feedback: Close the Gulf of Evaluation Instantly
 - Score 5 · Cognitive Load / Feedback and Confirmation
@@ -196,7 +196,7 @@ Notion: https://app.notion.com/p/Affordance-Clarity-Make-Interactivity-Self-Evid
 
 Sources: [The Design of Everyday Things — Figr](https://figr.design/blog/the-design-of-everyday-things) · [4 Principles to Reduce Cognitive Load in Forms — Nielsen Norman Group](https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/) · [Affordances — Interaction Design Foundation](https://www.interaction-design.org/literature/topics/affordances)
 Wireframe: https://files.catbox.moe/avrgbj.jpg
-Notion: https://app.notion.com/p/Micro-Interaction-Feedback-Close-the-Gulf-of-Evaluation-Instantly-cdda9aed534482b991b781081e797fbb
+File: library/cognitive-load/UX-472-micro-interaction-feedback-close-the-gulf-of-evaluation-inst.md
 
 ## UX-446 — Chunking: Grouping Information Into Meaningful Units
 - Score 4 · Cognitive Load / Working Memory
@@ -218,7 +218,7 @@ Notion: https://app.notion.com/p/Micro-Interaction-Feedback-Close-the-Gulf-of-Ev
 
 Sources: [How Chunking Helps Content Processing — Nielsen Norman Group](https://www.nngroup.com/articles/chunking/) · [Miller's Law — Userbrain Blog](https://www.userbrain.com/blog/millers-law-important-rule-ux-design-everyone-breaks/) · [Miller's Law: when less becomes a plus —](https://www.kern-it.be/en/blog/miller-law-less-becomes-a-plus-for-great-user-experience/) · [kern-it.be](http://kern-it.be/) · [Miller's Law — LogRocket Blog](https://blog.logrocket.com/ux-design/millers-law-ux-design/)
 Wireframe: https://files.catbox.moe/6z5l84.jpg
-Notion: https://app.notion.com/p/Chunking-Grouping-Information-Into-Meaningful-Units-7f1a9aed53448362aa7481436bfdc52b
+File: library/cognitive-load/UX-446-chunking-grouping-information-into-meaningful-units.md
 
 ## UX-448 — Progressive Disclosure: Reveal Complexity on Demand
 - Score 4 · Cognitive Load / Complexity Management
@@ -240,7 +240,7 @@ Notion: https://app.notion.com/p/Chunking-Grouping-Information-Into-Meaningful-U
 
 Sources: [Progressive Disclosure — Interaction Design Foundation](https://www.interaction-design.org/literature/topics/progressive-disclosure) · [Progressive Disclosure in UX Design — LogRocket Blog](https://blog.logrocket.com/ux-design/progressive-disclosure-ux-types-use-cases/) · [Hick's Law — Laws of UX](https://lawsofux.com/hicks-law/) · [What is Progressive Disclosure? — UXPin](https://www.uxpin.com/studio/blog/what-is-progressive-disclosure/)
 Wireframe: https://files.catbox.moe/9zgjbp.jpg
-Notion: https://app.notion.com/p/Progressive-Disclosure-Reveal-Complexity-on-Demand-b4aa9aed5344827f85a601a32874ec69
+File: library/cognitive-load/UX-448-progressive-disclosure-reveal-complexity-on-demand.md
 
 ## UX-449 — Fix the Split-Attention Effect: Co-Locate Labels With Their Referents
 - Score 4 · Cognitive Load / Spatial Organization
@@ -262,7 +262,7 @@ Notion: https://app.notion.com/p/Progressive-Disclosure-Reveal-Complexity-on-Dem
 
 Sources: [Split Attention Effect — Taylor & Francis](https://taylorandfrancis.com/knowledge/Engineering_and_technology/Engineering_support_and_special_topics/Split_attention_effect/) · [4 Principles to Reduce Cognitive Load in Forms — Nielsen Norman Group](https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/) · [Label Placement in Forms — UXmatters](https://www.uxmatters.com/mt/archives/2006/07/label-placement-in-forms.php)
 Wireframe: https://files.catbox.moe/3p5zws.jpg
-Notion: https://app.notion.com/p/Fix-the-Split-Attention-Effect-Co-Locate-Labels-With-Their-Referents-fdfa9aed53448362af43016a8d10b79d
+File: library/cognitive-load/UX-449-fix-the-split-attention-effect-co-locate-labels-with-their-r.md
 
 ## UX-450 — Cognitive Offloading: Make the Interface a Working Memory Substitute
 - Score 4 · Cognitive Load / Working Memory
@@ -284,7 +284,7 @@ Notion: https://app.notion.com/p/Fix-the-Split-Attention-Effect-Co-Locate-Labels
 
 Sources: [Working Memory and External Memory — Nielsen Norman Group](https://www.nngroup.com/articles/working-memory-external-memory/) · [External Cognition in Product Design — Interaction Design Foundation](https://www.interaction-design.org/literature/article/external-cognition-in-product-design-3-ways-to-make-use-of-external-cognition-in-product-design) · [Working Memory — Laws of UX](https://lawsofux.com/working-memory/) · [Prospective Memory and UX — UX Psychology](https://uxpsychology.substack.com/p/prospective-memory-and-ux)
 Wireframe: https://files.catbox.moe/udzu7m.jpg
-Notion: https://app.notion.com/p/Cognitive-Offloading-Make-the-Interface-a-Working-Memory-Substitute-d1ba9aed534483aa882c0176cd8fc0e5
+File: library/cognitive-load/UX-450-cognitive-offloading-make-the-interface-a-working-memory-sub.md
 
 ## UX-453 — Inattentional Blindness Mitigation: Don't Rely on Peripheral Visibility
 - Score 4 · Cognitive Load / Attention Management
@@ -306,7 +306,7 @@ Notion: https://app.notion.com/p/Cognitive-Offloading-Make-the-Interface-a-Worki
 
 Sources: [Selective Attention & Content Blindness in UX Design — UX Knowledge Base](https://uxknowledgebase.com/selective-attention-content-blindness-in-ux-design-e53033b597c6) · [What Strategies Can Help Overcome Inattentional Blindness — ContextSDK](https://contextsdk.com/blogposts/what-strategies-can-help-overcome-inattentional-blindness-in-app-design) · [Cognitive Load — Wikipedia](https://en.wikipedia.org/wiki/Cognitive_load)
 Wireframe: https://files.catbox.moe/wel3x3.jpg
-Notion: https://app.notion.com/p/Inattentional-Blindness-Mitigation-Don-t-Rely-on-Peripheral-Visibility-cc0a9aed534483f4b967018dcd45cf27
+File: library/cognitive-load/UX-453-inattentional-blindness-mitigation-don-t-rely-on-peripheral.md
 
 ## UX-454 — Change Blindness Prevention: Make State Changes Unmistakable
 - Score 4 · Cognitive Load / Attention Management
@@ -328,7 +328,7 @@ Notion: https://app.notion.com/p/Inattentional-Blindness-Mitigation-Don-t-Rely-o
 
 Sources: [Change Blindness in UX — 3Pillar Global](https://www.3pillarglobal.com/insights/blog/change-blindness-in-ux-user-experience-best-practices/) · [Selective Attention & Content Blindness in UX — UX Knowledge Base](https://uxknowledgebase.com/selective-attention-content-blindness-in-ux-design-e53033b597c6)
 Wireframe: https://files.catbox.moe/9tb5a1.jpg
-Notion: https://app.notion.com/p/Change-Blindness-Prevention-Make-State-Changes-Unmistakable-f9ca9aed534483d0b0d1019d51860a0e
+File: library/cognitive-load/UX-454-change-blindness-prevention-make-state-changes-unmistakable.md
 
 ## UX-457 — Decision Fatigue Reduction: Front-Load Critical Choices
 - Score 4 · Cognitive Load / Decision Architecture
@@ -350,7 +350,7 @@ Notion: https://app.notion.com/p/Change-Blindness-Prevention-Make-State-Changes-
 
 Sources: [Decision Fatigue — Wikipedia](https://en.wikipedia.org/wiki/Decision_fatigue) · [Decision Fatigue: A Conceptual Analysis — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6119549/) · [Hick's Law — Laws of UX](https://lawsofux.com/hicks-law/) · [Don't Make Me Think — Readingraphics](https://readingraphics.com/book-summary-dont-make-me-think/)
 Wireframe: https://files.catbox.moe/c1yoz8.jpg
-Notion: https://app.notion.com/p/Decision-Fatigue-Reduction-Front-Load-Critical-Choices-e7da9aed534482a2b99081e006fb9a23
+File: library/cognitive-load/UX-457-decision-fatigue-reduction-front-load-critical-choices.md
 
 ## UX-461 — Intrinsic Load Management: Scaffold High-Complexity Tasks Sequentially
 - Score 4 · Cognitive Load / Task Complexity
@@ -372,7 +372,7 @@ Notion: https://app.notion.com/p/Decision-Fatigue-Reduction-Front-Load-Critical-
 
 Sources: [Cognitive Load Theory and Instructional Design — University of Kentucky](https://www.uky.edu/~gmswan3/544/Cognitive_Load_&_ID.pdf) · [Cognitive Load Theory Chapter — ODU](https://digitalcommons.odu.edu/cgi/viewcontent.cgi?article=1001&context=instructional_message_design_vol2) · [Cognitive Load — Wikipedia](https://en.wikipedia.org/wiki/Cognitive_load)
 Wireframe: https://files.catbox.moe/icbrvl.jpg
-Notion: https://app.notion.com/p/Intrinsic-Load-Management-Scaffold-High-Complexity-Tasks-Sequentially-4d1a9aed534482b4a8db816f064fb710
+File: library/cognitive-load/UX-461-intrinsic-load-management-scaffold-high-complexity-tasks-seq.md
 
 ## UX-464 — Visual Hierarchy as Cognitive Load Management
 - Score 4 · Cognitive Load / Extraneous Load Management
@@ -394,7 +394,7 @@ Notion: https://app.notion.com/p/Intrinsic-Load-Management-Scaffold-High-Complex
 
 Sources: [Minimize Cognitive Load to Maximize Usability — Nielsen Norman Group](https://www.nngroup.com/articles/minimize-cognitive-load/) · [Reducing Cognitive Overload — Full Clarity](https://fullclarity.co.uk/insights/cognitive-overload-in-ux-design/) · [Selective Attention & Blindness in UX — UX Knowledge Base](https://uxknowledgebase.com/selective-attention-content-blindness-in-ux-design-e53033b597c6)
 Wireframe: https://files.catbox.moe/a1wn1d.jpg
-Notion: https://app.notion.com/p/Visual-Hierarchy-as-Cognitive-Load-Management-d28a9aed534482d983690158fa598ce9
+File: library/cognitive-load/UX-464-visual-hierarchy-as-cognitive-load-management.md
 
 ## UX-468 — Cognitive Mapping Support: Give Users a Map of the System
 - Score 4 · Cognitive Load / Mental Models
@@ -416,7 +416,7 @@ Notion: https://app.notion.com/p/Visual-Hierarchy-as-Cognitive-Load-Management-d
 
 Sources: [Cognitive Maps in UX — Interaction Design Foundation](https://www.interaction-design.org/literature/article/cognitive-maps-ux) · [Cognitive Mapping — The Behavioral Scientist](https://www.thebehavioralscientist.com/glossary/cognitive-mapping) · [Mental Models — Nielsen Norman Group](https://www.nngroup.com/articles/mental-models/)
 Wireframe: https://files.catbox.moe/plb2oi.jpg
-Notion: https://app.notion.com/p/Cognitive-Mapping-Support-Give-Users-a-Map-of-the-System-6dba9aed534483bd8c4e81c721c2631d
+File: library/cognitive-load/UX-468-cognitive-mapping-support-give-users-a-map-of-the-system.md
 
 ## UX-470 — Working Memory Window Design: Limit Simultaneously Active Elements
 - Score 4 · Cognitive Load / Working Memory
@@ -438,7 +438,7 @@ Notion: https://app.notion.com/p/Cognitive-Mapping-Support-Give-Users-a-Map-of-t
 
 Sources: [Working Memory — Laws of UX](https://lawsofux.com/working-memory/) · [Scaling User Interfaces — Nielsen Norman Group](https://www.nngroup.com/articles/scaling-user-interfaces/) · [Working Memory and External Memory — Nielsen Norman Group](https://www.nngroup.com/articles/working-memory-external-memory/) · [How Context Switching Sabotages Productivity — Todoist](https://www.todoist.com/inspiration/context-switching)
 Wireframe: https://files.catbox.moe/4hqzkh.jpg
-Notion: https://app.notion.com/p/Working-Memory-Window-Design-Limit-Simultaneously-Active-Elements-afda9aed53448380a64b810f422e46cb
+File: library/cognitive-load/UX-470-working-memory-window-design-limit-simultaneously-active-ele.md
 
 ## UX-474 — Banner Blindness Prevention: Don't Let Critical Content Look Like an Ad
 - Score 4 · Cognitive Load / Attention Management
@@ -460,7 +460,7 @@ Notion: https://app.notion.com/p/Working-Memory-Window-Design-Limit-Simultaneous
 
 Sources: [Selective Attention & Content Blindness — UX Knowledge Base](https://uxknowledgebase.com/selective-attention-content-blindness-in-ux-design-e53033b597c6) · [Why Redundancy Improves Website Usability — Three Seven Marketing](https://www.threesevenmarketing.com/blog/redundant-is-usable/)
 Wireframe: https://files.catbox.moe/y7xsw9.jpg
-Notion: https://app.notion.com/p/Banner-Blindness-Prevention-Don-t-Let-Critical-Content-Look-Like-an-Ad-d66a9aed5344835f88fd0195d76f4b6f
+File: library/cognitive-load/UX-474-banner-blindness-prevention-don-t-let-critical-content-look.md
 
 ## UX-452 — Dual-Process Design: Route Routine Actions to System 1
 - Score 3 · Cognitive Load / Decision Architecture
@@ -482,7 +482,7 @@ Notion: https://app.notion.com/p/Banner-Blindness-Prevention-Don-t-Let-Critical-
 
 Sources: [Decision-Making in UX: The Two-System-Concept — Motivus](https://motivus.com/insights/decision-making-in-ux-the-two-system-concept-part-1/) · [Designing for the Mind: Dual Process Theory — LinkedIn](https://www.linkedin.com/pulse/guest-room-model-saurabh-kumar) · [Dual Process Theory — Learning Loop](https://learningloop.io/glossary/dual-process-theory) · [Better Decisions: Two Systems — UX Collective](https://uxdesign.cc/better-decisions-72e955c70a5c)
 Wireframe: https://files.catbox.moe/s5gnxj.jpg
-Notion: https://app.notion.com/p/Dual-Process-Design-Route-Routine-Actions-to-System-1-db6a9aed534483ba85998176b9a3f454
+File: library/cognitive-load/UX-452-dual-process-design-route-routine-actions-to-system-1.md
 
 ## UX-455 — Attention Residue Reduction: Minimize Context Switching in Multi-Panel UIs
 - Score 3 · Cognitive Load / Attention Management
@@ -504,7 +504,7 @@ Notion: https://app.notion.com/p/Dual-Process-Design-Route-Routine-Actions-to-Sy
 
 Sources: [How Context Switching Sabotages Your Productivity — Todoist](https://www.todoist.com/inspiration/context-switching) · [Cognitive Distance: Streamlining Context Switching — UXmatters](https://www.uxmatters.com/mt/archives/2024/12/cognitive-distance-streamlining-context-switching-in-ux.php) · [How Context Switching Reduces Workplace Productivity — Cannelevate](https://www.cannelevate.com.au/article/context-switching-productivity-hidden-cost-modern-work/)
 Wireframe: https://files.catbox.moe/8kza4i.jpg
-Notion: https://app.notion.com/p/Attention-Residue-Reduction-Minimize-Context-Switching-in-Multi-Panel-UIs-6b0a9aed5344837f8e098123adf8a6a1
+File: library/cognitive-load/UX-455-attention-residue-reduction-minimize-context-switching-in-mu.md
 
 ## UX-458 — Expertise Reversal Adaptation: Adaptive UI for Novice and Expert Users
 - Score 3 · Cognitive Load / Expertise-Responsive Design
@@ -526,7 +526,7 @@ Notion: https://app.notion.com/p/Attention-Residue-Reduction-Minimize-Context-Sw
 
 Sources: [The Expertise Reversal Effect — The eLearning Coach](https://theelearningcoach.com/learning/novice-versus-expert-design-strategies/) · [The Expertise Reversal Effect: When Good Instruction Goes Wrong — Instructional Design Tips](https://idtips.substack.com/p/the-expertise-reversal-effect-when) · [Expertise Reversal Effect — InnerDrive](https://www.innerdrive.co.uk/blog/expertise-reversal-effect-scaffolding/) · [Expertise Reversal Effect — PubMed](https://pubmed.ncbi.nlm.nih.gov/21443379/)
 Wireframe: https://files.catbox.moe/0r3j4v.jpg
-Notion: https://app.notion.com/p/Expertise-Reversal-Adaptation-Adaptive-UI-for-Novice-and-Expert-Users-dbaa9aed53448223919f01d299a46d84
+File: library/cognitive-load/UX-458-expertise-reversal-adaptation-adaptive-ui-for-novice-and-exp.md
 
 ## UX-459 — Avoid the Redundancy Effect: Don't Duplicate What Users Already Know
 - Score 3 · Cognitive Load / Extraneous Load Management
@@ -548,7 +548,7 @@ Notion: https://app.notion.com/p/Expertise-Reversal-Adaptation-Adaptive-UI-for-N
 
 Sources: [Reduce Redundancy — Nielsen Norman Group](https://www.nngroup.com/articles/reduce-redundancydecrease-duplicated-design-decisions/) · [The Same Link Twice — Nielsen Norman Group](https://www.nngroup.com/articles/duplicate-links/) · [Split Attention Effect — Taylor & Francis](https://taylorandfrancis.com/knowledge/Engineering_and_technology/Engineering_support_and_special_topics/Split_attention_effect/) · [Cognitive Load Theory — UKY](https://www.uky.edu/~gmswan3/544/Cognitive_Load_&_ID.pdf)
 Wireframe: https://files.catbox.moe/enui0p.jpg
-Notion: https://app.notion.com/p/Avoid-the-Redundancy-Effect-Don-t-Duplicate-What-Users-Already-Know-68da9aed534483e5a7de0169e0287e8f
+File: library/cognitive-load/UX-459-avoid-the-redundancy-effect-don-t-duplicate-what-users-alrea.md
 
 ## UX-467 — Temporal Discounting Alignment: Make Immediate Value Visible
 - Score 3 · Cognitive Load / Decision Architecture
@@ -570,7 +570,7 @@ Notion: https://app.notion.com/p/Avoid-the-Redundancy-Effect-Don-t-Duplicate-Wha
 
 Sources: [Delay Discounting — Learning Loop](https://learningloop.io/plays/psychology/delay-discounting) · [Decision Fatigue — Wikipedia](https://en.wikipedia.org/wiki/Decision_fatigue) · [Hick's Law — Interaction Design Foundation](https://www.interaction-design.org/literature/article/hick-s-law-making-the-choice-easier-for-users)
 Wireframe: https://files.catbox.moe/4dkwzg.jpg
-Notion: https://app.notion.com/p/Temporal-Discounting-Alignment-Make-Immediate-Value-Visible-f55a9aed534483d691fa019bbdb1a675
+File: library/cognitive-load/UX-467-temporal-discounting-alignment-make-immediate-value-visible.md
 
 ## UX-471 — Element Interactivity Management: Decouple Interconnected Decisions
 - Score 3 · Cognitive Load / Task Complexity
@@ -592,7 +592,7 @@ Notion: https://app.notion.com/p/Temporal-Discounting-Alignment-Make-Immediate-V
 
 Sources: [Cognitive Load Theory and Instructional Design — University of Kentucky](https://www.uky.edu/~gmswan3/544/Cognitive_Load_&_ID.pdf) · [Cognitive Load Theory Chapter — ODU](https://digitalcommons.odu.edu/cgi/viewcontent.cgi?article=1001&context=instructional_message_design_vol2) · [Cognitive Load — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10804965/)
 Wireframe: https://files.catbox.moe/oo5lc1.jpg
-Notion: https://app.notion.com/p/Element-Interactivity-Management-Decouple-Interconnected-Decisions-69fa9aed534483b8b01f019158427381
+File: library/cognitive-load/UX-471-element-interactivity-management-decouple-interconnected-dec.md
 
 ## UX-456 — Cognitive Tunneling Defense: Protect Critical Info in Stressed Users
 - Score 2 · Cognitive Load / Attention Management
@@ -614,7 +614,7 @@ Notion: https://app.notion.com/p/Element-Interactivity-Management-Decouple-Inter
 
 Sources: [Design Principles: Hick's Law — Marvel Blog](https://marvelapp.com/blog/design-principles-hicks-law%E2%80%8A-%E2%80%8Aquick-decision-making/) · [CASTLE Framework for Workplace Applications UX — Nielsen Norman Group](https://www.nngroup.com/articles/castle-framework/) · [Selective Attention & Content Blindness — UX Knowledge Base](https://uxknowledgebase.com/selective-attention-content-blindness-in-ux-design-e53033b597c6)
 Wireframe: https://files.catbox.moe/lgkm6x.jpg
-Notion: https://app.notion.com/p/Cognitive-Tunneling-Defense-Protect-Critical-Info-in-Stressed-Users-c22a9aed5344839c804d014ac7f32570
+File: library/cognitive-load/UX-456-cognitive-tunneling-defense-protect-critical-info-in-stresse.md
 
 ## UX-460 — Modality Effect: Pair Visual Content With Audio Narration for Complex Instructions
 - Score 2 · Cognitive Load / Multimodal Design
@@ -636,7 +636,7 @@ Notion: https://app.notion.com/p/Cognitive-Tunneling-Defense-Protect-Critical-In
 
 Sources: [The Modality Effect in Multimedia Instructions — Edinburgh](https://conferences.inf.ed.ac.uk/cogsci2001/pdf-files/1024.pdf) · [The Modality Effect: How to Maximize Learning — Mind My Learning](https://mindmylearning.com/blog/modality-effect-maximize-learning/) · [Mayer's 12 Principles of Multimedia Learning — Digital Learning Institute](https://www.digitallearninginstitute.com/blog/mayers-principles-multimedia-learning)
 Wireframe: https://files.catbox.moe/6sb50b.jpg
-Notion: https://app.notion.com/p/Modality-Effect-Pair-Visual-Content-With-Audio-Narration-for-Complex-Instructions-429a9aed53448360bf7181f8b6e14878
+File: library/cognitive-load/UX-460-modality-effect-pair-visual-content-with-audio-narration-for.md
 
 ## UX-473 — Germane Load Support: Design for Schema Building in Learning Interfaces
 - Score 2 · Cognitive Load / Learning and Onboarding
@@ -658,4 +658,4 @@ Notion: https://app.notion.com/p/Modality-Effect-Pair-Visual-Content-With-Audio-
 
 Sources: [Cognitive Load Theory and Instructional Design — University of Kentucky](https://www.uky.edu/~gmswan3/544/Cognitive_Load_&_ID.pdf) · [The Expertise Reversal Effect — The eLearning Coach](https://theelearningcoach.com/learning/novice-versus-expert-design-strategies/) · [Cognitive Load Theory — Wikipedia](https://en.wikipedia.org/wiki/Cognitive_load)
 Wireframe: https://files.catbox.moe/8qx743.jpg
-Notion: https://app.notion.com/p/Germane-Load-Support-Design-for-Schema-Building-in-Learning-Interfaces-703a9aed534483e99a45012ea31f473f
+File: library/cognitive-load/UX-473-germane-load-support-design-for-schema-building-in-learning.md

@@ -22,7 +22,7 @@
 **Measure.** Function Selection Accuracy (% correct tool chosen from registry); Parameter Extraction Rate (% required params correctly identified); Schema Validation Success (% calls passing validation checks); API Success Rate (% successful external function calls); Parallel Execution Efficiency (Latency reduction vs sequential); Token Usage Optimization (Context tokens per function call); Security Incident Rate (Injection/XSS attempts blocked); Cost per Task (Total cost: model + API + infrastructure)…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-387.png
-Notion: https://app.notion.com/p/Function-Calling-e5ba9aed534483ceb327017c194f628a
+File: library/agentic-patterns/AGP-080-function-calling.md
 
 ## AGP-030 — Code Execution
 - Score 4 · Agentic Patterns / Tool Use
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Function-Calling-e5ba9aed534483ceb327017c194f62
 **Measure.** MicroVM Startup Time (<125ms boot to userspace (vs minutes for VMs)); Security Isolation Rate (Hardware VM barriers + process isolation (target: 100%)); Resource Density (Thousands of microVMs per host with <5 MiB overhead); Performance Overhead (>95% bare-metal performance in microVM); Creation Rate (Up to 150 microVMs/second per host); Memory Elasticity (2-3 orders magnitude improvement with Faascale); Security Incident Rate (VM escapes + kernel compromises (target: 0%)); Cost Efficiency…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-386.png
-Notion: https://app.notion.com/p/Code-Execution-0a0a9aed534483fabcd381f32d50bbf5
+File: library/agentic-patterns/AGP-030-code-execution.md
 
 ## AGP-128 — Model Context Protocol (MCP)
 - Score 4 · Agentic Patterns / Tool Use
@@ -70,4 +70,4 @@ Notion: https://app.notion.com/p/Code-Execution-0a0a9aed534483fabcd381f32d50bbf5
 **Measure.** Tool-hop Latency (218ms average (Li & Xie 2025 study)); Integration Efficiency (25-40% improvement vs custom implementations); Protocol Failure Rate (0.7% (mainly parameter mismatches)); Development Time Reduction (50% faster project rollout times); Cost Optimization (30% reduction in integration costs); Session Establishment (Sub-second capability discovery & negotiation); Security Incident Rate (Token spoofing & confused deputy attacks); Ecosystem Growth (1000+ community MCP servers (2025))…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-388.png
-Notion: https://app.notion.com/p/Model-Context-Protocol-MCP-7e7a9aed5344839a9e2f8146def8cb00
+File: library/agentic-patterns/AGP-128-model-context-protocol-mcp.md

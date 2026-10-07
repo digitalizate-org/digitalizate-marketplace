@@ -20,7 +20,7 @@
 
 Sources: [Nielsen Norman Group – Commitment and Consistency in UX](https://www.nngroup.com/articles/commitment-consistency-ux/) · [IvyForms – Multi-Step vs Single-Step Forms](https://ivyforms.com/blog/multi-step-forms-single-step-forms/) · [Auth0 – Progressive Profiling](https://auth0.com/blog/progressive-profiling/) · [CXL – Cialdini Commitment Principle](https://cxl.com/blog/cialdinis-principles-persuasion/)
 Wireframe: https://files.catbox.moe/zcfjxv.jpg
-Notion: https://app.notion.com/p/Progressive-Commitment-via-Multi-Step-Onboarding-648a9aed534483f7b50b01af1802a3de
+File: library/behavioral-psychology/UX-358-progressive-commitment-via-multi-step-onboarding.md
 
 ## UX-359 — Social Proof Patterns: Reviews, Counters, and Activity Feeds
 - Score 5 · Behavioral Psychology / Social Proof
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Progressive-Commitment-via-Multi-Step-Onboardin
 
 Sources: [Nielsen Norman Group – Social Proof in UX](https://www.nngroup.com/articles/social-proof-ux/) · [UX Collective – Social Proof as Ancestral Habit](https://uxdesign.cc/social-proof-in-ux-an-ancestral-habit-demoted-to-dark-pattern-31d6c99e059a) · [LanderMagic – Social Proofing Examples](https://www.landermagic.com/blog/social-proofing-examples) · [Growth.Design](http://growth.design/) · [– Psychology Principles](https://growth.design/psychology)
 Wireframe: https://files.catbox.moe/w4l9lr.jpg
-Notion: https://app.notion.com/p/Social-Proof-Patterns-Reviews-Counters-and-Activity-Feeds-a28a9aed534482788789815aaa0ee92a
+File: library/behavioral-psychology/UX-359-social-proof-patterns-reviews-counters-and-activity-feeds.md
 
 ## UX-365 — Status Quo Bias and Strategic Default Settings
 - Score 5 · Behavioral Psychology / Status Quo Bias
@@ -64,7 +64,7 @@ Notion: https://app.notion.com/p/Social-Proof-Patterns-Reviews-Counters-and-Acti
 
 Sources: [UI-Patterns – Status Quo Bias](https://ui-patterns.com/patterns/Statusquo-bias) · [UX Collective – Design by Default](https://uxdesign.cc/design-by-default-the-impact-of-using-default-options-in-user-centered-design-926c4d24385c) · [Prosci – Nudge Theory](https://www.prosci.com/blog/nudge-theory) · [Coglode – Status Quo Bias Nugget](https://www.coglode.com/cookbook)
 Wireframe: https://files.catbox.moe/mehzai.jpg
-Notion: https://app.notion.com/p/Status-Quo-Bias-and-Strategic-Default-Settings-ad2a9aed5344826980e201d8902ef20b
+File: library/behavioral-psychology/UX-365-status-quo-bias-and-strategic-default-settings.md
 
 ## UX-369 — Goal Gradient Effect: Progress Visibility to Accelerate Completion
 - Score 5 · Behavioral Psychology / Goal Gradient Effect
@@ -86,7 +86,7 @@ Notion: https://app.notion.com/p/Status-Quo-Bias-and-Strategic-Default-Settings-
 
 Sources: [LogRocket – Goal Gradient Effect](https://blog.logrocket.com/ux-design/goal-gradient-effect/) · [UX Bulletin – Goal-Gradient Effect](https://www.ux-bulletin.com/goal-gradient-effect-in-ux/) · [Raw Studio – Goal Gradient Effect](https://raw.studio/blog/gamify-your-goals-how-the-goal-gradient-effect-can-hack-user-motivation/) · [Laws of UX](https://lawsofux.com/)
 Wireframe: https://files.catbox.moe/z0uuuz.jpg
-Notion: https://app.notion.com/p/Goal-Gradient-Effect-Progress-Visibility-to-Accelerate-Completion-90aa9aed5344829fa141012cf974399e
+File: library/behavioral-psychology/UX-369-goal-gradient-effect-progress-visibility-to-accelerate-compl.md
 
 ## UX-357 — Reciprocity Through Value-First Product Design
 - Score 4 · Behavioral Psychology / Reciprocity
@@ -108,7 +108,7 @@ Notion: https://app.notion.com/p/Goal-Gradient-Effect-Progress-Visibility-to-Acc
 
 Sources: [Nielsen Norman Group – Contextual Upselling](https://www.nngroup.com/articles/) · [CXL – Cialdini's 7 Principles of Persuasion](https://cxl.com/blog/cialdinis-principles-persuasion/) · [Irrational Labs – Behavioral Design](https://irrationallabs.com/) · [Monetizely – Reciprocity in SaaS](https://www.getmonetizely.com/articles/how-do-reciprocity-principles-influence-freemium-and-free-trial-success)
 Wireframe: https://files.catbox.moe/yorenv.jpg
-Notion: https://app.notion.com/p/Reciprocity-Through-Value-First-Product-Design-22ea9aed53448259a93701985f788b5b
+File: library/behavioral-psychology/UX-357-reciprocity-through-value-first-product-design.md
 
 ## UX-360 — Authority Signals: Badges, Certifications, and Expert Endorsements
 - Score 4 · Behavioral Psychology / Authority
@@ -130,7 +130,7 @@ Notion: https://app.notion.com/p/Reciprocity-Through-Value-First-Product-Design-
 
 Sources: [CXL – Authority Principle](https://cxl.com/blog/cialdinis-principles-persuasion/) · [Brand VM – Trust Signals in Web Design](https://www.brandvm.com/post/trust-signals-web-design) · [Jasmine Directory – UX Design for Credibility](https://www.jasminedirectory.com/blog/the-interface-of-trust-ux-design-for-credibility/) · [LogRocket – Persuasive Design Responsibly](https://blog.logrocket.com/ux-design/using-persuasive-design-responsibly/)
 Wireframe: https://files.catbox.moe/97ybg6.jpg
-Notion: https://app.notion.com/p/Authority-Signals-Badges-Certifications-and-Expert-Endorsements-d05a9aed5344838aa7068120dde1d53c
+File: library/behavioral-psychology/UX-360-authority-signals-badges-certifications-and-expert-endorseme.md
 
 ## UX-362 — Loss Aversion Framing for Upgrades and Warnings
 - Score 4 · Behavioral Psychology / Loss Aversion
@@ -152,7 +152,7 @@ Notion: https://app.notion.com/p/Authority-Signals-Badges-Certifications-and-Exp
 
 Sources: [Nielsen Norman Group – Prospect Theory and Loss Aversion](https://www.nngroup.com/articles/prospect-theory/) · [Interaction Design Foundation – Loss Aversion](https://www.interaction-design.org/literature/topics/loss-aversion) · [Muzli – How Framing Affects Decisions](https://medium.muz.li/how-framing-effects-your-decisions-4f4048d74362) · [Coglode – Loss Aversion Nugget](https://www.coglode.com/cookbook)
 Wireframe: https://files.catbox.moe/f8m9ja.jpg
-Notion: https://app.notion.com/p/Loss-Aversion-Framing-for-Upgrades-and-Warnings-ba6a9aed5344836ba4e78129fb395ad0
+File: library/behavioral-psychology/UX-362-loss-aversion-framing-for-upgrades-and-warnings.md
 
 ## UX-364 — The Endowment Effect: Ownership Psychology in Onboarding
 - Score 4 · Behavioral Psychology / Endowment Effect
@@ -174,7 +174,7 @@ Notion: https://app.notion.com/p/Loss-Aversion-Framing-for-Upgrades-and-Warnings
 
 Sources: [Nielsen Norman Group – Endowment Effect in UX](https://www.nngroup.com/videos/endowment-effect/) · [Learning Loop – Endowment Effect](https://learningloop.io/plays/psychology/endowment-effect) · [LinkedIn – Endowment Effect in UX](https://www.linkedin.com/pulse/endowment-effect-ux-design-how-use-aleksandra-smith-b84le) · [UX Collective – Design by Default](https://uxdesign.cc/design-by-default-the-impact-of-using-default-options-in-user-centered-design-926c4d24385c)
 Wireframe: https://files.catbox.moe/f98ees.jpg
-Notion: https://app.notion.com/p/The-Endowment-Effect-Ownership-Psychology-in-Onboarding-2f3a9aed53448337b67b81d7da05e810
+File: library/behavioral-psychology/UX-364-the-endowment-effect-ownership-psychology-in-onboarding.md
 
 ## UX-366 — Nudge Theory and Choice Architecture Design
 - Score 4 · Behavioral Psychology / Choice Architecture
@@ -196,7 +196,7 @@ Notion: https://app.notion.com/p/The-Endowment-Effect-Ownership-Psychology-in-On
 
 Sources: [Blink UX – Design Nudges for Behavior Change](https://blinkux.com/ideas/how-design-nudges-can-effect-behavior-change) · [Kite Metric – Nudge Theory in UX](https://kitemetric.com/blogs/nudge-theory-in-ux-guiding-users-ethically) · [UX Collective – Nudging as Design Method](https://uxdesign.cc/nudging-as-a-professional-design-method-b980a0de1da0) · [Prosci – Nudge Theory and Choice Architecture](https://www.prosci.com/blog/nudge-theory)
 Wireframe: https://files.catbox.moe/i0zjna.jpg
-Notion: https://app.notion.com/p/Nudge-Theory-and-Choice-Architecture-Design-e16a9aed5344835a8385016c9060b539
+File: library/behavioral-psychology/UX-366-nudge-theory-and-choice-architecture-design.md
 
 ## UX-367 — System 1 Design: Reducing Cognitive Load for Intuitive UIs
 - Score 4 · Behavioral Psychology / Dual Process Theory
@@ -218,7 +218,7 @@ Notion: https://app.notion.com/p/Nudge-Theory-and-Choice-Architecture-Design-e16
 
 Sources: [Motivus – Kahneman Two-System Concept in UX](https://motivus.com/insights/decision-making-in-ux-the-two-system-concept-part-1/) · [UX Collective – Better Decisions: Two Systems](https://uxdesign.cc/better-decisions-72e955c70a5c) · [Webflow – UX Lessons from Thinking Fast and Slow](https://moulay.webflow.io/post/ux-design-lessons-from-thinking-fast-and-slow) · [mm-software – How Decision Processes Guide Interface Design](https://www.mm-software.com/en/more-the-newsroom/detail/make-a-choice-part-2-how-human-decision-making-processes-guide-your-interface-design/)
 Wireframe: https://files.catbox.moe/vmvv80.jpg
-Notion: https://app.notion.com/p/System-1-Design-Reducing-Cognitive-Load-for-Intuitive-UIs-e40a9aed5344832a8b03810e71e64368
+File: library/behavioral-psychology/UX-367-system-1-design-reducing-cognitive-load-for-intuitive-uis.md
 
 ## UX-382 — Von Restorff Effect: Visual Isolation to Drive Attention
 - Score 4 · Behavioral Psychology / Cognitive Bias
@@ -240,7 +240,7 @@ Notion: https://app.notion.com/p/System-1-Design-Reducing-Cognitive-Load-for-Int
 
 Sources: [Laws of UX – Von Restorff Effect](https://lawsofux.com/) · [Growth.Design](http://growth.design/) · [– Psychology Principles](https://growth.design/psychology) · [Krotov Studio – Pricing Pages](https://krotovstudio.com/blog/web-design/pricing-pages-that-convert-layouts-anchors-and-risk-reducers/)
 Wireframe: https://files.catbox.moe/os3af5.jpg
-Notion: https://app.notion.com/p/Von-Restorff-Effect-Visual-Isolation-to-Drive-Attention-f1ca9aed53448354bc3781bab47e9bbe
+File: library/behavioral-psychology/UX-382-von-restorff-effect-visual-isolation-to-drive-attention.md
 
 ## UX-383 — Present Bias and Immediate Value Delivery in Onboarding
 - Score 4 · Behavioral Psychology / Cognitive Bias
@@ -262,7 +262,7 @@ Notion: https://app.notion.com/p/Von-Restorff-Effect-Visual-Isolation-to-Drive-A
 
 Sources: [Mind the Product – Behavioral Science in Product Design](https://www.mindtheproduct.com/how-to-design-products-using-behavioral-science/) · [Coglode – Present Bias](https://www.coglode.com/cookbook) · [Growth.Design](http://growth.design/) · [– Psychology Principles](https://growth.design/psychology) · [Irrational Labs – Behavioral Design Process](https://irrationallabs.com/)
 Wireframe: https://files.catbox.moe/3dlw8v.jpg
-Notion: https://app.notion.com/p/Present-Bias-and-Immediate-Value-Delivery-in-Onboarding-c9ca9aed534483d18fea017b5f733c32
+File: library/behavioral-psychology/UX-383-present-bias-and-immediate-value-delivery-in-onboarding.md
 
 ## UX-386 — Feedback Loops and Immediate Reinforcement for Habit Formation
 - Score 4 · Behavioral Psychology / Behavior Design
@@ -284,7 +284,7 @@ Notion: https://app.notion.com/p/Present-Bias-and-Immediate-Value-Delivery-in-On
 
 Sources: [UX Primer – Behavioral Design Patterns](https://articles.ux-primer.com/acing-ux-interviews-with-behavioral-design-pattern-insights-aaffdfb58fa4) · [Vrunik Design – Decision Fatigue and Feedback](https://vrunik.com/designing-for-decision-fatigue-how-ux-can-reduce-cognitive-overload/) · [Coglode – Feedback Loops](https://www.coglode.com/cookbook) · [Mind the Product – Behavioral Design](https://www.mindtheproduct.com/how-to-design-products-using-behavioral-science/)
 Wireframe: https://files.catbox.moe/4scjyd.jpg
-Notion: https://app.notion.com/p/Feedback-Loops-and-Immediate-Reinforcement-for-Habit-Formation-858a9aed534483fdb5e801a32e93664f
+File: library/behavioral-psychology/UX-386-feedback-loops-and-immediate-reinforcement-for-habit-formati.md
 
 ## UX-361 — Scarcity and Urgency Signals for Faster Decision-Making
 - Score 3 · Behavioral Psychology / Scarcity
@@ -306,7 +306,7 @@ Notion: https://app.notion.com/p/Feedback-Loops-and-Immediate-Reinforcement-for-
 
 Sources: [UI-Patterns – Scarcity Design Pattern](https://ui-patterns.com/patterns/Scarcity) · [CXL – Scarcity Principle](https://cxl.com/blog/cialdinis-principles-persuasion/) · [LogRocket – Persuasive Design](https://blog.logrocket.com/ux-design/using-persuasive-design-responsibly/)
 Wireframe: https://files.catbox.moe/vi1dke.jpg
-Notion: https://app.notion.com/p/Scarcity-and-Urgency-Signals-for-Faster-Decision-Making-4dca9aed5344831ea1978178ac45d4c1
+File: library/behavioral-psychology/UX-361-scarcity-and-urgency-signals-for-faster-decision-making.md
 
 ## UX-363 — Price Anchoring and Decoy Pricing Architecture
 - Score 3 · Behavioral Psychology / Anchoring Bias
@@ -328,7 +328,7 @@ Notion: https://app.notion.com/p/Scarcity-and-Urgency-Signals-for-Faster-Decisio
 
 Sources: [Interaction Design Foundation – Anchoring](https://www.interaction-design.org/literature/topics/anchoring) · [PayPro Global – Price Anchoring for SaaS](https://payproglobal.com/how-to/use-price-anchoring/) · [SBI Growth – Price Anchoring Strategy](https://sbigrowth.com/insights/price-anchoring-to-optimize-your-pricing-strategy) · [Krotov Studio – Pricing Pages That Convert](https://krotovstudio.com/blog/web-design/pricing-pages-that-convert-layouts-anchors-and-risk-reducers/)
 Wireframe: https://files.catbox.moe/dl7ju7.jpg
-Notion: https://app.notion.com/p/Price-Anchoring-and-Decoy-Pricing-Architecture-826a9aed5344826f8c4e8176a8b838e5
+File: library/behavioral-psychology/UX-363-price-anchoring-and-decoy-pricing-architecture.md
 
 ## UX-368 — BJ Fogg's Behavior Model: Motivation, Ability, and Prompts
 - Score 3 · Behavioral Psychology / Behavior Design
@@ -350,7 +350,7 @@ Notion: https://app.notion.com/p/Price-Anchoring-and-Decoy-Pricing-Architecture-
 
 Sources: [Northbeam – Fogg Behavior Model](https://www.northbeam.io/blog/fogg-behavior-model-motivation-ability-and-prompts) · [UI-Patterns – Making the Fogg Model Actionable](https://ui-patterns.com/blog/making-the-fogg-behavior-model-actionable) · [The Decision Lab – Fogg Behavior Model](https://thedecisionlab.com/reference-guide/psychology/fogg-behavior-model) · [Rock Health – Behavior Design with BJ Fogg](https://rockhealth.com/behavior-design-with-bj-fogg/)
 Wireframe: https://files.catbox.moe/ho5cz8.jpg
-Notion: https://app.notion.com/p/BJ-Fogg-s-Behavior-Model-Motivation-Ability-and-Prompts-7fca9aed53448392b38781648f0a8713
+File: library/behavioral-psychology/UX-368-bj-fogg-s-behavior-model-motivation-ability-and-prompts.md
 
 ## UX-370 — Zeigarnik Effect: Unfinished Tasks Drive Return Engagement
 - Score 3 · Behavioral Psychology / Completion Psychology
@@ -372,7 +372,7 @@ Notion: https://app.notion.com/p/BJ-Fogg-s-Behavior-Model-Motivation-Ability-and
 
 Sources: [NNgroup – Zeigarnik Effect in UX (YouTube)](https://www.youtube.com/watch?v=c5MeMyjxxhA) · [UX Collective – Zeigarnik Effect in Design](https://uxdesign.cc/psychology-in-design-the-zeigarnik-effect-a59317503f8f) · [GeeksforGeeks – Zeigarnik Effect in UX](https://www.geeksforgeeks.org/techtips/zeigarnik-effect-in-ux-design/) · [Coglode – Zeigarnik Effect Nugget](https://www.coglode.com/cookbook)
 Wireframe: https://files.catbox.moe/x0uwzm.jpg
-Notion: https://app.notion.com/p/Zeigarnik-Effect-Unfinished-Tasks-Drive-Return-Engagement-d9ea9aed5344830c851701cb63dbe591
+File: library/behavioral-psychology/UX-370-zeigarnik-effect-unfinished-tasks-drive-return-engagement.md
 
 ## UX-371 — Peak-End Rule: Engineering Memorable Session Moments
 - Score 3 · Behavioral Psychology / Peak-End Rule
@@ -394,7 +394,7 @@ Notion: https://app.notion.com/p/Zeigarnik-Effect-Unfinished-Tasks-Drive-Return-
 
 Sources: [Laws of UX – Peak-End Rule](https://lawsofux.com/peak-end-rule/) · [Webflow – UX Lessons from Thinking Fast and Slow](https://moulay.webflow.io/post/ux-design-lessons-from-thinking-fast-and-slow) · [Umbrex – Peak-End Rule in Experience Design](https://umbrex.com/resources/frameworks/marketing-frameworks/peak-end-rule-experience-design/) · [Design Psychologist Podcast – Peak-End Rule](https://designpsychologist.buzzsprout.com/2395044/episodes/17752274-the-peak-end-rule-in-design-what-we-take-away)
 Wireframe: https://files.catbox.moe/o43jfq.jpg
-Notion: https://app.notion.com/p/Peak-End-Rule-Engineering-Memorable-Session-Moments-e79a9aed534483e5bd40818bad13e8c9
+File: library/behavioral-psychology/UX-371-peak-end-rule-engineering-memorable-session-moments.md
 
 ## UX-372 — Hick's Law and Decision Fatigue Reduction
 - Score 3 · Behavioral Psychology / Decision Fatigue
@@ -416,7 +416,7 @@ Notion: https://app.notion.com/p/Peak-End-Rule-Engineering-Memorable-Session-Mom
 
 Sources: [Heurilens – Decision Fatigue in Interfaces](https://heurilens.com/blog/decision-fatigue-in-interfaces) · [Vrunik Design – Designing for Decision Fatigue](https://vrunik.com/designing-for-decision-fatigue-how-ux-can-reduce-cognitive-overload/) · [Laws of UX – Hick's Law](https://lawsofux.com/) · [mm-software – Decision Processes and Interface Design](https://www.mm-software.com/en/more-the-newsroom/detail/make-a-choice-part-2-how-human-decision-making-processes-guide-your-interface-design/)
 Wireframe: https://files.catbox.moe/m74xmp.jpg
-Notion: https://app.notion.com/p/Hick-s-Law-and-Decision-Fatigue-Reduction-d8da9aed534483b387148145b02bcc2a
+File: library/behavioral-psychology/UX-372-hick-s-law-and-decision-fatigue-reduction.md
 
 ## UX-373 — Paradox of Choice: Curated Paths and Reduced Option Sets
 - Score 3 · Behavioral Psychology / Paradox of Choice
@@ -438,7 +438,7 @@ Notion: https://app.notion.com/p/Hick-s-Law-and-Decision-Fatigue-Reduction-d8da9
 
 Sources: [UserTesting – Paradox of Choice in UX](https://www.usertesting.com/blog/how-to-use-the-paradox-of-choice-in-ux-design) · [LinkedIn – Paradox of Choice in Digital Product Design](https://www.linkedin.com/pulse/paradox-choice-navigating-fine-line-digital-product-design-rea) · [Laws of UX – Paradox of Choice](https://lawsofux.com/) · [Robert Ladkani Design – Psychology of Choice](https://robertladkani.com/the-psychology-of-choice-leveraging-decision-making-principles-in-ui-ux-design/)
 Wireframe: https://files.catbox.moe/m0b64u.jpg
-Notion: https://app.notion.com/p/Paradox-of-Choice-Curated-Paths-and-Reduced-Option-Sets-d39a9aed534482d4b12c81871811a8eb
+File: library/behavioral-psychology/UX-373-paradox-of-choice-curated-paths-and-reduced-option-sets.md
 
 ## UX-374 — Progressive Profiling: Gradually Building User Data Over Time
 - Score 3 · Behavioral Psychology / Commitment and Consistency
@@ -456,11 +456,11 @@ Notion: https://app.notion.com/p/Paradox-of-Choice-Curated-Paths-and-Reduced-Opt
 - Implement a progress indicator on profile completeness that shows users what additional insights they'll unlock by completing their profile
 - Track progressive profiling data in your CRM to avoid re-asking questions already answered
 
-**Measure.** Adoption & Retention: Returning visitors, Signup completion rate; Engagement & Usage: Active users, Feature usage; Revenue: Conversion rate; Satisfaction & Perception: Ease-of-use score, CSAT; How to measure: Track the rate at which users complete optional profile or preference fields across sessions via analytics; compare data completeness between progressive profiling flows and one-time onboarding questionnaires; measure drop-off at each incremental request step.; -; Require only email (or…
+**Measure.** Adoption & Retention: Returning visitors, Signup completion rate; Engagement & Usage: Active users, Feature usage; Revenue: Conversion rate; Satisfaction & Perception: Ease-of-use score, CSAT; How to measure: Track the rate at which users complete optional profile or preference fields across sessions via analytics; compare data completeness between progressive profiling flows and one-time onboarding questionnaires; measure drop-off at each incremental request step.; Require only email (or…
 
 Sources: [Auth0 – Progressive Profiling](https://auth0.com/blog/progressive-profiling/) · [Descope – Progressive Profiling 101](https://www.descope.com/learn/post/progressive-profiling) · [Monday.com](http://monday.com/) · [– Lead Generation Forms](https://monday.com/blog/crm-and-sales/lead-generation-forms/) · [Nielsen Norman Group – Commitment and Consistency](https://www.nngroup.com/articles/commitment-consistency-ux/)
 Wireframe: https://files.catbox.moe/iymkqt.jpg
-Notion: https://app.notion.com/p/Progressive-Profiling-Gradually-Building-User-Data-Over-Time-bd4a9aed534482cc8038816c2ca50f97
+File: library/behavioral-psychology/UX-374-progressive-profiling-gradually-building-user-data-over-time.md
 
 ## UX-375 — Liking Principle: Brand Personification and Relatable Design
 - Score 3 · Behavioral Psychology / Liking
@@ -482,7 +482,7 @@ Notion: https://app.notion.com/p/Progressive-Profiling-Gradually-Building-User-D
 
 Sources: [CXL – Liking Principle](https://cxl.com/blog/cialdinis-principles-persuasion/) · [Two Hours Sleep – Persuasion Principles in Web Design](https://www.twohourssleep.com/designing-for-persuasion-how-to-use-the-principles-of-influence-in-web-development/) · [UX Planet – Applying Persuasion Principles](https://uxplanet.org/applying-principles-of-persuasion-in-ux-design-ce3edeb934ae)
 Wireframe: https://files.catbox.moe/y5ooq3.jpg
-Notion: https://app.notion.com/p/Liking-Principle-Brand-Personification-and-Relatable-Design-787a9aed534483178dff810b0851aad7
+File: library/behavioral-psychology/UX-375-liking-principle-brand-personification-and-relatable-design.md
 
 ## UX-377 — Framing Effects: Positive vs. Negative Framing for User Decisions
 - Score 3 · Behavioral Psychology / Framing Effects
@@ -504,7 +504,7 @@ Notion: https://app.notion.com/p/Liking-Principle-Brand-Personification-and-Rela
 
 Sources: [Muzli – How Framing Affects Decisions](https://medium.muz.li/how-framing-effects-your-decisions-4f4048d74362) · [Nielsen Norman Group – Prospect Theory](https://www.nngroup.com/articles/prospect-theory/) · [mm-software – Decision Processes and Interface Design](https://www.mm-software.com/en/more-the-newsroom/detail/make-a-choice-part-2-how-human-decision-making-processes-guide-your-interface-design/) · [Coglode – Framing Nugget](https://www.coglode.com/cookbook)
 Wireframe: https://files.catbox.moe/gxfrsk.jpg
-Notion: https://app.notion.com/p/Framing-Effects-Positive-vs-Negative-Framing-for-User-Decisions-2f7a9aed5344831daf3d81e5f8eef770
+File: library/behavioral-psychology/UX-377-framing-effects-positive-vs-negative-framing-for-user-decisi.md
 
 ## UX-378 — Scarcity of Social Demand: FOMO and Real-Time Activity Signals
 - Score 3 · Behavioral Psychology / Social Proof
@@ -526,7 +526,7 @@ Notion: https://app.notion.com/p/Framing-Effects-Positive-vs-Negative-Framing-fo
 
 Sources: [UI-Patterns – Scarcity Pattern](https://ui-patterns.com/patterns/Scarcity) · [LanderMagic – Social Proofing Examples](https://www.landermagic.com/blog/social-proofing-examples) · [Dynamic Yield – Social Proof Notifications](https://support.dynamicyield.com/hc/en-us/articles/360033904953-Motivate-Shoppers-with-a-Social-Proof-Notification) · [Growth.Design](http://growth.design/) · [– Psychology Principles](https://growth.design/psychology)
 Wireframe: https://files.catbox.moe/cncp50.jpg
-Notion: https://app.notion.com/p/Scarcity-of-Social-Demand-FOMO-and-Real-Time-Activity-Signals-5aba9aed5344826db91d819d3bc4c2b0
+File: library/behavioral-psychology/UX-378-scarcity-of-social-demand-fomo-and-real-time-activity-signal.md
 
 ## UX-379 — Aesthetic-Usability Effect: Perceived Beauty Signals Perceived Quality
 - Score 3 · Behavioral Psychology / Cognitive Bias
@@ -548,7 +548,7 @@ Notion: https://app.notion.com/p/Scarcity-of-Social-Demand-FOMO-and-Real-Time-Ac
 
 Sources: [Laws of UX – Aesthetic-Usability Effect](https://lawsofux.com/) · [Jasmine Directory – Interface of Trust](https://www.jasminedirectory.com/blog/the-interface-of-trust-ux-design-for-credibility/)
 Wireframe: https://files.catbox.moe/dm31yy.jpg
-Notion: https://app.notion.com/p/Aesthetic-Usability-Effect-Perceived-Beauty-Signals-Perceived-Quality-922a9aed53448355a553014652b4d4ca
+File: library/behavioral-psychology/UX-379-aesthetic-usability-effect-perceived-beauty-signals-perceive.md
 
 ## UX-380 — Gamification and Reward Systems for Behavioral Reinforcement
 - Score 3 · Behavioral Psychology / Gamification
@@ -570,7 +570,7 @@ Notion: https://app.notion.com/p/Aesthetic-Usability-Effect-Perceived-Beauty-Sig
 
 Sources: [LogRocket – Goal Gradient Effect and Gamification](https://blog.logrocket.com/ux-design/goal-gradient-effect/) · [UX Magazine – Hot Streak Game Design](https://uxmag.com/articles/the-psychology-of-hot-streak-game-design-how-to-keep-players-coming-back-every-day-without-shame) · [Growth.Design](http://growth.design/) · [– Psychology Principles](https://growth.design/psychology) · [Coglode – Goal Gradient and Collection Bias](https://www.coglode.com/cookbook)
 Wireframe: https://files.catbox.moe/uc4mpc.jpg
-Notion: https://app.notion.com/p/Gamification-and-Reward-Systems-for-Behavioral-Reinforcement-1f9a9aed534483e3a926816173a993b3
+File: library/behavioral-psychology/UX-380-gamification-and-reward-systems-for-behavioral-reinforcement.md
 
 ## UX-385 — Autonomy Bias and User Control as Engagement Driver
 - Score 3 · Behavioral Psychology / Cognitive Bias
@@ -592,7 +592,7 @@ Notion: https://app.notion.com/p/Gamification-and-Reward-Systems-for-Behavioral-
 
 Sources: [Coglode – Autonomy Bias](https://www.coglode.com/cookbook) · [Blink UX – Nudge Theory Ethics](https://blinkux.com/ideas/how-design-nudges-can-effect-behavior-change) · [Growth.Design](http://growth.design/) · [– Psychology](https://growth.design/psychology) · [Kite Metric – Ethical Nudging](https://kitemetric.com/blogs/nudge-theory-in-ux-guiding-users-ethically)
 Wireframe: https://files.catbox.moe/746cy7.jpg
-Notion: https://app.notion.com/p/Autonomy-Bias-and-User-Control-as-Engagement-Driver-42ba9aed53448304af940109a43412a6
+File: library/behavioral-psychology/UX-385-autonomy-bias-and-user-control-as-engagement-driver.md
 
 ## UX-381 — Certainty Effect and Guaranteed Small Wins vs. Variable Large Rewards
 - Score 2 · Behavioral Psychology / Prospect Theory
@@ -614,7 +614,7 @@ Notion: https://app.notion.com/p/Autonomy-Bias-and-User-Control-as-Engagement-Dr
 
 Sources: [Coglode – Certainty Effect Nugget](https://www.coglode.com/cookbook) · [Nielsen Norman Group – Prospect Theory](https://www.nngroup.com/articles/prospect-theory/) · [Coglode – Loss Aversion](https://www.coglode.com/nuggets)
 Wireframe: https://files.catbox.moe/n7rr7h.jpg
-Notion: https://app.notion.com/p/Certainty-Effect-and-Guaranteed-Small-Wins-vs-Variable-Large-Rewards-eeaa9aed534483f9a58d81d776f74b25
+File: library/behavioral-psychology/UX-381-certainty-effect-and-guaranteed-small-wins-vs-variable-large.md
 
 ## UX-384 — Social Norms and 'Dynamic Norms' for Behavior Change
 - Score 2 · Behavioral Psychology / Social Proof
@@ -636,7 +636,7 @@ Notion: https://app.notion.com/p/Certainty-Effect-and-Guaranteed-Small-Wins-vs-V
 
 Sources: [Coglode – Dynamic Norms](https://www.coglode.com/cookbook) · [Irrational Labs – Social Norms in Product Design](https://irrationallabs.com/) · [Mind the Product – Behavioral Science](https://www.mindtheproduct.com/how-to-design-products-using-behavioral-science/) · [Northbeam – Fogg Behavior Model Belonging](https://www.northbeam.io/blog/fogg-behavior-model-motivation-ability-and-prompts)
 Wireframe: https://files.catbox.moe/s2ldy6.jpg
-Notion: https://app.notion.com/p/Social-Norms-and-Dynamic-Norms-for-Behavior-Change-19ea9aed53448252ba89019a809d85c0
+File: library/behavioral-psychology/UX-384-social-norms-and-dynamic-norms-for-behavior-change.md
 
 ## UX-376 — Behavioral Irrational Labs 3B Framework: Behavior, Barriers, Benefits
 - Score 1 · Behavioral Psychology / Behavior Design
@@ -658,4 +658,4 @@ Notion: https://app.notion.com/p/Social-Norms-and-Dynamic-Norms-for-Behavior-Cha
 
 Sources: [Irrational Labs – The 3Bs Approach (PDF)](https://irrationallabs.com/content/uploads/2020/07/Irrational-Labs-The-3Bs-Approach.pdf) · [Mind the Product – Designing Products with Behavioral Science](https://www.mindtheproduct.com/how-to-design-products-using-behavioral-science/) · [Irrational Labs](https://irrationallabs.com/)
 Wireframe: https://files.catbox.moe/ahttz4.jpg
-Notion: https://app.notion.com/p/Behavioral-Irrational-Labs-3B-Framework-Behavior-Barriers-Benefits-542a9aed53448317b864815d0d5ef32e
+File: library/behavioral-psychology/UX-376-behavioral-irrational-labs-3b-framework-behavior-barriers-be.md

@@ -19,7 +19,7 @@
 
 Sources: [UIUXDesigning — Gestalt Common Fate](https://uiuxdesigning.com/gestalt-common-fate/) · [ToucanToco — Gestalt in Data Visualization](https://www.toucantoco.com/en/blog/data-viz-best-practices-gestalt-principles)
 Wireframe: https://files.catbox.moe/0joimz.jpg
-Notion: https://app.notion.com/p/Common-Fate-in-Animated-Data-Visualization-c1ba9aed5344835ca31e018919e2adbe
+File: library/gestalt-principles/UX-525-common-fate-in-animated-data-visualization.md
 
 ## UX-526 — Common Fate in Drag-and-Drop Interfaces
 - Score 4 · Gestalt Principles / Common Fate
@@ -40,7 +40,7 @@ Notion: https://app.notion.com/p/Common-Fate-in-Animated-Data-Visualization-c1ba
 
 Sources: [UIUXDesigning — Gestalt Common Fate](https://uiuxdesigning.com/gestalt-common-fate/) · [Gestalt Principles — Common Fate](https://www.gestaltprinciples.com/principles/common-fate)
 Wireframe: https://files.catbox.moe/pleaiu.jpg
-Notion: https://app.notion.com/p/Common-Fate-in-Drag-and-Drop-Interfaces-d99a9aed534482ad8aeb81aad3cb76ec
+File: library/gestalt-principles/UX-526-common-fate-in-drag-and-drop-interfaces.md
 
 ## UX-529 — Closure to Eliminate Redundant Chart Borders
 - Score 4 · Gestalt Principles / Closure — Data Visualization
@@ -61,7 +61,7 @@ Notion: https://app.notion.com/p/Common-Fate-in-Drag-and-Drop-Interfaces-d99a9ae
 
 Sources: [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/) · [Data Organisation — Gestalt in Dashboards](https://data-organisation.com/how-to-apply-the-6-gestalt-principles-in-a-dashboard/?lang=en)
 Wireframe: https://files.catbox.moe/w55ppk.jpg
-Notion: https://app.notion.com/p/Closure-to-Eliminate-Redundant-Chart-Borders-6eea9aed534483afb587019d53f96c0d
+File: library/gestalt-principles/UX-529-closure-to-eliminate-redundant-chart-borders.md
 
 ## UX-531 — Selective Enclosure to Create Dashboard Hierarchy
 - Score 4 · Gestalt Principles / Common Region
@@ -81,7 +81,7 @@ Notion: https://app.notion.com/p/Closure-to-Eliminate-Redundant-Chart-Borders-6e
 
 Sources: [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/) · [Viz Zen Data — Gestalt in Data Visualization](https://vizzendata.com/2020/07/06/utilizing-gestalt-principles-to-improve-your-data-visualization-design/)
 Wireframe: https://files.catbox.moe/042pww.jpg
-Notion: https://app.notion.com/p/Selective-Enclosure-to-Create-Dashboard-Hierarchy-34fa9aed53448310b9eb012aa050c01a
+File: library/gestalt-principles/UX-531-selective-enclosure-to-create-dashboard-hierarchy.md
 
 ## UX-534 — Invariance for Cross-Platform Icon Recognition
 - Score 4 · Gestalt Principles / Invariance
@@ -102,7 +102,7 @@ Notion: https://app.notion.com/p/Selective-Enclosure-to-Create-Dashboard-Hierarc
 
 Sources: [Lazarev Agency — Gestalt Principles](https://www.lazarev.agency/articles/gestalt-principles-of-design) · [HeyMarvin — Gestalt Principles](https://heymarvin.com/resources/gestalt-principles-examples-in-real-life)
 Wireframe: https://files.catbox.moe/8os55i.jpg
-Notion: https://app.notion.com/p/Invariance-for-Cross-Platform-Icon-Recognition-ddca9aed534482558d3801bb53550947
+File: library/gestalt-principles/UX-534-invariance-for-cross-platform-icon-recognition.md
 
 ## UX-538 — Gestalt Combination: Similarity + Common Fate for Filter-Driven Dashboards
 - Score 4 · Gestalt Principles / Advanced Combination: Similarity + Common Fate
@@ -123,7 +123,7 @@ Notion: https://app.notion.com/p/Invariance-for-Cross-Platform-Icon-Recognition-
 
 Sources: [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/) · [UIUXDesigning — Common Fate](https://uiuxdesigning.com/gestalt-common-fate/)
 Wireframe: https://files.catbox.moe/u1xjse.jpg
-Notion: https://app.notion.com/p/Gestalt-Combination-Similarity-Common-Fate-for-Filter-Driven-Dashboards-38ba9aed53448335803a815bf48b524f
+File: library/gestalt-principles/UX-538-gestalt-combination-similarity-common-fate-for-filter-driven.md
 
 ## UX-539 — Gestalt Combination: Figure-Ground + Continuation for Contextual Sidebars
 - Score 4 · Gestalt Principles / Advanced Combination: Figure-Ground + Continuation
@@ -144,7 +144,7 @@ Notion: https://app.notion.com/p/Gestalt-Combination-Similarity-Common-Fate-for-
 
 Sources: [UX Planet — Figure/Ground](https://uxplanet.org/improving-your-designs-with-gestalt-principles-figure-ground-26429a3eccad) · [Lazarev Agency — Gestalt Principles](https://www.lazarev.agency/articles/gestalt-principles-of-design)
 Wireframe: https://files.catbox.moe/y632du.jpg
-Notion: https://app.notion.com/p/Gestalt-Combination-Figure-Ground-Continuation-for-Contextual-Sidebars-ca6a9aed534483f3b0c781e62116f70c
+File: library/gestalt-principles/UX-539-gestalt-combination-figure-ground-continuation-for-contextua.md
 
 ## UX-542 — Symmetry for Dashboard Layout Structural Signaling
 - Score 4 · Gestalt Principles / Symmetry
@@ -165,7 +165,7 @@ Notion: https://app.notion.com/p/Gestalt-Combination-Figure-Ground-Continuation-
 
 Sources: [Hurree — Gestalt in Dashboard Design](https://blog.hurree.co/this-psychology-principle-will-make-your-dashboards-more-powerful) · [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles) · [Data Organisation — Gestalt in Dashboards](https://data-organisation.com/how-to-apply-the-6-gestalt-principles-in-a-dashboard/?lang=en)
 Wireframe: https://files.catbox.moe/kouh99.jpg
-Notion: https://app.notion.com/p/Symmetry-for-Dashboard-Layout-Structural-Signaling-0dca9aed534482f9a45d01c1c57db672
+File: library/gestalt-principles/UX-542-symmetry-for-dashboard-layout-structural-signaling.md
 
 ## UX-543 — Gestalt Multistability: Avoiding Ambiguous UI Elements
 - Score 4 · Gestalt Principles / Multistability — Anti-Pattern
@@ -186,4 +186,4 @@ Notion: https://app.notion.com/p/Symmetry-for-Dashboard-Layout-Structural-Signal
 
 Sources: [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles) · [Lazarev Agency — Gestalt Principles](https://www.lazarev.agency/articles/gestalt-principles-of-design) · [HeyMarvin — Gestalt Principles](https://heymarvin.com/resources/gestalt-principles-examples-in-real-life)
 Wireframe: https://files.catbox.moe/64tjgo.jpg
-Notion: https://app.notion.com/p/Gestalt-Multistability-Avoiding-Ambiguous-UI-Elements-997a9aed5344834199fd016efe6a61ef
+File: library/gestalt-principles/UX-543-gestalt-multistability-avoiding-ambiguous-ui-elements.md

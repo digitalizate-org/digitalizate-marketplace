@@ -1,7 +1,7 @@
 {
   "name": "digitalizate-design-practices",
-  "description": "Librería de buenas prácticas de UX y product design compilada desde Notion, con skills para construir (ux-build), auditar (ux-review), sincronizar (ux-sync) y enriquecer (ux-enrich) interfaces.",
-  "version": "0.1.0",
+  "description": "Librería de buenas prácticas de UX y product design en markdown (library/), compilada en skills para construir (ux-build), auditar (ux-review), sincronizar (ux-sync) y enriquecer (ux-enrich) interfaces.",
+  "version": "0.2.0",
   "author": {
     "name": "Estiven Valencia"
   },

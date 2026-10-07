@@ -14,7 +14,7 @@
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-456.png
-Notion: https://app.notion.com/p/RDF-Knowledge-Modeling-RDF-55da9aed5344830a920d01d3f81f00ed
+File: library/agentic-patterns/AGP-151-rdf-knowledge-modeling-rdf.md
 
 ## AGP-102 — Knowledge Graph Construction (KGC)
 - Score 1 · Agentic Patterns / Knowledge Representation
@@ -30,7 +30,7 @@ Notion: https://app.notion.com/p/RDF-Knowledge-Modeling-RDF-55da9aed5344830a920d
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-454.png
-Notion: https://app.notion.com/p/Knowledge-Graph-Construction-KGC-520a9aed53448212805281d309c83523
+File: library/agentic-patterns/AGP-102-knowledge-graph-construction-kgc.md
 
 ## AGP-138 — OWL Ontological Reasoning (OWL)
 - Score 1 · Agentic Patterns / Knowledge Representation
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Knowledge-Graph-Construction-KGC-520a9aed534482
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-455.png
-Notion: https://app.notion.com/p/OWL-Ontological-Reasoning-OWL-688a9aed53448361bec8813e14ec23df
+File: library/agentic-patterns/AGP-138-owl-ontological-reasoning-owl.md
 
 ## AGP-161 — SHACL Constraint Validation (SHACL)
 - Score 1 · Agentic Patterns / Knowledge Representation
@@ -62,7 +62,7 @@ Notion: https://app.notion.com/p/OWL-Ontological-Reasoning-OWL-688a9aed53448361b
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-458.png
-Notion: https://app.notion.com/p/SHACL-Constraint-Validation-SHACL-1f2a9aed534483c48a0d81f279184545
+File: library/agentic-patterns/AGP-161-shacl-constraint-validation-shacl.md
 
 ## AGP-169 — Semantic Data Validation (SDV)
 - Score 1 · Agentic Patterns / Knowledge Representation
@@ -78,4 +78,4 @@ Notion: https://app.notion.com/p/SHACL-Constraint-Validation-SHACL-1f2a9aed53448
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-457.png
-Notion: https://app.notion.com/p/Semantic-Data-Validation-SDV-236a9aed53448377b2f9012bed185a0a
+File: library/agentic-patterns/AGP-169-semantic-data-validation-sdv.md

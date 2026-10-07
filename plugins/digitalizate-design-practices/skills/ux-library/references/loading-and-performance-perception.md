@@ -19,7 +19,7 @@
 
 Sources: [LogRocket — Skeleton Loading Screens](https://blog.logrocket.com/ux-design/skeleton-loading-screen-design/) · [Nielsen Norman Group — Skeleton Screens 101](https://www.nngroup.com/articles/skeleton-screens/) · [Component Gallery — Skeleton Loader](https://component.gallery/components/skeleton/) · [Laws of UX — Doherty Threshold](https://lawsofux.com/doherty-threshold/) · [Smashing Magazine — UX Strategies for Real-Time Dashboards](https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/)
 Wireframe: https://files.catbox.moe/rga1i3.jpg
-Notion: https://app.notion.com/p/Skeleton-Screens-for-Full-Page-Loads-2-10-Seconds-ac7a9aed53448332880881cc4e9255df
+File: library/loading-and-performance-perception/UX-268-skeleton-screens-for-full-page-loads-210-seconds.md
 
 ## UX-269 — Match Loading Indicator to Operation Type and Duration
 - Score 5 · Loading & Performance Perception / Loading indicator selection
@@ -41,7 +41,7 @@ Notion: https://app.notion.com/p/Skeleton-Screens-for-Full-Page-Loads-2-10-Secon
 
 Sources: [Nielsen Norman Group — Skeleton Screens 101](https://www.nngroup.com/articles/skeleton-screens/) · [Good UI — Faster Load Times / Progress Indicators](https://goodui.org/#39) · [Component Gallery — Progress Bar](https://component.gallery/components/progress-bar/) · [Carbon Design System — Loading](https://carbondesignsystem.com/patterns/overview/)
 Wireframe: https://files.catbox.moe/t19jwk.jpg
-Notion: https://app.notion.com/p/Match-Loading-Indicator-to-Operation-Type-and-Duration-3dba9aed5344832096670149b9253878
+File: library/loading-and-performance-perception/UX-269-match-loading-indicator-to-operation-type-and-duration.md
 
 ## UX-270 — Doherty Threshold — Target Sub-400ms Response for Interactive Operations
 - Score 5 · Loading & Performance Perception / Performance and perceived responsiveness
@@ -63,7 +63,7 @@ Notion: https://app.notion.com/p/Match-Loading-Indicator-to-Operation-Type-and-D
 
 Sources: [Laws of UX — Doherty Threshold](https://lawsofux.com/doherty-threshold/)
 Wireframe: https://files.catbox.moe/f1r0h6.jpg
-Notion: https://app.notion.com/p/Doherty-Threshold-Target-Sub-400ms-Response-for-Interactive-Operations-a60a9aed534482c1aff901e17a1b002e
+File: library/loading-and-performance-perception/UX-270-doherty-threshold-target-sub-400ms-response-for-interactive.md
 
 ## UX-271 — Perceived Progress Reduces Wait Frustration
 - Score 5 · Loading & Performance Perception / Loading State Design
@@ -83,7 +83,7 @@ Notion: https://app.notion.com/p/Doherty-Threshold-Target-Sub-400ms-Response-for
 
 Sources: [100 Things #77 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/xldx9p.jpg
-Notion: https://app.notion.com/p/Perceived-Progress-Reduces-Wait-Frustration-242a9aed534482cbb27b01fd18078087
+File: library/loading-and-performance-perception/UX-271-perceived-progress-reduces-wait-frustration.md
 
 ## UX-272 — Performance Budgeting for Data-Heavy Interfaces
 - Score 5 · Loading & Performance Perception / Performance Standards
@@ -103,7 +103,7 @@ Notion: https://app.notion.com/p/Perceived-Progress-Reduces-Wait-Frustration-242
 
 Sources: [UX Patterns — Data Table](https://uxpatterns.dev/patterns/data-display/table) · [ROSSUL — Enterprise UX](https://www.rossul.com/2024/blog/enhancing-user-experience-in-b2b-enterprise-web-applications-ux-best-practices/)
 Wireframe: https://files.catbox.moe/lii7ma.jpg
-Notion: https://app.notion.com/p/Performance-Budgeting-for-Data-Heavy-Interfaces-b2da9aed53448212bf28011446bc5db4
+File: library/loading-and-performance-perception/UX-272-performance-budgeting-for-data-heavy-interfaces.md
 
 ## UX-273 — Progress Bars for Deterministic Operations
 - Score 4 · Loading & Performance Perception / Progress Communication
@@ -125,7 +125,7 @@ Notion: https://app.notion.com/p/Performance-Budgeting-for-Data-Heavy-Interfaces
 
 Sources: [LogRocket — Skeleton Loading Screens](https://blog.logrocket.com/ux-design/skeleton-loading-screen-design/)
 Wireframe: https://files.catbox.moe/is5weg.jpg
-Notion: https://app.notion.com/p/Progress-Bars-for-Deterministic-Operations-94aa9aed534483feb351010f075cf468
+File: library/loading-and-performance-perception/UX-273-progress-bars-for-deterministic-operations.md
 
 ## UX-274 — Spinners for Short, Simple Loading States
 - Score 4 · Loading & Performance Perception / Loading Patterns
@@ -146,7 +146,7 @@ Notion: https://app.notion.com/p/Progress-Bars-for-Deterministic-Operations-94aa
 
 Sources: [LogRocket — Skeleton Loading Screens](https://blog.logrocket.com/ux-design/skeleton-loading-screen-design/)
 Wireframe: https://files.catbox.moe/ojw97w.jpg
-Notion: https://app.notion.com/p/Spinners-for-Short-Simple-Loading-States-9f6a9aed53448319bb70016dd85d288e
+File: library/loading-and-performance-perception/UX-274-spinners-for-short-simple-loading-states.md
 
 ## UX-275 — Time Perception — Accurate Estimates Reduce Frustration
 - Score 4 · Loading & Performance Perception / Wait Time Communication
@@ -160,4 +160,4 @@ Notion: https://app.notion.com/p/Spinners-for-Short-Simple-Loading-States-9f6a9a
 
 Sources: [100 Things #36, #94 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/lnll13.jpg
-Notion: https://app.notion.com/p/Time-Perception-Accurate-Estimates-Reduce-Frustration-631a9aed534483f0a12981e0b13568ca
+File: library/loading-and-performance-perception/UX-275-time-perception-accurate-estimates-reduce-frustration.md

@@ -19,7 +19,7 @@
 
 Sources: [Interaction Design Foundation — Inclusive Design](https://www.interaction-design.org/literature/topics/inclusive-design) · [Apple Developer — Principles of Inclusive App Design](https://developer.apple.com/videos/play/wwdc2025/316/) · [Vispero — Best Practices for Inclusive Design](https://vispero.com/resources/best-practices-for-inclusive-design/) · [IDEO Design Kit — Creative Confidence](https://www.designkit.org/mindsets/3.html)
 Wireframe: https://files.catbox.moe/xv1i7i.jpg
-Notion: https://app.notion.com/p/Inclusive-Design-Designing-for-the-Full-Spectrum-of-Human-Diversity-d4ea9aed53448214be5181754d42f105
+File: library/human-centered-design/UX-488-inclusive-design-designing-for-the-full-spectrum-of-human-di.md
 
 ## UX-475 — Empathy Mapping: Says, Thinks, Feels, Does
 - Score 4 · Human-Centered Design / Empathy Methods
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Inclusive-Design-Designing-for-the-Full-Spectru
 
 Sources: [IDEO.com](http://ideo.com/) · [— Human-Centered Design Toolkit](https://www.ideo.com/journal/design-kit-the-human-centered-design-toolkit) · [Nielsen Norman Group — Empathy Mapping](https://www.nngroup.com/articles/empathy-mapping/) · [Interaction Design Foundation — Empathy in Design Thinking](https://www.interaction-design.org/literature/article/design-thinking-getting-started-with-empathy) · [UserTesting — IDEO's Human-Centered Design Process](https://www.usertesting.com/blog/ideos-human-centered-design-process)
 Wireframe: https://files.catbox.moe/7u6bbd.jpg
-Notion: https://app.notion.com/p/Empathy-Mapping-Says-Thinks-Feels-Does-001a9aed534483d7a7b481f744989656
+File: library/human-centered-design/UX-475-empathy-mapping-says-thinks-feels-does.md
 
 ## UX-480 — Journey Mapping: Visualizing the End-to-End User Experience
 - Score 4 · Human-Centered Design / User Research Methods
@@ -65,7 +65,7 @@ Notion: https://app.notion.com/p/Empathy-Mapping-Says-Thinks-Feels-Does-001a9aed
 
 Sources: [IDEO Design Kit — Journey Map](https://www.designkit.org/methods/journey-map.html) · [IDEO U — Design Thinking Journey Map Tips](https://www.ideou.com/blogs/inspiration/designing-a-journey-map-consider-these-tips) · [Interaction Design Foundation — Customer Journey Map](https://www.interaction-design.org/literature/topics/customer-journey-map)
 Wireframe: https://files.catbox.moe/b4tuxb.jpg
-Notion: https://app.notion.com/p/Journey-Mapping-Visualizing-the-End-to-End-User-Experience-27ca9aed5344839d8be0819b6e761a5e
+File: library/human-centered-design/UX-480-journey-mapping-visualizing-the-end-to-end-user-experience.md
 
 ## UX-484 — Insight Synthesis: From Research to Actionable 'How We See It' Statements
 - Score 4 · Human-Centered Design / Research Synthesis
@@ -87,7 +87,7 @@ Notion: https://app.notion.com/p/Journey-Mapping-Visualizing-the-End-to-End-User
 
 Sources: [IDEO U — 7 Steps of the Design Thinking Process](https://www.ideou.com/blogs/inspiration/design-thinking-process) · [IDEO U — What is Design Thinking](https://www.ideou.com/blogs/inspiration/what-is-design-thinking) · [Nielsen Norman Group — How Might We Questions](https://www.nngroup.com/articles/how-might-we-questions/)
 Wireframe: https://files.catbox.moe/hygun8.jpg
-Notion: https://app.notion.com/p/Insight-Synthesis-From-Research-to-Actionable-How-We-See-It-Statements-7a9a9aed534483ea861a816c0633043e
+File: library/human-centered-design/UX-484-insight-synthesis-from-research-to-actionable-how-we-see-it.md
 
 ## UX-487 — Emotional Design: Designing for Trust, Safety, and Delight
 - Score 4 · Human-Centered Design / Emotional Safety and Trust
@@ -108,7 +108,7 @@ Notion: https://app.notion.com/p/Insight-Synthesis-From-Research-to-Actionable-H
 
 Sources: [Interaction Design Foundation — Emotional Design](https://www.interaction-design.org/literature/topics/emotional-design) · [IDEO U — David Kelley's 8 Design Abilities](https://www.ideou.com/blogs/inspiration/david-kelley-on-the-8-design-abilities-of-creative-problem-solvers) · [UserTesting — Top Product Design Principles](https://www.usertesting.com/blog/top-product-design-principles)
 Wireframe: https://files.catbox.moe/lkx0fx.jpg
-Notion: https://app.notion.com/p/Emotional-Design-Designing-for-Trust-Safety-and-Delight-99da9aed53448218a42001aeb1c7fea6
+File: library/human-centered-design/UX-487-emotional-design-designing-for-trust-safety-and-delight.md
 
 ## UX-493 — Three Types of Research: Generative, Evaluative, and Validating
 - Score 4 · Human-Centered Design / User Research Methods
@@ -129,7 +129,7 @@ Notion: https://app.notion.com/p/Emotional-Design-Designing-for-Trust-Safety-and
 
 Sources: [IDEO U — What is Design Thinking (Three Research Buckets)](https://www.ideou.com/blogs/inspiration/what-is-design-thinking) · [IDEO U — What is Human-Centered Design](https://www.ideou.com/blogs/inspiration/what-is-human-centered-design) · [IDEO U — 7 Steps of the Design Thinking Process](https://www.ideou.com/blogs/inspiration/design-thinking-process)
 Wireframe: https://files.catbox.moe/4yrj24.jpg
-Notion: https://app.notion.com/p/Three-Types-of-Research-Generative-Evaluative-and-Validating-083a9aed5344825e8ddc81fa6dfcb820
+File: library/human-centered-design/UX-493-three-types-of-research-generative-evaluative-and-validating.md
 
 ## UX-476 — IDEO's Desirability–Feasibility–Viability (DVF) Framework
 - Score 3 · Human-Centered Design / Strategic Design Framework
@@ -152,7 +152,7 @@ Notion: https://app.notion.com/p/Three-Types-of-Research-Generative-Evaluative-a
 
 Sources: [IDEO Design Thinking — Desirability, Feasibility, Viability](https://designthinking.ideo.com/) · [DesignRush — DVF Framework](https://www.designrush.com/best-designs/print/trends/desirability-feasibility-viability) · [Product School — DVF Framework Explained](https://productschool.com/blog/product-fundamentals/dvf-framework) · [IDEO U — What is Design Thinking](https://www.ideou.com/blogs/inspiration/what-is-design-thinking)
 Wireframe: https://files.catbox.moe/sgdchs.jpg
-Notion: https://app.notion.com/p/IDEO-s-Desirability-Feasibility-Viability-DVF-Framework-f82a9aed5344836581da017eefd904a2
+File: library/human-centered-design/UX-476-ideo-s-desirabilityfeasibilityviability-dvf-framework.md
 
 ## UX-477 — Rapid Prototyping: Rough, Rapid, and Right
 - Score 3 · Human-Centered Design / Prototyping Philosophy
@@ -175,7 +175,7 @@ Notion: https://app.notion.com/p/IDEO-s-Desirability-Feasibility-Viability-DVF-F
 
 Sources: [IDEO — 7 Principles to Guide Your Prototyping](https://www.ideo.com/journal/7-principles-to-guide-your-prototyping) · [IDEO U — What is Human-Centered Design](https://www.ideou.com/blogs/inspiration/what-is-human-centered-design) · [Interaction Design Foundation — Low-Fidelity Prototyping](https://www.interaction-design.org/literature/article/prototyping-learn-eight-common-methods-and-best-practices) · [Tim Brown via Design Thinking @ Haas — Change by Design](https://divergentmba.wordpress.com/2010/04/19/change-by-design-tim-brown/)
 Wireframe: https://files.catbox.moe/yqpie0.jpg
-Notion: https://app.notion.com/p/Rapid-Prototyping-Rough-Rapid-and-Right-a04a9aed534483d2a18d01631d148c73
+File: library/human-centered-design/UX-477-rapid-prototyping-rough-rapid-and-right.md
 
 ## UX-478 — 'How Might We' Questions for Structured Ideation
 - Score 3 · Human-Centered Design / Ideation Methods
@@ -198,7 +198,7 @@ Notion: https://app.notion.com/p/Rapid-Prototyping-Rough-Rapid-and-Right-a04a9ae
 
 Sources: [Nielsen Norman Group — How Might We Questions](https://www.nngroup.com/articles/how-might-we-questions/) · [IDEO U — 7 Steps of the Design Thinking Process](https://www.ideou.com/blogs/inspiration/design-thinking-process) · [Interaction Design Foundation — How Might We](https://www.interaction-design.org/literature/topics/how-might-we)
 Wireframe: https://files.catbox.moe/kzny51.jpg
-Notion: https://app.notion.com/p/How-Might-We-Questions-for-Structured-Ideation-5f3a9aed5344833f9d5a01fc3a08f01d
+File: library/human-centered-design/UX-478-how-might-we-questions-for-structured-ideation.md
 
 ## UX-479 — Contextual Inquiry: Observing Users in Their Natural Environment
 - Score 3 · Human-Centered Design / User Research Methods
@@ -221,7 +221,7 @@ Notion: https://app.notion.com/p/How-Might-We-Questions-for-Structured-Ideation-
 
 Sources: [CleverX — User Research Methods (IDEO Contextual Inquiry case study)](https://cleverx.com/blog/user-research-methods-how-to-choosing-the-right-approach) · [LogRocket — Contextual Inquiry in UX Research](https://blog.logrocket.com/ux-design/using-contextual-inquiry-ux-research/) · [Trymata — Contextual Inquiry Best Practices](https://trymata.com/blog/contextual-inquiry/) · [UserTesting — IDEO's Human-Centered Design Process](https://www.usertesting.com/blog/ideos-human-centered-design-process)
 Wireframe: https://files.catbox.moe/aoxbj1.jpg
-Notion: https://app.notion.com/p/Contextual-Inquiry-Observing-Users-in-Their-Natural-Environment-1f9a9aed53448342984b81d037db9ec4
+File: library/human-centered-design/UX-479-contextual-inquiry-observing-users-in-their-natural-environm.md
 
 ## UX-482 — Card Sorting for User-Driven Information Architecture
 - Score 3 · Human-Centered Design / Information Architecture
@@ -244,7 +244,7 @@ Notion: https://app.notion.com/p/Contextual-Inquiry-Observing-Users-in-Their-Nat
 
 Sources: [Nielsen Norman Group — Card Sorting](https://www.nngroup.com/articles/card-sorting-definition/) · [Interaction Design Foundation — Card Sorting Guide](https://www.interaction-design.org/literature/article/the-pros-and-cons-of-card-sorting-in-ux-research) · [Dovetail — Card Sorting for UX Research](https://dovetail.com/ux/card-sorting/)
 Wireframe: https://files.catbox.moe/wpupou.jpg
-Notion: https://app.notion.com/p/Card-Sorting-for-User-Driven-Information-Architecture-490a9aed5344821ab2fa017f1e2d0922
+File: library/human-centered-design/UX-482-card-sorting-for-user-driven-information-architecture.md
 
 ## UX-486 — Behavioral Design: The Habit Loop for Web Product Engagement
 - Score 3 · Human-Centered Design / Behavioral Design
@@ -265,7 +265,7 @@ Notion: https://app.notion.com/p/Card-Sorting-for-User-Driven-Information-Archit
 
 Sources: [Interaction Design Foundation — Behavioral Design](https://www.interaction-design.org/literature/topics/behavioral-design) · [EdSurge — Behavior-Change Design Principles (](https://www.edsurge.com/news/2016-10-30-7-ways-for-learning-designers-to-build-habit-forming-experiences) · [IDEO.org](http://ideo.org/) · [course)](https://www.edsurge.com/news/2016-10-30-7-ways-for-learning-designers-to-build-habit-forming-experiences) · [YouTube — Habit Formation in UX Design](https://www.youtube.com/watch?v=CbtvMTlEfwM)
 Wireframe: https://files.catbox.moe/2qw3gp.jpg
-Notion: https://app.notion.com/p/Behavioral-Design-The-Habit-Loop-for-Web-Product-Engagement-bd7a9aed5344825e8da58114262fef30
+File: library/human-centered-design/UX-486-behavioral-design-the-habit-loop-for-web-product-engagement.md
 
 ## UX-491 — Storytelling as a Design and Communication Tool
 - Score 3 · Human-Centered Design / Design Communication
@@ -286,7 +286,7 @@ Notion: https://app.notion.com/p/Behavioral-Design-The-Habit-Loop-for-Web-Produc
 
 Sources: [IDEO U — David Kelley's 8 Design Abilities (Communicate Deliberately)](https://www.ideou.com/blogs/inspiration/david-kelley-on-the-8-design-abilities-of-creative-problem-solvers) · [IDEO U — 7 Steps of the Design Thinking Process (Share the Story)](https://www.ideou.com/blogs/inspiration/design-thinking-process) · [LinkedIn — How Design Thinking Uses Story and Prototyping (Mark Zeh, IDEO)](https://www.linkedin.com/pulse/how-design-thinking-uses-story-prototyping-chad-mcallister-phd)
 Wireframe: https://files.catbox.moe/ug0h0k.jpg
-Notion: https://app.notion.com/p/Storytelling-as-a-Design-and-Communication-Tool-b77a9aed53448369b79d811d7c269f0d
+File: library/human-centered-design/UX-491-storytelling-as-a-design-and-communication-tool.md
 
 ## UX-481 — Extreme Users Research: Designing for Edge Cases to Improve Core Experiences
 - Score 2 · Human-Centered Design / User Research Methods
@@ -308,7 +308,7 @@ Notion: https://app.notion.com/p/Storytelling-as-a-Design-and-Communication-Tool
 
 Sources: [UX Collective — Extreme Users in Design Research](https://uxdesign.cc/the-fundamentals-of-engaging-with-extreme-users-45e0033e6b2) · [Accomplice — The Power of Extreme Users (citing IDEO)](https://accpl.co/the-power-of-the-extreme-users-and-designing-in-correctly-50b616beb016/) · [IDEO U — What is Design Thinking](https://www.ideou.com/blogs/inspiration/what-is-design-thinking) · [Design Thinking @ Haas — Change by Design Summary](https://divergentmba.wordpress.com/2010/04/19/change-by-design-tim-brown/)
 Wireframe: https://files.catbox.moe/8w8h5e.jpg
-Notion: https://app.notion.com/p/Extreme-Users-Research-Designing-for-Edge-Cases-to-Improve-Core-Experiences-c32a9aed534482abb9b70140e4fbd869
+File: library/human-centered-design/UX-481-extreme-users-research-designing-for-edge-cases-to-improve-c.md
 
 ## UX-483 — Co-Creation and Participatory Design: Designing With Users, Not For Them
 - Score 2 · Human-Centered Design / Co-Creation
@@ -330,7 +330,7 @@ Notion: https://app.notion.com/p/Extreme-Users-Research-Designing-for-Edge-Cases
 
 Sources: [IDEO U — What is Human-Centered Design](https://www.ideou.com/blogs/inspiration/what-is-human-centered-design) · [IDEO Design Kit — Creative Confidence Mindset](https://www.designkit.org/mindsets/3.html) · [Nature — Co-designing Digital Interventions](https://www.nature.com/articles/s41746-026-02444-5) · [EdSurge — Behavior-Change Design with](https://www.edsurge.com/news/2016-10-30-7-ways-for-learning-designers-to-build-habit-forming-experiences) · [IDEO.org](http://ideo.org/)
 Wireframe: https://files.catbox.moe/ow3thh.jpg
-Notion: https://app.notion.com/p/Co-Creation-and-Participatory-Design-Designing-With-Users-Not-For-Them-54ea9aed534482aab8938152c2d3410c
+File: library/human-centered-design/UX-483-co-creation-and-participatory-design-designing-with-users-no.md
 
 ## UX-485 — IDEO's Inspiration–Ideation–Implementation: Three Overlapping Spaces of Design
 - Score 2 · Human-Centered Design / Design Process Framework
@@ -352,7 +352,7 @@ Notion: https://app.notion.com/p/Co-Creation-and-Participatory-Design-Designing-
 
 Sources: [IDEO U — What is Human-Centered Design (Tim Brown's 3 phases)](https://www.ideou.com/blogs/inspiration/what-is-human-centered-design) · [IDEO U — 7 Steps of the Design Thinking Process](https://www.ideou.com/blogs/inspiration/design-thinking-process) · [IDEO Design Thinking —](https://designthinking.ideo.com/) · [designthinking.ideo.com](http://designthinking.ideo.com/) · [hivepowered.ai](http://hivepowered.ai/) · [— Tim Brown's Change by Design](https://www.hivepowered.ai/post/how-tim-browns-change-by-design-redefines-innovation-and-business-strategy)
 Wireframe: https://files.catbox.moe/n2u34a.jpg
-Notion: https://app.notion.com/p/IDEO-s-Inspiration-Ideation-Implementation-Three-Overlapping-Spaces-of-Design-099a9aed534482cebd6781be98f2fd22
+File: library/human-centered-design/UX-485-ideo-s-inspirationideationimplementation-three-overlapping-s.md
 
 ## UX-489 — Systems Thinking: Mapping the Product Ecosystem, Not Just the Screen
 - Score 2 · Human-Centered Design / Systems Thinking
@@ -373,7 +373,7 @@ Notion: https://app.notion.com/p/IDEO-s-Inspiration-Ideation-Implementation-Thre
 
 Sources: [IDEO.com](http://ideo.com/) · [— Human-Centered Design and Systems Thinking](https://www.ideo.com/) · [IDEO U — What is Human-Centered Design (Systems Thinking principle)](https://www.ideou.com/blogs/inspiration/what-is-human-centered-design) · [UX Planet — Systems Thinking in Product Design](https://uxplanet.org/applying-systems-thinking-in-product-design-9d5702d057cd)
 Wireframe: https://files.catbox.moe/ixh16k.jpg
-Notion: https://app.notion.com/p/Systems-Thinking-Mapping-the-Product-Ecosystem-Not-Just-the-Screen-81da9aed534482bd85a5814a88cd14ab
+File: library/human-centered-design/UX-489-systems-thinking-mapping-the-product-ecosystem-not-just-the.md
 
 ## UX-490 — Analogous Inspiration: Learning from Adjacent Industries to Unlock Novel Solutions
 - Score 1 · Human-Centered Design / Ideation Methods
@@ -395,7 +395,7 @@ Notion: https://app.notion.com/p/Systems-Thinking-Mapping-the-Product-Ecosystem-
 
 Sources: [IDEO U — 7 Steps of the Design Thinking Process (Gather Inspiration)](https://www.ideou.com/blogs/inspiration/design-thinking-process) · [IDEO U — What is Design Thinking](https://www.ideou.com/blogs/inspiration/what-is-design-thinking) · [hivepowered.ai](http://hivepowered.ai/) · [— Tim Brown's Change by Design](https://www.hivepowered.ai/post/how-tim-browns-change-by-design-redefines-innovation-and-business-strategy)
 Wireframe: https://files.catbox.moe/zbt397.jpg
-Notion: https://app.notion.com/p/Analogous-Inspiration-Learning-from-Adjacent-Industries-to-Unlock-Novel-Solutions-c8ca9aed5344836f973b8120d98201e5
+File: library/human-centered-design/UX-490-analogous-inspiration-learning-from-adjacent-industries-to-u.md
 
 ## UX-492 — Creative Confidence: Building a Team Culture of Human-Centered Innovation
 - Score 1 · Human-Centered Design / Design Culture and Mindset
@@ -416,4 +416,4 @@ Notion: https://app.notion.com/p/Analogous-Inspiration-Learning-from-Adjacent-In
 
 Sources: [designthinking.ideo.com](http://designthinking.ideo.com/) · [— Creative Confidence and Beginner's Mind](https://designthinking.ideo.com/) · [IDEO Design Kit — Creative Confidence Mindset](https://www.designkit.org/mindsets/3.html) · [ProductPlan — 5 Lessons from IDEO for Unlocking Creative Potential](https://www.productplan.com/learn/lessons-from-ideo-for-unlocking-creative-potential/) · [IDEO U — David Kelley's 8 Design Abilities](https://www.ideou.com/blogs/inspiration/david-kelley-on-the-8-design-abilities-of-creative-problem-solvers)
 Wireframe: https://files.catbox.moe/rjlb48.jpg
-Notion: https://app.notion.com/p/Creative-Confidence-Building-a-Team-Culture-of-Human-Centered-Innovation-fc4a9aed5344835485d381ed0058ba03
+File: library/human-centered-design/UX-492-creative-confidence-building-a-team-culture-of-human-centere.md

@@ -22,7 +22,7 @@
 **Measure.** Status Clarity (User understanding of agent activity); Update Latency (Time between state change and UI update); Progress Accuracy (Estimation vs actual completion time); User Interruptions (Frequency of unnecessary user interventions); Error Recovery (Success rate of handling failed states); Trust Building (User confidence in agent reliability); Document Processing: Show parsing → analysis → summarization → completion stages; Data Analysis: Display loading → processing → calculating →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-535.png
-Notion: https://app.notion.com/p/Agent-Status-Activity-UI-Patterns-ASP-f8ca9aed534482e9b0fb01be3ca07cb9
+File: library/agentic-patterns/AGP-018-agent-status-and-activity-ui-patterns-asp.md
 
 ## AGP-045 — Context Window Management UI (CWM)
 - Score 5 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Agent-Status-Activity-UI-Patterns-ASP-f8ca9aed5
 **Measure.** Context Efficiency (% of useful tokens vs total consumed); Compression Ratio (Token reduction from smart compression); User Satisfaction (Preference for auto vs manual context management); Conversation Length (Extended interactions enabled by management); Error Prevention (Reduction in context overflow failures); Cost Optimization (Token cost savings from efficient management); Document Analysis: Manage large PDF context while maintaining conversation history; Code Review: Pin critical code…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-539.png
-Notion: https://app.notion.com/p/Context-Window-Management-UI-CWM-bd1a9aed534482a7b13901d20edd4b55
+File: library/agentic-patterns/AGP-045-context-window-management-ui-cwm.md
 
 ## AGP-071 — Error Handling and Recovery Patterns (ERP)
 - Score 5 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Context-Window-Management-UI-CWM-bd1a9aed534482
 **Measure.** Error Recovery Rate (% of errors successfully resolved automatically); User Error Resolution (Time from error to successful user resolution); Context Preservation (% of user work preserved during error recovery); Error Comprehension (User understanding of error cause and solution); Prevention Effectiveness (Reduction in preventable errors over time); Support Ticket Reduction (Decrease in error-related support requests); Agent Communication Failures: Network timeouts with automatic retry and…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-542.png
-Notion: https://app.notion.com/p/Error-Handling-and-Recovery-Patterns-ERP-8d2a9aed53448224be80816815e65c32
+File: library/agentic-patterns/AGP-071-error-handling-and-recovery-patterns-erp.md
 
 ## AGP-092 — Human-in-the-Loop (HITL)
 - Score 5 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -94,7 +94,7 @@ Notion: https://app.notion.com/p/Error-Handling-and-Recovery-Patterns-ERP-8d2a9a
 **Measure.** Escalation Rate (Percentage of decisions requiring human input); Human Decision Quality (Accuracy and consistency of human choices); Response Time (Time from escalation to human decision); Learning Efficiency (AI improvement from human feedback); Cost per Decision (Total cost including human expert time); User Satisfaction (Satisfaction with human-AI collaboration); Medical Diagnosis: AI screens routine cases, escalates complex symptoms to doctors with 95% accuracy improvement; Legal Document…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-543.png
-Notion: https://app.notion.com/p/Human-in-the-Loop-HITL-278a9aed534482679aca81bd6b3a7d2d
+File: library/agentic-patterns/AGP-092-human-in-the-loop-hitl.md
 
 ## AGP-140 — Onboarding and Education Patterns (OEP)
 - Score 5 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -118,7 +118,7 @@ Notion: https://app.notion.com/p/Human-in-the-Loop-HITL-278a9aed534482679aca81bd
 **Measure.** Onboarding Completion (% of users completing initial training flow); Feature Adoption (Rate of advanced feature discovery and usage); Trust Calibration (Appropriate reliance on agent recommendations); Time to Productivity (Duration from first use to effective task completion); User Retention (% of users returning after initial onboarding); Support Reduction (Decrease in help requests post-onboarding); AI Assistant Introduction: Progressive capability reveal with trust-building scenarios…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-548.png
-Notion: https://app.notion.com/p/Onboarding-and-Education-Patterns-OEP-85ba9aed534483feb59f018bb7b817ca
+File: library/agentic-patterns/AGP-140-onboarding-and-education-patterns-oep.md
 
 ## AGP-008 — Accessibility in Agent Design (AAD)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -142,7 +142,7 @@ Notion: https://app.notion.com/p/Onboarding-and-Education-Patterns-OEP-85ba9aed5
 **Measure.** WCAG Compliance Score (Percentage of AA/AAA criteria met); Assistive Technology Support (Screen reader, voice control compatibility); Task Completion Equity (Success rates across different ability groups); Cognitive Load Assessment (Mental effort required for task completion); User Satisfaction Parity (Equal satisfaction across accessibility needs); Adaptation Effectiveness (Success of dynamic accessibility adjustments); Vision Accessibility: Screen reader optimization, high contrast, voice…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-532.png
-Notion: https://app.notion.com/p/Accessibility-in-Agent-Design-AAD-342a9aed5344828c91d401eab49cf7b3
+File: library/agentic-patterns/AGP-008-accessibility-in-agent-design-aad.md
 
 ## AGP-012 — Adaptive Interface Patterns (AIP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -166,7 +166,7 @@ Notion: https://app.notion.com/p/Accessibility-in-Agent-Design-AAD-342a9aed53448
 **Measure.** Adaptation Accuracy (% of appropriate interface adjustments); User Satisfaction (Preference for adaptive vs static interface); Task Completion (Efficiency gains from personalization); Error Reduction (Mistakes prevented by context-aware adaptations); Engagement (Time spent and feature usage with adaptations); Override Rate (% of adaptations manually reversed by users); Intent Detection: Adapt interface complexity based on user goals (quick vs detailed); Accessibility: Real-time adjustments for…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-533.png
-Notion: https://app.notion.com/p/Adaptive-Interface-Patterns-AIP-54ca9aed53448210be0d81ee670962e3
+File: library/agentic-patterns/AGP-012-adaptive-interface-patterns-aip.md
 
 ## AGP-014 — Agent Collaboration UX (ACX)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -190,7 +190,7 @@ Notion: https://app.notion.com/p/Adaptive-Interface-Patterns-AIP-54ca9aed5344821
 **Measure.** Handoff Success Rate (% of successful context-preserving agent transitions); Task Completion Efficiency (Time to complete multi-agent workflows vs single-agent baseline); Coordination Transparency Score (User understanding of agent activities and decision-making); Agent Utilization Balance (Workload distribution across specialized agents); Error Recovery Time (Time to resolve coordination failures and restore workflow); User Intervention Frequency (% of workflows requiring human oversight or…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-534.png
-Notion: https://app.notion.com/p/Agent-Collaboration-UX-ACX-da6a9aed53448361bc1c01f76b8190cc
+File: library/agentic-patterns/AGP-014-agent-collaboration-ux-acx.md
 
 ## AGP-021 — Ambient Agent Patterns (AAP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -214,7 +214,7 @@ Notion: https://app.notion.com/p/Agent-Collaboration-UX-ACX-da6a9aed53448361bc1c
 **Measure.** Signal Detection Rate (% ambient events correctly identified); Human Interaction Quality (Notify/Question/Review effectiveness); Task Concurrency (Simultaneous operations handled); State Persistence (Context retention across sessions); Attention Efficiency (Valuable vs noise interactions ratio); Long-term Learning (Adaptation improvement over time); AI Email Assistant: background triage, priority detection, draft suggestions; Project Management: task monitoring, deadline tracking, team…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-536.png
-Notion: https://app.notion.com/p/Ambient-Agent-Patterns-AAP-0d5a9aed53448371bdcf013668f48df5
+File: library/agentic-patterns/AGP-021-ambient-agent-patterns-aap.md
 
 ## AGP-029 — Chat Interface Patterns (CIP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -238,7 +238,7 @@ Notion: https://app.notion.com/p/Ambient-Agent-Patterns-AAP-0d5a9aed53448371bdcf
 **Measure.** Thread Engagement (Active branches per conversation); Content Interaction (Rich media usage & sharing rate); Collaboration Rate (Multi-participant conversation %); Context Retention (Thread switching without loss); User Satisfaction (Interface usability score); Problem Resolution (Time to solution in threaded chats); Customer Support: threaded issue tracking, document sharing, escalation management; Educational Platforms: topic discussions, resource sharing, collaborative learning; Team…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-537.png
-Notion: https://app.notion.com/p/Chat-Interface-Patterns-CIP-2c8a9aed5344835aa1b201f6d2103f27
+File: library/agentic-patterns/AGP-029-chat-interface-patterns-cip.md
 
 ## AGP-032 — Confidence Visualization UI Patterns (CVP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -262,7 +262,7 @@ Notion: https://app.notion.com/p/Chat-Interface-Patterns-CIP-2c8a9aed5344835aa1b
 **Measure.** Confidence Visualization UI Patterns ((); CVP ()); Visual interface elements for displaying AI confidence levels, uncertainty, and prediction reliability in user-friendly formats (Complexity:); high (UI/UX & Human-AI Interaction); Overview (Flow Visualization); Interactive Demo (Code Playground); Overview (Flow); Demo (Code); 🎯 30-Second Overview (Pattern:); Display AI model confidence to help users make informed decisions (Why:); Users need to understand when AI is certain vs uncertain to…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-538.png
-Notion: https://app.notion.com/p/Confidence-Visualization-UI-Patterns-CVP-592a9aed534482a78d2b01fa47a66e0d
+File: library/agentic-patterns/AGP-032-confidence-visualization-ui-patterns-cvp.md
 
 ## AGP-052 — Conversational Interface Patterns (CIP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -286,7 +286,7 @@ Notion: https://app.notion.com/p/Confidence-Visualization-UI-Patterns-CVP-592a9a
 **Measure.** Conversation Completion Rate (% users completing intended task flow); Intent Recognition Accuracy (Success rate of understanding user goals); User Satisfaction Score (CSAT rating vs traditional interface); Error Recovery Success (% failed conversations successfully recovered); Modality Switching Smoothness (Friction in voice/text/visual transitions); Accessibility Compliance (WCAG 2.1 AA adherence across modalities); Customer Support: Natural troubleshooting → guided resolution → escalation…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-540.png
-Notion: https://app.notion.com/p/Conversational-Interface-Patterns-CIP-bafa9aed5344835a895e812e4ce53bca
+File: library/agentic-patterns/AGP-052-conversational-interface-patterns-cip.md
 
 ## AGP-056 — Cross-Platform Agent UX (CPX)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -310,7 +310,7 @@ Notion: https://app.notion.com/p/Conversational-Interface-Patterns-CIP-bafa9aed5
 **Measure.** Cross-Device Usage (% users active on multiple platforms); Context Transfer Success (Seamless device switching rate); Platform Consistency Score (UI/UX uniformity rating); Feature Parity (Capability availability across platforms); Sync Performance (Real-time state synchronization latency); User Satisfaction (Cross-platform experience rating); Personal Assistant: mobile voice → desktop detailed responses → tablet visual review; Enterprise Tools: mobile field work → desktop analysis → tablet…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-541.png
-Notion: https://app.notion.com/p/Cross-Platform-Agent-UX-CPX-26da9aed534483dfa17e8170e78300bb
+File: library/agentic-patterns/AGP-056-cross-platform-agent-ux-cpx.md
 
 ## AGP-091 — Human On the Loop (HOTL)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -334,7 +334,7 @@ Notion: https://app.notion.com/p/Cross-Platform-Agent-UX-CPX-26da9aed534483dfa17
 **Measure.** Autonomous Operation Time (Percentage of time running without intervention); Mean Time to Detection (Average time to identify anomalies); Intervention Response Time (Time from alert to human action); False Alert Rate (Percentage of unnecessary human alerts); Successful Takeover Rate (Percentage of successful human interventions); Return to Autonomy Time (Time to resume autonomous operation); Autonomous Vehicles: AI drives normally, human supervisor ready to take control in emergencies with…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-544.png
-Notion: https://app.notion.com/p/Human-On-the-Loop-HOTL-24ba9aed534482e19e1c01363794ba47
+File: library/agentic-patterns/AGP-091-human-on-the-loop-hotl.md
 
 ## AGP-127 — Mixed-Initiative Interface Patterns (MIP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -358,7 +358,7 @@ Notion: https://app.notion.com/p/Human-On-the-Loop-HOTL-24ba9aed534482e19e1c0136
 **Measure.** Initiative Balance (% time human vs AI leads interaction); Handoff Quality (Smooth transitions without friction); User Satisfaction (Preference for mixed vs single-initiative); Task Completion (Success rate of collaborative tasks); Override Usage (Frequency of human control takeovers); Collaboration Efficiency (Time saved vs full manual work); Content Creation: AI drafts → Human edits → AI suggests improvements → Human finalizes; Data Analysis: Human defines question → AI explores data → Human…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-545.png
-Notion: https://app.notion.com/p/Mixed-Initiative-Interface-Patterns-MIP-761a9aed534482e292cc81e42b842968
+File: library/agentic-patterns/AGP-127-mixed-initiative-interface-patterns-mip.md
 
 ## AGP-130 — Monitoring and Control Patterns (MCP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -382,7 +382,7 @@ Notion: https://app.notion.com/p/Mixed-Initiative-Interface-Patterns-MIP-761a9ae
 **Measure.** System Reliability (Uptime percentage and mean time to recovery); Alert Response Time (Time from anomaly detection to human response); Intervention Accuracy (% of appropriate vs unnecessary interventions); Operator Efficiency (Tasks managed per operator and error rates); Dashboard Usability (Time to find information and complete actions); System Visibility (% of system state observable through interface); Enterprise Agent Networks: Monitor hundreds of agents with hierarchical status views…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-546.png
-Notion: https://app.notion.com/p/Monitoring-and-Control-Patterns-MCP-47fa9aed534482e093c881224a36829c
+File: library/agentic-patterns/AGP-130-monitoring-and-control-patterns-mcp.md
 
 ## AGP-135 — Multimodal Interaction Patterns (MMIP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -406,7 +406,7 @@ Notion: https://app.notion.com/p/Monitoring-and-Control-Patterns-MCP-47fa9aed534
 **Measure.** Modality Switch Success (% seamless transitions between modes); Context Recognition Accuracy (Appropriate modality selection rate); Cross-Modal Consistency (Semantic alignment across inputs); User Preference Learning (Adaptation to individual patterns); Natural Interaction Score (User satisfaction with fluidity); Error Recovery Rate (Successful fallback handling); Smart Home Control: voice commands + gesture recognition + visual feedback; Automotive Interfaces: speech + touch + eye tracking for…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-547.png
-Notion: https://app.notion.com/p/Multimodal-Interaction-Patterns-MMIP-f14a9aed534483e6ae2e81e0e6c26e53
+File: library/agentic-patterns/AGP-135-multimodal-interaction-patterns-mmip.md
 
 ## AGP-146 — Privacy and Security UX (PSX)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -430,7 +430,7 @@ Notion: https://app.notion.com/p/Multimodal-Interaction-Patterns-MMIP-f14a9aed53
 **Measure.** Privacy Control Usage (% of users actively managing privacy settings); Consent Quality (Informed consent vs manipulated agreement rates); Data Subject Rights (Success rate of access, correction, deletion requests); Security Adoption (% of users enabling optional security features); Transparency Effectiveness (User understanding of data processing purposes); Compliance Efficiency (Time to fulfill regulatory requirements); GDPR Compliance Dashboard: Granular consent management with clear data…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-549.png
-Notion: https://app.notion.com/p/Privacy-and-Security-UX-PSX-6c6a9aed534482a3b2e60109a555e692
+File: library/agentic-patterns/AGP-146-privacy-and-security-ux-psx.md
 
 ## AGP-149 — Progressive Disclosure UI Patterns (PDP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -454,7 +454,7 @@ Notion: https://app.notion.com/p/Privacy-and-Security-UX-PSX-6c6a9aed534482a3b2e
 **Measure.** Cognitive Load (User task completion time); Comprehension (% users understanding agent actions); Engagement (Disclosure interaction rates); User Satisfaction (Preference for progressive vs full disclosure); Error Rate (Mistakes due to insufficient information); Learning Efficiency (Time to understand new capabilities); Agent Reasoning: Show summary → detailed steps → technical reasoning trace; Capability Introduction: Basic features → advanced tools → expert features; Error Explanation: What…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-550.png
-Notion: https://app.notion.com/p/Progressive-Disclosure-UI-Patterns-PDP-b6fa9aed53448325824481e2438239f6
+File: library/agentic-patterns/AGP-149-progressive-disclosure-ui-patterns-pdp.md
 
 ## AGP-188 — Trust and Transparency Patterns (TTP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -478,7 +478,7 @@ Notion: https://app.notion.com/p/Progressive-Disclosure-UI-Patterns-PDP-b6fa9aed
 **Measure.** Trust Calibration Score (Alignment between user trust levels and actual AI reliability); Explanation Comprehension Rate (% of users who correctly understand AI reasoning explanations); Decision Confidence Improvement (Increase in user confidence when making AI-assisted decisions); Transparency Engagement Rate (% of users who actively explore explanation features); Error Detection Accuracy (User ability to identify when AI makes mistakes); Stakeholder Satisfaction Index (Multi-stakeholder rating…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-551.png
-Notion: https://app.notion.com/p/Trust-and-Transparency-Patterns-TTP-601a9aed534482b48e6a01e662716fcd
+File: library/agentic-patterns/AGP-188-trust-and-transparency-patterns-ttp.md
 
 ## AGP-191 — Visual Reasoning Patterns (VRP)
 - Score 4 · Agentic Patterns / UI/UX & Human-AI Interaction
@@ -502,4 +502,4 @@ Notion: https://app.notion.com/p/Trust-and-Transparency-Patterns-TTP-601a9aed534
 **Measure.** Reasoning Clarity (User understanding of agent logic); Trust Calibration (Appropriate confidence in decisions); Exploration Depth (User interaction with reasoning paths); Decision Quality (Improved outcomes with transparency); Learning Effectiveness (Knowledge transfer from visualizations); Error Detection (User ability to spot reasoning flaws); Medical Diagnosis: decision tree visualization, confidence intervals, source evidence; Financial Analysis: risk assessment paths, model explanations…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-552.png
-Notion: https://app.notion.com/p/Visual-Reasoning-Patterns-VRP-804a9aed5344820a9b6801775bced6fa
+File: library/agentic-patterns/AGP-191-visual-reasoning-patterns-vrp.md

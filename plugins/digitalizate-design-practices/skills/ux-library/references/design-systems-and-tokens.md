@@ -18,7 +18,7 @@
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [Good UI — Consistency](https://goodui.org/#27) · [Good UI — Conventions](https://goodui.org/#29) · [Laws of UX — Jakob's Law](https://lawsofux.com/jakobs-law/)
 Wireframe: https://files.catbox.moe/bwhdad.jpg
-Notion: https://app.notion.com/p/Consistency-and-Standards-e8ba9aed5344822ba943816f25e234e9
+File: library/design-systems-and-tokens/UX-123-consistency-and-standards.md
 
 ## UX-124 — 8pt Grid Spatial System
 - Score 5 · Design Systems & Tokens / Spacing System
@@ -38,7 +38,7 @@ Notion: https://app.notion.com/p/Consistency-and-Standards-e8ba9aed5344822ba9438
 
 Sources: [Design Systems — Space, Grids, and Layouts](https://www.designsystems.com/space-grids-and-layouts/)
 Wireframe: https://files.catbox.moe/i815vx.jpg
-Notion: https://app.notion.com/p/8pt-Grid-Spatial-System-509a9aed5344838d935a818a4c38fe2f
+File: library/design-systems-and-tokens/UX-124-8pt-grid-spatial-system.md
 
 ## UX-125 — Semantic Color Tokens for Dark Mode Theme Switching
 - Score 5 · Design Systems & Tokens / Theme Architecture
@@ -59,7 +59,7 @@ Notion: https://app.notion.com/p/8pt-Grid-Spatial-System-509a9aed5344838d935a818
 
 Sources: [YNAB — Semantic Color System](https://dev.to/ynab/a-semantic-color-system-the-theory-hk7)
 Wireframe: https://files.catbox.moe/0q32hl.jpg
-Notion: https://app.notion.com/p/Semantic-Color-Tokens-for-Dark-Mode-Theme-Switching-58aa9aed53448253a3bd8141e30aeff4
+File: library/design-systems-and-tokens/UX-125-semantic-color-tokens-for-dark-mode-theme-switching.md
 
 ## UX-126 — Typographic Scale Principles
 - Score 5 · Design Systems & Tokens / Typography System
@@ -79,7 +79,7 @@ Notion: https://app.notion.com/p/Semantic-Color-Tokens-for-Dark-Mode-Theme-Switc
 
 Sources: [Design Systems — Space, Grids, and Layouts](https://www.designsystems.com/space-grids-and-layouts/)
 Wireframe: https://files.catbox.moe/svgzzj.jpg
-Notion: https://app.notion.com/p/Typographic-Scale-Principles-c44a9aed534482e3ac8e01a4a693a44f
+File: library/design-systems-and-tokens/UX-126-typographic-scale-principles.md
 
 ## UX-127 — Status Color Consistency
 - Score 5 · Design Systems & Tokens / Status Communication
@@ -99,7 +99,7 @@ Notion: https://app.notion.com/p/Typographic-Scale-Principles-c44a9aed534482e3ac
 
 Sources: [Carbon Design System — Notification Pattern](https://carbondesignsystem.com/patterns/notification-pattern/)
 Wireframe: https://files.catbox.moe/6qs574.jpg
-Notion: https://app.notion.com/p/Status-Color-Consistency-137a9aed534483d2ba4581695ba38a7c
+File: library/design-systems-and-tokens/UX-127-status-color-consistency.md
 
 ## UX-128 — Status Badge and State Indicator System
 - Score 5 · Design Systems & Tokens / Component Patterns
@@ -120,7 +120,7 @@ Notion: https://app.notion.com/p/Status-Color-Consistency-137a9aed534483d2ba4581
 
 Sources: [Smashing Magazine — Real-Time Dashboard UX](https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/)
 Wireframe: https://files.catbox.moe/afpf8u.jpg
-Notion: https://app.notion.com/p/Status-Badge-and-State-Indicator-System-72da9aed5344821a8d738141c0e48476
+File: library/design-systems-and-tokens/UX-128-status-badge-and-state-indicator-system.md
 
 ## UX-636 — Design - Documentation Operations
 - Score 5 · Design Systems & Tokens / Documentation
@@ -175,7 +175,7 @@ That guidance prevents the most common visual, technical, and content inconsiste
 - Search terms, naming, and IA match the language teams use in their work.
 
 Sources: [Documentation](https://thedesignsystem.guide/documentation) · [How to Automate Design System Documentation](https://learn.thedesignsystem.guide/p/how-to-automate-design-system-documentation)
-Notion: https://app.notion.com/p/Design-Documentation-Operations-22ca9aed534483b5999a011eca798cd7
+File: library/design-systems-and-tokens/UX-636-design-documentation-operations.md
 
 ## UX-637 — Design - Foundations & Component Scope
 - Score 5 · Design Systems & Tokens / Foundations & components
@@ -217,7 +217,7 @@ A product team requests a “patient search component.” The UI contains a text
 - Components cover disabled, hover, focus, selected, loading, empty, error, and responsive states where relevant.
 - The initial library supports a real end-to-end flow, not just a collection of isolated atoms.
 
-Notion: https://app.notion.com/p/Design-Foundations-Component-Scope-68da9aed53448258989f01ac49cdf0e8
+File: library/design-systems-and-tokens/UX-637-design-foundations-and-component-scope.md
 
 ## UX-640 — Design - System Foundations, Principles & Documentation
 - Score 5 · Design Systems & Tokens / Foundations, decision rules, and reference site
@@ -247,7 +247,7 @@ Every component page should include a concise description, live demonstrations o
 Organize the reference site from broad to concrete: **principles and guidance → foundations → components → resources**. Maintain a developer environment for building/testing components, but reuse the same examples and data in the documentation. That shared example pipeline protects a single source of truth and prevents demo drift.
 > Source context: distilled from the user-provided 60:46 seminar *Initiating a Design System*.
 
-Notion: https://app.notion.com/p/Design-System-Foundations-Principles-Documentation-bb8a9aed53448296bd0001eb39988351
+File: library/design-systems-and-tokens/UX-640-design-system-foundations-principles-and-documentation.md
 
 ## UX-643 — Design - System Product Team & Operating Model
 - Score 5 · Design Systems & Tokens / Team composition and service model
@@ -275,7 +275,7 @@ Create explicit ownership at the seams. Attend each other’s sprint reviews, ho
 The operating model should make the system a service that improves product delivery—not a central committee that waits for requests or approves every decision.
 > Source context: distilled from the user-provided 60:46 seminar *Initiating a Design System*.
 
-Notion: https://app.notion.com/p/Design-System-Product-Team-Operating-Model-34ea9aed534483a2839b0146e44ae023
+File: library/design-systems-and-tokens/UX-643-design-system-product-team-and-operating-model.md
 
 ## UX-644 — Design - Token Architecture
 - Score 5 · Design Systems & Tokens / Tokens & theming
@@ -330,7 +330,7 @@ The Card component does not change. Only the token mappings do, making the theme
 - A token change has an owner, review, version, and downstream impact record.
 - A component does not introduce a private token when an existing semantic token expresses the same meaning.
 
-Notion: https://app.notion.com/p/Design-Token-Architecture-530a9aed53448302ae8a812df29fa848
+File: library/design-systems-and-tokens/UX-644-design-token-architecture.md
 
 ## UX-129 — Three-Layer Design Token Architecture
 - Score 4 · Design Systems & Tokens / Token Structure
@@ -351,7 +351,7 @@ Notion: https://app.notion.com/p/Design-Token-Architecture-530a9aed53448302ae8a8
 
 Sources: [Martin Fowler — Design Token Architecture](https://martinfowler.com/articles/design-token-based-ui-architecture.html)
 Wireframe: https://files.catbox.moe/3nh98h.jpg
-Notion: https://app.notion.com/p/Three-Layer-Design-Token-Architecture-53ea9aed53448313a109813e5ca023f5
+File: library/design-systems-and-tokens/UX-129-three-layer-design-token-architecture.md
 
 ## UX-130 — Component Variants via Properties (Not Separate Components)
 - Score 4 · Design Systems & Tokens / Component Architecture
@@ -372,7 +372,7 @@ Notion: https://app.notion.com/p/Three-Layer-Design-Token-Architecture-53ea9aed5
 
 Sources: [Penpot — Component Variants](https://penpot.app/blog/how-to-use-component-variants-to-scale-your-design-system/)
 Wireframe: https://files.catbox.moe/16w0mo.jpg
-Notion: https://app.notion.com/p/Component-Variants-via-Properties-Not-Separate-Components-8fea9aed534482b5bfd80171c9486bc7
+File: library/design-systems-and-tokens/UX-130-component-variants-via-properties-not-separate-components.md
 
 ## UX-131 — Composition Over Configuration in Design Systems
 - Score 4 · Design Systems & Tokens / Component Architecture
@@ -386,7 +386,7 @@ Notion: https://app.notion.com/p/Component-Variants-via-Properties-Not-Separate-
 
 Sources: [ITNEXT — SOLID Principles for Design Systems](https://itnext.io/improving-design-systems-with-solid-principles-part-i-separation-of-concerns-c14088ed09c3)
 Wireframe: https://files.catbox.moe/jvhh3w.jpg
-Notion: https://app.notion.com/p/Composition-Over-Configuration-in-Design-Systems-58da9aed5344830d8ba4015812939a0a
+File: library/design-systems-and-tokens/UX-131-composition-over-configuration-in-design-systems.md
 
 ## UX-634 — Design - Adoption & Value Metrics
 - Score 4 · Design Systems & Tokens / Metrics & adoption
@@ -436,7 +436,7 @@ If adoption rises but satisfaction stays low, investigate documentation, API com
 - The team regularly shares what changed because of the measurements.
 
 Sources: [Design System Metrics](https://thedesignsystem.guide/metrics) · [The Design System Metrics Collection](https://thedesignsystem.guide/design-system-metrics)
-Notion: https://app.notion.com/p/Design-Adoption-Value-Metrics-365a9aed5344830d8d8701629611d04a
+File: library/design-systems-and-tokens/UX-634-design-adoption-and-value-metrics.md
 
 ## UX-645 — Design - System Technical Architecture & Distribution
 - Score 4 · Design Systems & Tokens / Build, buy, curate, and architecture review
@@ -467,4 +467,4 @@ Resolve this early. Once dozens of components exist, a change in implementation 
 The system architecture should preserve a single source of truth: the examples used for component development and testing should supply the documentation demonstrations too. Production code and the reference experience should not be independent artifacts.
 > Source context: distilled from the user-provided 60:46 seminar *Initiating a Design System*.
 
-Notion: https://app.notion.com/p/Design-System-Technical-Architecture-Distribution-9a8a9aed534482f9b49a81222c735271
+File: library/design-systems-and-tokens/UX-645-design-system-technical-architecture-and-distribution.md

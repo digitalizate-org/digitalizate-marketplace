@@ -19,7 +19,7 @@
 
 Sources: [UX Magazine — The Future of Enterprise Design Is Consumer-Grade UX](https://uxmag.com/articles/the-future-of-enterprise-design-is-consumer-grade-ux) · [UX Magazine — Enterprise UX: The Value of Usability](https://uxmag.com/articles/enterprise-ux-the-value-of-usability-for-enterprise-software)
 Wireframe: https://files.catbox.moe/4l559x.jpg
-Notion: https://app.notion.com/p/Enterprise-Onboarding-Self-Service-Success-Without-Training-b6ba9aed534482c29a9b017ca7ce8a8e
+File: library/enterprise-and-b2b-patterns/UX-158-enterprise-onboarding-self-service-success-without-training.md
 
 ## UX-159 — End-User Customization Without IT Involvement
 - Score 5 · Enterprise & B2B Patterns / Self-service configuration in enterprise products
@@ -40,7 +40,7 @@ Notion: https://app.notion.com/p/Enterprise-Onboarding-Self-Service-Success-With
 
 Sources: [UX Magazine — The Future of Enterprise Design Is Consumer-Grade UX](https://uxmag.com/articles/the-future-of-enterprise-design-is-consumer-grade-ux)
 Wireframe: https://files.catbox.moe/y2n5oe.jpg
-Notion: https://app.notion.com/p/End-User-Customization-Without-IT-Involvement-586a9aed534483179eea8147d7a4d354
+File: library/enterprise-and-b2b-patterns/UX-159-end-user-customization-without-it-involvement.md
 
 ## UX-160 — Target Consumer-Grade Usability Standards in Enterprise Products
 - Score 5 · Enterprise & B2B Patterns / Enterprise UX quality standards
@@ -61,7 +61,7 @@ Notion: https://app.notion.com/p/End-User-Customization-Without-IT-Involvement-5
 
 Sources: [UX Magazine — The Future of Enterprise Design Is Consumer-Grade UX](https://uxmag.com/articles/the-future-of-enterprise-design-is-consumer-grade-ux)
 Wireframe: https://files.catbox.moe/ibviu2.jpg
-Notion: https://app.notion.com/p/Target-Consumer-Grade-Usability-Standards-in-Enterprise-Products-ddaa9aed5344838d9b02816a0e7525bd
+File: library/enterprise-and-b2b-patterns/UX-160-target-consumer-grade-usability-standards-in-enterprise-prod.md
 
 ## UX-161 — Reduce Clutter Without Reducing Capability
 - Score 5 · Enterprise & B2B Patterns / Information density management
@@ -82,7 +82,7 @@ Notion: https://app.notion.com/p/Target-Consumer-Grade-Usability-Standards-in-En
 
 Sources: [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)
 Wireframe: https://files.catbox.moe/o9bv4l.jpg
-Notion: https://app.notion.com/p/Reduce-Clutter-Without-Reducing-Capability-a17a9aed534482388ef28164ae584264
+File: library/enterprise-and-b2b-patterns/UX-161-reduce-clutter-without-reducing-capability.md
 
 ## UX-162 — Design for Interruption — Autosave and Session Resumability
 - Score 5 · Enterprise & B2B Patterns / Interruption management and state preservation
@@ -95,7 +95,7 @@ Notion: https://app.notion.com/p/Reduce-Clutter-Without-Reducing-Capability-a17a
 **Measure.** Effectiveness: Completion rate, Task success rate; Efficiency: Time on task, Support tickets reduction; Engagement & Usage: Active users, Sessions per user; Satisfaction & Perception: Ease-of-use score, Confidence rating; How to measure: Track form and workflow completion rates before and after introducing autosave, segmenting by session length to identify where interruptions cause the most abandonment.
 
 Wireframe: https://files.catbox.moe/4ih376.jpg
-Notion: https://app.notion.com/p/Design-for-Interruption-Autosave-and-Session-Resumability-107a9aed534483149f0e81f5e8874405
+File: library/enterprise-and-b2b-patterns/UX-162-design-for-interruption-autosave-and-session-resumability.md
 
 ## UX-163 — Bulk Actions for Power Users
 - Score 5 · Enterprise & B2B Patterns / Batch Operations
@@ -117,7 +117,7 @@ Notion: https://app.notion.com/p/Design-for-Interruption-Autosave-and-Session-Re
 
 Sources: [Pencil & Paper — Enterprise Data Tables](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/9s7t3j.jpg
-Notion: https://app.notion.com/p/Bulk-Actions-for-Power-Users-e49a9aed5344828eaf5981b348b1c4cd
+File: library/enterprise-and-b2b-patterns/UX-163-bulk-actions-for-power-users.md
 
 ## UX-164 — Role-Based Interface Adaptation (RBAC in UI)
 - Score 5 · Enterprise & B2B Patterns / Permissions and Access Control
@@ -138,7 +138,7 @@ Notion: https://app.notion.com/p/Bulk-Actions-for-Power-Users-e49a9aed5344828eaf
 
 Sources: [Nakisa — RBAC in Enterprise Software](https://nakisa.com/blog/how-enterprise-software-implements-role-based-access-control-rbac/)
 Wireframe: https://files.catbox.moe/91hnco.jpg
-Notion: https://app.notion.com/p/Role-Based-Interface-Adaptation-RBAC-in-UI-1e6a9aed5344829d81808194d2fa1922
+File: library/enterprise-and-b2b-patterns/UX-164-role-based-interface-adaptation-rbac-in-ui.md
 
 ## UX-165 — Permission-Based UI Rendering (Least Privilege)
 - Score 5 · Enterprise & B2B Patterns / Role-Based Access Control
@@ -157,7 +157,7 @@ Notion: https://app.notion.com/p/Role-Based-Interface-Adaptation-RBAC-in-UI-1e6a
 
 Sources: [Glance Group — How Do You Implement RBAC in Enterprise Apps](https://thisisglance.com/learning-centre/how-do-you-implement-role-based-access-in-enterprise-apps) · [Desilo Studio — IA for Complex SaaS](https://desilo.studio/blog/sitemap-to-success-information-architecture-complex-products/)
 Wireframe: https://files.catbox.moe/73ah7e.jpg
-Notion: https://app.notion.com/p/Permission-Based-UI-Rendering-Least-Privilege-8b8a9aed534483e4b5a281a72c68e1e5
+File: library/enterprise-and-b2b-patterns/UX-165-permission-based-ui-rendering-least-privilege.md
 
 ## UX-166 — Permission-Aware Navigation Design
 - Score 5 · Enterprise & B2B Patterns / Role-Based Access Control
@@ -178,7 +178,7 @@ Notion: https://app.notion.com/p/Permission-Based-UI-Rendering-Least-Privilege-8
 
 Sources: [Desilo Studio — IA for Complex SaaS](https://desilo.studio/blog/sitemap-to-success-information-architecture-complex-products/)
 Wireframe: https://files.catbox.moe/zpgq55.jpg
-Notion: https://app.notion.com/p/Permission-Aware-Navigation-Design-98ca9aed534482739f8e015d9dd52a81
+File: library/enterprise-and-b2b-patterns/UX-166-permission-aware-navigation-design.md
 
 ## UX-167 — Comprehensive Audit Trail Architecture
 - Score 5 · Enterprise & B2B Patterns / Audit Trails
@@ -199,7 +199,7 @@ Notion: https://app.notion.com/p/Permission-Aware-Navigation-Design-98ca9aed5344
 
 Sources: [Shyft — Mastering Audit Trail Architecture](https://www.myshyft.com/blog/audit-trail-architecture/) · [Workato — Activity Audit Log](https://docs.workato.com/features/activity-audit-log.html)
 Wireframe: https://files.catbox.moe/iha6w5.jpg
-Notion: https://app.notion.com/p/Comprehensive-Audit-Trail-Architecture-ec9a9aed5344822491ff81062ab8aa4d
+File: library/enterprise-and-b2b-patterns/UX-167-comprehensive-audit-trail-architecture.md
 
 ## UX-168 — Always-Available CSV/Excel Export
 - Score 5 · Enterprise & B2B Patterns / Export/Import
@@ -221,7 +221,7 @@ Notion: https://app.notion.com/p/Comprehensive-Audit-Trail-Architecture-ec9a9aed
 
 Sources: [Pencil & Paper — Dashboard UX](https://www.pencilandpaper.io/articles/ux-pattern-analysis-data-dashboards)
 Wireframe: https://files.catbox.moe/j0t199.jpg
-Notion: https://app.notion.com/p/Always-Available-CSV-Excel-Export-8a7a9aed534483c5af9a81d51436b3b7
+File: library/enterprise-and-b2b-patterns/UX-168-always-available-csv-and-excel-export.md
 
 ## UX-169 — Admin Panel Multi-Column Interface
 - Score 5 · Enterprise & B2B Patterns / Admin Panels
@@ -242,7 +242,7 @@ Notion: https://app.notion.com/p/Always-Available-CSV-Excel-Export-8a7a9aed53448
 
 Sources: [Aspirity — Admin Panel Design Best Practices](https://aspirity.com/blog/good-admin-panel-design)
 Wireframe: https://files.catbox.moe/m0htn5.jpg
-Notion: https://app.notion.com/p/Admin-Panel-Multi-Column-Interface-1d5a9aed534482869d2501dbde94b71e
+File: library/enterprise-and-b2b-patterns/UX-169-admin-panel-multi-column-interface.md
 
 ## UX-170 — Inline Tooltips and Contextual Help for Admin UIs
 - Score 5 · Enterprise & B2B Patterns / Admin Panels
@@ -264,7 +264,7 @@ Notion: https://app.notion.com/p/Admin-Panel-Multi-Column-Interface-1d5a9aed5344
 
 Sources: [Aspirity — Admin Panel Design Best Practices](https://aspirity.com/blog/good-admin-panel-design)
 Wireframe: https://files.catbox.moe/l33a8x.jpg
-Notion: https://app.notion.com/p/Inline-Tooltips-and-Contextual-Help-for-Admin-UIs-563a9aed5344823cb61f019d2188255e
+File: library/enterprise-and-b2b-patterns/UX-170-inline-tooltips-and-contextual-help-for-admin-uis.md
 
 ## UX-171 — Coordinate Transitions Across Multiple Tools and Workspaces
 - Score 4 · Enterprise & B2B Patterns / Cross-tool integration and export
@@ -285,7 +285,7 @@ Notion: https://app.notion.com/p/Inline-Tooltips-and-Contextual-Help-for-Admin-U
 
 Sources: [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)
 Wireframe: https://files.catbox.moe/dmbhhw.jpg
-Notion: https://app.notion.com/p/Coordinate-Transitions-Across-Multiple-Tools-and-Workspaces-b24a9aed534483f5866e012b54fabfc3
+File: library/enterprise-and-b2b-patterns/UX-171-coordinate-transitions-across-multiple-tools-and-workspaces.md
 
 ## UX-172 — Ease Transition Between Primary and Secondary Information
 - Score 4 · Enterprise & B2B Patterns / Primary/secondary information access
@@ -307,7 +307,7 @@ Notion: https://app.notion.com/p/Coordinate-Transitions-Across-Multiple-Tools-an
 
 Sources: [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)
 Wireframe: https://files.catbox.moe/twnsla.jpg
-Notion: https://app.notion.com/p/Ease-Transition-Between-Primary-and-Secondary-Information-d1ba9aed53448296bef601b3cf722c8d
+File: library/enterprise-and-b2b-patterns/UX-172-ease-transition-between-primary-and-secondary-information.md
 
 ## UX-173 — Graceful Permission Denial
 - Score 4 · Enterprise & B2B Patterns / Permissions and Access Control
@@ -326,7 +326,7 @@ Notion: https://app.notion.com/p/Ease-Transition-Between-Primary-and-Secondary-I
 
 Sources: [Cerbos — Enterprise Authorization Models](https://www.cerbos.dev/blog/designing-an-authorization-model-for-an-enterprise)
 Wireframe: https://files.catbox.moe/1hbmwi.jpg
-Notion: https://app.notion.com/p/Graceful-Permission-Denial-f86a9aed534482008cb3010861be863f
+File: library/enterprise-and-b2b-patterns/UX-173-graceful-permission-denial.md
 
 ## UX-174 — Role-Resource-Action Permission Matrix
 - Score 4 · Enterprise & B2B Patterns / Role-Based Access Control
@@ -346,7 +346,7 @@ Notion: https://app.notion.com/p/Graceful-Permission-Denial-f86a9aed534482008cb3
 
 Sources: [NocoBase — How to Design an RBAC System](https://www.nocobase.com/en/blog/how-to-design-rbac-role-based-access-control-system)
 Wireframe: https://files.catbox.moe/63wqnq.jpg
-Notion: https://app.notion.com/p/Role-Resource-Action-Permission-Matrix-573a9aed534482db9e228181747020a5
+File: library/enterprise-and-b2b-patterns/UX-174-role-resource-action-permission-matrix.md
 
 ## UX-175 — Tenant Isolation and Context Clarity
 - Score 4 · Enterprise & B2B Patterns / Multi-Tenant Design
@@ -366,7 +366,7 @@ Notion: https://app.notion.com/p/Role-Resource-Action-Permission-Matrix-573a9aed
 
 Sources: [Nexiby — Build a Multi-Tenant SaaS Application](https://nexiby.com/build-multi-tenant-saas-application/)
 Wireframe: https://files.catbox.moe/x13vbr.jpg
-Notion: https://app.notion.com/p/Tenant-Isolation-and-Context-Clarity-cc2a9aed5344839c8dcb8115563d3c1d
+File: library/enterprise-and-b2b-patterns/UX-175-tenant-isolation-and-context-clarity.md
 
 ## UX-176 — Activity Log UI with Filterable Timeline
 - Score 4 · Enterprise & B2B Patterns / Audit Trails
@@ -387,7 +387,7 @@ Notion: https://app.notion.com/p/Tenant-Isolation-and-Context-Clarity-cc2a9aed53
 
 Sources: [Workato — Activity Audit Log](https://docs.workato.com/features/activity-audit-log.html) · [Aspirity — Admin Panel Design Best Practices](https://aspirity.com/blog/good-admin-panel-design)
 Wireframe: https://files.catbox.moe/qxtaen.jpg
-Notion: https://app.notion.com/p/Activity-Log-UI-with-Filterable-Timeline-b4ea9aed5344834b8bba814e81290602
+File: library/enterprise-and-b2b-patterns/UX-176-activity-log-ui-with-filterable-timeline.md
 
 ## UX-177 — Guided Import with Template, Mapping, and Repair
 - Score 4 · Enterprise & B2B Patterns / Export/Import
@@ -408,7 +408,7 @@ Notion: https://app.notion.com/p/Activity-Log-UI-with-Filterable-Timeline-b4ea9a
 
 Sources: [Smart Interface Design Patterns — Bulk Import UX](https://smart-interface-design-patterns.com/articles/bulk-ux/)
 Wireframe: https://files.catbox.moe/qppnac.jpg
-Notion: https://app.notion.com/p/Guided-Import-with-Template-Mapping-and-Repair-9d4a9aed534482b8b0ec0194956dad87
+File: library/enterprise-and-b2b-patterns/UX-177-guided-import-with-template-mapping-and-repair.md
 
 ## UX-178 — Hierarchical Settings Architecture
 - Score 4 · Enterprise & B2B Patterns / Settings Design
@@ -429,7 +429,7 @@ Notion: https://app.notion.com/p/Guided-Import-with-Template-Mapping-and-Repair-
 
 Sources: [Aspirity — Admin Panel Design Best Practices](https://aspirity.com/blog/good-admin-panel-design)
 Wireframe: https://files.catbox.moe/0139n5.jpg
-Notion: https://app.notion.com/p/Hierarchical-Settings-Architecture-c0fa9aed5344822fbfc80179f7229164
+File: library/enterprise-and-b2b-patterns/UX-178-hierarchical-settings-architecture.md
 
 ## UX-179 — Surface Frequent Admin Actions Prominently
 - Score 4 · Enterprise & B2B Patterns / Admin Panels
@@ -449,7 +449,7 @@ Notion: https://app.notion.com/p/Hierarchical-Settings-Architecture-c0fa9aed5344
 
 Sources: [Allsite.pro](http://allsite.pro/) · [— 10 Tips for Admin Panels](https://www.allsite.pro/insights/admin-panel-design-tips)
 Wireframe: https://files.catbox.moe/gkzh4x.jpg
-Notion: https://app.notion.com/p/Surface-Frequent-Admin-Actions-Prominently-09da9aed5344823cb29c8180f404c6e2
+File: library/enterprise-and-b2b-patterns/UX-179-surface-frequent-admin-actions-prominently.md
 
 ## UX-180 — Consistent Date and Number Formatting
 - Score 4 · Enterprise & B2B Patterns / Localization
@@ -470,7 +470,7 @@ Notion: https://app.notion.com/p/Surface-Frequent-Admin-Actions-Prominently-09da
 
 Sources: [ROSSUL — Enterprise UX Best Practices](https://www.rossul.com/2024/blog/enhancing-user-experience-in-b2b-enterprise-web-applications-ux-best-practices/)
 Wireframe: https://files.catbox.moe/60bguh.jpg
-Notion: https://app.notion.com/p/Consistent-Date-and-Number-Formatting-9dba9aed534482848c938128d93fc9cd
+File: library/enterprise-and-b2b-patterns/UX-180-consistent-date-and-number-formatting.md
 
 ## UX-181 — Role Hierarchy and Permission Inheritance
 - Score 3 · Enterprise & B2B Patterns / Role-Based Access Control
@@ -491,7 +491,7 @@ Notion: https://app.notion.com/p/Consistent-Date-and-Number-Formatting-9dba9aed5
 
 Sources: [Glance Group — RBAC in Enterprise Apps](https://thisisglance.com/learning-centre/how-do-you-implement-role-based-access-in-enterprise-apps)
 Wireframe: https://files.catbox.moe/swbqxl.jpg
-Notion: https://app.notion.com/p/Role-Hierarchy-and-Permission-Inheritance-788a9aed534483f99e7481baa2faf3fb
+File: library/enterprise-and-b2b-patterns/UX-181-role-hierarchy-and-permission-inheritance.md
 
 ## UX-182 — White-Label and Theme Customization for B2B SaaS
 - Score 3 · Enterprise & B2B Patterns / Multi-Tenant Design
@@ -511,7 +511,7 @@ Notion: https://app.notion.com/p/Role-Hierarchy-and-Permission-Inheritance-788a9
 
 Sources: [Workato — Seamless White-Label Integration](https://www.workato.com/the-connector/white-label-integration/) · [Nexiby — Multi-Tenant SaaS](https://nexiby.com/build-multi-tenant-saas-application/)
 Wireframe: https://files.catbox.moe/3gw0r2.jpg
-Notion: https://app.notion.com/p/White-Label-and-Theme-Customization-for-B2B-SaaS-494a9aed53448325abe981401ebe1b55
+File: library/enterprise-and-b2b-patterns/UX-182-white-label-and-theme-customization-for-b2b-saas.md
 
 ## UX-183 — Instant Preview for UI Configuration Changes
 - Score 3 · Enterprise & B2B Patterns / Settings Design
@@ -532,7 +532,7 @@ Notion: https://app.notion.com/p/White-Label-and-Theme-Customization-for-B2B-Saa
 
 Sources: [Aspirity — Admin Panel Design Best Practices](https://aspirity.com/blog/good-admin-panel-design)
 Wireframe: https://files.catbox.moe/snlxa9.jpg
-Notion: https://app.notion.com/p/Instant-Preview-for-UI-Configuration-Changes-cd1a9aed53448390809681a66bbeaffd
+File: library/enterprise-and-b2b-patterns/UX-183-instant-preview-for-ui-configuration-changes.md
 
 ## UX-184 — Print and Export Formatting
 - Score 3 · Enterprise & B2B Patterns / Output Formatting
@@ -552,7 +552,7 @@ Notion: https://app.notion.com/p/Instant-Preview-for-UI-Configuration-Changes-cd
 
 Sources: [Pencil & Paper — Dashboard UX](https://www.pencilandpaper.io/articles/ux-pattern-analysis-data-dashboards)
 Wireframe: https://files.catbox.moe/6ibvkz.jpg
-Notion: https://app.notion.com/p/Print-and-Export-Formatting-cd0a9aed534482ccb8f301cdb4b7862a
+File: library/enterprise-and-b2b-patterns/UX-184-print-and-export-formatting.md
 
 ## UX-185 — Impersonation and Support View Mode
 - Score 3 · Enterprise & B2B Patterns / Admin Tools
@@ -570,7 +570,7 @@ Notion: https://app.notion.com/p/Print-and-Export-Formatting-cd0a9aed534482ccb8f
 
 Sources: [Nexiby — Multi-Tenant SaaS](https://nexiby.com/build-multi-tenant-saas-application/)
 Wireframe: https://files.catbox.moe/xp1a5k.jpg
-Notion: https://app.notion.com/p/Impersonation-and-Support-View-Mode-4ffa9aed5344839b8eb001b9caf729a2
+File: library/enterprise-and-b2b-patterns/UX-185-impersonation-and-support-view-mode.md
 
 ## UX-186 — Mobile-Aware Layouts for Field Workers
 - Score 3 · Enterprise & B2B Patterns / Responsive Design
@@ -590,7 +590,7 @@ Notion: https://app.notion.com/p/Impersonation-and-Support-View-Mode-4ffa9aed534
 
 Sources: [UXpilot — Enterprise UX Best Practices](https://uxpilot.ai/blogs/enterprise-ux-design)
 Wireframe: https://files.catbox.moe/t3arh3.jpg
-Notion: https://app.notion.com/p/Mobile-Aware-Layouts-for-Field-Workers-f57a9aed534482d2954981ba9173baff
+File: library/enterprise-and-b2b-patterns/UX-186-mobile-aware-layouts-for-field-workers.md
 
 ## UX-187 — Rich Excel Export with Conditional Formatting
 - Score 3 · Enterprise & B2B Patterns / Output Formatting
@@ -604,4 +604,4 @@ Notion: https://app.notion.com/p/Mobile-Aware-Layouts-for-Field-Workers-f57a9aed
 
 Sources: [Pencil & Paper — Data Table UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/c3onqr.jpg
-Notion: https://app.notion.com/p/Rich-Excel-Export-with-Conditional-Formatting-410a9aed5344838f85e6816b6873a1fd
+File: library/enterprise-and-b2b-patterns/UX-187-rich-excel-export-with-conditional-formatting.md

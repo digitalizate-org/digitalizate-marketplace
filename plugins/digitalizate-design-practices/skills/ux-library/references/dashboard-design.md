@@ -20,7 +20,7 @@
 
 Sources: [Nielsen Norman Group — Data Visualizations for Dashboards](https://www.nngroup.com/videos/data-visualizations-dashboards/)
 Wireframe: https://files.catbox.moe/4al5xw.jpg
-Notion: https://app.notion.com/p/Design-Dashboards-Around-User-Goals-Not-Available-Data-5bda9aed5344828aa58581f393cf7064
+File: library/dashboard-design/UX-053-design-dashboards-around-user-goals-not-available-data.md
 
 ## UX-054 — Preattentive Attributes for Fast Visual Processing in Dashboards
 - Score 5 · Dashboard Design / Data visualization perception
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Design-Dashboards-Around-User-Goals-Not-Availab
 
 Sources: [Nielsen Norman Group — Data Visualizations for Dashboards](https://www.nngroup.com/videos/data-visualizations-dashboards/)
 Wireframe: https://files.catbox.moe/kpkflv.jpg
-Notion: https://app.notion.com/p/Preattentive-Attributes-for-Fast-Visual-Processing-in-Dashboards-54ca9aed534483abaf9881a264334043
+File: library/dashboard-design/UX-054-preattentive-attributes-for-fast-visual-processing-in-dashbo.md
 
 ## UX-055 — Dashboard Hover Tooltips for Contextual Detail on Demand
 - Score 5 · Dashboard Design / Data visualization interaction
@@ -63,7 +63,7 @@ Notion: https://app.notion.com/p/Preattentive-Attributes-for-Fast-Visual-Process
 
 Sources: [Nielsen Norman Group — Data Visualizations for Dashboards](https://www.nngroup.com/videos/data-visualizations-dashboards/) · [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)
 Wireframe: https://files.catbox.moe/dofhao.jpg
-Notion: https://app.notion.com/p/Dashboard-Hover-Tooltips-for-Contextual-Detail-on-Demand-ce2a9aed534482a5beee01eb466bdc2c
+File: library/dashboard-design/UX-055-dashboard-hover-tooltips-for-contextual-detail-on-demand.md
 
 ## UX-056 — Dashboard Customization and Personalization
 - Score 5 · Dashboard Design / Dashboard personalization
@@ -85,7 +85,7 @@ Notion: https://app.notion.com/p/Dashboard-Hover-Tooltips-for-Contextual-Detail-
 
 Sources: [Nielsen Norman Group — Data Visualizations for Dashboards](https://www.nngroup.com/videos/data-visualizations-dashboards/) · [UX Magazine — Enterprise UX](https://uxmag.com/articles/enterprise-ux-the-value-of-usability-for-enterprise-software) · [UX Planet — Data Table Best Practices](https://uxplanet.org/best-practices-for-usable-and-efficient-data-table-in-applications-4a1d1fb29550) · [Excited Agency — Dashboard UX](https://excited.agency/blog/dashboard-ux-design) · [Pencil & Paper — Dashboard UX](https://www.pencilandpaper.io/articles/ux-pattern-analysis-data-dashboards)
 Wireframe: https://files.catbox.moe/xjudrr.jpg
-Notion: https://app.notion.com/p/Dashboard-Customization-and-Personalization-3c5a9aed534483a5a9d881215d008fbd
+File: library/dashboard-design/UX-056-dashboard-customization-and-personalization.md
 
 ## UX-057 — Card Component Anatomy for Dashboard KPIs
 - Score 5 · Dashboard Design / KPI card design patterns
@@ -107,7 +107,7 @@ Notion: https://app.notion.com/p/Dashboard-Customization-and-Personalization-3c5
 
 Sources: [Component Gallery — Card](https://component.gallery/components/card/) · [Laws of UX — Law of Common Region](https://lawsofux.com/law-of-common-region/)
 Wireframe: https://files.catbox.moe/25ur32.jpg
-Notion: https://app.notion.com/p/Card-Component-Anatomy-for-Dashboard-KPIs-d62a9aed5344825d80318193ddfc94c0
+File: library/dashboard-design/UX-057-card-component-anatomy-for-dashboard-kpis.md
 
 ## UX-058 — Dashboard Information Hierarchy
 - Score 5 · Dashboard Design / Dashboard Layout
@@ -128,7 +128,7 @@ Notion: https://app.notion.com/p/Card-Component-Anatomy-for-Dashboard-KPIs-d62a9
 
 Sources: [Pencil & Paper — Enterprise Data Tables](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) · [About Face Ch. 13 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/78b8c1.jpg
-Notion: https://app.notion.com/p/Dashboard-Information-Hierarchy-c69a9aed5344826e85610180bfc84d62
+File: library/dashboard-design/UX-058-dashboard-information-hierarchy.md
 
 ## UX-059 — Contextual Filtering and Date Ranges on Dashboards
 - Score 5 · Dashboard Design / Dashboard Filtering
@@ -150,7 +150,7 @@ Notion: https://app.notion.com/p/Dashboard-Information-Hierarchy-c69a9aed5344826
 
 Sources: [Design Systems — Space, Grids, and Layouts](https://www.designsystems.com/space-grids-and-layouts/)
 Wireframe: https://files.catbox.moe/y3uslx.jpg
-Notion: https://app.notion.com/p/Contextual-Filtering-and-Date-Ranges-on-Dashboards-429a9aed534483fab4f181522be67ca8
+File: library/dashboard-design/UX-059-contextual-filtering-and-date-ranges-on-dashboards.md
 
 ## UX-060 — F-Pattern and Z-Pattern Dashboard Visual Hierarchy
 - Score 5 · Dashboard Design / Layout Hierarchy
@@ -169,7 +169,7 @@ Notion: https://app.notion.com/p/Contextual-Filtering-and-Date-Ranges-on-Dashboa
 
 Sources: [Excited Agency — Dashboard UX Design](https://excited.agency/blog/dashboard-ux-design) · [DataCamp — Effective Dashboard Design](https://www.datacamp.com/tutorial/dashboard-design-tutorial) · [Pencil & Paper — Dashboard UX](https://www.pencilandpaper.io/articles/ux-pattern-analysis-data-dashboards)
 Wireframe: https://files.catbox.moe/1djt32.jpg
-Notion: https://app.notion.com/p/F-Pattern-and-Z-Pattern-Dashboard-Visual-Hierarchy-aaea9aed534482b8a87781a568bb73b2
+File: library/dashboard-design/UX-060-f-pattern-and-z-pattern-dashboard-visual-hierarchy.md
 
 ## UX-061 — Metrics Bar — KPI Highlight Row
 - Score 5 · Dashboard Design / KPI Display
@@ -190,7 +190,7 @@ Notion: https://app.notion.com/p/F-Pattern-and-Z-Pattern-Dashboard-Visual-Hierar
 
 Sources: [Salt Design System — Analytical Dashboard](https://www.saltdesignsystem.com/salt/patterns/analytical-dashboard) · [DataCamp — Dashboard Design](https://www.datacamp.com/tutorial/dashboard-design-tutorial)
 Wireframe: https://files.catbox.moe/unuw6x.jpg
-Notion: https://app.notion.com/p/Metrics-Bar-KPI-Highlight-Row-8b9a9aed534483d5a283810d87201b1c
+File: library/dashboard-design/UX-061-metrics-bar-kpi-highlight-row.md
 
 ## UX-062 — Dashboard Type and Audience Matching
 - Score 5 · Dashboard Design / Dashboard Strategy
@@ -212,7 +212,7 @@ Notion: https://app.notion.com/p/Metrics-Bar-KPI-Highlight-Row-8b9a9aed534483d5a
 
 Sources: [Pencil & Paper — Dashboard UX](https://www.pencilandpaper.io/articles/ux-pattern-analysis-data-dashboards)
 Wireframe: https://files.catbox.moe/9uj0mr.jpg
-Notion: https://app.notion.com/p/Dashboard-Type-and-Audience-Matching-684a9aed5344827396ea8169f3358ced
+File: library/dashboard-design/UX-062-dashboard-type-and-audience-matching.md
 
 ## UX-063 — Delta Indicators and Contextual Comparisons
 - Score 5 · Dashboard Design / KPI Display
@@ -232,7 +232,7 @@ Notion: https://app.notion.com/p/Dashboard-Type-and-Audience-Matching-684a9aed53
 
 Sources: [Pencil & Paper — Dashboard UX](https://www.pencilandpaper.io/articles/ux-pattern-analysis-data-dashboards) · [Smashing Magazine — Real-Time Dashboard UX](https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/)
 Wireframe: https://files.catbox.moe/342zel.jpg
-Notion: https://app.notion.com/p/Delta-Indicators-and-Contextual-Comparisons-ffea9aed534483a1882981c9916501ba
+File: library/dashboard-design/UX-063-delta-indicators-and-contextual-comparisons.md
 
 ## UX-064 — Data Freshness Indicators
 - Score 5 · Dashboard Design / Real-Time Data Display
@@ -252,7 +252,7 @@ Notion: https://app.notion.com/p/Delta-Indicators-and-Contextual-Comparisons-ffe
 
 Sources: [Smashing Magazine — UX Strategies for Real-Time Dashboards](https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/)
 Wireframe: https://files.catbox.moe/wyops1.jpg
-Notion: https://app.notion.com/p/Data-Freshness-Indicators-769a9aed5344826f9a5c0157edee51cc
+File: library/dashboard-design/UX-064-data-freshness-indicators.md
 
 ## UX-065 — Data-Ink Ratio and Anti-Clutter
 - Score 4 · Dashboard Design / Visual Clarity
@@ -270,7 +270,7 @@ Notion: https://app.notion.com/p/Data-Freshness-Indicators-769a9aed5344826f9a5c0
 
 Sources: [DataCamp — Effective Dashboard Design](https://www.datacamp.com/tutorial/dashboard-design-tutorial)
 Wireframe: https://files.catbox.moe/4wcesa.jpg
-Notion: https://app.notion.com/p/Data-Ink-Ratio-and-Anti-Clutter-c5ca9aed5344827a91af014cdeaf6278
+File: library/dashboard-design/UX-065-data-ink-ratio-and-anti-clutter.md
 
 ## UX-066 — Sparklines for Inline Trend Visualization
 - Score 4 · Dashboard Design / Data Visualization
@@ -292,7 +292,7 @@ Notion: https://app.notion.com/p/Data-Ink-Ratio-and-Anti-Clutter-c5ca9aed5344827
 
 Sources: [Smashing Magazine — Real-Time Dashboard UX](https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/)
 Wireframe: https://files.catbox.moe/x828hk.jpg
-Notion: https://app.notion.com/p/Sparklines-for-Inline-Trend-Visualization-a31a9aed534482d1b15a815500aea671
+File: library/dashboard-design/UX-066-sparklines-for-inline-trend-visualization.md
 
 ## UX-067 — Role-Based Dashboard Personalization
 - Score 4 · Dashboard Design / Dashboard Personalization
@@ -313,7 +313,7 @@ Notion: https://app.notion.com/p/Sparklines-for-Inline-Trend-Visualization-a31a9
 
 Sources: [Koruux — Enterprise Data Visualization](https://www.koruux.com/blog/enterprise-data-visualization) · [Smashing Magazine — Real-Time Dashboard UX](https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/)
 Wireframe: https://files.catbox.moe/gmnuyj.jpg
-Notion: https://app.notion.com/p/Role-Based-Dashboard-Personalization-e71a9aed5344831c8022016f88fe2334
+File: library/dashboard-design/UX-067-role-based-dashboard-personalization.md
 
 ## UX-068 — Alert and Threshold-Based Notifications
 - Score 4 · Dashboard Design / Monitoring & Alerts
@@ -333,7 +333,7 @@ Notion: https://app.notion.com/p/Role-Based-Dashboard-Personalization-e71a9aed53
 
 Sources: [Smashing Magazine — Real-Time Dashboard UX](https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/) · [Raw.Studio](http://raw.studio/) · [— UX Rules for Real-Time Dashboards](https://raw.studio/blog/ux-rules-for-real-time-performance-dashboards/)
 Wireframe: https://files.catbox.moe/uda9fp.jpg
-Notion: https://app.notion.com/p/Alert-and-Threshold-Based-Notifications-a5aa9aed534482b683b081a00bd36e05
+File: library/dashboard-design/UX-068-alert-and-threshold-based-notifications.md
 
 ## UX-069 — Comparison Mode for Time-Series Data
 - Score 4 · Dashboard Design / Data Visualization
@@ -354,7 +354,7 @@ Notion: https://app.notion.com/p/Alert-and-Threshold-Based-Notifications-a5aa9ae
 
 Sources: [DataCamp — Effective Dashboard Design](https://www.datacamp.com/tutorial/dashboard-design-tutorial)
 Wireframe: https://files.catbox.moe/0sxgzp.jpg
-Notion: https://app.notion.com/p/Comparison-Mode-for-Time-Series-Data-0fda9aed534482cb850d01e18e40f595
+File: library/dashboard-design/UX-069-comparison-mode-for-time-series-data.md
 
 ## UX-070 — Subtle Micro-Animations for Live Data Updates
 - Score 3 · Dashboard Design / Real-Time Data Display
@@ -376,7 +376,7 @@ Notion: https://app.notion.com/p/Comparison-Mode-for-Time-Series-Data-0fda9aed53
 
 Sources: [Smashing Magazine — UX Strategies for Real-Time Dashboards](https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/)
 Wireframe: https://files.catbox.moe/25iymj.jpg
-Notion: https://app.notion.com/p/Subtle-Micro-Animations-for-Live-Data-Updates-404a9aed534482cb95e601da65fe704d
+File: library/dashboard-design/UX-070-subtle-micro-animations-for-live-data-updates.md
 
 ## UX-071 — Pause/Freeze Option for Live Data Streams
 - Score 3 · Dashboard Design / Real-Time Data Display
@@ -397,4 +397,4 @@ Notion: https://app.notion.com/p/Subtle-Micro-Animations-for-Live-Data-Updates-4
 
 Sources: [Smashing Magazine — UX Strategies for Real-Time Dashboards](https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/)
 Wireframe: https://files.catbox.moe/it8ch0.jpg
-Notion: https://app.notion.com/p/Pause-Freeze-Option-for-Live-Data-Streams-62aa9aed5344828495ec01995dc6b387
+File: library/dashboard-design/UX-071-pause-and-freeze-option-for-live-data-streams.md

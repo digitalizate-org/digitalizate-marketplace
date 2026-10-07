@@ -1,26 +1,5 @@
 # Human Biases in Interfaces · part 2/3 (32 entries, score 4)
 
-## UX-583 — Base Rate Neglect (Base Rate Fallacy)
-- Score 4 · Human Biases in Interfaces
-- Goals: Leverage Psychology to Guide User Behavior; Drive Conversion & Decision-Making
-- Use when: Mitigate: Always weight qualitative insights by the quantitative base rate of the segment they represent. Before acting on a finding, ask: 'What percentage of our users are in this situation?' Conduct sample size calculations before running tests. Leverage: Design features to serve the base-rate majority of user behaviors rather than edge cases, unless edge-case user value or revenue is disproportionate.
-
-**Why.** Base rate neglect, identified by Kahneman and Tversky in their 1973 research on probability judgment, is the systematic tendency to underweight or ignore prior probability information — statistical base rates — when evaluating specific cases, instead over-relying on vivid, case-specific evidence. The finding is robust across domains: when specific, compelling case information is available, it overshadows statistically more powerful population-level data in determining judgment. The mechanism is representativeness — how well a specific case matches a prototype pattern matters more to System 1 judgment than how frequently that pattern actually occurs in the population.
-
-**Do.**
-- Always segment user research findings by user tier frequency: 'This issue affects 80% of new users who represent 60% of all sessions'
-- Use sample-size calculators before any A/B test or survey to ensure you're detecting real population effects, not noise
-- Weight qualitative feedback by user frequency: a complaint from your top 10 users about a niche feature must be balanced against the base rate of that user type
-- Build dashboards that show frequency distributions, not just existence: not 'users report this problem' but '34% of users encounter this problem weekly'
-- Create user segmentation matrices that document the size, revenue contribution, and growth rate of each segment before prioritization decisions
-- In error/exception monitoring, sort by frequency × impact, not raw occurrence count
-
-**Measure.** Effectiveness: Error rate, Task success rate; Efficiency: Time on task; Satisfaction & Perception: Confidence rating, Ease-of-use score; How to measure: Conduct usability tests on interfaces that present individual anecdotes or case results without base-rate context, measuring decision error rates compared to interfaces that surface statistical context alongside examples. Survey users on decision confidence before and after adding population-level data to information-heavy interfaces.
-
-Sources: [https://www.patent355.com/behavioral-design-glossary/base-rate-fallacy](https://www.patent355.com/behavioral-design-glossary/base-rate-fallacy) · [https://trevorcalabro.substack.com/p/cognitive-biases-in-ux-research](https://trevorcalabro.substack.com/p/cognitive-biases-in-ux-research)
-Wireframe: https://files.catbox.moe/q1lxbu.jpg
-Notion: https://app.notion.com/p/Base-Rate-Neglect-Base-Rate-Fallacy-c3aa9aed53448271916c81c64546e08b
-
 ## UX-584 — Belief Perseverance (Conceptual Conservatism)
 - Score 4 · Human Biases in Interfaces
 - Goals: Leverage Psychology to Guide User Behavior; Drive Conversion & Decision-Making
@@ -40,7 +19,7 @@ Notion: https://app.notion.com/p/Base-Rate-Neglect-Base-Rate-Fallacy-c3aa9aed534
 
 Sources: [https://thedecisionlab.com/biases/belief-perseverance](https://thedecisionlab.com/biases/belief-perseverance) · [https://www.linkedin.com/posts/uxism_uxresearch-designthinking-userexperience-activity-7364203619170086913-A94Z](https://www.linkedin.com/posts/uxism_uxresearch-designthinking-userexperience-activity-7364203619170086913-A94Z)
 Wireframe: https://files.catbox.moe/su107q.jpg
-Notion: https://app.notion.com/p/Belief-Perseverance-Conceptual-Conservatism-1dea9aed534482b3a7d2818c1e835d3b
+File: library/human-biases-in-interfaces/UX-584-belief-perseverance-conceptual-conservatism.md
 
 ## UX-585 — Conformity Bias (Asch Effect / Normative and Informational Social Influence)
 - Score 4 · Human Biases in Interfaces
@@ -61,7 +40,7 @@ Notion: https://app.notion.com/p/Belief-Perseverance-Conceptual-Conservatism-1de
 
 Sources: [https://pmc.ncbi.nlm.nih.gov/articles/PMC10686423/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10686423/) · [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.02254/full](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.02254/full) · [https://www.nngroup.com/articles/groupthink-in-ux/](https://www.nngroup.com/articles/groupthink-in-ux/)
 Wireframe: https://files.catbox.moe/d8ocnx.jpg
-Notion: https://app.notion.com/p/Conformity-Bias-Asch-Effect-Normative-and-Informational-Social-Influence-944a9aed5344828cb3ab01932dc78571
+File: library/human-biases-in-interfaces/UX-585-conformity-bias-asch-effect-and-normative-and-informational.md
 
 ## UX-586 — Decoy Effect (Asymmetric Dominance Effect / Attraction Effect)
 - Score 4 · Human Biases in Interfaces
@@ -82,7 +61,7 @@ Notion: https://app.notion.com/p/Conformity-Bias-Asch-Effect-Normative-and-Infor
 
 Sources: [https://thinkinsights.net/strategy/decoy-effect](https://thinkinsights.net/strategy/decoy-effect) · [https://www.paulolyslager.com/decoy-effect-price-tables/](https://www.paulolyslager.com/decoy-effect-price-tables/) · [UI-Patterns.com](http://ui-patterns.com/) · [https://ui-patterns.com/patterns/decoy-effect](https://ui-patterns.com/patterns/decoy-effect)
 Wireframe: https://files.catbox.moe/6zatlh.jpg
-Notion: https://app.notion.com/p/Decoy-Effect-Asymmetric-Dominance-Effect-Attraction-Effect-4d8a9aed53448289adc581e4a025295e
+File: library/human-biases-in-interfaces/UX-586-decoy-effect-asymmetric-dominance-effect-and-attraction-effe.md
 
 ## UX-587 — Dunning-Kruger Effect (Illusory Superiority / Metacognitive Incompetence)
 - Score 4 · Human Biases in Interfaces
@@ -104,7 +83,7 @@ Notion: https://app.notion.com/p/Decoy-Effect-Asymmetric-Dominance-Effect-Attrac
 
 Sources: [https://www.interaction-design.org/literature/topics/dunning-kruger-effect](https://www.interaction-design.org/literature/topics/dunning-kruger-effect) · [https://www.gatherthink.com/p/the-illusion-of-competence-decoding](https://www.gatherthink.com/p/the-illusion-of-competence-decoding) · [https://uxdesign.cc/letting-go-of-ego-8e99c6335307](https://uxdesign.cc/letting-go-of-ego-8e99c6335307)
 Wireframe: https://files.catbox.moe/s3td05.jpg
-Notion: https://app.notion.com/p/Dunning-Kruger-Effect-Illusory-Superiority-Metacognitive-Incompetence-a3aa9aed53448266b610015cd2d476c2
+File: library/human-biases-in-interfaces/UX-587-dunning-kruger-effect-illusory-superiority-and-metacognitive.md
 
 ## UX-588 — Duration Neglect (Experience Insensitivity to Duration)
 - Score 4 · Human Biases in Interfaces
@@ -125,7 +104,7 @@ Notion: https://app.notion.com/p/Dunning-Kruger-Effect-Illusory-Superiority-Meta
 
 Sources: [icreatives.com/peak-end-rule/](http://icreatives.com/peak-end-rule/)
 Wireframe: https://files.catbox.moe/12xut3.jpg
-Notion: https://app.notion.com/p/Duration-Neglect-Experience-Insensitivity-to-Duration-189a9aed534482be958d81f6f9aea043
+File: library/human-biases-in-interfaces/UX-588-duration-neglect-experience-insensitivity-to-duration.md
 
 ## UX-589 — Einstellung Effect (Mental Set Effect)
 - Score 4 · Human Biases in Interfaces
@@ -146,7 +125,7 @@ Notion: https://app.notion.com/p/Duration-Neglect-Experience-Insensitivity-to-Du
 
 Sources: [https://www.interaction-design.org/literature/topics/einstellung-effect](https://www.interaction-design.org/literature/topics/einstellung-effect) · [https://thedecisionlab.com/biases/einstellung-effect](https://thedecisionlab.com/biases/einstellung-effect) · [https://www.geeksforgeeks.org/websites-apps/what-is-einstellung-effect-in-design/](https://www.geeksforgeeks.org/websites-apps/what-is-einstellung-effect-in-design/)
 Wireframe: https://files.catbox.moe/b4zw0y.jpg
-Notion: https://app.notion.com/p/Einstellung-Effect-Mental-Set-Effect-61ea9aed53448265ba2d81f156262b88
+File: library/human-biases-in-interfaces/UX-589-einstellung-effect-mental-set-effect.md
 
 ## UX-590 — Google Effect (Digital Amnesia / Cognitive Offloading to External Storage)
 - Score 4 · Human Biases in Interfaces
@@ -167,7 +146,7 @@ Notion: https://app.notion.com/p/Einstellung-Effect-Mental-Set-Effect-61ea9aed53
 
 Sources: [linkedin.com](http://linkedin.com/) · [rsisinternational.org](http://rsisinternational.org/)
 Wireframe: https://files.catbox.moe/djqloo.jpg
-Notion: https://app.notion.com/p/Google-Effect-Digital-Amnesia-Cognitive-Offloading-to-External-Storage-367a9aed534483c7846501ff8fe355d7
+File: library/human-biases-in-interfaces/UX-590-google-effect-digital-amnesia-and-cognitive-offloading-to-ex.md
 
 ## UX-591 — Hindsight Bias (Knew-It-All-Along Effect)
 - Score 4 · Human Biases in Interfaces
@@ -188,7 +167,7 @@ Notion: https://app.notion.com/p/Google-Effect-Digital-Amnesia-Cognitive-Offload
 
 Sources: [https://www.uxtigers.com/post/ux-roundup-20240812](https://www.uxtigers.com/post/ux-roundup-20240812) · [https://uxpsychology.substack.com/p/when-stakeholders-say-we-knew-that](https://uxpsychology.substack.com/p/when-stakeholders-say-we-knew-that)
 Wireframe: https://files.catbox.moe/4qeao1.jpg
-Notion: https://app.notion.com/p/Hindsight-Bias-Knew-It-All-Along-Effect-727a9aed534483c186c00168d217f9f5
+File: library/human-biases-in-interfaces/UX-591-hindsight-bias-knew-it-all-along-effect.md
 
 ## UX-592 — Horn Effect (Negative Halo / Devil Effect)
 - Score 4 · Human Biases in Interfaces
@@ -210,7 +189,7 @@ Notion: https://app.notion.com/p/Hindsight-Bias-Knew-It-All-Along-Effect-727a9ae
 
 Sources: [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1207453/full](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1207453/full) · [https://www.nngroup.com/articles/halo-effect/](https://www.nngroup.com/articles/halo-effect/) · [https://ui-patterns.com/patterns/halo-effect](https://ui-patterns.com/patterns/halo-effect)
 Wireframe: https://files.catbox.moe/vetbin.jpg
-Notion: https://app.notion.com/p/Horn-Effect-Negative-Halo-Devil-Effect-cd1a9aed5344830b8d8601290c56fe96
+File: library/human-biases-in-interfaces/UX-592-horn-effect-negative-halo-and-devil-effect.md
 
 ## UX-593 — Hyperbolic Discounting (Temporal Discounting / Present Bias — Hyperbolic Form)
 - Score 4 · Human Biases in Interfaces
@@ -232,7 +211,7 @@ Notion: https://app.notion.com/p/Horn-Effect-Negative-Halo-Devil-Effect-cd1a9aed
 
 Sources: [https://kuakua.app/docs/product-psychology/the-psychology-of-design/time/hyperbolic-discounting](https://kuakua.app/docs/product-psychology/the-psychology-of-design/time/hyperbolic-discounting) · [https://cognitive-clicks.com/blog/hyperbolic-discounting/](https://cognitive-clicks.com/blog/hyperbolic-discounting/)
 Wireframe: https://files.catbox.moe/qrj12m.jpg
-Notion: https://app.notion.com/p/Hyperbolic-Discounting-Temporal-Discounting-Present-Bias-Hyperbolic-Form-e5aa9aed534482ecb5d901174b8eb830
+File: library/human-biases-in-interfaces/UX-593-hyperbolic-discounting-temporal-discounting-and-present-bias.md
 
 ## UX-594 — IKEA Effect (Effort Justification in Product Valuation / Labor Creates Love)
 - Score 4 · Human Biases in Interfaces
@@ -254,7 +233,7 @@ Notion: https://app.notion.com/p/Hyperbolic-Discounting-Temporal-Discounting-Pre
 
 Sources: [https://en.wikipedia.org/wiki/IKEA_effect](https://en.wikipedia.org/wiki/IKEA_effect) · [https://www.interaction-design.org/literature/topics/ikea-effect](https://www.interaction-design.org/literature/topics/ikea-effect) · [https://uxdesign.cc/design-principle-ikea-effect-2d908b2de81](https://uxdesign.cc/design-principle-ikea-effect-2d908b2de81)
 Wireframe: https://files.catbox.moe/fico8m.jpg
-Notion: https://app.notion.com/p/IKEA-Effect-Effort-Justification-in-Product-Valuation-Labor-Creates-Love-d3ca9aed534483f1b28901b570a62357
+File: library/human-biases-in-interfaces/UX-594-ikea-effect-effort-justification-in-product-valuation-and-la.md
 
 ## UX-595 — In-Group Bias (In-Group Favoritism / Intergroup Discrimination)
 - Score 4 · Human Biases in Interfaces
@@ -276,7 +255,7 @@ Notion: https://app.notion.com/p/IKEA-Effect-Effort-Justification-in-Product-Val
 
 Sources: [https://pubmed.ncbi.nlm.nih.gov/16784344/](https://pubmed.ncbi.nlm.nih.gov/16784344/) · [https://www.beyonduxdesign.com/cognitive-bias/in-group-bias/](https://www.beyonduxdesign.com/cognitive-bias/in-group-bias/) · [https://www.cognitivebiaslab.com/bias/bias-in-group/](https://www.cognitivebiaslab.com/bias/bias-in-group/)
 Wireframe: https://files.catbox.moe/gu989q.jpg
-Notion: https://app.notion.com/p/In-Group-Bias-In-Group-Favoritism-Intergroup-Discrimination-aafa9aed53448320b1048180d4bd9ec5
+File: library/human-biases-in-interfaces/UX-595-in-group-bias-in-group-favoritism-and-intergroup-discriminat.md
 
 ## UX-596 — Law of the Instrument (Maslow's Hammer / Golden Hammer Anti-Pattern)
 - Score 4 · Human Biases in Interfaces
@@ -297,7 +276,7 @@ Notion: https://app.notion.com/p/In-Group-Bias-In-Group-Favoritism-Intergroup-Di
 
 Sources: [https://en.wikipedia.org/wiki/Law_of_the_instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument) · [https://thedecisionlab.com/biases/law-of-the-instrument](https://thedecisionlab.com/biases/law-of-the-instrument) · [https://uxdesign.cc/when-all-you-have-is-a-hammer-4eda385b46b4](https://uxdesign.cc/when-all-you-have-is-a-hammer-4eda385b46b4)
 Wireframe: https://files.catbox.moe/ym3tug.jpg
-Notion: https://app.notion.com/p/Law-of-the-Instrument-Maslow-s-Hammer-Golden-Hammer-Anti-Pattern-b6aa9aed5344838280d4016753325271
+File: library/human-biases-in-interfaces/UX-596-law-of-the-instrument-maslow-s-hammer-and-golden-hammer-anti.md
 
 ## UX-597 — Levels-of-Processing Effect (Depth of Processing / Elaborative Encoding Effect)
 - Score 4 · Human Biases in Interfaces
@@ -319,7 +298,7 @@ Notion: https://app.notion.com/p/Law-of-the-Instrument-Maslow-s-Hammer-Golden-Ha
 
 Sources: [https://en.wikipedia.org/wiki/Levels_of_processing_model](https://en.wikipedia.org/wiki/Levels_of_processing_model) · [https://themantic-education.com](https://themantic-education.com/) · [https://nsuworks.nova.edu](https://nsuworks.nova.edu/)
 Wireframe: https://files.catbox.moe/ajo3da.jpg
-Notion: https://app.notion.com/p/Levels-of-Processing-Effect-Depth-of-Processing-Elaborative-Encoding-Effect-f7da9aed534482c2969081c3db8999ae
+File: library/human-biases-in-interfaces/UX-597-levels-of-processing-effect-depth-of-processing-and-elaborat.md
 
 ## UX-598 — Liking Bias (Liking Principle / Affinity Bias)
 - Score 4 · Human Biases in Interfaces
@@ -341,7 +320,7 @@ Notion: https://app.notion.com/p/Levels-of-Processing-Effect-Depth-of-Processing
 
 Sources: [https://learningloop.io/plays/psychology/liking-bias](https://learningloop.io/plays/psychology/liking-bias) · [https://news.wpcarey.asu.edu/20070103-gentle-science-persuasion-part-three-social-proof](https://news.wpcarey.asu.edu/20070103-gentle-science-persuasion-part-three-social-proof)
 Wireframe: https://files.catbox.moe/6dtp7o.jpg
-Notion: https://app.notion.com/p/Liking-Bias-Liking-Principle-Affinity-Bias-0c5a9aed5344832fbb6f01777c319d4a
+File: library/human-biases-in-interfaces/UX-598-liking-bias-liking-principle-and-affinity-bias.md
 
 ## UX-599 — Mere Exposure Effect (Familiarity Bias / Zajonc Effect)
 - Score 4 · Human Biases in Interfaces
@@ -362,7 +341,7 @@ Notion: https://app.notion.com/p/Liking-Bias-Liking-Principle-Affinity-Bias-0c5a
 
 Sources: [https://simplypsychology.org/mere-exposure-effect.html](https://simplypsychology.org/mere-exposure-effect.html) · [Renascence.io](http://renascence.io/) · [https://renascence.io/behavioral-biases/familiarity-bias](https://renascence.io/behavioral-biases/familiarity-bias) · [https://cognitive-clicks.com](https://cognitive-clicks.com/)
 Wireframe: https://files.catbox.moe/7dec5b.jpg
-Notion: https://app.notion.com/p/Mere-Exposure-Effect-Familiarity-Bias-Zajonc-Effect-40ea9aed534483cea413012dd8e860b8
+File: library/human-biases-in-interfaces/UX-599-mere-exposure-effect-familiarity-bias-and-zajonc-effect.md
 
 ## UX-600 — Narrative Fallacy (Storytelling Bias)
 - Score 4 · Human Biases in Interfaces
@@ -383,7 +362,7 @@ Notion: https://app.notion.com/p/Mere-Exposure-Effect-Familiarity-Bias-Zajonc-Ef
 
 Sources: [https://www.psychologytoday.com/us/blog/experimentations/202408/avoiding-narrative-fallacy-to-optimize-decision-making](https://www.psychologytoday.com/us/blog/experimentations/202408/avoiding-narrative-fallacy-to-optimize-decision-making) · [https://www.reddit.com/r/marketing/comments/hu4u2z/narrative_fallacy_as_a_marketing_strategy/](https://www.reddit.com/r/marketing/comments/hu4u2z/narrative_fallacy_as_a_marketing_strategy/)
 Wireframe: https://files.catbox.moe/ul13gf.jpg
-Notion: https://app.notion.com/p/Narrative-Fallacy-Storytelling-Bias-a65a9aed5344826ab7f58100239c586b
+File: library/human-biases-in-interfaces/UX-600-narrative-fallacy-storytelling-bias.md
 
 ## UX-601 — Normalcy Bias (Normality Bias, Ostrich Effect)
 - Score 4 · Human Biases in Interfaces
@@ -404,7 +383,7 @@ Notion: https://app.notion.com/p/Narrative-Fallacy-Storytelling-Bias-a65a9aed534
 
 Sources: [https://thedecisionlab.com/biases/normalcy-bias](https://thedecisionlab.com/biases/normalcy-bias) · [https://rewind.com/blog/cognitive-bias-development-real-decisions/](https://rewind.com/blog/cognitive-bias-development-real-decisions/)
 Wireframe: https://files.catbox.moe/cmi21u.jpg
-Notion: https://app.notion.com/p/Normalcy-Bias-Normality-Bias-Ostrich-Effect-d75a9aed5344823e866501a0d1e93d38
+File: library/human-biases-in-interfaces/UX-601-normalcy-bias-normality-bias-ostrich-effect.md
 
 ## UX-602 — Omission Bias
 - Score 4 · Human Biases in Interfaces
@@ -425,7 +404,7 @@ Notion: https://app.notion.com/p/Normalcy-Bias-Normality-Bias-Ostrich-Effect-d75
 
 Sources: [https://www.smashingmagazine.com/2022/09/unconscious-biases-inclusive-design/](https://www.smashingmagazine.com/2022/09/unconscious-biases-inclusive-design/) · [https://lirio.com/podcasts/solving-from-the-outside-in-the-art-of-ux-design/](https://lirio.com/podcasts/solving-from-the-outside-in-the-art-of-ux-design/)
 Wireframe: https://files.catbox.moe/95vcee.jpg
-Notion: https://app.notion.com/p/Omission-Bias-707a9aed5344831cb7ea815a8d764dfb
+File: library/human-biases-in-interfaces/UX-602-omission-bias.md
 
 ## UX-603 — Optimism Bias (Unrealistic Optimism / Overconfidence Bias in Self-Assessment)
 - Score 4 · Human Biases in Interfaces
@@ -447,7 +426,7 @@ Notion: https://app.notion.com/p/Omission-Bias-707a9aed5344831cb7ea815a8d764dfb
 
 Sources: [https://ethicsunwrapped.utexas.edu/optimism-bias-the-dark-side-of-looking-at-the-bright-side](https://ethicsunwrapped.utexas.edu/optimism-bias-the-dark-side-of-looking-at-the-bright-side)
 Wireframe: https://files.catbox.moe/jwfm16.jpg
-Notion: https://app.notion.com/p/Optimism-Bias-Unrealistic-Optimism-Overconfidence-Bias-in-Self-Assessment-9cfa9aed53448381a7a281be9339017e
+File: library/human-biases-in-interfaces/UX-603-optimism-bias-unrealistic-optimism-and-overconfidence-bias-i.md
 
 ## UX-604 — Picture Superiority Effect (PSE)
 - Score 4 · Human Biases in Interfaces
@@ -469,7 +448,7 @@ Notion: https://app.notion.com/p/Optimism-Bias-Unrealistic-Optimism-Overconfiden
 
 Sources: [https://nngroup.com/articles/picture-superiority-effect/](https://nngroup.com/articles/picture-superiority-effect/) · [https://produxdesign.studio](https://produxdesign.studio/)
 Wireframe: https://files.catbox.moe/15sso1.jpg
-Notion: https://app.notion.com/p/Picture-Superiority-Effect-PSE-16ba9aed53448294989a0142c8b06556
+File: library/human-biases-in-interfaces/UX-604-picture-superiority-effect-pse.md
 
 ## UX-605 — Present Bias (β-δ Model / Immediate Gratification Preference)
 - Score 4 · Human Biases in Interfaces
@@ -491,7 +470,7 @@ Notion: https://app.notion.com/p/Picture-Superiority-Effect-PSE-16ba9aed53448294
 
 Sources: [https://uxdesign.cc/enriching-ux-with-behavioural-economics-d7bfd477575d](https://uxdesign.cc/enriching-ux-with-behavioural-economics-d7bfd477575d)
 Wireframe: https://files.catbox.moe/ys7vkm.jpg
-Notion: https://app.notion.com/p/Present-Bias-Model-Immediate-Gratification-Preference-aa8a9aed534483149da581cc6d1bf86d
+File: library/human-biases-in-interfaces/UX-605-present-bias-model-and-immediate-gratification-preference.md
 
 ## UX-606 — Recognition Heuristic
 - Score 4 · Human Biases in Interfaces
@@ -512,7 +491,7 @@ Notion: https://app.notion.com/p/Present-Bias-Model-Immediate-Gratification-Pref
 
 Sources: [https://pmc.ncbi.nlm.nih.gov/articles/PMC8926242/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8926242/) · [BehavioralEconomics.com](http://behavioraleconomics.com/) · [https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/take-the-best-heuristic/](https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/take-the-best-heuristic/)
 Wireframe: https://files.catbox.moe/263i5z.jpg
-Notion: https://app.notion.com/p/Recognition-Heuristic-632a9aed5344828ab4df012eb9343d87
+File: library/human-biases-in-interfaces/UX-606-recognition-heuristic.md
 
 ## UX-607 — Representativeness Heuristic
 - Score 4 · Human Biases in Interfaces
@@ -533,7 +512,7 @@ Notion: https://app.notion.com/p/Recognition-Heuristic-632a9aed5344828ab4df012eb
 
 Sources: [https://uxmag.com/articles/the-3-most-powerful-heuristics-designers-can-use](https://uxmag.com/articles/the-3-most-powerful-heuristics-designers-can-use)
 Wireframe: https://files.catbox.moe/3z4dh2.jpg
-Notion: https://app.notion.com/p/Representativeness-Heuristic-da7a9aed53448327941f0164c0db26e1
+File: library/human-biases-in-interfaces/UX-607-representativeness-heuristic.md
 
 ## UX-608 — Scarcity Bias / FOMO (Fear of Missing Out / Loss Aversion Applied to Availability)
 - Score 4 · Human Biases in Interfaces
@@ -555,7 +534,7 @@ Notion: https://app.notion.com/p/Representativeness-Heuristic-da7a9aed5344832794
 
 Sources: [https://uxdesign.cc/5-types-of-scarcity-how-to-influence-anyone-using-these-7f309d328dbb](https://uxdesign.cc/5-types-of-scarcity-how-to-influence-anyone-using-these-7f309d328dbb) · [https://cbtw.tech/insights/dark-patterns-in-ux-short-term-wins-long-term-business-risks](https://cbtw.tech/insights/dark-patterns-in-ux-short-term-wins-long-term-business-risks)
 Wireframe: https://files.catbox.moe/s4v8z2.jpg
-Notion: https://app.notion.com/p/Scarcity-Bias-FOMO-Fear-of-Missing-Out-Loss-Aversion-Applied-to-Availability-f5da9aed534482c2822c01d5c602dadd
+File: library/human-biases-in-interfaces/UX-608-scarcity-bias-and-fomo-fear-of-missing-out-and-loss-aversion.md
 
 ## UX-609 — Semmelweis Reflex (Semmelweis Effect)
 - Score 4 · Human Biases in Interfaces
@@ -576,7 +555,7 @@ Notion: https://app.notion.com/p/Scarcity-Bias-FOMO-Fear-of-Missing-Out-Loss-Ave
 
 Sources: [https://pubmed.ncbi.nlm.nih.gov/31837492/](https://pubmed.ncbi.nlm.nih.gov/31837492/) · [https://content.one.lumenlearning.com/introductiontopsychology/chapter/10-2-1/](https://content.one.lumenlearning.com/introductiontopsychology/chapter/10-2-1/) · [https://profrjstarr.com/cognitive-biases/semmelweis-reflex-why-we-reject-new-ideas-that-challenge-old-beliefs](https://profrjstarr.com/cognitive-biases/semmelweis-reflex-why-we-reject-new-ideas-that-challenge-old-beliefs) · [https://rivasolutionsinc.com/insights/ux-designer-guide-cognitive-biases-part-2/](https://rivasolutionsinc.com/insights/ux-designer-guide-cognitive-biases-part-2/)
 Wireframe: https://files.catbox.moe/irz703.jpg
-Notion: https://app.notion.com/p/Semmelweis-Reflex-Semmelweis-Effect-a6ba9aed534482d995ff01b15f2cdd1a
+File: library/human-biases-in-interfaces/UX-609-semmelweis-reflex-semmelweis-effect.md
 
 ## UX-610 — Sunk Cost Fallacy (Sunk Cost Effect / Escalation of Commitment)
 - Score 4 · Human Biases in Interfaces
@@ -598,7 +577,7 @@ Notion: https://app.notion.com/p/Semmelweis-Reflex-Semmelweis-Effect-a6ba9aed534
 
 Sources: [https://learningloop.io/plays/psychology/sunk-cost-bias](https://learningloop.io/plays/psychology/sunk-cost-bias) · [https://www.linkedin.com/pulse/sunk-cost-fallacy-behavioral-product-design-milijana-komad-nglpf](https://www.linkedin.com/pulse/sunk-cost-fallacy-behavioral-product-design-milijana-komad-nglpf)
 Wireframe: https://files.catbox.moe/slxocn.jpg
-Notion: https://app.notion.com/p/Sunk-Cost-Fallacy-Sunk-Cost-Effect-Escalation-of-Commitment-66aa9aed534482cabc0f81ce158c93a8
+File: library/human-biases-in-interfaces/UX-610-sunk-cost-fallacy-sunk-cost-effect-and-escalation-of-commitm.md
 
 ## UX-611 — Survivorship Bias (Selection Bias in Design Decisions)
 - Score 4 · Human Biases in Interfaces
@@ -619,7 +598,7 @@ Notion: https://app.notion.com/p/Sunk-Cost-Fallacy-Sunk-Cost-Effect-Escalation-o
 
 Sources: [https://userexperience.blog/2023/09/22/survivorship-bias-and-product-management-hidden-dangers-in-user-experience/](https://userexperience.blog/2023/09/22/survivorship-bias-and-product-management-hidden-dangers-in-user-experience/) · [https://medium.productcoalition.com/survivorship-bias-product-development-are-we-making-irrational-decisions-4be64d9a0dab](https://medium.productcoalition.com/survivorship-bias-product-development-are-we-making-irrational-decisions-4be64d9a0dab)
 Wireframe: https://files.catbox.moe/eomdn8.jpg
-Notion: https://app.notion.com/p/Survivorship-Bias-Selection-Bias-in-Design-Decisions-767a9aed53448332a80e814a5c3bc206
+File: library/human-biases-in-interfaces/UX-611-survivorship-bias-selection-bias-in-design-decisions.md
 
 ## UX-612 — System Justification Theory (System Justification Bias)
 - Score 4 · Human Biases in Interfaces
@@ -640,7 +619,7 @@ Notion: https://app.notion.com/p/Survivorship-Bias-Selection-Bias-in-Design-Deci
 
 Sources: [https://rivasolutionsinc.com/insights/ux-designer-guide-cognitive-biases-part-2/](https://rivasolutionsinc.com/insights/ux-designer-guide-cognitive-biases-part-2/)
 Wireframe: https://files.catbox.moe/gs2abk.jpg
-Notion: https://app.notion.com/p/System-Justification-Theory-System-Justification-Bias-598a9aed5344829697b401e6c42d63cd
+File: library/human-biases-in-interfaces/UX-612-system-justification-theory-system-justification-bias.md
 
 ## UX-613 — Take-the-Best Heuristic (One-Reason Decision Making)
 - Score 4 · Human Biases in Interfaces
@@ -661,7 +640,7 @@ Notion: https://app.notion.com/p/System-Justification-Theory-System-Justificatio
 
 Sources: [https://en.wikipedia.org/wiki/Take-the-best_heuristic](https://en.wikipedia.org/wiki/Take-the-best_heuristic) · [https://thedecisionlab.com/biases/take-the-best-heuristic](https://thedecisionlab.com/biases/take-the-best-heuristic) · [BehavioralEconomics.com](http://behavioraleconomics.com/) · [https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/take-the-best-heuristic/](https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/take-the-best-heuristic/)
 Wireframe: https://files.catbox.moe/l8bc9x.jpg
-Notion: https://app.notion.com/p/Take-the-Best-Heuristic-One-Reason-Decision-Making-859a9aed534483718ca981d73cd0cbc7
+File: library/human-biases-in-interfaces/UX-613-take-the-best-heuristic-one-reason-decision-making.md
 
 ## UX-614 — Trust Asymmetry (Negativity Dominance in Trust / Disproportionate Trust Destruction)
 - Score 4 · Human Biases in Interfaces
@@ -683,4 +662,26 @@ Notion: https://app.notion.com/p/Take-the-Best-Heuristic-One-Reason-Decision-Mak
 
 Sources: [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1207453/full](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1207453/full) · [https://dovetail.com](https://dovetail.com/) · [https://uxpajournal.org/designing-for-trust-the-crucial-role-in-digital-user-experiences/](https://uxpajournal.org/designing-for-trust-the-crucial-role-in-digital-user-experiences/)
 Wireframe: https://files.catbox.moe/11rslk.jpg
-Notion: https://app.notion.com/p/Trust-Asymmetry-Negativity-Dominance-in-Trust-Disproportionate-Trust-Destruction-4b9a9aed534483d59b2a81b10f5e535b
+File: library/human-biases-in-interfaces/UX-614-trust-asymmetry-negativity-dominance-in-trust-and-disproport.md
+
+## UX-615 — Weber-Fechner Law (Just Noticeable Difference / Logarithmic Perception Law)
+- Score 4 · Human Biases in Interfaces
+- Goals: Leverage Psychology to Guide User Behavior; Drive Conversion & Decision-Making
+- Use when: Essential for performance engineering, animation design, audio/volume controls, progress indicators, pricing, and any quantitative interface element where perceived change matters. The 20% threshold is the primary design rule derived from this law.
+
+**Why.** The Weber-Fechner Law is one of the foundational principles of psychophysics, combining Ernst Heinrich Weber's 1834 discovery that the minimum detectable change in any stimulus is proportional to the current stimulus magnitude (ΔI/I = k), and Gustav Fechner's 1860 extension that perceived magnitude scales logarithmically with physical magnitude (S = k log I). In plain terms: to be noticed, a change must represent a constant *proportion* of the existing level — not an absolute amount. Doubling a whisper to two whispers is clearly perceptible; doubling a shout to two shouts is not.
+
+**Do.**
+- Apply the 20% rule as the minimum investment threshold for performance improvements: only pursue speed optimizations that reduce load time by ≥20% of the current duration — improvements below this will be invisible to users regardless of engineering cost
+- Use logarithmic scales for all continuous controls where human perception is non-linear: audio volume sliders, image brightness adjusters, map zoom levels, and font size selectors — linear scales in these contexts create the illusion of uneven response
+- Express price reductions as percentages and validate them against the JND threshold for the relevant price tier: "$10 off a $20 item" (50%) is highly salient; "$10 off a $500 item" (2%) is functionally invisible to perceived value
+- Design progress indicators with non-linear feedback curves: front-load visible progress in early stages (where proportional gains are largest relative to current position) to create motivating momentum, and avoid displays that make late-stage increments feel stagnant
+- For animation timing refinements, establish a practical threshold: changes below ~50–100ms total duration shift are below the perceptible threshold for most users — optimize elsewhere rather than pursuing sub-threshold animation polish
+- In competitive performance benchmarking, focus investment on thresholds that are *perceptibly* different to users, not merely statistically different in controlled lab measurements
+- Establish font size ratios between heading levels of at least 1.25x (Major Third scale) to ensure typographic hierarchy is visually distinct — increments below this ratio are often imperceptible in context
+
+**Measure.** Effectiveness: Task success rate, Error rate; Efficiency: Time on task; Satisfaction & Perception: Ease-of-use score, Confidence rating; How to measure: Conduct usability tests on slider controls, font size adjustments, or audio/visual calibration interfaces, measuring whether users perceive proportional versus logarithmic change scales as more intuitive and make fewer errors. Track error rates in data-entry interfaces where numerical input ranges do not align with users' perceptual expectations of proportional differences.
+
+Sources: [https://acoustics.mit.edu/faculty/makris/rspa.2022.0626.pdf](https://acoustics.mit.edu/faculty/makris/rspa.2022.0626.pdf) · [https://www.sitepoint.com/the-perception-of-performance/](https://www.sitepoint.com/the-perception-of-performance/)
+Wireframe: https://files.catbox.moe/8eaapc.jpg
+File: library/human-biases-in-interfaces/UX-615-weber-fechner-law-just-noticeable-difference-and-logarithmic.md

@@ -58,7 +58,7 @@ Open: UX-275 Skeleton screens — pending data on real latency
 Library proposals: <pattern that was needed and not found>, or none
 ```
 
-Keep all six lines, writing `none` when one is empty, so later reads can parse the entry. Keep it short. The file is read on every future build and review, so entries that restate the practice text waste context.
+Keep all six lines, writing `none` when one is empty, so later reads can parse the entry. If the user wants a proposal to enter the library, add `library/<category-slug>/<ID>-<slug>.md` in the kit (copy a neighbouring file; `python3 scripts/build_skills.py` prints the next free ID) with `status: "Proposed"`, which keeps it out of the build until it is reviewed. Keep it short. The file is read on every future build and review, so entries that restate the practice text waste context.
 
 ### 6. Report
 

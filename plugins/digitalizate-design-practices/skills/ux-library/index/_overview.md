@@ -1,6 +1,6 @@
 # Library overview (ux)
 
-Built 2026-10-07 from Notion · 645 entries · 27 categories · 20 goals · 14 entries with a verification criterion.
+Built 2026-10-07 from library/ · 645 entries · 27 categories · 20 goals · 14 entries with a verification criterion.
 
 Score: 5 = must-have, 4 = very important, 3 = situational, 2 = niche, 1 = theoretical. Default policy: always consider 5, consider 4 unless there is a reason not to, consider 3 only when the practice's `use:` context matches, 1-2 only on explicit request.
 

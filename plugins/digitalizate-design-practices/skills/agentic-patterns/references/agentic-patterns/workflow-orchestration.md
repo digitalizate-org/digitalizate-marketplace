@@ -14,7 +14,7 @@
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-417.png
-Notion: https://app.notion.com/p/Event-Driven-Blackboard-EDB-ad0a9aed53448200a96b81c62db7077d
+File: library/agentic-patterns/AGP-072-event-driven-blackboard-edb.md
 
 ## AGP-075 — Event-Driven Orchestrator-Worker (EDOW)
 - Score 3 · Agentic Patterns / Workflow Orchestration
@@ -25,7 +25,7 @@ Notion: https://app.notion.com/p/Event-Driven-Blackboard-EDB-ad0a9aed53448200a96
 **Why.** Central orchestrator assigns tasks to worker agents through event streaming.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-420.png
-Notion: https://app.notion.com/p/Event-Driven-Orchestrator-Worker-EDOW-5e8a9aed53448214ae3481c40d0edd73
+File: library/agentic-patterns/AGP-075-event-driven-orchestrator-worker-edow.md
 
 ## AGP-083 — Graph State Machines
 - Score 3 · Agentic Patterns / Workflow Orchestration
@@ -36,7 +36,7 @@ Notion: https://app.notion.com/p/Event-Driven-Orchestrator-Worker-EDOW-5e8a9aed5
 **Why.** Finite state machines implemented as graphs for workflow control.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-422.png
-Notion: https://app.notion.com/p/Graph-State-Machines-621a9aed5344837cbbf201769a83c43c
+File: library/agentic-patterns/AGP-083-graph-state-machines.md
 
 ## AGP-150 — Progressive Enhancement (PE)
 - Score 3 · Agentic Patterns / Workflow Orchestration
@@ -47,7 +47,7 @@ Notion: https://app.notion.com/p/Graph-State-Machines-621a9aed5344837cbbf201769a
 **Why.** Incrementally improves AI output quality based on available resources and time.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-423.png
-Notion: https://app.notion.com/p/Progressive-Enhancement-PE-316a9aed5344828a828081f67f556f14
+File: library/agentic-patterns/AGP-150-progressive-enhancement-pe.md
 
 ## AGP-159 — Role-Based Teamwork
 - Score 3 · Agentic Patterns / Workflow Orchestration
@@ -58,7 +58,7 @@ Notion: https://app.notion.com/p/Progressive-Enhancement-PE-316a9aed5344828a8280
 **Why.** Structured agent teams with defined roles and responsibilities.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-425.png
-Notion: https://app.notion.com/p/Role-Based-Teamwork-a72a9aed534483d08da281a69239696a
+File: library/agentic-patterns/AGP-159-role-based-teamwork.md
 
 ## AGP-009 — Actor Model Coordination
 - Score 2 · Agentic Patterns / Workflow Orchestration
@@ -69,7 +69,7 @@ Notion: https://app.notion.com/p/Role-Based-Teamwork-a72a9aed534483d08da281a6923
 **Why.** Asynchronous message-passing coordination between independent actors.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-413.png
-Notion: https://app.notion.com/p/Actor-Model-Coordination-5d0a9aed534482e6af720134f96ea7a8
+File: library/agentic-patterns/AGP-009-actor-model-coordination.md
 
 ## AGP-053 — Conversational Orchestration
 - Score 2 · Agentic Patterns / Workflow Orchestration
@@ -80,7 +80,7 @@ Notion: https://app.notion.com/p/Actor-Model-Coordination-5d0a9aed534482e6af7201
 **Why.** Multi-agent coordination through structured conversation patterns.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-414.png
-Notion: https://app.notion.com/p/Conversational-Orchestration-a3ea9aed53448257812081f70349cbe7
+File: library/agentic-patterns/AGP-053-conversational-orchestration.md
 
 ## AGP-066 — Edge AI Optimization (EAO)
 - Score 2 · Agentic Patterns / Workflow Orchestration
@@ -91,7 +91,7 @@ Notion: https://app.notion.com/p/Conversational-Orchestration-a3ea9aed5344825781
 **Why.** Optimizes AI workflows for resource-constrained edge devices and mobile environments.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-415.png
-Notion: https://app.notion.com/p/Edge-AI-Optimization-EAO-232a9aed53448200823781f88ffe8006
+File: library/agentic-patterns/AGP-066-edge-ai-optimization-eao.md
 
 ## AGP-069 — Enterprise Orchestration
 - Score 2 · Agentic Patterns / Workflow Orchestration
@@ -102,7 +102,7 @@ Notion: https://app.notion.com/p/Edge-AI-Optimization-EAO-232a9aed53448200823781
 **Why.** Enterprise-grade coordination with governance, compliance, and audit capabilities.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-416.png
-Notion: https://app.notion.com/p/Enterprise-Orchestration-583a9aed53448268a7af0106b9b2a948
+File: library/agentic-patterns/AGP-069-enterprise-orchestration.md
 
 ## AGP-073 — Event-Driven Hierarchical Agents (EDHA)
 - Score 2 · Agentic Patterns / Workflow Orchestration
@@ -113,7 +113,7 @@ Notion: https://app.notion.com/p/Enterprise-Orchestration-583a9aed53448268a7af01
 **Why.** Multi-level agent hierarchy with event-based coordination.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-418.png
-Notion: https://app.notion.com/p/Event-Driven-Hierarchical-Agents-EDHA-9b0a9aed53448303ac5b81856af00cde
+File: library/agentic-patterns/AGP-073-event-driven-hierarchical-agents-edha.md
 
 ## AGP-074 — Event-Driven Market-Based (EDMB)
 - Score 2 · Agentic Patterns / Workflow Orchestration
@@ -124,7 +124,7 @@ Notion: https://app.notion.com/p/Event-Driven-Hierarchical-Agents-EDHA-9b0a9aed5
 **Why.** Decentralized task allocation through bid/ask event marketplace.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-419.png
-Notion: https://app.notion.com/p/Event-Driven-Market-Based-EDMB-b18a9aed534483ffbf88019f4be9a80c
+File: library/agentic-patterns/AGP-074-event-driven-market-based-edmb.md
 
 ## AGP-077 — Federated Orchestration (FO)
 - Score 2 · Agentic Patterns / Workflow Orchestration
@@ -135,7 +135,7 @@ Notion: https://app.notion.com/p/Event-Driven-Market-Based-EDMB-b18a9aed534483ff
 **Why.** Coordinates AI processing across distributed edge devices while preserving data privacy.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-421.png
-Notion: https://app.notion.com/p/Federated-Orchestration-FO-44fa9aed5344836d861601b15e2b52e5
+File: library/agentic-patterns/AGP-077-federated-orchestration-fo.md
 
 ## AGP-158 — Resource-Aware Scheduling (RAS)
 - Score 2 · Agentic Patterns / Workflow Orchestration
@@ -146,7 +146,7 @@ Notion: https://app.notion.com/p/Federated-Orchestration-FO-44fa9aed5344836d8616
 **Why.** Dynamically schedules AI tasks based on available computational resources and constraints.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-424.png
-Notion: https://app.notion.com/p/Resource-Aware-Scheduling-RAS-8d1a9aed53448290a5e9013baefe6d6c
+File: library/agentic-patterns/AGP-158-resource-aware-scheduling-ras.md
 
 ## AGP-177 — Stateful Graph Workflows
 - Score 2 · Agentic Patterns / Workflow Orchestration
@@ -157,4 +157,4 @@ Notion: https://app.notion.com/p/Resource-Aware-Scheduling-RAS-8d1a9aed53448290a
 **Why.** Graph-based workflow management with persistent state across nodes.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-426.png
-Notion: https://app.notion.com/p/Stateful-Graph-Workflows-414a9aed53448200a39881e3d7b69c40
+File: library/agentic-patterns/AGP-177-stateful-graph-workflows.md

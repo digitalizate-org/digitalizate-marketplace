@@ -20,7 +20,7 @@
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [IxDF — Law of Prägnanz](https://www.interaction-design.org/literature/topics/law-of-praegnanz) · [UX Tigers — Gestalt Prägnanz](https://www.uxtigers.com/post/gestalt-principles)
 Wireframe: https://files.catbox.moe/yk9acj.jpg
-Notion: https://app.notion.com/p/Law-of-Pr-gnanz-Design-for-the-Simplest-Interpretation-adfa9aed53448213aa12019e79eee2de
+File: library/gestalt-principles/UX-494-law-of-pragnanz-design-for-the-simplest-interpretation.md
 
 ## UX-495 — Uniform Connectedness: Use Visual Links to Define Object Identity
 - Score 5 · Gestalt Principles / Uniform Connectedness
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Law-of-Pr-gnanz-Design-for-the-Simplest-Interpr
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [Smashing Magazine — Gestalt Principles](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/) · [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles)
 Wireframe: https://files.catbox.moe/1ruka2.jpg
-Notion: https://app.notion.com/p/Uniform-Connectedness-Use-Visual-Links-to-Define-Object-Identity-5cfa9aed534482ba8bb781f5298bee6d
+File: library/gestalt-principles/UX-495-uniform-connectedness-use-visual-links-to-define-object-iden.md
 
 ## UX-496 — Figure-Ground: Establish Clear Focal Layers in Every View
 - Score 5 · Gestalt Principles / Figure-Ground
@@ -64,7 +64,7 @@ Notion: https://app.notion.com/p/Uniform-Connectedness-Use-Visual-Links-to-Defin
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [UX Planet — Figure/Ground Relationships](https://uxplanet.org/improving-your-designs-with-gestalt-principles-figure-ground-26429a3eccad) · [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles)
 Wireframe: https://files.catbox.moe/b2i4mt.jpg
-Notion: https://app.notion.com/p/Figure-Ground-Establish-Clear-Focal-Layers-in-Every-View-ea5a9aed53448326932b81104f85448a
+File: library/gestalt-principles/UX-496-figure-ground-establish-clear-focal-layers-in-every-view.md
 
 ## UX-497 — Proximity: Group Related Elements with Consistent Spatial Density
 - Score 5 · Gestalt Principles / Proximity
@@ -86,7 +86,7 @@ Notion: https://app.notion.com/p/Figure-Ground-Establish-Clear-Focal-Layers-in-E
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [Nielsen Norman Group — Proximity Principle in UI](https://www.nngroup.com/articles/gestalt-proximity/) · [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles)
 Wireframe: https://files.catbox.moe/7l2off.jpg
-Notion: https://app.notion.com/p/Proximity-Group-Related-Elements-with-Consistent-Spatial-Density-c78a9aed534482ec98ff01c2f7009ac2
+File: library/gestalt-principles/UX-497-proximity-group-related-elements-with-consistent-spatial-den.md
 
 ## UX-498 — Similarity: Encode Function Through Consistent Visual Attributes
 - Score 5 · Gestalt Principles / Similarity
@@ -108,7 +108,7 @@ Notion: https://app.notion.com/p/Proximity-Group-Related-Elements-with-Consisten
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [NNGroup — Gestalt Similarity](https://www.nngroup.com/articles/gestalt-similarity/) · [IxDF — Law of Similarity](https://www.interaction-design.org/literature/topics/law-of-similarity)
 Wireframe: https://files.catbox.moe/myjs5e.jpg
-Notion: https://app.notion.com/p/Similarity-Encode-Function-Through-Consistent-Visual-Attributes-91ea9aed53448332b7fe01003d323465
+File: library/gestalt-principles/UX-498-similarity-encode-function-through-consistent-visual-attribu.md
 
 ## UX-502 — Common Fate: Group Elements That Move in the Same Direction
 - Score 5 · Gestalt Principles / Common Fate
@@ -130,7 +130,7 @@ Notion: https://app.notion.com/p/Similarity-Encode-Function-Through-Consistent-V
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [UIUXDesigning — Gestalt Common Fate](https://uiuxdesigning.com/gestalt-common-fate/) · [Gestalt Principles — Common Fate](https://www.gestaltprinciples.com/principles/common-fate)
 Wireframe: https://files.catbox.moe/jjrfkh.jpg
-Notion: https://app.notion.com/p/Common-Fate-Group-Elements-That-Move-in-the-Same-Direction-3a8a9aed534483d49027017f616a642a
+File: library/gestalt-principles/UX-502-common-fate-group-elements-that-move-in-the-same-direction.md
 
 ## UX-503 — Continuation: Guide the Eye Along Smooth Visual Paths
 - Score 5 · Gestalt Principles / Continuation
@@ -152,7 +152,7 @@ Notion: https://app.notion.com/p/Common-Fate-Group-Elements-That-Move-in-the-Sam
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [Bejamas — Gestalt Principles](https://bejamas.com/blog/gestalt-principles-of-design) · [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles)
 Wireframe: https://files.catbox.moe/5zffna.jpg
-Notion: https://app.notion.com/p/Continuation-Guide-the-Eye-Along-Smooth-Visual-Paths-070a9aed534483ff9f3b8102a4e42f1b
+File: library/gestalt-principles/UX-503-continuation-guide-the-eye-along-smooth-visual-paths.md
 
 ## UX-504 — Common Region: Use Enclosure to Define Semantic Containers
 - Score 5 · Gestalt Principles / Common Region
@@ -174,7 +174,7 @@ Notion: https://app.notion.com/p/Continuation-Guide-the-Eye-Along-Smooth-Visual-
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [NNGroup — Principles of Visual Design](https://www.nngroup.com/articles/principles-visual-design/) · [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/)
 Wireframe: https://files.catbox.moe/5juje6.jpg
-Notion: https://app.notion.com/p/Common-Region-Use-Enclosure-to-Define-Semantic-Containers-7b9a9aed53448391891a0170c5f56d9b
+File: library/gestalt-principles/UX-504-common-region-use-enclosure-to-define-semantic-containers.md
 
 ## UX-505 — Element Connectedness: Explicitly Link Related Data Points
 - Score 5 · Gestalt Principles / Element Connectedness
@@ -196,7 +196,7 @@ Notion: https://app.notion.com/p/Common-Region-Use-Enclosure-to-Define-Semantic-
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/) · [Smashing Magazine — Gestalt Principles](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/)
 Wireframe: https://files.catbox.moe/k7i2ro.jpg
-Notion: https://app.notion.com/p/Element-Connectedness-Explicitly-Link-Related-Data-Points-875a9aed53448283901c81518a461411
+File: library/gestalt-principles/UX-505-element-connectedness-explicitly-link-related-data-points.md
 
 ## UX-506 — Closure: Complete Incomplete Forms to Reduce Visual Noise
 - Score 5 · Gestalt Principles / Closure
@@ -218,7 +218,7 @@ Notion: https://app.notion.com/p/Element-Connectedness-Explicitly-Link-Related-D
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [Smashing Magazine — Gestalt Principles](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/) · [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/)
 Wireframe: https://files.catbox.moe/n4y0j1.jpg
-Notion: https://app.notion.com/p/Closure-Complete-Incomplete-Forms-to-Reduce-Visual-Noise-9b9a9aed534482a194ac01037eb51583
+File: library/gestalt-principles/UX-506-closure-complete-incomplete-forms-to-reduce-visual-noise.md
 
 ## UX-507 — Gestalt Principles Combined: Layer Multiple Principles for Maximum Clarity
 - Score 5 · Gestalt Principles / Gestalt Principles Combined
@@ -240,7 +240,7 @@ Notion: https://app.notion.com/p/Closure-Complete-Incomplete-Forms-to-Reduce-Vis
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [UX Tigers — Using Gestalt Principles in UI Design](https://www.uxtigers.com/post/gestalt-principles) · [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/)
 Wireframe: https://files.catbox.moe/scjr2m.jpg
-Notion: https://app.notion.com/p/Gestalt-Principles-Combined-Layer-Multiple-Principles-for-Maximum-Clarity-0d4a9aed5344823394b901c4494e0ebb
+File: library/gestalt-principles/UX-507-gestalt-principles-combined-layer-multiple-principles-for-ma.md
 
 ## UX-508 — Gestalt for Accessibility: Applying Principles for Blind and Low-Vision Users
 - Score 5 · Gestalt Principles / Gestalt Accessibility
@@ -262,7 +262,7 @@ Notion: https://app.notion.com/p/Gestalt-Principles-Combined-Layer-Multiple-Prin
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [Harvard Accessibility — Data Visualizations](https://accessibility.huit.harvard.edu/data-viz-charts-graphs) · [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles)
 Wireframe: https://files.catbox.moe/1pg820.jpg
-Notion: https://app.notion.com/p/Gestalt-for-Accessibility-Applying-Principles-for-Blind-and-Low-Vision-Users-c73a9aed5344827a9fe2012dc49c1b6e
+File: library/gestalt-principles/UX-508-gestalt-for-accessibility-applying-principles-for-blind-and.md
 
 ## UX-509 — Form Field Chunking via Proximity
 - Score 5 · Gestalt Principles / Proximity
@@ -283,7 +283,7 @@ Notion: https://app.notion.com/p/Gestalt-for-Accessibility-Applying-Principles-f
 
 Sources: [Nielsen Norman Group — Proximity Principle in UI](https://www.nngroup.com/articles/gestalt-proximity/) · [Nielsen Norman Group — 4 Principles to Reduce Cognitive Load in Forms](https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/)
 Wireframe: https://files.catbox.moe/f5nbmh.jpg
-Notion: https://app.notion.com/p/Form-Field-Chunking-via-Proximity-1dba9aed534482afa74001c784557d50
+File: library/gestalt-principles/UX-509-form-field-chunking-via-proximity.md
 
 ## UX-510 — Whitespace-Based Navigation Separation
 - Score 5 · Gestalt Principles / Proximity
@@ -303,7 +303,7 @@ Notion: https://app.notion.com/p/Form-Field-Chunking-via-Proximity-1dba9aed53448
 
 Sources: [Nielsen Norman Group — Proximity May Shift in Responsive Design](https://www.nngroup.com/articles/gestalt-proximity/) · [Swapps — Gestalt Principles in Web Design](https://swapps.com/blog/gestalt-principles-in-web-design/)
 Wireframe: https://files.catbox.moe/dbpcoa.jpg
-Notion: https://app.notion.com/p/Whitespace-Based-Navigation-Separation-ee0a9aed5344828583c601368e0cfc64
+File: library/gestalt-principles/UX-510-whitespace-based-navigation-separation.md
 
 ## UX-511 — Buried CTA Anti-Pattern: Proximity Violation
 - Score 5 · Gestalt Principles / Proximity — Anti-Pattern
@@ -323,7 +323,7 @@ Notion: https://app.notion.com/p/Whitespace-Based-Navigation-Separation-ee0a9aed
 
 Sources: [Nielsen Norman Group — Proximity Principle in UI](https://www.nngroup.com/articles/gestalt-proximity/) · [Chameleon — 10 Bad UX Examples](https://www.chameleon.io/blog/bad-ux-examples) · [IxDF — Bad UX Examples](https://www.interaction-design.org/literature/article/bad-ux-examples)
 Wireframe: https://files.catbox.moe/dtapse.jpg
-Notion: https://app.notion.com/p/Buried-CTA-Anti-Pattern-Proximity-Violation-5c4a9aed53448274bfc4815144f81487
+File: library/gestalt-principles/UX-511-buried-cta-anti-pattern-proximity-violation.md
 
 ## UX-512 — Multi-Cue Similarity for Accessible Affordances
 - Score 5 · Gestalt Principles / Similarity — Accessibility
@@ -344,7 +344,7 @@ Notion: https://app.notion.com/p/Buried-CTA-Anti-Pattern-Proximity-Violation-5c4
 
 Sources: [UX Tigers — Gestalt Principles for Visual UI Design](https://www.uxtigers.com/post/gestalt-principles) · [IxDF — Law of Similarity](https://www.interaction-design.org/literature/topics/law-of-similarity) · [NNGroup — Gestalt Similarity](https://www.nngroup.com/articles/gestalt-similarity/)
 Wireframe: https://files.catbox.moe/ewd3er.jpg
-Notion: https://app.notion.com/p/Multi-Cue-Similarity-for-Accessible-Affordances-4b6a9aed5344834d884a01fe626b5e9a
+File: library/gestalt-principles/UX-512-multi-cue-similarity-for-accessible-affordances.md
 
 ## UX-513 — Similarity-Based Design Token Consistency
 - Score 5 · Gestalt Principles / Similarity
@@ -365,7 +365,7 @@ Notion: https://app.notion.com/p/Multi-Cue-Similarity-for-Accessible-Affordances
 
 Sources: [Playfair Data — Gestalt Principles in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/) · [IxDF — Law of Similarity](https://www.interaction-design.org/literature/topics/law-of-similarity)
 Wireframe: https://files.catbox.moe/zepq04.jpg
-Notion: https://app.notion.com/p/Similarity-Based-Design-Token-Consistency-57aa9aed53448371a9cf81d88a1d056c
+File: library/gestalt-principles/UX-513-similarity-based-design-token-consistency.md
 
 ## UX-514 — Figure-Ground with Modal Overlays and Drawers
 - Score 5 · Gestalt Principles / Figure-Ground
@@ -386,7 +386,7 @@ Notion: https://app.notion.com/p/Similarity-Based-Design-Token-Consistency-57aa9
 
 Sources: [UX Tigers — Figure-Ground Principle](https://www.uxtigers.com/post/gestalt-principles) · [UX Planet — Figure/Ground Relationships](https://uxplanet.org/improving-your-designs-with-gestalt-principles-figure-ground-26429a3eccad) · [UXMISFIT — Figure-Ground in UI Design](https://uxmisfit.com/2019/04/23/ui-design-in-practice-gestalt-principles/)
 Wireframe: https://files.catbox.moe/34s1s8.jpg
-Notion: https://app.notion.com/p/Figure-Ground-with-Modal-Overlays-and-Drawers-154a9aed534483378f380191acdf65eb
+File: library/gestalt-principles/UX-514-figure-ground-with-modal-overlays-and-drawers.md
 
 ## UX-515 — Figure-Ground in Hero Sections and Landing Pages
 - Score 5 · Gestalt Principles / Figure-Ground
@@ -407,7 +407,7 @@ Notion: https://app.notion.com/p/Figure-Ground-with-Modal-Overlays-and-Drawers-1
 
 Sources: [UX Planet — Figure/Ground Relationships](https://uxplanet.org/improving-your-designs-with-gestalt-principles-figure-ground-26429a3eccad) · [UX Tigers — Figure-Ground](https://www.uxtigers.com/post/gestalt-principles)
 Wireframe: https://files.catbox.moe/kdi4tn.jpg
-Notion: https://app.notion.com/p/Figure-Ground-in-Hero-Sections-and-Landing-Pages-7dba9aed5344833ca9b301ca03c6e181
+File: library/gestalt-principles/UX-515-figure-ground-in-hero-sections-and-landing-pages.md
 
 ## UX-518 — Dark Mode Figure-Ground Inversion
 - Score 5 · Gestalt Principles / Figure-Ground — Dark Mode
@@ -428,7 +428,7 @@ Notion: https://app.notion.com/p/Figure-Ground-in-Hero-Sections-and-Landing-Page
 
 Sources: [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles) · [UX Tigers — Figure-Ground](https://www.uxtigers.com/post/gestalt-principles)
 Wireframe: https://files.catbox.moe/egme1k.jpg
-Notion: https://app.notion.com/p/Dark-Mode-Figure-Ground-Inversion-f82a9aed534482208bea0144669236dd
+File: library/gestalt-principles/UX-518-dark-mode-figure-ground-inversion.md
 
 ## UX-519 — Law of Prägnanz in Icon Design
 - Score 5 · Gestalt Principles / Prägnanz
@@ -449,7 +449,7 @@ Notion: https://app.notion.com/p/Dark-Mode-Figure-Ground-Inversion-f82a9aed53448
 
 Sources: [IxDF — Law of Prägnanz](https://www.interaction-design.org/literature/topics/law-of-praegnanz) · [UX Tigers — Prägnanz](https://www.uxtigers.com/post/gestalt-principles) · [Gestalt Principles — Prägnanz](https://www.gestaltprinciples.com/principles/pragnanz)
 Wireframe: https://files.catbox.moe/c0cpoe.jpg
-Notion: https://app.notion.com/p/Law-of-Pr-gnanz-in-Icon-Design-8afa9aed5344839e9b3781e376c7b699
+File: library/gestalt-principles/UX-519-law-of-pragnanz-in-icon-design.md
 
 ## UX-520 — Prägnanz Applied to Dashboard Information Density
 - Score 5 · Gestalt Principles / Prägnanz
@@ -470,7 +470,7 @@ Notion: https://app.notion.com/p/Law-of-Pr-gnanz-in-Icon-Design-8afa9aed5344839e
 
 Sources: [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/) · [Hurree — Gestalt in Dashboard Design](https://blog.hurree.co/this-psychology-principle-will-make-your-dashboards-more-powerful) · [IxDF — Law of Prägnanz](https://www.interaction-design.org/literature/topics/law-of-praegnanz)
 Wireframe: https://files.catbox.moe/mp725s.jpg
-Notion: https://app.notion.com/p/Pr-gnanz-Applied-to-Dashboard-Information-Density-625a9aed5344822ea92e01e7b6320ac3
+File: library/gestalt-principles/UX-520-pragnanz-applied-to-dashboard-information-density.md
 
 ## UX-521 — Prägnanz in Progressive Disclosure
 - Score 5 · Gestalt Principles / Prägnanz
@@ -490,7 +490,7 @@ Notion: https://app.notion.com/p/Pr-gnanz-Applied-to-Dashboard-Information-Densi
 
 Sources: [IxDF — Law of Prägnanz](https://www.interaction-design.org/literature/topics/law-of-praegnanz) · [Gestalt Principles — Prägnanz](https://www.gestaltprinciples.com/principles/pragnanz)
 Wireframe: https://files.catbox.moe/zjq004.jpg
-Notion: https://app.notion.com/p/Pr-gnanz-in-Progressive-Disclosure-0c2a9aed53448266852d81857a53df74
+File: library/gestalt-principles/UX-521-pragnanz-in-progressive-disclosure.md
 
 ## UX-522 — Continuation in Multi-Step Flows and Progress Indicators
 - Score 5 · Gestalt Principles / Continuation
@@ -511,7 +511,7 @@ Notion: https://app.notion.com/p/Pr-gnanz-in-Progressive-Disclosure-0c2a9aed5344
 
 Sources: [Bejamas — Gestalt Principles](https://bejamas.com/blog/gestalt-principles-of-design) · [Bird Marketing — Gestalt UI](https://bird.marketing/blog/digital-marketing/guide/ux-design-principles/improve-ux-gestalt-principles/) · [Lazarev Agency — Gestalt Principles](https://www.lazarev.agency/articles/gestalt-principles-of-design)
 Wireframe: https://files.catbox.moe/8p70io.jpg
-Notion: https://app.notion.com/p/Continuation-in-Multi-Step-Flows-and-Progress-Indicators-4d1a9aed53448275ab200198a09b027e
+File: library/gestalt-principles/UX-522-continuation-in-multi-step-flows-and-progress-indicators.md
 
 ## UX-524 — Common Fate in Dropdown and Accordion Animation
 - Score 5 · Gestalt Principles / Common Fate
@@ -532,7 +532,7 @@ Notion: https://app.notion.com/p/Continuation-in-Multi-Step-Flows-and-Progress-I
 
 Sources: [UIUXDesigning — Gestalt Common Fate](https://uiuxdesigning.com/gestalt-common-fate/) · [Gestalt Principles — Common Fate](https://www.gestaltprinciples.com/principles/common-fate) · [UX360 — Common Fate in Design](https://ux360.design/common-fate-design/)
 Wireframe: https://files.catbox.moe/1gnhct.jpg
-Notion: https://app.notion.com/p/Common-Fate-in-Dropdown-and-Accordion-Animation-d82a9aed53448269bfed8151d59baa1e
+File: library/gestalt-principles/UX-524-common-fate-in-dropdown-and-accordion-animation.md
 
 ## UX-527 — Accessible Motion: Common Fate with prefers-reduced-motion
 - Score 5 · Gestalt Principles / Common Fate — Accessibility
@@ -553,7 +553,7 @@ Notion: https://app.notion.com/p/Common-Fate-in-Dropdown-and-Accordion-Animation
 
 Sources: [UIUXDesigning — Gestalt Common Fate Accessibility](https://uiuxdesigning.com/gestalt-common-fate/) · [Harvard Accessibility — Data Visualizations](https://accessibility.huit.harvard.edu/data-viz-charts-graphs)
 Wireframe: https://files.catbox.moe/v0q8zr.jpg
-Notion: https://app.notion.com/p/Accessible-Motion-Common-Fate-with-prefers-reduced-motion-752a9aed53448202bfc30129df55d6aa
+File: library/gestalt-principles/UX-527-accessible-motion-common-fate-with-prefers-reduced-motion.md
 
 ## UX-528 — Closure in Minimal Icon and Logo Design
 - Score 5 · Gestalt Principles / Closure
@@ -574,7 +574,7 @@ Notion: https://app.notion.com/p/Accessible-Motion-Common-Fate-with-prefers-redu
 
 Sources: [Smashing Magazine — Gestalt Principles](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/) · [UX Tigers — Closure](https://www.uxtigers.com/post/gestalt-principles) · [Bejamas — Gestalt Principles](https://bejamas.com/blog/gestalt-principles-of-design)
 Wireframe: https://files.catbox.moe/t1q2qn.jpg
-Notion: https://app.notion.com/p/Closure-in-Minimal-Icon-and-Logo-Design-bfaa9aed534483b095cf012cd283513c
+File: library/gestalt-principles/UX-528-closure-in-minimal-icon-and-logo-design.md
 
 ## UX-530 — Common Region for Dashboard KPI Containers
 - Score 5 · Gestalt Principles / Common Region
@@ -595,7 +595,7 @@ Notion: https://app.notion.com/p/Closure-in-Minimal-Icon-and-Logo-Design-bfaa9ae
 
 Sources: [NNGroup — Principles of Visual Design](https://www.nngroup.com/articles/principles-visual-design/) · [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/) · [Viz Zen Data — Gestalt in Data Visualization](https://vizzendata.com/2020/07/06/utilizing-gestalt-principles-to-improve-your-data-visualization-design/)
 Wireframe: https://files.catbox.moe/qrs9sf.jpg
-Notion: https://app.notion.com/p/Common-Region-for-Dashboard-KPI-Containers-70ca9aed5344820fba938187f2f24b7f
+File: library/gestalt-principles/UX-530-common-region-for-dashboard-kpi-containers.md
 
 ## UX-532 — Element Connectedness via Row Banding in Tables
 - Score 5 · Gestalt Principles / Element Connectedness
@@ -616,7 +616,7 @@ Notion: https://app.notion.com/p/Common-Region-for-Dashboard-KPI-Containers-70ca
 
 Sources: [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/) · [Smashing Magazine — Gestalt Principles](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/)
 Wireframe: https://files.catbox.moe/kf64aw.jpg
-Notion: https://app.notion.com/p/Element-Connectedness-via-Row-Banding-in-Tables-84ca9aed5344830da4f70119d086f3a9
+File: library/gestalt-principles/UX-532-element-connectedness-via-row-banding-in-tables.md
 
 ## UX-533 — Element Connectedness Anti-Pattern: Line Charts for Categorical Data
 - Score 5 · Gestalt Principles / Element Connectedness — Anti-Pattern
@@ -636,7 +636,7 @@ Notion: https://app.notion.com/p/Element-Connectedness-via-Row-Banding-in-Tables
 
 Sources: [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/)
 Wireframe: https://files.catbox.moe/ika6f6.jpg
-Notion: https://app.notion.com/p/Element-Connectedness-Anti-Pattern-Line-Charts-for-Categorical-Data-8f5a9aed53448360a26181435df82882
+File: library/gestalt-principles/UX-533-element-connectedness-anti-pattern-line-charts-for-categoric.md
 
 ## UX-535 — Proximity in Responsive Design: Auditing Breakpoint Proximity Shifts
 - Score 5 · Gestalt Principles / Proximity — Responsive Design
@@ -657,7 +657,7 @@ Notion: https://app.notion.com/p/Element-Connectedness-Anti-Pattern-Line-Charts-
 
 Sources: [Nielsen Norman Group — Proximity Principle in UI](https://www.nngroup.com/articles/gestalt-proximity/) · [Glance — Gestalt Theory in Mobile](https://thisisglance.com/learning-centre/how-can-gestalt-theory-transform-your-mobile-interface-layout)
 Wireframe: https://files.catbox.moe/6nyxbc.jpg
-Notion: https://app.notion.com/p/Proximity-in-Responsive-Design-Auditing-Breakpoint-Proximity-Shifts-e2ca9aed534482e39eb581c7957a556f
+File: library/gestalt-principles/UX-535-proximity-in-responsive-design-auditing-breakpoint-proximity.md
 
 ## UX-536 — Similarity-Based Responsive Touch Targets
 - Score 5 · Gestalt Principles / Similarity — Responsive Design
@@ -678,7 +678,7 @@ Notion: https://app.notion.com/p/Proximity-in-Responsive-Design-Auditing-Breakpo
 
 Sources: [Glance — Gestalt Theory in Mobile](https://thisisglance.com/learning-centre/how-can-gestalt-theory-transform-your-mobile-interface-layout) · [Full Clarity — Gestalt in UI](https://fullclarity.co.uk/insights/gestalt-principles-in-ui/)
 Wireframe: https://files.catbox.moe/8ip6si.jpg
-Notion: https://app.notion.com/p/Similarity-Based-Responsive-Touch-Targets-504a9aed5344831d8b1901dd923c8de3
+File: library/gestalt-principles/UX-536-similarity-based-responsive-touch-targets.md
 
 ## UX-537 — Gestalt Combination: Proximity + Similarity + Common Region for Form Sections
 - Score 5 · Gestalt Principles / Advanced Combination: Proximity + Similarity + Common Region
@@ -699,7 +699,7 @@ Notion: https://app.notion.com/p/Similarity-Based-Responsive-Touch-Targets-504a9
 
 Sources: [UX Tigers — Using Gestalt Principles in UI Design](https://www.uxtigers.com/post/gestalt-principles) · [NNGroup — 4 Principles for Cognitive Load in Forms](https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/) · [Swapps — Gestalt in Web Design](https://swapps.com/blog/gestalt-principles-in-web-design/)
 Wireframe: https://files.catbox.moe/jz7wkw.jpg
-Notion: https://app.notion.com/p/Gestalt-Combination-Proximity-Similarity-Common-Region-for-Form-Sections-a57a9aed534483ad9d2301589e142db4
+File: library/gestalt-principles/UX-537-gestalt-combination-proximity-similarity-common-region-for-f.md
 
 ## UX-540 — Similarity Anti-Pattern: Inconsistent Button Styling Breaking Affordance Expectations
 - Score 5 · Gestalt Principles / Similarity — Anti-Pattern
@@ -720,7 +720,7 @@ Notion: https://app.notion.com/p/Gestalt-Combination-Proximity-Similarity-Common
 
 Sources: [IxDF — Bad UX Examples](https://www.interaction-design.org/literature/article/bad-ux-examples) · [IxDF — Law of Similarity](https://www.interaction-design.org/literature/topics/law-of-similarity) · [Inkbot Design — Gestalt Principles](https://inkbotdesign.com/gestalt-principles/)
 Wireframe: https://files.catbox.moe/x3e3mt.jpg
-Notion: https://app.notion.com/p/Similarity-Anti-Pattern-Inconsistent-Button-Styling-Breaking-Affordance-Expectations-baca9aed5344822f928681142d78e05c
+File: library/gestalt-principles/UX-540-similarity-anti-pattern-inconsistent-button-styling-breaking.md
 
 ## UX-541 — Figure-Ground Disambiguation via Focal Points
 - Score 5 · Gestalt Principles / Figure-Ground + Prägnanz
@@ -741,7 +741,7 @@ Notion: https://app.notion.com/p/Similarity-Anti-Pattern-Inconsistent-Button-Sty
 
 Sources: [Smashing Magazine — Gestalt Principles](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/) · [Lazarev Agency — Gestalt Principles](https://www.lazarev.agency/articles/gestalt-principles-of-design) · [HeyMarvin — Gestalt Principles](https://heymarvin.com/resources/gestalt-principles-examples-in-real-life)
 Wireframe: https://files.catbox.moe/5h6v6y.jpg
-Notion: https://app.notion.com/p/Figure-Ground-Disambiguation-via-Focal-Points-8aea9aed53448315b86901bd0fd9d619
+File: library/gestalt-principles/UX-541-figure-ground-disambiguation-via-focal-points.md
 
 ## UX-544 — Past Experience / Familiarity Principle in Convention-Based Design
 - Score 5 · Gestalt Principles / Past Experience
@@ -762,7 +762,7 @@ Notion: https://app.notion.com/p/Figure-Ground-Disambiguation-via-Focal-Points-8
 
 Sources: [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/) · [Smashing Magazine — Gestalt Principles](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/)
 Wireframe: https://files.catbox.moe/q0ssu3.jpg
-Notion: https://app.notion.com/p/Past-Experience-Familiarity-Principle-in-Convention-Based-Design-f34a9aed5344823eb91181fb048e5df6
+File: library/gestalt-principles/UX-544-past-experience-and-familiarity-principle-in-convention-base.md
 
 ## UX-545 — Gestalt Anti-Pattern: Similarity Exploited as a Dark Pattern
 - Score 5 · Gestalt Principles / Similarity — Dark Pattern / Anti-Pattern
@@ -783,7 +783,7 @@ Notion: https://app.notion.com/p/Past-Experience-Familiarity-Principle-in-Conven
 
 Sources: [Yellafin — Gestalt Principles and Dark Patterns](https://yellafin.in/ui-design-tips-from-gestalt-principles-to-dark-patterns/) · [PW Skills — Dark Patterns in UX](https://pwskills.com/blog/dark-patterns-in-ux-design/)
 Wireframe: https://files.catbox.moe/bshj7g.jpg
-Notion: https://app.notion.com/p/Gestalt-Anti-Pattern-Similarity-Exploited-as-a-Dark-Pattern-aa9a9aed53448315944381f3ea674ac9
+File: library/gestalt-principles/UX-545-gestalt-anti-pattern-similarity-exploited-as-a-dark-pattern.md
 
 ## UX-546 — Proximity Anti-Pattern: USPS-Style Form Field Misalignment
 - Score 5 · Gestalt Principles / Proximity — Anti-Pattern
@@ -804,7 +804,7 @@ Notion: https://app.notion.com/p/Gestalt-Anti-Pattern-Similarity-Exploited-as-a-
 
 Sources: [Chameleon — Bad UX Examples](https://www.chameleon.io/blog/bad-ux-examples) · [Nielsen Norman Group — Proximity Principle](https://www.nngroup.com/articles/gestalt-proximity/)
 Wireframe: https://files.catbox.moe/7vh4f9.jpg
-Notion: https://app.notion.com/p/Proximity-Anti-Pattern-USPS-Style-Form-Field-Misalignment-4eaa9aed534482cf907401a131ba0cdc
+File: library/gestalt-principles/UX-546-proximity-anti-pattern-usps-style-form-field-misalignment.md
 
 ## UX-547 — Gestalt in Data Visualization Accessibility: Multi-Dimensional Encoding
 - Score 5 · Gestalt Principles / Similarity — Data Visualization Accessibility
@@ -825,7 +825,7 @@ Notion: https://app.notion.com/p/Proximity-Anti-Pattern-USPS-Style-Form-Field-Mi
 
 Sources: [Harvard Accessibility — Data Visualizations](https://accessibility.huit.harvard.edu/data-viz-charts-graphs) · [ToucanToco — Gestalt in Data Visualization](https://www.toucantoco.com/en/blog/data-viz-best-practices-gestalt-principles)
 Wireframe: https://files.catbox.moe/o03yvg.jpg
-Notion: https://app.notion.com/p/Gestalt-in-Data-Visualization-Accessibility-Multi-Dimensional-Encoding-10ca9aed534483cf9b1c01e91d77b558
+File: library/gestalt-principles/UX-547-gestalt-in-data-visualization-accessibility-multi-dimensiona.md
 
 ## UX-548 — Continuation-Based Gestalt in Infinite Scroll and Implied Content
 - Score 5 · Gestalt Principles / Continuation
@@ -846,7 +846,7 @@ Notion: https://app.notion.com/p/Gestalt-in-Data-Visualization-Accessibility-Mul
 
 Sources: [Aela — Gestalt Principles in UI Design](https://www.aela.io/en/blog/all/gestalt-principles-apply-them-uxui-design-projects) · [Full Clarity — Gestalt in UI](https://fullclarity.co.uk/insights/gestalt-principles-in-ui/)
 Wireframe: https://files.catbox.moe/x0ciwt.jpg
-Notion: https://app.notion.com/p/Continuation-Based-Gestalt-in-Infinite-Scroll-and-Implied-Content-b39a9aed534483e589d401212b28fefc
+File: library/gestalt-principles/UX-548-continuation-based-gestalt-in-infinite-scroll-and-implied-co.md
 
 ## UX-499 — Symmetry: Signal Equivalence and Stability Through Mirrored Layouts
 - Score 4 · Gestalt Principles / Symmetry
@@ -868,7 +868,7 @@ Notion: https://app.notion.com/p/Continuation-Based-Gestalt-in-Infinite-Scroll-a
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles) · [Hurree — Gestalt in Dashboard Design](https://blog.hurree.co/this-psychology-principle-will-make-your-dashboards-more-powerful)
 Wireframe: https://files.catbox.moe/g0cxge.jpg
-Notion: https://app.notion.com/p/Symmetry-Signal-Equivalence-and-Stability-Through-Mirrored-Layouts-38da9aed534482a9bb0b01e80244be9c
+File: library/gestalt-principles/UX-499-symmetry-signal-equivalence-and-stability-through-mirrored-l.md
 
 ## UX-500 — Parallelism: Group Elements Sharing Directional Alignment
 - Score 4 · Gestalt Principles / Parallelism
@@ -890,7 +890,7 @@ Notion: https://app.notion.com/p/Symmetry-Signal-Equivalence-and-Stability-Throu
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles) · [Smashing Magazine — Gestalt Principles](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/)
 Wireframe: https://files.catbox.moe/y04lze.jpg
-Notion: https://app.notion.com/p/Parallelism-Group-Elements-Sharing-Directional-Alignment-604a9aed534483e2ad010181ea7128a0
+File: library/gestalt-principles/UX-500-parallelism-group-elements-sharing-directional-alignment.md
 
 ## UX-501 — Synchrony: Group Elements That Change State Simultaneously
 - Score 4 · Gestalt Principles / Synchrony
@@ -912,7 +912,7 @@ Notion: https://app.notion.com/p/Parallelism-Group-Elements-Sharing-Directional-
 
 Sources: [NNGroup – Gestalt Principles Course by Tanner Kohler](https://www.nngroup.com/courses/gestalt-principles/) · [IxDF — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles) · [UIUXDesigning — Gestalt Common Fate](https://uiuxdesigning.com/gestalt-common-fate/)
 Wireframe: https://files.catbox.moe/4j7b34.jpg
-Notion: https://app.notion.com/p/Synchrony-Group-Elements-That-Change-State-Simultaneously-a39a9aed534483cebe8e016d0ac946ea
+File: library/gestalt-principles/UX-501-synchrony-group-elements-that-change-state-simultaneously.md
 
 ## UX-516 — Glassmorphism as Layered Figure-Ground
 - Score 4 · Gestalt Principles / Figure-Ground — Modern UI Trends
@@ -933,7 +933,7 @@ Notion: https://app.notion.com/p/Synchrony-Group-Elements-That-Change-State-Simu
 
 Sources: [UIX Resources — Neumorphism and Glassmorphism](https://uixresources.framer.website/neumorphism-and-glassmorphism) · [Zignuts — Neumorphism vs Glassmorphism](https://www.zignuts.com/blog/neumorphism-vs-glassmorphism) · [CC Creative — UI Trends](https://www.cccreative.design/blogs/differences-in-ui-design-trends-neumorphism-glassmorphism-and-neubrutalism)
 Wireframe: https://files.catbox.moe/g9ivxq.jpg
-Notion: https://app.notion.com/p/Glassmorphism-as-Layered-Figure-Ground-795a9aed5344825ca62a01e703d51e55
+File: library/gestalt-principles/UX-516-glassmorphism-as-layered-figure-ground.md
 
 ## UX-517 — Neumorphism and Figure-Ground Contrast Failure
 - Score 4 · Gestalt Principles / Figure-Ground — Anti-Pattern
@@ -954,7 +954,7 @@ Notion: https://app.notion.com/p/Glassmorphism-as-Layered-Figure-Ground-795a9aed
 
 Sources: [UIX Resources — Neumorphism and Glassmorphism](https://uixresources.framer.website/neumorphism-and-glassmorphism) · [Zignuts — Neumorphism vs Glassmorphism](https://www.zignuts.com/blog/neumorphism-vs-glassmorphism) · [IxDF — Bad UX Examples](https://www.interaction-design.org/literature/article/bad-ux-examples)
 Wireframe: https://files.catbox.moe/jszv35.jpg
-Notion: https://app.notion.com/p/Neumorphism-and-Figure-Ground-Contrast-Failure-c04a9aed5344821eaaad81f772ac2d93
+File: library/gestalt-principles/UX-517-neumorphism-and-figure-ground-contrast-failure.md
 
 ## UX-523 — Continuation Anti-Pattern: Text Color Overriding Reading Order
 - Score 4 · Gestalt Principles / Continuation — Anti-Pattern
@@ -974,4 +974,4 @@ Notion: https://app.notion.com/p/Neumorphism-and-Figure-Ground-Contrast-Failure-
 
 Sources: [Playfair Data — Gestalt in Dashboard Design](https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/)
 Wireframe: https://files.catbox.moe/hijx7e.jpg
-Notion: https://app.notion.com/p/Continuation-Anti-Pattern-Text-Color-Overriding-Reading-Order-edca9aed53448288900a0193b0853268
+File: library/gestalt-principles/UX-523-continuation-anti-pattern-text-color-overriding-reading-orde.md

@@ -19,7 +19,7 @@
 
 Sources: [Nielsen Norman Group — Modal & Nonmodal Dialogs](https://www.nngroup.com/articles/modal-nonmodal-dialog/) · [Component Gallery — Modal / Dialog](https://component.gallery/components/modal/) · [About Face 4th Ed., Ch. 21 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [Eleken — Modal UX](https://www.eleken.co/blog-posts/modal-ux)
 Wireframe: https://files.catbox.moe/8b1zsx.jpg
-Notion: https://app.notion.com/p/Modals-Reserve-for-Critical-Focus-Required-Interactions-bf0a9aed534482e786df019b6ce07512
+File: library/component-patterns/UX-037-modals-reserve-for-critical-focus-required-interactions.md
 
 ## UX-038 — Nonmodal Side Panels as Default for Non-Critical Interactions
 - Score 5 · Component Patterns / Drawer and side panel usage
@@ -41,7 +41,7 @@ Notion: https://app.notion.com/p/Modals-Reserve-for-Critical-Focus-Required-Inte
 
 Sources: [Nielsen Norman Group — Modal & Nonmodal Dialogs](https://www.nngroup.com/articles/modal-nonmodal-dialog/) · [Component Gallery — Drawer / Side Panel](https://component.gallery/components/drawer/)
 Wireframe: https://files.catbox.moe/zzcj2c.jpg
-Notion: https://app.notion.com/p/Nonmodal-Side-Panels-as-Default-for-Non-Critical-Interactions-e49a9aed534482978b6901cbd59b9352
+File: library/component-patterns/UX-038-nonmodal-side-panels-as-default-for-non-critical-interaction.md
 
 ## UX-039 — Tabs — Use Only for Clear Independent Content Groupings
 - Score 5 · Component Patterns / Tab usage and tab design
@@ -65,7 +65,7 @@ Notion: https://app.notion.com/p/Nonmodal-Side-Panels-as-Default-for-Non-Critica
 
 Sources: [Nielsen Norman Group — Tabs, Used Right](https://www.nngroup.com/articles/tabs-used-right/) · [Component Gallery — Tabs](https://component.gallery/components/tabs/)
 Wireframe: https://files.catbox.moe/yjacn3.jpg
-Notion: https://app.notion.com/p/Tabs-Use-Only-for-Clear-Independent-Content-Groupings-ee0a9aed53448261bce2818360d8428c
+File: library/component-patterns/UX-039-tabs-use-only-for-clear-independent-content-groupings.md
 
 ## UX-040 — Tooltips — Supplementary Clarification, Not Critical Information
 - Score 5 · Component Patterns / Tooltip usage and design
@@ -88,7 +88,7 @@ Notion: https://app.notion.com/p/Tabs-Use-Only-for-Clear-Independent-Content-Gro
 
 Sources: [Nielsen Norman Group — Tooltip Guidelines](https://www.nngroup.com/articles/tooltip-guidelines/) · [Component Gallery — Tooltip](https://component.gallery/components/tooltip/)
 Wireframe: https://files.catbox.moe/97dyjx.jpg
-Notion: https://app.notion.com/p/Tooltips-Supplementary-Clarification-Not-Critical-Information-7f3a9aed534483ddaa6b0161fc373f40
+File: library/component-patterns/UX-040-tooltips-supplementary-clarification-not-critical-informatio.md
 
 ## UX-041 — Distinct Visual States for Clickable, Selected, and Plain Elements
 - Score 5 · Component Patterns / Visual affordance and state encoding
@@ -109,7 +109,7 @@ Notion: https://app.notion.com/p/Tooltips-Supplementary-Clarification-Not-Critic
 
 Sources: [Good UI — Distinct Clickable/Selected Styles](https://goodui.org/#6)
 Wireframe: https://files.catbox.moe/f9dnd7.jpg
-Notion: https://app.notion.com/p/Distinct-Visual-States-for-Clickable-Selected-and-Plain-Elements-de2a9aed534482b7a31501527383ae44
+File: library/component-patterns/UX-041-distinct-visual-states-for-clickable-selected-and-plain-elem.md
 
 ## UX-042 — Toast Notifications — Transient Confirmation for Completed Actions
 - Score 5 · Component Patterns / Toast design and usage
@@ -132,7 +132,7 @@ Notion: https://app.notion.com/p/Distinct-Visual-States-for-Clickable-Selected-a
 
 Sources: [Component Gallery — Toast / Snackbar](https://component.gallery/components/toast/)
 Wireframe: https://files.catbox.moe/0azyqz.jpg
-Notion: https://app.notion.com/p/Toast-Notifications-Transient-Confirmation-for-Completed-Actions-f37a9aed5344834aa97e011b9fcc8f3f
+File: library/component-patterns/UX-042-toast-notifications-transient-confirmation-for-completed-act.md
 
 ## UX-043 — Progress Bar — Determinate and Indeterminate Patterns
 - Score 5 · Component Patterns / Progress bar design
@@ -154,7 +154,7 @@ Notion: https://app.notion.com/p/Toast-Notifications-Transient-Confirmation-for-
 
 Sources: [Component Gallery — Progress Bar](https://component.gallery/components/progress-bar/)
 Wireframe: https://files.catbox.moe/j4n3ez.jpg
-Notion: https://app.notion.com/p/Progress-Bar-Determinate-and-Indeterminate-Patterns-926a9aed534482058db20193bbe337dd
+File: library/component-patterns/UX-043-progress-bar-determinate-and-indeterminate-patterns.md
 
 ## UX-044 — Badge / Tag / Chip — Semantic Color and Label Consistency
 - Score 5 · Component Patterns / Status badge design
@@ -176,7 +176,7 @@ Notion: https://app.notion.com/p/Progress-Bar-Determinate-and-Indeterminate-Patt
 
 Sources: [Component Gallery — Badge / Tag / Chip](https://component.gallery/components/badge/)
 Wireframe: https://files.catbox.moe/l05ejq.jpg
-Notion: https://app.notion.com/p/Badge-Tag-Chip-Semantic-Color-and-Label-Consistency-75ca9aed534482bc8ea9810114a32d7a
+File: library/component-patterns/UX-044-badge-and-tag-and-chip-semantic-color-and-label-consistency.md
 
 ## UX-045 — Combobox / Autocomplete for Long-List Dropdowns
 - Score 5 · Component Patterns / Combobox and autocomplete design
@@ -199,7 +199,7 @@ Notion: https://app.notion.com/p/Badge-Tag-Chip-Semantic-Color-and-Label-Consist
 
 Sources: [Component Gallery — Combobox / Autocomplete](https://component.gallery/components/combobox/)
 Wireframe: https://files.catbox.moe/hf1vsf.jpg
-Notion: https://app.notion.com/p/Combobox-Autocomplete-for-Long-List-Dropdowns-38ba9aed534482438678011e35b0ee14
+File: library/component-patterns/UX-045-combobox-and-autocomplete-for-long-list-dropdowns.md
 
 ## UX-046 — Search Input Component Design Standards
 - Score 5 · Component Patterns / Search input component
@@ -222,7 +222,7 @@ Notion: https://app.notion.com/p/Combobox-Autocomplete-for-Long-List-Dropdowns-3
 
 Sources: [Component Gallery — Search Input](https://component.gallery/components/search-input/)
 Wireframe: https://files.catbox.moe/ybkhyl.jpg
-Notion: https://app.notion.com/p/Search-Input-Component-Design-Standards-451a9aed534482a08551810bb978c449
+File: library/component-patterns/UX-046-search-input-component-design-standards.md
 
 ## UX-047 — Descriptive, Concise Tab Labels
 - Score 4 · Component Patterns / Tab label writing
@@ -243,7 +243,7 @@ Notion: https://app.notion.com/p/Search-Input-Component-Design-Standards-451a9ae
 
 Sources: [Nielsen Norman Group — Tabs, Used Right](https://www.nngroup.com/articles/tabs-used-right/)
 Wireframe: https://files.catbox.moe/xlgg5f.jpg
-Notion: https://app.notion.com/p/Descriptive-Concise-Tab-Labels-d14a9aed5344836caa1301d23d555711
+File: library/component-patterns/UX-047-descriptive-concise-tab-labels.md
 
 ## UX-048 — Disable, Don't Hide, Irrelevant Menu Items
 - Score 4 · Component Patterns / Contextual menu state management
@@ -263,7 +263,7 @@ Notion: https://app.notion.com/p/Descriptive-Concise-Tab-Labels-d14a9aed5344836c
 
 Sources: [Nielsen Norman Group — Contextual Menus: Delivering Relevant Tools for Tasks](https://www.nngroup.com/articles/contextual-menus/)
 Wireframe: https://files.catbox.moe/pralra.jpg
-Notion: https://app.notion.com/p/Disable-Don-t-Hide-Irrelevant-Menu-Items-584a9aed534482f38a24018fb04faff8
+File: library/component-patterns/UX-048-disable-don-t-hide-irrelevant-menu-items.md
 
 ## UX-049 — Popovers for Interactive Supplemental Content
 - Score 4 · Component Patterns / Popover vs tooltip distinction
@@ -285,7 +285,7 @@ Notion: https://app.notion.com/p/Disable-Don-t-Hide-Irrelevant-Menu-Items-584a9a
 
 Sources: [Component Gallery — Popover](https://component.gallery/components/popover/)
 Wireframe: https://files.catbox.moe/9gantb.jpg
-Notion: https://app.notion.com/p/Popovers-for-Interactive-Supplemental-Content-b0ba9aed534482b68ffb0142cc2fc1e5
+File: library/component-patterns/UX-049-popovers-for-interactive-supplemental-content.md
 
 ## UX-050 — Accordion — Collapsible Sections for Occasionally Needed Content
 - Score 4 · Component Patterns / Accordion usage and design
@@ -307,7 +307,7 @@ Notion: https://app.notion.com/p/Popovers-for-Interactive-Supplemental-Content-b
 
 Sources: [Component Gallery — Accordion](https://component.gallery/components/accordion/)
 Wireframe: https://files.catbox.moe/r6a8ab.jpg
-Notion: https://app.notion.com/p/Accordion-Collapsible-Sections-for-Occasionally-Needed-Content-d57a9aed5344835cb4118173472476f0
+File: library/component-patterns/UX-050-accordion-collapsible-sections-for-occasionally-needed-conte.md
 
 ## UX-051 — Tree View for Hierarchical Data Navigation
 - Score 4 · Component Patterns / Tree view design and accessibility
@@ -329,7 +329,7 @@ Notion: https://app.notion.com/p/Accordion-Collapsible-Sections-for-Occasionally
 
 Sources: [Component Gallery — Tree View](https://component.gallery/components/tree-view/) · [Koruux — Enterprise Data Visualization](https://www.koruux.com/blog/enterprise-data-visualization)
 Wireframe: https://files.catbox.moe/ccyvh4.jpg
-Notion: https://app.notion.com/p/Tree-View-for-Hierarchical-Data-Navigation-313a9aed534483bdb35f8152c9f319a9
+File: library/component-patterns/UX-051-tree-view-for-hierarchical-data-navigation.md
 
 ## UX-052 — Toggle / Switch — Immediate-Effect Binary Settings
 - Score 4 · Component Patterns / Toggle and switch design
@@ -350,4 +350,4 @@ Notion: https://app.notion.com/p/Tree-View-for-Hierarchical-Data-Navigation-313a
 
 Sources: [Component Gallery — Toggle / Switch](https://component.gallery/components/toggle/)
 Wireframe: https://files.catbox.moe/tef5si.jpg
-Notion: https://app.notion.com/p/Toggle-Switch-Immediate-Effect-Binary-Settings-fdaa9aed534482ba985d811414cefd61
+File: library/component-patterns/UX-052-toggle-and-switch-immediate-effect-binary-settings.md

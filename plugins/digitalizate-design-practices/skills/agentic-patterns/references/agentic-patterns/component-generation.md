@@ -49,4 +49,4 @@ Provide the agent with:
 - The final artifact includes test and documentation updates.
 
 Sources: [The Ultimate AI Component Generation Framework](https://learn.thedesignsystem.guide/p/the-ultimate-ai-component-generation)
-Notion: https://app.notion.com/p/AI-Component-Generation-Context-181a9aed534482afa1368185daeac2b5
+File: library/agentic-patterns/AGP-004-ai-component-generation-context.md

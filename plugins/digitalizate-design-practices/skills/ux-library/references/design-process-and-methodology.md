@@ -20,7 +20,7 @@
 
 Sources: [UX Magazine — Enterprise UX: The Value of Usability](https://uxmag.com/articles/enterprise-ux-the-value-of-usability-for-enterprise-software)
 Wireframe: https://files.catbox.moe/fbzn4x.jpg
-Notion: https://app.notion.com/p/Conduct-Deep-User-Research-with-End-Users-Not-Just-Executives-602a9aed534483c7a0dc01dd36820b89
+File: library/design-process-and-methodology/UX-092-conduct-deep-user-research-with-end-users-not-just-executive.md
 
 ## UX-093 — The Three Lenses of Human-Centered Design
 - Score 5 · Design Process & Methodology / Design Evaluation Framework
@@ -37,7 +37,7 @@ Notion: https://app.notion.com/p/Conduct-Deep-User-Research-with-End-Users-Not-J
 
 Sources: [IDEO Design Thinking](https://www.ideo.com/)
 Wireframe: https://files.catbox.moe/6jb7vk.jpg
-Notion: https://app.notion.com/p/The-Three-Lenses-of-Human-Centered-Design-b32a9aed534482a898e301bfc714a534
+File: library/design-process-and-methodology/UX-093-the-three-lenses-of-human-centered-design.md
 
 ## UX-094 — Goal-Directed Design — Design for Goals, Not Tasks
 - Score 5 · Design Process & Methodology / Design Philosophy
@@ -55,7 +55,7 @@ Notion: https://app.notion.com/p/The-Three-Lenses-of-Human-Centered-Design-b32a9
 
 Sources: [About Face 4th Ed., Ch. 1 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/yc97xo.jpg
-Notion: https://app.notion.com/p/Goal-Directed-Design-Design-for-Goals-Not-Tasks-73fa9aed53448229947c01e448502926
+File: library/design-process-and-methodology/UX-094-goal-directed-design-design-for-goals-not-tasks.md
 
 ## UX-095 — Personas — Archetypal User Models Built from Research
 - Score 5 · Design Process & Methodology / User Research Synthesis
@@ -75,7 +75,7 @@ Notion: https://app.notion.com/p/Goal-Directed-Design-Design-for-Goals-Not-Tasks
 
 Sources: [About Face 4th Ed., Ch. 3–4 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [IDEO Design Thinking](https://www.ideo.com/)
 Wireframe: https://files.catbox.moe/qbkq53.jpg
-Notion: https://app.notion.com/p/Personas-Archetypal-User-Models-Built-from-Research-c6ba9aed534482848cf7014ab15c7fdb
+File: library/design-process-and-methodology/UX-095-personas-archetypal-user-models-built-from-research.md
 
 ## UX-096 — Design for the Perpetual Intermediate
 - Score 5 · Design Process & Methodology / User Skill Calibration
@@ -96,7 +96,7 @@ Notion: https://app.notion.com/p/Personas-Archetypal-User-Models-Built-from-Rese
 
 Sources: [About Face 4th Ed., Ch. 3 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/e5h3rk.jpg
-Notion: https://app.notion.com/p/Design-for-the-Perpetual-Intermediate-2e3a9aed5344838fa35901b823dec3a1
+File: library/design-process-and-methodology/UX-096-design-for-the-perpetual-intermediate.md
 
 ## UX-097 — Double Diamond Design Process
 - Score 5 · Design Process & Methodology / Design Frameworks
@@ -116,7 +116,7 @@ Notion: https://app.notion.com/p/Design-for-the-Perpetual-Intermediate-2e3a9aed5
 
 Sources: [Amoeboids — Double Diamond Design Process](https://amoeboids.com/blog/double-diamond-design-process/)
 Wireframe: https://files.catbox.moe/bw9t5j.jpg
-Notion: https://app.notion.com/p/Double-Diamond-Design-Process-590a9aed534482c0a0d601dd9dee63d2
+File: library/design-process-and-methodology/UX-097-double-diamond-design-process.md
 
 ## UX-098 — Nielsen's 10 Usability Heuristics — Evaluation Framework
 - Score 5 · Design Process & Methodology / Expert Evaluation Methods
@@ -138,7 +138,7 @@ Notion: https://app.notion.com/p/Double-Diamond-Design-Process-590a9aed534482c0a
 
 Sources: [CleverX — Nielsen's 10 Heuristics](https://cleverx.com/blog/heuristic-evaluation-10-nielsen-principles-explained)
 Wireframe: https://files.catbox.moe/v8fc7q.jpg
-Notion: https://app.notion.com/p/Nielsen-s-10-Usability-Heuristics-Evaluation-Framework-0ffa9aed534482948a6a8143ded5df57
+File: library/design-process-and-methodology/UX-098-nielsen-s-10-usability-heuristics-evaluation-framework.md
 
 ## UX-099 — Usability Testing Methodology
 - Score 5 · Design Process & Methodology / User Testing
@@ -159,7 +159,7 @@ Notion: https://app.notion.com/p/Nielsen-s-10-Usability-Heuristics-Evaluation-Fr
 
 Sources: [CleverX — Nielsen's Heuristics and Usability Testing](https://cleverx.com/blog/heuristic-evaluation-10-nielsen-principles-explained)
 Wireframe: https://files.catbox.moe/0r8kkg.jpg
-Notion: https://app.notion.com/p/Usability-Testing-Methodology-724a9aed534483be9f3e011bceb4df34
+File: library/design-process-and-methodology/UX-099-usability-testing-methodology.md
 
 ## UX-100 — Contextual Inquiry — User Research in Real Environments
 - Score 5 · Design Process & Methodology / User Research Methods
@@ -182,7 +182,7 @@ Notion: https://app.notion.com/p/Usability-Testing-Methodology-724a9aed534483be9
 
 Sources: [IDEO HCD Toolkit](https://ideal.umd.edu/assets/pdfs/2015_fuge_jmd_hcd_methods.pdf)
 Wireframe: https://files.catbox.moe/e207p2.jpg
-Notion: https://app.notion.com/p/Contextual-Inquiry-User-Research-in-Real-Environments-1a1a9aed534482f0b31b81d3a7ba8ac2
+File: library/design-process-and-methodology/UX-100-contextual-inquiry-user-research-in-real-environments.md
 
 ## UX-101 — Customer Journey Mapping for End-to-End Workflow Design
 - Score 5 · Design Process & Methodology / Research Synthesis
@@ -202,7 +202,7 @@ Notion: https://app.notion.com/p/Contextual-Inquiry-User-Research-in-Real-Enviro
 
 Sources: [IDEO Design Thinking](https://www.ama.org/marketing-news/the-5-phases-of-design-thinking/)
 Wireframe: https://files.catbox.moe/3xal8a.jpg
-Notion: https://app.notion.com/p/Customer-Journey-Mapping-for-End-to-End-Workflow-Design-827a9aed534482a1a23301adb4ff632c
+File: library/design-process-and-methodology/UX-101-customer-journey-mapping-for-end-to-end-workflow-design.md
 
 ## UX-102 — Prototype Fidelity Matching the Question
 - Score 5 · Design Process & Methodology / Prototyping Methods
@@ -222,7 +222,7 @@ Notion: https://app.notion.com/p/Customer-Journey-Mapping-for-End-to-End-Workflo
 
 Sources: [IDEO Prototyping Principles](https://www.ideo.com/journal/7-principles-to-guide-your-prototyping)
 Wireframe: https://files.catbox.moe/m43jh5.jpg
-Notion: https://app.notion.com/p/Prototype-Fidelity-Matching-the-Question-d31a9aed5344820d87fa017fdca723b4
+File: library/design-process-and-methodology/UX-102-prototype-fidelity-matching-the-question.md
 
 ## UX-103 — Show Don't Tell — Living Documentation
 - Score 5 · Design Process & Methodology / Design Communication
@@ -241,7 +241,7 @@ Notion: https://app.notion.com/p/Prototype-Fidelity-Matching-the-Question-d31a9a
 
 Sources: [IDEO / Cantina](https://cantina.co/applying-ideo-design-thinking-principles-to-software-engineering/)
 Wireframe: https://files.catbox.moe/ocmk0h.jpg
-Notion: https://app.notion.com/p/Show-Don-t-Tell-Living-Documentation-f23a9aed534482f9a0b401d9b62a2121
+File: library/design-process-and-methodology/UX-103-show-don-t-tell-living-documentation.md
 
 ## UX-104 — Radical Collaboration — Multidisciplinary Product Teams
 - Score 5 · Design Process & Methodology / Team Structure
@@ -260,7 +260,7 @@ Notion: https://app.notion.com/p/Show-Don-t-Tell-Living-Documentation-f23a9aed53
 
 Sources: [IDEO Design Thinking](https://cantina.co/applying-ideo-design-thinking-principles-to-software-engineering/)
 Wireframe: https://files.catbox.moe/092q82.jpg
-Notion: https://app.notion.com/p/Radical-Collaboration-Multidisciplinary-Product-Teams-9d9a9aed534483e6a377816d4853f824
+File: library/design-process-and-methodology/UX-104-radical-collaboration-multidisciplinary-product-teams.md
 
 ## UX-638 — Design - System Backlog & Pilot Delivery
 - Score 5 · Design Process & Methodology / Steel threads, component inventory, and pilot readiness
@@ -299,7 +299,7 @@ Pilot selection is a program-management decision. An enthusiastic team can still
 Link the product and system backlog with pre-grooming, sprint-review participation, and clear ownership. Use the pilot to learn what documentation, API shape, component states, and contribution rules are missing before attempting broad rollout.
 > Source context: distilled from the user-provided 60:46 seminar *Initiating a Design System*.
 
-Notion: https://app.notion.com/p/Design-System-Backlog-Pilot-Delivery-594a9aed5344828aa9ca817c27d1c43c
+File: library/design-process-and-methodology/UX-638-design-system-backlog-and-pilot-delivery.md
 
 ## UX-639 — Design - System Discovery & Audit
 - Score 5 · Design Process & Methodology / Discovery & audit
@@ -344,7 +344,7 @@ This turns “make buttons consistent” into an actionable system slice with a 
 - Validate top priorities with the teams who will adopt them before committing to the roadmap.
 
 Sources: [Build a Design System](https://thedesignsystem.guide/start-here) · [Design Audit](https://thedesignsystem.guide/design-audit) · [Design System Research Interview Questions](https://thedesignsystem.guide/design-system-research-interview-questions)
-Notion: https://app.notion.com/p/Design-System-Discovery-Audit-f36a9aed534483599837011d18dd93fe
+File: library/design-process-and-methodology/UX-639-design-system-discovery-and-audit.md
 
 ## UX-641 — Design - System Governance, Adoption & Measurement
 - Score 5 · Design Process & Methodology / Contribution model, moderation, and KPIs
@@ -375,7 +375,7 @@ A component count is a weak success metric. A smaller library that supports real
 Maintain recurring touchpoints: sprint reviews, pre-backlog grooming, documentation feedback, release notes, demos, and contribution recognition. These give the platform real production feedback and make the system feel like a shared operating practice rather than a team-owned asset.
 > Source context: distilled from the user-provided 60:46 seminar *Initiating a Design System*.
 
-Notion: https://app.notion.com/p/Design-System-Governance-Adoption-Measurement-9a2a9aed534483e3b5e101349d8717cf
+File: library/design-process-and-methodology/UX-641-design-system-governance-adoption-and-measurement.md
 
 ## UX-642 — Design - System Initiation & Alignment
 - Score 5 · Design Process & Methodology / Change management and executive alignment
@@ -410,7 +410,7 @@ Use different communication channels for different needs: a leadership memo for 
 Some designers may read reuse as a reduction in their role if documentation artifacts have historically defined their value. Reframe the shift: the high-value work becomes pattern definition, user validation, interaction states, cross-product coherence, and informed trade-offs.
 > Source context: distilled from the user-provided 60:46 seminar *Initiating a Design System*.
 
-Notion: https://app.notion.com/p/Design-System-Initiation-Alignment-c02a9aed53448332ad36010c52c4965d
+File: library/design-process-and-methodology/UX-642-design-system-initiation-and-alignment.md
 
 ## UX-105 — Define Information Architecture Before Designing Navigation
 - Score 4 · Design Process & Methodology / IA-first process
@@ -432,7 +432,7 @@ Notion: https://app.notion.com/p/Design-System-Initiation-Alignment-c02a9aed5344
 
 Sources: [Nielsen Norman Group — IA vs. Navigation](https://www.nngroup.com/articles/ia-vs-navigation/) · [Boxes and Arrows — Information Architecture: Blueprints for the Web](https://boxesandarrows.com/information-architecture-blueprints-for-the-web/)
 Wireframe: https://files.catbox.moe/oc3lsz.jpg
-Notion: https://app.notion.com/p/Define-Information-Architecture-Before-Designing-Navigation-6faa9aed53448294aff281731715bfc4
+File: library/design-process-and-methodology/UX-105-define-information-architecture-before-designing-navigation.md
 
 ## UX-106 — Card Sorting for User-Centric Information Architecture
 - Score 4 · Design Process & Methodology / Information Architecture Methods
@@ -454,7 +454,7 @@ Notion: https://app.notion.com/p/Define-Information-Architecture-Before-Designin
 
 Sources: [IDEO Method Cards](http://designblog.uniandes.edu.co/blogs/dise1107/files/2013/01/IDEO_cards.pdf) · [Nielsen Norman Group — IA vs. Navigation](https://www.nngroup.com/articles/ia-vs-navigation/) · [Boxes and Arrows — Information Architecture: Blueprints for the Web](https://boxesandarrows.com/information-architecture-blueprints-for-the-web/)
 Wireframe: https://files.catbox.moe/pmx1rv.jpg
-Notion: https://app.notion.com/p/Card-Sorting-for-User-Centric-Information-Architecture-385a9aed53448229a5d001c5f9ccce35
+File: library/design-process-and-methodology/UX-106-card-sorting-for-user-centric-information-architecture.md
 
 ## UX-107 — Quantify UX ROI — Measure Productivity Impact
 - Score 4 · Design Process & Methodology / UX business case and ROI measurement
@@ -475,7 +475,7 @@ Notion: https://app.notion.com/p/Card-Sorting-for-User-Centric-Information-Archi
 
 Sources: [UX Magazine — Enterprise UX: The Value of Usability](https://uxmag.com/articles/enterprise-ux-the-value-of-usability-for-enterprise-software)
 Wireframe: https://files.catbox.moe/gzg8na.jpg
-Notion: https://app.notion.com/p/Quantify-UX-ROI-Measure-Productivity-Impact-b1ba9aed534483b1940201df93713882
+File: library/design-process-and-methodology/UX-107-quantify-ux-roi-measure-productivity-impact.md
 
 ## UX-108 — Distinguish IA from Interaction Design — Design Both Explicitly
 - Score 4 · Design Process & Methodology / Design discipline separation
@@ -496,7 +496,7 @@ Notion: https://app.notion.com/p/Quantify-UX-ROI-Measure-Productivity-Impact-b1b
 
 Sources: [Boxes and Arrows — Introducing Interaction Design](https://boxesandarrows.com/introducing-interaction-design/) · [Boxes and Arrows — Foundations of Interaction Design](https://boxesandarrows.com/foundations-of-interaction-design/)
 Wireframe: https://files.catbox.moe/eb5k5l.jpg
-Notion: https://app.notion.com/p/Distinguish-IA-from-Interaction-Design-Design-Both-Explicitly-709a9aed534483b288b401a3a20a64f5
+File: library/design-process-and-methodology/UX-108-distinguish-ia-from-interaction-design-design-both-explicitl.md
 
 ## UX-109 — Low-Fidelity Wireframes Early to Drive Critical Decisions
 - Score 4 · Design Process & Methodology / Wireframing methodology
@@ -517,7 +517,7 @@ Notion: https://app.notion.com/p/Distinguish-IA-from-Interaction-Design-Design-B
 
 Sources: [Boxes and Arrows — The Shallow Dive](https://boxesandarrows.com/the-shallow-dive/)
 Wireframe: https://files.catbox.moe/h9z0ct.jpg
-Notion: https://app.notion.com/p/Low-Fidelity-Wireframes-Early-to-Drive-Critical-Decisions-f08a9aed5344830f97a90170407a139c
+File: library/design-process-and-methodology/UX-109-low-fidelity-wireframes-early-to-drive-critical-decisions.md
 
 ## UX-110 — Integrate UX Design Sprint Ahead of Development
 - Score 4 · Design Process & Methodology / UX-agile integration process
@@ -536,7 +536,7 @@ Notion: https://app.notion.com/p/Low-Fidelity-Wireframes-Early-to-Drive-Critical
 
 Sources: [Boxes and Arrows — Bringing UCD to the Agile Environment](https://boxesandarrows.com/bringing-user-centered-design-to-the-agile-environment/)
 Wireframe: https://files.catbox.moe/zjedtr.jpg
-Notion: https://app.notion.com/p/Integrate-UX-Design-Sprint-Ahead-of-Development-ddaa9aed53448220adde81a67e8d5194
+File: library/design-process-and-methodology/UX-110-integrate-ux-design-sprint-ahead-of-development.md
 
 ## UX-111 — Three Types of User Goals (Experience / End / Life)
 - Score 4 · Design Process & Methodology / Persona Framework
@@ -554,7 +554,7 @@ Notion: https://app.notion.com/p/Integrate-UX-Design-Sprint-Ahead-of-Development
 
 Sources: [About Face 4th Ed., Ch. 4 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/mpi6rb.jpg
-Notion: https://app.notion.com/p/Three-Types-of-User-Goals-Experience-End-Life-2b1a9aed5344825e9a918109b48df7d5
+File: library/design-process-and-methodology/UX-111-three-types-of-user-goals-experience-and-end-and-life.md
 
 ## UX-112 — Breadboarding for Interaction Flow Design
 - Score 4 · Design Process & Methodology / Early-Stage Design Methods
@@ -575,7 +575,7 @@ Notion: https://app.notion.com/p/Three-Types-of-User-Goals-Experience-End-Life-2
 
 Sources: [Shape Up by Ryan Singer, Ch. 4 (Basecamp, 2019)](https://basecamp.com/shapeup/1.3-chapter-04)
 Wireframe: https://files.catbox.moe/ojb9rj.jpg
-Notion: https://app.notion.com/p/Breadboarding-for-Interaction-Flow-Design-725a9aed5344820fb03081e026f6f336
+File: library/design-process-and-methodology/UX-112-breadboarding-for-interaction-flow-design.md
 
 ## UX-113 — Affinity Diagrams for Research Synthesis
 - Score 4 · Design Process & Methodology / Research Synthesis
@@ -597,7 +597,7 @@ Notion: https://app.notion.com/p/Breadboarding-for-Interaction-Flow-Design-725a9
 
 Sources: [IDEO Method Cards](http://designblog.uniandes.edu.co/blogs/dise1107/files/2013/01/IDEO_cards.pdf)
 Wireframe: https://files.catbox.moe/qydyhm.jpg
-Notion: https://app.notion.com/p/Affinity-Diagrams-for-Research-Synthesis-17fa9aed53448387b61601451ce92012
+File: library/design-process-and-methodology/UX-113-affinity-diagrams-for-research-synthesis.md
 
 ## UX-114 — "How Might We" Problem Framing
 - Score 4 · Design Process & Methodology / Problem Definition
@@ -617,7 +617,7 @@ Notion: https://app.notion.com/p/Affinity-Diagrams-for-Research-Synthesis-17fa9a
 
 Sources: [IDEO Design Thinking / Stanford](https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process) · [d.school](http://d.school/)
 Wireframe: https://files.catbox.moe/wqv2cq.jpg
-Notion: https://app.notion.com/p/How-Might-We-Problem-Framing-9bda9aed53448385a3e88182b192b301
+File: library/design-process-and-methodology/UX-114-how-might-we-problem-framing.md
 
 ## UX-115 — Diverge Before Converging — Separation of Ideation and Evaluation
 - Score 4 · Design Process & Methodology / Ideation Methods
@@ -636,7 +636,7 @@ Notion: https://app.notion.com/p/How-Might-We-Problem-Framing-9bda9aed53448385a3
 
 Sources: [IDEO Design Thinking](https://www.ama.org/marketing-news/the-5-phases-of-design-thinking/)
 Wireframe: https://files.catbox.moe/yv4iol.jpg
-Notion: https://app.notion.com/p/Diverge-Before-Converging-Separation-of-Ideation-and-Evaluation-b54a9aed534482ee884501086db5220b
+File: library/design-process-and-methodology/UX-115-diverge-before-converging-separation-of-ideation-and-evaluat.md
 
 ## UX-116 — Design Critique Best Practices
 - Score 4 · Design Process & Methodology / Design Review Process
@@ -656,7 +656,7 @@ Notion: https://app.notion.com/p/Diverge-Before-Converging-Separation-of-Ideatio
 
 Sources: [Atlassian — Design Review Process](https://www.atlassian.com/blog/loom/design-review)
 Wireframe: https://files.catbox.moe/wkv6gv.jpg
-Notion: https://app.notion.com/p/Design-Critique-Best-Practices-583a9aed5344831aa271813b537409cb
+File: library/design-process-and-methodology/UX-116-design-critique-best-practices.md
 
 ## UX-117 — Empathy Mapping for Research Synthesis
 - Score 4 · Design Process & Methodology / Research Synthesis
@@ -677,7 +677,7 @@ Notion: https://app.notion.com/p/Design-Critique-Best-Practices-583a9aed5344831a
 
 Sources: [IDEO Design Thinking](https://www.ama.org/marketing-news/the-5-phases-of-design-thinking/)
 Wireframe: https://files.catbox.moe/ilxwnu.jpg
-Notion: https://app.notion.com/p/Empathy-Mapping-for-Research-Synthesis-9d0a9aed534483fbad0881d600f0ab07
+File: library/design-process-and-methodology/UX-117-empathy-mapping-for-research-synthesis.md
 
 ## UX-635 — Design - Collaboration & Contribution Model
 - Score 4 · Design Process & Methodology / Collaboration & governance
@@ -724,7 +724,7 @@ Define who makes which decision:
 - Feedback visibly affects priority decisions so consumers can see the system responding.
 
 Sources: [Collaboration](https://thedesignsystem.guide/collaboration) · [Design System Knowledge Base](https://thedesignsystem.guide/knowledge-base)
-Notion: https://app.notion.com/p/Design-Collaboration-Contribution-Model-c51a9aed534482cbb710013b96ee9a21
+File: library/design-process-and-methodology/UX-635-design-collaboration-and-contribution-model.md
 
 ## UX-118 — Aesthetic-Usability Effect — Visual Polish Affects Perceived Usability
 - Score 3 · Design Process & Methodology / Perceived quality and trust
@@ -744,7 +744,7 @@ Notion: https://app.notion.com/p/Design-Collaboration-Contribution-Model-c51a9ae
 
 Sources: [Laws of UX — Aesthetic-Usability Effect](https://lawsofux.com/aesthetic-usability-effect/)
 Wireframe: https://files.catbox.moe/vhxrl9.jpg
-Notion: https://app.notion.com/p/Aesthetic-Usability-Effect-Visual-Polish-Affects-Perceived-Usability-cffa9aed5344838fbc3701c10031240e
+File: library/design-process-and-methodology/UX-118-aesthetic-usability-effect-visual-polish-affects-perceived-u.md
 
 ## UX-119 — Cores and Paths — Design From the Core Content Outward
 - Score 3 · Design Process & Methodology / Content-first design strategy
@@ -765,7 +765,7 @@ Notion: https://app.notion.com/p/Aesthetic-Usability-Effect-Visual-Polish-Affect
 
 Sources: [Boxes and Arrows — Designing Screens Using Cores and Paths](https://boxesandarrows.com/designing-screens-using-cores-and-paths/)
 Wireframe: https://files.catbox.moe/6axcpw.jpg
-Notion: https://app.notion.com/p/Cores-and-Paths-Design-From-the-Core-Content-Outward-930a9aed534482d589f3012b60ab691a
+File: library/design-process-and-methodology/UX-119-cores-and-paths-design-from-the-core-content-outward.md
 
 ## UX-120 — Process-Oriented Journey Maps for Enterprise Systems
 - Score 3 · Design Process & Methodology / Enterprise journey mapping
@@ -787,7 +787,7 @@ Notion: https://app.notion.com/p/Cores-and-Paths-Design-From-the-Core-Content-Ou
 
 Sources: [UX Magazine — User Journey Mapping for Complex Enterprise Systems](https://uxmag.com/articles/user-journey-mapping-for-complex-enterprise-systems)
 Wireframe: https://files.catbox.moe/20a4wp.jpg
-Notion: https://app.notion.com/p/Process-Oriented-Journey-Maps-for-Enterprise-Systems-aa0a9aed5344839cbf808184c9eb5f66
+File: library/design-process-and-methodology/UX-120-process-oriented-journey-maps-for-enterprise-systems.md
 
 ## UX-121 — Separate Page Content Priority From Visual Layout Decisions
 - Score 3 · Design Process & Methodology / Content-first design documentation
@@ -807,7 +807,7 @@ Notion: https://app.notion.com/p/Process-Oriented-Journey-Maps-for-Enterprise-Sy
 
 Sources: [Boxes and Arrows — Where the Wireframes Are](https://boxesandarrows.com/where-the-wireframes-are-special-deliverable-3/)
 Wireframe: https://files.catbox.moe/53gksl.jpg
-Notion: https://app.notion.com/p/Separate-Page-Content-Priority-From-Visual-Layout-Decisions-bb3a9aed534483f18a8081d88ef95f2a
+File: library/design-process-and-methodology/UX-121-separate-page-content-priority-from-visual-layout-decisions.md
 
 ## UX-122 — Group Decision-Making Failure Modes — Structured Decision Processes
 - Score 3 · Design Process & Methodology / Decision-Making
@@ -820,4 +820,4 @@ Notion: https://app.notion.com/p/Separate-Page-Content-Priority-From-Visual-Layo
 
 Sources: [100 Things #96–97 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/skw9y5.jpg
-Notion: https://app.notion.com/p/Group-Decision-Making-Failure-Modes-Structured-Decision-Processes-f92a9aed534483fd802f8155e799399b
+File: library/design-process-and-methodology/UX-122-group-decision-making-failure-modes-structured-decision-proc.md

@@ -53,4 +53,4 @@ This brief is enough for an AI agent to compose existing assets and generate tes
 - Documentation explains reuse boundaries so teams do not force the pattern into unrelated work.
 
 Sources: [How to Build Patterns from Design System Components with AI](https://learn.thedesignsystem.guide/p/how-to-build-patterns-from-your-design)
-Notion: https://app.notion.com/p/AI-Pattern-Assembly-State-Modeling-788a9aed534482b6bb7401335843dd29
+File: library/agentic-patterns/AGP-005-ai-pattern-assembly-and-state-modeling.md

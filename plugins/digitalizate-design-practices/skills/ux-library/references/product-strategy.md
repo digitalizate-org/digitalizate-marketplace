@@ -18,7 +18,7 @@
 
 Sources: [Laws of UX — Tesler's Law](https://lawsofux.com/teslers-law/)
 Wireframe: https://files.catbox.moe/ct8tb1.jpg
-Notion: https://app.notion.com/p/Tesler-s-Law-Absorb-Complexity-Into-the-System-922a9aed534482fc9ca801baafe16755
+File: library/product-strategy/UX-304-tesler-s-law-absorb-complexity-into-the-system.md
 
 ## UX-305 — Pareto Principle — Prioritize the 20% Used 80% of the Time
 - Score 5 · Product Strategy / Feature prioritization and surface hierarchy
@@ -39,7 +39,7 @@ Notion: https://app.notion.com/p/Tesler-s-Law-Absorb-Complexity-Into-the-System-
 
 Sources: [Laws of UX — Pareto Principle](https://lawsofux.com/pareto-principle/)
 Wireframe: https://files.catbox.moe/13ahjk.jpg
-Notion: https://app.notion.com/p/Pareto-Principle-Prioritize-the-20-Used-80-of-the-Time-309a9aed53448385ace5814117f55981
+File: library/product-strategy/UX-305-pareto-principle-prioritize-the-20-used-80-of-the-time.md
 
 ## UX-306 — Appetite Setting — Time Budget Before Solution Design
 - Score 5 · Product Strategy / Product Planning
@@ -58,7 +58,7 @@ Notion: https://app.notion.com/p/Pareto-Principle-Prioritize-the-20-Used-80-of-t
 
 Sources: [Shape Up by Ryan Singer, Ch. 2 (Basecamp, 2019)](https://basecamp.com/shapeup/1.1-chapter-02)
 Wireframe: https://files.catbox.moe/kuql0q.jpg
-Notion: https://app.notion.com/p/Appetite-Setting-Time-Budget-Before-Solution-Design-5daa9aed534482638a0381fb57c95f68
+File: library/product-strategy/UX-306-appetite-setting-time-budget-before-solution-design.md
 
 ## UX-307 — Identifying and Eliminating Rabbit Holes Before Building
 - Score 5 · Product Strategy / Risk Management
@@ -74,7 +74,7 @@ For each key use case in the design, ask: Does this require technical work we've
 
 Sources: [Shape Up by Ryan Singer, Ch. 5 (Basecamp, 2019)](https://basecamp.com/shapeup/1.4-chapter-05)
 Wireframe: https://files.catbox.moe/wp2rj5.jpg
-Notion: https://app.notion.com/p/Identifying-and-Eliminating-Rabbit-Holes-Before-Building-b0aa9aed534482db8295013858c89e8f
+File: library/product-strategy/UX-307-identifying-and-eliminating-rabbit-holes-before-building.md
 
 ## UX-308 — Vertical Slicing — Get One Piece Done First
 - Score 5 · Product Strategy / Development Process
@@ -94,7 +94,7 @@ Notion: https://app.notion.com/p/Identifying-and-Eliminating-Rabbit-Holes-Before
 
 Sources: [Shape Up by Ryan Singer, Ch. 11 (Basecamp, 2019)](https://basecamp.com/shapeup/3.2-chapter-11)
 Wireframe: https://files.catbox.moe/74kqpr.jpg
-Notion: https://app.notion.com/p/Vertical-Slicing-Get-One-Piece-Done-First-b31a9aed534482a88dfb81e064a1de3a
+File: library/product-strategy/UX-308-vertical-slicing-get-one-piece-done-first.md
 
 ## UX-309 — Jobs-to-Be-Done Framework
 - Score 5 · Product Strategy / User Needs Framework
@@ -112,7 +112,7 @@ Notion: https://app.notion.com/p/Vertical-Slicing-Get-One-Piece-Done-First-b31a9
 
 Sources: [ProductPlan — Product Management Frameworks](https://www.productplan.com/learn/product-management-frameworks/) · [UX Primer — JTBD in UX](https://articles.ux-primer.com/leveraging-jobs-to-be-done-in-ux-design-1dba556c1bbd)
 Wireframe: https://files.catbox.moe/bh4da9.jpg
-Notion: https://app.notion.com/p/Jobs-to-Be-Done-Framework-d31a9aed53448395bdac013744aba316
+File: library/product-strategy/UX-309-jobs-to-be-done-framework.md
 
 ## UX-310 — Continuous Research Cadence
 - Score 5 · Product Strategy / Research Operations
@@ -133,7 +133,7 @@ Notion: https://app.notion.com/p/Jobs-to-Be-Done-Framework-d31a9aed53448395bdac0
 
 Sources: [User Interviews — UX Research for PMs](https://www.userinterviews.com/blog/ux-research-for-product-managers)
 Wireframe: https://files.catbox.moe/wcno9y.jpg
-Notion: https://app.notion.com/p/Continuous-Research-Cadence-f96a9aed53448236afac01de3789c239
+File: library/product-strategy/UX-310-continuous-research-cadence.md
 
 ## UX-311 — RICE Scoring for Feature Prioritization
 - Score 5 · Product Strategy / Prioritization Frameworks
@@ -153,7 +153,7 @@ Notion: https://app.notion.com/p/Continuous-Research-Cadence-f96a9aed53448236afa
 
 Sources: [ProductPlan — Product Management Frameworks](https://www.productplan.com/learn/product-management-frameworks/)
 Wireframe: https://files.catbox.moe/sam14h.jpg
-Notion: https://app.notion.com/p/RICE-Scoring-for-Feature-Prioritization-b63a9aed5344834f8d2981abf5486a1a
+File: library/product-strategy/UX-311-rice-scoring-for-feature-prioritization.md
 
 ## UX-312 — MoSCoW Prioritization for Release Scoping
 - Score 5 · Product Strategy / Scope Management
@@ -173,7 +173,7 @@ Notion: https://app.notion.com/p/RICE-Scoring-for-Feature-Prioritization-b63a9ae
 
 Sources: [ProductPlan — Product Management Frameworks](https://www.productplan.com/learn/product-management-frameworks/)
 Wireframe: https://files.catbox.moe/xg8k1e.jpg
-Notion: https://app.notion.com/p/MoSCoW-Prioritization-for-Release-Scoping-04ca9aed534483eb890901bc662945f6
+File: library/product-strategy/UX-312-moscow-prioritization-for-release-scoping.md
 
 ## UX-313 — Merging Similar Functions — Reduce Feature Fragmentation
 - Score 4 · Product Strategy / Feature rationalization
@@ -194,7 +194,7 @@ Notion: https://app.notion.com/p/MoSCoW-Prioritization-for-Release-Scoping-04ca9
 
 Sources: [Good UI — Merging Similar Functions](https://goodui.org/#3)
 Wireframe: https://files.catbox.moe/peycaf.jpg
-Notion: https://app.notion.com/p/Merging-Similar-Functions-Reduce-Feature-Fragmentation-faea9aed534482e1a7210147c9733d8d
+File: library/product-strategy/UX-313-merging-similar-functions-reduce-feature-fragmentation.md
 
 ## UX-314 — Kano Model for Feature Prioritization
 - Score 4 · Product Strategy / Prioritization Frameworks
@@ -214,7 +214,7 @@ Notion: https://app.notion.com/p/Merging-Similar-Functions-Reduce-Feature-Fragme
 
 Sources: [ProductPlan — Kano Model](https://www.productplan.com/learn/kano-model-prioritization/)
 Wireframe: https://files.catbox.moe/3jx9rp.jpg
-Notion: https://app.notion.com/p/Kano-Model-for-Feature-Prioritization-0aba9aed534482b6ad0601e90771a7cc
+File: library/product-strategy/UX-314-kano-model-for-feature-prioritization.md
 
 ## UX-315 — Story Mapping for End-to-End Workflow Design
 - Score 4 · Product Strategy / Planning Methods
@@ -236,7 +236,7 @@ Notion: https://app.notion.com/p/Kano-Model-for-Feature-Prioritization-0aba9aed5
 
 Sources: [ProductPlan — Product Management Frameworks](https://www.productplan.com/learn/product-management-frameworks/)
 Wireframe: https://files.catbox.moe/o9spui.jpg
-Notion: https://app.notion.com/p/Story-Mapping-for-End-to-End-Workflow-Design-5cea9aed53448255a4a30131d5c8c145
+File: library/product-strategy/UX-315-story-mapping-for-end-to-end-workflow-design.md
 
 ## UX-316 — OKRs for Design Quality Goals
 - Score 4 · Product Strategy / Goal Setting and Measurement
@@ -257,7 +257,7 @@ Notion: https://app.notion.com/p/Story-Mapping-for-End-to-End-Workflow-Design-5c
 
 Sources: [ProductPlan — Product Management Frameworks](https://www.productplan.com/learn/product-management-frameworks/)
 Wireframe: https://files.catbox.moe/d6fsp4.jpg
-Notion: https://app.notion.com/p/OKRs-for-Design-Quality-Goals-6aea9aed5344820b9eb201a854b7913b
+File: library/product-strategy/UX-316-okrs-for-design-quality-goals.md
 
 ## UX-317 — HEART Framework for UX Quality Measurement
 - Score 4 · Product Strategy / UX Metrics
@@ -279,7 +279,7 @@ Notion: https://app.notion.com/p/OKRs-for-Design-Quality-Goals-6aea9aed5344820b9
 
 Sources: [ProductPlan — Product Management Frameworks](https://www.productplan.com/learn/product-management-frameworks/)
 Wireframe: https://files.catbox.moe/uujx1x.jpg
-Notion: https://app.notion.com/p/HEART-Framework-for-UX-Quality-Measurement-a21a9aed5344837aa9d201a2d170f4f8
+File: library/product-strategy/UX-317-heart-framework-for-ux-quality-measurement.md
 
 ## UX-318 — Dual-Track Agile — Continuous Discovery and Delivery
 - Score 4 · Product Strategy / Process Design
@@ -298,7 +298,7 @@ Notion: https://app.notion.com/p/HEART-Framework-for-UX-Quality-Measurement-a21a
 
 Sources: [ProductPlan — Product Management Frameworks](https://www.productplan.com/learn/product-management-frameworks/)
 Wireframe: https://files.catbox.moe/eeoc3q.jpg
-Notion: https://app.notion.com/p/Dual-Track-Agile-Continuous-Discovery-and-Delivery-91ea9aed53448287b1bf01421bab88b0
+File: library/product-strategy/UX-318-dual-track-agile-continuous-discovery-and-delivery.md
 
 ## UX-319 — Loss Aversion Framing for Upgrade and Retention Prompts
 - Score 3 · Product Strategy / Behavioral economics in product design
@@ -316,7 +316,7 @@ Notion: https://app.notion.com/p/Dual-Track-Agile-Continuous-Discovery-and-Deliv
 
 Sources: [Good UI — Loss Aversion Framing](https://goodui.org/#30)
 Wireframe: https://files.catbox.moe/jwzu8w.jpg
-Notion: https://app.notion.com/p/Loss-Aversion-Framing-for-Upgrade-and-Retention-Prompts-25da9aed534482efb2bd010b0b932d87
+File: library/product-strategy/UX-319-loss-aversion-framing-for-upgrade-and-retention-prompts.md
 
 ## UX-320 — Hill Charts for Progress Tracking
 - Score 3 · Product Strategy / Project Communication
@@ -336,7 +336,7 @@ Notion: https://app.notion.com/p/Loss-Aversion-Framing-for-Upgrade-and-Retention
 
 Sources: [Shape Up by Ryan Singer, Ch. 13 (Basecamp, 2019)](https://basecamp.com/shapeup/3.4-chapter-13)
 Wireframe: https://files.catbox.moe/jmpmrl.jpg
-Notion: https://app.notion.com/p/Hill-Charts-for-Progress-Tracking-e7ca9aed5344821ea91d01ac60a8fd48
+File: library/product-strategy/UX-320-hill-charts-for-progress-tracking.md
 
 ## UX-321 — Intrinsic Motivation Over Extrinsic Rewards in Enterprise Tools
 - Score 3 · Product Strategy / Engagement Design
@@ -355,7 +355,7 @@ Notion: https://app.notion.com/p/Hill-Charts-for-Progress-Tracking-e7ca9aed53448
 
 Sources: [100 Things #54–55 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/sbsb4j.jpg
-Notion: https://app.notion.com/p/Intrinsic-Motivation-Over-Extrinsic-Rewards-in-Enterprise-Tools-49da9aed53448356b30d01368275b105
+File: library/product-strategy/UX-321-intrinsic-motivation-over-extrinsic-rewards-in-enterprise-to.md
 
 ## UX-322 — IDEO Iceberg Model for Systems Thinking in Design
 - Score 3 · Product Strategy / Strategic Design
@@ -376,4 +376,4 @@ Notion: https://app.notion.com/p/Intrinsic-Motivation-Over-Extrinsic-Rewards-in-
 
 Sources: [IDEO Strategy Frameworks](https://www.facebook.com/groups/574695376589462/posts/1196930894365904/)
 Wireframe: https://files.catbox.moe/te6uak.jpg
-Notion: https://app.notion.com/p/IDEO-Iceberg-Model-for-Systems-Thinking-in-Design-f8ba9aed53448343a4d7012649803d6a
+File: library/product-strategy/UX-322-ideo-iceberg-model-for-systems-thinking-in-design.md

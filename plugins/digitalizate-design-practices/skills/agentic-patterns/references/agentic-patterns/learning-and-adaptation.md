@@ -22,7 +22,7 @@
 **Measure.** Few-Shot Accuracy (Performance with K examples); Example Efficiency (Performance gain per example); Context Utilization (Token usage vs performance); Task Transfer (Generalization to unseen inputs); Example Sensitivity (Performance variance across example sets); Ordering Robustness (Stability across example orders); Text Classification: Sentiment analysis, topic categorization with labeled examples; Data Extraction: Named entity recognition, information extraction from documents; Format…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-462.png
-Notion: https://app.notion.com/p/In-Context-Learning-ICL-041a9aed534482cd9dd9013d8462dfd2
+File: library/agentic-patterns/AGP-096-in-context-learning-icl.md
 
 ## AGP-174 — Simple Preference Optimization (SimPO)
 - Score 3 · Agentic Patterns / Learning & Adaptation
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/In-Context-Learning-ICL-041a9aed534482cd9dd9013
 **Measure.** Preference Accuracy (% correct pairwise predictions without reference); Length Bias Mitigation (Correlation reduction between length and preference); Training Efficiency (Convergence speed without reference model); Response Quality (Human evaluation scores vs baselines); Stability Score (Training convergence reliability); Computational Savings (Resource reduction vs reference-based methods); Resource-Constrained Training: Preference optimization without reference model overhead…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-469.png
-Notion: https://app.notion.com/p/Simple-Preference-Optimization-SimPO-b92a9aed5344839d94dd81e291f7c03f
+File: library/agentic-patterns/AGP-174-simple-preference-optimization-simpo.md
 
 ## AGP-179 — Supervised Learning for Agents (SLA)
 - Score 3 · Agentic Patterns / Learning & Adaptation
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Simple-Preference-Optimization-SimPO-b92a9aed53
 **Measure.** Task Accuracy (Performance on target task vs baseline models); Training Efficiency (Convergence speed and computational cost); Generalization (Performance on unseen test data); Transfer Quality (Knowledge retention from pre-training); Data Efficiency (Performance per labeled training example); Robustness (Performance under distribution shift); Domain-Specific Classification: Adapt general classifiers to specialized domains (medical, legal, scientific); Custom Entity Recognition: Train NER…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-470.png
-Notion: https://app.notion.com/p/Supervised-Learning-for-Agents-SLA-a02a9aed534482a18d3b8192a009b06d
+File: library/agentic-patterns/AGP-179-supervised-learning-for-agents-sla.md
 
 ## AGP-034 — Constitutional AI (CAI)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -94,7 +94,7 @@ Notion: https://app.notion.com/p/Supervised-Learning-for-Agents-SLA-a02a9aed5344
 **Measure.** Constitutional Adherence (% responses following defined principles); Harmlessness Rate (% outputs avoiding harmful content); Helpfulness Score (Quality of assistance provided); Value Alignment (Agreement with intended ethical framework); AI Feedback Quality (Correlation with human feedback); Robustness Score (Performance under adversarial testing); Conversational AI: Align chatbots with ethical principles and reduce harmful outputs; Content Moderation: Automatically enforce community guidelines…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-459.png
-Notion: https://app.notion.com/p/Constitutional-AI-CAI-48aa9aed53448327b2a8813dedf36ba4
+File: library/agentic-patterns/AGP-034-constitutional-ai-cai.md
 
 ## AGP-050 — Continual Learning (CL)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -118,7 +118,7 @@ Notion: https://app.notion.com/p/Constitutional-AI-CAI-48aa9aed53448327b2a8813de
 **Measure.** Average Accuracy (Mean performance across all tasks); Backward Transfer (Performance change on old tasks); Forward Transfer (Initial performance on new tasks); Catastrophic Forgetting (Performance degradation rate); Learning Efficiency (Samples needed per task); Memory Footprint (Storage requirement growth rate); Conversational AI: Continuously learn new dialogue patterns and domains; Recommendation Systems: Adapt to changing user preferences over time; Autonomous Vehicles: Learn new driving…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-460.png
-Notion: https://app.notion.com/p/Continual-Learning-CL-8eaa9aed53448258a5ac816b9befc0ee
+File: library/agentic-patterns/AGP-050-continual-learning-cl.md
 
 ## AGP-061 — Direct Preference Optimization (DPO)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -142,7 +142,7 @@ Notion: https://app.notion.com/p/Continual-Learning-CL-8eaa9aed53448258a5ac816b9
 **Measure.** Preference Accuracy (% correct pairwise predictions); Human Preference Win Rate (% preferred over baseline); KL Divergence (Policy drift from reference model); Training Stability (Loss convergence smoothness); Length Bias (Preference correlation with length); Training Efficiency (GPU hours vs RLHF baseline); LLM Alignment: Efficient alternative to RLHF for preference alignment; Chatbot Training: Align conversational AI with human preferences; Code Generation: Optimize for code quality and…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-461.png
-Notion: https://app.notion.com/p/Direct-Preference-Optimization-DPO-84ca9aed534482668256011b62f8cd36
+File: library/agentic-patterns/AGP-061-direct-preference-optimization-dpo.md
 
 ## AGP-124 — Meta-Learning Systems (MLS)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -166,7 +166,7 @@ Notion: https://app.notion.com/p/Direct-Preference-Optimization-DPO-84ca9aed5344
 **Measure.** Few-Shot Accuracy (Performance with K examples per class); Adaptation Speed (Gradient steps to convergence); Transfer Efficiency (Performance vs baseline on new tasks); Meta-Generalization (Performance on unseen task types); Sample Efficiency (Examples needed for target performance); Computational Cost (FLOPs for meta-training and adaptation); Few-Shot Classification: Image recognition with limited labeled examples per class; Domain Adaptation: Rapidly adapt models to new domains with minimal…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-463.png
-Notion: https://app.notion.com/p/Meta-Learning-Systems-MLS-b93a9aed534482f0ac9b819569a9d3f3
+File: library/agentic-patterns/AGP-124-meta-learning-systems-mls.md
 
 ## AGP-139 — Odds Ratio Preference Optimization (ORPO)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -190,7 +190,7 @@ Notion: https://app.notion.com/p/Meta-Learning-Systems-MLS-b93a9aed534482f0ac9b8
 **Measure.** Preference Win Rate (% preferred responses vs baseline); Training Stability (Loss convergence and gradient norms); SFT Performance (Retention of supervised learning quality); Alignment Score (Human evaluation of response quality); Training Efficiency (Compute time vs multi-stage methods); Odds Ratio Penalty (Magnitude of preference alignment signal); Instruction Following: Align models to follow instructions with single-phase training; Conversational AI: Improve dialogue quality without…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-464.png
-Notion: https://app.notion.com/p/Odds-Ratio-Preference-Optimization-ORPO-ce8a9aed5344838bb6268186bc82571f
+File: library/agentic-patterns/AGP-139-odds-ratio-preference-optimization-orpo.md
 
 ## AGP-141 — Online Learning for Agents (OLA)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -214,7 +214,7 @@ Notion: https://app.notion.com/p/Odds-Ratio-Preference-Optimization-ORPO-ce8a9ae
 **Measure.** Regret Bound (Cumulative loss vs optimal offline algorithm); Adaptation Speed (Time to recover from concept drift); Memory Efficiency (Storage requirements vs batch methods); Computational Cost (Processing time per update); Forgetting Rate (Knowledge retention over time); Drift Detection Accuracy (Precision/recall for concept changes); Real-time Recommendation Systems: Adapt to changing user preferences and behavior patterns; Financial Trading: Learn from market dynamics and adapt to regime…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-465.png
-Notion: https://app.notion.com/p/Online-Learning-for-Agents-OLA-abaa9aed534482cda86f81ab4f41b471
+File: library/agentic-patterns/AGP-141-online-learning-for-agents-ola.md
 
 ## AGP-156 — Reinforcement Learning from AI Feedback (RLAIF)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -238,7 +238,7 @@ Notion: https://app.notion.com/p/Online-Learning-for-Agents-OLA-abaa9aed534482cd
 **Measure.** AI-Human Agreement (Correlation between AI and human evaluations); Scaling Efficiency (Cost reduction vs human-only RLHF); Feedback Quality (Consistency and reliability of AI judgments); Bias Detection (Systematic errors in AI evaluation patterns); Final Performance (Task completion quality vs baselines); Iteration Speed (Training cycles per unit time vs RLHF); Large-Scale Content Moderation: Use AI feedback to train moderation systems at scale; Code Quality Assessment: AI-driven feedback for…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-466.png
-Notion: https://app.notion.com/p/Reinforcement-Learning-from-AI-Feedback-RLAIF-21da9aed534482c3a38781dac7f5fb30
+File: library/agentic-patterns/AGP-156-reinforcement-learning-from-ai-feedback-rlaif.md
 
 ## AGP-157 — Reinforcement Learning from Human Feedback (RLHF)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -262,7 +262,7 @@ Notion: https://app.notion.com/p/Reinforcement-Learning-from-AI-Feedback-RLAIF-2
 **Measure.** Human Preference Win Rate (% preferred over baseline); Reward Model Accuracy (Agreement with human labels); KL Divergence (Policy drift from reference model); Helpfulness Score (Task completion quality); Harmlessness Rate (% safe responses); PPO Training Stability (Reward curve convergence); Conversational AI: Align chatbots for helpful, harmless, honest responses; Content Generation: Optimize creative writing for human preferences; Code Assistants: Improve code quality and safety…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-467.png
-Notion: https://app.notion.com/p/Reinforcement-Learning-from-Human-Feedback-RLHF-0b1a9aed5344835884a681b69ac8dd9c
+File: library/agentic-patterns/AGP-157-reinforcement-learning-from-human-feedback-rlhf.md
 
 ## AGP-166 — Self-Improving Systems (SIS)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -286,7 +286,7 @@ Notion: https://app.notion.com/p/Reinforcement-Learning-from-Human-Feedback-RLHF
 **Measure.** Improvement Rate (Performance gains per iteration cycle); Safety Violations (Number of constraint breaches or failures); Convergence Speed (Time to reach optimal performance); Stability Ratio (Successful vs failed improvement attempts); Resource Efficiency (Computational cost of self-improvement); Human Intervention (Frequency of required manual corrections); Code Generation: Automatically improve code quality and efficiency through iterative refinement; Recommendation Systems: Continuously…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-468.png
-Notion: https://app.notion.com/p/Self-Improving-Systems-SIS-2dea9aed53448338adb381ba42ce1e80
+File: library/agentic-patterns/AGP-166-self-improving-systems-sis.md
 
 ## AGP-190 — Unsupervised Learning for Agents (ULA)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -310,7 +310,7 @@ Notion: https://app.notion.com/p/Self-Improving-Systems-SIS-2dea9aed53448338adb3
 **Measure.** Representation Quality (Performance on probing tasks and linear evaluation); Domain Adaptation Score (Improvement over pre-trained baseline on target domain); Self-Supervised Loss (Convergence and stability of unsupervised objectives); Downstream Performance (Task performance after adaptation); Transfer Efficiency (Learning speed on target domain tasks); Robustness (Performance under domain shift and noise); Domain Adaptation: Adapt models to new industries, languages, or specialized domains…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-472.png
-Notion: https://app.notion.com/p/Unsupervised-Learning-for-Agents-ULA-727a9aed534482fdab4b01d08514b8ff
+File: library/agentic-patterns/AGP-190-unsupervised-learning-for-agents-ula.md
 
 ## AGP-198 — Test-Time Scaling (TTS)
 - Score 2 · Agentic Patterns / Learning & Adaptation
@@ -334,4 +334,4 @@ Notion: https://app.notion.com/p/Unsupervised-Learning-for-Agents-ULA-727a9aed53
 **Measure.** Accuracy@K (Best performance among K attempts); Compute Efficiency (Performance gain per unit compute); Verification Accuracy (Quality of solution ranking/selection); Latency Scaling (Inference time vs compute allocation); Pass@K Rate (Success rate within K attempts); Cost-Performance Ratio (Accuracy improvement per dollar spent); Mathematical Reasoning: Multiple solution paths for complex proofs and problem solving; Code Generation: Generate and verify multiple implementations to find optimal…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-471.png
-Notion: https://app.notion.com/p/Test-Time-Scaling-TTS-ff1a9aed53448387837901f2280ebe0c
+File: library/agentic-patterns/AGP-198-test-time-scaling-tts.md

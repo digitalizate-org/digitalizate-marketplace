@@ -22,7 +22,7 @@
 **Measure.** Response Time Improvement (Latency reduction vs sequential execution); Throughput Increase (Operations per unit time with parallelism); Error Handling Effectiveness (Success rate of graceful recovery); Resource Utilization (CPU and memory efficiency gains); Promise Resolution Rate (% operations completing within timeout); Concurrency Efficiency (Parallel operations vs coordination overhead); API Integration: Concurrent service calls → gather responses → process results; File Processing…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-378.png
-Notion: https://app.notion.com/p/Async-Await-c94a9aed5344839b8e52814036782fa8
+File: library/agentic-patterns/AGP-023-async-await.md
 
 ## AGP-163 — Scatter-Gather
 - Score 4 · Agentic Patterns / Parallelization
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Async-Await-c94a9aed5344839b8e52814036782fa8
 **Measure.** Service Response Rate (% services responding within timeout); Aggregation Completeness (% expected information gathered); Overall Latency (End-to-end response time); Service Reliability (Individual service uptime); Result Quality (Accuracy vs single-service baseline); Resource Efficiency (Cost vs sequential calls); Multi-Source Research: Query knowledge bases → gather insights → synthesize report; Price Comparison: Check providers → collect quotes → recommend best option; Service Health Check…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-381.png
-Notion: https://app.notion.com/p/Scatter-Gather-425a9aed534483aeaf8801a3538a885b
+File: library/agentic-patterns/AGP-163-scatter-gather.md
 
 ## AGP-079 — Fork-Join
 - Score 3 · Agentic Patterns / Parallelization
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Scatter-Gather-425a9aed534483aeaf8801a3538a885b
 **Measure.** Parallel Efficiency (Speedup vs theoretical maximum); Load Balance Quality (Variance in worker execution times); Resource Utilization (CPU, memory, thread efficiency); Task Granularity Ratio (Parallelism vs coordination overhead); Recursive Depth (Decomposition pattern analysis); Fault Recovery Rate (Success rate of subtask failure handling); Tree Traversal: Recursive parallel processing → explore branches → combine results; Sorting Algorithms: Divide data → parallel sort → merge sorted…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-379.png
-Notion: https://app.notion.com/p/Fork-Join-511a9aed5344829ea97381f57e4786fe
+File: library/agentic-patterns/AGP-079-fork-join.md
 
 ## AGP-118 — Map-Reduce
 - Score 3 · Agentic Patterns / Parallelization
@@ -94,4 +94,4 @@ Notion: https://app.notion.com/p/Fork-Join-511a9aed5344829ea97381f57e4786fe
 **Measure.** Throughput (Items processed per second); Parallelization Efficiency (% of ideal speedup achieved); Resource Utilization (CPU/memory usage across workers); Fault Tolerance (% of partial failures handled); Load Balance (Variance in chunk processing times); Cost Efficiency (Cost per processed item vs sequential); Document Analysis: Split large documents → analyze sections → combine insights; Content Moderation: Batch posts → classify each → aggregate violation reports; Data Validation: Chunk…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-380.png
-Notion: https://app.notion.com/p/Map-Reduce-7e1a9aed534482efa75d819dbefe6b8b
+File: library/agentic-patterns/AGP-118-map-reduce.md

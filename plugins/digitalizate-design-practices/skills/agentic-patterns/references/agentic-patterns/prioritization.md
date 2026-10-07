@@ -14,7 +14,7 @@
 **Measure.** Dynamic Priority Queue Systems ((); DPQS ()); Intelligent queue management with dynamic priority adjustment based on changing conditions (Complexity:); medium (Pattern); Overview (Flow Visualization); Interactive Demo (Code Playground); Overview (Flow); Demo (Code); Dynamic Priority Queue Systems (Intelligent queue management with dynamic priority adjustment based on changing conditions); 📊 (Pattern Type); Design Pattern (🟡); Complexity (medium); 🎯 (Use Cases); 4 (scenarios); ⚡ (Features); 6…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-479.png
-Notion: https://app.notion.com/p/Dynamic-Priority-Queue-Systems-DPQS-c3ea9aed5344829bb5f9819a9df3921b
+File: library/agentic-patterns/AGP-064-dynamic-priority-queue-systems-dpqs.md
 
 ## AGP-133 — Multi-Criteria Weighted Scoring (MCWS)
 - Score 3 · Agentic Patterns / Prioritization
@@ -30,7 +30,7 @@ Notion: https://app.notion.com/p/Dynamic-Priority-Queue-Systems-DPQS-c3ea9aed534
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-480.png
-Notion: https://app.notion.com/p/Multi-Criteria-Weighted-Scoring-MCWS-723a9aed5344836c9296016dcb711121
+File: library/agentic-patterns/AGP-133-multi-criteria-weighted-scoring-mcws.md
 
 ## AGP-063 — Dynamic Content Ranking (DCR)
 - Score 2 · Agentic Patterns / Prioritization
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Multi-Criteria-Weighted-Scoring-MCWS-723a9aed53
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-477.png
-Notion: https://app.notion.com/p/Dynamic-Content-Ranking-DCR-9bca9aed53448324a8fe01d48503b5d7
+File: library/agentic-patterns/AGP-063-dynamic-content-ranking-dcr.md
 
 ## AGP-132 — Multi-Criteria Decision Analysis (MCDA)
 - Score 2 · Agentic Patterns / Prioritization
@@ -62,4 +62,4 @@ Notion: https://app.notion.com/p/Dynamic-Content-Ranking-DCR-9bca9aed53448324a8f
 3. **features**
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-478.png
-Notion: https://app.notion.com/p/Multi-Criteria-Decision-Analysis-MCDA-f1ca9aed5344828f9600012dbcd8758f
+File: library/agentic-patterns/AGP-132-multi-criteria-decision-analysis-mcda.md

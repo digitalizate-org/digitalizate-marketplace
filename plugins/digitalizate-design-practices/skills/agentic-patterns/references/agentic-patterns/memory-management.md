@@ -22,7 +22,7 @@
 **Measure.** Retrieval Precision (% relevant memories returned); Access Latency (P50/P95/P99 memory read times); Cache Hit Rate (% requests served from cache); Concurrency Efficiency (Multi-agent access throughput); Memory Freshness (Average age of retrieved memories); Storage Efficiency (Useful memories / total storage); Customer Service Systems: 10M+ interaction history with 50ms retrieval (recency + customer relevance scoring); Recommendation Engines: User behavior patterns with real-time preference…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-408.png
-Notion: https://app.notion.com/p/Memory-Reading-Writing-Operations-MRWO-ec0a9aed53448293852e81b7519eef1e
+File: library/agentic-patterns/AGP-123-memory-reading-and-writing-operations-mrwo.md
 
 ## AGP-143 — Parametric Memory (PM)
 - Score 3 · Agentic Patterns / Memory Management
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Memory-Reading-Writing-Operations-MRWO-ec0a9aed
 **Measure.** Knowledge Accuracy (% correct factual responses); Inference Speed (Tokens/second generation rate); Parameter Efficiency (Knowledge/parameter ratio); Consistency Score (Cross-agent response similarity); Memory Footprint (GB required per agent); Update Cost ($ per knowledge refresh cycle); Scientific Research Agents: Physics, chemistry, biology knowledge embedded (consistent across 100+ agents); Legal Document Analysis: Case law, statutes, procedures in parameters (instant access, no external…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-409.png
-Notion: https://app.notion.com/p/Parametric-Memory-PM-616a9aed5344836a8f16810080f3396a
+File: library/agentic-patterns/AGP-143-parametric-memory-pm.md
 
 ## AGP-193 — Working Memory Patterns (WMP)
 - Score 3 · Agentic Patterns / Memory Management
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Parametric-Memory-PM-616a9aed5344836a8f16810080
 **Measure.** Capacity Utilization (Effective chunks maintained vs theoretical limit); Information Persistence (% information retained during task processing); Interference Resistance (Success rate suppressing irrelevant information); Chunking Efficiency (Information compression through organization); Attention Control Quality (Precision of selective filtering mechanisms); Multi-Agent Synchronization (Consistency of shared working memory states); Multi-Step Problem Solving: Mathematical reasoning, code…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-412.png
-Notion: https://app.notion.com/p/Working-Memory-Patterns-WMP-882a9aed53448322a9f481d7716cbd64
+File: library/agentic-patterns/AGP-193-working-memory-patterns-wmp.md
 
 ## AGP-048 — Contextual Structured Memory (CSM)
 - Score 2 · Agentic Patterns / Memory Management
@@ -94,7 +94,7 @@ Notion: https://app.notion.com/p/Working-Memory-Patterns-WMP-882a9aed53448322a9f
 **Measure.** Schema Coverage (% domain concepts properly modeled); Query Precision (Accuracy of structured query results); Reasoning Correctness (% valid logical inferences); Data Integrity (Referential consistency score); Schema Utilization (% schema fields actively used); Cross-Agent Consistency (Shared structure alignment rate); Financial Analysis: Company financials, ratios, regulations in structured schemas (SQL-like queries: "SELECT companies WHERE pe_ratio < 25 AND sector = 'technology'"); Legal…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-402.png
-Notion: https://app.notion.com/p/Contextual-Structured-Memory-CSM-adda9aed5344833c9a65815faa7753af
+File: library/agentic-patterns/AGP-048-contextual-structured-memory-csm.md
 
 ## AGP-049 — Contextual Unstructured Memory (CUM)
 - Score 2 · Agentic Patterns / Memory Management
@@ -118,7 +118,7 @@ Notion: https://app.notion.com/p/Contextual-Structured-Memory-CSM-adda9aed534483
 **Measure.** Cross-Modal Retrieval Accuracy (% relevant content found across modalities); Storage Flexibility (New content types integrated without schema changes); Semantic Similarity Quality (Embedding space coherence across modalities); Content Discovery Rate (Serendipitous cross-modal connections found); Agent Collaboration Quality (Multi-agent content enhancement success); Memory Evolution Rate (Adaptive organization improvement over time); Creative Content Systems: Text writers, visual designers…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-403.png
-Notion: https://app.notion.com/p/Contextual-Unstructured-Memory-CUM-835a9aed53448329987e01b170e80a8f
+File: library/agentic-patterns/AGP-049-contextual-unstructured-memory-cum.md
 
 ## AGP-062 — Distributed Memory Architectures (DMA)
 - Score 2 · Agentic Patterns / Memory Management
@@ -142,7 +142,7 @@ Notion: https://app.notion.com/p/Contextual-Unstructured-Memory-CUM-835a9aed5344
 **Measure.** Consistency Lag (Time to propagate updates across all replicas); Availability (% uptime under network partitions and node failures); Partition Tolerance (System functionality during network splits); Memory Access Latency (P50/P95/P99 read/write response times); Load Distribution (Memory and request distribution across nodes); Fault Recovery Time (Time to restore full functionality after failures); Global AI Trading Networks: 1000+ trading agents across continents sharing market memory (eventual…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-404.png
-Notion: https://app.notion.com/p/Distributed-Memory-Architectures-DMA-d28a9aed534483da9cb301d9e59817df
+File: library/agentic-patterns/AGP-062-distributed-memory-architectures-dma.md
 
 ## AGP-070 — Episodic Memory Systems (EMS)
 - Score 2 · Agentic Patterns / Memory Management
@@ -166,7 +166,7 @@ Notion: https://app.notion.com/p/Distributed-Memory-Architectures-DMA-d28a9aed53
 **Measure.** Episode Retrieval Accuracy (% relevant episodes found); Pattern Recognition Rate (Successful pattern identification); Cross-Agent Learning Speed (Time to share successful patterns); Memory Utilization (Storage efficiency per episode); Temporal Coherence (Chronological consistency score); Decision Improvement (Success rate increase over time); Customer Service History: Multi-agent system remembers customer preferences, past issues, resolution patterns (85% faster issue resolution); Healthcare…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-405.png
-Notion: https://app.notion.com/p/Episodic-Memory-Systems-EMS-da6a9aed534483d79a6f8119fbd03915
+File: library/agentic-patterns/AGP-070-episodic-memory-systems-ems.md
 
 ## AGP-089 — Hierarchical Memory
 - Score 2 · Agentic Patterns / Memory Management
@@ -190,7 +190,7 @@ Notion: https://app.notion.com/p/Episodic-Memory-Systems-EMS-da6a9aed534483d79a6
 **Measure.** Tier Hit Rate (% requests satisfied at each tier); Promotion Accuracy (% correct tier assignments); Memory Utilization (Effective storage use across tiers); Retrieval Latency (P50/P95 access times per tier); Consolidation Efficiency (Background optimization impact); Storage Cost Reduction (% savings vs flat memory); Conversational AI: Recent context in working memory, user preferences in long-term (40-60% token reduction); Knowledge Management: Frequently accessed facts in hot tier, archives in…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-406.png
-Notion: https://app.notion.com/p/Hierarchical-Memory-fa2a9aed534483388f5201f5d8583c45
+File: library/agentic-patterns/AGP-089-hierarchical-memory.md
 
 ## AGP-120 — Memory Consolidation
 - Score 2 · Agentic Patterns / Memory Management
@@ -214,7 +214,7 @@ Notion: https://app.notion.com/p/Hierarchical-Memory-fa2a9aed534483388f5201f5d85
 **Measure.** Compression Ratio (Storage reduction while preserving quality); Pattern Quality (Precision/recall of extracted patterns); Retrieval Preservation (% accuracy maintained post-consolidation); Processing Efficiency (Consolidation cost vs memory size); Information Loss (% critical details lost during process); Schema Utility (Effectiveness for future reasoning tasks); Customer Service Memory: Consolidate interaction patterns into service templates (40-70% storage reduction, faster resolution)…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-407.png
-Notion: https://app.notion.com/p/Memory-Consolidation-f70a9aed53448300a6f701fa3bbf68ff
+File: library/agentic-patterns/AGP-120-memory-consolidation.md
 
 ## AGP-170 — Semantic Memory Networks (SMN)
 - Score 2 · Agentic Patterns / Memory Management
@@ -238,7 +238,7 @@ Notion: https://app.notion.com/p/Memory-Consolidation-f70a9aed53448300a6f701fa3b
 **Measure.** Concept Coverage (% domain concepts represented); Relationship Accuracy (Correct semantic connections %); Query Resolution Rate (Successful knowledge retrieval %); Cross-Agent Consistency (Knowledge alignment score); Reasoning Path Length (Average hops to find answers); Knowledge Graph Density (Connections per concept ratio); Scientific Research Networks: Physics, chemistry, biology concepts linked across disciplines (enables cross-domain discovery); Medical Knowledge Systems: Diseases…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-410.png
-Notion: https://app.notion.com/p/Semantic-Memory-Networks-SMN-878a9aed53448212b5d501abaf150a2f
+File: library/agentic-patterns/AGP-170-semantic-memory-networks-smn.md
 
 ## AGP-186 — Transactive Memory Systems (TMS)
 - Score 2 · Agentic Patterns / Memory Management
@@ -262,4 +262,4 @@ Notion: https://app.notion.com/p/Semantic-Memory-Networks-SMN-878a9aed53448212b5
 **Measure.** Expertise Coverage (% domains with qualified agents); Load Distribution (Balanced workload across experts); Collaboration Efficiency (Time to assemble expert teams); Knowledge Transfer Rate (Cross-agent learning speed); System Resilience (Performance with missing experts); Collective Intelligence (Team performance vs individual sum); Software Development Teams: Frontend, backend, DevOps, security agents with specialized knowledge (300% productivity increase); Medical Diagnosis Networks…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-411.png
-Notion: https://app.notion.com/p/Transactive-Memory-Systems-TMS-a06a9aed5344831bafb6016f3cc0c61e
+File: library/agentic-patterns/AGP-186-transactive-memory-systems-tms.md

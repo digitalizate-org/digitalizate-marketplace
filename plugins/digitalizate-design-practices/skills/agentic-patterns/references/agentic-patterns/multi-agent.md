@@ -22,7 +22,7 @@
 **Measure.** Message Throughput (Messages per second processed by the communication system); Delivery Latency (P50/P95 time from message send to agent processing); Delivery Success Rate (Percentage of messages successfully delivered and acknowledged); Queue Depth (Average and maximum message backlog per topic/queue); Processing Concurrency (Number of parallel message handlers per agent); Network Utilization (Bandwidth usage and connection efficiency across agents); Enterprise Agent Ecosystem: Multi-protocol…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-394.png
-Notion: https://app.notion.com/p/Agent-Communication-Protocols-ACP-950a9aed5344826bb820017bb5965033
+File: library/agentic-patterns/AGP-016-agent-communication-protocols-acp.md
 
 ## AGP-087 — Handoff Orchestration (HO)
 - Score 3 · Agentic Patterns / Multi-Agent
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Agent-Communication-Protocols-ACP-950a9aed53448
 **Measure.** Handoff Success Rate (Percentage of successful context transfers); Context Preservation (Completeness of transferred information); Routing Accuracy (Correct agent selection based on capabilities); Transfer Latency (Time taken for handoff completion); Resolution Quality (Task success after handoff vs direct handling); Escalation Efficiency (Reduction in unnecessary agent hops); Customer Support: TierOne → Technical → Senior Engineer handoffs with full conversation history and customer context…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-396.png
-Notion: https://app.notion.com/p/Handoff-Orchestration-HO-efba9aed534482538c1d810beaa6e4ae
+File: library/agentic-patterns/AGP-087-handoff-orchestration-ho.md
 
 ## AGP-172 — Sequential Pipeline Agents (SPA)
 - Score 3 · Agentic Patterns / Multi-Agent
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Handoff-Orchestration-HO-efba9aed534482538c1d81
 **Measure.** Pipeline Success Rate (End-to-end completion percentage); Stage Performance (Latency & throughput per agent); Quality Gates (Validation success rate at checkpoints); Error Recovery (Failed stage recovery percentage); Resource Utilization (Compute/API costs per stage); Bottleneck Analysis (Slowest stage identification); Content Production: Research → Draft → Edit → Review → Publish (journalism, marketing); Data Processing: Extract → Transform → Validate → Enrich → Load (ETL pipelines); Code…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-399.png
-Notion: https://app.notion.com/p/Sequential-Pipeline-Agents-SPA-66ca9aed53448219984b81b18589a873
+File: library/agentic-patterns/AGP-172-sequential-pipeline-agents-spa.md
 
 ## AGP-173 — Shared Scratchpad Collaboration (SSC)
 - Score 3 · Agentic Patterns / Multi-Agent
@@ -94,7 +94,7 @@ Notion: https://app.notion.com/p/Sequential-Pipeline-Agents-SPA-66ca9aed53448219
 **Measure.** Collaboration Efficiency (% time agents building vs duplicating work); Transparency Score (Visibility of decision-making process); Convergence Rate (Time to reach collaborative consensus); Cross-Agent Learning (% insights shared between agents); State Synchronization (Real-time update propagation speed); Conflict Resolution (% edit conflicts resolved automatically); Progressive Quality (Output improvement over iterations); Collaborative Document Creation: Multiple writing agents (research…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-400.png
-Notion: https://app.notion.com/p/Shared-Scratchpad-Collaboration-SSC-a68a9aed53448284950381a415d06c78
+File: library/agentic-patterns/AGP-173-shared-scratchpad-collaboration-ssc.md
 
 ## AGP-195 — Concurrent Orchestration (CO)
 - Score 3 · Agentic Patterns / Multi-Agent
@@ -118,7 +118,7 @@ Notion: https://app.notion.com/p/Shared-Scratchpad-Collaboration-SSC-a68a9aed534
 **Measure.** Consensus Quality (Agreement level and confidence scores); Response Diversity (Variance in agent perspectives and solutions); Processing Efficiency (Parallel speedup vs sequential execution); Decision Accuracy (Ensemble performance vs individual agents); Resource Utilization (CPU/memory usage during concurrent execution); Coordination Overhead (Time spent in synchronization and aggregation); Investment Decision Analysis: Financial + Market + Risk + Technology agents parallel analysis with…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-395.png
-Notion: https://app.notion.com/p/Concurrent-Orchestration-CO-534a9aed5344835aa78c01feab6469e0
+File: library/agentic-patterns/AGP-195-concurrent-orchestration-co.md
 
 ## AGP-002 — A2A Protocol (Agent2Agent) (A2A)
 - Score 2 · Agentic Patterns / Multi-Agent
@@ -142,7 +142,7 @@ Notion: https://app.notion.com/p/Concurrent-Orchestration-CO-534a9aed5344835aa78
 **Measure.** Interoperability Rate (% successful cross-platform tasks); Discovery Latency (Time to fetch & parse Agent Card); Authentication Success (% successful auth handshakes); Task Completion Rate (% tasks completed end-to-end); Real-time Updates (SSE message delivery rate); Network Resilience (% recovery from connection failures); Protocol Compliance (% messages following A2A spec); Cross-Platform Research: Research agent (LangChain) → Analysis agent (Google ADK) → Visualization agent (Custom)…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-393.png
-Notion: https://app.notion.com/p/A2A-Protocol-Agent2Agent-A2A-3faa9aed534483a2840481510873d065
+File: library/agentic-patterns/AGP-002-a2a-protocol-agent2agent-a2a.md
 
 ## AGP-088 — Hierarchical Coordination (HC)
 - Score 2 · Agentic Patterns / Multi-Agent
@@ -166,7 +166,7 @@ Notion: https://app.notion.com/p/A2A-Protocol-Agent2Agent-A2A-3faa9aed534483a284
 **Measure.** Task Success Rate (End-to-end completion vs flat baseline); Tier Latency (P50/P95 processing time per hierarchical level); Escalation Rate (Percentage of tasks requiring higher-tier review); Policy Compliance (Violations caught and resolved at checkpoints); Resource Utilization (Cost and compute efficiency across tiers); Delegation Accuracy (Successful task assignments without rework); Enterprise Workflows: Multi-tier approval processes for compliance, finance, procurement with policy…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-397.png
-Notion: https://app.notion.com/p/Hierarchical-Coordination-HC-f7ea9aed534483049edb01ced03394ee
+File: library/agentic-patterns/AGP-088-hierarchical-coordination-hc.md
 
 ## AGP-144 — Peer Collaboration
 - Score 2 · Agentic Patterns / Multi-Agent
@@ -190,7 +190,7 @@ Notion: https://app.notion.com/p/Hierarchical-Coordination-HC-f7ea9aed534483049e
 **Measure.** Consensus Quality (Agreement strength and decision confidence); Network Resilience (Performance under node failures and attacks); Convergence Time (Speed of reaching collaborative decisions); Knowledge Diversity (Variety of perspectives and solutions generated); Scalability Factor (Performance degradation with network size); Byzantine Tolerance (Robustness against malicious agents); Scientific Research Collaboration: Distributed peer review with consensus-based evaluation and knowledge…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-398.png
-Notion: https://app.notion.com/p/Peer-Collaboration-16fa9aed534482e7b79301014db7b559
+File: library/agentic-patterns/AGP-144-peer-collaboration.md
 
 ## AGP-180 — Supervisor-Worker Pattern (SVW)
 - Score 2 · Agentic Patterns / Multi-Agent
@@ -214,4 +214,4 @@ Notion: https://app.notion.com/p/Peer-Collaboration-16fa9aed534482e7b79301014db7
 **Measure.** Research Quality (90% improvement over single-agent); Token Consumption (15x baseline usage (cost planning)); Parallel Efficiency (% workers completing successfully); Task Decomposition (Optimal subtask count (3-5 workers)); Synthesis Quality (Coherence of final aggregated result); Worker Utilization (% workers contributing unique value); Error Recovery (% failed workers handled gracefully); Research Analysis: "Impact of AI on healthcare" → Medical, Regulatory, Economic, Ethics workers →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-401.png
-Notion: https://app.notion.com/p/Supervisor-Worker-Pattern-SVW-444a9aed534482bbb40f017dcb1b386c
+File: library/agentic-patterns/AGP-180-supervisor-worker-pattern-svw.md

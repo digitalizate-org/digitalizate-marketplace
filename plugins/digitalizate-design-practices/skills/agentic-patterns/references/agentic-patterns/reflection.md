@@ -22,7 +22,7 @@
 **Measure.** Judge Agreement (Correlation with human raters); Consistency (Same judgment on same input); Discrimination (Ability to rank quality differences); False Positive Rate (Good content marked as bad); Coverage (% of edge cases handled correctly); Speed (Evaluations per second); Output Selection: Generate 5 responses → Judge ranks → Return best to user; Quality Gates: Check if generated code/content meets standards before deployment; A/B Testing: Compare model versions by judging outputs on same…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-382.png
-Notion: https://app.notion.com/p/LLM-as-Judge-LJ-1dea9aed53448359808c8157f190de69
+File: library/agentic-patterns/AGP-104-llm-as-judge-lj.md
 
 ## AGP-148 — Producer-Critic Pattern (PC)
 - Score 4 · Agentic Patterns / Reflection
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/LLM-as-Judge-LJ-1dea9aed53448359808c8157f190de6
 **Measure.** Quality Delta (Improvement from v1 to final); Critique Precision (Valid issues / Total critiques); Convergence Rate (Iterations to acceptable quality); Cost Efficiency (Quality gain / Token cost); Bias Reduction (Objective evaluation score); Error Detection (% of actual errors caught); Code Generation: Developer writes → Senior Engineer reviews → Developer refines; Content Creation: Writer drafts → Editor critiques → Writer polishes; Research Analysis: Analyst presents → Peer reviews → Analyst…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-383.png
-Notion: https://app.notion.com/p/Producer-Critic-Pattern-PC-bb7a9aed5344834c958c813834ca68a3
+File: library/agentic-patterns/AGP-148-producer-critic-pattern-pc.md
 
 ## AGP-165 — Self-Critique (SC)
 - Score 4 · Agentic Patterns / Reflection
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Producer-Critic-Pattern-PC-bb7a9aed5344834c958c
 **Measure.** Quality Gain (% improvement from v1 to final); Iteration Count (Average cycles to convergence); Critique Accuracy (Valid issues / Total critiques); Token Efficiency (Quality gain / Extra tokens); Time to Converge (Total processing time); Error Reduction (% decrease in mistakes); Academic Writing: Draft → Critique logic/evidence → Strengthen arguments → Polish; Code Generation: Initial code → Identify bugs/inefficiencies → Fix → Optimize; Technical Docs: First version → Check…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-385.png
-Notion: https://app.notion.com/p/Self-Critique-SC-387a9aed534483c8a0888100ce7bfb31
+File: library/agentic-patterns/AGP-165-self-critique-sc.md
 
 ## AGP-154 — Reflexion (RX)
 - Score 3 · Agentic Patterns / Reflection
@@ -94,4 +94,4 @@ Notion: https://app.notion.com/p/Self-Critique-SC-387a9aed534483c8a0888100ce7bfb
 **Measure.** Success Rate (Task completion over trials); Learning Curve (Performance improvement rate); Reflection Quality (Actionability of insights); Memory Efficiency (Relevant recall vs storage); Convergence Speed (Trials to optimal performance); Generalization (Transfer to similar tasks); Code Generation: Write → Test → Reflect on errors → Fix bugs → Improve; Game Playing: Move → Observe → Evaluate → Reflect on strategy → Adapt; Problem Solving: Attempt → Check → Analyze failure → Learn → Retry…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-384.png
-Notion: https://app.notion.com/p/Reflexion-RX-198a9aed534483099380816ec0e438f4
+File: library/agentic-patterns/AGP-154-reflexion-rx.md

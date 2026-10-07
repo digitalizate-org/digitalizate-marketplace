@@ -20,7 +20,7 @@
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [Good UI — Recognition Over Recall](https://goodui.org/#37) · [100 Things #22 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf) · [Nielsen Norman Group — Heuristic 6](https://cleverx.com/blog/heuristic-evaluation-10-nielsen-principles-explained)
 Wireframe: https://files.catbox.moe/cjtqxj.jpg
-Notion: https://app.notion.com/p/Recognition-Rather-Than-Recall-fb9a9aed5344830da820019a9474a81c
+File: library/cognitive-psychology/UX-014-recognition-rather-than-recall.md
 
 ## UX-015 — Hick's Law — Reduce Choices at Decision Points
 - Score 5 · Cognitive Psychology / Decision time and choice architecture
@@ -41,7 +41,7 @@ Notion: https://app.notion.com/p/Recognition-Rather-Than-Recall-fb9a9aed5344830d
 
 Sources: [Laws of UX — Hick's Law](https://lawsofux.com/hicks-law/)
 Wireframe: https://files.catbox.moe/wu8e4w.jpg
-Notion: https://app.notion.com/p/Hick-s-Law-Reduce-Choices-at-Decision-Points-adca9aed534482dab03081e19842ff85
+File: library/cognitive-psychology/UX-015-hick-s-law-reduce-choices-at-decision-points.md
 
 ## UX-016 — Miller's Law — Chunk Information Into Groups of 5–7
 - Score 5 · Cognitive Psychology / Working memory limits and chunking
@@ -62,7 +62,7 @@ Notion: https://app.notion.com/p/Hick-s-Law-Reduce-Choices-at-Decision-Points-ad
 
 Sources: [Laws of UX — Miller's Law](https://lawsofux.com/millers-law/) · [Nielsen Norman Group — How Chunking Helps Content Processing](https://www.nngroup.com/articles/chunking/)
 Wireframe: https://files.catbox.moe/dt70jc.jpg
-Notion: https://app.notion.com/p/Miller-s-Law-Chunk-Information-Into-Groups-of-5-7-9cea9aed534482558c1d81c16d83eee4
+File: library/cognitive-psychology/UX-016-miller-s-law-chunk-information-into-groups-of-57.md
 
 ## UX-017 — Jakob's Law — Leverage Familiar Patterns From Other Products
 - Score 5 · Cognitive Psychology / Mental models and platform conventions
@@ -83,7 +83,7 @@ Notion: https://app.notion.com/p/Miller-s-Law-Chunk-Information-Into-Groups-of-5
 
 Sources: [Laws of UX — Jakob's Law](https://lawsofux.com/jakobs-law/) · [Nielsen Norman Group — Mental Model Inertia](https://www.nngroup.com/articles/mental-models/)
 Wireframe: https://files.catbox.moe/67yx0e.jpg
-Notion: https://app.notion.com/p/Jakob-s-Law-Leverage-Familiar-Patterns-From-Other-Products-fada9aed53448336820281f20f31501c
+File: library/cognitive-psychology/UX-017-jakob-s-law-leverage-familiar-patterns-from-other-products.md
 
 ## UX-018 — Chunk Content Into Visually Distinct Groups
 - Score 5 · Cognitive Psychology / Information Processing
@@ -105,7 +105,7 @@ Notion: https://app.notion.com/p/Jakob-s-Law-Leverage-Familiar-Patterns-From-Oth
 
 Sources: [100 Things #27 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf) · [Nielsen Norman Group — How Chunking Helps Content Processing](https://www.nngroup.com/articles/chunking/) · [Laws of UX — Law of Proximity](https://lawsofux.com/law-of-proximity/)
 Wireframe: https://files.catbox.moe/7zn8q7.jpg
-Notion: https://app.notion.com/p/Chunk-Content-Into-Visually-Distinct-Groups-977a9aed5344826cb37401b71c1430e2
+File: library/cognitive-psychology/UX-018-chunk-content-into-visually-distinct-groups.md
 
 ## UX-019 — Gestalt — Law of Common Region for Visual Grouping
 - Score 5 · Cognitive Psychology / Gestalt visual perception principles
@@ -126,7 +126,7 @@ Notion: https://app.notion.com/p/Chunk-Content-Into-Visually-Distinct-Groups-977
 
 Sources: [Laws of UX — Law of Common Region](https://lawsofux.com/law-of-common-region/)
 Wireframe: https://files.catbox.moe/jugemr.jpg
-Notion: https://app.notion.com/p/Gestalt-Law-of-Common-Region-for-Visual-Grouping-5a9a9aed5344834d837301c4aea35b2a
+File: library/cognitive-psychology/UX-019-gestalt-law-of-common-region-for-visual-grouping.md
 
 ## UX-020 — Gestalt — Law of Similarity for Interactive Affordance
 - Score 5 · Cognitive Psychology / Visual encoding consistency
@@ -146,7 +146,7 @@ Notion: https://app.notion.com/p/Gestalt-Law-of-Common-Region-for-Visual-Groupin
 
 Sources: [Laws of UX — Law of Similarity](https://lawsofux.com/law-of-similarity/)
 Wireframe: https://files.catbox.moe/swgn7m.jpg
-Notion: https://app.notion.com/p/Gestalt-Law-of-Similarity-for-Interactive-Affordance-597a9aed534482a3b8bd81ebe566b2f0
+File: library/cognitive-psychology/UX-020-gestalt-law-of-similarity-for-interactive-affordance.md
 
 ## UX-021 — Offload User Tasks Through System Automation
 - Score 5 · Cognitive Psychology / Automation and cognitive offloading
@@ -167,7 +167,7 @@ Notion: https://app.notion.com/p/Gestalt-Law-of-Similarity-for-Interactive-Affor
 
 Sources: [Nielsen Norman Group — Minimize Cognitive Load to Maximize Usability](https://www.nngroup.com/articles/minimize-cognitive-load/)
 Wireframe: https://files.catbox.moe/w0xbjr.jpg
-Notion: https://app.notion.com/p/Offload-User-Tasks-Through-System-Automation-18fa9aed534483bcbfef01cd8358da55
+File: library/cognitive-psychology/UX-021-offload-user-tasks-through-system-automation.md
 
 ## UX-022 — Build Mental Models Through Consistent Pattern Reuse
 - Score 5 · Cognitive Psychology / Mental model building and transfer
@@ -188,7 +188,7 @@ Notion: https://app.notion.com/p/Offload-User-Tasks-Through-System-Automation-18
 
 Sources: [Nielsen Norman Group — Mental Model Inertia](https://www.nngroup.com/articles/mental-models/) · [Good UI — Consistency](https://goodui.org/#27)
 Wireframe: https://files.catbox.moe/qrhgzz.jpg
-Notion: https://app.notion.com/p/Build-Mental-Models-Through-Consistent-Pattern-Reuse-2eaa9aed5344830a8d658185ac649bef
+File: library/cognitive-psychology/UX-022-build-mental-models-through-consistent-pattern-reuse.md
 
 ## UX-023 — Short-Term Memory Limits — Design for 4-Item Chunks
 - Score 5 · Cognitive Psychology / Memory and Working Load
@@ -208,7 +208,7 @@ Notion: https://app.notion.com/p/Build-Mental-Models-Through-Consistent-Pattern-
 
 Sources: [100 Things #19–20 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/bi9bey.jpg
-Notion: https://app.notion.com/p/Short-Term-Memory-Limits-Design-for-4-Item-Chunks-712a9aed53448293a97301b5d488e00a
+File: library/cognitive-psychology/UX-023-short-term-memory-limits-design-for-4-item-chunks.md
 
 ## UX-024 — Attention is Selective — Design for Salience
 - Score 5 · Cognitive Psychology / Attention and Perception
@@ -228,7 +228,7 @@ Notion: https://app.notion.com/p/Short-Term-Memory-Limits-Design-for-4-Item-Chun
 
 Sources: [100 Things #40–41 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/8gmwbp.jpg
-Notion: https://app.notion.com/p/Attention-is-Selective-Design-for-Salience-14aa9aed5344833aa03b018301652d99
+File: library/cognitive-psychology/UX-024-attention-is-selective-design-for-salience.md
 
 ## UX-025 — People Can't Multitask — Minimize Interruptions
 - Score 5 · Cognitive Psychology / Attention Management
@@ -249,7 +249,7 @@ Notion: https://app.notion.com/p/Attention-is-Selective-Design-for-Salience-14aa
 
 Sources: [100 Things #46 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/w6yio3.jpg
-Notion: https://app.notion.com/p/People-Can-t-Multitask-Minimize-Interruptions-72ca9aed534483578f3901cfdcee27d1
+File: library/cognitive-psychology/UX-025-people-can-t-multitask-minimize-interruptions.md
 
 ## UX-026 — Choice Overload — Limit Visible Options
 - Score 5 · Cognitive Psychology / Decision Design
@@ -269,7 +269,7 @@ Notion: https://app.notion.com/p/People-Can-t-Multitask-Minimize-Interruptions-7
 
 Sources: [100 Things #92 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/ku74ta.jpg
-Notion: https://app.notion.com/p/Choice-Overload-Limit-Visible-Options-290a9aed534483c88c97011652741315
+File: library/cognitive-psychology/UX-026-choice-overload-limit-visible-options.md
 
 ## UX-027 — Cognitive Path of Least Resistance — Make the Intended Path Easiest
 - Score 5 · Cognitive Psychology / Behavior Design
@@ -290,7 +290,7 @@ Notion: https://app.notion.com/p/Choice-Overload-Limit-Visible-Options-290a9aed5
 
 Sources: [100 Things #57–58 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/gzpqac.jpg
-Notion: https://app.notion.com/p/Cognitive-Path-of-Least-Resistance-Make-the-Intended-Path-Easiest-f91a9aed5344820ab1548169fa0127f2
+File: library/cognitive-psychology/UX-027-cognitive-path-of-least-resistance-make-the-intended-path-ea.md
 
 ## UX-028 — Pattern Recognition and UI Consistency
 - Score 5 · Cognitive Psychology / Consistency Principles
@@ -309,7 +309,7 @@ Notion: https://app.notion.com/p/Cognitive-Path-of-Least-Resistance-Make-the-Int
 
 Sources: [100 Things #3 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/ql65p4.jpg
-Notion: https://app.notion.com/p/Pattern-Recognition-and-UI-Consistency-10aa9aed534483518e000198b6ffed7c
+File: library/cognitive-psychology/UX-028-pattern-recognition-and-ui-consistency.md
 
 ## UX-029 — Goal-Gradient Effect — Show Progress to Drive Completion
 - Score 4 · Cognitive Psychology / Motivation Design
@@ -329,7 +329,7 @@ Notion: https://app.notion.com/p/Pattern-Recognition-and-UI-Consistency-10aa9aed
 
 Sources: [100 Things #50 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf) · [Laws of UX — Goal-Gradient Effect](https://lawsofux.com/goal-gradient-effect/)
 Wireframe: https://files.catbox.moe/x1jm64.jpg
-Notion: https://app.notion.com/p/Goal-Gradient-Effect-Show-Progress-to-Drive-Completion-59ca9aed534482a383bd814ebbe8f689
+File: library/cognitive-psychology/UX-029-goal-gradient-effect-show-progress-to-drive-completion.md
 
 ## UX-030 — Gestalt — Uniform Connectedness for Process and Relationship Visualization
 - Score 4 · Cognitive Psychology / Process and relationship design
@@ -350,7 +350,7 @@ Notion: https://app.notion.com/p/Goal-Gradient-Effect-Show-Progress-to-Drive-Com
 
 Sources: [Laws of UX — Law of Uniform Connectedness](https://lawsofux.com/law-of-uniform-connectedness/)
 Wireframe: https://files.catbox.moe/zo58e3.jpg
-Notion: https://app.notion.com/p/Gestalt-Uniform-Connectedness-for-Process-and-Relationship-Visualization-361a9aed53448279845081d61486bead
+File: library/cognitive-psychology/UX-030-gestalt-uniform-connectedness-for-process-and-relationship-v.md
 
 ## UX-031 — Law of Prägnanz — Use Simplest Effective Visual Form
 - Score 4 · Cognitive Psychology / Visual simplicity in design
@@ -370,7 +370,7 @@ Notion: https://app.notion.com/p/Gestalt-Uniform-Connectedness-for-Process-and-R
 
 Sources: [Laws of UX — Law of Prägnanz](https://lawsofux.com/)
 Wireframe: https://files.catbox.moe/3yfofr.jpg
-Notion: https://app.notion.com/p/Law-of-Pr-gnanz-Use-Simplest-Effective-Visual-Form-8dca9aed534483a89559811dc694eab9
+File: library/cognitive-psychology/UX-031-law-of-pragnanz-use-simplest-effective-visual-form.md
 
 ## UX-032 — Visual Appearance Determines Initial Trust
 - Score 4 · Cognitive Psychology / First Impressions
@@ -389,7 +389,7 @@ Notion: https://app.notion.com/p/Law-of-Pr-gnanz-Use-Simplest-Effective-Visual-F
 
 Sources: [100 Things #79 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/w0tfzh.jpg
-Notion: https://app.notion.com/p/Visual-Appearance-Determines-Initial-Trust-b90a9aed53448209a17e81f2993fdf06
+File: library/cognitive-psychology/UX-032-visual-appearance-determines-initial-trust.md
 
 ## UX-033 — Social Proof and Activity Signals for Feature Adoption
 - Score 3 · Cognitive Psychology / Decision Guidance
@@ -408,7 +408,7 @@ Notion: https://app.notion.com/p/Visual-Appearance-Determines-Initial-Trust-b90a
 
 Sources: [100 Things #98 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf) · [Good UI — Social Proof](https://goodui.org/#4)
 Wireframe: https://files.catbox.moe/0fz6g6.jpg
-Notion: https://app.notion.com/p/Social-Proof-and-Activity-Signals-for-Feature-Adoption-923a9aed534482c89b0c812698d9d74c
+File: library/cognitive-psychology/UX-033-social-proof-and-activity-signals-for-feature-adoption.md
 
 ## UX-034 — Mood Influences Decision Quality — Design the Path to Decisions
 - Score 3 · Cognitive Psychology / Contextual Factors
@@ -428,7 +428,7 @@ Notion: https://app.notion.com/p/Social-Proof-and-Activity-Signals-for-Feature-A
 
 Sources: [100 Things #95 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/n27qvr.jpg
-Notion: https://app.notion.com/p/Mood-Influences-Decision-Quality-Design-the-Path-to-Decisions-b0aa9aed5344838592a40199cac63eae
+File: library/cognitive-psychology/UX-034-mood-influences-decision-quality-design-the-path-to-decision.md
 
 ## UX-035 — Variable Rewards Drive Authentic Engagement
 - Score 3 · Cognitive Psychology / Engagement Design
@@ -447,7 +447,7 @@ Notion: https://app.notion.com/p/Mood-Influences-Decision-Quality-Design-the-Pat
 
 Sources: [100 Things #51–52 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/0hbpsu.jpg
-Notion: https://app.notion.com/p/Variable-Rewards-Drive-Authentic-Engagement-986a9aed534483d3add1019537b6d2e6
+File: library/cognitive-psychology/UX-035-variable-rewards-drive-authentic-engagement.md
 
 ## UX-036 — Sustained Attention Design — 10-Minute Pause Points
 - Score 3 · Cognitive Psychology / Attention Management
@@ -461,4 +461,4 @@ Notion: https://app.notion.com/p/Variable-Rewards-Drive-Authentic-Engagement-986
 
 Sources: [100 Things #44 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/jfslwj.jpg
-Notion: https://app.notion.com/p/Sustained-Attention-Design-10-Minute-Pause-Points-487a9aed5344820aa6dd019cbdf40375
+File: library/cognitive-psychology/UX-036-sustained-attention-design-10-minute-pause-points.md

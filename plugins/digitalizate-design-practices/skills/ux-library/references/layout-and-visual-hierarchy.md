@@ -18,7 +18,7 @@
 
 Sources: [Laws of UX — Von Restorff Effect](https://lawsofux.com/von-restorff-effect/)
 Wireframe: https://files.catbox.moe/bpz66u.jpg
-Notion: https://app.notion.com/p/Von-Restorff-Effect-Visual-Isolation-for-Primary-Actions-8b6a9aed53448231bd4901b8301274e4
+File: library/layout-and-visual-hierarchy/UX-255-von-restorff-effect-visual-isolation-for-primary-actions.md
 
 ## UX-256 — Avoid Visual Clutter — Remove Redundant Elements
 - Score 5 · Layout & Visual Hierarchy / Visual noise and redundancy reduction
@@ -41,7 +41,7 @@ Notion: https://app.notion.com/p/Von-Restorff-Effect-Visual-Isolation-for-Primar
 
 Sources: [Nielsen Norman Group — Minimize Cognitive Load to Maximize Usability](https://www.nngroup.com/articles/minimize-cognitive-load/) · [Good UI — Fewer Borders](https://goodui.org/#23)
 Wireframe: https://files.catbox.moe/ufwi9q.jpg
-Notion: https://app.notion.com/p/Avoid-Visual-Clutter-Remove-Redundant-Elements-30ca9aed53448370b7b78101d259b4ee
+File: library/layout-and-visual-hierarchy/UX-256-avoid-visual-clutter-remove-redundant-elements.md
 
 ## UX-257 — Visual Hierarchy — Establish a Clear Type Scale
 - Score 5 · Layout & Visual Hierarchy / Typography and information hierarchy
@@ -61,7 +61,7 @@ Notion: https://app.notion.com/p/Avoid-Visual-Clutter-Remove-Redundant-Elements-
 
 Sources: [Good UI — Visual Hierarchy](https://goodui.org/#31)
 Wireframe: https://files.catbox.moe/m46t94.jpg
-Notion: https://app.notion.com/p/Visual-Hierarchy-Establish-a-Clear-Type-Scale-284a9aed534483b89459810118e30886
+File: library/layout-and-visual-hierarchy/UX-257-visual-hierarchy-establish-a-clear-type-scale.md
 
 ## UX-258 — Design for Scanning — Leverage F-Pattern and Layer-Cake Patterns
 - Score 5 · Layout & Visual Hierarchy / Reading Patterns
@@ -81,7 +81,7 @@ Notion: https://app.notion.com/p/Visual-Hierarchy-Establish-a-Clear-Type-Scale-2
 
 Sources: [100 Things #6 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf) · [Nielsen Norman Group — F-Shaped Pattern for Reading Web Content](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/)
 Wireframe: https://files.catbox.moe/gxx6cv.jpg
-Notion: https://app.notion.com/p/Design-for-Scanning-Leverage-F-Pattern-and-Layer-Cake-Patterns-68aa9aed534483b58c6a81ec4975f6f9
+File: library/layout-and-visual-hierarchy/UX-258-design-for-scanning-leverage-f-pattern-and-layer-cake-patter.md
 
 ## UX-259 — Make Important Information Visually Salient
 - Score 5 · Layout & Visual Hierarchy / Visual salience and critical information emphasis
@@ -102,7 +102,7 @@ Notion: https://app.notion.com/p/Design-for-Scanning-Leverage-F-Pattern-and-Laye
 
 Sources: [Nielsen Norman Group — 8 Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)
 Wireframe: https://files.catbox.moe/0lfrbi.jpg
-Notion: https://app.notion.com/p/Make-Important-Information-Visually-Salient-c08a9aed53448265bfda01049ec1b9da
+File: library/layout-and-visual-hierarchy/UX-259-make-important-information-visually-salient.md
 
 ## UX-260 — Visual Hierarchy Through Grouping and Weight
 - Score 5 · Layout & Visual Hierarchy / Visual Organization
@@ -120,7 +120,7 @@ Notion: https://app.notion.com/p/Make-Important-Information-Visually-Salient-c08
 
 Sources: [About Face 4th Ed., Ch. 13 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [100 Things #1 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/m2gngw.jpg
-Notion: https://app.notion.com/p/Visual-Hierarchy-Through-Grouping-and-Weight-60aa9aed53448374917c011066378813
+File: library/layout-and-visual-hierarchy/UX-260-visual-hierarchy-through-grouping-and-weight.md
 
 ## UX-261 — Avoid Visual Noise — Reduce Without Losing Capability
 - Score 5 · Layout & Visual Hierarchy / Visual Simplification
@@ -139,7 +139,7 @@ Notion: https://app.notion.com/p/Visual-Hierarchy-Through-Grouping-and-Weight-60
 
 Sources: [About Face 4th Ed., Ch. 13 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/lcztih.jpg
-Notion: https://app.notion.com/p/Avoid-Visual-Noise-Reduce-Without-Losing-Capability-c97a9aed534482f39ad1813a52e1d539
+File: library/layout-and-visual-hierarchy/UX-261-avoid-visual-noise-reduce-without-losing-capability.md
 
 ## UX-262 — Proximity Creates Grouping — Gestalt Principle
 - Score 5 · Layout & Visual Hierarchy / Gestalt Design Principles
@@ -159,7 +159,7 @@ Notion: https://app.notion.com/p/Avoid-Visual-Noise-Reduce-Without-Losing-Capabi
 
 Sources: [100 Things #9 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/1w0sh8.jpg
-Notion: https://app.notion.com/p/Proximity-Creates-Grouping-Gestalt-Principle-022a9aed534483cba52f81b8cb8cf759
+File: library/layout-and-visual-hierarchy/UX-262-proximity-creates-grouping-gestalt-principle.md
 
 ## UX-263 — Aesthetic and Minimalist Design
 - Score 4 · Layout & Visual Hierarchy / Visual noise reduction
@@ -180,7 +180,7 @@ Notion: https://app.notion.com/p/Proximity-Creates-Grouping-Gestalt-Principle-02
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [Laws of UX — Occam's Razor](https://lawsofux.com/occams-razor/) · [Laws of UX — Law of Prägnanz](https://lawsofux.com/)
 Wireframe: https://files.catbox.moe/jb7lso.jpg
-Notion: https://app.notion.com/p/Aesthetic-and-Minimalist-Design-1b4a9aed5344839ab3c5010e78640762
+File: library/layout-and-visual-hierarchy/UX-263-aesthetic-and-minimalist-design.md
 
 ## UX-264 — Serial Position Effect — Place Critical Items First and Last
 - Score 4 · Layout & Visual Hierarchy / List and menu ordering
@@ -201,7 +201,7 @@ Notion: https://app.notion.com/p/Aesthetic-and-Minimalist-Design-1b4a9aed5344839
 
 Sources: [Laws of UX — Serial Position Effect](https://lawsofux.com/serial-position-effect/)
 Wireframe: https://files.catbox.moe/zews1e.jpg
-Notion: https://app.notion.com/p/Serial-Position-Effect-Place-Critical-Items-First-and-Last-dc2a9aed5344820e8fcd81e0978ef540
+File: library/layout-and-visual-hierarchy/UX-264-serial-position-effect-place-critical-items-first-and-last.md
 
 ## UX-265 — Sticky Primary CTAs on Long Pages
 - Score 4 · Layout & Visual Hierarchy / Persistent action accessibility
@@ -222,7 +222,7 @@ Notion: https://app.notion.com/p/Serial-Position-Effect-Place-Critical-Items-Fir
 
 Sources: [Good UI — Sticky / Persistent CTA](https://goodui.org/) · [Good UI — CTA Repetition](https://goodui.org/#5)
 Wireframe: https://files.catbox.moe/r2spla.jpg
-Notion: https://app.notion.com/p/Sticky-Primary-CTAs-on-Long-Pages-033a9aed53448267aaa101e54b1fbcaa
+File: library/layout-and-visual-hierarchy/UX-265-sticky-primary-ctas-on-long-pages.md
 
 ## UX-266 — Avoid False Bottoms — Visual Continuity in Scrollable Views
 - Score 4 · Layout & Visual Hierarchy / Scrollable page design
@@ -242,7 +242,7 @@ Notion: https://app.notion.com/p/Sticky-Primary-CTAs-on-Long-Pages-033a9aed53448
 
 Sources: [Good UI — Visual Continuity](https://goodui.org/#15)
 Wireframe: https://files.catbox.moe/xege92.jpg
-Notion: https://app.notion.com/p/Avoid-False-Bottoms-Visual-Continuity-in-Scrollable-Views-650a9aed53448360ad40018de0c11c05
+File: library/layout-and-visual-hierarchy/UX-266-avoid-false-bottoms-visual-continuity-in-scrollable-views.md
 
 ## UX-267 — Peripheral Vision Determines Dashboard Character
 - Score 4 · Layout & Visual Hierarchy / Visual Perception
@@ -256,4 +256,4 @@ Notion: https://app.notion.com/p/Avoid-False-Bottoms-Visual-Continuity-in-Scroll
 
 Sources: [100 Things #2 (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/7xvmw9.jpg
-Notion: https://app.notion.com/p/Peripheral-Vision-Determines-Dashboard-Character-45ba9aed5344831ab1cc811f38e77bf5
+File: library/layout-and-visual-hierarchy/UX-267-peripheral-vision-determines-dashboard-character.md

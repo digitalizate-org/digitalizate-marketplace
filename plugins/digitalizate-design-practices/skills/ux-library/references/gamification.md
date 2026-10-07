@@ -21,7 +21,7 @@
 
 Sources: [UX Gamification for SaaS – Userpilot](https://userpilot.com/blog/gamification-ux/) · [Gamification in UX design – Standard Beagle](https://standardbeagle.com/ux-in-the-gaming-industry/) · [Onboarding Gamification – LearnExperts](https://learnexperts.ai/blog/onboarding-gamification-how-to-build-better-first-days/)
 Wireframe: https://files.catbox.moe/bqmh5z.jpg
-Notion: https://app.notion.com/p/Progress-Visualization-with-the-Zeigarnik-Effect-09ba9aed53448368a346814b4d88441d
+File: library/gamification/UX-389-progress-visualization-with-the-zeigarnik-effect.md
 
 ## UX-400 — Immediate Feedback Loops and Celebratory Micro-Interactions
 - Score 5 · Gamification / Feedback Design
@@ -44,7 +44,7 @@ Notion: https://app.notion.com/p/Progress-Visualization-with-the-Zeigarnik-Effec
 
 Sources: [Gamification in UX design – Standard Beagle](https://standardbeagle.com/ux-in-the-gaming-industry/) · [Microinteractions – Usability Geek](https://usabilitygeek.com/microinteractions-enhance-ux-design/) · [Designing Engagement Through Micro-Interactions – KeyLime Interactive](https://info.keylimeinteractive.com/the-significance-of-micro-interactions-in-shaping-user-engagement-and-experience) · [Microinteractions – Designlab](https://designlab.com/blog/microinteractions-enhancing-user-experience-through-small-details)
 Wireframe: https://files.catbox.moe/mu4pfr.jpg
-Notion: https://app.notion.com/p/Immediate-Feedback-Loops-and-Celebratory-Micro-Interactions-6f3a9aed53448248a7fe01c4313a8797
+File: library/gamification/UX-400-immediate-feedback-loops-and-celebratory-micro-interactions.md
 
 ## UX-397 — Onboarding as Game Level: Early Win-States and Step-by-Step Tutorials
 - Score 4 · Gamification / Onboarding
@@ -67,7 +67,7 @@ Notion: https://app.notion.com/p/Immediate-Feedback-Loops-and-Celebratory-Micro-
 
 Sources: [Gamification Onboarding Phase – Yu-kai Chou](https://yukaichou.com/gamification-study/4-experience-phases-gamification-2-onboarding-phase/) · [Onboarding Gamification: Better First Days – LearnExperts](https://learnexperts.ai/blog/onboarding-gamification-how-to-build-better-first-days/) · [Game UX Best Practices for Onboarding – Inworld AI](https://inworld.ai/blog/game-ux-best-practices-for-video-game-onboarding) · [UX Gamification for SaaS – Userpilot](https://userpilot.com/blog/gamification-ux/)
 Wireframe: https://files.catbox.moe/1sydbp.jpg
-Notion: https://app.notion.com/p/Onboarding-as-Game-Level-Early-Win-States-and-Step-by-Step-Tutorials-c7ca9aed5344826ea22201e55c6f0897
+File: library/gamification/UX-397-onboarding-as-game-level-early-win-states-and-step-by-step-t.md
 
 ## UX-399 — Loss Aversion Engineering: Protecting Progress and Investment
 - Score 4 · Gamification / Retention Mechanics
@@ -90,7 +90,7 @@ Notion: https://app.notion.com/p/Onboarding-as-Game-Level-Early-Win-States-and-S
 
 Sources: [Loss & Avoidance – Yu-kai Chou](https://yukaichou.com/gamification-study/8-loss-and-avoidance/) · [How Loss Aversion Psychology Transforms App Retention – Glance Group](https://thisisglance.com/learning-centre/how-can-loss-aversion-psychology-transform-app-retention) · [Eight Mechanics of Gamification – Rocketmakers](https://www.rocketmakers.com/blog/gamification-mechanics)
 Wireframe: https://files.catbox.moe/n35tcl.jpg
-Notion: https://app.notion.com/p/Loss-Aversion-Engineering-Protecting-Progress-and-Investment-7fba9aed534483ab9844010e0544b3c4
+File: library/gamification/UX-399-loss-aversion-engineering-protecting-progress-and-investment.md
 
 ## UX-408 — Ownership and Possession: Customization as Engagement Mechanic
 - Score 4 · Gamification / Ownership Design
@@ -113,7 +113,7 @@ Notion: https://app.notion.com/p/Loss-Aversion-Engineering-Protecting-Progress-a
 
 Sources: [Octalysis Framework – Yu-kai Chou](https://yukaichou.com/gamification-examples/octalysis-gamification-framework/) · [Power of Gamification in UX –](https://dodonut.com/blog/the-power-of-gamification-in-ux-design/) · [dodonut.com](http://dodonut.com/) · [UX, Games, and Gamification – Catt Small](http://cattsmall.com/blog/2017/ux-games-gamification)
 Wireframe: https://files.catbox.moe/lon22m.jpg
-Notion: https://app.notion.com/p/Ownership-and-Possession-Customization-as-Engagement-Mechanic-e14a9aed5344822d94b881f455251ef5
+File: library/gamification/UX-408-ownership-and-possession-customization-as-engagement-mechani.md
 
 ## UX-411 — Investment Mechanics: Building Switching Costs Through Value Accumulation
 - Score 4 · Gamification / Retention Mechanics
@@ -136,7 +136,7 @@ Notion: https://app.notion.com/p/Ownership-and-Possession-Customization-as-Engag
 
 Sources: [The Hooked Model – Nir Eyal](https://www.nirandfar.com/how-to-manufacture-desire/) · [Hooked Book Summary – Wise Words](https://wisewords.blog/book-summaries/hooked-book-summary/) · [Habit Loops in SaaS – PLG Handbook](https://plghandbook.com/habit-loops/)
 Wireframe: https://files.catbox.moe/rob1tr.jpg
-Notion: https://app.notion.com/p/Investment-Mechanics-Building-Switching-Costs-Through-Value-Accumulation-43fa9aed534483688ca28189077d49eb
+File: library/gamification/UX-411-investment-mechanics-building-switching-costs-through-value.md
 
 ## UX-388 — Beyond PBL: Design for Intrinsic Motivation, Not Just Points and Badges
 - Score 3 · Gamification / Reward Mechanics
@@ -159,7 +159,7 @@ Notion: https://app.notion.com/p/Investment-Mechanics-Building-Switching-Costs-T
 
 Sources: [The Fallacy of Points, Badges, and Leaderboards – Yu-kai Chou](https://yukaichou.com/gamification-study/points-badges-and-leaderboards-the-gamification-fallacy/) · [Gamification in UX design – Standard Beagle](https://standardbeagle.com/ux-in-the-gaming-industry/) · [Frequency is the key to building habits – Nir Eyal via Churnfm](https://www.churn.fm/episode/frequency-is-the-key-to-building-habits-into-your-product)
 Wireframe: https://files.catbox.moe/6nc0n9.jpg
-Notion: https://app.notion.com/p/Beyond-PBL-Design-for-Intrinsic-Motivation-Not-Just-Points-and-Badges-1f3a9aed5344830b915e01aa4d4e55b8
+File: library/gamification/UX-388-beyond-pbl-design-for-intrinsic-motivation-not-just-points-a.md
 
 ## UX-390 — Streak Mechanics and Loss Aversion for Daily Retention
 - Score 3 · Gamification / Habit Formation
@@ -182,7 +182,7 @@ Notion: https://app.notion.com/p/Beyond-PBL-Design-for-Intrinsic-Motivation-Not-
 
 Sources: [Streaks and Milestones for Gamification – Plotline](https://www.plotline.so/blog/streaks-for-gamification-in-mobile-apps) · [Streak Gamification & Surprise Rewards – Gamize](https://gamize.com/trending/streak-gamification-surprise-rewards-user-retention/) · [The Power of the Streak in Gamification –](https://oee.ai/the-power-of-the-streak-in-gamification/?lang=en) · [oee.ai](http://oee.ai/) · [Habit Loops in SaaS – PLG Handbook](https://plghandbook.com/habit-loops/)
 Wireframe: https://files.catbox.moe/bjahig.jpg
-Notion: https://app.notion.com/p/Streak-Mechanics-and-Loss-Aversion-for-Daily-Retention-80ea9aed5344827da4d801f81914575d
+File: library/gamification/UX-390-streak-mechanics-and-loss-aversion-for-daily-retention.md
 
 ## UX-393 — Self-Determination Theory: Design for Autonomy, Competence, and Relatedness
 - Score 3 · Gamification / Motivational Frameworks
@@ -205,7 +205,7 @@ Notion: https://app.notion.com/p/Streak-Mechanics-and-Loss-Aversion-for-Daily-Re
 
 Sources: [Self-Determination Theory Guide – Yu-kai Chou](https://yukaichou.com/gamification-analysis/self-determination-theory-guide-to-ryan-and-decis-motivation-framework/) · [Autonomy, Relatedness, and Competence in UX – Nielsen Norman Group](https://www.nngroup.com/articles/autonomy-relatedness-competence/) · [Self-determination theory and intrinsic motivation – PubMed/Deci & Ryan](https://pubmed.ncbi.nlm.nih.gov/11392867/)
 Wireframe: https://files.catbox.moe/srmrtj.jpg
-Notion: https://app.notion.com/p/Self-Determination-Theory-Design-for-Autonomy-Competence-and-Relatedness-634a9aed53448356bfcd0116014b32c5
+File: library/gamification/UX-393-self-determination-theory-design-for-autonomy-competence-and.md
 
 ## UX-395 — Ethical Gamification vs. Dark Patterns: Design for Mutual Benefit
 - Score 3 · Gamification / Ethical Design
@@ -228,7 +228,7 @@ Notion: https://app.notion.com/p/Self-Determination-Theory-Design-for-Autonomy-C
 
 Sources: [Dark Patterns vs Ethical Persuasion – LinkedIn](https://www.linkedin.com/pulse/dark-patterns-vs-ethical-persuasion-drawing-line-modern-sg5bc) · [Gamification & Behavior Design – Very Good Ventures](https://www.verygood.ventures/blog/gamification-behavior-design-designing-digital-products-people-want-to-use) · [From Shadow to Light: Rethinking Dark Patterns – UX Planet](https://uxplanet.org/from-shadow-to-light-rethinking-dark-patterns-for-ethical-design-ebf9a72bec41) · [Dark Patterns – Learning Loop](https://learningloop.io/glossary/dark-patterns)
 Wireframe: https://files.catbox.moe/sp6dee.jpg
-Notion: https://app.notion.com/p/Ethical-Gamification-vs-Dark-Patterns-Design-for-Mutual-Benefit-dbfa9aed5344821587c181eed9e0c541
+File: library/gamification/UX-395-ethical-gamification-vs-dark-patterns-design-for-mutual-bene.md
 
 ## UX-396 — The Habit Loop: Design Cue-Routine-Reward Cycles for Daily Active Use
 - Score 3 · Gamification / Habit Formation
@@ -251,7 +251,7 @@ Notion: https://app.notion.com/p/Ethical-Gamification-vs-Dark-Patterns-Design-fo
 
 Sources: [Habit Loops in SaaS – PLG Handbook](https://plghandbook.com/habit-loops/) · [How to Increase Daily Active Users – Appcues](https://www.appcues.com/blog/how-to-increase-daily-active-users) · [Power of Habit and Gamification – Centrical](https://centrical.com/the-powers-of-habit-and-gamification/) · [The Habit Loop – Hoop](https://www.hoop.app/blog/effective-daily-routine)
 Wireframe: https://files.catbox.moe/v8u9y6.jpg
-Notion: https://app.notion.com/p/The-Habit-Loop-Design-Cue-Routine-Reward-Cycles-for-Daily-Active-Use-7aca9aed53448256bbd181346b0f3a4f
+File: library/gamification/UX-396-the-habit-loop-design-cue-routine-reward-cycles-for-daily-ac.md
 
 ## UX-405 — Achievement Badge Design: Meaningful Milestones vs. Participation Trophies
 - Score 3 · Gamification / Achievement Systems
@@ -274,7 +274,7 @@ Notion: https://app.notion.com/p/The-Habit-Loop-Design-Cue-Routine-Reward-Cycles
 
 Sources: [UX Gamification for SaaS – Userpilot](https://userpilot.com/blog/gamification-ux/) · [App Gamification Examples – CleverTap](https://clevertap.com/blog/app-gamification-examples/) · [Onboarding Gamification – LearnExperts](https://learnexperts.ai/blog/onboarding-gamification-how-to-build-better-first-days/) · [Gamification for Learning – BuddyBoss](https://buddyboss.com/blog/gamification-for-learning-to-boost-engagement-with-points-badges-rewards/)
 Wireframe: https://files.catbox.moe/yx10fr.jpg
-Notion: https://app.notion.com/p/Achievement-Badge-Design-Meaningful-Milestones-vs-Participation-Trophies-c4aa9aed534482b29a5b8159ca00ef84
+File: library/gamification/UX-405-achievement-badge-design-meaningful-milestones-vs-participat.md
 
 ## UX-406 — Scarcity and Impatience: Creating Urgency Through Availability Design
 - Score 3 · Gamification / Engagement Psychology
@@ -297,7 +297,7 @@ Notion: https://app.notion.com/p/Achievement-Badge-Design-Meaningful-Milestones-
 
 Sources: [Loss & Avoidance – Yu-kai Chou](https://yukaichou.com/gamification-study/8-loss-and-avoidance/) · [Octalysis Framework – Yu-kai Chou](https://yukaichou.com/gamification-examples/octalysis-gamification-framework/) · [How Loss Aversion Psychology Transforms App Retention – Glance Group](https://thisisglance.com/learning-centre/how-can-loss-aversion-psychology-transform-app-retention)
 Wireframe: https://files.catbox.moe/70hoez.jpg
-Notion: https://app.notion.com/p/Scarcity-and-Impatience-Creating-Urgency-Through-Availability-Design-860a9aed53448352a08881e9326d80cc
+File: library/gamification/UX-406-scarcity-and-impatience-creating-urgency-through-availabilit.md
 
 ## UX-410 — Autonomy Design: Branching Paths and Meaningful Choices
 - Score 3 · Gamification / User Agency
@@ -320,7 +320,7 @@ Notion: https://app.notion.com/p/Scarcity-and-Impatience-Creating-Urgency-Throug
 
 Sources: [Autonomy, Relatedness, and Competence in UX – Nielsen Norman Group](https://www.nngroup.com/articles/autonomy-relatedness-competence/) · [Self-Determination Theory Guide – Yu-kai Chou](https://yukaichou.com/gamification-analysis/self-determination-theory-guide-to-ryan-and-decis-motivation-framework/) · [Power of Gamification in UX –](https://dodonut.com/blog/the-power-of-gamification-in-ux-design/) · [dodonut.com](http://dodonut.com/)
 Wireframe: https://files.catbox.moe/6ka5ae.jpg
-Notion: https://app.notion.com/p/Autonomy-Design-Branching-Paths-and-Meaningful-Choices-aaba9aed534482789e03815e47241842
+File: library/gamification/UX-410-autonomy-design-branching-paths-and-meaningful-choices.md
 
 ## UX-414 — Social Proof and Relatedness: Connecting Users to Community
 - Score 3 · Gamification / Social Dynamics
@@ -343,7 +343,7 @@ Notion: https://app.notion.com/p/Autonomy-Design-Branching-Paths-and-Meaningful-
 
 Sources: [Top Gamification Apps – PUG Interactive](https://puginteractive.com/top-gamington-apps-to-watch-in-2025/) · [Autonomy, Relatedness, and Competence – Nielsen Norman Group](https://www.nngroup.com/articles/autonomy-relatedness-competence/) · [Self-Determination Theory Guide – Yu-kai Chou](https://yukaichou.com/gamification-analysis/self-determination-theory-guide-to-ryan-and-decis-motivation-framework/)
 Wireframe: https://files.catbox.moe/271ny6.jpg
-Notion: https://app.notion.com/p/Social-Proof-and-Relatedness-Connecting-Users-to-Community-2eda9aed53448376a2dd01de9601fcc6
+File: library/gamification/UX-414-social-proof-and-relatedness-connecting-users-to-community.md
 
 ## UX-415 — Tiered Reward Systems and Loyalty Progression
 - Score 3 · Gamification / Reward Mechanics
@@ -366,7 +366,7 @@ Notion: https://app.notion.com/p/Social-Proof-and-Relatedness-Connecting-Users-t
 
 Sources: [App Gamification Examples – CleverTap](https://clevertap.com/blog/app-gamification-examples/) · [9 App Gamification Ideas – StriveCloud](https://www.strivecloud.io/blog/examples-gamification-app) · [Gamification for Learning – BuddyBoss](https://buddyboss.com/blog/gamification-for-learning-to-boost-engagement-with-points-badges-rewards/)
 Wireframe: https://files.catbox.moe/75lbbe.jpg
-Notion: https://app.notion.com/p/Tiered-Reward-Systems-and-Loyalty-Progression-710a9aed5344836f859981f1acaf5e1a
+File: library/gamification/UX-415-tiered-reward-systems-and-loyalty-progression.md
 
 ## UX-391 — Variable Reward Schedules: The Hook Model's Variable Reward Phase
 - Score 2 · Gamification / Reward Mechanics
@@ -389,7 +389,7 @@ Notion: https://app.notion.com/p/Tiered-Reward-Systems-and-Loyalty-Progression-7
 
 Sources: [The Hooked Model: How to Manufacture Desire – Nir Eyal](https://www.nirandfar.com/how-to-manufacture-desire/) · [Hooked Book Summary – Wise Words](https://wisewords.blog/book-summaries/hooked-book-summary/) · [Hook Model Overview – Business Explained](https://business-explained.com/blog/hook-model/) · [Frequency is the key to building habits – Nir Eyal via Churnfm](https://www.churn.fm/episode/frequency-is-the-key-to-building-habits-into-your-product)
 Wireframe: https://files.catbox.moe/6y8oda.jpg
-Notion: https://app.notion.com/p/Variable-Reward-Schedules-The-Hook-Model-s-Variable-Reward-Phase-44ca9aed5344820fb74f0152ec185061
+File: library/gamification/UX-391-variable-reward-schedules-the-hook-model-s-variable-reward-p.md
 
 ## UX-392 — Flow State Design: Calibrating Challenge to Skill Level
 - Score 2 · Gamification / Engagement Psychology
@@ -412,7 +412,7 @@ Notion: https://app.notion.com/p/Variable-Reward-Schedules-The-Hook-Model-s-Vari
 
 Sources: [Flow state in UX: Designing for engagement – Peepal Design](https://peepaldesign.com/flow-state-in-ux-designing-for-engagement/) · [Flow Theory – Learning Loop](https://learningloop.io/glossary/flow-theory-product-psychology) · [Product Flow – UX Collective](https://uxdesign.cc/product-flow-what-product-management-can-learn-from-psychology-c2a00624e010) · [How to Create the State of Flow – Uxcel](https://app.uxcel.com/courses/gamification-in-design-context/the-state-of-flow-079)
 Wireframe: https://files.catbox.moe/1pt1nq.jpg
-Notion: https://app.notion.com/p/Flow-State-Design-Calibrating-Challenge-to-Skill-Level-891a9aed534483e783c1810488b31777
+File: library/gamification/UX-392-flow-state-design-calibrating-challenge-to-skill-level.md
 
 ## UX-401 — Social Competition Architecture: Leaderboards That Motivate Without Demoralizing
 - Score 2 · Gamification / Social Dynamics
@@ -435,7 +435,7 @@ Notion: https://app.notion.com/p/Flow-State-Design-Calibrating-Challenge-to-Skil
 
 Sources: [Gamification for Learning – BuddyBoss](https://buddyboss.com/blog/gamification-for-learning-to-boost-engagement-with-points-badges-rewards/) · [9 App Gamification Ideas – StriveCloud](https://www.strivecloud.io/blog/examples-gamification-app) · [App Gamification Examples – CleverTap](https://clevertap.com/blog/app-gamification-examples/) · [Bartle's Player Types – IxDF](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification)
 Wireframe: https://files.catbox.moe/0w5i5u.jpg
-Notion: https://app.notion.com/p/Social-Competition-Architecture-Leaderboards-That-Motivate-Without-Demoralizing-a92a9aed53448328b43201d4949ac432
+File: library/gamification/UX-401-social-competition-architecture-leaderboards-that-motivate-w.md
 
 ## UX-402 — Team Challenges and Cooperative Goals for Social Cohesion
 - Score 2 · Gamification / Social Dynamics
@@ -458,7 +458,7 @@ Notion: https://app.notion.com/p/Social-Competition-Architecture-Leaderboards-Th
 
 Sources: [Gamification Apps That Drive Team Performance – Guidebook](https://www.guidebook.com/post/gamification-apps-for-business) · [Habit Loops in SaaS – PLG Handbook](https://plghandbook.com/habit-loops/) · [Top Gamification Apps – PUG Interactive](https://puginteractive.com/top-gamification-apps-to-watch-in-2025/)
 Wireframe: https://files.catbox.moe/b2w27f.jpg
-Notion: https://app.notion.com/p/Team-Challenges-and-Cooperative-Goals-for-Social-Cohesion-256a9aed5344824f9dd901c7659d76fd
+File: library/gamification/UX-402-team-challenges-and-cooperative-goals-for-social-cohesion.md
 
 ## UX-403 — Quest and Mission Design: Daily Tasks and Objective Systems
 - Score 2 · Gamification / Challenge Mechanics
@@ -481,7 +481,7 @@ Notion: https://app.notion.com/p/Team-Challenges-and-Cooperative-Goals-for-Socia
 
 Sources: [Gamification Onboarding Phase – Yu-kai Chou](https://yukaichou.com/gamification-study/4-experience-phases-gamification-2-onboarding-phase/) · [Gamification in UX design – Standard Beagle](https://standardbeagle.com/ux-in-the-gaming-industry/) · [Game UX Best Practices for Onboarding – Inworld AI](https://inworld.ai/blog/game-ux-best-practices-for-video-game-onboarding)
 Wireframe: https://files.catbox.moe/a3bp6k.jpg
-Notion: https://app.notion.com/p/Quest-and-Mission-Design-Daily-Tasks-and-Objective-Systems-520a9aed534482ae9dad81bc11cdf07f
+File: library/gamification/UX-403-quest-and-mission-design-daily-tasks-and-objective-systems.md
 
 ## UX-404 — Experience Points and Level Systems for Mastery Progression
 - Score 2 · Gamification / Progression Systems
@@ -504,7 +504,7 @@ Notion: https://app.notion.com/p/Quest-and-Mission-Design-Daily-Tasks-and-Object
 
 Sources: [App Gamification Examples – CleverTap](https://clevertap.com/blog/app-gamification-examples/) · [UX Gamification for SaaS – Userpilot](https://userpilot.com/blog/gamification-ux/) · [14 App Gamification Examples – CleverTap](https://clevertap.com/blog/app-gamification-examples/)
 Wireframe: https://files.catbox.moe/d7ctgk.jpg
-Notion: https://app.notion.com/p/Experience-Points-and-Level-Systems-for-Mastery-Progression-276a9aed5344823bbdd281a4f6c2aaab
+File: library/gamification/UX-404-experience-points-and-level-systems-for-mastery-progression.md
 
 ## UX-407 — Epic Meaning and Calling: Connecting Features to Purpose
 - Score 2 · Gamification / Motivational Frameworks
@@ -527,7 +527,7 @@ Notion: https://app.notion.com/p/Experience-Points-and-Level-Systems-for-Mastery
 
 Sources: [Octalysis Framework – Yu-kai Chou](https://yukaichou.com/gamification-examples/octalysis-gamification-framework/) · [9 App Gamification Ideas – StriveCloud](https://www.strivecloud.io/blog/examples-gamification-app) · [App Gamification Examples – CleverTap](https://clevertap.com/blog/app-gamification-examples/)
 Wireframe: https://files.catbox.moe/o2mbwn.jpg
-Notion: https://app.notion.com/p/Epic-Meaning-and-Calling-Connecting-Features-to-Purpose-caba9aed534483449fba019e54748e4b
+File: library/gamification/UX-407-epic-meaning-and-calling-connecting-features-to-purpose.md
 
 ## UX-412 — Skill Trees and Mastery Paths in SaaS Feature Adoption
 - Score 2 · Gamification / Progression Systems
@@ -550,7 +550,7 @@ Notion: https://app.notion.com/p/Epic-Meaning-and-Calling-Connecting-Features-to
 
 Sources: [Gamification in UX design – Standard Beagle](https://standardbeagle.com/ux-in-the-gaming-industry/) · [UX Gamification for SaaS – Userpilot](https://userpilot.com/blog/gamification-ux/) · [App Gamification Examples – CleverTap](https://clevertap.com/blog/app-gamification-examples/)
 Wireframe: https://files.catbox.moe/tivauj.jpg
-Notion: https://app.notion.com/p/Skill-Trees-and-Mastery-Paths-in-SaaS-Feature-Adoption-4a6a9aed5344829e992e01bd44a8db03
+File: library/gamification/UX-412-skill-trees-and-mastery-paths-in-saas-feature-adoption.md
 
 ## UX-413 — Personalized Challenges and Adaptive Difficulty for Sustained Engagement
 - Score 2 · Gamification / Challenge Mechanics
@@ -573,7 +573,7 @@ Notion: https://app.notion.com/p/Skill-Trees-and-Mastery-Paths-in-SaaS-Feature-A
 
 Sources: [Top Gamification Apps – PUG Interactive](https://puginteractive.com/top-gamification-apps-to-watch-in-2025/) · [Flow Theory – Learning Loop](https://learningloop.io/glossary/flow-theory-product-psychology) · [How to Create the State of Flow – Uxcel](https://app.uxcel.com/courses/gamification-in-design-context/the-state-of-flow-079)
 Wireframe: https://files.catbox.moe/y92qwb.jpg
-Notion: https://app.notion.com/p/Personalized-Challenges-and-Adaptive-Difficulty-for-Sustained-Engagement-634a9aed53448308a2d301ba7476c826
+File: library/gamification/UX-413-personalized-challenges-and-adaptive-difficulty-for-sustaine.md
 
 ## UX-387 — Octalysis Human-Focused Design: Map All 8 Core Drives
 - Score 1 · Gamification / Motivational Frameworks
@@ -596,7 +596,7 @@ Notion: https://app.notion.com/p/Personalized-Challenges-and-Adaptive-Difficulty
 
 Sources: [Octalysis Framework – Yu-kai Chou](https://yukaichou.com/gamification-examples/octalysis-gamification-framework/) · [Practical Approach to Gamification Design – Toptal](https://www.toptal.com/designers/ui/gamification-design) · [Using Octalysis for Optimal Game Design – Yu-kai Chou](https://yukaichou.com/advanced-gamification/using-octalysis-to-determine-the-right-game-design-techniques/)
 Wireframe: https://files.catbox.moe/82pagp.jpg
-Notion: https://app.notion.com/p/Octalysis-Human-Focused-Design-Map-All-8-Core-Drives-068a9aed534482d38f74010c22573a7a
+File: library/gamification/UX-387-octalysis-human-focused-design-map-all-8-core-drives.md
 
 ## UX-394 — Bartle Player Types: Design for Achievers, Explorers, Socializers, and Competitors
 - Score 1 · Gamification / User Segmentation
@@ -619,7 +619,7 @@ Notion: https://app.notion.com/p/Octalysis-Human-Focused-Design-Map-All-8-Core-D
 
 Sources: [Player Archetypes – IxDF/YouTube](https://www.youtube.com/watch?v=Q6RDvibvdYg) · [Bartle's Player Types for Gamification – Interaction Design Foundation](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification) · [Types of Gamers: Bartle Player Taxonomy – Juego Studios](https://www.juegostudio.com/blog/types-of-gamers) · [Using Octalysis for Game Design – Yu-kai Chou](https://yukaichou.com/advanced-gamification/using-octalysis-to-determine-the-right-game-design-techniques/)
 Wireframe: https://files.catbox.moe/r7ewz4.jpg
-Notion: https://app.notion.com/p/Bartle-Player-Types-Design-for-Achievers-Explorers-Socializers-and-Competitors-53aa9aed534483ee9754818e0da55f4d
+File: library/gamification/UX-394-bartle-player-types-design-for-achievers-explorers-socialize.md
 
 ## UX-398 — Narrative and Hero's Journey in Product UX
 - Score 1 · Gamification / Narrative Design
@@ -642,7 +642,7 @@ Notion: https://app.notion.com/p/Bartle-Player-Types-Design-for-Achievers-Explor
 
 Sources: [Your User is The Hero – Diksha's Nook](https://www.dikshaupadhyay.com/p/make-user-the-hero) · [Storytelling in UX – UX Planet](https://uxplanet.org/what-is-storytelling-in-ux-and-how-to-use-it-42840a7a2ffa) · [Storytelling in Design – Future Processing](https://www.future-processing.com/blog/storytelling-in-design-the-secret-role-of-narrative/) · [How Storytelling Turns Designs into Emotion – Rootstrap](https://www.rootstrap.com/blog/how-storytelling-turns-digital-designs-into-emotion)
 Wireframe: https://files.catbox.moe/ztuc0q.jpg
-Notion: https://app.notion.com/p/Narrative-and-Hero-s-Journey-in-Product-UX-321a9aed5344824eac7781ce31ca2e12
+File: library/gamification/UX-398-narrative-and-hero-s-journey-in-product-ux.md
 
 ## UX-409 — Unpredictability and Curiosity: Discovery Features and Easter Eggs
 - Score 1 · Gamification / Engagement Psychology
@@ -665,4 +665,4 @@ Notion: https://app.notion.com/p/Narrative-and-Hero-s-Journey-in-Product-UX-321a
 
 Sources: [Octalysis Framework – Yu-kai Chou](https://yukaichou.com/gamification-examples/octalysis-gamification-framework/) · [Using Octalysis for Game Design – Yu-kai Chou](https://yukaichou.com/advanced-gamification/using-octalysis-to-determine-the-right-game-design-techniques/) · [Bartle's Player Types – IxDF](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification)
 Wireframe: https://files.catbox.moe/d2yv4o.jpg
-Notion: https://app.notion.com/p/Unpredictability-and-Curiosity-Discovery-Features-and-Easter-Eggs-0fca9aed53448284b8bb81692cf669aa
+File: library/gamification/UX-409-unpredictability-and-curiosity-discovery-features-and-easter.md

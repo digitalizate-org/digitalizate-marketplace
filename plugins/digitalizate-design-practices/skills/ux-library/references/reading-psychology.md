@@ -20,7 +20,7 @@
 
 Sources: [Nielsen Norman Group — Layer-Cake Pattern: Heading-Dominant Scanning](https://www.nngroup.com/articles/layer-cake-pattern-scanning/) · [Nielsen Norman Group — How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/)
 Wireframe: https://files.catbox.moe/sw9kky.jpg
-Notion: https://app.notion.com/p/Layer-Cake-Scanning-Make-Headings-Do-the-Navigation-Work-48da9aed534483eca62481de8c219a35
+File: library/reading-psychology/UX-417-layer-cake-scanning-make-headings-do-the-navigation-work.md
 
 ## UX-419 — Banner Blindness: Avoid Ad-Like Visual Patterns in Critical UI
 - Score 5 · Reading Psychology / Attention
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Layer-Cake-Scanning-Make-Headings-Do-the-Naviga
 
 Sources: [Nielsen Norman Group — Banner Blindness: Old and New Findings](https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/)
 Wireframe: https://files.catbox.moe/ubbo8n.jpg
-Notion: https://app.notion.com/p/Banner-Blindness-Avoid-Ad-Like-Visual-Patterns-in-Critical-UI-63ea9aed53448342b12181252725029d
+File: library/reading-psychology/UX-419-banner-blindness-avoid-ad-like-visual-patterns-in-critical-u.md
 
 ## UX-421 — Chunking: Break Content into Scannable, Meaningful Units
 - Score 5 · Reading Psychology / Cognitive Processing
@@ -65,7 +65,7 @@ Notion: https://app.notion.com/p/Banner-Blindness-Avoid-Ad-Like-Visual-Patterns-
 
 Sources: [Nielsen Norman Group — How Chunking Helps Content Processing](https://www.nngroup.com/articles/chunking/) · [LogRocket — Miller's Law in UX Design](https://blog.logrocket.com/ux-design/millers-law-ux-design/) · [UX Myths — Myth 23: Choices Should Be Limited to 7+/-2](https://uxmyths.com/post/931925744/myth-23-choices-should-always-be-limited-to-seven)
 Wireframe: https://files.catbox.moe/zclui6.jpg
-Notion: https://app.notion.com/p/Chunking-Break-Content-into-Scannable-Meaningful-Units-a5ca9aed534483768dc6815fe115e41a
+File: library/reading-psychology/UX-421-chunking-break-content-into-scannable-meaningful-units.md
 
 ## UX-422 — Optimal Line Length: 45–75 Characters for Maximum Readability
 - Score 5 · Reading Psychology / Typography Cognition
@@ -88,7 +88,7 @@ Notion: https://app.notion.com/p/Chunking-Break-Content-into-Scannable-Meaningfu
 
 Sources: [Butterick's Practical Typography — Line Length](https://practicaltypography.com/line-length.html) · [Google Material Design — Understanding Typography](https://m2.material.io/design/typography/understanding-typography.html) · [Nielsen Norman Group — How Chunking Helps Content Processing](https://www.nngroup.com/articles/chunking/)
 Wireframe: https://files.catbox.moe/v1l6n4.jpg
-Notion: https://app.notion.com/p/Optimal-Line-Length-45-75-Characters-for-Maximum-Readability-feea9aed5344822db470814bbf10e137
+File: library/reading-psychology/UX-422-optimal-line-length-4575-characters-for-maximum-readability.md
 
 ## UX-425 — Whitespace: Cognitive Breathing Room Improves Comprehension
 - Score 5 · Reading Psychology / Cognitive Processing
@@ -111,7 +111,7 @@ Notion: https://app.notion.com/p/Optimal-Line-Length-45-75-Characters-for-Maximu
 
 Sources: [Nielsen Norman Group — Visual Hierarchy in UX](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/) · [Nielsen Norman Group — How Chunking Helps Content Processing](https://www.nngroup.com/articles/chunking/) · [GOV.UK](http://gov.uk/) · [Content Design — Typography](https://design-system.service.gov.uk/styles/typography/)
 Wireframe: https://files.catbox.moe/1kxzn3.jpg
-Notion: https://app.notion.com/p/Whitespace-Cognitive-Breathing-Room-Improves-Comprehension-47ca9aed53448366b8b881af1c7ae6f7
+File: library/reading-psychology/UX-425-whitespace-cognitive-breathing-room-improves-comprehension.md
 
 ## UX-426 — Visual Hierarchy: Size, Weight, and Contrast Guide Reading Order
 - Score 5 · Reading Psychology / Hierarchy
@@ -134,7 +134,7 @@ Notion: https://app.notion.com/p/Whitespace-Cognitive-Breathing-Room-Improves-Co
 
 Sources: [Nielsen Norman Group — Visual Hierarchy in UX: Definition](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/) · [Crazy Egg — Font Psychology](https://www.crazyegg.com/blog/font-psychology/)
 Wireframe: https://files.catbox.moe/m406y0.jpg
-Notion: https://app.notion.com/p/Visual-Hierarchy-Size-Weight-and-Contrast-Guide-Reading-Order-8b6a9aed5344830f9827810a3f59f7ba
+File: library/reading-psychology/UX-426-visual-hierarchy-size-weight-and-contrast-guide-reading-orde.md
 
 ## UX-428 — Progressive Disclosure: Show Complexity Gradually
 - Score 5 · Reading Psychology / Information Architecture
@@ -157,7 +157,7 @@ Notion: https://app.notion.com/p/Visual-Hierarchy-Size-Weight-and-Contrast-Guide
 
 Sources: [Nielsen Norman Group — Progressive Disclosure](https://www.nngroup.com/articles/progressive-disclosure/) · [LogRocket — Miller's Law in UX Design](https://blog.logrocket.com/ux-design/millers-law-ux-design/)
 Wireframe: https://files.catbox.moe/1exk88.jpg
-Notion: https://app.notion.com/p/Progressive-Disclosure-Show-Complexity-Gradually-40aa9aed5344838bada40179adf613d3
+File: library/reading-psychology/UX-428-progressive-disclosure-show-complexity-gradually.md
 
 ## UX-436 — Microcopy: Small Words Drive Big Behavioral Outcomes
 - Score 5 · Reading Psychology / Content Design
@@ -180,7 +180,7 @@ Notion: https://app.notion.com/p/Progressive-Disclosure-Show-Complexity-Graduall
 
 Sources: [Amelie Pollak — Microcopy Matters: How Small Text Makes a Big Difference](https://www.ameliepollak.com/blog/microcopy-matters-how-small-text-makes-a-big-difference-in-ux) · [VERSIONS — The Microcopy Effect](https://versions.com/concepts/the-microcopy-effect-small-words-big-impact/) · [UX Psychology — How to Optimize Button Microcopy](https://uxpsychology.substack.com/p/how-to-optimize-button-microcopy) · [UX Magazine — Essential Guide to Microcopy](https://uxmag.com/articles/the-essential-guide-to-microcopy-and-becoming-a-more-literate-designer)
 Wireframe: https://files.catbox.moe/m0s86h.jpg
-Notion: https://app.notion.com/p/Microcopy-Small-Words-Drive-Big-Behavioral-Outcomes-dffa9aed53448391985081020172ea91
+File: library/reading-psychology/UX-436-microcopy-small-words-drive-big-behavioral-outcomes.md
 
 ## UX-438 — Plain Language: Replace Jargon with Clarity
 - Score 5 · Reading Psychology / Content Design
@@ -203,7 +203,7 @@ Notion: https://app.notion.com/p/Microcopy-Small-Words-Drive-Big-Behavioral-Outc
 
 Sources: [GOV.UK](http://gov.uk/) · [— Writing for](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) · [GOV.UK](http://gov.uk/) · [Nielsen Norman Group — How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/) · [VERSIONS — Cognitive Fluency](https://versions.com/topics/cognitive-fluency/)
 Wireframe: https://files.catbox.moe/cfuf72.jpg
-Notion: https://app.notion.com/p/Plain-Language-Replace-Jargon-with-Clarity-4eda9aed53448244ba6b812b1232eee3
+File: library/reading-psychology/UX-438-plain-language-replace-jargon-with-clarity.md
 
 ## UX-441 — Scannable Lists: Use Bullets and Numbers for Parallel Information
 - Score 5 · Reading Psychology / Content Design
@@ -226,7 +226,7 @@ Notion: https://app.notion.com/p/Plain-Language-Replace-Jargon-with-Clarity-4eda
 
 Sources: [Nielsen Norman Group — How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/) · [Nielsen Norman Group — Chunking](https://www.nngroup.com/articles/chunking/) · [GOV.UK](http://gov.uk/) · [— Writing for](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) · [GOV.UK](http://gov.uk/)
 Wireframe: https://files.catbox.moe/q9606e.jpg
-Notion: https://app.notion.com/p/Scannable-Lists-Use-Bullets-and-Numbers-for-Parallel-Information-3aba9aed53448396853a01159ae54f25
+File: library/reading-psychology/UX-441-scannable-lists-use-bullets-and-numbers-for-parallel-informa.md
 
 ## UX-443 — Contrast Sensitivity: Meet WCAG Standards for All Text
 - Score 5 · Reading Psychology / Contrast and Readability
@@ -249,7 +249,7 @@ Notion: https://app.notion.com/p/Scannable-Lists-Use-Bullets-and-Numbers-for-Par
 
 Sources: [WebAIM — Fonts and Contrast](https://webaim.org/techniques/fonts/) · [Nielsen Norman Group — Dark Mode vs. Light Mode](https://www.nngroup.com/articles/dark-mode/) · [GOV.UK](http://gov.uk/) · [— Typography Guidelines](https://design-system.service.gov.uk/styles/typography/)
 Wireframe: https://files.catbox.moe/rney99.jpg
-Notion: https://app.notion.com/p/Contrast-Sensitivity-Meet-WCAG-Standards-for-All-Text-65da9aed534482ac8d1901ea851e7ae5
+File: library/reading-psychology/UX-443-contrast-sensitivity-meet-wcag-standards-for-all-text.md
 
 ## UX-420 — Serial Position Effect: Put Critical Items First or Last
 - Score 4 · Reading Psychology / Attention
@@ -271,7 +271,7 @@ Notion: https://app.notion.com/p/Contrast-Sensitivity-Meet-WCAG-Standards-for-Al
 
 Sources: [LogRocket — Using the Serial Position Effect in UX Design](https://blog.logrocket.com/ux-design/serial-position-effect-ux-design/) · [AB Tasty — Using Serial Position Effect in UX Design](https://www.abtasty.com/blog/using-serial-position-effect-ux-design/) · [CXL — The Serial Position Effect](https://cxl.com/blog/serial-position-effect/)
 Wireframe: https://files.catbox.moe/om238h.jpg
-Notion: https://app.notion.com/p/Serial-Position-Effect-Put-Critical-Items-First-or-Last-4a5a9aed534483f48ab00180918d349f
+File: library/reading-psychology/UX-420-serial-position-effect-put-critical-items-first-or-last.md
 
 ## UX-424 — Line Height and Spacing: Vertical Rhythm Reduces Reading Fatigue
 - Score 4 · Reading Psychology / Typography Cognition
@@ -294,7 +294,7 @@ Notion: https://app.notion.com/p/Serial-Position-Effect-Put-Critical-Items-First
 
 Sources: [WebAIM — Fonts and Readability](https://webaim.org/techniques/fonts/) · [Google Material Design — Understanding Typography](https://m2.material.io/design/typography/understanding-typography.html) · [Crazy Egg — Font Psychology](https://www.crazyegg.com/blog/font-psychology/)
 Wireframe: https://files.catbox.moe/7okcfd.jpg
-Notion: https://app.notion.com/p/Line-Height-and-Spacing-Vertical-Rhythm-Reduces-Reading-Fatigue-4c2a9aed534483d3bfcc01f688edc931
+File: library/reading-psychology/UX-424-line-height-and-spacing-vertical-rhythm-reduces-reading-fati.md
 
 ## UX-427 — Gestalt Principles: Group Related Content, Separate Unrelated Content
 - Score 4 · Reading Psychology / Hierarchy
@@ -316,7 +316,7 @@ Notion: https://app.notion.com/p/Line-Height-and-Spacing-Vertical-Rhythm-Reduces
 
 Sources: [UX Tigers — Gestalt Principles for Visual UI Design](https://www.uxtigers.com/post/gestalt-principles) · [Interaction Design Foundation — Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles) · [Nielsen Norman Group — Banner Blindness](https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/)
 Wireframe: https://files.catbox.moe/elujct.jpg
-Notion: https://app.notion.com/p/Gestalt-Principles-Group-Related-Content-Separate-Unrelated-Content-2a2a9aed5344835ba97b01abbc028d72
+File: library/reading-psychology/UX-427-gestalt-principles-group-related-content-separate-unrelated.md
 
 ## UX-429 — Inverted Pyramid Writing: Lead with the Conclusion
 - Score 4 · Reading Psychology / Content Design
@@ -339,7 +339,7 @@ Notion: https://app.notion.com/p/Gestalt-Principles-Group-Related-Content-Separa
 
 Sources: [GOV.UK](http://gov.uk/) · [— Writing for](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) · [GOV.UK](http://gov.uk/) · [Yoast — First Things First: Writing with the Inverted Pyramid Style](https://yoast.com/inverted-pyramid/) · [Nielsen Norman Group — How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/)
 Wireframe: https://files.catbox.moe/mt11s4.jpg
-Notion: https://app.notion.com/p/Inverted-Pyramid-Writing-Lead-with-the-Conclusion-987a9aed534482798427817e34497114
+File: library/reading-psychology/UX-429-inverted-pyramid-writing-lead-with-the-conclusion.md
 
 ## UX-431 — Information Scent: Make Links and Labels Predictive of Destination
 - Score 4 · Reading Psychology / Information Architecture
@@ -362,7 +362,7 @@ Notion: https://app.notion.com/p/Inverted-Pyramid-Writing-Lead-with-the-Conclusi
 
 Sources: [Nielsen Norman Group — Information Scent: How Users Decide Where to Go Next](https://www.nngroup.com/articles/information-scent/)
 Wireframe: https://files.catbox.moe/0nebt8.jpg
-Notion: https://app.notion.com/p/Information-Scent-Make-Links-and-Labels-Predictive-of-Destination-44da9aed534482b3859f81767ad6d596
+File: library/reading-psychology/UX-431-information-scent-make-links-and-labels-predictive-of-destin.md
 
 ## UX-432 — Cognitive Fluency: Easy to Read = Easy to Trust
 - Score 4 · Reading Psychology / Cognitive Processing
@@ -385,7 +385,7 @@ Notion: https://app.notion.com/p/Information-Scent-Make-Links-and-Labels-Predict
 
 Sources: [The Website Design Agency — The Psychology of Trust in Web Design](https://www.thewebsitedesignagency.co.uk/blog/the-psychology-of-trust-in-web-design-how-to-make-users-feel-safe) · [VERSIONS — Cognitive Fluency: The Science of Easier Thinking](https://versions.com/topics/cognitive-fluency/) · [UX Bulletin — Leveraging Cognitive Fluency in UX Design](https://www.ux-bulletin.com/cognitive-fluency-in-ux/)
 Wireframe: https://files.catbox.moe/844l99.jpg
-Notion: https://app.notion.com/p/Cognitive-Fluency-Easy-to-Read-Easy-to-Trust-8fda9aed53448269a8d981da3de7cbd7
+File: library/reading-psychology/UX-432-cognitive-fluency-easy-to-read-easy-to-trust.md
 
 ## UX-433 — Color Coding for Scanning: Use Hue to Encode Status and Category
 - Score 4 · Reading Psychology / Attention
@@ -408,7 +408,7 @@ Notion: https://app.notion.com/p/Cognitive-Fluency-Easy-to-Read-Easy-to-Trust-8f
 
 Sources: [Attention and Color Theories — Dr. Pamela Rutledge](https://www.pamelarutledge.com/resources/articles/attention-and-color-theories-applied-to-website-design/) · [SHIFT eLearning — 6 Ways Color Psychology Can Be Used in Design](https://www.shiftelearning.com/blog/bid/348188/6-ways-color-psychology-can-be-used-to-design-effective-elearning) · [WebAIM — Fonts and Contrast](https://webaim.org/techniques/fonts/)
 Wireframe: https://files.catbox.moe/ahg0tg.jpg
-Notion: https://app.notion.com/p/Color-Coding-for-Scanning-Use-Hue-to-Encode-Status-and-Category-14aa9aed534482ba984881e9bd6c788b
+File: library/reading-psychology/UX-433-color-coding-for-scanning-use-hue-to-encode-status-and-categ.md
 
 ## UX-435 — Fitts's Law: Make Interactive Text Targets Large and Accessible
 - Score 4 · Reading Psychology / Interaction Design
@@ -431,7 +431,7 @@ Notion: https://app.notion.com/p/Color-Coding-for-Scanning-Use-Hue-to-Encode-Sta
 
 Sources: [Figma — What Is Fitts' Law?](https://www.figma.com/resource-library/fitts-law/) · [Ahmad Shadeed — Enhancing the Clickable Area Size](https://ishadeed.com/article/clickable-area/) · [Nielsen Norman Group — Touch Target Size](https://www.nngroup.com/articles/touch-target-size/) · [LogRocket — Fitts' Law UI Examples](https://blog.logrocket.com/ux-design/fitts-law-ui-examples-best-practices/)
 Wireframe: https://files.catbox.moe/4weks4.jpg
-Notion: https://app.notion.com/p/Fitts-s-Law-Make-Interactive-Text-Targets-Large-and-Accessible-9d0a9aed534483418b59816b76bc375b
+File: library/reading-psychology/UX-435-fitts-s-law-make-interactive-text-targets-large-and-accessib.md
 
 ## UX-439 — Text Alignment: Left-Align Body Text, Avoid Justified and Centered for Long Copy
 - Score 4 · Reading Psychology / Typography Cognition
@@ -453,7 +453,7 @@ Notion: https://app.notion.com/p/Fitts-s-Law-Make-Interactive-Text-Targets-Large
 
 Sources: [GOV.UK](http://gov.uk/) · [— Typography Guidelines](https://design-system.service.gov.uk/styles/typography/) · [Google Material Design — Understanding Typography](https://m2.material.io/design/typography/understanding-typography.html) · [Butterick's Practical Typography — Line Length](https://practicaltypography.com/line-length.html)
 Wireframe: https://files.catbox.moe/h85w2z.jpg
-Notion: https://app.notion.com/p/Text-Alignment-Left-Align-Body-Text-Avoid-Justified-and-Centered-for-Long-Copy-77ea9aed53448202967e81f6cfa67dc9
+File: library/reading-psychology/UX-439-text-alignment-left-align-body-text-avoid-justified-and-cent.md
 
 ## UX-440 — Keyword Emphasis: Bold Key Phrases to Support Scanning
 - Score 4 · Reading Psychology / Scanning Patterns
@@ -476,7 +476,7 @@ Notion: https://app.notion.com/p/Text-Alignment-Left-Align-Body-Text-Avoid-Justi
 
 Sources: [Nielsen Norman Group — How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/) · [Nielsen Norman Group — Layer-Cake Pattern Scanning](https://www.nngroup.com/articles/layer-cake-pattern-scanning/)
 Wireframe: https://files.catbox.moe/2uyb13.jpg
-Notion: https://app.notion.com/p/Keyword-Emphasis-Bold-Key-Phrases-to-Support-Scanning-130a9aed534483348feb818296af14c4
+File: library/reading-psychology/UX-440-keyword-emphasis-bold-key-phrases-to-support-scanning.md
 
 ## UX-442 — Attention Distraction: Minimize Competing Stimuli During Reading Tasks
 - Score 4 · Reading Psychology / Attention
@@ -499,7 +499,7 @@ Notion: https://app.notion.com/p/Keyword-Emphasis-Bold-Key-Phrases-to-Support-Sc
 
 Sources: [Frontiers in Psychology — A Meta-Analysis of Attentional Interference Effects on Digital Reading](https://pmc.ncbi.nlm.nih.gov/articles/PMC12684101/) · [Nielsen Norman Group — Banner Blindness](https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/)
 Wireframe: https://files.catbox.moe/87yv2v.jpg
-Notion: https://app.notion.com/p/Attention-Distraction-Minimize-Competing-Stimuli-During-Reading-Tasks-980a9aed534483278db38145a50d2658
+File: library/reading-psychology/UX-442-attention-distraction-minimize-competing-stimuli-during-read.md
 
 ## UX-416 — F-Pattern Scanning: Design for the Left Edge and First Lines
 - Score 3 · Reading Psychology / Scanning Patterns
@@ -521,7 +521,7 @@ Notion: https://app.notion.com/p/Attention-Distraction-Minimize-Competing-Stimul
 
 Sources: [Nielsen Norman Group — F-Shaped Pattern Reading Web Content](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/) · [Nielsen Norman Group — How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/)
 Wireframe: https://files.catbox.moe/o2mqzv.jpg
-Notion: https://app.notion.com/p/F-Pattern-Scanning-Design-for-the-Left-Edge-and-First-Lines-d29a9aed53448379a3210187d364a41e
+File: library/reading-psychology/UX-416-f-pattern-scanning-design-for-the-left-edge-and-first-lines.md
 
 ## UX-418 — Z-Pattern Layout: Guide Attention on Low-Text Pages
 - Score 3 · Reading Psychology / Scanning Patterns
@@ -543,7 +543,7 @@ Notion: https://app.notion.com/p/F-Pattern-Scanning-Design-for-the-Left-Edge-and
 
 Sources: [Nielsen Norman Group — F-Shaped Pattern Reading Web Content](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/) · [Attention and Color Theories Applied to Website Design — Dr. Pamela Rutledge](https://www.pamelarutledge.com/resources/articles/attention-and-color-theories-applied-to-website-design/)
 Wireframe: https://files.catbox.moe/gc5fb7.jpg
-Notion: https://app.notion.com/p/Z-Pattern-Layout-Guide-Attention-on-Low-Text-Pages-79ca9aed534483fcba7e81a065aadc28
+File: library/reading-psychology/UX-418-z-pattern-layout-guide-attention-on-low-text-pages.md
 
 ## UX-423 — Typography Psychology: Font Choice Signals Trust and Affects Comprehension
 - Score 3 · Reading Psychology / Typography Cognition
@@ -565,7 +565,7 @@ Notion: https://app.notion.com/p/Z-Pattern-Layout-Guide-Attention-on-Low-Text-Pa
 
 Sources: [Crazy Egg — Font Psychology: How Typeface Shapes Meaning and Trust](https://www.crazyegg.com/blog/font-psychology/) · [A List Apart — On Web Typography](https://alistapart.com/article/on-web-typography/) · [WebAIM — Fonts](https://webaim.org/techniques/fonts/)
 Wireframe: https://files.catbox.moe/owlf50.jpg
-Notion: https://app.notion.com/p/Typography-Psychology-Font-Choice-Signals-Trust-and-Affects-Comprehension-fe8a9aed534483fbaf7c01d1e1e08a99
+File: library/reading-psychology/UX-423-typography-psychology-font-choice-signals-trust-and-affects.md
 
 ## UX-430 — Dual Coding: Pair Text with Semantically Aligned Visuals
 - Score 3 · Reading Psychology / Cognitive Processing
@@ -584,11 +584,11 @@ Notion: https://app.notion.com/p/Typography-Psychology-Font-Choice-Signals-Trust
 - Avoid purely decorative stock images adjacent to important copy — they consume visual attention without adding meaning and may actually reduce comprehension by occupying cognitive resources
 - For instructional content (tutorials, onboarding), use step-by-step annotated screenshots rather than generic product images
 
-**Measure.** Effectiveness: Task success rate, Completion rate; Efficiency: Time on task; Engagement & Usage: Scroll depth, Bounce rate; Satisfaction & Perception: Ease-of-use score, Satisfaction rating; How to measure: Run comprehension tests measuring accuracy and speed when users interpret text-only versus dual-coded (text + aligned visual) content; track scroll depth and time-on-page to confirm that paired visuals improve engagement with instructional or informational content.; -; For every complex…
+**Measure.** Effectiveness: Task success rate, Completion rate; Efficiency: Time on task; Engagement & Usage: Scroll depth, Bounce rate; Satisfaction & Perception: Ease-of-use score, Satisfaction rating; How to measure: Run comprehension tests measuring accuracy and speed when users interpret text-only versus dual-coded (text + aligned visual) content; track scroll depth and time-on-page to confirm that paired visuals improve engagement with instructional or informational content.; For every complex…
 
 Sources: [BCL Training — Dual Coding Theory](https://bcltraining.com/learning-library/dual-coding-theory/) · [Nottingham Trent University — Dual Coding: Delivering Learning Content](https://www.ntu.ac.uk/about-us/teaching/academic-development-and-quality/cadq-blogs/dual-coding-exploring-opportunities-to-deliver-learning-content-in-now) · [Lindamood-Bell — What Is Dual Coding Theory?](https://lindamoodbell.com/for-schools/what-is-dual-coding-theory-strengthening-reading-and-comprehension)
 Wireframe: https://files.catbox.moe/9k0klr.jpg
-Notion: https://app.notion.com/p/Dual-Coding-Pair-Text-with-Semantically-Aligned-Visuals-97ea9aed53448391b722016cb32e5f6c
+File: library/reading-psychology/UX-430-dual-coding-pair-text-with-semantically-aligned-visuals.md
 
 ## UX-434 — Working Memory Constraints: Limit Active Cognitive Demands
 - Score 3 · Reading Psychology / Cognitive Processing
@@ -611,7 +611,7 @@ Notion: https://app.notion.com/p/Dual-Coding-Pair-Text-with-Semantically-Aligned
 
 Sources: [LogRocket — Miller's Law in UX Design](https://blog.logrocket.com/ux-design/millers-law-ux-design/) · [Wikipedia — The Magical Number Seven, Plus or Minus Two](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) · [UX Myths — Myth 23](https://uxmyths.com/post/931925744/myth-23-choices-should-always-be-limited-to-seven)
 Wireframe: https://files.catbox.moe/gk26xl.jpg
-Notion: https://app.notion.com/p/Working-Memory-Constraints-Limit-Active-Cognitive-Demands-04aa9aed534482219e368144aada34b3
+File: library/reading-psychology/UX-434-working-memory-constraints-limit-active-cognitive-demands.md
 
 ## UX-437 — Dark Mode vs. Light Mode: Default to Light for Readability
 - Score 3 · Reading Psychology / Contrast and Readability
@@ -630,11 +630,11 @@ Notion: https://app.notion.com/p/Working-Memory-Constraints-Limit-Active-Cogniti
 - Ensure dark mode maintains WCAG 4.5:1 contrast for body text and 3:1 for large text and UI components
 - Accommodate user accessibility preferences by offering three modes where feasible: light, dark, and high-contrast
 
-**Measure.** Effectiveness: Task success rate, Completion rate; Efficiency: Time on task; Satisfaction & Perception: Ease-of-use score, Satisfaction rating; How to measure: Conduct reading speed and comprehension tests under light versus dark mode for text-heavy interfaces; run preference studies and measure task accuracy to determine whether defaulting to light mode improves readability outcomes for the target content type.; -; Default all new interfaces to light mode (dark text on light background) as the…
+**Measure.** Effectiveness: Task success rate, Completion rate; Efficiency: Time on task; Satisfaction & Perception: Ease-of-use score, Satisfaction rating; How to measure: Conduct reading speed and comprehension tests under light versus dark mode for text-heavy interfaces; run preference studies and measure task accuracy to determine whether defaulting to light mode improves readability outcomes for the target content type.; Default all new interfaces to light mode (dark text on light background) as the…
 
 Sources: [Nielsen Norman Group — Dark Mode vs. Light Mode: Which Is Better?](https://www.nngroup.com/articles/dark-mode/) · [WebAIM — Fonts and Contrast Guidelines](https://webaim.org/techniques/fonts/)
 Wireframe: https://files.catbox.moe/d63rv0.jpg
-Notion: https://app.notion.com/p/Dark-Mode-vs-Light-Mode-Default-to-Light-for-Readability-825a9aed53448369bbc50187089b02f5
+File: library/reading-psychology/UX-437-dark-mode-vs-light-mode-default-to-light-for-readability.md
 
 ## UX-444 — Scannability vs. Credibility: Balance Brevity with Sufficient Depth
 - Score 3 · Reading Psychology / Content Design
@@ -657,4 +657,4 @@ Notion: https://app.notion.com/p/Dark-Mode-vs-Light-Mode-Default-to-Light-for-Re
 
 Sources: [Nielsen Norman Group — How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/) · [GOV.UK](http://gov.uk/) · [— Writing for](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) · [GOV.UK](http://gov.uk/)
 Wireframe: https://files.catbox.moe/ilrv9e.jpg
-Notion: https://app.notion.com/p/Scannability-vs-Credibility-Balance-Brevity-with-Sufficient-Depth-dd6a9aed5344825a969a81b0a26cad95
+File: library/reading-psychology/UX-444-scannability-vs-credibility-balance-brevity-with-sufficient.md

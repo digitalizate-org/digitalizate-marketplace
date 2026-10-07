@@ -21,7 +21,7 @@
 
 Sources: [Nielsen Norman Group — Data Tables: Four Major User Tasks](https://www.nngroup.com/articles/data-tables/) · [Component Gallery — Data Table](https://component.gallery/components/table/)
 Wireframe: https://files.catbox.moe/yalkzy.jpg
-Notion: https://app.notion.com/p/Data-Tables-Support-All-Four-Core-User-Tasks-by-Design-af9a9aed53448358a6ba81d151145f95
+File: library/data-display-and-tables/UX-072-data-tables-support-all-four-core-user-tasks-by-design.md
 
 ## UX-073 — Frozen Headers and Visual Anchors in Large Tables
 - Score 5 · Data Display & Tables / Table scrolling and orientation
@@ -43,7 +43,7 @@ Notion: https://app.notion.com/p/Data-Tables-Support-All-Four-Core-User-Tasks-by
 
 Sources: [Nielsen Norman Group — Data Tables: Four Major User Tasks](https://www.nngroup.com/articles/data-tables/) · [UX Planet — Data Table Best Practices](https://uxplanet.org/best-practices-for-usable-and-efficient-data-table-in-applications-4a1d1fb29550) · [Pencil & Paper — Data Table UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/3zcmh1.jpg
-Notion: https://app.notion.com/p/Frozen-Headers-and-Visual-Anchors-in-Large-Tables-edfa9aed53448329aec6017be528cf93
+File: library/data-display-and-tables/UX-073-frozen-headers-and-visual-anchors-in-large-tables.md
 
 ## UX-074 — Column Management for Comparison Work
 - Score 5 · Data Display & Tables / Personalization
@@ -65,7 +65,7 @@ Notion: https://app.notion.com/p/Frozen-Headers-and-Visual-Anchors-in-Large-Tabl
 
 Sources: [Pencil & Paper — Enterprise Data Tables](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) · [Nielsen Norman Group — Data Tables: Four Major User Tasks](https://www.nngroup.com/articles/data-tables/) · [Component Gallery — Data Table](https://component.gallery/components/table/) · [UX Patterns — Data Table](https://uxpatterns.dev/patterns/data-display/table)
 Wireframe: https://files.catbox.moe/nbukwg.jpg
-Notion: https://app.notion.com/p/Column-Management-for-Comparison-Work-cbda9aed534482d6a1c081ae3b30eba4
+File: library/data-display-and-tables/UX-074-column-management-for-comparison-work.md
 
 ## UX-075 — Row-Level and Batch Actions Design in Tables
 - Score 5 · Data Display & Tables / Table action patterns
@@ -86,7 +86,7 @@ Notion: https://app.notion.com/p/Column-Management-for-Comparison-Work-cbda9aed5
 
 Sources: [Nielsen Norman Group — Data Tables: Four Major User Tasks](https://www.nngroup.com/articles/data-tables/) · [Eleken — Bulk Action UX](https://www.eleken.co/blog-posts/bulk-actions-ux)
 Wireframe: https://files.catbox.moe/pq5c7i.jpg
-Notion: https://app.notion.com/p/Row-Level-and-Batch-Actions-Design-in-Tables-8aaa9aed53448336b1c9815fabaa42c8
+File: library/data-display-and-tables/UX-075-row-level-and-batch-actions-design-in-tables.md
 
 ## UX-076 — Pagination vs. Infinite Scroll — Choose by Task Type
 - Score 5 · Data Display & Tables / List Navigation
@@ -106,7 +106,7 @@ Notion: https://app.notion.com/p/Row-Level-and-Batch-Actions-Design-in-Tables-8a
 
 Sources: [UX Planet — Data Table Best Practices](https://uxplanet.org/best-practices-for-usable-and-efficient-data-table-in-applications-4a1d1fb29550) · [Component Gallery — Pagination](https://component.gallery/components/pagination/)
 Wireframe: https://files.catbox.moe/ssf129.jpg
-Notion: https://app.notion.com/p/Pagination-vs-Infinite-Scroll-Choose-by-Task-Type-161a9aed5344831f8ff501086b288198
+File: library/data-display-and-tables/UX-076-pagination-vs-infinite-scroll-choose-by-task-type.md
 
 ## UX-077 — Three-Level Density System for Tables and Lists
 - Score 5 · Data Display & Tables / Density Controls
@@ -129,7 +129,7 @@ Notion: https://app.notion.com/p/Pagination-vs-Infinite-Scroll-Choose-by-Task-Ty
 
 Sources: [Pencil & Paper — Enterprise Data Tables](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/fdzk4t.jpg
-Notion: https://app.notion.com/p/Three-Level-Density-System-for-Tables-and-Lists-055a9aed53448301891701c4ecd6bc9c
+File: library/data-display-and-tables/UX-077-three-level-density-system-for-tables-and-lists.md
 
 ## UX-078 — Correct Data Alignment in Tables
 - Score 5 · Data Display & Tables / Data Formatting
@@ -148,7 +148,7 @@ Notion: https://app.notion.com/p/Three-Level-Density-System-for-Tables-and-Lists
 
 Sources: [Pencil & Paper — Enterprise Data Tables](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/bwznuc.jpg
-Notion: https://app.notion.com/p/Correct-Data-Alignment-in-Tables-74ba9aed534482eb80f601cd094be3a2
+File: library/data-display-and-tables/UX-078-correct-data-alignment-in-tables.md
 
 ## UX-079 — Contextual Hover Actions in Data Tables
 - Score 5 · Data Display & Tables / Row Interaction Patterns
@@ -169,7 +169,7 @@ Notion: https://app.notion.com/p/Correct-Data-Alignment-in-Tables-74ba9aed534482
 
 Sources: [Pencil & Paper — Enterprise Data Tables](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/lr5zlc.jpg
-Notion: https://app.notion.com/p/Contextual-Hover-Actions-in-Data-Tables-81ea9aed534482afb15b81cfdfad94a1
+File: library/data-display-and-tables/UX-079-contextual-hover-actions-in-data-tables.md
 
 ## UX-080 — Sortable Columns with Clear State Indicators
 - Score 5 · Data Display & Tables / Table Interaction
@@ -189,7 +189,7 @@ Notion: https://app.notion.com/p/Contextual-Hover-Actions-in-Data-Tables-81ea9ae
 
 Sources: [UX Patterns for Developers — Data Table](https://uxpatterns.dev/patterns/data-display/table) · [Pencil & Paper — Data Table UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/yh9swl.jpg
-Notion: https://app.notion.com/p/Sortable-Columns-with-Clear-State-Indicators-a45a9aed534483fc9e0a813d569f0a8d
+File: library/data-display-and-tables/UX-080-sortable-columns-with-clear-state-indicators.md
 
 ## UX-081 — Virtual Scrolling for Large Datasets
 - Score 5 · Data Display & Tables / Performance Optimization
@@ -209,7 +209,7 @@ Notion: https://app.notion.com/p/Sortable-Columns-with-Clear-State-Indicators-a4
 
 Sources: [UX Patterns — Data Table](https://uxpatterns.dev/patterns/data-display/table)
 Wireframe: https://files.catbox.moe/efv9is.jpg
-Notion: https://app.notion.com/p/Virtual-Scrolling-for-Large-Datasets-6d2a9aed53448354bbd881fc39cf67c5
+File: library/data-display-and-tables/UX-081-virtual-scrolling-for-large-datasets.md
 
 ## UX-082 — Inline Editing with Friction Calibration
 - Score 5 · Data Display & Tables / Inline Editing
@@ -229,7 +229,7 @@ Notion: https://app.notion.com/p/Virtual-Scrolling-for-Large-Datasets-6d2a9aed53
 
 Sources: [Pencil & Paper — Data Table UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) · [Nielsen Norman Group — Data Tables](https://www.nngroup.com/articles/data-tables/)
 Wireframe: https://files.catbox.moe/gdxfup.jpg
-Notion: https://app.notion.com/p/Inline-Editing-with-Friction-Calibration-e14a9aed5344830cae92810504a96c67
+File: library/data-display-and-tables/UX-082-inline-editing-with-friction-calibration.md
 
 ## UX-083 — Expandable Row Details and Sidebar Panels
 - Score 5 · Data Display & Tables / Row Interaction
@@ -249,7 +249,7 @@ Notion: https://app.notion.com/p/Inline-Editing-with-Friction-Calibration-e14a9a
 
 Sources: [Pencil & Paper — Data Table UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) · [Nielsen Norman Group — Data Tables](https://www.nngroup.com/articles/data-tables/)
 Wireframe: https://files.catbox.moe/1sizqo.jpg
-Notion: https://app.notion.com/p/Expandable-Row-Details-and-Sidebar-Panels-6daa9aed534483c692c081f99a74ac3f
+File: library/data-display-and-tables/UX-083-expandable-row-details-and-sidebar-panels.md
 
 ## UX-084 — Tables Over Cards for Dense Multi-Variate Data
 - Score 4 · Data Display & Tables / Layout pattern selection
@@ -270,7 +270,7 @@ Notion: https://app.notion.com/p/Expandable-Row-Details-and-Sidebar-Panels-6daa9
 
 Sources: [Nielsen Norman Group — Data Tables: Four Major User Tasks](https://www.nngroup.com/articles/data-tables/)
 Wireframe: https://files.catbox.moe/c91mvb.jpg
-Notion: https://app.notion.com/p/Tables-Over-Cards-for-Dense-Multi-Variate-Data-b6ca9aed5344828598a2010bffb281de
+File: library/data-display-and-tables/UX-084-tables-over-cards-for-dense-multi-variate-data.md
 
 ## UX-085 — Smart Defaults for Sort Order
 - Score 4 · Data Display & Tables / Default State Design
@@ -291,7 +291,7 @@ Notion: https://app.notion.com/p/Tables-Over-Cards-for-Dense-Multi-Variate-Data-
 
 Sources: [Pencil & Paper — Enterprise Data Tables](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/jell7x.jpg
-Notion: https://app.notion.com/p/Smart-Defaults-for-Sort-Order-ff1a9aed534482a7ad94016a222759b7
+File: library/data-display-and-tables/UX-085-smart-defaults-for-sort-order.md
 
 ## UX-086 — Column Order Reflecting Data Importance
 - Score 4 · Data Display & Tables / Table Structure
@@ -311,7 +311,7 @@ Notion: https://app.notion.com/p/Smart-Defaults-for-Sort-Order-ff1a9aed534482a7a
 
 Sources: [Nielsen Norman Group — Data Tables](https://www.nngroup.com/articles/data-tables/)
 Wireframe: https://files.catbox.moe/nsjxx9.jpg
-Notion: https://app.notion.com/p/Column-Order-Reflecting-Data-Importance-957a9aed534482eca5c181a7f5f81126
+File: library/data-display-and-tables/UX-086-column-order-reflecting-data-importance.md
 
 ## UX-087 — Row Density Controls
 - Score 4 · Data Display & Tables / Table Customization
@@ -332,7 +332,7 @@ Notion: https://app.notion.com/p/Column-Order-Reflecting-Data-Importance-957a9ae
 
 Sources: [Pencil & Paper — Data Table UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/d8ida6.jpg
-Notion: https://app.notion.com/p/Row-Density-Controls-9b8a9aed534482638b7c01da10e22d53
+File: library/data-display-and-tables/UX-087-row-density-controls.md
 
 ## UX-088 — Pagination vs. Virtual Scrolling Decision Framework
 - Score 4 · Data Display & Tables / Data Navigation
@@ -354,7 +354,7 @@ Notion: https://app.notion.com/p/Row-Density-Controls-9b8a9aed534482638b7c01da10
 
 Sources: [UX Patterns — Data Table](https://uxpatterns.dev/patterns/data-display/table)
 Wireframe: https://files.catbox.moe/nhu9cf.jpg
-Notion: https://app.notion.com/p/Pagination-vs-Virtual-Scrolling-Decision-Framework-9baa9aed534483e2a34c014e0a671f58
+File: library/data-display-and-tables/UX-088-pagination-vs-virtual-scrolling-decision-framework.md
 
 ## UX-089 — Expandable Row Detail (Inline Master-Detail)
 - Score 4 · Data Display & Tables / Row Expansion
@@ -375,7 +375,7 @@ Notion: https://app.notion.com/p/Pagination-vs-Virtual-Scrolling-Decision-Framew
 
 Sources: [Infragistics — Master-Detail Layout](https://www.infragistics.com/blogs/master-detail-layout/)
 Wireframe: https://files.catbox.moe/v50a0j.jpg
-Notion: https://app.notion.com/p/Expandable-Row-Detail-Inline-Master-Detail-3d8a9aed534482a4b95f815764e5a5f4
+File: library/data-display-and-tables/UX-089-expandable-row-detail-inline-master-detail.md
 
 ## UX-090 — Dense Numerical Display — Monospace and Column Alignment
 - Score 4 · Data Display & Tables / Typography for Data
@@ -396,7 +396,7 @@ Notion: https://app.notion.com/p/Expandable-Row-Detail-Inline-Master-Detail-3d8a
 
 Sources: [Pencil & Paper — Data Table UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/659e40.jpg
-Notion: https://app.notion.com/p/Dense-Numerical-Display-Monospace-and-Column-Alignment-cb8a9aed5344820da1cc81f68551de11
+File: library/data-display-and-tables/UX-090-dense-numerical-display-monospace-and-column-alignment.md
 
 ## UX-091 — Treemap for Hierarchical Quantitative Data
 - Score 3 · Data Display & Tables / Data Visualization
@@ -417,4 +417,4 @@ Notion: https://app.notion.com/p/Dense-Numerical-Display-Monospace-and-Column-Al
 
 Sources: [Nielsen Norman Group — Treemaps](https://www.nngroup.com/articles/treemaps/)
 Wireframe: https://files.catbox.moe/fkl11x.jpg
-Notion: https://app.notion.com/p/Treemap-for-Hierarchical-Quantitative-Data-135a9aed53448268a8ef8199cc2673ac
+File: library/data-display-and-tables/UX-091-treemap-for-hierarchical-quantitative-data.md

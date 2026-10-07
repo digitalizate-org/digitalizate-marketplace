@@ -22,7 +22,7 @@
 **Measure.** Extraction Attempts (Blocked prompt theft tries/day); Leakage Rate (% responses containing prompt traces); Detection Accuracy (True vs false positive ratio); Prompt Integrity (Unchanged behavior over time); Performance Impact (ms latency from protection); Attack Evolution (New extraction techniques/month); Enterprise AI: Protect proprietary reasoning chains & business logic; Medical Diagnosis: Shield clinical decision protocols from extraction; Financial Models: Guard trading strategies & risk…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-507.png
-Notion: https://app.notion.com/p/System-Prompt-Protection-Pattern-SPP-b0fa9aed534483498c8e81910bc5e199
+File: library/agentic-patterns/AGP-181-system-prompt-protection-pattern-spp.md
 
 ## AGP-003 — AGrail Adaptive Pattern (AAP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/System-Prompt-Protection-Pattern-SPP-b0fa9aed53
 **Measure.** Domain Coverage (Number of adapted contexts); Check Effectiveness (% threats caught by generated rules); False Positive Rate (Over-blocking reduction over time); Adaptation Speed (Hours to optimize for new domain); Rule Efficiency (Average checks per action type); System Evolution (Monthly improvement in safety metrics); Multi-Domain Platform: Adapts from general assistant → healthcare → finance → education; Global Deployment: Evolves safety for different cultural contexts & regulations…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-491.png
-Notion: https://app.notion.com/p/AGrail-Adaptive-Pattern-AAP-51da9aed5344829292088161c1e61c88
+File: library/agentic-patterns/AGP-003-agrail-adaptive-pattern-aap.md
 
 ## AGP-031 — Compliance Automation Patterns (CAP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/AGrail-Adaptive-Pattern-AAP-51da9aed53448292920
 **Measure.** Compliance Score (% adherence to regulatory frameworks); Audit Finding Reduction (Decrease in compliance violations); Automation Coverage (% compliance processes automated); Response Time (Time to address regulatory changes); Data Subject Rights (Fulfillment rate for user requests); Cross-Border Compliance (International transfer compliance rate); Healthcare AI: HIPAA compliance, PHI protection, minimum necessary access enforcement; Financial Services: SOX controls, PCI DSS compliance…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-492.png
-Notion: https://app.notion.com/p/Compliance-Automation-Patterns-CAP-3c0a9aed5344831f921f014c5eb4c59c
+File: library/agentic-patterns/AGP-031-compliance-automation-patterns-cap.md
 
 ## AGP-033 — Confidential Computing Patterns (CCP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -94,7 +94,7 @@ Notion: https://app.notion.com/p/Compliance-Automation-Patterns-CAP-3c0a9aed5344
 **Measure.** Enclave Integrity (Successful attestation verification rate); Performance Overhead (Computation slowdown factor (1.5-30x)); Memory Protection (% data protected in TEE memory); Side-Channel Resistance (Attack mitigation effectiveness); Scalability Factor (Max concurrent enclaves supported); Framework Compatibility (% applications running without modification); Federated AI: Multi-hospital ML training with patient privacy in TEE enclaves; Financial Trading: High-frequency algorithms protected…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-493.png
-Notion: https://app.notion.com/p/Confidential-Computing-Patterns-CCP-f09a9aed534482b28856015fe0f99d4c
+File: library/agentic-patterns/AGP-033-confidential-computing-patterns-ccp.md
 
 ## AGP-047 — Contextual Guardrailing Pattern (CGP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -118,7 +118,7 @@ Notion: https://app.notion.com/p/Confidential-Computing-Patterns-CCP-f09a9aed534
 **Measure.** Context Accuracy (% correct context identification); Rule Hit Rate (Rules triggered per context); Decision Latency (ms for context + rule evaluation); Compliance Rate (% requests meeting policies); Rule Effectiveness (Security incidents prevented); User Friction (False positive restriction rate); Healthcare: PHI access (role + location + time) → HIPAA-compliant restrictions; Finance: Trading operations (user level + time + amount) → approval workflows; Enterprise: Remote access (location +…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-494.png
-Notion: https://app.notion.com/p/Contextual-Guardrailing-Pattern-CGP-f21a9aed5344829394af016537fa98ef
+File: library/agentic-patterns/AGP-047-contextual-guardrailing-pattern-cgp.md
 
 ## AGP-059 — Data Anonymization Patterns (DAP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -142,7 +142,7 @@ Notion: https://app.notion.com/p/Contextual-Guardrailing-Pattern-CGP-f21a9aed534
 **Measure.** Re-identification Risk (Probability of individual identification); Data Utility Preservation (% statistical accuracy maintained); K-Anonymity Level (Minimum group size for indistinguishability); L-Diversity Score (Sensitive attribute value diversity); T-Closeness Threshold (Distribution similarity to population); Synthetic Data Fidelity (Statistical similarity to original data); Healthcare AI: Patient record anonymization for multi-hospital federated learning; Financial Agents: Transaction…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-495.png
-Notion: https://app.notion.com/p/Data-Anonymization-Patterns-DAP-224a9aed5344826692fa015da6ce30bc
+File: library/agentic-patterns/AGP-059-data-anonymization-patterns-dap.md
 
 ## AGP-060 — Differential Privacy Patterns (DPP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -166,7 +166,7 @@ Notion: https://app.notion.com/p/Data-Anonymization-Patterns-DAP-224a9aed5344826
 **Measure.** Privacy Guarantee (Epsilon (ε) differential privacy level); Statistical Utility (% accuracy preservation post-noise); Privacy Budget Usage (Cumulative ε consumption rate); Query Sensitivity (Maximum individual contribution); Composition Efficiency (Privacy cost optimization); Noise Calibration Accuracy (Correct noise scale application); Healthcare Analytics: Patient record analysis with HIPAA compliance and privacy guarantees; Census Data: Population statistics publication with individual…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-496.png
-Notion: https://app.notion.com/p/Differential-Privacy-Patterns-DPP-4b9a9aed53448340a2130142cf097005
+File: library/agentic-patterns/AGP-060-differential-privacy-patterns-dpp.md
 
 ## AGP-085 — GuardAgent Pattern (GAP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -190,7 +190,7 @@ Notion: https://app.notion.com/p/Differential-Privacy-Patterns-DPP-4b9a9aed53448
 **Measure.** Guardrail Accuracy (% correct safety decisions (98%+)); False Positives (Valid actions blocked incorrectly); Response Time (ms to validate each action); Code Generation (Time to create guardrail logic); Coverage (% of agent actions monitored); Violation Rate (Safety violations per 1000 actions); Financial Trading: Monitor trades for limits, restricted securities, risk thresholds; Healthcare AI: Validate medical recommendations against safety protocols & regulations; Autonomous Systems: Ensure…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-497.png
-Notion: https://app.notion.com/p/GuardAgent-Pattern-GAP-166a9aed534483788bc201b8153b8d22
+File: library/agentic-patterns/AGP-085-guardagent-pattern-gap.md
 
 ## AGP-094 — Hybrid Secret & Cache Management Pattern (HSCM)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -214,7 +214,7 @@ Notion: https://app.notion.com/p/GuardAgent-Pattern-GAP-166a9aed534483788bc201b8
 **Measure.** Cache Hit Ratio (Local: 94% | Distant: 87% (target performance)); Secret Retrieval Latency (P95 latency <50ms for secret access); Encryption Overhead (% performance impact (<2% target)); Rotation Success Rate (% of secrets rotated without service disruption); Audit Trail Completeness (% of secret operations logged with correlation); Cross-Region Failover (Recovery time <500ms for distant cache); Trading Systems: Local session tokens + distant API keys with automatic rotation and encrypted…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-498.png
-Notion: https://app.notion.com/p/Hybrid-Secret-Cache-Management-Pattern-HSCM-e10a9aed5344834b9de301fd23091ad9
+File: library/agentic-patterns/AGP-094-hybrid-secret-and-cache-management-pattern-hscm.md
 
 ## AGP-095 — Identity & Access Management (IAM)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -238,7 +238,7 @@ Notion: https://app.notion.com/p/Hybrid-Secret-Cache-Management-Pattern-HSCM-e10
 **Measure.** Authentication Success Rate (% successful identity verifications); Authorization Latency (Time for access decisions (ms)); Identity Lifecycle Automation (% automated provisioning/deprovisioning); Privileged Access Violations (Unauthorized elevation attempts); Audit Completeness (% actions with complete logs); Risk Assessment Accuracy (Correct threat identification rate); Enterprise AI Platform: SSO integration, role-based agent permissions, audit compliance; Multi-Tenant SaaS: Tenant isolation…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-499.png
-Notion: https://app.notion.com/p/Identity-Access-Management-IAM-bd7a9aed5344825e913c81cf77ea3cae
+File: library/agentic-patterns/AGP-095-identity-and-access-management-iam.md
 
 ## AGP-100 — Intrinsic Alignment Pattern (IAP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -262,7 +262,7 @@ Notion: https://app.notion.com/p/Identity-Access-Management-IAM-bd7a9aed5344825e
 **Measure.** Alignment Stability (Goal consistency over time); Behavioral Drift (Deviation from baseline patterns); Scheming Detection (Hidden objective identification rate); Monitor Integrity (Tamper detection success rate); Early Warning (Pre-impact detection time); False Alarms (Benign drift vs real threats); AGI Safety: Monitoring advanced systems for deceptive alignment or goal drift; Financial AI: Detecting hidden trading objectives or market manipulation attempts; Defense Systems: Ensuring AI weapons…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-500.png
-Notion: https://app.notion.com/p/Intrinsic-Alignment-Pattern-IAP-b78a9aed5344837eabae81a8ff1bef6d
+File: library/agentic-patterns/AGP-100-intrinsic-alignment-pattern-iap.md
 
 ## AGP-108 — Layered Defense Pattern (LDP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -286,7 +286,7 @@ Notion: https://app.notion.com/p/Intrinsic-Alignment-Pattern-IAP-b78a9aed5344837
 **Measure.** Block Rate (Threats stopped per layer); False Positives (% legitimate requests blocked); Latency Impact (ms added per layer); Bypass Attempts (Attacks reaching deeper layers); Coverage (% of OWASP Top 10 addressed); MTTR (Time to update defenses); Financial AI: External (DDoS) → App (fraud detection) → Model (compliance); Healthcare Bot: External (HIPAA auth) → App (PHI filtering) → Model (medical safety); Legal Assistant: External (client auth) → App (privilege checks) → Model (ethical…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-501.png
-Notion: https://app.notion.com/p/Layered-Defense-Pattern-LDP-c6fa9aed534482edbb298135d1d6f62c
+File: library/agentic-patterns/AGP-108-layered-defense-pattern-ldp.md
 
 ## AGP-110 — Local-Distant Agent Data Protection Pattern (LDADP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -310,7 +310,7 @@ Notion: https://app.notion.com/p/Layered-Defense-Pattern-LDP-c6fa9aed534482edbb2
 **Measure.** Privacy Budget Usage (% of epsilon consumed across all agents); Re-identification Risk (Probability of data re-identification (<0.001% target)); Model Accuracy Trade-off (% accuracy vs centralized approach); Local Processing Latency (On-device computation time (ms)); Federated Convergence (Rounds needed for model convergence); Communication Overhead (% reduction vs raw data sharing); Healthcare: Multi-hospital federated learning with patient data isolation and differential privacy; Finance…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-502.png
-Notion: https://app.notion.com/p/Local-Distant-Agent-Data-Protection-Pattern-LDADP-575a9aed534483928f37015c804957ce
+File: library/agentic-patterns/AGP-110-local-distant-agent-data-protection-pattern-ldadp.md
 
 ## AGP-111 — MAESTRO Multi-Agent Security Pattern (MAS)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -334,7 +334,7 @@ Notion: https://app.notion.com/p/Local-Distant-Agent-Data-Protection-Pattern-LDA
 **Measure.** Consensus Time (ms to reach multi-agent agreement); Detection Coverage (% threats caught by ensemble); False Positive Rate (Incorrect consensus decisions); Agent Availability (Uptime across security agents); Collusion Detection (Coordinated attack attempts found); Decision Quality (Accuracy vs single-agent baseline); Financial Trading: Multiple agents validate trades before execution; Autonomous Vehicles: Safety agents coordinate perception & decision validation; Healthcare Diagnosis…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-503.png
-Notion: https://app.notion.com/p/MAESTRO-Multi-Agent-Security-Pattern-MAS-833a9aed5344827ba8a701b20afa983a
+File: library/agentic-patterns/AGP-111-maestro-multi-agent-security-pattern-mas.md
 
 ## AGP-122 — Memory Poisoning Prevention Pattern (MPP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -358,7 +358,7 @@ Notion: https://app.notion.com/p/MAESTRO-Multi-Agent-Security-Pattern-MAS-833a9a
 **Measure.** Injection Blocked (Malicious attempts prevented/month); Memory Integrity (% of verified memory chunks); False Memory Rate (Incorrect entries detected); Recovery Time (Minutes to restore from corruption); Validation Latency (ms per memory operation); Storage Efficiency (Compression ratio after sanitization); Customer Service: Prevent preference manipulation & false history injection; Personal Assistants: Protect user data from adversarial memory corruption; Enterprise AI: Ensure business…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-504.png
-Notion: https://app.notion.com/p/Memory-Poisoning-Prevention-Pattern-MPP-c80a9aed534483d8bf9181e66f1f30cd
+File: library/agentic-patterns/AGP-122-memory-poisoning-prevention-pattern-mpp.md
 
 ## AGP-147 — Privilege Compromise Mitigation Pattern (PCM)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -382,7 +382,7 @@ Notion: https://app.notion.com/p/Memory-Poisoning-Prevention-Pattern-MPP-c80a9ae
 **Measure.** Escalation Attempts (Unauthorized privilege requests/day); Privilege Lifetime (Average minutes before de-escalation); Approval Rate (% high-risk operations approved); Identity Violations (Agent impersonation attempts); Compliance Score (% operations within policy); Audit Trail (Complete privilege history coverage); Financial Systems: Prevent unauthorized trades, transfers, or account access; Healthcare AI: Ensure PHI access follows minimum necessary principle; Enterprise Automation: Control…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-505.png
-Notion: https://app.notion.com/p/Privilege-Compromise-Mitigation-Pattern-PCM-f17a9aed534482c794548192297d2c8b
+File: library/agentic-patterns/AGP-147-privilege-compromise-mitigation-pattern-pcm.md
 
 ## AGP-164 — Secure Multi-Party Computation (SMPC)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -406,7 +406,7 @@ Notion: https://app.notion.com/p/Privilege-Compromise-Mitigation-Pattern-PCM-f17
 **Measure.** Privacy Preservation (Zero data leakage guarantee); Computation Accuracy (Correctness of results vs. plaintext); Protocol Efficiency (Communication rounds and bandwidth); Scalability (Performance with increasing parties); Security Proofs (Cryptographic security guarantees); Fault Tolerance (Resilience to party failures); Banking Consortium: Joint fraud detection without sharing customer data; Healthcare Research: Multi-hospital studies preserving patient privacy; Supply Chain: Collaborative…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-506.png
-Notion: https://app.notion.com/p/Secure-Multi-Party-Computation-SMPC-317a9aed53448395ac13011431718bfb
+File: library/agentic-patterns/AGP-164-secure-multi-party-computation-smpc.md
 
 ## AGP-184 — Threat Detection & Response (TDR)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -430,7 +430,7 @@ Notion: https://app.notion.com/p/Secure-Multi-Party-Computation-SMPC-317a9aed534
 **Measure.** Mean Time to Detection (MTTD) (Time to identify threats); Mean Time to Response (MTTR) (Time to begin containment); False Positive Rate (% benign activities flagged as threats); Threat Coverage (% known attack vectors detected); Incident Containment Rate (% threats successfully isolated); Alert Fatigue Index (Security team alert overload metric); SOC Operations: 24/7 monitoring, automated triage, incident orchestration; Cloud AI Security: Container threats, API anomalies, data exfiltration…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-508.png
-Notion: https://app.notion.com/p/Threat-Detection-Response-TDR-e49a9aed5344828c865901f68d8a4397
+File: library/agentic-patterns/AGP-184-threat-detection-and-response-tdr.md
 
 ## AGP-185 — Tool Misuse Prevention Pattern (TMP)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -454,7 +454,7 @@ Notion: https://app.notion.com/p/Threat-Detection-Response-TDR-e49a9aed5344828c8
 **Measure.** Blocked Attempts (Malicious tool calls prevented/day); Validation Success (% parameters passing checks); Sandbox Escapes (Breach attempts detected); Resource Violations (Timeout/memory limit hits); Audit Coverage (% tool calls fully logged); Response Latency (ms added by security checks); DevOps Assistant: Prevent rm -rf, sudo, chmod on critical systems; Data Analysis: Block unauthorized database queries & data exfiltration; File Management: Restrict access to sensitive directories & file…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-509.png
-Notion: https://app.notion.com/p/Tool-Misuse-Prevention-Pattern-TMP-4fda9aed534482dc978b8173d4bd8efe
+File: library/agentic-patterns/AGP-185-tool-misuse-prevention-pattern-tmp.md
 
 ## AGP-194 — Zero-Trust Agent Architecture (ZTAA)
 - Score 3 · Agentic Patterns / Security & Privacy
@@ -478,4 +478,4 @@ Notion: https://app.notion.com/p/Tool-Misuse-Prevention-Pattern-TMP-4fda9aed5344
 **Measure.** Security Incident Reduction (% decrease in security breaches); Mean Time to Detection (MTTD) (Time to identify threats); False Positive Rate (% legitimate activities flagged); Access Decision Latency (Time for authorization decisions); Policy Compliance (% adherence to security policies); Agent Productivity Impact (Performance degradation from security); Enterprise AI Platform: Multi-tenant isolation, dynamic access control, continuous verification; Cloud AI Services: Container security, API…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-510.png
-Notion: https://app.notion.com/p/Zero-Trust-Agent-Architecture-ZTAA-eafa9aed53448318accd013d47d9ab89
+File: library/agentic-patterns/AGP-194-zero-trust-agent-architecture-ztaa.md

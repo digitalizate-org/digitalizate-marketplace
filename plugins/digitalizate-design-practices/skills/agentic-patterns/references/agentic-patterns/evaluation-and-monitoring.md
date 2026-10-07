@@ -22,7 +22,7 @@
 **Measure.** Overall Safety Score (5-point scale (Poor to Excellent)); Per-Hazard Performance (% violations per category); Violation Rate (Harmful responses / total prompts); Reference Model Comparison (Relative safety vs baseline); Hidden Test Performance (Safety on undisclosed prompts); Language Parity (Consistency across supported languages); Model Safety Certification: Pre-deployment validation for chat-based LLMs with standardized scoring; Regulatory Compliance: EU AI Act, NIST frameworks requiring…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-521.png
-Notion: https://app.notion.com/p/MLCommons-AI-Safety-Benchmark-v1-0-AILuminate-cbaa9aed53448340a25701d137c53d1e
+File: library/agentic-patterns/AGP-114-mlcommons-ai-safety-benchmark-v1-0-ailuminate.md
 
 ## AGP-001 — 12-Factor Agent Methodology (12FA)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -58,7 +58,7 @@ Notion: https://app.notion.com/p/MLCommons-AI-Safety-Benchmark-v1-0-AILuminate-c
 **Measure.** Production Reliability (>90% success rate in production environments); Agent Response Time (P95 latency for agent task completion); Human Escalation Rate (% of tasks requiring human intervention); Context Window Utilization (Efficiency of context management); Error Recovery Success (% of errors resolved through self-healing); Multi-Channel Adoption (Usage across different user interfaces); Enterprise Customer Support: Human-escalated agent handling complex support tickets across multiple…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-526.png
-Notion: https://app.notion.com/p/12-Factor-Agent-Methodology-12FA-1cea9aed5344834eb63801ae39625fc9
+File: library/agentic-patterns/AGP-001-12-factor-agent-methodology-12fa.md
 
 ## AGP-006 — AISI Evaluation Framework (AISI-Eval)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -82,7 +82,7 @@ Notion: https://app.notion.com/p/12-Factor-Agent-Methodology-12FA-1cea9aed534483
 **Measure.** Capability Score (Autonomous capability assessment (0-100%)); Misuse Potential (Risk of malicious use exploitation); Safety Threshold (Pass/fail against predefined limits); Expert Assessment (Red-team evaluation outcomes); Societal Impact (Broad societal risk evaluation); Compliance Rate (International standard adherence); Frontier AI Safety Assessment: GPT-5/Claude-4 level models requiring government approval; International Coordination: Multi-country safety evaluation protocols (UK-US-EU)…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-512.png
-Notion: https://app.notion.com/p/AISI-Evaluation-Framework-AISI-Eval-f76a9aed5344837fad1f016e9ee6845d
+File: library/agentic-patterns/AGP-006-aisi-evaluation-framework-aisi-eval.md
 
 ## AGP-019 — AgentBench (AgentBench)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -106,7 +106,7 @@ Notion: https://app.notion.com/p/AISI-Evaluation-Framework-AISI-Eval-f76a9aed534
 **Measure.** Overall Success Rate (Aggregate performance across all 8 environments); Per-Environment Score (Domain-specific capability assessment); Multi-turn Coherence (Consistency across conversation turns); Instruction Following (Adherence to task specifications); Long-term Reasoning (Performance on extended reasoning tasks); API vs OSS Gap (Commercial vs open-source model comparison); LLM Agent Research: Comprehensive evaluation of reasoning and decision-making across diverse domains; Model Comparison…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-511.png
-Notion: https://app.notion.com/p/AgentBench-AgentBench-839a9aed5344827281ab814c902534d5
+File: library/agentic-patterns/AGP-019-agentbench-agentbench.md
 
 ## AGP-035 — Constitutional AI Evaluation Framework (CAI-Eval)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -130,7 +130,7 @@ Notion: https://app.notion.com/p/AgentBench-AgentBench-839a9aed5344827281ab814c9
 **Measure.** Jailbreak Success Rate (Percentage of successful attacks (target <5%)); Over-refusal Rate (False positive safety blocks (target <1%)); Constitutional Adherence (Compliance with defined principles (0-10)); Red Team Resistance (Performance against human adversaries); Computational Overhead (Additional processing cost (+20-30%)); Universal Jailbreak Detection (Cross-query attack prevention); Enterprise AI Safety: Production chatbots with 95%+ jailbreak resistance for customer service; Educational…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-513.png
-Notion: https://app.notion.com/p/Constitutional-AI-Evaluation-Framework-CAI-Eval-d06a9aed5344831dbe3301ec710c20dd
+File: library/agentic-patterns/AGP-035-constitutional-ai-evaluation-framework-cai-eval.md
 
 ## AGP-058 — CybersecEval 3 (CSE3)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -154,7 +154,7 @@ Notion: https://app.notion.com/p/Constitutional-AI-Evaluation-Framework-CAI-Eval
 **Measure.** Third-Party Risk Score (Assessment across 4 offensive capability categories); Developer/End-User Risk (Security risks to application developers and users); Autonomous Hacking Capability (Success rate in autonomous cyber operation challenges); Vulnerability Discovery Rate (Effectiveness at finding and exploiting software vulnerabilities); Social Engineering Success (Ability to generate persuasive spear-phishing attacks); Guardrail Effectiveness (Llama Guard 3 detection and blocking success…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-514.png
-Notion: https://app.notion.com/p/CybersecEval-3-CSE3-600a9aed5344820d8e438187cb312c77
+File: library/agentic-patterns/AGP-058-cyberseceval-3-cse3.md
 
 ## AGP-065 — EU AI Act Compliance Framework (EU-AIACT)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -178,7 +178,7 @@ Notion: https://app.notion.com/p/CybersecEval-3-CSE3-600a9aed5344820d8e438187cb3
 **Measure.** Risk Classification Accuracy (Correct categorization into Prohibited/High/Limited/Minimal risk tiers); GPAI Model Compliance (11 global providers currently exceed 10^25 FLOPs threshold); Red Teaming Coverage (Systematic adversarial testing documenting risk identification and mitigation); Cybersecurity Protection (Defense against data poisoning, model evasion, adversarial attacks); Incident Response Rate (Timely reporting of serious incidents to EU AI Office); Transparency Compliance (User…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-515.png
-Notion: https://app.notion.com/p/EU-AI-Act-Compliance-Framework-EU-AIACT-c89a9aed534483ea873201fb18789498
+File: library/agentic-patterns/AGP-065-eu-ai-act-compliance-framework-eu-aiact.md
 
 ## AGP-081 — GAIA: General AI Assistants Benchmark (GAIA)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -202,7 +202,7 @@ Notion: https://app.notion.com/p/EU-AI-Act-Compliance-Framework-EU-AIACT-c89a9ae
 **Measure.** Overall Accuracy (Primary metric: percentage of correctly answered questions across all levels); Level-wise Performance (Breakdown by difficulty: Level 1 (simple), Level 2 (moderate), Level 3 (complex)); Human-AI Gap (Current gap: 27% (Human 92% vs h2oGPTe 65%)); Tool Use Effectiveness (Success rate in web browsing, file handling, and multimodal tasks); Multi-step Reasoning (Ability to coordinate reasoning across 5-50 steps depending on level); Task Completion Rate (Percentage of tasks…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-516.png
-Notion: https://app.notion.com/p/GAIA-General-AI-Assistants-Benchmark-GAIA-163a9aed534483cf8d2901fc7a978961
+File: library/agentic-patterns/AGP-081-gaia-general-ai-assistants-benchmark-gaia.md
 
 ## AGP-086 — HELM Agent Evaluation Framework (HELM-AE)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -233,7 +233,7 @@ Notion: https://app.notion.com/p/GAIA-General-AI-Assistants-Benchmark-GAIA-163a9
 **Measure.** Holistic Score (Aggregate performance across all 7 dimensions); Scenario Coverage (Performance across 16 core + 26 targeted scenarios); Trade-off Analysis (Correlation patterns between different metrics); Multimodal Capability (Text-to-image and vision-language performance); Tool Use Proficiency (External API integration and plugin effectiveness); Simulation Environment Success (End-to-end task completion in realistic settings); Academic Model Comparison: Standardized evaluation across 30+…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-517.png
-Notion: https://app.notion.com/p/HELM-Agent-Evaluation-Framework-HELM-AE-2f7a9aed534482c4b0c401cca4da8958
+File: library/agentic-patterns/AGP-086-helm-agent-evaluation-framework-helm-ae.md
 
 ## AGP-093 — Human-in-the-Loop Agent (HULA)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -257,7 +257,7 @@ Notion: https://app.notion.com/p/HELM-Agent-Evaluation-Framework-HELM-AE-2f7a9ae
 **Measure.** Plan Generation Success (79% of work items receive successful coding plans); Plan Approval Rate (82% of generated plans approved by engineers); Code Generation Success (87% of approved plans result in generated code); Pull Request Rate (25% of generated code reaches pull request stage); Merge Success Rate (59% of HULA PRs merged into repositories); SWE-bench Performance (37.2% resolution rate on SWE-bench Verified); Enterprise Software Development: Atlassian deployment with 45 engineers, ~900…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-518.png
-Notion: https://app.notion.com/p/Human-in-the-Loop-Agent-HULA-9b1a9aed534483d2b4b9811aead32653
+File: library/agentic-patterns/AGP-093-human-in-the-loop-agent-hula.md
 
 ## AGP-112 — MAPS: Multilingual Agent Performance & Security (MAPS)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -281,7 +281,7 @@ Notion: https://app.notion.com/p/Human-in-the-Loop-Agent-HULA-9b1a9aed534483d2b4
 **Measure.** Language Parity (Performance ratio vs English baseline (0-1)); Task Completion Rate (Success rate across multilingual tasks); Security Degradation (ASB safety violation increase vs English); Cultural Bias Score (Bias detection across language groups); Translation Correlation (Performance vs translated input ratio); Cross-lingual Robustness (Adversarial resistance across languages); Global Enterprise Deployment: Multi-language customer service agents with consistent performance; Cultural Bias…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-519.png
-Notion: https://app.notion.com/p/MAPS-Multilingual-Agent-Performance-Security-MAPS-d9aa9aed5344825baac2011f4e7b89f7
+File: library/agentic-patterns/AGP-112-maps-multilingual-agent-performance-and-security-maps.md
 
 ## AGP-113 — METR RE-Bench (RE-Bench)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -305,7 +305,7 @@ Notion: https://app.notion.com/p/MAPS-Multilingual-Agent-Performance-Security-MA
 **Measure.** Expert Success Rate (82% of human experts achieved non-zero scores); Strong Solution Match (24% of experts matched or exceeded reference solutions); Short-term Agent Advantage (4x higher scores than humans at 2-hour budget); Long-term Human Advantage (2x human scores vs top agents at 32-hour budget); Solution Generation Speed (Agents generate/test solutions 10x faster than humans); Cost Efficiency (Much lower cost per solution attempt for AI agents); AI Safety Research: Evaluating R&D…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-520.png
-Notion: https://app.notion.com/p/METR-RE-Bench-RE-Bench-0dfa9aed5344832abde70132c40c3ecd
+File: library/agentic-patterns/AGP-113-metr-re-bench-re-bench.md
 
 ## AGP-115 — MLR-Bench (MLR-Bench)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -329,7 +329,7 @@ Notion: https://app.notion.com/p/METR-RE-Bench-RE-Bench-0dfa9aed5344832abde70132
 **Measure.** Overall Research Quality (Composite score across 5 evaluation dimensions); Stage-wise Performance (Success rate in idea, code, analysis, writing stages); Domain-specific Scores (Performance across 9 ML research areas); MLR-Judge Alignment (Correlation with human expert reviewers); Innovation Index (Novelty and significance of generated research); Technical Soundness (Code quality and experimental validity); Research Automation Assessment: Evaluating AI agents on complete ML research pipeline…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-522.png
-Notion: https://app.notion.com/p/MLR-Bench-MLR-Bench-dfaa9aed5344831199098143afc1c118
+File: library/agentic-patterns/AGP-115-mlr-bench-mlr-bench.md
 
 ## AGP-116 — MMAU: Massive Multitask Agent Understanding (MMAU)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -353,7 +353,7 @@ Notion: https://app.notion.com/p/MLR-Bench-MLR-Bench-dfaa9aed5344831199098143afc
 **Measure.** Domain Performance (Breakdown across Tool-use, DAG QA, Data Science, Programming, Mathematics); Capability Assessment (Understanding, Reasoning, Planning, Problem-solving, Self-correction scores); Commercial vs Open-Source Gap (Clear performance gap with GPT-4 family leading commercial models); Task Completion Rate (Success rate across 20 meticulously designed tasks); Tool-Use Proficiency (Specialized evaluation of tool interaction capabilities); Subject Coverage (Performance across 64 subjects…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-523.png
-Notion: https://app.notion.com/p/MMAU-Massive-Multitask-Agent-Understanding-MMAU-635a9aed534483edae178133607f2bb4
+File: library/agentic-patterns/AGP-116-mmau-massive-multitask-agent-understanding-mmau.md
 
 ## AGP-162 — SWE-bench Suite (SWE-bench)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -377,7 +377,7 @@ Notion: https://app.notion.com/p/MMAU-Massive-Multitask-Agent-Understanding-MMAU
 **Measure.** % Resolved (Primary) (Percentage of GitHub issues successfully resolved with working patches); Pass@k Success Rate (Success rate across k attempts (typically k=1)); Functional Correctness (Patches that actually fix the issue without breaking existing tests); Repository Coverage (Performance across 12+ diverse Python repositories); Solution Quality (Patch elegance, maintainability, and adherence to coding standards); Time to Resolution (Average time taken to generate working patches); Industry…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-524.png
-Notion: https://app.notion.com/p/SWE-bench-Suite-SWE-bench-c07a9aed5344838d973501396a5d054f
+File: library/agentic-patterns/AGP-162-swe-bench-suite-swe-bench.md
 
 ## AGP-183 — TheAgentCompany Benchmark (TAC)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -401,7 +401,7 @@ Notion: https://app.notion.com/p/SWE-bench-Suite-SWE-bench-c07a9aed5344838d97350
 **Measure.** Full Completion Rate (% of tasks completed successfully (typically ~30%)); Partial Credit Score (Weighted score including partial progress); Task Category Performance (Success rate by job role (dev, QA, PM, etc.)); Time to Completion (Average duration for successful task completion); Communication Effectiveness (Quality of agent-to-colleague interactions); Tool Usage Proficiency (Effective use of browser, terminal, code editor); Enterprise Readiness Assessment: Evaluating AI agents for real…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-525.png
-Notion: https://app.notion.com/p/TheAgentCompany-Benchmark-TAC-f22a9aed5344835384f60130992ed892
+File: library/agentic-patterns/AGP-183-theagentcompany-benchmark-tac.md
 
 ## AGP-192 — WebArena Evaluation Suite (WebArena)
 - Score 2 · Agentic Patterns / Evaluation & Monitoring
@@ -425,4 +425,4 @@ Notion: https://app.notion.com/p/TheAgentCompany-Benchmark-TAC-f22a9aed534483538
 **Measure.** Task Success Rate (Primary metric: percentage of successfully completed web tasks); Human vs Agent Gap (WebArena: 78.2% vs 14.4%, VisualWebArena: 88.7% vs 16.4%); Multimodal Understanding (Success on 25.2% of tasks requiring visual-text integration); Enterprise Task Completion (WorkArena: 55% success rate on knowledge work tasks); Site Coverage (Performance across e-commerce, forums, development, content management); Functional Correctness (Execution-based evaluation of actual task completion)…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-527.png
-Notion: https://app.notion.com/p/WebArena-Evaluation-Suite-WebArena-861a9aed534483e8968981ac31b9d9fc
+File: library/agentic-patterns/AGP-192-webarena-evaluation-suite-webarena.md

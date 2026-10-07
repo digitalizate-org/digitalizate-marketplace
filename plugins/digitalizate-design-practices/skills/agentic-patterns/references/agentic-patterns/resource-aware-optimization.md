@@ -9,7 +9,7 @@
 **Why.** Intelligently selects AI models based on cost-performance trade-offs for specific tasks.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-482.png
-Notion: https://app.notion.com/p/Cost-Aware-Model-Selection-CAMS-124a9aed534483d9a2040110e307f34a
+File: library/agentic-patterns/AGP-055-cost-aware-model-selection-cams.md
 
 ## AGP-106 — Latency Optimization (LO)
 - Score 3 · Agentic Patterns / Resource-Aware Optimization
@@ -20,7 +20,7 @@ Notion: https://app.notion.com/p/Cost-Aware-Model-Selection-CAMS-124a9aed534483d
 **Why.** Minimizes response time through predictive loading, caching, and request optimization.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-484.png
-Notion: https://app.notion.com/p/Latency-Optimization-LO-fbda9aed534482a09303016c30bf4159
+File: library/agentic-patterns/AGP-106-latency-optimization-lo.md
 
 ## AGP-010 — Adaptive Compute Scaling (ACS)
 - Score 2 · Agentic Patterns / Resource-Aware Optimization
@@ -31,7 +31,7 @@ Notion: https://app.notion.com/p/Latency-Optimization-LO-fbda9aed534482a09303016
 **Why.** Dynamically adjusts computational resources based on workload demands and performance requirements.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-481.png
-Notion: https://app.notion.com/p/Adaptive-Compute-Scaling-ACS-99da9aed5344837993b3817b385519d9
+File: library/agentic-patterns/AGP-010-adaptive-compute-scaling-acs.md
 
 ## AGP-068 — Energy-Efficient Inference (EEI)
 - Score 2 · Agentic Patterns / Resource-Aware Optimization
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Adaptive-Compute-Scaling-ACS-99da9aed5344837993
 **Why.** Optimizes AI inference for minimal energy consumption while maintaining performance.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-483.png
-Notion: https://app.notion.com/p/Energy-Efficient-Inference-EEI-034a9aed534482d6b80781c1527ee2ee
+File: library/agentic-patterns/AGP-068-energy-efficient-inference-eei.md
 
 ## AGP-121 — Memory Optimization (MO)
 - Score 2 · Agentic Patterns / Resource-Aware Optimization
@@ -53,4 +53,4 @@ Notion: https://app.notion.com/p/Energy-Efficient-Inference-EEI-034a9aed534482d6
 **Why.** Efficiently manages memory usage through caching, compression, and garbage collection strategies.
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-485.png
-Notion: https://app.notion.com/p/Memory-Optimization-MO-352a9aed534483ccbbc0814bce20e784
+File: library/agentic-patterns/AGP-121-memory-optimization-mo.md

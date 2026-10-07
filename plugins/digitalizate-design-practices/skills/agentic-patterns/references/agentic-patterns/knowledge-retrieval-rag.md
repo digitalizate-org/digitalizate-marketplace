@@ -22,7 +22,7 @@
 **Measure.** Retrieval Precision (Relevant docs in top-k after reranking); Answer Faithfulness (Generated content grounded in retrieved docs); Context Relevance (Retrieved context relevance to query); Reranking Effectiveness (NDCG@k improvement vs base retrieval); Query Understanding (Semantic similarity after expansion/rewriting); End-to-End Latency (Including pre-processing and reranking overhead); Enterprise Search: Complex queries over large corporate knowledge bases with reranking; Legal Research…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-446.png
-Notion: https://app.notion.com/p/Advanced-RAG-ARAG-626a9aed5344835f9fbc81cc6725efc0
+File: library/agentic-patterns/AGP-013-advanced-rag-arag.md
 
 ## AGP-137 — Naive RAG (NRAG)
 - Score 4 · Agentic Patterns / Knowledge Retrieval (RAG)
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Advanced-RAG-ARAG-626a9aed5344835f9fbc81cc6725e
 **Measure.** Retrieval Accuracy (Relevant docs in top-k (Recall@k)); Answer Quality (BLEU/ROUGE scores vs ground truth); Response Time (End-to-end latency (retrieval + generation)); Context Utilization (% of retrieved context used in response); Hallucination Rate (% responses with unsupported claims); Source Attribution (% responses with correct source citations); Document Q&A: Simple factual questions over company documents or knowledge bases; FAQ Systems: Automated responses to frequently asked questions…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-452.png
-Notion: https://app.notion.com/p/Naive-RAG-NRAG-f08a9aed5344826c82c80165c0b9cd3e
+File: library/agentic-patterns/AGP-137-naive-rag-nrag.md
 
 ## AGP-020 — Agentic RAG (AgRAG)
 - Score 3 · Agentic Patterns / Knowledge Retrieval (RAG)
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Naive-RAG-NRAG-f08a9aed5344826c82c80165c0b9cd3e
 **Measure.** Plan Execution Success (Percentage of agent plans successfully completed without errors); Retrieval Strategy Effectiveness (Quality improvement from adaptive vs fixed retrieval strategies); Evidence Synthesis Quality (Coherence and completeness of multi-source information integration); Reasoning Trace Fidelity (Accuracy and explainability of step-by-step reasoning chains); Tool Utilization Efficiency (Optimal use of available retrieval tools and APIs); Cost-Quality Tradeoff (Answer quality per…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-447.png
-Notion: https://app.notion.com/p/Agentic-RAG-AgRAG-8ada9aed534483d8823101d5cba7508d
+File: library/agentic-patterns/AGP-020-agentic-rag-agrag.md
 
 ## AGP-054 — Corrective RAG (CRAG)
 - Score 3 · Agentic Patterns / Knowledge Retrieval (RAG)
@@ -94,7 +94,7 @@ Notion: https://app.notion.com/p/Agentic-RAG-AgRAG-8ada9aed534483d8823101d5cba75
 **Measure.** Answer Faithfulness (Factual correctness and groundedness in retrieved evidence); Evaluator Calibration (Accuracy of quality confidence predictions (ROC-AUC, ECE)); Correction Effectiveness (Quality improvement from corrective actions); Retrieval Precision (Relevance of documents after correction); Citation Coverage (Percentage of claims supported by evidence); Action Distribution (Balance of use/supplement/re-retrieve decisions); Legal Research: Case law analysis requiring verified sources and…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-448.png
-Notion: https://app.notion.com/p/Corrective-RAG-CRAG-60ea9aed534482e292fc81d81faa28e2
+File: library/agentic-patterns/AGP-054-corrective-rag-crag.md
 
 ## AGP-082 — Graph RAG (GRAG)
 - Score 3 · Agentic Patterns / Knowledge Retrieval (RAG)
@@ -118,7 +118,7 @@ Notion: https://app.notion.com/p/Corrective-RAG-CRAG-60ea9aed534482e292fc81d81fa
 **Measure.** Graph Construction Quality (Precision/recall of extracted entities and relations); Community Detection Accuracy (Coherence and relevance of detected communities); Retrieval Relevance (Proportion of relevant subgraphs in query results); Multi-hop Reasoning (Accuracy of complex relationship inference); Context Completeness (Coverage of relevant graph neighborhoods); Query Response Time (End-to-end latency including graph operations); Biomedical Research: Drug-disease-gene relationship exploration…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-449.png
-Notion: https://app.notion.com/p/Graph-RAG-GRAG-61da9aed5344835e993a0102e653be45
+File: library/agentic-patterns/AGP-082-graph-rag-grag.md
 
 ## AGP-129 — Modular RAG (MRAG)
 - Score 3 · Agentic Patterns / Knowledge Retrieval (RAG)
@@ -142,7 +142,7 @@ Notion: https://app.notion.com/p/Graph-RAG-GRAG-61da9aed5344835e993a0102e653be45
 **Measure.** Module Isolation (Independence and replaceability of individual modules); Pipeline Flexibility (Number of supported module combinations and configurations); Development Velocity (Time to implement new modules or modify existing ones); System Reliability (Fault isolation and graceful degradation capabilities); Performance Scalability (Independent scaling of bottleneck modules); Configuration Complexity (Ease of pipeline composition and module orchestration); Enterprise RAG Platforms: Modular…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-450.png
-Notion: https://app.notion.com/p/Modular-RAG-MRAG-8b1a9aed53448312b04e01415b51284c
+File: library/agentic-patterns/AGP-129-modular-rag-mrag.md
 
 ## AGP-136 — Multimodal RAG (MMRAG)
 - Score 3 · Agentic Patterns / Knowledge Retrieval (RAG)
@@ -166,7 +166,7 @@ Notion: https://app.notion.com/p/Modular-RAG-MRAG-8b1a9aed53448312b04e01415b5128
 **Measure.** Cross-Modal Retrieval (Recall@k and MRR across different modality combinations); Fusion Effectiveness (Performance improvement from multi-modal vs single-modal retrieval); Generation Faithfulness (Accuracy of vision-language model outputs with multi-modal evidence); Citation Quality (Precision of cross-modal evidence attribution and source linking); Modality Coverage (Balanced utilization of available modalities in retrieval results); Processing Efficiency (Latency and cost per modality…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-451.png
-Notion: https://app.notion.com/p/Multimodal-RAG-MMRAG-0efa9aed5344820b9e04810b4fb2c8a8
+File: library/agentic-patterns/AGP-136-multimodal-rag-mmrag.md
 
 ## AGP-167 — Self-RAG (SRAG)
 - Score 3 · Agentic Patterns / Knowledge Retrieval (RAG)
@@ -190,4 +190,4 @@ Notion: https://app.notion.com/p/Multimodal-RAG-MMRAG-0efa9aed5344820b9e04810b4f
 **Measure.** Answer Faithfulness (Factual accuracy and consistency with retrieved evidence); Reflection Calibration (Correlation between confidence scores and actual accuracy); Retrieval Precision (Proportion of retrieved passages that are genuinely useful); Citation Coverage (Percentage of claims supported by retrieved evidence); Refinement Effectiveness (Quality improvement through iterative self-correction); Computational Efficiency (Quality gains per additional token or retrieval call); Medical Q&A…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-453.png
-Notion: https://app.notion.com/p/Self-RAG-SRAG-af7a9aed5344830f8492819516b2862f
+File: library/agentic-patterns/AGP-167-self-rag-srag.md

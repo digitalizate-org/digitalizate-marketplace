@@ -1,9 +1,9 @@
 """Utilidades compartidas por los scripts de digitalizate-design-practices.
 
-- Carga de config y de data/practices.json
-- Slugs, grupos (ux / agentic), prefijos de ID
-- Asignación de IDs canónicos estable (persistida en data/id_map.json)
-- Parseo del cuerpo markdown de una ficha en secciones
+- Carga de config y de la librería en markdown (library/<categoría>/<ID>-<slug>.md)
+- Front matter: subconjunto de YAML (escalares y listas de texto), sin dependencias
+- Slugs, grupos (ux / agentic), prefijos de ID y validación de la librería
+- Parseo del cuerpo de una ficha en secciones
 """
 from __future__ import annotations
 
@@ -15,25 +15,21 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config" / "build.json"
+LIBRARY_DIR = ROOT / "library"
 DATA_DIR = ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"
-PRACTICES_PATH = DATA_DIR / "practices.json"
-ID_MAP_PATH = DATA_DIR / "id_map.json"
-ID_CHANGES_PATH = DATA_DIR / "id_changes.csv"
-ENRICHMENT_DIR = DATA_DIR / "enrichment"
 REPORTS_DIR = ROOT / "reports"
+
+FRONT_MATTER_KEYS = (
+    "id", "title", "category", "subcategory", "score", "context", "avoid_when",
+    "goals", "tags", "status", "verify", "verifiable_by", "anti_pattern",
+    "wireframe", "notion",
+)
+VERIFIABLE_BY = ("lint", "test", "visual", "judgment")
 
 
 def load_config() -> dict:
     return json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-
-
-def load_practices(path: Path = PRACTICES_PATH) -> list[dict]:
-    if not path.exists():
-        raise SystemExit(
-            f"No existe {path}. Corre primero: python scripts/export_notion.py"
-        )
-    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def load_json(path: Path, default):
@@ -59,15 +55,11 @@ def group_of(category: str | None, config: dict) -> str:
     return groups["by_category"].get(category or "", groups["default"])
 
 
-# ---------------------------------------------------------------------------
-# IDs canónicos
-# ---------------------------------------------------------------------------
-
 ID_RE = re.compile(r"^([A-Z]{2,5})-(\d{1,5})$")
 
 
 def parse_id(value: str | None):
-    if not value:
+    if not value or not isinstance(value, str):
         return None
     m = ID_RE.match(value.strip())
     if not m:
@@ -75,82 +67,209 @@ def parse_id(value: str | None):
     return m.group(1), int(m.group(2))
 
 
-def assign_ids(practices: list[dict], id_map: dict, config: dict) -> list[dict]:
-    """Asigna un ID canónico a cada ficha y devuelve la lista de cambios.
+CONTEXT_PREFIX = re.compile(r"^\s*(use when|when to use|apply when)\s*:\s*", re.IGNORECASE)
 
-    Reglas, en orden:
-    1. Si la página ya está en id_map, se respeta (estabilidad entre builds).
-    2. Si el ID de Notion es único y libre, se conserva.
-    3. Si el ID está repetido, lo conserva la ficha cuyo grupo NO está en
-       config.reassign_groups (la de psicología gana sobre la agéntica).
-    4. Lo demás recibe un ID nuevo con el prefijo de su grupo, numerado a
-       continuación del máximo existente para ese prefijo.
 
-    El orden de recorrido es por created_time y título, así el resultado es
-    determinista aunque Notion devuelva las filas en otro orden.
-    """
-    used: dict[str, str] = {}  # id -> page_id
-    for page_id, cid in id_map.items():
-        used[cid] = page_id
+def clean_context(text: str) -> str:
+    """Quita el prefijo 'Use when:' que algunos lotes repiten dentro del campo Context."""
+    return CONTEXT_PREFIX.sub("", text or "", count=1).strip()
 
-    by_notion_id: dict[str, list[dict]] = defaultdict(list)
-    for p in practices:
-        if p.get("id_notion"):
-            by_notion_id[p["id_notion"]].append(p)
 
-    ordered = sorted(practices, key=lambda p: (p.get("created_time") or "", p.get("title") or ""))
-    changes: list[dict] = []
+# ---------------------------------------------------------------------------
+# Front matter (subconjunto de YAML)
+# ---------------------------------------------------------------------------
+#
+# Gramática admitida, suficiente para las fichas y editable a mano:
+#   clave: valor                 escalar en una línea; texto entre comillas dobles
+#                                (escapes JSON), comillas simples o sin comillas;
+#                                enteros; true/false; vacío o null = sin valor
+#   clave:                       lista de escalares en las líneas siguientes
+#     - valor
+#   # comentario                 línea completa
+# No se admiten bloques multilínea (| o >), mapas anidados ni secuencias [a, b].
 
-    def next_free(prefix: str) -> str:
-        top = 0
-        for cid in used:
-            parsed = parse_id(cid)
-            if parsed and parsed[0] == prefix:
-                top = max(top, parsed[1])
-        # también considera los IDs existentes en Notion para no pisarlos
-        for nid in by_notion_id:
-            parsed = parse_id(nid)
-            if parsed and parsed[0] == prefix:
-                top = max(top, parsed[1])
-        return f"{prefix}-{top + 1:03d}"
+_KEY_RE = re.compile(r"^([A-Za-z_][\w-]*):(?:[ \t]+(.*?))?[ \t]*$")
+_ITEM_RE = re.compile(r"^[ \t]+-(?:[ \t]+(.*?))?[ \t]*$")
 
-    for p in ordered:
-        page_id = p["page_id"]
-        if page_id in id_map:
-            p["id"] = id_map[page_id]
-            continue
-        group = group_of(p.get("category"), config)
-        oid = p.get("id_notion")
-        keep = False
-        if oid and parse_id(oid) and oid not in used:
-            siblings = by_notion_id[oid]
-            if len(siblings) == 1:
-                keep = True
-            else:
-                keepers = [
-                    q for q in siblings
-                    if group_of(q.get("category"), config) not in config["reassign_groups"]
-                ]
-                # si varias fichas "no reasignables" chocan, gana la más antigua
-                keepers.sort(key=lambda q: (q.get("created_time") or "", q.get("title") or ""))
-                keep = bool(keepers) and keepers[0]["page_id"] == page_id
-        if keep:
-            cid = oid
+
+def _parse_scalar(raw: str | None):
+    if raw is None:
+        return None
+    s = raw.strip()
+    if s == "" or s in ("null", "~"):
+        return None
+    if s[0] == '"':
+        return json.loads(s)
+    if s[0] == "'":
+        if len(s) < 2 or not s.endswith("'"):
+            raise ValueError(f"comilla simple sin cerrar: {raw!r}")
+        return s[1:-1].replace("''", "'")
+    if s in ("true", "True"):
+        return True
+    if s in ("false", "False"):
+        return False
+    if re.fullmatch(r"-?\d+", s):
+        return int(s)
+    if s[0] in "[{|>&*!%@`":
+        raise ValueError(f"valor no admitido {s!r}: usa comillas dobles; no hay secuencias [a, b], mapas ni bloques | o >")
+    return s
+
+
+def parse_front_matter(text: str) -> tuple[dict, str]:
+    """Devuelve (front_matter, cuerpo). Falla con ValueError si la sintaxis no es la admitida."""
+    if not text.startswith("---\n"):
+        raise ValueError("la ficha debe empezar con una línea '---'")
+    end = text.find("\n---\n", 3)
+    if end < 0:
+        if text.rstrip("\n").endswith("\n---"):
+            end = text.rstrip("\n").rfind("\n---")
+            head, body = text[4:end], ""
         else:
-            cid = next_free(config["id_prefix"].get(group, "UX"))
-            changes.append({
-                "page_id": page_id,
-                "title": p.get("title"),
-                "category": p.get("category"),
-                "old_id": oid or "",
-                "new_id": cid,
-                "reason": "sin ID" if not oid else "ID repetido",
-            })
-        id_map[page_id] = cid
-        used[cid] = page_id
-        p["id"] = cid
+            raise ValueError("front matter sin la línea '---' de cierre")
+    else:
+        head, body = text[4:end], text[end + 5:]
+    data: dict = {}
+    key = None
+    for n, line in enumerate(head.splitlines(), 2):
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        m = _KEY_RE.match(line)
+        if m and not line[0].isspace():
+            key = m.group(1)
+            if key in data:
+                raise ValueError(f"línea {n}: clave repetida '{key}'")
+            data[key] = _parse_scalar(m.group(2))
+            continue
+        m = _ITEM_RE.match(line)
+        if m and key is not None:
+            if data[key] is None:
+                data[key] = []
+            if not isinstance(data[key], list):
+                raise ValueError(f"línea {n}: '{key}' tiene un valor y además una lista")
+            data[key].append(_parse_scalar(m.group(1)))
+            continue
+        raise ValueError(f"línea {n}: sintaxis no admitida en el front matter: {line.strip()!r}")
+    return data, body
 
-    return changes
+
+def _dump_scalar(value) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    if isinstance(value, int):
+        return str(value)
+    return json.dumps(str(value), ensure_ascii=False)
+
+
+def dump_front_matter(data: dict) -> str:
+    lines = ["---"]
+    order = list(FRONT_MATTER_KEYS) + [k for k in data if k not in FRONT_MATTER_KEYS]
+    for key in order:
+        if key not in data:
+            continue
+        value = data[key]
+        if value is None or value == "" or value == []:
+            continue
+        if isinstance(value, list):
+            lines.append(f"{key}:")
+            lines.extend(f"  - {_dump_scalar(x)}" for x in value)
+        else:
+            lines.append(f"{key}: {_dump_scalar(value)}")
+    lines.append("---")
+    return "\n".join(lines) + "\n"
+
+
+# ---------------------------------------------------------------------------
+# Librería en markdown
+# ---------------------------------------------------------------------------
+
+def practice_filename(p: dict) -> str:
+    return f"{p['id']}-{slug(p['title'])[:60].rstrip('-')}.md"
+
+
+def write_practice(p: dict, library_dir: Path = LIBRARY_DIR) -> Path:
+    """Escribe una ficha. `p` trae las claves del front matter y `body` (markdown sin front matter)."""
+    fm = {k: p.get(k) for k in FRONT_MATTER_KEYS}
+    path = library_dir / slug(p["category"]) / practice_filename(p)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(dump_front_matter(fm) + "\n" + (p.get("body") or "").strip() + "\n", encoding="utf-8")
+    return path
+
+
+def load_library(library_dir: Path = LIBRARY_DIR) -> list[dict]:
+    """Lee library/**/*.md y devuelve una lista de fichas con la misma forma que usan build y audit."""
+    if not library_dir.exists():
+        raise SystemExit(f"No existe {library_dir}. La librería vive en library/<categoría>/<ID>-<slug>.md")
+    practices = []
+    for path in sorted(library_dir.rglob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        try:
+            fm, body = parse_front_matter(text)
+        except ValueError as e:
+            raise SystemExit(f"{path.relative_to(ROOT) if path.is_relative_to(ROOT) else path}: {e}") from e
+        sections = split_sections(body)
+        sections["wireframe_url"] = fm.get("wireframe") or sections.get("wireframe_url") or ""
+        sections["avoid_when"] = fm.get("avoid_when") or sections.get("avoid_when") or ""
+        sections["when_to_use"] = fm.get("context") or sections.get("when_to_use") or ""
+        rel = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path.relative_to(library_dir.parent)
+        practices.append({
+            "id": fm.get("id"),
+            "title": (fm.get("title") or "").strip(),
+            "category": fm.get("category"),
+            "subcategory": fm.get("subcategory") or "",
+            "score": fm.get("score"),
+            "context": fm.get("context") or "",
+            "goals": fm.get("goals") or [],
+            "tags": fm.get("tags") or [],
+            "status": fm.get("status"),
+            "verify": fm.get("verify") or "",
+            "verifiable_by": fm.get("verifiable_by"),
+            "anti_pattern": fm.get("anti_pattern") or "",
+            "url": fm.get("notion"),
+            "path": str(rel),
+            "front_matter": fm,
+            "sections": sections,
+            "body_md": body,
+        })
+    return practices
+
+
+def validate_library(practices: list[dict], config: dict) -> list[str]:
+    """Errores que impiden compilar: IDs inválidos o repetidos, prefijo ajeno al grupo, campos obligatorios."""
+    errors: list[str] = []
+    seen: dict[str, str] = {}
+    for p in practices:
+        where = p["path"]
+        pid = p.get("id")
+        parsed = parse_id(pid)
+        if not parsed:
+            errors.append(f"{where}: id inválido {pid!r}; formato UX-001 o AGP-001")
+        else:
+            expected = config["id_prefix"].get(group_of(p.get("category"), config), "UX")
+            if parsed[0] != expected:
+                errors.append(f"{where}: el prefijo {parsed[0]} no corresponde al grupo de su categoría ({expected})")
+            if pid in seen:
+                errors.append(f"{where}: id {pid} repetido, también en {seen[pid]}")
+            seen.setdefault(pid, where)
+            if not Path(where).name.startswith(f"{pid}-"):
+                errors.append(f"{where}: el nombre del archivo debe empezar por '{pid}-'")
+        if not p.get("title"):
+            errors.append(f"{where}: falta title")
+        if not p.get("category"):
+            errors.append(f"{where}: falta category")
+        elif slug(p["category"]) != Path(where).parent.name:
+            errors.append(f"{where}: la carpeta debería llamarse {slug(p['category'])} (slug de category)")
+        if not isinstance(p.get("score"), int) or isinstance(p.get("score"), bool) or not 1 <= p["score"] <= 5:
+            errors.append(f"{where}: score debe ser un entero de 1 a 5")
+        if p.get("verifiable_by") and p["verifiable_by"] not in VERIFIABLE_BY:
+            errors.append(f"{where}: verifiable_by debe ser uno de {', '.join(VERIFIABLE_BY)}")
+    return errors
+
+
+def next_free_id(practices: list[dict], prefix: str) -> str:
+    numbers = [parse_id(p.get("id"))[1] for p in practices if parse_id(p.get("id")) and parse_id(p["id"])[0] == prefix]
+    return f"{prefix}-{(max(numbers) if numbers else 0) + 1:03d}"
 
 
 # ---------------------------------------------------------------------------
@@ -171,6 +290,7 @@ CALLOUT_AVOID = re.compile(r"avoid when:?\**\s*(.+)", re.IGNORECASE)
 IMAGE_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
 LINK_RE = re.compile(r"(?<!!)\[([^\]]+)\]\((https?://[^)]+)\)")
 SOURCE_LINE = re.compile(r"^(?:[-*•]|\d+[.)])\s+.*\]\(https?://")
+EMPTY_ITEM = re.compile(r"^\s*(?:[-*•]|\d+[.)])\s*$")
 
 
 def _norm_heading(text: str) -> str:
@@ -190,19 +310,15 @@ def _section_key(heading: str) -> str:
 def split_sections(body_md: str) -> dict:
     """Divide el markdown de la ficha por encabezados y extrae campos útiles.
 
-    Los toggles se exportan como <details><summary>Título</summary>; el
-    summary cuenta como encabezado para que "Sources & References" y
-    "Metrics & Use Cases" queden en su propia sección.
-
-    En muchas fichas el encabezado "Metrics Impact" quedó dentro del toggle
-    "Sources & References". Mientras ese toggle esté abierto, las viñetas con
-    enlace se atribuyen a `sources` aunque un encabezado anidado haya cambiado
-    la sección activa; el resto del texto sigue en la sección anidada.
+    Acepta tanto el formato de la librería (## Why, ## How to implement, ## Metrics,
+    ## Sources) como el markdown exportado de Notion (toggles como
+    <details><summary>…</summary>, callouts, "Metrics Impact" anidado dentro del
+    toggle de fuentes).
     """
     sections: dict[str, list[str]] = defaultdict(list)
     current = "_pre"
-    stack: list[str] = []  # sección activa antes de entrar a un toggle
-    open_toggles: list[str] = []  # claves de sección de los toggles abiertos
+    stack: list[str] = []
+    open_toggles: list[str] = []
     for raw in (body_md or "").splitlines():
         line = raw.rstrip()
         stripped = line.strip()
@@ -235,11 +351,8 @@ def split_sections(body_md: str) -> dict:
     when = CALLOUT_WHEN.search(all_text)
     avoid = CALLOUT_AVOID.search(all_text)
     images = IMAGE_RE.findall(all_text)
-    sources = []
-    for name, url in LINK_RE.findall(text_of("sources")):
-        sources.append({"name": name.strip(), "url": url.strip()})
-
-    out = {
+    sources = [{"name": n.strip(), "url": u.strip()} for n, u in LINK_RE.findall(text_of("sources"))]
+    return {
         "when_to_use": (when.group(1).strip() if when else ""),
         "avoid_when": (avoid.group(1).strip() if avoid else ""),
         "wireframe_url": images[0] if images else "",
@@ -250,12 +363,10 @@ def split_sections(body_md: str) -> dict:
         "sources": sources,
         "other": {k[6:]: "\n".join(v).strip() for k, v in sections.items() if k.startswith("other:")},
     }
-    return out
 
 
 def _strip_images(text: str) -> str:
     text = IMAGE_RE.sub("", text)
-    # quita líneas de callout repetidas (ya se extrajo When to use)
     lines = [l for l in text.splitlines() if not CALLOUT_WHEN.search(l) and not CALLOUT_AVOID.search(l)]
     return "\n".join(lines).strip()
 

@@ -20,7 +20,7 @@
 
 Sources: [Nielsen Norman Group — Fitts's Law and Its Applications in UX](https://www.nngroup.com/articles/fitts-law/) · [Laws of UX — Fitts's Law](https://lawsofux.com/fittss-law/)
 Wireframe: https://files.catbox.moe/4q749x.jpg
-Notion: https://app.notion.com/p/Fitts-s-Law-Size-and-Proximity-of-Action-Targets-0eba9aed5344828c810781730e0117ca
+File: library/interaction-patterns/UX-220-fitts-s-law-size-and-proximity-of-action-targets.md
 
 ## UX-221 — Progressive Disclosure — Show Core Features First, Defer Specialized Options
 - Score 5 · Interaction Patterns / Information Layering
@@ -40,7 +40,7 @@ Notion: https://app.notion.com/p/Fitts-s-Law-Size-and-Proximity-of-Action-Target
 
 Sources: [About Face 4th Ed., Ch. 10 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [Interaction Design Foundation](https://www.interaction-design.org/literature/topics/progressive-disclosure) · [Nielsen Norman Group — Progressive Disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
 Wireframe: https://files.catbox.moe/prsc2u.jpg
-Notion: https://app.notion.com/p/Progressive-Disclosure-Show-Core-Features-First-Defer-Specialized-Options-be5a9aed534483bcb15b01582dc62a21
+File: library/interaction-patterns/UX-221-progressive-disclosure-show-core-features-first-defer-specia.md
 
 ## UX-222 — Notifications — Indicators, Validations, and Notifications Taxonomy
 - Score 5 · Interaction Patterns / Notification Patterns
@@ -60,7 +60,7 @@ Notion: https://app.notion.com/p/Progressive-Disclosure-Show-Core-Features-First
 
 Sources: [Carbon Design System — Notification Pattern](https://carbondesignsystem.com/patterns/notification-pattern/) · [Nielsen Norman Group — Indicators, Validations, and Notifications](https://www.nngroup.com/articles/indicators-validations-notifications/)
 Wireframe: https://files.catbox.moe/s90oi4.jpg
-Notion: https://app.notion.com/p/Notifications-Indicators-Validations-and-Notifications-Taxonomy-4e9a9aed534483fc8a208118edada70e
+File: library/interaction-patterns/UX-222-notifications-indicators-validations-and-notifications-taxon.md
 
 ## UX-223 — Design Every Interactive State — Not Just the Happy Path
 - Score 5 · Interaction Patterns / State design completeness
@@ -81,7 +81,7 @@ Notion: https://app.notion.com/p/Notifications-Indicators-Validations-and-Notifi
 
 Sources: [Boxes and Arrows — Foundations of Interaction Design](https://boxesandarrows.com/foundations-of-interaction-design/)
 Wireframe: https://files.catbox.moe/hedb5a.jpg
-Notion: https://app.notion.com/p/Design-Every-Interactive-State-Not-Just-the-Happy-Path-14fa9aed534482d5844c81325e00b08d
+File: library/interaction-patterns/UX-223-design-every-interactive-state-not-just-the-happy-path.md
 
 ## UX-224 — Direct Manipulation — Act Directly on UI Elements
 - Score 5 · Interaction Patterns / Direct manipulation and inline editing
@@ -101,7 +101,7 @@ Notion: https://app.notion.com/p/Design-Every-Interactive-State-Not-Just-the-Hap
 
 Sources: [Good UI — Direct Manipulation](https://goodui.org/#19)
 Wireframe: https://files.catbox.moe/60rt8a.jpg
-Notion: https://app.notion.com/p/Direct-Manipulation-Act-Directly-on-UI-Elements-781a9aed5344823e8cc28109e8db58fc
+File: library/interaction-patterns/UX-224-direct-manipulation-act-directly-on-ui-elements.md
 
 ## UX-225 — Highlighting Recommended Options — Reduce Analysis Paralysis
 - Score 5 · Interaction Patterns / Decision facilitation and choice guidance
@@ -120,7 +120,7 @@ Notion: https://app.notion.com/p/Direct-Manipulation-Act-Directly-on-UI-Elements
 
 Sources: [Good UI — Highlighting Recommended Options](https://goodui.org/#7)
 Wireframe: https://files.catbox.moe/tyht9z.jpg
-Notion: https://app.notion.com/p/Highlighting-Recommended-Options-Reduce-Analysis-Paralysis-5a4a9aed534482efa81a813f06d184e0
+File: library/interaction-patterns/UX-225-highlighting-recommended-options-reduce-analysis-paralysis.md
 
 ## UX-226 — Implementation Model vs. Mental Model — Bridge the Gap
 - Score 5 · Interaction Patterns / Conceptual Design
@@ -139,7 +139,7 @@ Notion: https://app.notion.com/p/Highlighting-Recommended-Options-Reduce-Analysi
 
 Sources: [About Face 4th Ed., Ch. 2 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [100 Things Every Designer Needs to Know About People (New Riders, 2011)](http://www.r-5.org/files/books/computers/interface/design/Susan_Weinschenk-100_Things_About_People-EN.pdf)
 Wireframe: https://files.catbox.moe/1hf22s.jpg
-Notion: https://app.notion.com/p/Implementation-Model-vs-Mental-Model-Bridge-the-Gap-489a9aed53448304987c817a5f96bd8a
+File: library/interaction-patterns/UX-226-implementation-model-vs-mental-model-bridge-the-gap.md
 
 ## UX-227 — Eliminate Excise — Remove Non-Goal-Serving Work
 - Score 5 · Interaction Patterns / Interaction Efficiency
@@ -158,7 +158,7 @@ Notion: https://app.notion.com/p/Implementation-Model-vs-Mental-Model-Bridge-the
 
 Sources: [About Face 4th Ed., Ch. 11 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/p02dv6.jpg
-Notion: https://app.notion.com/p/Eliminate-Excise-Remove-Non-Goal-Serving-Work-a71a9aed534482a0865901ddc4734187
+File: library/interaction-patterns/UX-227-eliminate-excise-remove-non-goal-serving-work.md
 
 ## UX-228 — Modal Editing Selection Framework (Inline / Modal / Full Page)
 - Score 5 · Interaction Patterns / Editing Patterns
@@ -178,7 +178,7 @@ Notion: https://app.notion.com/p/Eliminate-Excise-Remove-Non-Goal-Serving-Work-a
 
 Sources: [Hacker News UX Discussion](https://news.ycombinator.com/item?id=36056376) · [Stack Overflow](https://stackoverflow.com/questions/3326451/edit-in-place-vs-separate-edit-page-modal)
 Wireframe: https://files.catbox.moe/55qvtu.jpg
-Notion: https://app.notion.com/p/Modal-Editing-Selection-Framework-Inline-Modal-Full-Page-c8ca9aed53448385b22881e79b7d99c3
+File: library/interaction-patterns/UX-228-modal-editing-selection-framework-inline-and-modal-and-full.md
 
 ## UX-229 — Undo Enables Exploration
 - Score 5 · Interaction Patterns / Error Recovery
@@ -199,7 +199,7 @@ Notion: https://app.notion.com/p/Modal-Editing-Selection-Framework-Inline-Modal-
 
 Sources: [About Face Ch. 16 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [LogRocket — UX for Reversible Actions](https://blog.logrocket.com/ux-design/ux-reversible-actions-framework/)
 Wireframe: https://files.catbox.moe/l4oxjv.jpg
-Notion: https://app.notion.com/p/Undo-Enables-Exploration-ca4a9aed5344831f9902019d2cb357e5
+File: library/interaction-patterns/UX-229-undo-enables-exploration.md
 
 ## UX-230 — Soft Delete / Trash Pattern for Recoverable Deletion
 - Score 5 · Interaction Patterns / Reversible Deletion
@@ -219,7 +219,7 @@ Notion: https://app.notion.com/p/Undo-Enables-Exploration-ca4a9aed5344831f990201
 
 Sources: [LogRocket — UX for Reversible Actions](https://blog.logrocket.com/ux-design/ux-reversible-actions-framework/)
 Wireframe: https://files.catbox.moe/9ngp1b.jpg
-Notion: https://app.notion.com/p/Soft-Delete-Trash-Pattern-for-Recoverable-Deletion-b74a9aed534482b0bc4e811d5c6c7837
+File: library/interaction-patterns/UX-230-soft-delete-and-trash-pattern-for-recoverable-deletion.md
 
 ## UX-231 — Command Palette
 - Score 5 · Interaction Patterns / Keyboard-First Interfaces
@@ -242,7 +242,7 @@ Notion: https://app.notion.com/p/Soft-Delete-Trash-Pattern-for-Recoverable-Delet
 
 Sources: [HashBuilds — Command Palette Pattern](https://www.hashbuilds.com/patterns/what-is-command-palette) · [Retool — Designing the Command Palette](https://retool.com/blog/designing-the-command-palette) · [Sam Solomon — Designing Command Palettes](https://solomon.io/designing-command-palettes/)
 Wireframe: https://files.catbox.moe/5c6g03.jpg
-Notion: https://app.notion.com/p/Command-Palette-225a9aed5344820ca7d5811101859419
+File: library/interaction-patterns/UX-231-command-palette.md
 
 ## UX-232 — Toast Notification Best Practices
 - Score 5 · Interaction Patterns / Notification Patterns
@@ -263,7 +263,7 @@ Notion: https://app.notion.com/p/Command-Palette-225a9aed5344820ca7d581110185941
 
 Sources: [SetProduct — Notifications UI Design](https://www.setproduct.com/blog/notifications-ui-design)
 Wireframe: https://files.catbox.moe/8liwpc.jpg
-Notion: https://app.notion.com/p/Toast-Notification-Best-Practices-cc0a9aed53448214926d8117bb9ea874
+File: library/interaction-patterns/UX-232-toast-notification-best-practices.md
 
 ## UX-233 — Human-in-the-Loop Copilot Pattern for AI
 - Score 5 · Interaction Patterns / AI-Assisted Interfaces
@@ -283,7 +283,7 @@ Notion: https://app.notion.com/p/Toast-Notification-Best-Practices-cc0a9aed53448
 
 Sources: [Microsoft — Copilot UX Guidance](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/isv/ux-guidance)
 Wireframe: https://files.catbox.moe/2wp3xe.jpg
-Notion: https://app.notion.com/p/Human-in-the-Loop-Copilot-Pattern-for-AI-802a9aed534482b9832c81cc856c6428
+File: library/interaction-patterns/UX-233-human-in-the-loop-copilot-pattern-for-ai.md
 
 ## UX-234 — Affordances — Make Interaction Cues Visible
 - Score 5 · Interaction Patterns / Discoverability
@@ -301,7 +301,7 @@ Notion: https://app.notion.com/p/Human-in-the-Loop-Copilot-Pattern-for-AI-802a9a
 
 Sources: [About Face Ch. 17 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/sgayi0.jpg
-Notion: https://app.notion.com/p/Affordances-Make-Interaction-Cues-Visible-522a9aed5344824895ba81a838bf80ae
+File: library/interaction-patterns/UX-234-affordances-make-interaction-cues-visible.md
 
 ## UX-235 — Disabled State Design with Explanatory Tooltips
 - Score 5 · Interaction Patterns / Component States
@@ -321,7 +321,7 @@ Notion: https://app.notion.com/p/Affordances-Make-Interaction-Cues-Visible-522a9
 
 Sources: [Carbon Design System — Disabled States](https://carbondesignsystem.com/patterns/overview/)
 Wireframe: https://files.catbox.moe/df8bb9.jpg
-Notion: https://app.notion.com/p/Disabled-State-Design-with-Explanatory-Tooltips-173a9aed534483d09fbc01c1475440e2
+File: library/interaction-patterns/UX-235-disabled-state-design-with-explanatory-tooltips.md
 
 ## UX-236 — Dirty State Indicators and Unsaved Change Warnings
 - Score 5 · Interaction Patterns / State Management
@@ -342,7 +342,7 @@ Notion: https://app.notion.com/p/Disabled-State-Design-with-Explanatory-Tooltips
 
 Sources: [Microsoft Docs — Desktop UX Guidelines](https://learn.microsoft.com/en-us/windows/win32/uxguide/how-to-design-desktop-ux)
 Wireframe: https://files.catbox.moe/1oqgoz.jpg
-Notion: https://app.notion.com/p/Dirty-State-Indicators-and-Unsaved-Change-Warnings-baba9aed534483d2b6bd8160e1dff8cb
+File: library/interaction-patterns/UX-236-dirty-state-indicators-and-unsaved-change-warnings.md
 
 ## UX-237 — Multi-Select with Shift+Click and Ctrl+Click
 - Score 5 · Interaction Patterns / Selection Patterns
@@ -365,7 +365,7 @@ Notion: https://app.notion.com/p/Dirty-State-Indicators-and-Unsaved-Change-Warni
 
 Sources: [UX Patterns — Data Table](https://uxpatterns.dev/patterns/data-display/table)
 Wireframe: https://files.catbox.moe/8pwz2w.jpg
-Notion: https://app.notion.com/p/Multi-Select-with-Shift-Click-and-Ctrl-Click-5e0a9aed534483b6bc7e816c8f236550
+File: library/interaction-patterns/UX-237-multi-select-with-shift-click-and-ctrl-click.md
 
 ## UX-238 — Inline Action Disclosure (Hover Reveal)
 - Score 5 · Interaction Patterns / Row Actions
@@ -386,7 +386,7 @@ Notion: https://app.notion.com/p/Multi-Select-with-Shift-Click-and-Ctrl-Click-5e
 
 Sources: [Pencil & Paper — Data Table UX Patterns](https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables)
 Wireframe: https://files.catbox.moe/opbmus.jpg
-Notion: https://app.notion.com/p/Inline-Action-Disclosure-Hover-Reveal-520a9aed534483b1ad1e81e3e0ccab9b
+File: library/interaction-patterns/UX-238-inline-action-disclosure-hover-reveal.md
 
 ## UX-239 — Peak-End Rule — Design Success States and Error Recovery With Care
 - Score 4 · Interaction Patterns / Emotional design and experience memory
@@ -407,7 +407,7 @@ Notion: https://app.notion.com/p/Inline-Action-Disclosure-Hover-Reveal-520a9aed5
 
 Sources: [Laws of UX — Peak-End Rule](https://lawsofux.com/peak-end-rule/)
 Wireframe: https://files.catbox.moe/nthpii.jpg
-Notion: https://app.notion.com/p/Peak-End-Rule-Design-Success-States-and-Error-Recovery-With-Care-79ca9aed534483119e7c01e2fd2f25cb
+File: library/interaction-patterns/UX-239-peak-end-rule-design-success-states-and-error-recovery-with.md
 
 ## UX-240 — Contextual Menus — Efficiency Accelerators, Not Primary Pathways
 - Score 4 · Interaction Patterns / Contextual Action Patterns
@@ -429,7 +429,7 @@ Notion: https://app.notion.com/p/Peak-End-Rule-Design-Success-States-and-Error-R
 
 Sources: [Interaction Design Foundation — Microinteractions](https://www.interaction-design.org/literature/article/micro-interactions-ux) · [Nielsen Norman Group — Contextual Menus: Delivering Relevant Tools for Tasks](https://www.nngroup.com/articles/contextual-menus/)
 Wireframe: https://files.catbox.moe/hkedii.jpg
-Notion: https://app.notion.com/p/Contextual-Menus-Efficiency-Accelerators-Not-Primary-Pathways-c87a9aed53448320967301bf3db94b4d
+File: library/interaction-patterns/UX-240-contextual-menus-efficiency-accelerators-not-primary-pathway.md
 
 ## UX-241 — Transitions and Animations — 150–300ms for State Changes
 - Score 4 · Interaction Patterns / Motion and transition design
@@ -450,7 +450,7 @@ Notion: https://app.notion.com/p/Contextual-Menus-Efficiency-Accelerators-Not-Pr
 
 Sources: [Good UI — Transitions and Animations](https://goodui.org/#21) · [Microsoft Fluent 2 — Motion](https://fluent2.microsoft.design/motion) · [AlterSquare — Microinteractions](https://altersquare.io/micro-interactions-that-actually-improve-user-experience-with-examples/)
 Wireframe: https://files.catbox.moe/bslc5b.jpg
-Notion: https://app.notion.com/p/Transitions-and-Animations-150-300ms-for-State-Changes-caaa9aed534482f0b06901fb28acf0ed
+File: library/interaction-patterns/UX-241-transitions-and-animations-150300ms-for-state-changes.md
 
 ## UX-242 — Benefit-Oriented CTA Labels
 - Score 4 · Interaction Patterns / CTA copywriting
@@ -468,7 +468,7 @@ Notion: https://app.notion.com/p/Transitions-and-Animations-150-300ms-for-State-
 
 Sources: [Good UI — Benefit-Oriented CTAs](https://goodui.org/#18)
 Wireframe: https://files.catbox.moe/2jobix.jpg
-Notion: https://app.notion.com/p/Benefit-Oriented-CTA-Labels-baea9aed534483e5921b018f47b1c7bb
+File: library/interaction-patterns/UX-242-benefit-oriented-cta-labels.md
 
 ## UX-243 — Opt-Out Defaults for Beneficial Settings
 - Score 4 · Interaction Patterns / Default states and behavioral design
@@ -487,7 +487,7 @@ Notion: https://app.notion.com/p/Benefit-Oriented-CTA-Labels-baea9aed534483e5921
 
 Sources: [Good UI — Opt-Out vs. Opt-In Defaults](https://goodui.org/#26)
 Wireframe: https://files.catbox.moe/y18aqk.jpg
-Notion: https://app.notion.com/p/Opt-Out-Defaults-for-Beneficial-Settings-450a9aed534483e29abe011b4b8d42cf
+File: library/interaction-patterns/UX-243-opt-out-defaults-for-beneficial-settings.md
 
 ## UX-244 — Exposing Options vs. Hiding in Dropdowns for Primary Choices
 - Score 4 · Interaction Patterns / Control selection for small option sets
@@ -505,7 +505,7 @@ Notion: https://app.notion.com/p/Opt-Out-Defaults-for-Beneficial-Settings-450a9a
 
 Sources: [Good UI — Exposing Options vs. Hiding in Dropdowns](https://goodui.org/#14)
 Wireframe: https://files.catbox.moe/c69h6n.jpg
-Notion: https://app.notion.com/p/Exposing-Options-vs-Hiding-in-Dropdowns-for-Primary-Choices-1eca9aed534482d6be1081aa673252a5
+File: library/interaction-patterns/UX-244-exposing-options-vs-hiding-in-dropdowns-for-primary-choices.md
 
 ## UX-245 — Slide-Over Panels as Non-Blocking Modal Alternatives
 - Score 4 · Interaction Patterns / Editing Patterns
@@ -527,7 +527,7 @@ Notion: https://app.notion.com/p/Exposing-Options-vs-Hiding-in-Dropdowns-for-Pri
 
 Sources: [UX Stack Exchange / r/UXDesign](https://www.reddit.com/r/UXDesign/comments/1e1w6qs/forms_inside_modals_how_evil_is_it/)
 Wireframe: https://files.catbox.moe/arcote.jpg
-Notion: https://app.notion.com/p/Slide-Over-Panels-as-Non-Blocking-Modal-Alternatives-806a9aed5344824b8b258145aef55c6b
+File: library/interaction-patterns/UX-245-slide-over-panels-as-non-blocking-modal-alternatives.md
 
 ## UX-246 — Version History for Collaborative Content
 - Score 4 · Interaction Patterns / Version Management
@@ -549,7 +549,7 @@ Notion: https://app.notion.com/p/Slide-Over-Panels-as-Non-Blocking-Modal-Alterna
 
 Sources: [LogRocket — UX for Reversible Actions](https://blog.logrocket.com/ux-design/ux-reversible-actions-framework/)
 Wireframe: https://files.catbox.moe/p8wqkw.jpg
-Notion: https://app.notion.com/p/Version-History-for-Collaborative-Content-9e7a9aed534482f1802d81d2ed1b7a90
+File: library/interaction-patterns/UX-246-version-history-for-collaborative-content.md
 
 ## UX-247 — Optimistic UI Updates
 - Score 4 · Interaction Patterns / Feedback Design
@@ -570,7 +570,7 @@ Notion: https://app.notion.com/p/Version-History-for-Collaborative-Content-9e7a9
 
 Sources: [Interaction Design Foundation — Microinteractions](https://www.interaction-design.org/literature/article/micro-interactions-ux)
 Wireframe: https://files.catbox.moe/tyd7te.jpg
-Notion: https://app.notion.com/p/Optimistic-UI-Updates-0f6a9aed53448382b03901d533ff2c40
+File: library/interaction-patterns/UX-247-optimistic-ui-updates.md
 
 ## UX-248 — Notification Center for High-Volume Events
 - Score 4 · Interaction Patterns / Notification Patterns
@@ -593,7 +593,7 @@ Notion: https://app.notion.com/p/Optimistic-UI-Updates-0f6a9aed53448382b03901d53
 
 Sources: [Courier — Notification Center Design](https://www.courier.com/blog/how-to-build-a-notification-center-for-web-and-mobile-apps)
 Wireframe: https://files.catbox.moe/53nfbq.jpg
-Notion: https://app.notion.com/p/Notification-Center-for-High-Volume-Events-c50a9aed5344833d9f0f0155cde113aa
+File: library/interaction-patterns/UX-248-notification-center-for-high-volume-events.md
 
 ## UX-249 — Microinteraction Four-Component Model
 - Score 4 · Interaction Patterns / Microinteraction Design
@@ -613,7 +613,7 @@ Notion: https://app.notion.com/p/Notification-Center-for-High-Volume-Events-c50a
 
 Sources: [Interaction Design Foundation — Microinteractions](https://www.interaction-design.org/literature/article/micro-interactions-ux)
 Wireframe: https://files.catbox.moe/iueqvu.jpg
-Notion: https://app.notion.com/p/Microinteraction-Four-Component-Model-b6ea9aed53448208bcd601e5e0f1900b
+File: library/interaction-patterns/UX-249-microinteraction-four-component-model.md
 
 ## UX-250 — Appropriate Friction for AI-Powered Actions
 - Score 4 · Interaction Patterns / AI-Assisted Interfaces
@@ -635,7 +635,7 @@ Notion: https://app.notion.com/p/Microinteraction-Four-Component-Model-b6ea9aed5
 
 Sources: [Microsoft — Copilot UX Guidance](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/isv/ux-guidance)
 Wireframe: https://files.catbox.moe/lcmbp4.jpg
-Notion: https://app.notion.com/p/Appropriate-Friction-for-AI-Powered-Actions-963a9aed5344824ead470184cae7cfd7
+File: library/interaction-patterns/UX-250-appropriate-friction-for-ai-powered-actions.md
 
 ## UX-251 — AI Suggestion Autocomplete — Ghost Text Pattern
 - Score 4 · Interaction Patterns / AI-Assisted Interfaces
@@ -657,7 +657,7 @@ Notion: https://app.notion.com/p/Appropriate-Friction-for-AI-Powered-Actions-963
 
 Sources: [Touch4IT — Role of Microinteractions in UX](https://www.touch4it.com/blog/role-microinteractions-ux-design)
 Wireframe: https://files.catbox.moe/3mt16p.jpg
-Notion: https://app.notion.com/p/AI-Suggestion-Autocomplete-Ghost-Text-Pattern-0fda9aed53448211928501ba3cbe78c7
+File: library/interaction-patterns/UX-251-ai-suggestion-autocomplete-ghost-text-pattern.md
 
 ## UX-252 — Transparency About AI Limitations
 - Score 4 · Interaction Patterns / AI-Assisted Interfaces
@@ -678,7 +678,7 @@ Notion: https://app.notion.com/p/AI-Suggestion-Autocomplete-Ghost-Text-Pattern-0
 
 Sources: [Microsoft — Copilot UX Guidance](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/isv/ux-guidance)
 Wireframe: https://files.catbox.moe/y2giqk.jpg
-Notion: https://app.notion.com/p/Transparency-About-AI-Limitations-0f2a9aed534482059b0901cffc77236b
+File: library/interaction-patterns/UX-252-transparency-about-ai-limitations.md
 
 ## UX-253 — Visible Drag Affordances and Drop Zone Feedback
 - Score 4 · Interaction Patterns / Drag and Drop
@@ -699,7 +699,7 @@ Notion: https://app.notion.com/p/Transparency-About-AI-Limitations-0f2a9aed53448
 
 Sources: [Eleken — Drag and Drop UI](https://www.eleken.co/blog-posts/drag-and-drop-ui) · [Smart Interface Design Patterns — Drag and Drop UX](https://smart-interface-design-patterns.com/articles/drag-and-drop-ux/)
 Wireframe: https://files.catbox.moe/brf7zt.jpg
-Notion: https://app.notion.com/p/Visible-Drag-Affordances-and-Drop-Zone-Feedback-515a9aed53448212a63c81fa0151cc82
+File: library/interaction-patterns/UX-253-visible-drag-affordances-and-drop-zone-feedback.md
 
 ## UX-254 — Presence Indicators for Collaborative Editing
 - Score 3 · Interaction Patterns / Collaborative Editing
@@ -720,4 +720,4 @@ Notion: https://app.notion.com/p/Visible-Drag-Affordances-and-Drop-Zone-Feedback
 
 Sources: [UXPin — Real-Time Collaboration Tools](https://www.uxpin.com/studio/blog/best-tools-for-real-time-design-collaboration/)
 Wireframe: https://files.catbox.moe/c4iyth.jpg
-Notion: https://app.notion.com/p/Presence-Indicators-for-Collaborative-Editing-6eba9aed534483abafa081841f951870
+File: library/interaction-patterns/UX-254-presence-indicators-for-collaborative-editing.md

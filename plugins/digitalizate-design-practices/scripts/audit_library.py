@@ -1,26 +1,25 @@
 #!/usr/bin/env python3
-"""Audita data/practices.json y escribe reports/audit.md y reports/duplicates.md.
+"""Audita library/ y escribe reports/audit.md y reports/duplicates.md.
 
 Qué revisa:
-  1. IDs repetidos y fichas sin ID, con el ID canónico que propondrá el build.
+  1. Validación: IDs inválidos o repetidos, prefijo ajeno al grupo, carpeta, score.
   2. Duplicados cercanos (títulos muy parecidos dentro del mismo grupo).
-  3. Texto plantilla repetido entre fichas (p. ej. "How to Present It").
-  4. Fichas sin "How to Implement" o sin "What & Why".
+  3. Texto repetido entre fichas en "Why".
+  4. Fichas sin "How to implement" o sin "Why".
   5. Resumen por categoría.
 
 Uso:
-  python scripts/audit_library.py [--threshold 0.82]
+  python3 scripts/audit_library.py [--threshold 0.82]
 
-No modifica Notion ni data/id_map.json; para eso está build_skills.py.
+No modifica la librería.
 """
 from __future__ import annotations
 
 import argparse
-import copy
 import hashlib
 import re
 import sys
-from collections import Counter, defaultdict
+from collections import defaultdict
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -66,7 +65,6 @@ def find_duplicates(practices: list[dict], cfg: dict, threshold: float) -> list[
                 pj, nj = normed[j]
                 if not nj:
                     continue
-                # filtro rápido: comparten al menos una palabra
                 if not set(ni.split()) & set(nj.split()):
                     continue
                 s = similarity(ni, nj)
@@ -88,6 +86,10 @@ def boilerplate(practices: list[dict], section: str, min_count: int = 3):
     return sorted((v for v in buckets.values() if len(v) >= min_count), key=len, reverse=True)
 
 
+def label(p: dict) -> str:
+    return f"{p.get('id') or '—'} {p['title']}"
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--threshold", type=float, default=None)
@@ -95,109 +97,74 @@ def main() -> None:
 
     cfg = kitlib.load_config()
     threshold = args.threshold or cfg.get("duplicate_similarity", 0.82)
-    practices = kitlib.load_practices()
+    practices = kitlib.load_library()
     kitlib.REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # --- 1. IDs ---------------------------------------------------------
-    id_map_preview = copy.deepcopy(kitlib.load_json(kitlib.ID_MAP_PATH, {}))
-    sim = copy.deepcopy(practices)
-    changes = kitlib.assign_ids(sim, id_map_preview, cfg)
-    canon = {p["page_id"]: p["id"] for p in sim}
-
-    def label(p: dict) -> str:
-        """ID canónico (el que asignará el build); los IDs de Notion repetidos son ambiguos."""
-        return canon.get(p["page_id"]) or p.get("id_notion") or "—"
-    collisions = Counter(p["id_notion"] for p in practices if p.get("id_notion"))
-    collided = sorted(k for k, v in collisions.items() if v > 1)
-    missing = [p for p in practices if not p.get("id_notion")]
-
-    # --- 2. duplicados --------------------------------------------------
+    errors = kitlib.validate_library(practices, cfg)
     dups = find_duplicates(practices, cfg, threshold)
-
-    # --- 3. boilerplate -------------------------------------------------
-    bp_present = boilerplate(practices, "how_to_present")
     bp_why = boilerplate(practices, "what_why")
-
-    # --- 4. secciones faltantes ----------------------------------------
     no_impl = [p for p in practices if not (p.get("sections") or {}).get("how_to_implement")]
     no_why = [p for p in practices if not (p.get("sections") or {}).get("what_why")]
-    no_body = [p for p in practices if not (p.get("body_md") or "").strip()]
-
-    # --- 5. categorías --------------------------------------------------
+    no_sources = [p for p in practices if not (p.get("sections") or {}).get("sources")]
     cats: dict[str, list[dict]] = defaultdict(list)
     for p in practices:
         cats[p.get("category") or "(sin categoría)"].append(p)
 
-    out = []
-    out.append("# Auditoría de la librería\n")
-    out.append(f"Fichas: {len(practices)} · IDs distintos en Notion: {len(collisions)} · "
-               f"IDs repetidos: {len(collided)} · sin ID: {len(missing)} · sin cuerpo: {len(no_body)}\n")
-
-    out.append("## 1. IDs\n")
-    out.append(f"El build asignará {len(changes)} IDs nuevos (ver data/id_changes.csv tras correr build_skills.py). "
-               "Regla: en una colisión conserva el ID la ficha cuyo grupo no está en `reassign_groups`; "
-               "las demás reciben el siguiente número libre de su prefijo.\n")
-    if collided:
-        out.append(f"IDs repetidos ({len(collided)}): " + ", ".join(collided[:40]) + (" …" if len(collided) > 40 else "") + "\n")
-    if changes:
-        out.append("| Título | Categoría | ID Notion | ID propuesto | Motivo |\n|---|---|---|---|---|")
-        for c in changes:
-            out.append(f"| {c['title']} | {c['category']} | {c['old_id'] or '—'} | {c['new_id']} | {c['reason']} |")
-        out.append("")
+    out = ["# Auditoría de la librería\n",
+           f"Fichas: {len(practices)} · categorías: {len(cats)} · errores de validación: {len(errors)} · "
+           f"duplicados cercanos: {len(dups)} · sin How to implement: {len(no_impl)} · sin Why: {len(no_why)} · "
+           f"sin fuentes: {len(no_sources)}\n",
+           "## 1. Validación\n"]
+    if errors:
+        out.append("El build se detiene mientras existan estos errores:\n")
+        out += [f"- {e}" for e in errors]
+    else:
+        out.append("Sin errores: IDs únicos con el prefijo de su grupo, carpetas y scores correctos.")
+    out.append("")
 
     out.append("## 2. Duplicados cercanos\n")
     out.append(f"{len(dups)} pares con similitud de título ≥ {threshold}. Detalle en reports/duplicates.md. "
                "Un par es candidato a fusión cuando además la similitud de Context es alta o comparten subcategoría.\n")
 
-    out.append("## 3. Texto plantilla repetido\n")
-    if bp_present:
-        out.append(f"\"How to Present It\": {len(bp_present)} bloques idénticos repetidos; el mayor aparece en "
-                   f"{len(bp_present[0])} fichas. Esta sección se descarta en el build (config.drop_sections).")
-    else:
-        out.append("\"How to Present It\": sin repeticiones detectadas.")
+    out.append("## 3. Texto repetido\n")
     if bp_why:
-        out.append(f"\n\"What & Why\" repetido en {sum(len(b) for b in bp_why)} fichas ({len(bp_why)} bloques). "
-                   "Esto sí es un problema de contenido:")
+        out.append(f"\"Why\" repetido en {sum(len(b) for b in bp_why)} fichas ({len(bp_why)} bloques):")
         for b in bp_why[:10]:
-            out.append("- " + "; ".join(f"{label(p)} {p['title']}" for p in b[:6]))
+            out.append("- " + "; ".join(label(p) for p in b[:6]))
+    else:
+        out.append("\"Why\": sin bloques repetidos.")
     out.append("")
 
     out.append("## 4. Secciones faltantes\n")
-    out.append(f"Sin How to Implement: {len(no_impl)} · Sin What & Why: {len(no_why)}. "
-               "Los IDs son los canónicos que asignará el build.\n")
-    out.append(f"### Sin How to Implement ({len(no_impl)})\n")
-    for p in no_impl:
-        out.append(f"- {label(p)} {p['title']} ({p.get('category')}) {p.get('url')}")
-    out.append(f"\n### Sin What & Why ({len(no_why)})\n")
-    for p in no_why:
-        out.append(f"- {label(p)} {p['title']} ({p.get('category')}) {p.get('url')}")
+    out.append(f"### Sin How to implement ({len(no_impl)})\n")
+    out += [f"- {label(p)} ({p.get('category')}) `{p['path']}`" for p in no_impl]
+    out.append(f"\n### Sin Why ({len(no_why)})\n")
+    out += [f"- {label(p)} ({p.get('category')}) `{p['path']}`" for p in no_why]
     out.append("")
 
     out.append("## 5. Categorías\n")
-    out.append("| Categoría | Grupo | Fichas | Score medio | ≥4 | Subcategorías |\n|---|---|---|---|---|---|")
+    out.append("| Categoría | Grupo | Fichas | Score medio | ≥4 | Subcategorías | Con Verify |\n|---|---|---|---|---|---|---|")
     for cat, items in sorted(cats.items(), key=lambda kv: -len(kv[1])):
         scores = [p.get("score") or 0 for p in items]
         subs = len({p.get("subcategory") for p in items if p.get("subcategory")})
         out.append(f"| {cat} | {kitlib.group_of(cat, cfg)} | {len(items)} | {sum(scores)/len(scores):.2f} | "
-                   f"{sum(1 for s in scores if s >= 4)} | {subs} |")
-
+                   f"{sum(1 for s in scores if s >= 4)} | {subs} | {sum(1 for p in items if p.get('verify'))} |")
     (kitlib.REPORTS_DIR / "audit.md").write_text("\n".join(out) + "\n", encoding="utf-8")
 
     d = ["# Duplicados cercanos\n",
-         "Revisar a mano. Para fusionar: deja una ficha, mueve lo que aporte la otra, y marca la sobrante "
-         "con Status = Merged (el build ignora Status Merged/Deprecated). "
-         "Los IDs son los canónicos que asignará el build.\n"]
+         "Revisar a mano. Para fusionar: deja una ficha, mueve lo que aporte la otra y pon `status: \"Merged\"` "
+         "en la sobrante (el build omite Proposed, Merged y Deprecated).\n"]
     for pair in dups:
         a, b = pair["a"], pair["b"]
         d.append(f"- [{pair['title_sim']:.2f} título / {pair['context_sim']:.2f} contexto] "
-                 f"**{label(a)} {a['title']}** ({a.get('category')}) ↔ "
-                 f"**{label(b)} {b['title']}** ({b.get('category')})")
-        d.append(f"  - {a.get('url')}\n  - {b.get('url')}")
+                 f"**{label(a)}** ({a.get('category')}) ↔ **{label(b)}** ({b.get('category')})")
+        d.append(f"  - `{a['path']}`\n  - `{b['path']}`")
     (kitlib.REPORTS_DIR / "duplicates.md").write_text("\n".join(d) + "\n", encoding="utf-8")
 
-    print("\n".join(out[:4]))
-    print(f"Duplicados cercanos: {len(dups)} · sin How to Implement: {len(no_impl)}")
+    print("\n".join(out[:2]))
     print(f"Reportes: {kitlib.REPORTS_DIR / 'audit.md'} y {kitlib.REPORTS_DIR / 'duplicates.md'}")
+    if errors:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

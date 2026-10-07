@@ -1,4 +1,4 @@
-# Human Biases in Interfaces · part 1/3 (34 entries, score 5–4)
+# Human Biases in Interfaces · part 1/3 (35 entries, score 5–4)
 
 ## UX-549 — Affect Heuristic
 - Score 5 · Human Biases in Interfaces
@@ -19,7 +19,7 @@
 
 Sources: [https://blog.logrocket.com/ux-design/aesthetic-usability-effect-ux/](https://blog.logrocket.com/ux-design/aesthetic-usability-effect-ux/)
 Wireframe: https://files.catbox.moe/o21b1u.jpg
-Notion: https://app.notion.com/p/Affect-Heuristic-21ca9aed534483bb9053011a62dc11b1
+File: library/human-biases-in-interfaces/UX-549-affect-heuristic.md
 
 ## UX-550 — Analysis Paralysis (Decision Paralysis / Overchoice Paralysis)
 - Score 5 · Human Biases in Interfaces
@@ -42,7 +42,7 @@ Notion: https://app.notion.com/p/Affect-Heuristic-21ca9aed534483bb9053011a62dc11
 
 Sources: [niti.ai](http://niti.ai/) · [https://niti.ai/ideas/decision-paralysis-in-ui-ux-navigation/](https://niti.ai/ideas/decision-paralysis-in-ui-ux-navigation/) · [https://www.interaction-design.org/literature/article/behavioural-economics-ideas-that-you-can-use-in-ux-design](https://www.interaction-design.org/literature/article/behavioural-economics-ideas-that-you-can-use-in-ux-design)
 Wireframe: https://files.catbox.moe/drdfvg.jpg
-Notion: https://app.notion.com/p/Analysis-Paralysis-Decision-Paralysis-Overchoice-Paralysis-499a9aed534482859e4381952d67a96f
+File: library/human-biases-in-interfaces/UX-550-analysis-paralysis-decision-paralysis-and-overchoice-paralys.md
 
 ## UX-551 — Anchoring Bias (Focalism)
 - Score 5 · Human Biases in Interfaces
@@ -64,7 +64,7 @@ Notion: https://app.notion.com/p/Analysis-Paralysis-Decision-Paralysis-Overchoic
 
 Sources: [https://www.nngroup.com/](https://www.nngroup.com/) · [https://www.nelson.edu/thoughthub/education/the-affects-of-anchoring-bias-on-human-behavior/](https://www.nelson.edu/thoughthub/education/the-affects-of-anchoring-bias-on-human-behavior/)
 Wireframe: https://files.catbox.moe/0bndlq.jpg
-Notion: https://app.notion.com/p/Anchoring-Bias-Focalism-c89a9aed53448383b471011c243099c9
+File: library/human-biases-in-interfaces/UX-551-anchoring-bias-focalism.md
 
 ## UX-552 — Authority Bias (Obedience to Authority)
 - Score 5 · Human Biases in Interfaces
@@ -86,7 +86,7 @@ Notion: https://app.notion.com/p/Anchoring-Bias-Focalism-c89a9aed53448383b471011
 
 Sources: [https://psycnet.apa.org](https://psycnet.apa.org/) · [https://ui-patterns.com/patterns/Authority](https://ui-patterns.com/patterns/Authority) · [https://effectiviology.com/authority-bias-the-milgram-obedience-experiment/](https://effectiviology.com/authority-bias-the-milgram-obedience-experiment/) · [https://dovetail.com/research/what-is-authority-bias/](https://dovetail.com/research/what-is-authority-bias/)
 Wireframe: https://files.catbox.moe/xi5t23.jpg
-Notion: https://app.notion.com/p/Authority-Bias-Obedience-to-Authority-757a9aed534483b680cf8172151dcda7
+File: library/human-biases-in-interfaces/UX-552-authority-bias-obedience-to-authority.md
 
 ## UX-553 — Automation Bias (Algorithm Aversion Complement / Automation Complacency)
 - Score 5 · Human Biases in Interfaces
@@ -109,7 +109,7 @@ Notion: https://app.notion.com/p/Authority-Bias-Obedience-to-Authority-757a9aed5
 
 Sources: [https://pubmed.ncbi.nlm.nih.gov/21077562/](https://pubmed.ncbi.nlm.nih.gov/21077562/) · [https://www.linkedin.com/pulse/designing-against-automation-bias-ai-enhanced-ux-ben-shectman-2zuve](https://www.linkedin.com/pulse/designing-against-automation-bias-ai-enhanced-ux-ben-shectman-2zuve) · [https://www.thoughtworks.com/en-us/radar/techniques/complacency-with-ai-generated-code](https://www.thoughtworks.com/en-us/radar/techniques/complacency-with-ai-generated-code) · [Fly.io](http://fly.io/) · [https://fly.io/blog/trust-calibration-for-ai-software-builders/](https://fly.io/blog/trust-calibration-for-ai-software-builders/) · [https://arxiv.org/abs/2306.16507](https://arxiv.org/abs/2306.16507)
 Wireframe: https://files.catbox.moe/56aw83.jpg
-Notion: https://app.notion.com/p/Automation-Bias-Algorithm-Aversion-Complement-Automation-Complacency-0a5a9aed53448342af7f017b0480d149
+File: library/human-biases-in-interfaces/UX-553-automation-bias-algorithm-aversion-complement-and-automation.md
 
 ## UX-554 — Banner Blindness (Advertising Blindness / Ad Blindness)
 - Score 5 · Human Biases in Interfaces
@@ -130,7 +130,7 @@ Notion: https://app.notion.com/p/Automation-Bias-Algorithm-Aversion-Complement-A
 
 Sources: [nngroup.com/articles/banner-blindness-original-eyetracking/](http://nngroup.com/articles/banner-blindness-original-eyetracking/)
 Wireframe: https://files.catbox.moe/915l1m.jpg
-Notion: https://app.notion.com/p/Banner-Blindness-Advertising-Blindness-Ad-Blindness-e61a9aed534482859f5f81436d8c1476
+File: library/human-biases-in-interfaces/UX-554-banner-blindness-advertising-blindness-and-ad-blindness.md
 
 ## UX-555 — Change Blindness
 - Score 5 · Human Biases in Interfaces
@@ -152,7 +152,7 @@ Notion: https://app.notion.com/p/Banner-Blindness-Advertising-Blindness-Ad-Blind
 
 Sources: [nngroup.com/articles/change-blindness/](http://nngroup.com/articles/change-blindness/) · [3pillarglobal.com/insights/blog/change-blindness-in-ux-user-experience-best-practices/](http://3pillarglobal.com/insights/blog/change-blindness-in-ux-user-experience-best-practices/)
 Wireframe: https://files.catbox.moe/ogktv5.jpg
-Notion: https://app.notion.com/p/Change-Blindness-60aa9aed5344822c8ebc81054bed21c1
+File: library/human-biases-in-interfaces/UX-555-change-blindness.md
 
 ## UX-556 — Choice Overload (Paradox of Choice / Overchoice)
 - Score 5 · Human Biases in Interfaces
@@ -174,7 +174,7 @@ Notion: https://app.notion.com/p/Change-Blindness-60aa9aed5344822c8ebc81054bed21
 
 Sources: [https://lawsofux.com/choice-overload/](https://lawsofux.com/choice-overload/) · [https://www.interaction-design.org/literature/article/behavioural-economics-ideas-that-you-can-use-in-ux-design](https://www.interaction-design.org/literature/article/behavioural-economics-ideas-that-you-can-use-in-ux-design)
 Wireframe: https://files.catbox.moe/q52wen.jpg
-Notion: https://app.notion.com/p/Choice-Overload-Paradox-of-Choice-Overchoice-49ca9aed534483fa96f7014d971464d0
+File: library/human-biases-in-interfaces/UX-556-choice-overload-paradox-of-choice-and-overchoice.md
 
 ## UX-557 — Cognitive Dissonance
 - Score 5 · Human Biases in Interfaces
@@ -195,7 +195,7 @@ Notion: https://app.notion.com/p/Choice-Overload-Paradox-of-Choice-Overchoice-49
 
 Sources: [https://ui-patterns.com/patterns/cognitive-dissonance](https://ui-patterns.com/patterns/cognitive-dissonance) · [Versions.com](http://versions.com/) · [https://versions.com/ui-ux/tackling-cognitive-dissonance-in-ui-ux-design-the-role-of-ui-affordances/](https://versions.com/ui-ux/tackling-cognitive-dissonance-in-ui-ux-design-the-role-of-ui-affordances/) · [https://www.uxmatters.com/mt/archives/2013/02/design-dissonance-when-form-and-function-collide.php](https://www.uxmatters.com/mt/archives/2013/02/design-dissonance-when-form-and-function-collide.php) · [https://lirio.com/podcasts/solving-from-the-outside-in-the-art-of-ux-design/](https://lirio.com/podcasts/solving-from-the-outside-in-the-art-of-ux-design/)
 Wireframe: https://files.catbox.moe/02thyj.jpg
-Notion: https://app.notion.com/p/Cognitive-Dissonance-da9a9aed53448292814e81c8bd57e7bd
+File: library/human-biases-in-interfaces/UX-557-cognitive-dissonance.md
 
 ## UX-558 — Commitment and Consistency Bias (Foot-in-the-Door / Behavioral Consistency Principle)
 - Score 5 · Human Biases in Interfaces
@@ -217,7 +217,7 @@ Notion: https://app.notion.com/p/Cognitive-Dissonance-da9a9aed53448292814e81c8bd
 
 Sources: [https://www.nngroup.com/articles/commitment-consistency-ux/](https://www.nngroup.com/articles/commitment-consistency-ux/) · [https://ui-patterns.com/patterns/Commitment-consistency](https://ui-patterns.com/patterns/Commitment-consistency) · [https://learningloop.io/plays/psychology/commitment-&-consistency](https://learningloop.io/plays/psychology/commitment-&-consistency)
 Wireframe: https://files.catbox.moe/43zzco.jpg
-Notion: https://app.notion.com/p/Commitment-and-Consistency-Bias-Foot-in-the-Door-Behavioral-Consistency-Principle-856a9aed534482d1971581a1b61df86b
+File: library/human-biases-in-interfaces/UX-558-commitment-and-consistency-bias-foot-in-the-door-and-behavio.md
 
 ## UX-559 — Confirmation Bias
 - Score 5 · Human Biases in Interfaces
@@ -239,7 +239,7 @@ Notion: https://app.notion.com/p/Commitment-and-Consistency-Bias-Foot-in-the-Doo
 
 Sources: [https://www.interaction-design.org/literature/topics/confirmation-bias](https://www.interaction-design.org/literature/topics/confirmation-bias) · [https://uxplanet.org/how-to-use-the-psychology-principle-of-confirmation-bias-in-ux-design-9166e1ec017b](https://uxplanet.org/how-to-use-the-psychology-principle-of-confirmation-bias-in-ux-design-9166e1ec017b) · [https://standardbeagle.com/confirmation-bias-in-product-design/](https://standardbeagle.com/confirmation-bias-in-product-design/)
 Wireframe: https://files.catbox.moe/oes44i.jpg
-Notion: https://app.notion.com/p/Confirmation-Bias-b5aa9aed5344823092c381849c281f6f
+File: library/human-biases-in-interfaces/UX-559-confirmation-bias.md
 
 ## UX-560 — Contrast Effect (Perceptual Contrast / Relative Judgment Effect)
 - Score 5 · Human Biases in Interfaces
@@ -261,7 +261,7 @@ Notion: https://app.notion.com/p/Confirmation-Bias-b5aa9aed5344823092c381849c281
 
 Sources: [https://uxdesign.cc/contrast-psychology-designing-with-contrast-6cae8b963a91](https://uxdesign.cc/contrast-psychology-designing-with-contrast-6cae8b963a91) · [https://mikebifulco.com/newsletter/contrast-effect-cognitive-psychology](https://mikebifulco.com/newsletter/contrast-effect-cognitive-psychology) · [https://blog.tubikstudio.com/contrast-in-user-interface-design/](https://blog.tubikstudio.com/contrast-in-user-interface-design/)
 Wireframe: https://files.catbox.moe/onl6nb.jpg
-Notion: https://app.notion.com/p/Contrast-Effect-Perceptual-Contrast-Relative-Judgment-Effect-e4da9aed53448357bfc5814d7fde956c
+File: library/human-biases-in-interfaces/UX-560-contrast-effect-perceptual-contrast-and-relative-judgment-ef.md
 
 ## UX-561 — Curse of Knowledge (Curse of Expertise / Expert Blind Spot)
 - Score 5 · Human Biases in Interfaces
@@ -283,7 +283,7 @@ Notion: https://app.notion.com/p/Contrast-Effect-Perceptual-Contrast-Relative-Ju
 
 Sources: [https://uxpsychology.substack.com/p/bridging-the-gap-navigating-the-curse](https://uxpsychology.substack.com/p/bridging-the-gap-navigating-the-curse) · [https://www.beyonduxdesign.com/cognition-catalog/curse-of-knowledge/](https://www.beyonduxdesign.com/cognition-catalog/curse-of-knowledge/)
 Wireframe: https://files.catbox.moe/fqrxd8.jpg
-Notion: https://app.notion.com/p/Curse-of-Knowledge-Curse-of-Expertise-Expert-Blind-Spot-749a9aed5344829480f0818b10d14291
+File: library/human-biases-in-interfaces/UX-561-curse-of-knowledge-curse-of-expertise-and-expert-blind-spot.md
 
 ## UX-562 — Default Effect (Status Quo Bias)
 - Score 5 · Human Biases in Interfaces
@@ -305,7 +305,7 @@ Notion: https://app.notion.com/p/Curse-of-Knowledge-Curse-of-Expertise-Expert-Bl
 
 Sources: [https://www.linkedin.com/pulse/psychology-defaults-how-pre-selected-options-behavior-tushar-deshmukh-ddwdf](https://www.linkedin.com/pulse/psychology-defaults-how-pre-selected-options-behavior-tushar-deshmukh-ddwdf) · [https://uxdesign.cc/design-by-default-the-impact-of-using-default-options-in-user-centered-design-926c4d24385c](https://uxdesign.cc/design-by-default-the-impact-of-using-default-options-in-user-centered-design-926c4d24385c)
 Wireframe: https://files.catbox.moe/8zyqg6.jpg
-Notion: https://app.notion.com/p/Default-Effect-Status-Quo-Bias-b58a9aed534482d7a89d8142213b6824
+File: library/human-biases-in-interfaces/UX-562-default-effect-status-quo-bias.md
 
 ## UX-563 — Diffusion of Responsibility in Collaborative Tools (Collective Inaction / Social Loafing)
 - Score 5 · Human Biases in Interfaces
@@ -327,7 +327,7 @@ Notion: https://app.notion.com/p/Default-Effect-Status-Quo-Bias-b58a9aed534482d7
 
 Sources: [https://thedecisionlab.com/reference-guide/psychology/diffusion-of-responsibility](https://thedecisionlab.com/reference-guide/psychology/diffusion-of-responsibility) · [https://www.linkedin.com/pulse/bystander-effect-hayden-lee-mcc-ucnmc](https://www.linkedin.com/pulse/bystander-effect-hayden-lee-mcc-ucnmc)
 Wireframe: https://files.catbox.moe/2pcp0n.jpg
-Notion: https://app.notion.com/p/Diffusion-of-Responsibility-in-Collaborative-Tools-Collective-Inaction-Social-Loafing-226a9aed5344832c9a580106795bf0b9
+File: library/human-biases-in-interfaces/UX-563-diffusion-of-responsibility-in-collaborative-tools-collectiv.md
 
 ## UX-564 — Endowment Effect (Quasi-Endowment Effect / IKEA Effect)
 - Score 5 · Human Biases in Interfaces
@@ -349,7 +349,7 @@ Notion: https://app.notion.com/p/Diffusion-of-Responsibility-in-Collaborative-To
 
 Sources: [https://www.nngroup.com/videos/endowment-effect/](https://www.nngroup.com/videos/endowment-effect/) · [https://learningloop.io/plays/psychology/endowment-effect](https://learningloop.io/plays/psychology/endowment-effect)
 Wireframe: https://files.catbox.moe/ttnkxu.jpg
-Notion: https://app.notion.com/p/Endowment-Effect-Quasi-Endowment-Effect-IKEA-Effect-1e1a9aed534482249ca60161b10b0223
+File: library/human-biases-in-interfaces/UX-564-endowment-effect-quasi-endowment-effect-and-ikea-effect.md
 
 ## UX-565 — False Consensus Effect (Projection Bias / Assumed Similarity)
 - Score 5 · Human Biases in Interfaces
@@ -371,7 +371,7 @@ Notion: https://app.notion.com/p/Endowment-Effect-Quasi-Endowment-Effect-IKEA-Ef
 
 Sources: [https://www.uxtweak.com/ux-glossary/false-consensus-effect/](https://www.uxtweak.com/ux-glossary/false-consensus-effect/) · [https://www.beyonduxdesign.com/cognition-catalog/false-consensus-effect/](https://www.beyonduxdesign.com/cognition-catalog/false-consensus-effect/) · [https://trymata.com/blog/false-consensus-effect/](https://trymata.com/blog/false-consensus-effect/) · [https://dovetail.com/research/false-consensus-effect/](https://dovetail.com/research/false-consensus-effect/)
 Wireframe: https://files.catbox.moe/t2sm0t.jpg
-Notion: https://app.notion.com/p/False-Consensus-Effect-Projection-Bias-Assumed-Similarity-35ca9aed534483dc815081290b14ddac
+File: library/human-biases-in-interfaces/UX-565-false-consensus-effect-projection-bias-and-assumed-similarit.md
 
 ## UX-566 — Framing Effect (Prospect Theory Framing / Decision Framing)
 - Score 5 · Human Biases in Interfaces
@@ -393,7 +393,7 @@ Notion: https://app.notion.com/p/False-Consensus-Effect-Projection-Bias-Assumed-
 
 Sources: [https://www.nngroup.com/articles/decision-framing-cognitive-bias-ux-pros/](https://www.nngroup.com/articles/decision-framing-cognitive-bias-ux-pros/) · [https://uxdesign.cc/the-framing-effect-in-ux-d77df34369ec](https://uxdesign.cc/the-framing-effect-in-ux-d77df34369ec)
 Wireframe: https://files.catbox.moe/kf4n0h.jpg
-Notion: https://app.notion.com/p/Framing-Effect-Prospect-Theory-Framing-Decision-Framing-31aa9aed5344839ea4798130231891ec
+File: library/human-biases-in-interfaces/UX-566-framing-effect-prospect-theory-framing-and-decision-framing.md
 
 ## UX-567 — Halo Effect (Positive and Negative Transfer of Impressions)
 - Score 5 · Human Biases in Interfaces
@@ -415,7 +415,7 @@ Notion: https://app.notion.com/p/Framing-Effect-Prospect-Theory-Framing-Decision
 
 Sources: [https://doi.org/10.1037/h0071663](https://doi.org/10.1037/h0071663) · [https://www.nngroup.com/articles/halo-effect/](https://www.nngroup.com/articles/halo-effect/) · [https://ui-patterns.com/patterns/halo-effect](https://ui-patterns.com/patterns/halo-effect)
 Wireframe: https://files.catbox.moe/b64zhk.jpg
-Notion: https://app.notion.com/p/Halo-Effect-Positive-and-Negative-Transfer-of-Impressions-10aa9aed53448284b94f01f12c977199
+File: library/human-biases-in-interfaces/UX-567-halo-effect-positive-and-negative-transfer-of-impressions.md
 
 ## UX-568 — Inattentional Blindness (Perceptual Load Effect)
 - Score 5 · Human Biases in Interfaces
@@ -436,7 +436,7 @@ Notion: https://app.notion.com/p/Halo-Effect-Positive-and-Negative-Transfer-of-I
 
 Sources: [Released.so](http://released.so/) · [released.so/articles/the-impact-of-inattentional-blindness-on-ui-design](http://released.so/articles/the-impact-of-inattentional-blindness-on-ui-design)
 Wireframe: https://files.catbox.moe/gz8j6d.jpg
-Notion: https://app.notion.com/p/Inattentional-Blindness-Perceptual-Load-Effect-dd8a9aed534482bd9a9d81680d2e7d0b
+File: library/human-biases-in-interfaces/UX-568-inattentional-blindness-perceptual-load-effect.md
 
 ## UX-569 — Loss Aversion (Prospect Theory — Loss-Gain Asymmetry)
 - Score 5 · Human Biases in Interfaces
@@ -457,7 +457,7 @@ Notion: https://app.notion.com/p/Inattentional-Blindness-Perceptual-Load-Effect-
 
 Sources: [https://www.interaction-design.org/literature/article/loss-aversion-theory-the-economics-of-design](https://www.interaction-design.org/literature/article/loss-aversion-theory-the-economics-of-design) · [https://www.zionandzion.com/mitigate-the-impact-of-loss-aversion-in-ux-design-to-create-positive-user-experiences/](https://www.zionandzion.com/mitigate-the-impact-of-loss-aversion-in-ux-design-to-create-positive-user-experiences/) · [https://www.nngroup.com/videos/endowment-effect/](https://www.nngroup.com/videos/endowment-effect/)
 Wireframe: https://files.catbox.moe/cse7si.jpg
-Notion: https://app.notion.com/p/Loss-Aversion-Prospect-Theory-Loss-Gain-Asymmetry-349a9aed534483f5ab2601a104e7dfe2
+File: library/human-biases-in-interfaces/UX-569-loss-aversion-prospect-theory-loss-gain-asymmetry.md
 
 ## UX-570 — Peak-End Rule (Evaluative Memory Heuristic)
 - Score 5 · Human Biases in Interfaces
@@ -479,7 +479,7 @@ Notion: https://app.notion.com/p/Loss-Aversion-Prospect-Theory-Loss-Gain-Asymmet
 
 Sources: [lawsofux.com/peak-end-rule/](http://lawsofux.com/peak-end-rule/) · [umbrex.com/resources/frameworks/marketing-frameworks/peak-end-rule-experience-design/](http://umbrex.com/resources/frameworks/marketing-frameworks/peak-end-rule-experience-design/) · [icreatives.com/peak-end-rule/](http://icreatives.com/peak-end-rule/)
 Wireframe: https://files.catbox.moe/9jwoa3.jpg
-Notion: https://app.notion.com/p/Peak-End-Rule-Evaluative-Memory-Heuristic-508a9aed53448205bb0c019aac2ff897
+File: library/human-biases-in-interfaces/UX-570-peak-end-rule-evaluative-memory-heuristic.md
 
 ## UX-571 — Processing Fluency (Cognitive Fluency / Perceptual Fluency)
 - Score 5 · Human Biases in Interfaces
@@ -501,7 +501,7 @@ Notion: https://app.notion.com/p/Peak-End-Rule-Evaluative-Memory-Heuristic-508a9
 
 Sources: [versions.com](http://versions.com/) · [rivasolutionsinc.com](http://rivasolutionsinc.com/)
 Wireframe: https://files.catbox.moe/f552li.jpg
-Notion: https://app.notion.com/p/Processing-Fluency-Cognitive-Fluency-Perceptual-Fluency-20ca9aed5344828899c08110e588fc09
+File: library/human-biases-in-interfaces/UX-571-processing-fluency-cognitive-fluency-and-perceptual-fluency.md
 
 ## UX-572 — Psychological Reactance (Boomerang Effect / Reactance Theory)
 - Score 5 · Human Biases in Interfaces
@@ -523,7 +523,7 @@ Notion: https://app.notion.com/p/Processing-Fluency-Cognitive-Fluency-Perceptual
 
 Sources: [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.713074/full](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.713074/full) · [https://uxdesign.cc/5-types-of-scarcity-how-to-influence-anyone-using-these-7f309d328dbb](https://uxdesign.cc/5-types-of-scarcity-how-to-influence-anyone-using-these-7f309d328dbb)
 Wireframe: https://files.catbox.moe/086rsq.jpg
-Notion: https://app.notion.com/p/Psychological-Reactance-Boomerang-Effect-Reactance-Theory-381a9aed534482879e0581582554bc0b
+File: library/human-biases-in-interfaces/UX-572-psychological-reactance-boomerang-effect-and-reactance-theor.md
 
 ## UX-573 — Serial Position Effect (Primacy Effect & Recency Effect)
 - Score 5 · Human Biases in Interfaces
@@ -546,7 +546,7 @@ Notion: https://app.notion.com/p/Psychological-Reactance-Boomerang-Effect-Reacta
 
 Sources: [interaction-design.org/literature/article/serial-position-effect-how-to-create-better-user-interfaces](http://interaction-design.org/literature/article/serial-position-effect-how-to-create-better-user-interfaces) · [blog.logrocket.com/ux-design/serial-position-effect-ux-design/](http://blog.logrocket.com/ux-design/serial-position-effect-ux-design/)
 Wireframe: https://files.catbox.moe/7y4104.jpg
-Notion: https://app.notion.com/p/Serial-Position-Effect-Primacy-Effect-Recency-Effect-e85a9aed534482ceb948013e8a0ad2f9
+File: library/human-biases-in-interfaces/UX-573-serial-position-effect-primacy-effect-and-recency-effect.md
 
 ## UX-574 — Social Proof / Bandwagon Effect
 - Score 5 · Human Biases in Interfaces
@@ -569,7 +569,7 @@ Notion: https://app.notion.com/p/Serial-Position-Effect-Primacy-Effect-Recency-E
 
 Sources: [https://www.influenceatwork.com](https://www.influenceatwork.com/) · [https://www.nngroup.com/articles/social-proof-ux/](https://www.nngroup.com/articles/social-proof-ux/) · [https://psycnet.apa.org](https://psycnet.apa.org/) · [https://uxdesign.cc/social-proof-in-ux-an-ancestral-habit-demoted-to-dark-pattern-31d6c99e059a](https://uxdesign.cc/social-proof-in-ux-an-ancestral-habit-demoted-to-dark-pattern-31d6c99e059a) · [https://blog.logrocket.com/product-management/bandwagon-effect-definition/](https://blog.logrocket.com/product-management/bandwagon-effect-definition/)
 Wireframe: https://files.catbox.moe/qadey8.jpg
-Notion: https://app.notion.com/p/Social-Proof-Bandwagon-Effect-709a9aed534483b59f7a8131de1a3a26
+File: library/human-biases-in-interfaces/UX-574-social-proof-and-bandwagon-effect.md
 
 ## UX-575 — Von Restorff Effect (Isolation Effect)
 - Score 5 · Human Biases in Interfaces
@@ -591,7 +591,7 @@ Notion: https://app.notion.com/p/Social-Proof-Bandwagon-Effect-709a9aed534483b59
 
 Sources: [radiant.digital/article/von-restorff-effect-ux-design](http://radiant.digital/article/von-restorff-effect-ux-design) · [blog.logrocket.com/ux-design/von-restorff-effect-in-ux/](http://blog.logrocket.com/ux-design/von-restorff-effect-in-ux/) · [blog.uxtweak.com/von-restorff-effect/](http://blog.uxtweak.com/von-restorff-effect/)
 Wireframe: https://files.catbox.moe/yb5xai.jpg
-Notion: https://app.notion.com/p/Von-Restorff-Effect-Isolation-Effect-fc7a9aed5344839281c701d0f77c5e4b
+File: library/human-biases-in-interfaces/UX-575-von-restorff-effect-isolation-effect.md
 
 ## UX-576 — WYSIATI — What You See Is All There Is
 - Score 5 · Human Biases in Interfaces
@@ -612,7 +612,7 @@ Notion: https://app.notion.com/p/Von-Restorff-Effect-Isolation-Effect-fc7a9aed53
 
 Sources: [https://moulay.webflow.io/post/ux-design-lessons-from-thinking-fast-and-slow](https://moulay.webflow.io/post/ux-design-lessons-from-thinking-fast-and-slow) · [https://www.reddit.com/r/UXDesign/comments/vgj088/how_has_the_book_thinking_fast_and_slow/](https://www.reddit.com/r/UXDesign/comments/vgj088/how_has_the_book_thinking_fast_and_slow/)
 Wireframe: https://files.catbox.moe/ur51u0.jpg
-Notion: https://app.notion.com/p/WYSIATI-What-You-See-Is-All-There-Is-5b2a9aed534483f0aa86812ebda7e461
+File: library/human-biases-in-interfaces/UX-576-wysiati-what-you-see-is-all-there-is.md
 
 ## UX-577 — Zeigarnik Effect (Incomplete Task Salience / Open-Loop Memory Enhancement)
 - Score 5 · Human Biases in Interfaces
@@ -634,7 +634,7 @@ Notion: https://app.notion.com/p/WYSIATI-What-You-See-Is-All-There-Is-5b2a9aed53
 
 Sources: [designzig.com](http://designzig.com/) · [learningloop.io](http://learningloop.io/) · [helio.app](http://helio.app/) · [uxdesign.cc](http://uxdesign.cc/)
 Wireframe: https://files.catbox.moe/qvp8wq.jpg
-Notion: https://app.notion.com/p/Zeigarnik-Effect-Incomplete-Task-Salience-Open-Loop-Memory-Enhancement-5aea9aed5344831d8ebd81a70a98060f
+File: library/human-biases-in-interfaces/UX-577-zeigarnik-effect-incomplete-task-salience-and-open-loop-memo.md
 
 ## UX-578 — Action Bias
 - Score 4 · Human Biases in Interfaces
@@ -655,7 +655,7 @@ Notion: https://app.notion.com/p/Zeigarnik-Effect-Incomplete-Task-Salience-Open-
 
 Sources: [Growth.design](http://growth.design/) · [https://growth.design/psychology](https://growth.design/psychology)
 Wireframe: https://files.catbox.moe/hvvnjm.jpg
-Notion: https://app.notion.com/p/Action-Bias-8e3a9aed534483a3908f01c96e909e1b
+File: library/human-biases-in-interfaces/UX-578-action-bias.md
 
 ## UX-579 — Ambiguity Effect (Ambiguity Aversion / Ellsberg Paradox)
 - Score 4 · Human Biases in Interfaces
@@ -677,7 +677,7 @@ Notion: https://app.notion.com/p/Action-Bias-8e3a9aed534483a3908f01c96e909e1b
 
 Sources: [https://nesslabs.com/ambiguity-effect](https://nesslabs.com/ambiguity-effect) · [https://www.sciencedirect.com/science/article/abs/pii/S2214804324000569](https://www.sciencedirect.com/science/article/abs/pii/S2214804324000569) · [https://www.tonicadvisory.co.uk/post/the-ellsberg-paradox-how-ambiguity-can-affect-decision-making-in-business](https://www.tonicadvisory.co.uk/post/the-ellsberg-paradox-how-ambiguity-can-affect-decision-making-in-business)
 Wireframe: https://files.catbox.moe/85wobp.jpg
-Notion: https://app.notion.com/p/Ambiguity-Effect-Ambiguity-Aversion-Ellsberg-Paradox-222a9aed534483d5a26781dd559b356d
+File: library/human-biases-in-interfaces/UX-579-ambiguity-effect-ambiguity-aversion-and-ellsberg-paradox.md
 
 ## UX-580 — Attentional Bias (Selective Attention Bias / Emotional Attentional Bias)
 - Score 4 · Human Biases in Interfaces
@@ -698,7 +698,7 @@ Notion: https://app.notion.com/p/Ambiguity-Effect-Ambiguity-Aversion-Ellsberg-Pa
 
 Sources: [imotions.com](http://imotions.com/) · [thesigma.co/attentional-bias](http://thesigma.co/attentional-bias)
 Wireframe: https://files.catbox.moe/7uma9c.jpg
-Notion: https://app.notion.com/p/Attentional-Bias-Selective-Attention-Bias-Emotional-Attentional-Bias-26fa9aed534482b69f5b015e910bc69c
+File: library/human-biases-in-interfaces/UX-580-attentional-bias-selective-attention-bias-and-emotional-atte.md
 
 ## UX-581 — Availability Heuristic (Availability Bias / Availability Cascade)
 - Score 4 · Human Biases in Interfaces
@@ -719,7 +719,7 @@ Notion: https://app.notion.com/p/Attentional-Bias-Selective-Attention-Bias-Emoti
 
 Sources: [uxdesign.cc/the-availability-heuristic](http://uxdesign.cc/the-availability-heuristic) · [webdesignerdepot.com](http://webdesignerdepot.com/)
 Wireframe: https://files.catbox.moe/e1gini.jpg
-Notion: https://app.notion.com/p/Availability-Heuristic-Availability-Bias-Availability-Cascade-6aaa9aed5344820499f80108c6f8bfd3
+File: library/human-biases-in-interfaces/UX-581-availability-heuristic-availability-bias-and-availability-ca.md
 
 ## UX-582 — Backfire Effect (Belief Perseverance under Correction)
 - Score 4 · Human Biases in Interfaces
@@ -740,4 +740,25 @@ Notion: https://app.notion.com/p/Availability-Heuristic-Availability-Bias-Availa
 
 Sources: [https://thedecisionlab.com/biases/belief-perseverance](https://thedecisionlab.com/biases/belief-perseverance) · [https://uxmag.com/articles/6-ways-psychology-affects-your-design-work](https://uxmag.com/articles/6-ways-psychology-affects-your-design-work)
 Wireframe: https://files.catbox.moe/jiakr8.jpg
-Notion: https://app.notion.com/p/Backfire-Effect-Belief-Perseverance-under-Correction-f73a9aed534482058e9e01016b7a1ae7
+File: library/human-biases-in-interfaces/UX-582-backfire-effect-belief-perseverance-under-correction.md
+
+## UX-583 — Base Rate Neglect (Base Rate Fallacy)
+- Score 4 · Human Biases in Interfaces
+- Goals: Leverage Psychology to Guide User Behavior; Drive Conversion & Decision-Making
+- Use when: Mitigate: Always weight qualitative insights by the quantitative base rate of the segment they represent. Before acting on a finding, ask: 'What percentage of our users are in this situation?' Conduct sample size calculations before running tests. Leverage: Design features to serve the base-rate majority of user behaviors rather than edge cases, unless edge-case user value or revenue is disproportionate.
+
+**Why.** Base rate neglect, identified by Kahneman and Tversky in their 1973 research on probability judgment, is the systematic tendency to underweight or ignore prior probability information — statistical base rates — when evaluating specific cases, instead over-relying on vivid, case-specific evidence. The finding is robust across domains: when specific, compelling case information is available, it overshadows statistically more powerful population-level data in determining judgment. The mechanism is representativeness — how well a specific case matches a prototype pattern matters more to System 1 judgment than how frequently that pattern actually occurs in the population.
+
+**Do.**
+- Always segment user research findings by user tier frequency: 'This issue affects 80% of new users who represent 60% of all sessions'
+- Use sample-size calculators before any A/B test or survey to ensure you're detecting real population effects, not noise
+- Weight qualitative feedback by user frequency: a complaint from your top 10 users about a niche feature must be balanced against the base rate of that user type
+- Build dashboards that show frequency distributions, not just existence: not 'users report this problem' but '34% of users encounter this problem weekly'
+- Create user segmentation matrices that document the size, revenue contribution, and growth rate of each segment before prioritization decisions
+- In error/exception monitoring, sort by frequency × impact, not raw occurrence count
+
+**Measure.** Effectiveness: Error rate, Task success rate; Efficiency: Time on task; Satisfaction & Perception: Confidence rating, Ease-of-use score; How to measure: Conduct usability tests on interfaces that present individual anecdotes or case results without base-rate context, measuring decision error rates compared to interfaces that surface statistical context alongside examples. Survey users on decision confidence before and after adding population-level data to information-heavy interfaces.
+
+Sources: [https://www.patent355.com/behavioral-design-glossary/base-rate-fallacy](https://www.patent355.com/behavioral-design-glossary/base-rate-fallacy) · [https://trevorcalabro.substack.com/p/cognitive-biases-in-ux-research](https://trevorcalabro.substack.com/p/cognitive-biases-in-ux-research)
+Wireframe: https://files.catbox.moe/q1lxbu.jpg
+File: library/human-biases-in-interfaces/UX-583-base-rate-neglect-base-rate-fallacy.md

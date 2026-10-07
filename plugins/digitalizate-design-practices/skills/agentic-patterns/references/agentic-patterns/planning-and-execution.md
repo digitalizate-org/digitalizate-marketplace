@@ -22,7 +22,7 @@
 **Measure.** Goal Attainment Rate (% of sub-goals completed successfully); Timeline Variance (Actual vs planned completion time); Critical Path Efficiency (On-time milestone delivery rate); Decomposition Quality (Coverage validation and peer review scores); Resource Utilization (Actual vs estimated effort and cost); Replanning Frequency (Number of plan adjustments per goal); Parallel Work Ratio (% tasks executed concurrently vs sequentially); AI Model Development: "Improve accuracy 87%→95%" → Data quality +…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-389.png
-Notion: https://app.notion.com/p/Intelligent-Goal-Decomposition-IGD-6d3a9aed534483a6975001c652f40eee
+File: library/agentic-patterns/AGP-099-intelligent-goal-decomposition-igd.md
 
 ## AGP-182 — Task Management & Orchestration (TMO)
 - Score 4 · Agentic Patterns / Planning & Execution
@@ -46,7 +46,7 @@ Notion: https://app.notion.com/p/Intelligent-Goal-Decomposition-IGD-6d3a9aed5344
 **Measure.** Task Completion Rate (% tasks completed vs created over time); Cycle Time (Average time from task creation to completion); Dependency Resolution (% dependency conflicts resolved automatically); Bottleneck Detection (Time to identify and resolve workflow bottlenecks); Priority Accuracy (% high-priority tasks completed on schedule); Parallel Efficiency (% tasks executed in parallel vs sequential); Adaptive Replanning (Success rate of dynamic plan adjustments); Software Development: Sprint…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-392.png
-Notion: https://app.notion.com/p/Task-Management-Orchestration-TMO-128a9aed534483d6b1878186fa801be5
+File: library/agentic-patterns/AGP-182-task-management-and-orchestration-tmo.md
 
 ## AGP-090 — Hierarchical Task Network (HTN) Planning
 - Score 3 · Agentic Patterns / Planning & Execution
@@ -70,7 +70,7 @@ Notion: https://app.notion.com/p/Task-Management-Orchestration-TMO-128a9aed53448
 **Measure.** Plan Success Rate (% plans that execute successfully); Decomposition Depth (Average levels in task hierarchy); Planning Time (Time to generate executable plan); Method Reuse Rate (% methods reused across plans); Backtrack Frequency (% plans requiring backtracking); Domain Coverage (% domain tasks plannable); Plan Optimality (Quality vs optimal solution); Execution Efficiency (Primitive actions per goal achieved); Autonomous Research Agents: Literature review → data extraction → analysis →…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-390.png
-Notion: https://app.notion.com/p/Hierarchical-Task-Network-HTN-Planning-5a0a9aed534482d89be281321ba1a4e9
+File: library/agentic-patterns/AGP-090-hierarchical-task-network-htn-planning.md
 
 ## AGP-125 — Meta-Reasoning (MR)
 - Score 3 · Agentic Patterns / Planning & Execution
@@ -94,4 +94,4 @@ Notion: https://app.notion.com/p/Hierarchical-Task-Network-HTN-Planning-5a0a9aed
 **Measure.** Strategy Selection Accuracy (% optimal strategy chosen); Task Completion Rate (% tasks completed successfully); Decision Quality Score (Weighted outcome quality (0-1)); Adaptation Speed (Time to switch strategies); Resource Efficiency (Performance/computational_cost); Confidence Calibration (Predicted vs actual success rate); Learning Rate (Strategy improvement over time); Meta-Reasoning Overhead (% additional computation vs direct); Autonomous Systems: Self-driving cars adapting to…
 
 Wireframe: https://raw.githubusercontent.com/alexgilev/agentic-wireframes/main/UX-391.png
-Notion: https://app.notion.com/p/Meta-Reasoning-MR-080a9aed534482d9bc39815a0c7656f9
+File: library/agentic-patterns/AGP-125-meta-reasoning-mr.md

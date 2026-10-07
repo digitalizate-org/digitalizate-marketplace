@@ -20,7 +20,7 @@
 
 Sources: [Nielsen Norman Group — Left-Side Vertical Navigation on Desktop](https://www.nngroup.com/articles/vertical-nav/) · [Component Gallery — Navigation](https://component.gallery/components/navigation/) · [Smashing Magazine — Breadcrumbs UX](https://www.smashingmagazine.com/2022/04/breadcrumbs-ux-design/) · [Merveilleux.design](http://merveilleux.design/) · [— 6 Types of UX Navigation for SaaS](https://www.merveilleux.design/en/blog/article/comprehensive-guide-for-saas-products-on-ux-navigation-types) · [Aspirity — Admin Panel Design](https://aspirity.com/blog/good-admin-panel-design)
 Wireframe: https://files.catbox.moe/v0j3gp.jpg
-Notion: https://app.notion.com/p/Left-Side-Vertical-Navigation-for-Complex-Information-Architectures-74aa9aed534483ed8e3c811e95214b46
+File: library/navigation-and-information-architecture/UX-276-left-side-vertical-navigation-for-complex-information-archit.md
 
 ## UX-277 — Always Expose Navigation on Desktop — No Hamburger Menus
 - Score 5 · Navigation & Information Architecture / Navigation visibility and discoverability
@@ -41,7 +41,7 @@ Notion: https://app.notion.com/p/Left-Side-Vertical-Navigation-for-Complex-Infor
 
 Sources: [Nielsen Norman Group — Navigation Discoverability on Desktop](https://www.nngroup.com/articles/find-navigation-desktop-not-hamburger/)
 Wireframe: https://files.catbox.moe/o5h5ls.jpg
-Notion: https://app.notion.com/p/Always-Expose-Navigation-on-Desktop-No-Hamburger-Menus-946a9aed53448398b72e016122e54cac
+File: library/navigation-and-information-architecture/UX-277-always-expose-navigation-on-desktop-no-hamburger-menus.md
 
 ## UX-278 — Front-Load Navigation Labels With Information-Rich Keywords
 - Score 5 · Navigation & Information Architecture / Navigation label writing
@@ -62,7 +62,7 @@ Notion: https://app.notion.com/p/Always-Expose-Navigation-on-Desktop-No-Hamburge
 
 Sources: [Nielsen Norman Group — Left-Side Vertical Navigation on Desktop](https://www.nngroup.com/articles/vertical-nav/)
 Wireframe: https://files.catbox.moe/iwt0tr.jpg
-Notion: https://app.notion.com/p/Front-Load-Navigation-Labels-With-Information-Rich-Keywords-7d7a9aed5344820383b2811a503acbc1
+File: library/navigation-and-information-architecture/UX-278-front-load-navigation-labels-with-information-rich-keywords.md
 
 ## UX-279 — Recently Viewed Records and Resume Incomplete Workflows
 - Score 5 · Navigation & Information Architecture / Re-finding and workflow continuity
@@ -84,7 +84,7 @@ Notion: https://app.notion.com/p/Front-Load-Navigation-Labels-With-Information-R
 
 Sources: [Good UI — Cart Reminder / Recently Viewed](https://goodui.org/) · [Laws of UX — Zeigarnik Effect](https://lawsofux.com/zeigarnik-effect/)
 Wireframe: https://files.catbox.moe/26oaij.jpg
-Notion: https://app.notion.com/p/Recently-Viewed-Records-and-Resume-Incomplete-Workflows-dc2a9aed53448282bd588108381a90d9
+File: library/navigation-and-information-architecture/UX-279-recently-viewed-records-and-resume-incomplete-workflows.md
 
 ## UX-280 — Breadcrumbs for Deep Navigation Hierarchies
 - Score 5 · Navigation & Information Architecture / Wayfinding Patterns
@@ -105,7 +105,7 @@ Notion: https://app.notion.com/p/Recently-Viewed-Records-and-Resume-Incomplete-W
 
 Sources: [Smashing Magazine — Breadcrumbs UX Design](https://www.smashingmagazine.com/2022/04/breadcrumbs-ux-design/) · [About Face Ch. 11 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [Component Gallery — Breadcrumbs](https://component.gallery/components/breadcrumbs/) · [Merveilleux.design](http://merveilleux.design/) · [— 6 Types of UX Navigation for SaaS](https://www.merveilleux.design/en/blog/article/comprehensive-guide-for-saas-products-on-ux-navigation-types)
 Wireframe: https://files.catbox.moe/yez0w2.jpg
-Notion: https://app.notion.com/p/Breadcrumbs-for-Deep-Navigation-Hierarchies-2dca9aed5344821d811501855cb1a1c3
+File: library/navigation-and-information-architecture/UX-280-breadcrumbs-for-deep-navigation-hierarchies.md
 
 ## UX-281 — Help Users Maintain Orientation in Complex Applications
 - Score 5 · Navigation & Information Architecture / Wayfinding and orientation
@@ -127,7 +127,7 @@ Notion: https://app.notion.com/p/Breadcrumbs-for-Deep-Navigation-Hierarchies-2dc
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [Component Gallery — Breadcrumbs](https://component.gallery/components/breadcrumbs/)
 Wireframe: https://files.catbox.moe/pzhebd.jpg
-Notion: https://app.notion.com/p/Help-Users-Maintain-Orientation-in-Complex-Applications-407a9aed5344822abc930129dd6172c2
+File: library/navigation-and-information-architecture/UX-281-help-users-maintain-orientation-in-complex-applications.md
 
 ## UX-282 — Three-Level Navigation: Global / Contextual / Local
 - Score 5 · Navigation & Information Architecture / Navigation Architecture
@@ -148,7 +148,7 @@ Notion: https://app.notion.com/p/Help-Users-Maintain-Orientation-in-Complex-Appl
 
 Sources: [Smashing Magazine — Breadcrumbs UX Design](https://www.smashingmagazine.com/2022/04/breadcrumbs-ux-design/)
 Wireframe: https://files.catbox.moe/di1we3.jpg
-Notion: https://app.notion.com/p/Three-Level-Navigation-Global-Contextual-Local-685a9aed5344834595f40111f2ce7b46
+File: library/navigation-and-information-architecture/UX-282-three-level-navigation-global-and-contextual-and-local.md
 
 ## UX-283 — Active State Visibility in Navigation
 - Score 5 · Navigation & Information Architecture / Location Communication
@@ -169,7 +169,7 @@ Notion: https://app.notion.com/p/Three-Level-Navigation-Global-Contextual-Local-
 
 Sources: [Smashing Magazine — Breadcrumbs UX](https://www.smashingmagazine.com/2022/04/breadcrumbs-ux-design/)
 Wireframe: https://files.catbox.moe/rlax2e.jpg
-Notion: https://app.notion.com/p/Active-State-Visibility-in-Navigation-4c4a9aed534482a5958901beb62811ef
+File: library/navigation-and-information-architecture/UX-283-active-state-visibility-in-navigation.md
 
 ## UX-284 — Reducing Distance Between Intent and Action
 - Score 5 · Navigation & Information Architecture / Interaction Efficiency
@@ -212,7 +212,7 @@ Notion: https://app.notion.com/p/Active-State-Visibility-in-Navigation-4c4a9aed5
 
 Sources: [Smashing Magazine — Breadcrumbs UX](https://www.smashingmagazine.com/2022/04/breadcrumbs-ux-design/)
 Wireframe: https://files.catbox.moe/3vcax0.jpg
-Notion: https://app.notion.com/p/Reducing-Distance-Between-Intent-and-Action-36ca9aed53448325af58011d08ad279e
+File: library/navigation-and-information-architecture/UX-284-reducing-distance-between-intent-and-action.md
 
 ## UX-285 — Contextual Secondary Navigation via Tabs
 - Score 5 · Navigation & Information Architecture / Secondary Navigation
@@ -234,7 +234,7 @@ Notion: https://app.notion.com/p/Reducing-Distance-Between-Intent-and-Action-36c
 
 Sources: [Merveilleux.design](http://merveilleux.design/) · [— 6 Types of UX Navigation for SaaS](https://www.merveilleux.design/en/blog/article/comprehensive-guide-for-saas-products-on-ux-navigation-types)
 Wireframe: https://files.catbox.moe/t96ugr.jpg
-Notion: https://app.notion.com/p/Contextual-Secondary-Navigation-via-Tabs-983a9aed534482d181f8014b36fe2bc3
+File: library/navigation-and-information-architecture/UX-285-contextual-secondary-navigation-via-tabs.md
 
 ## UX-286 — Progressive Disclosure for Complex Feature Sets
 - Score 5 · Navigation & Information Architecture / Information Hierarchy
@@ -255,7 +255,7 @@ Notion: https://app.notion.com/p/Contextual-Secondary-Navigation-via-Tabs-983a9a
 
 Sources: [Interaction Design Foundation — Progressive Disclosure](https://www.interaction-design.org/literature/topics/progressive-disclosure) · [UXPin — What is Progressive Disclosure?](https://www.uxpin.com/studio/blog/what-is-progressive-disclosure/)
 Wireframe: https://files.catbox.moe/910zf5.jpg
-Notion: https://app.notion.com/p/Progressive-Disclosure-for-Complex-Feature-Sets-350a9aed53448375aea001517fd249df
+File: library/navigation-and-information-architecture/UX-286-progressive-disclosure-for-complex-feature-sets.md
 
 ## UX-287 — In-Page Navigation for Long Single-Page Views
 - Score 4 · Navigation & Information Architecture / Page-level navigation
@@ -276,7 +276,7 @@ Notion: https://app.notion.com/p/Progressive-Disclosure-for-Complex-Feature-Sets
 
 Sources: [Good UI — Page-Level Navigation](https://goodui.org/)
 Wireframe: https://files.catbox.moe/653c8u.jpg
-Notion: https://app.notion.com/p/In-Page-Navigation-for-Long-Single-Page-Views-548a9aed53448394879201e0e8d520ce
+File: library/navigation-and-information-architecture/UX-287-in-page-navigation-for-long-single-page-views.md
 
 ## UX-288 — Search as Primary Navigation
 - Score 4 · Navigation & Information Architecture / Search-Based Navigation
@@ -298,7 +298,7 @@ Notion: https://app.notion.com/p/In-Page-Navigation-for-Long-Single-Page-Views-5
 
 Sources: [Merveilleux.design](http://merveilleux.design/) · [— 6 Types of UX Navigation for SaaS](https://www.merveilleux.design/en/blog/article/comprehensive-guide-for-saas-products-on-ux-navigation-types)
 Wireframe: https://files.catbox.moe/6zfws7.jpg
-Notion: https://app.notion.com/p/Search-as-Primary-Navigation-33ea9aed534483dd871a81c446d08c4c
+File: library/navigation-and-information-architecture/UX-288-search-as-primary-navigation.md
 
 ## UX-289 — In-App Help Panel (Help Hub)
 - Score 4 · Navigation & Information Architecture / Help Systems
@@ -318,7 +318,7 @@ Notion: https://app.notion.com/p/Search-as-Primary-Navigation-33ea9aed534483dd87
 
 Sources: [UXpilot — Enterprise UX Best Practices](https://uxpilot.ai/blogs/enterprise-ux-design)
 Wireframe: https://files.catbox.moe/5yl26x.jpg
-Notion: https://app.notion.com/p/In-App-Help-Panel-Help-Hub-b8ea9aed534483cdbd48817fcaaf3612
+File: library/navigation-and-information-architecture/UX-289-in-app-help-panel-help-hub.md
 
 ## UX-290 — Contextual "Help for This Page" Auto-Surfacing
 - Score 4 · Navigation & Information Architecture / Help Systems
@@ -338,7 +338,7 @@ Notion: https://app.notion.com/p/In-App-Help-Panel-Help-Hub-b8ea9aed534483cdbd48
 
 Sources: [Document360 — Contextual In-App Documentation](https://document360.com/blog/contextual-in-app-documentation/) · [Docsie — Context-Sensitive Help](https://www.docsie.io/solutions/context-sensitive-help-in-app-guidance/)
 Wireframe: https://files.catbox.moe/gug4ra.jpg
-Notion: https://app.notion.com/p/Contextual-Help-for-This-Page-Auto-Surfacing-928a9aed534482ffa462015eb6b753e4
+File: library/navigation-and-information-architecture/UX-290-contextual-help-for-this-page-auto-surfacing.md
 
 ## UX-291 — Deep Linking and URL State Persistence
 - Score 4 · Navigation & Information Architecture / State Persistence
@@ -352,4 +352,4 @@ Notion: https://app.notion.com/p/Contextual-Help-for-This-Page-Auto-Surfacing-92
 
 Sources: [UX Patterns — Data Table](https://uxpatterns.dev/patterns/data-display/table)
 Wireframe: https://files.catbox.moe/ptghyl.jpg
-Notion: https://app.notion.com/p/Deep-Linking-and-URL-State-Persistence-f59a9aed53448304866281572bbe66cf
+File: library/navigation-and-information-architecture/UX-291-deep-linking-and-url-state-persistence.md

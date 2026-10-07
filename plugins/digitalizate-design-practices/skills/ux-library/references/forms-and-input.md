@@ -23,7 +23,7 @@
 
 Sources: [Nielsen Norman Group — 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) · [About Face 4th Ed., Ch. 15 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [Nielsen Norman Group — Heuristic 5](https://cleverx.com/blog/heuristic-evaluation-10-nielsen-principles-explained) · [UX Stack Exchange](https://ux.stackexchange.com/)
 Wireframe: https://files.catbox.moe/2ko6ya.jpg
-Notion: https://app.notion.com/p/Error-Prevention-003a9aed534482208b0981b25f731638
+File: library/forms-and-input/UX-205-error-prevention.md
 
 ## UX-206 — Inline Validation — Validate on Field Blur, Not on Keystroke
 - Score 5 · Forms & Input / Real-Time Feedback
@@ -47,7 +47,7 @@ Notion: https://app.notion.com/p/Error-Prevention-003a9aed534482208b0981b25f7316
 
 Sources: [About Face 4th Ed., Ch. 14 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf) · [UX Stack Exchange](https://www.reddit.com/r/UXDesign/comments/1kllxg1/best_uxui_practices_for_displaying_multiple/) · [Nielsen Norman Group — 10 Design Guidelines for Errors in Forms](https://www.nngroup.com/articles/errors-forms-design-guidelines/) · [Good UI — Inline Validation](https://goodui.org/#33)
 Wireframe: https://files.catbox.moe/5mv9fc.jpg
-Notion: https://app.notion.com/p/Inline-Validation-Validate-on-Field-Blur-Not-on-Keystroke-3ffa9aed5344827ba27f813349fcc467
+File: library/forms-and-input/UX-206-inline-validation-validate-on-field-blur-not-on-keystroke.md
 
 ## UX-207 — Postel's Law — Accept Varied Input, Output Consistent Data
 - Score 5 · Forms & Input / Input tolerance and normalization
@@ -72,7 +72,7 @@ Notion: https://app.notion.com/p/Inline-Validation-Validate-on-Field-Blur-Not-on
 
 Sources: [Laws of UX — Postel's Law](https://lawsofux.com/postels-law/) · [Good UI — Forgiving Inputs](https://goodui.org/#34)
 Wireframe: https://files.catbox.moe/s83jtn.jpg
-Notion: https://app.notion.com/p/Postel-s-Law-Accept-Varied-Input-Output-Consistent-Data-8eda9aed53448264a0a981f67dd58bbb
+File: library/forms-and-input/UX-207-postel-s-law-accept-varied-input-output-consistent-data.md
 
 ## UX-208 — Keep Forms as Short as Possible — Eliminate Unnecessary Fields
 - Score 5 · Forms & Input / Form length and field reduction
@@ -97,7 +97,7 @@ Notion: https://app.notion.com/p/Postel-s-Law-Accept-Varied-Input-Output-Consist
 
 Sources: [Nielsen Norman Group — Web Form Design Top 10](https://www.nngroup.com/articles/web-form-design/) · [Good UI — Fewer Form Fields](https://goodui.org/#13) · [Laws of UX — Parkinson's Law](https://lawsofux.com/parkinsons-law/)
 Wireframe: https://files.catbox.moe/2n6ljc.jpg
-Notion: https://app.notion.com/p/Keep-Forms-as-Short-as-Possible-Eliminate-Unnecessary-Fields-da2a9aed53448378a74a816a9dfa67d9
+File: library/forms-and-input/UX-208-keep-forms-as-short-as-possible-eliminate-unnecessary-fields.md
 
 ## UX-209 — Single-Column Form Layouts and Logical Field Sequencing
 - Score 5 · Forms & Input / Form layout and field ordering
@@ -121,7 +121,7 @@ Notion: https://app.notion.com/p/Keep-Forms-as-Short-as-Possible-Eliminate-Unnec
 
 Sources: [Nielsen Norman Group — Web Form Design Top 10](https://www.nngroup.com/articles/web-form-design/)
 Wireframe: https://files.catbox.moe/cqdxwn.jpg
-Notion: https://app.notion.com/p/Single-Column-Form-Layouts-and-Logical-Field-Sequencing-d72a9aed5344833b9a3201819c6480cf
+File: library/forms-and-input/UX-209-single-column-form-layouts-and-logical-field-sequencing.md
 
 ## UX-210 — Group Related Form Fields With Section Headings
 - Score 5 · Forms & Input / Form section organization
@@ -145,7 +145,7 @@ Notion: https://app.notion.com/p/Single-Column-Form-Layouts-and-Logical-Field-Se
 
 Sources: [Nielsen Norman Group — Web Form Design Top 10](https://www.nngroup.com/articles/web-form-design/) · [Laws of UX — Law of Common Region](https://lawsofux.com/law-of-common-region/)
 Wireframe: https://files.catbox.moe/en2rqo.jpg
-Notion: https://app.notion.com/p/Group-Related-Form-Fields-With-Section-Headings-56ca9aed5344823793a381ff6ca86cd4
+File: library/forms-and-input/UX-210-group-related-form-fields-with-section-headings.md
 
 ## UX-211 — Never Use Placeholder Text as a Substitute for Labels
 - Score 5 · Forms & Input / Field Labeling Conventions
@@ -170,7 +170,7 @@ Notion: https://app.notion.com/p/Group-Related-Form-Fields-With-Section-Headings
 
 Sources: [Nielsen Norman Group /](https://www.youtube.com/watch?v=KgXSeWM50vU) · [Gov.uk](http://gov.uk/) · [research](https://www.youtube.com/watch?v=KgXSeWM50vU) · [Nielsen Norman Group — Web Form Design Top 10](https://www.nngroup.com/articles/web-form-design/)
 Wireframe: https://files.catbox.moe/h9mm7d.jpg
-Notion: https://app.notion.com/p/Never-Use-Placeholder-Text-as-a-Substitute-for-Labels-a58a9aed5344826eb003019f1a2450f9
+File: library/forms-and-input/UX-211-never-use-placeholder-text-as-a-substitute-for-labels.md
 
 ## UX-212 — Smart Defaults in Forms and Configuration
 - Score 5 · Forms & Input / Intelligent defaults and pre-filling
@@ -194,7 +194,7 @@ Notion: https://app.notion.com/p/Never-Use-Placeholder-Text-as-a-Substitute-for-
 
 Sources: [Good UI — Smart Defaults](https://goodui.org/#28) · [Nielsen Norman Group — Minimize Cognitive Load](https://www.nngroup.com/articles/minimize-cognitive-load/)
 Wireframe: https://files.catbox.moe/63oxco.jpg
-Notion: https://app.notion.com/p/Smart-Defaults-in-Forms-and-Configuration-110a9aed534482d48d8d8187908970b8
+File: library/forms-and-input/UX-212-smart-defaults-in-forms-and-configuration.md
 
 ## UX-213 — Appropriate Control Selection for Form Inputs
 - Score 5 · Forms & Input / Control Design
@@ -217,7 +217,7 @@ Notion: https://app.notion.com/p/Smart-Defaults-in-Forms-and-Configuration-110a9
 
 Sources: [About Face Ch. 21 (Wiley, 2014)](https://fall14se.wordpress.com/wp-content/uploads/2017/04/alan-cooper-robert-reimann-david-cronin-christopher-noessel-about-face_-the-essentials-of-interaction-design-wiley-2014.pdf)
 Wireframe: https://files.catbox.moe/ihv24t.jpg
-Notion: https://app.notion.com/p/Appropriate-Control-Selection-for-Form-Inputs-016a9aed534483a5a7ca81b8784b32e7
+File: library/forms-and-input/UX-213-appropriate-control-selection-for-form-inputs.md
 
 ## UX-214 — Enterprise Form Design
 - Score 5 · Forms & Input / Enterprise Forms
@@ -242,7 +242,7 @@ Notion: https://app.notion.com/p/Appropriate-Control-Selection-for-Form-Inputs-0
 
 Sources: [Carbon Design System — Forms](https://carbondesignsystem.com/patterns/overview/)
 Wireframe: https://files.catbox.moe/zom5ql.jpg
-Notion: https://app.notion.com/p/Enterprise-Form-Design-69ca9aed534482dd85f20149512a2f5c
+File: library/forms-and-input/UX-214-enterprise-form-design.md
 
 ## UX-215 — Match Input Field Type and Size to Expected Input
 - Score 4 · Forms & Input / Input field affordance
@@ -267,7 +267,7 @@ Notion: https://app.notion.com/p/Enterprise-Form-Design-69ca9aed534482dd85f20149
 
 Sources: [Nielsen Norman Group — Web Form Design Top 10](https://www.nngroup.com/articles/web-form-design/)
 Wireframe: https://files.catbox.moe/wsp082.jpg
-Notion: https://app.notion.com/p/Match-Input-Field-Type-and-Size-to-Expected-Input-40ca9aed53448203a53a0122a622a639
+File: library/forms-and-input/UX-215-match-input-field-type-and-size-to-expected-input.md
 
 ## UX-216 — Progress Communication in Multi-Step Forms
 - Score 4 · Forms & Input / Form transparency and progress indicators
@@ -291,7 +291,7 @@ Notion: https://app.notion.com/p/Match-Input-Field-Type-and-Size-to-Expected-Inp
 
 Sources: [Nielsen Norman Group — Web Form Design Top 10](https://www.nngroup.com/articles/web-form-design/)
 Wireframe: https://files.catbox.moe/gy9qab.jpg
-Notion: https://app.notion.com/p/Progress-Communication-in-Multi-Step-Forms-84fa9aed5344821e925a01f47728809a
+File: library/forms-and-input/UX-216-progress-communication-in-multi-step-forms.md
 
 ## UX-217 — Prioritized Multi-Error Display
 - Score 4 · Forms & Input / Validation Error Hierarchy
@@ -314,7 +314,7 @@ Notion: https://app.notion.com/p/Progress-Communication-in-Multi-Step-Forms-84fa
 
 Sources: [UX Stack Exchange / r/UXDesign](https://www.reddit.com/r/UXDesign/comments/1kllxg1/best_uxui_practices_for_displaying_multiple/)
 Wireframe: https://files.catbox.moe/6kxnlx.jpg
-Notion: https://app.notion.com/p/Prioritized-Multi-Error-Display-31aa9aed53448307ba11817b61bc354d
+File: library/forms-and-input/UX-217-prioritized-multi-error-display.md
 
 ## UX-218 — Save & Resume for Long Forms
 - Score 4 · Forms & Input / Form Persistence
@@ -338,7 +338,7 @@ Notion: https://app.notion.com/p/Prioritized-Multi-Error-Display-31aa9aed5344830
 
 Sources: [FormAssembly — Multi-Step Forms](https://www.formassembly.com/blog/multi-step-form-best-practices/)
 Wireframe: https://files.catbox.moe/o85omi.jpg
-Notion: https://app.notion.com/p/Save-Resume-for-Long-Forms-196a9aed5344820c9790817b4eac7eb6
+File: library/forms-and-input/UX-218-save-and-resume-for-long-forms.md
 
 ## UX-219 — Parkinson's Law — Constrain Forms and Workflows to Reduce Task Inflation
 - Score 3 · Forms & Input / Workflow efficiency and form design
@@ -352,4 +352,4 @@ Notion: https://app.notion.com/p/Save-Resume-for-Long-Forms-196a9aed5344820c9790
 
 Sources: [Laws of UX — Parkinson's Law](https://lawsofux.com/parkinsons-law/)
 Wireframe: https://files.catbox.moe/l47seh.jpg
-Notion: https://app.notion.com/p/Parkinson-s-Law-Constrain-Forms-and-Workflows-to-Reduce-Task-Inflation-0d4a9aed5344821fac61814e0b7096be
+File: library/forms-and-input/UX-219-parkinson-s-law-constrain-forms-and-workflows-to-reduce-task.md
