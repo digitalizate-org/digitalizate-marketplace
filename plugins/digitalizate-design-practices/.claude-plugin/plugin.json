@@ -1,0 +1,6 @@
+{
+  "name": "ux-kit",
+  "description": "Librería de buenas prácticas de UX y product design compilada desde Notion, con skills para construir (ux-build), auditar (ux-review), sincronizar (ux-sync) y enriquecer (ux-enrich) interfaces.",
+  "version": "0.1.0",
+  "author": { "name": "Estiven Valencia" }
+}
