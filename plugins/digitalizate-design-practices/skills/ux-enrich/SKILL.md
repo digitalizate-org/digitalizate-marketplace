@@ -7,7 +7,7 @@ description: Propose the three agent-facing fields most practices are missing â€
 
 Why this exists: without a verification criterion, a reviewer recites the practice instead of checking it. The three fields turn each entry into something `ux-review` can grade and, for a subset, something a linter or test can enforce.
 
-The user reviews every proposal in the git diff. Nothing is committed without that review. Run this skill from the kit's root directory with the plugin loaded from another path (see `ux-sync`): it writes into `library/`.
+The user reviews every proposal in the git diff. Nothing is committed without that review. Run this skill from the plugin directory (`plugins/digitalizate-design-practices/` in the repository) with the plugin loaded from another path (see `ux-sync`): it writes into `library/`.
 
 ## Inputs
 

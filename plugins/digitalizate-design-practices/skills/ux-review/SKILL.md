@@ -74,7 +74,7 @@ Order findings by severity, then by how early in the task they bite. Cap at roug
 
 ### 6. After the report
 
-If the user asks you to fix the findings, switch to the `ux-build` procedure for the fixes and append the outcome to `design-decisions.md`. If the user accepts a finding as an exception, record it there with the reason. If they want a library proposal to become a practice, add `library/<category-slug>/<ID>-<slug>.md` in the kit (copy a neighbouring file; `python3 scripts/build_skills.py` prints the next free ID) with `status: "Proposed"`.
+If the user asks you to fix the findings, switch to the `ux-build` procedure for the fixes and append the outcome to `design-decisions.md`. If the user accepts a finding as an exception, record it there with the reason. If they want a library proposal to become a practice, add `library/<category-slug>/<ID>-<slug>.md` in the plugin directory of the repository (copy a neighbouring file; `python3 scripts/build_skills.py` prints the next free ID) with `status: "Proposed"`.
 
 ## Things that go wrong
 

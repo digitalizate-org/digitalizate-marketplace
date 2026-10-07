@@ -5,7 +5,7 @@ description: Validate, audit and recompile the ux-library and agentic-patterns s
 
 # ux-sync
 
-Runs the scripts in `scripts/` and reports what changed. The scripts use only the Python standard library and need no credentials: the source of truth is `library/<category>/<ID>-<slug>.md`. Run it from the kit's root directory (the checkout that holds `scripts/`, `config/` and `library/`), with the plugin loaded from another path or installed from a marketplace: Claude Code blocks agent writes (file tools and Bash alike) inside the directory loaded with `--plugin-dir`.
+Runs the scripts in `scripts/` and reports what changed. The scripts use only the Python standard library and need no credentials: the source of truth is `library/<category>/<ID>-<slug>.md`. Run it from the plugin directory, `plugins/digitalizate-design-practices/` in the repository (the folder that holds `scripts/`, `config/` and `library/`), with the plugin loaded from another path or installed from a marketplace: Claude Code blocks agent writes (file tools and Bash alike) inside the directory loaded with `--plugin-dir`.
 
 ## Steps
 

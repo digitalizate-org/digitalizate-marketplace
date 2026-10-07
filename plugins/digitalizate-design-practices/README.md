@@ -2,7 +2,7 @@
 
 Plugin de Claude Code con una librería de 843 buenas prácticas de UX, product design y patrones de agentes, escrita en markdown y versionada en este repositorio, más las skills que la usan para construir y auditar interfaces citando prácticas por ID.
 
-La fuente de verdad es `library/<categoría>/<ID>-<slug>.md`: un archivo por ficha. Los archivos de `skills/*/index/` y `skills/*/references/` se compilan desde ahí con `/ux-sync` y no se editan a mano. La librería nació como copia de la base pública de Notion de 30k Strategy (https://30kstrategy.notion.site/83d76ed618e4463db4a6d78396feeff1), importada el 2026-10-07; Notion ya no interviene en el flujo.
+El plugin vive en `plugins/digitalizate-design-practices/` y la raíz del repositorio es su marketplace; todas las rutas de este README son relativas a esa carpeta salvo que se diga lo contrario. La fuente de verdad es `library/<categoría>/<ID>-<slug>.md`: un archivo por ficha. Los archivos de `skills/*/index/` y `skills/*/references/` se compilan desde ahí con `/ux-sync` y no se editan a mano. La librería nació como copia de la base pública de Notion de 30k Strategy (https://30kstrategy.notion.site/83d76ed618e4463db4a6d78396feeff1), importada el 2026-10-07; Notion ya no interviene en el flujo.
 
 ## Qué incluye
 
@@ -26,7 +26,7 @@ Python 3.10 o superior, sin dependencias. No hace falta ningún token: solo `imp
 
 ## Instalación
 
-El repositorio es a la vez el plugin y su marketplace privado (`.claude-plugin/marketplace.json`). Puede instalarlo quien tenga acceso de lectura al repo en GitHub: el control de acceso es el del repositorio, así que para dar acceso a alguien basta con añadirlo como colaborador.
+El repositorio es el marketplace privado (`.claude-plugin/marketplace.json` en la raíz) y contiene el plugin en `plugins/digitalizate-design-practices/`, el layout que piden Claude Code y la sincronización de claude.ai. Puede instalarlo quien tenga acceso de lectura al repo en GitHub: el control de acceso es el del repositorio, así que para dar acceso a alguien basta con añadirlo como colaborador.
 
 ### Claude Code (terminal, app de escritorio y VS Code)
 
@@ -43,9 +43,11 @@ En claude.ai: **Customize → Plugins → Add → Add marketplace** con `digital
 
 ### Para desarrollar
 
-Verificado con Claude Code 2.1.292: `claude --plugin-dir /ruta/al/checkout` carga el plugin solo para esa sesión, sin instalarlo, y `claude plugin validate /ruta/al/checkout` comprueba manifiesto y marketplace. Para `/ux-sync` y `/ux-enrich` abre Claude Code en la carpeta del kit (ahí viven `scripts/` y `library/`) con el plugin cargado desde otra ruta, por ejemplo la instalación del marketplace: Claude Code bloquea las escrituras del agente (herramientas de archivos y comandos Bash) dentro del directorio cargado con `--plugin-dir`, así que si plugin y carpeta de trabajo son la misma ninguna de las dos skills puede escribir.
+Verificado con Claude Code 2.1.292: `claude --plugin-dir /ruta/al/checkout/plugins/digitalizate-design-practices` carga el plugin solo para esa sesión, sin instalarlo; `claude plugin validate /ruta/al/checkout` comprueba el marketplace y el manifiesto del plugin. Para `/ux-sync` y `/ux-enrich` abre Claude Code en `plugins/digitalizate-design-practices/` (ahí viven `scripts/` y `library/`) con el plugin cargado desde otra ruta, por ejemplo la instalación del marketplace: Claude Code bloquea las escrituras del agente (herramientas de archivos y comandos Bash) dentro del directorio cargado con `--plugin-dir`, así que si plugin y carpeta de trabajo son la misma ninguna de las dos skills puede escribir.
 
 ## Compilar la librería
+
+Desde `plugins/digitalizate-design-practices/`:
 
 ```bash
 python3 scripts/audit_library.py         # reports/audit.md y reports/duplicates.md
@@ -118,32 +120,36 @@ Cada página necesita un ID válido (`UX-001`, `AGP-001`) en su propiedad ID; el
 ## Estructura
 
 ```
-digitalizate-design-practices/
-├── .claude-plugin/plugin.json
-├── config/build.json              grupos por categoría, prefijos de ID, umbrales de partición, ajustes del importador
-├── library/<categoría>/<ID>-<slug>.md   la fuente de verdad
-├── scripts/
-│   ├── build_skills.py            library/ → index/ y references/ de cada skill; valida antes
-│   ├── audit_library.py           validación, duplicados cercanos, texto repetido, secciones faltantes
-│   ├── import_notion.py           reimportación desde Notion (opcional)
-│   ├── make_fixture.py            librería de prueba
-│   └── kitlib.py                  front matter, carga y validación de la librería, parseo de secciones
-├── skills/
-│   ├── ux-library/   SKILL.md + index/ + references/   (generados)
-│   ├── agentic-patterns/  SKILL.md + index/ + references/   (generados)
-│   ├── ux-build/     SKILL.md
-│   ├── ux-review/    SKILL.md
-│   ├── ux-sync/      SKILL.md
-│   └── ux-enrich/    SKILL.md
-├── tests/run_fixture.sh
-├── templates/design-decisions.md
-├── evals/evals.json
+digitalizate-design-practices/            repositorio = marketplace privado
+├── .claude-plugin/marketplace.json
+├── README.md
 ├── docs/                          historia del proyecto
-└── reports/                       audit.md, duplicates.md
+└── plugins/digitalizate-design-practices/   el plugin
+    ├── .claude-plugin/plugin.json
+    ├── config/build.json              grupos por categoría, prefijos de ID, umbrales de partición, ajustes del importador
+    ├── library/<categoría>/<ID>-<slug>.md   la fuente de verdad
+    ├── scripts/
+    │   ├── build_skills.py            library/ → index/ y references/ de cada skill; valida antes
+    │   ├── audit_library.py           validación, duplicados cercanos, texto repetido, secciones faltantes
+    │   ├── import_notion.py           reimportación desde Notion (opcional)
+    │   ├── make_fixture.py            librería de prueba
+    │   └── kitlib.py                  front matter, carga y validación de la librería, parseo de secciones
+    ├── skills/
+    │   ├── ux-library/   SKILL.md + index/ + references/   (generados)
+    │   ├── agentic-patterns/  SKILL.md + index/ + references/   (generados)
+    │   ├── ux-build/     SKILL.md
+    │   ├── ux-review/    SKILL.md
+    │   ├── ux-sync/      SKILL.md
+    │   └── ux-enrich/    SKILL.md
+    ├── tests/run_fixture.sh
+    ├── templates/design-decisions.md
+    ├── evals/evals.json
+    └── reports/                       audit.md, duplicates.md
 ```
 
 ## Decisiones de diseño
 
+- El plugin va en `plugins/<nombre>/` y el marketplace en la raíz: la sincronización de claude.ai solo acepta fuentes relativas que empiecen por `./` dentro de carpetas del repo, y es el layout de todos los ejemplos de la documentación.
 - Markdown versionado como fuente de verdad: sin API, sin token, historial y revisión por ficha con git, y el agente puede proponer fichas como archivos. Notion fue solo el origen de la copia.
 - Los IDs `UX-xxx` y `AGP-xxx` son la identidad de cada archivo. El build rechaza duplicados y prefijos ajenos al grupo, y nunca renumera.
 - Las categorías con más de 60 fichas se parten por subcategoría; si no hay subcategorías útiles o el archivo superaría `max_reference_bytes` (120 KB) se parten por tamaño en `part-N.md`, ordenadas por score y luego por ID. El índice de la categoría dice qué parte contiene cada ficha.
