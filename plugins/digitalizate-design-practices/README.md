@@ -1,4 +1,4 @@
-# ux-kit
+# digitalizate-design-practices
 
 Plugin de Claude Code que convierte la base de Notion "Design - Best Practices Library" en skills que un agente puede usar para construir y auditar interfaces citando prácticas por ID.
 
@@ -66,9 +66,10 @@ Los nombres se configuran en `config/build.json`. `/ux-enrich` propone los valor
 Verificado con Claude Code 2.1.292: `claude --plugin-dir <ruta>` carga un plugin desde una carpeta o un `.zip` sólo para esa sesión y se puede repetir para cargar varios. Antes de probarlo, `claude plugin validate <ruta>` comprueba el manifiesto.
 
 ```bash
-claude plugin validate /ruta/a/ux-kit
+git clone git@github.com:digitalizate-org/digitalizate-design-practices.git
+claude plugin validate /ruta/a/digitalizate-design-practices
 cd /ruta/al/proyecto
-claude --plugin-dir /ruta/a/ux-kit
+claude --plugin-dir /ruta/a/digitalizate-design-practices
 ```
 
 Las skills quedan disponibles por nombre y como comandos: `/ux-build`, `/ux-review`, `/ux-sync`, `/ux-enrich`.
@@ -96,7 +97,7 @@ El fixture reproduce los casos reales: ID único, IDs repetidos entre psicologí
 ## Estructura
 
 ```
-ux-kit/
+digitalizate-design-practices/
 ├── .claude-plugin/plugin.json
 ├── config/build.json              mapa de categorías a grupos, prefijos de ID, secciones que se descartan
 ├── scripts/

@@ -1,4 +1,4 @@
-"""Utilidades compartidas por los scripts de ux-kit.
+"""Utilidades compartidas por los scripts de digitalizate-design-practices.
 
 - Carga de config y de data/practices.json
 - Slugs, grupos (ux / agentic), prefijos de ID
