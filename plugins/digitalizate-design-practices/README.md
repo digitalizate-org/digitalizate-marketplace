@@ -24,22 +24,26 @@ La fuente de verdad es `library/<categoría>/<ID>-<slug>.md`: un archivo por fic
 
 Python 3.10 o superior, sin dependencias. No hace falta ningún token: solo `import_notion.py` necesita `NOTION_TOKEN`.
 
-## Instalación en Claude Code
+## Instalación
 
-Verificado con Claude Code 2.1.292: `claude --plugin-dir <ruta>` carga un plugin desde una carpeta o un `.zip` sólo para esa sesión y se puede repetir para cargar varios. Antes de probarlo, `claude plugin validate <ruta>` comprueba el manifiesto.
+El repositorio es a la vez el plugin y su marketplace privado (`.claude-plugin/marketplace.json`). Puede instalarlo quien tenga acceso de lectura al repo en GitHub: el control de acceso es el del repositorio, así que para dar acceso a alguien basta con añadirlo como colaborador.
+
+### Claude Code (terminal, app de escritorio y VS Code)
 
 ```bash
-git clone git@github.com:digitalizate-org/digitalizate-design-practices.git
-claude plugin validate /ruta/a/digitalizate-design-practices
-cd /ruta/al/proyecto
-claude --plugin-dir /ruta/a/digitalizate-design-practices
+claude plugin marketplace add digitalizate-org/digitalizate-design-practices
+claude plugin install digitalizate-design-practices@digitalizate
 ```
 
-Las skills quedan disponibles por nombre y como comandos: `/ux-build`, `/ux-review`, `/ux-sync`, `/ux-enrich`. Para una instalación permanente el plugin tiene que publicarse en un marketplace (`claude plugin marketplace add` acepta una ruta local o un repositorio); ese flujo no se probó aquí.
+Claude Code clona el repo con las credenciales de git de la máquina y nunca pregunta: hace falta una llave SSH para github.com cargada en el agente, o credenciales HTTPS guardadas (`gh auth login` y luego `gh auth setup-git`). Las skills aparecen con el prefijo del plugin: `/digitalizate-design-practices:ux-review`, `…:ux-build`, `…:ux-sync` y `…:ux-enrich`; al escribir `/ux-review` el menú las filtra. Para recibir cambios: `claude plugin update digitalizate-design-practices@digitalizate`, o activa la actualización automática del marketplace en `/plugin` → Marketplaces. Claude Code solo descarga una versión nueva cuando cambia `version` en `.claude-plugin/plugin.json`, así que súbela al publicar.
 
-Para `/ux-sync` y `/ux-enrich` abre Claude Code en la carpeta del kit (ahí viven `scripts/` y `library/`) y carga el plugin desde otra ruta, una copia o la instalación desde marketplace: Claude Code bloquea las escrituras del agente (herramientas de archivos y comandos Bash) dentro del directorio cargado con `--plugin-dir`, así que si plugin y carpeta de trabajo son la misma ninguna de las dos puede escribir (verificado en 2.1.292).
+### claude.ai y Cowork
 
-En claude.ai puedes subir cada carpeta de `skills/` como skill individual. La de `ux-library` pesa lo que pesen las referencias (unos 2 MB), así que conviene subirla después de compilar.
+En claude.ai: **Customize → Plugins → Add → Add marketplace** con `digitalizate-org/digitalizate-design-practices`. Para un repo privado el diálogo pide conectar la cuenta de GitHub y dar acceso al repo a la Claude GitHub App. El plugin queda guardado en la cuenta: sus skills funcionan en el chat y en Cowork, y Claude Code lo sincroniza como `digitalizate-design-practices@synced` al iniciar sesión con esa cuenta. Si usas esta vía no lo instales además con el CLI, o tendrás las skills dos veces.
+
+### Para desarrollar
+
+Verificado con Claude Code 2.1.292: `claude --plugin-dir /ruta/al/checkout` carga el plugin solo para esa sesión, sin instalarlo, y `claude plugin validate /ruta/al/checkout` comprueba manifiesto y marketplace. Para `/ux-sync` y `/ux-enrich` abre Claude Code en la carpeta del kit (ahí viven `scripts/` y `library/`) con el plugin cargado desde otra ruta, por ejemplo la instalación del marketplace: Claude Code bloquea las escrituras del agente (herramientas de archivos y comandos Bash) dentro del directorio cargado con `--plugin-dir`, así que si plugin y carpeta de trabajo son la misma ninguna de las dos skills puede escribir.
 
 ## Compilar la librería
 
