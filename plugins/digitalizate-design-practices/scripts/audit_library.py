@@ -102,6 +102,11 @@ def main() -> None:
     id_map_preview = copy.deepcopy(kitlib.load_json(kitlib.ID_MAP_PATH, {}))
     sim = copy.deepcopy(practices)
     changes = kitlib.assign_ids(sim, id_map_preview, cfg)
+    canon = {p["page_id"]: p["id"] for p in sim}
+
+    def label(p: dict) -> str:
+        """ID canónico (el que asignará el build); los IDs de Notion repetidos son ambiguos."""
+        return canon.get(p["page_id"]) or p.get("id_notion") or "—"
     collisions = Counter(p["id_notion"] for p in practices if p.get("id_notion"))
     collided = sorted(k for k, v in collisions.items() if v > 1)
     missing = [p for p in practices if not p.get("id_notion")]
@@ -154,13 +159,18 @@ def main() -> None:
         out.append(f"\n\"What & Why\" repetido en {sum(len(b) for b in bp_why)} fichas ({len(bp_why)} bloques). "
                    "Esto sí es un problema de contenido:")
         for b in bp_why[:10]:
-            out.append("- " + "; ".join(f"{p.get('id_notion') or '?'} {p['title']}" for p in b[:6]))
+            out.append("- " + "; ".join(f"{label(p)} {p['title']}" for p in b[:6]))
     out.append("")
 
     out.append("## 4. Secciones faltantes\n")
-    out.append(f"Sin How to Implement: {len(no_impl)} · Sin What & Why: {len(no_why)}")
-    for p in (no_impl + no_why)[:30]:
-        out.append(f"- {p.get('id_notion') or '—'} {p['title']} ({p.get('category')}) {p.get('url')}")
+    out.append(f"Sin How to Implement: {len(no_impl)} · Sin What & Why: {len(no_why)}. "
+               "Los IDs son los canónicos que asignará el build.\n")
+    out.append(f"### Sin How to Implement ({len(no_impl)})\n")
+    for p in no_impl:
+        out.append(f"- {label(p)} {p['title']} ({p.get('category')}) {p.get('url')}")
+    out.append(f"\n### Sin What & Why ({len(no_why)})\n")
+    for p in no_why:
+        out.append(f"- {label(p)} {p['title']} ({p.get('category')}) {p.get('url')}")
     out.append("")
 
     out.append("## 5. Categorías\n")
@@ -175,12 +185,13 @@ def main() -> None:
 
     d = ["# Duplicados cercanos\n",
          "Revisar a mano. Para fusionar: deja una ficha, mueve lo que aporte la otra, y marca la sobrante "
-         "con Status = Merged (el build ignora Status Merged/Deprecated).\n"]
+         "con Status = Merged (el build ignora Status Merged/Deprecated). "
+         "Los IDs son los canónicos que asignará el build.\n"]
     for pair in dups:
         a, b = pair["a"], pair["b"]
         d.append(f"- [{pair['title_sim']:.2f} título / {pair['context_sim']:.2f} contexto] "
-                 f"**{a.get('id_notion') or '—'} {a['title']}** ({a.get('category')}) ↔ "
-                 f"**{b.get('id_notion') or '—'} {b['title']}** ({b.get('category')})")
+                 f"**{label(a)} {a['title']}** ({a.get('category')}) ↔ "
+                 f"**{label(b)} {b['title']}** ({b.get('category')})")
         d.append(f"  - {a.get('url')}\n  - {b.get('url')}")
     (kitlib.REPORTS_DIR / "duplicates.md").write_text("\n".join(d) + "\n", encoding="utf-8")
 

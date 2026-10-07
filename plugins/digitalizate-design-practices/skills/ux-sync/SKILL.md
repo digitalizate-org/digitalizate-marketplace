@@ -5,7 +5,7 @@ description: Rebuild the ux-library and agentic-patterns skills from the Notion 
 
 # ux-sync
 
-Runs the pipeline in `scripts/` and reports what changed. All scripts use only the Python standard library and need `NOTION_TOKEN` in the environment (an internal Notion integration connected to the database).
+Runs the pipeline in `scripts/` and reports what changed. All scripts use only the Python standard library and need `NOTION_TOKEN` in the environment (an internal Notion integration connected to the database). Run it from the kit's root directory (the checkout that holds `scripts/`, `config/` and `data/`), with the plugin loaded from another path or installed from a marketplace: Claude Code blocks agent writes (file tools and Bash alike) inside the directory loaded with `--plugin-dir`.
 
 ## Steps
 

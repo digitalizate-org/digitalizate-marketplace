@@ -1,0 +1,79 @@
+# Goal: Handle Complex Multi-Step Workflows (75)
+
+Each line ends with the category; open references/<category>.md (or the split folder) for the full entry.
+
+- AGP-080 · Function Calling [Tool Use] · ★5 · tags: ai-patterns · use: Need real-time data beyond model training cutoff. · cat: agentic-patterns
+- AGP-142 · Parallel Chaining [Prompt Chaining] · ★5 · tags: ai-patterns · use: Multiple independent lookups (APIs, DBs). · cat: agentic-patterns
+- AGP-171 · Sequential Chaining [Prompt Chaining] · ★5 · tags: ai-patterns · use: Multi-step workflows (3+ stages). · cat: agentic-patterns
+- AGP-004 · AI - Component Generation Context [Component generation] · ★4 · tags: ai-patterns, design-system · use: Use before asking an AI agent to create or modify a production component. · cat: agentic-patterns
+- AGP-005 · AI - Pattern Assembly & State Modeling [Pattern generation] · ★4 · tags: ai-patterns, workflow, forms · use: Use when assembling components into an end-to-end interface pattern. · cat: agentic-patterns
+- AGP-014 · Agent Collaboration UX (ACX) [UI/UX & Human-AI Interaction] · ★4 · tags: ai-patterns · use: Complex workflows requiring specialized agent expertise. · cat: agentic-patterns
+- AGP-022 · Analogical Reasoning (AR) [Reasoning Techniques] · ★4 · tags: ai-patterns · use: Novel problems with existing similar solutions. · cat: agentic-patterns
+- AGP-028 · Chain-of-Thought (CoT) [Reasoning Techniques] · ★4 · tags: ai-patterns · use: Complex mathematical problems. · cat: agentic-patterns
+- AGP-030 · Code Execution [Tool Use] · ★4 · tags: ai-patterns · use: Untrusted/AI-generated code requiring maximum security isolation. · cat: agentic-patterns
+- AGP-039 · Context Isolate Patterns (CIP) [Context Management] · ★4 · tags: ai-patterns · use: Multi-agent systems with specialized roles. · cat: agentic-patterns
+- AGP-046 · Context Write Patterns (CWP) [Context Management] · ★4 · tags: ai-patterns · use: Persistent memory requirements across sessions. · cat: agentic-patterns
+- AGP-067 · Embedding-based Routing (EBR) [Routing] · ★4 · tags: ai-patterns · use: Semantic understanding is crucial. · cat: agentic-patterns
+- AGP-091 · Human On the Loop (HOTL) [UI/UX & Human-AI Interaction] · ★4 · tags: ai-patterns · use: High-speed autonomous operations. · cat: agentic-patterns
+- AGP-099 · Intelligent Goal Decomposition (IGD) [Planning & Execution] · ★4 · tags: ai-patterns · use: Complex multi-workstream programs. · cat: agentic-patterns
+- AGP-105 · LLM-based Routing (LBR) [Routing] · ★4 · tags: ai-patterns · use: Complex intent classification needed. · cat: agentic-patterns
+- AGP-109 · Least-to-Most Prompting (LtM) [Reasoning Techniques] · ★4 · tags: ai-patterns · use: Complex problems with clear hierarchical structure. · cat: agentic-patterns
+- AGP-128 · Model Context Protocol (MCP) [Tool Use] · ★4 · tags: ai-patterns · use: Multi-tool agent systems requiring standardized integration. · cat: agentic-patterns
+- AGP-130 · Monitoring and Control Patterns (MCP) [UI/UX & Human-AI Interaction] · ★4 · tags: ai-patterns · use: Managing complex multi-agent systems. · cat: agentic-patterns
+- AGP-160 · Rule-based Routing (RBR) [Routing] · ★4 · tags: ai-patterns · use: Deterministic routing is required. · cat: agentic-patterns
+- AGP-175 · Skeleton of Thoughts (SoT) [Reasoning Techniques] · ★4 · tags: ai-patterns · use: Complex multi-part responses or analyses. · cat: agentic-patterns
+- AGP-176 · Sliding Window Management (SWM) [Context Management] · ★4 · tags: ai-patterns · use: Long conversation management. · cat: agentic-patterns
+- AGP-178 · Step-Back Prompting (SBP) [Reasoning Techniques] · ★4 · tags: ai-patterns · use: Complex problems requiring foundational knowledge. · cat: agentic-patterns
+- AGP-182 · Task Management & Orchestration (TMO) [Planning & Execution] · ★4 · tags: ai-patterns · use: Complex multi-step workflows with dependencies. · cat: agentic-patterns
+- AGP-007 · Abductive Reasoning (ABR) [Reasoning Techniques] · ★3 · tags: ai-patterns · use: Diagnosing problems from symptoms. · cat: agentic-patterns
+- AGP-011 · Adaptive Context Sizing (ACS) [Context Orchestration] · ★3 · tags: ai-patterns · use: Use when building agentic systems that need dynamically adjusts context window size and content selection based on task requirements and resource constraints · cat: agentic-patterns
+- AGP-016 · Agent Communication Protocols (ACP) [Multi-Agent] · ★3 · tags: ai-patterns · use: Multi-protocol agent networks requiring flexible communication patterns. · cat: agentic-patterns
+- AGP-025 · Buffer of Thoughts (BoT) [Reasoning Techniques] · ★3 · tags: ai-patterns · use: Problems requiring creative reasoning approaches. · cat: agentic-patterns
+- AGP-026 · Causal Reasoning (CR) [Reasoning Techniques] · ★3 · tags: ai-patterns · use: Understanding cause-effect relationships. · cat: agentic-patterns
+- AGP-036 · Context Compress Patterns (CCP) [Context Management] · ★3 · tags: ai-patterns · use: Context window optimization needs. · cat: agentic-patterns
+- AGP-037 · Context Engineering Frameworks (CEF) [Context Management] · ★3 · tags: ai-patterns · use: Enterprise-scale context management. · cat: agentic-patterns
+- AGP-038 · Context Failure Prevention (CFP) [Context Management] · ★3 · tags: ai-patterns · use: Production systems with security requirements. · cat: agentic-patterns
+- AGP-040 · Context Lifecycle Management (CLM) [Context Management] · ★3 · tags: ai-patterns · use: Enterprise production systems. · cat: agentic-patterns
+- AGP-041 · Context Processing Pipelines (CPP) [Context Management] · ★3 · tags: ai-patterns · use: Multi-modal data processing requirements. · cat: agentic-patterns
+- AGP-042 · Context Select Patterns (CSEL) [Context Management] · ★3 · tags: ai-patterns · use: Knowledge-intensive applications. · cat: agentic-patterns
+- AGP-043 · Context State Machines (CSM) [Context Management] · ★3 · tags: ai-patterns · use: Complex workflow management systems. · cat: agentic-patterns
+- AGP-044 · Context Streaming Protocols (CTSP) [Context Management] · ★3 · tags: ai-patterns · use: Real-time collaborative applications. · cat: agentic-patterns
+- AGP-072 · Event-Driven Blackboard (EDB) [Workflow Orchestration] · ★3 · tags: ai-patterns · use: Use when building agentic systems that need shared knowledge base through event streaming for asynchronous collaboration · cat: agentic-patterns
+- AGP-075 · Event-Driven Orchestrator-Worker (EDOW) [Workflow Orchestration] · ★3 · tags: ai-patterns · use: Use when building agentic systems that need central orchestrator assigns tasks to worker agents through event streaming · cat: agentic-patterns
+- AGP-078 · Forest-of-Thoughts (FoT) [Reasoning Techniques] · ★3 · tags: ai-patterns · use: High-stakes decisions requiring robustness. · cat: agentic-patterns
+- AGP-083 · Graph State Machines [Workflow Orchestration] · ★3 · tags: ai-patterns · use: Use when building agentic systems that need finite state machines implemented as graphs for workflow control · cat: agentic-patterns
+- AGP-084 · Graph-of-Thought (GoT) [Reasoning Techniques] · ★3 · tags: ai-patterns · use: Complex problems with interdependent sub-goals. · cat: agentic-patterns
+- AGP-087 · Handoff Orchestration (HO) [Multi-Agent] · ★3 · tags: ai-patterns · use: Tasks require specialized expertise at different stages. · cat: agentic-patterns
+- AGP-090 · Hierarchical Task Network (HTN) Planning [Planning & Execution] · ★3 · tags: ai-patterns · use: Complex multi-step workflows. · cat: agentic-patterns
+- AGP-097 · Infini-Attention Architecture (IAA) [Context Management] · ★3 · tags: ai-patterns · use: Infinite or very long context requirements. · cat: agentic-patterns
+- AGP-098 · Intelligent Context Routing (ICR) [Context Orchestration] · ★3 · tags: ai-patterns · use: Use when building agentic systems that need dynamic routing of contextual information to the most appropriate processing components based on capability matching · cat: agentic-patterns
+- AGP-101 · KV Cache Optimization (KVO) [Context Management] · ★3 · tags: ai-patterns · use: Production-scale agent deployments. · cat: agentic-patterns
+- AGP-117 · Machine Learning Model-Based Routing (MLMR) [Routing] · ★3 · tags: ai-patterns · use: High-volume routing with labeled training data. · cat: agentic-patterns
+- AGP-119 · Memory Block Architecture (MBA) [Context Management] · ★3 · tags: ai-patterns · use: Structured memory requirements. · cat: agentic-patterns
+- AGP-125 · Meta-Reasoning (MR) [Planning & Execution] · ★3 · tags: ai-patterns · use: Complex multi-domain problems. · cat: agentic-patterns
+- AGP-126 · Metacognitive Monitoring (MCM) [Reasoning Techniques] · ★3 · tags: ai-patterns · use: High-stakes decisions requiring reliability. · cat: agentic-patterns
+- AGP-150 · Progressive Enhancement (PE) [Workflow Orchestration] · ★3 · tags: ai-patterns · use: Use when building agentic systems that need incrementally improves AI output quality based on available resources and time · cat: agentic-patterns
+- AGP-152 · ReAct [Reasoning Techniques] · ★3 · tags: ai-patterns · use: Tasks requiring external data/tools. · cat: agentic-patterns
+- AGP-153 · Reflective Monte Carlo Tree Search (R-MCTS) [Reasoning Techniques] · ★3 · tags: ai-patterns · use: Complex strategic domains with long-term consequences. · cat: agentic-patterns
+- AGP-159 · Role-Based Teamwork [Workflow Orchestration] · ★3 · tags: ai-patterns · use: Use when building agentic systems that need structured agent teams with defined roles and responsibilities · cat: agentic-patterns
+- AGP-168 · Semantic Context Compression (SCC) [Context Management] · ★3 · tags: ai-patterns · use: Advanced compression with high fidelity requirements. · cat: agentic-patterns
+- AGP-172 · Sequential Pipeline Agents (SPA) [Multi-Agent] · ★3 · tags: ai-patterns · use: Multi-step workflows with distinct phases. · cat: agentic-patterns
+- AGP-173 · Shared Scratchpad Collaboration (SSC) [Multi-Agent] · ★3 · tags: ai-patterns · use: Collaborative content creation workflows. · cat: agentic-patterns
+- AGP-187 · Tree-of-Thought (ToT) [Reasoning Techniques] · ★3 · tags: ai-patterns · use: Complex problems with multiple solution paths. · cat: agentic-patterns
+- AGP-195 · Concurrent Orchestration (CO) [Multi-Agent] · ★3 · tags: ai-patterns · use: Need diverse perspectives on complex decisions. · cat: agentic-patterns
+- AGP-196 · Hierarchical Context Architecture (HCA) [Context Management] · ★3 · tags: ai-patterns · use: Complex multi-level organizational systems. · cat: agentic-patterns
+- AGP-197 · Test-Time Compute Scaling (TTC) [Reasoning Techniques] · ★3 · tags: ai-patterns · use: Problems with variable complexity levels. · cat: agentic-patterns
+- AGP-002 · A2A Protocol (Agent2Agent) (A2A) [Multi-Agent] · ★2 · tags: ai-patterns · use: Cross-platform agent collaboration. · cat: agentic-patterns
+- AGP-009 · Actor Model Coordination [Workflow Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need asynchronous message-passing coordination between independent actors · cat: agentic-patterns
+- AGP-053 · Conversational Orchestration [Workflow Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need multi-agent coordination through structured conversation patterns · cat: agentic-patterns
+- AGP-066 · Edge AI Optimization (EAO) [Workflow Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need optimizes AI workflows for resource-constrained edge devices and mobile environments · cat: agentic-patterns
+- AGP-069 · Enterprise Orchestration [Workflow Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need enterprise-grade coordination with governance, compliance, and audit capabilities · cat: agentic-patterns
+- AGP-073 · Event-Driven Hierarchical Agents (EDHA) [Workflow Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need multi-level agent hierarchy with event-based coordination · cat: agentic-patterns
+- AGP-074 · Event-Driven Market-Based (EDMB) [Workflow Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need decentralized task allocation through bid/ask event marketplace · cat: agentic-patterns
+- AGP-077 · Federated Orchestration (FO) [Workflow Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need coordinates AI processing across distributed edge devices while preserving data privacy · cat: agentic-patterns
+- AGP-088 · Hierarchical Coordination (HC) [Multi-Agent] · ★2 · tags: ai-patterns · use: Complex workflows requiring approval gates and oversight. · cat: agentic-patterns
+- AGP-134 · Multi-Source Context Fusion (MSCF) [Context Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need intelligently combines contextual information from multiple sources with quality weighting and conflict resolution · cat: agentic-patterns
+- AGP-144 · Peer Collaboration [Multi-Agent] · ★2 · tags: ai-patterns · use: Distributed problem-solving across organizations. · cat: agentic-patterns
+- AGP-158 · Resource-Aware Scheduling (RAS) [Workflow Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need dynamically schedules AI tasks based on available computational resources and constraints · cat: agentic-patterns
+- AGP-177 · Stateful Graph Workflows [Workflow Orchestration] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need graph-based workflow management with persistent state across nodes · cat: agentic-patterns
+- AGP-180 · Supervisor-Worker Pattern (SVW) [Multi-Agent] · ★2 · tags: ai-patterns · use: Complex, multi-domain research queries. · cat: agentic-patterns

@@ -27,7 +27,7 @@ Read the chosen index files. Select:
 - score-4 entries that fit (drop one only with a reason you will write down),
 - score-3 entries only when the context is an exact match.
 
-Keep the shortlist proportional: five to fifteen practices for a normal screen. More than that means the categories were too broad. Then open the shortlisted entries in `references/` and read the **Do.** steps. Do not build from index lines.
+Keep the shortlist proportional: five to fifteen practices for a normal screen, and never fewer than five even for a small component, because the baseline set (status visibility, accessibility, one primary action, error and empty states) applies to everything. More than fifteen means the categories were too broad. Write the shortlist down as `ID Title` lines before building; every shortlisted ID ends up in the design-decisions entry as Applied, Skipped, Exceptions or Open. Then open the shortlisted entries in `references/` and read the **Do.** steps. Do not build from index lines.
 
 ### 4. Build with the practices in hand
 
@@ -58,15 +58,16 @@ Open: UX-275 Skeleton screens — pending data on real latency
 Library proposals: <pattern that was needed and not found>, or none
 ```
 
-Keep it short. The file is read on every future build and review, so entries that restate the practice text waste context.
+Keep all six lines, writing `none` when one is empty, so later reads can parse the entry. Keep it short. The file is read on every future build and review, so entries that restate the practice text waste context.
 
 ### 6. Report
 
-Tell the user what was applied in two or three sentences, with IDs, and what they should decide (conflicts, exceptions, open items). Do not list every practice in prose; the file has the list.
+Start with one line stating how many practices were shortlisted and from which categories. Then tell the user what was applied in two or three sentences, with IDs, and what they should decide (conflicts, exceptions, open items). Do not list every practice in prose; the file has the list.
 
 ## Things that go wrong
 
 - Loading ten index files "to be safe". Pick categories deliberately; the baseline set plus two or three specific ones covers almost any screen.
+- Building from a single practice. A shortlist of one ID means the baseline categories were skipped; even an empty state or a confirmation dialog touches status visibility, accessibility and the primary action.
 - Citing from the index without opening the reference. The index line is a label; the steps are in the reference.
 - Treating a bias entry as a growth hack. See the responsible-use rule in `ux-library/SKILL.md`.
 - Re-proposing an exception the project already closed. Read `design-decisions.md` first, every time.

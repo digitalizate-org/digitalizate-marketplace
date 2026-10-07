@@ -11,17 +11,17 @@ The user reviews every proposal. Nothing goes to Notion without that review (see
 
 ## Inputs
 
-- A category (slug or Notion name). One category per run; the biggest ones (Human Biases in Interfaces, Gestalt Principles) are split by subcategory, so run them per subcategory.
+- A category (slug or Notion name). One category per run; the biggest ones (Human Biases in Interfaces, Gestalt Principles) are split into `part-N.md` files, and Agentic Patterns by subcategory, so run those per file.
 - `--min-score` (default 4). Start with 5 and 4; scores 3 and below only when the user asks.
 
 ## Procedure
 
-1. Open `skills/ux-library/references/<category>.md` (or the subcategory file). For each entry with score ≥ min-score and no existing `Verify:` line, read **Do.** and `Use when`.
+1. Open `skills/ux-library/references/<category>.md` (or the subcategory or part file the category index points to). For each entry with score ≥ min-score and no existing `Verify:` line, read **Do.** and `Use when`.
 2. Write the three fields:
    - `verify`: one sentence, answerable yes/no by looking at the screen or the code. Prefer observable facts over intentions. Good: "Every required field shows its error message directly below the field within 500 ms of blur." Bad: "Validation is user-friendly."
    - `verifiable_by`: one of `lint` (a static rule can catch it, name the rule if one exists, e.g. jsx-a11y/label-has-associated-control), `test` (a unit/e2e/axe check can assert it), `visual` (needs a human or a screenshot but no judgment), `judgment` (needs context about users or business).
    - `anti_pattern`: one line describing the common wrong implementation, as it appears in real code or screens.
-3. Save to `data/enrichment/<category-slug>.json` as a list:
+3. Save to `data/enrichment/<category-slug>.json` in the kit checkout (run this skill from the kit's root directory). If Claude Code blocks the write because that same directory is loaded as the active plugin, save to `./ux-enrichment/<category-slug>.json` instead and tell the user to move it into `data/enrichment/`; never drop the proposals. The file is a list:
    ```json
    [{"page_id": "...", "id": "UX-118", "title": "...", "verify": "...", "verifiable_by": "lint", "anti_pattern": "..."}]
    ```

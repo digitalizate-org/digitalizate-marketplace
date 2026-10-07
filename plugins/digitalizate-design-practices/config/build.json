@@ -41,6 +41,8 @@
   "what_why_max_chars": 700,
   "index_context_max_chars": 150,
   "split_threshold": 60,
+  "max_reference_bytes": 120000,
+  "other_section_max_chars": 3000,
   "duplicate_similarity": 0.82,
   "skills": {
     "ux": "skills/ux-library",

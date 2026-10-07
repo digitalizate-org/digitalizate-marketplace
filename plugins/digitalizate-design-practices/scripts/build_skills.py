@@ -7,6 +7,8 @@ Genera, por grupo (ux → skills/ux-library, agentic → skills/agentic-patterns
   index/by-goal/<goal>.md         una línea por práctica, agrupado por "Helps With"
   references/<cat>.md             ficha compactada por práctica
   references/<cat>/<subcat>.md    cuando la categoría supera split_threshold
+  references/<cat>/part-N.md      cuando no hay subcategorías útiles y el archivo
+                                  superaría max_reference_bytes
 
 Además:
   data/id_map.json      page_id → ID canónico (persistente entre builds)
@@ -73,13 +75,16 @@ def index_line(p: dict, cfg: dict) -> str:
     return f"- {p['id']} · {p['title']}{sub} · ★{int(p.get('score') or 0)} · tags: {tags} · use: {ctx}"
 
 
+EMPTY_ITEM = re.compile(r"^\s*(?:[-*•]|\d+[.)])\s*$")
+
+
 def render_bullets(text: str) -> str:
-    """Normaliza listas: convierte '1.' repetidos en numeración real y deja el resto."""
+    """Normaliza listas: convierte '1.' repetidos en numeración real, quita ítems vacíos y deja el resto."""
     out = []
     n = 0
     for line in (text or "").splitlines():
         s = line.rstrip()
-        if not s.strip():
+        if not s.strip() or EMPTY_ITEM.match(s):
             continue
         stripped = s.lstrip()
         indent = len(s) - len(stripped)
@@ -134,7 +139,8 @@ def render_reference(p: dict, cfg: dict) -> str:
     for name, text in (s.get("other") or {}).items():
         if text and f"other:{name}" not in cfg["drop_sections"]:
             lines.append("")
-            lines.append(f"**{name.replace('-', ' ').title()}.** " + one_line(text, 600))
+            lines.append(f"**{name.replace('-', ' ').title()}.**")
+            lines.append(render_bullets(kitlib.truncate(text, cfg.get("other_section_max_chars", 3000))))
 
     tail = []
     if s.get("sources"):
@@ -175,6 +181,28 @@ def write(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
+def chunk_by_size(items: list[tuple[dict, str]], max_bytes: int) -> list[list[tuple[dict, str]]]:
+    """Agrupa fichas ya renderizadas en partes que no superen max_bytes; una ficha nunca se parte."""
+    parts: list[list[tuple[dict, str]]] = []
+    current: list[tuple[dict, str]] = []
+    size = 0
+    for p, rendered in items:
+        n = len(rendered.encode("utf-8")) + 1
+        if current and size + n > max_bytes:
+            parts.append(current)
+            current, size = [], 0
+        current.append((p, rendered))
+        size += n
+    if current:
+        parts.append(current)
+    return parts
+
+
+def score_label(part: list[tuple[dict, str]]) -> str:
+    scores = sorted({int(p.get("score") or 0) for p, _ in part}, reverse=True)
+    return f"score {scores[0]}" if len(scores) == 1 else f"score {scores[0]}–{scores[-1]}"
+
+
 def build_group(group: str, items: list[dict], cfg: dict, build_date: str, clean: bool) -> dict:
     skill_dir = kitlib.ROOT / cfg["skills"][group]
     index_dir = skill_dir / "index"
@@ -191,15 +219,17 @@ def build_group(group: str, items: list[dict], cfg: dict, build_date: str, clean
 
     cat_rows = []
     ref_files: dict[str, list[str]] = {}
+    max_bytes = cfg.get("max_reference_bytes", 120000)
     for cat, plist in sorted(by_cat.items()):
         plist.sort(key=lambda p: (-(p.get("score") or 0), p["id"]))
         cslug = kitlib.slug(cat)
         # índice por categoría
-        head = [f"# {cat} ({len(plist)})", "", f"Reference: references/{cslug}.md" ]
+        head = [f"# {cat} ({len(plist)})", "", f"Reference: references/{cslug}.md"]
         subs = {p.get("subcategory") for p in plist if p.get("subcategory")}
         split = len(plist) > cfg["split_threshold"] and len(subs) > 1
         files = []
         if split:
+            ref_label = f"references/{cslug}/ (split by subcategory)"
             head[2] = f"References split by subcategory under references/{cslug}/"
             by_sub: dict[str, list[dict]] = defaultdict(list)
             for p in plist:
@@ -216,14 +246,34 @@ def build_group(group: str, items: list[dict], cfg: dict, build_date: str, clean
                 body_idx += [index_line(p, cfg) for p in sl] + [""]
             write(index_dir / "by-category" / f"{cslug}.md", "\n".join(body_idx))
         else:
-            body = f"# {cat} ({len(plist)})\n\n" + "\n".join(render_reference(p, cfg) for p in plist)
-            write(ref_dir / f"{cslug}.md", body)
-            files.append(f"references/{cslug}.md")
-            write(index_dir / "by-category" / f"{cslug}.md",
-                  "\n".join(head + [""] + [index_line(p, cfg) for p in plist]) + "\n")
+            rendered = [render_reference(p, cfg) for p in plist]
+            parts = chunk_by_size(list(zip(plist, rendered)), max_bytes - 256)
+            if len(parts) == 1:
+                ref_label = f"references/{cslug}.md"
+                write(ref_dir / f"{cslug}.md", f"# {cat} ({len(plist)})\n\n" + "\n".join(rendered))
+                files.append(f"references/{cslug}.md")
+                write(index_dir / "by-category" / f"{cslug}.md",
+                      "\n".join(head + [""] + [index_line(p, cfg) for p in plist]) + "\n")
+            else:
+                # sin subcategorías útiles y demasiado grande para un archivo: partes por tamaño,
+                # en el mismo orden del índice (score descendente, luego ID)
+                ref_label = f"references/{cslug}/ ({len(parts)} parts by size)"
+                head[2] = (f"References split into {len(parts)} parts under references/{cslug}/ "
+                           "(ordered by score, then ID; each part header below says which IDs it holds)")
+                body_idx = head + [""]
+                for n, part in enumerate(parts, 1):
+                    label = score_label(part)
+                    fname = f"part-{n}.md"
+                    body = (f"# {cat} · part {n}/{len(parts)} ({len(part)} entries, {label})\n\n"
+                            + "\n".join(r for _, r in part))
+                    write(ref_dir / cslug / fname, body)
+                    files.append(f"references/{cslug}/{fname}")
+                    body_idx.append(f"## Part {n} ({label}, {part[0][0]['id']} … {part[-1][0]['id']}) → references/{cslug}/{fname}")
+                    body_idx += [index_line(p, cfg) for p, _ in part] + [""]
+                write(index_dir / "by-category" / f"{cslug}.md", "\n".join(body_idx))
         ref_files[cat] = files
         scores = [p.get("score") or 0 for p in plist]
-        cat_rows.append((cat, cslug, len(plist), sum(scores) / len(scores), sum(1 for s in scores if s >= 4), split))
+        cat_rows.append((cat, cslug, len(plist), sum(scores) / len(scores), sum(1 for s in scores if s >= 4), ref_label))
 
     # índice por objetivo (Helps With)
     by_goal: dict[str, list[dict]] = defaultdict(list)
@@ -249,8 +299,7 @@ def build_group(group: str, items: list[dict], cfg: dict, build_date: str, clean
           SCORE_LEGEND, "",
           "## Categories", "",
           "| Category | Index | Entries | Avg score | ≥4 | Reference |", "|---|---|---|---|---|---|"]
-    for cat, cslug, n, avg, high, split in sorted(cat_rows, key=lambda r: -r[2]):
-        ref = f"references/{cslug}/ (split by subcategory)" if split else f"references/{cslug}.md"
+    for cat, cslug, n, avg, high, ref in sorted(cat_rows, key=lambda r: -r[2]):
         ov.append(f"| {cat} | index/by-category/{cslug}.md | {n} | {avg:.2f} | {high} | {ref} |")
     ov += ["", "## Goals (Helps With)", "", "| Goal | Index | Entries |", "|---|---|---|"]
     for goal, gslug, n in sorted(goal_rows, key=lambda r: -r[2]):

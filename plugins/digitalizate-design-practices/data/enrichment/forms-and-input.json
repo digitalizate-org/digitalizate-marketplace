@@ -1,0 +1,114 @@
+[
+  {
+    "page_id": "003a9aed-5344-8220-8b09-81b25f731638",
+    "id": "UX-205",
+    "title": "Error Prevention",
+    "verify": "Every irreversible or bulk action (delete, purge, bulk write, payment) shows a confirmation step naming what will be affected, and its trigger sits apart from the safe primary action.",
+    "verifiable_by": "test",
+    "anti_pattern": "A red Delete button placed right next to Save that removes the record on a single click with no confirmation and no undo."
+  },
+  {
+    "page_id": "3ffa9aed-5344-827b-a27f-813349fcc467",
+    "id": "UX-206",
+    "title": "Inline Validation — Validate on Field Blur, Not on Keystroke",
+    "verify": "Typing a partial valid value (e.g. the first characters of an email) in a standard field shows no error until the field loses focus or the form is submitted.",
+    "verifiable_by": "test",
+    "anti_pattern": "An onChange handler that sets the error state, so \"Invalid email\" appears after the first typed character."
+  },
+  {
+    "page_id": "8eda9aed-5344-8264-a0a9-81f67dd58bbb",
+    "id": "UX-207",
+    "title": "Postel's Law — Accept Varied Input, Output Consistent Data",
+    "verify": "Entering the same phone number as \"555-123-4567\", \"(555) 123 4567\" and \" 5551234567 \" is accepted in all three cases and stored in one normalized format.",
+    "verifiable_by": "test",
+    "anti_pattern": "A strict regex like /^\\d{10}$/ that rejects dashes, spaces or surrounding whitespace with \"Invalid format\"."
+  },
+  {
+    "page_id": "da2a9aed-5344-8378-a74a-816a9dfa67d9",
+    "id": "UX-208",
+    "title": "Keep Forms as Short as Possible — Eliminate Unnecessary Fields",
+    "verify": "Every field in the form is either needed to complete the current task or clearly marked optional, and none asks for data already available from the account.",
+    "verifiable_by": "judgment",
+    "anti_pattern": "A signup form that asks for company size, phone, job title and address before the user can create an account, and re-asks the email in a second field."
+  },
+  {
+    "page_id": "d72a9aed-5344-833b-9a32-01819c6480cf",
+    "id": "UX-209",
+    "title": "Single-Column Form Layouts and Logical Field Sequencing",
+    "verify": "In a form with more than 3 fields, each row holds one field, except short inseparable groups (First/Last name, City/State/ZIP), and the tab order matches the visual order.",
+    "verifiable_by": "visual",
+    "anti_pattern": "A two-column grid of unrelated fields (Email next to Company, Password next to Role) that makes the eye zig-zag."
+  },
+  {
+    "page_id": "56ca9aed-5344-8237-93a3-81ff6ca86cd4",
+    "id": "UX-210",
+    "title": "Group Related Form Fields With Section Headings",
+    "verify": "A form with more than ~6 fields splits them into sections with a visible heading each, with more space between sections than between fields inside one.",
+    "verifiable_by": "visual",
+    "anti_pattern": "A 15-field form as one flat list with uniform spacing, no headings, and Save and Delete in the same block."
+  },
+  {
+    "page_id": "a58a9aed-5344-826e-b003-019f1a2450f9",
+    "id": "UX-211",
+    "title": "Never Use Placeholder Text as a Substitute for Labels",
+    "verify": "Every input has a persistent visible label (a <label> bound to it) that stays on screen after the user types, and the placeholder never carries the only description of the field.",
+    "verifiable_by": "lint",
+    "anti_pattern": "<input placeholder=\"Email\"> with no <label>, so the field name disappears once the user starts typing (jsx-a11y/label-has-associated-control catches the missing label)."
+  },
+  {
+    "page_id": "110a9aed-5344-82d4-8d8d-8187908970b8",
+    "id": "UX-212",
+    "title": "Smart Defaults in Forms and Configuration",
+    "verify": "On a new record form, fields that can be inferred (owner = current user, date range = last full period, country/timezone/currency from the account) arrive pre-filled.",
+    "verifiable_by": "test",
+    "anti_pattern": "\"Assigned to\" left blank, date range defaulting to \"All time\", and timezone showing \"Select...\" even though the account already has one."
+  },
+  {
+    "page_id": "016a9aed-5344-83a5-a7ca-81b8784b32e7",
+    "id": "UX-213",
+    "title": "Appropriate Control Selection for Form Inputs",
+    "verify": "Mutually exclusive choices of 2-5 options use radios, independent multi-selects use checkboxes, and structured data (date, number) does not use a plain text input.",
+    "verifiable_by": "visual",
+    "anti_pattern": "Checkboxes for mutually exclusive options (allowing impossible states) or a free-text input for a date that accepts \"tomorrow-ish\"."
+  },
+  {
+    "page_id": "69ca9aed-5344-82dd-85f2-0149512a2f5c",
+    "id": "UX-214",
+    "title": "Enterprise Form Design",
+    "verify": "Each field has its label above the input, shows its error/success state after blur, and a long form keeps Save/Cancel visible without scrolling.",
+    "verifiable_by": "visual",
+    "anti_pattern": "Validation that only runs on submit, labels living inside the input as placeholders, and Save buttons at the bottom of a 3-screen-tall form."
+  },
+  {
+    "page_id": "40ca9aed-5344-8203-a53a-0122a622a639",
+    "id": "UX-215",
+    "title": "Match Input Field Type and Size to Expected Input",
+    "verify": "Field width reflects expected length (a ZIP field is visibly short, a description is a multi-line textarea) and numeric fields use type=number or inputmode with min/max.",
+    "verifiable_by": "lint",
+    "anti_pattern": "A full-width single-line input for a 5-digit ZIP code, and a one-line text input for a multi-paragraph comment."
+  },
+  {
+    "page_id": "84fa9aed-5344-821e-925a-01f47728809a",
+    "id": "UX-216",
+    "title": "Progress Communication in Multi-Step Forms",
+    "verify": "A multi-step form shows the full list of steps with the current one highlighted from step 1, and states before starting what documents are needed and whether progress can be saved.",
+    "verifiable_by": "visual",
+    "anti_pattern": "A wizard that reveals one step at a time with no step count, so the user learns on step 4 that a tax ID document is required."
+  },
+  {
+    "page_id": "31aa9aed-5344-8307-ba11-817b61bc354d",
+    "id": "UX-217",
+    "title": "Prioritized Multi-Error Display",
+    "verify": "A field that fails several rules shows exactly one error message at a time, the format error before range or cross-field errors.",
+    "verifiable_by": "test",
+    "anti_pattern": "Entering \"abc\" in a numeric field shows \"Must be a number\", \"Must be between 1 and 100\" and \"Must be less than End\" at the same time."
+  },
+  {
+    "page_id": "196a9aed-5344-820c-9790-817b4eac7eb6",
+    "id": "UX-218",
+    "title": "Save & Resume for Long Forms",
+    "verify": "Reloading or reopening a form mid-way restores the last step with all previously entered values, and a \"Last saved\" timestamp is visible near the primary action.",
+    "verifiable_by": "test",
+    "anti_pattern": "State kept only in component memory, so a tab refresh or session timeout after 10 minutes of typing returns an empty step 1."
+  }
+]

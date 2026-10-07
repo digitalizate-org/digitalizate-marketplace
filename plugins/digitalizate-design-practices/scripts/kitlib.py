@@ -163,13 +163,14 @@ SECTION_ALIASES = {
     "how_to_implement": ("how to implement", "implementation", "how to apply"),
     "how_to_present": ("how to present it", "how to present", "how to pitch it"),
     "metrics": ("metrics impact", "metrics & use cases", "metrics and use cases", "metrics"),
-    "sources": ("sources & references", "sources and references", "sources", "references"),
+    "sources": ("sources & references", "sources and references", "sources", "source", "references"),
 }
 
 CALLOUT_WHEN = re.compile(r"when to use:?\**\s*(.+)", re.IGNORECASE)
 CALLOUT_AVOID = re.compile(r"avoid when:?\**\s*(.+)", re.IGNORECASE)
 IMAGE_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
 LINK_RE = re.compile(r"(?<!!)\[([^\]]+)\]\((https?://[^)]+)\)")
+SOURCE_LINE = re.compile(r"^(?:[-*•]|\d+[.)])\s+.*\]\(https?://")
 
 
 def _norm_heading(text: str) -> str:
@@ -192,10 +193,16 @@ def split_sections(body_md: str) -> dict:
     Los toggles se exportan como <details><summary>Título</summary>; el
     summary cuenta como encabezado para que "Sources & References" y
     "Metrics & Use Cases" queden en su propia sección.
+
+    En muchas fichas el encabezado "Metrics Impact" quedó dentro del toggle
+    "Sources & References". Mientras ese toggle esté abierto, las viñetas con
+    enlace se atribuyen a `sources` aunque un encabezado anidado haya cambiado
+    la sección activa; el resto del texto sigue en la sección anidada.
     """
     sections: dict[str, list[str]] = defaultdict(list)
     current = "_pre"
     stack: list[str] = []  # sección activa antes de entrar a un toggle
+    open_toggles: list[str] = []  # claves de sección de los toggles abiertos
     for raw in (body_md or "").splitlines():
         line = raw.rstrip()
         stripped = line.strip()
@@ -207,11 +214,17 @@ def split_sections(body_md: str) -> dict:
         if s:
             stack.append(current)
             current = _section_key(s.group(1))
+            open_toggles.append(current)
             continue
         if stripped == "</details>":
             current = stack.pop() if stack else current
+            if open_toggles:
+                open_toggles.pop()
             continue
         if stripped in ("---", "<details>"):
+            continue
+        if "sources" in open_toggles and current != "sources" and SOURCE_LINE.match(stripped):
+            sections["sources"].append(line)
             continue
         sections[current].append(line)
 
@@ -247,13 +260,23 @@ def _strip_images(text: str) -> str:
     return "\n".join(lines).strip()
 
 
+SENTENCE_END = re.compile(r"[.!?][\"')\]]?(?=\s)")
+
+
 def truncate(text: str, limit: int) -> str:
+    """Recorta a `limit` caracteres sin partir oraciones ni palabras.
+
+    Tolera un 10 % de exceso antes de cortar; corta en el último fin de oración
+    si está pasado el 50 % del límite y, si no hay ninguno, en el último espacio.
+    """
     text = (text or "").strip()
-    if len(text) <= limit:
+    if len(text) <= limit * 1.1:
         return text
     cut = text[:limit]
-    # corta en fin de oración si hay uno razonablemente cerca
-    end = max(cut.rfind(". "), cut.rfind(".\n"))
-    if end > limit * 0.6:
-        return cut[: end + 1]
-    return cut.rstrip() + "…"
+    ends = [m.end() for m in SENTENCE_END.finditer(cut)]
+    if ends and ends[-1] > limit * 0.5:
+        return cut[: ends[-1]]
+    space = cut.rfind(" ")
+    if space > limit * 0.5:
+        cut = cut[:space]
+    return cut.rstrip(" ,;:—-(") + "…"

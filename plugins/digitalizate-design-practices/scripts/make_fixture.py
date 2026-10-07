@@ -3,7 +3,10 @@
 
 Reproduce los casos reales de la base: ID único, IDs repetidos entre el lote
 de psicología y el agéntico, ficha sin ID, duplicado cercano, ficha con Status
-Merged, y el markdown de cuerpo tal como lo exporta export_notion.py.
+Merged, el markdown de cuerpo tal como lo exporta export_notion.py, una ficha
+con "Metrics Impact" anidado dentro del toggle "Sources & References" (130
+fichas reales) y un documento largo sin la plantilla de secciones (las fichas
+"Design - ..." sin ID).
 
 Uso: python scripts/make_fixture.py   (sobrescribe data/practices.json)
 """
@@ -40,6 +43,48 @@ Applying this pattern can positively influence the following UX metrics:
 - [Nielsen Norman Group – Article](https://www.nngroup.com/articles/example/)
 - [Baymard – Research](https://baymard.com/blog/example)
 </details>"""
+
+UX_BODY_NESTED = """## Wireframe
+![Wireframe: {title}](https://files.example.com/{slug}.jpg)
+> 💡 **When to use:** {when}
+## What & Why
+{why}
+---
+## How to Implement
+-
+- Step one of the implementation
+-
+- Step two with a concrete example
+---
+## How to Present It
+**To executives and leadership:**
+- "This pattern directly impacts conversion. Users who encounter this friction point abandon at 3x the rate."
+---
+<details><summary>Sources & References</summary>
+  ## Metrics Impact
+  Applying this pattern can positively influence the following UX metrics:
+  - **Efficiency**: Time-on-task, Error rate
+  **How to measure**: Compare task time before and after the change.
+    - [Nielsen Norman Group – Article](https://www.nngroup.com/articles/example/)
+    - [Baymard – Research](https://baymard.com/blog/example)
+</details>"""
+
+DOC_BODY = """> 🧱 **Original synthesis.** Tokens are the contract between design and code.
+## Core practice
+Define tokens in three tiers: primitive, semantic and component. Keep the semantic tier as the public API.
+## Recommended model
+- **Primitive:** raw values (blue-500, 16px).
+- **Semantic:** purpose (color-action-primary).
+- **Component:** scoped overrides (button-bg).
+## Implementation steps
+1. Inventory existing values and collapse near-duplicates.
+1. Name semantic tokens by purpose, never by appearance.
+1. Generate platform outputs from one source with a build step.
+## Quality checks
+- Every semantic token maps to exactly one primitive per theme.
+- No component uses a primitive directly.
+## Source
+- [Design Tokens Community Group](https://www.designtokens.org/)"""
 
 AGP_BODY = """![Wireframe: {title}](https://raw.githubusercontent.com/example/wireframes/main/{slug}.png)
 > 💡 **When to use:** Advanced AI systems with autonomy; Long-term agent deployments
@@ -93,11 +138,11 @@ def main() -> None:
         entry(3, "Abductive Reasoning (ABR)", "Agentic Patterns", "Reasoning", 3,
               "Use when: Diagnostic agents with incomplete data.", ["Reduce Learning Curve for Complex Tools"], ["ai-patterns"], "UX-357", AGP_BODY),
         entry(4, "Parallelism: Group Elements Sharing Directional Alignment", "Gestalt Principles", "Parallelism", 4,
-              "Apply when arranging lists, cards or toolbars.", ["Improve Readability & Visual Clarity"], ["gestalt-principles"], "UX-500", UX_BODY),
+              "Apply when arranging lists, cards or toolbars.", ["Improve Readability & Visual Clarity"], ["gestalt-principles"], "UX-500", UX_BODY_NESTED),
         entry(5, "Intrinsic Alignment Pattern (IAP)", "Agentic Patterns", "Security & Privacy", 3,
               "Use when: Advanced AI systems with autonomy.", ["Build Trust & Reduce User Anxiety"], ["ai-patterns"], "UX-500", AGP_BODY),
         entry(6, "Design - Token Architecture", "Design Systems & Tokens", "Tokens", 5,
-              "Apply when starting or refactoring a design system.", ["Design a Consistent System at Scale"], ["design-system"], None, UX_BODY, created="2026-09-0"),
+              "Apply when starting or refactoring a design system.", ["Design a Consistent System at Scale"], ["design-system"], None, DOC_BODY, created="2026-09-0"),
         entry(7, "Inline Validation on Blur", "Forms & Input", "Validation", 5,
               "Apply to fields with format rules (email, phone, card).", ["Design Forms That Work", "Design Effective Feedback & Error States"], ["forms", "error-handling"], "UX-118", UX_BODY),
         entry(8, "Inline Validation on Blur for Formatted Fields", "Forms & Input", "Validation", 4,

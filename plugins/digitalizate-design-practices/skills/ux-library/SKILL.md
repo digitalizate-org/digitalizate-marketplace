@@ -12,7 +12,7 @@ A compiled copy of the Notion database "Design - Best Practices Library". Notion
 - `index/_overview.md` — build date, counts, every category and goal with its file path, tag counts. Read this first if you do not know the library.
 - `index/by-category/<category>.md` — one line per practice: `ID · title [subcategory] · ★score · tags · use: <when to apply>`.
 - `index/by-goal/<goal>.md` — the same lines grouped by the "Helps With" goal, with the category slug at the end so you can jump to the reference.
-- `references/<category>.md` (or `references/<category>/<subcategory>.md` for large categories) — the full entry: why, implementation steps (**Do.**), metrics, sources, wireframe link, Notion link, and when available `Verify:`, `Verifiable by:` and `Anti-pattern:`.
+- `references/<category>.md`, or for large categories `references/<category>/<subcategory>.md` or `references/<category>/part-N.md` (the category index says which file holds each entry) — the full entry: why, implementation steps (**Do.**), metrics, sources, wireframe link, Notion link, and when available `Verify:`, `Verifiable by:` and `Anti-pattern:`.
 
 IDs look like `UX-118`. They are canonical and stable across builds (the build assigns them from `data/id_map.json`), so citing them is safe. Agent-architecture patterns live in a separate skill (`agentic-patterns`, IDs `AGP-xxx`); do not use them for interface work unless the screen is itself an AI/agent feature.
 
@@ -31,7 +31,7 @@ The library is too big to load whole (~200k tokens). Work in three steps.
 
 1. Classify the work. Name the screen type(s) and the one or two goals at stake, then pick categories from the map below. A screen usually maps to two to four categories plus the baseline set.
 2. Read only those index files (each is 1-4k tokens). Shortlist the IDs whose score and `use:` context fit.
-3. Open the full entries for the shortlist. For a few IDs, `grep -n "^## UX-118" skills/ux-library/references/` and read the block up to the next `## `. Read a whole reference file only when you are designing deep inside that category.
+3. Open the full entries for the shortlist. For a few IDs, `grep -rn "^## UX-118" skills/ux-library/references/` and read the block up to the next `## `. Read a whole reference file only when you are designing deep inside that category.
 
 Never cite an ID you have not opened in `references/`. The index line is for shortlisting, the reference is what you act on.
 

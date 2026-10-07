@@ -1,0 +1,24 @@
+# Data Display & Tables (20)
+
+Reference: references/data-display-and-tables.md
+
+- UX-072 · Data Tables — Support All Four Core User Tasks by Design [Table task design] · ★5 · tags: search, enterprise, tables · use: Apply to any enterprise data table — records lists, transaction logs, user management, inventory, analytics exports.
+- UX-073 · Frozen Headers and Visual Anchors in Large Tables [Table scrolling and orientation] · ★5 · tags: tables · use: Apply to any table with more rows than fit on screen, or with more than ~8 columns. Users lose orientation during scroll without visual anchors.
+- UX-074 · Column Management for Comparison Work [Personalization] · ★5 · tags: tables · use: Use for data tables with 8+ possible columns or where different user roles have different data priorities.
+- UX-075 · Row-Level and Batch Actions Design in Tables [Table action patterns] · ★5 · tags: workflow, tables · use: Apply to all enterprise data tables where users manage records — delete, archive, export, assign, approve, reject.
+- UX-076 · Pagination vs. Infinite Scroll — Choose by Task Type [List Navigation] · ★5 · tags: search, tables, navigation · use: Use when deciding how users will navigate long lists — different content types and user tasks require different navigation patterns.
+- UX-077 · Three-Level Density System for Tables and Lists [Density Controls] · ★5 · tags: enterprise, tables · use: Use for any enterprise data table used in multiple contexts or by users with varying display needs and accessibility requirements.
+- UX-078 · Correct Data Alignment in Tables [Data Formatting] · ★5 · tags: — · use: Use in all data tables containing numeric, financial, or quantitative data.
+- UX-079 · Contextual Hover Actions in Data Tables [Row Interaction Patterns] · ★5 · tags: tables · use: Use in all data tables with per-row actions (CRUD tables, management interfaces, list views).
+- UX-080 · Sortable Columns with Clear State Indicators [Table Interaction] · ★5 · tags: tables · use: Any table with data that users need to prioritize or compare — dates, values, statuses, names.
+- UX-081 · Virtual Scrolling for Large Datasets [Performance Optimization] · ★5 · tags: performance, forms · use: Tables with server-side data that may grow to thousands of rows. Critical in audit logs, transaction history, event streams, and large inventory tables.
+- UX-082 · Inline Editing with Friction Calibration [Inline Editing] · ★5 · tags: — · use: All tables where data is editable. The choice of inline vs. modal editing should be driven by the risk and frequency of the edit operation.
+- UX-083 · Expandable Row Details and Sidebar Panels [Row Interaction] · ★5 · tags: ai-patterns, tables, navigation · use: When records have significant associated detail — attachments, related records, history, notes. Common in CRM, support ticket systems, and order management.
+- UX-084 · Tables Over Cards for Dense Multi-Variate Data [Layout pattern selection] · ★4 · tags: workflow, tables, data-heavy · use: Apply when users need to compare attributes across many records simultaneously, detect outliers, or perform bulk actions.
+- UX-085 · Smart Defaults for Sort Order [Default State Design] · ★4 · tags: tables · use: Use when designing any sortable data table — the default sort order should reflect the primary user task, not technical defaults.
+- UX-086 · Column Order Reflecting Data Importance [Table Structure] · ★4 · tags: search, tables, forms · use: All data tables. Collaborate with primary users during design to validate column priority before launch — column order has a larger impact on task…
+- UX-087 · Row Density Controls [Table Customization] · ★4 · tags: tables · use: Any enterprise table used by power users or in data-heavy workflows. Standard in ERP, analytics, and financial applications where users range from…
+- UX-088 · Pagination vs. Virtual Scrolling Decision Framework [Data Navigation] · ★4 · tags: tables, navigation · use: Any enterprise data table. The choice between pagination and scrolling has downstream effects on performance, shareability, and user orientation within the dataset.
+- UX-089 · Expandable Row Detail (Inline Master-Detail) [Row Expansion] · ★4 · tags: ai-patterns, tables · use: When detail content is compact (3–10 fields or a small nested table) and users need to compare detail across multiple records simultaneously — order…
+- UX-090 · Dense Numerical Display — Monospace and Column Alignment [Typography for Data] · ★4 · tags: tables · use: All tables and data views with numerical data — financial reports, inventory counts, performance metrics, analytics tables.
+- UX-091 · Treemap for Hierarchical Quantitative Data [Data Visualization] · ★3 · tags: data-heavy · use: When users need to compare relative sizes across a hierarchy — portfolio analysis, budget roll-ups, storage usage, sales composition.

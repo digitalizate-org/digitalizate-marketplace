@@ -37,7 +37,7 @@ python scripts/build_skills.py --clean   # genera index/ y references/, asigna I
 Lo que vas a encontrar en la auditoría, porque ya lo vi en la base:
 
 - 196 IDs repetidos. El lote "Agentic Patterns" reusó UX-357 a UX-552, que ya tenían las fichas de psicología. El build deja el ID a la ficha de psicología y da AGP-001 en adelante a las agénticas.
-- 14 fichas sin ID, las de proceso de design system con título "Design - ...". Reciben UX-634 en adelante.
+- 14 fichas sin ID: 12 de proceso de design system con título "Design - ..." (reciben UX-634 a UX-645) y 2 con título "AI - ..." en la categoría Agentic Patterns (reciben AGP-004 y AGP-005).
 - La descripción del campo ID dice "UX-001 through UX-356". Actualízala en Notion.
 
 Para que Notion y el plugin coincidan:
@@ -63,13 +63,17 @@ Los nombres se configuran en `config/build.json`. `/ux-enrich` propone los valor
 
 ## Instalación en Claude Code
 
-Para probar el plugin desde esta carpeta:
+Verificado con Claude Code 2.1.292: `claude --plugin-dir <ruta>` carga un plugin desde una carpeta o un `.zip` sólo para esa sesión y se puede repetir para cargar varios. Antes de probarlo, `claude plugin validate <ruta>` comprueba el manifiesto.
 
 ```bash
-claude --plugin-dir ./ux-kit
+claude plugin validate /ruta/a/ux-kit
+cd /ruta/al/proyecto
+claude --plugin-dir /ruta/a/ux-kit
 ```
 
-Si tu versión no reconoce la opción, revisa `claude --help` o la documentación de plugins en code.claude.com. Las skills quedan disponibles por nombre y como comandos: `/ux-build`, `/ux-review`, `/ux-sync`, `/ux-enrich`.
+Las skills quedan disponibles por nombre y como comandos: `/ux-build`, `/ux-review`, `/ux-sync`, `/ux-enrich`.
+
+Para `/ux-sync` y `/ux-enrich` abre Claude Code en la carpeta del kit (ahí viven `scripts/` y `data/`) y carga el plugin desde otra ruta, una copia o la instalación desde marketplace: Claude Code bloquea las escrituras del agente (herramientas de archivos y comandos Bash) dentro del directorio cargado con `--plugin-dir`, así que si plugin y carpeta de trabajo son la misma ni `/ux-sync` puede escribir en `data/` ni `/ux-enrich` guardar su JSON (verificado en 2.1.292). Para una instalación permanente el plugin tiene que publicarse en un marketplace (`claude plugin marketplace add` acepta una ruta local o un repositorio); ese flujo no se probó aquí.
 
 En claude.ai puedes subir cada carpeta de `skills/` como skill individual. La de `ux-library` pesa lo que pesen las referencias, así que conviene subirla después del primer build y no antes.
 
@@ -110,6 +114,7 @@ ux-kit/
 │   ├── ux-sync/      SKILL.md
 │   └── ux-enrich/    SKILL.md
 ├── templates/design-decisions.md
+├── evals/evals.json               prompts y criterios de las pruebas de ux-review y ux-build
 ├── data/                          practices.json, id_map.json, id_changes.csv, raw/, enrichment/
 └── reports/                       audit.md, duplicates.md
 ```
@@ -118,5 +123,5 @@ ux-kit/
 
 - La llave real es el ID de página de Notion. Los IDs UX-xxx son etiquetas para citar y se asignan de forma estable desde `id_map.json`.
 - Las referencias descartan "How to Present It" porque es texto plantilla repetido entre fichas. Si en algún momento lo personalizas, quítalo de `drop_sections` en la config.
-- Las categorías con más de 60 fichas se parten por subcategoría para que el agente no cargue 30 mil tokens por una consulta.
+- Las categorías con más de 60 fichas se parten por subcategoría para que el agente no cargue 30 mil tokens por una consulta. Si no hay subcategorías útiles o el archivo superaría `max_reference_bytes` (120 KB), se parten por tamaño en `part-N.md`, ordenadas por score y luego por ID; el índice de la categoría dice qué parte contiene cada ficha.
 - Las prácticas de score 3 solo entran cuando el contexto coincide, y las de 1 y 2 solo a pedido. Está en el SKILL.md de la librería y en el overview generado.
