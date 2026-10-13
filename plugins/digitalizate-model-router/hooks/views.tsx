@@ -5,7 +5,7 @@ import type { TaskClassification } from './classify'
 import { describeTask } from './classify'
 import { CATEGORIES, MODELS } from './matrix'
 import { CONFIDENCE_LABEL, SOURCE_LABEL, VERDICT_LABEL } from './labels'
-import { isOpusplan, kTokens, modelName, usd } from './route'
+import { kTokens, modelName, usd } from './route'
 
 export { CONFIDENCE_LABEL, SOURCE_LABEL, VERDICT_LABEL }
 
@@ -13,7 +13,7 @@ export type Kit = Pick<Elements['mobile'], 'Box' | 'Text' | 'Button'>
 
 export const RUBRIC_ID = 'digitalizate-model-router:rubric'
 
-const MARK: Record<ActionKind, string> = { stay: '✓', delegate: '⇢', switch: '⚠', plan: '◇', none: '·' }
+const MARK: Record<ActionKind, string> = { stay: '✓', delegate: '⇢', switch: '↻', plan: '◇', none: '·' }
 
 const VERIFY_RULE =
   'Verificación: nunca reportes "listo" sin correr tests, build o el comando cambiado y leer su resultado. Si no hay forma de verificar, dilo explícitamente.'
@@ -72,36 +72,6 @@ export function contextLine(decision: Decision, flags: { isFirst: boolean; chang
   const ask = flags.isFirst || flags.changed ? ' Abre con la línea «Plan de modelos: …» (sigue la sugerencia o di por qué no).' : ''
 
   return `${parts.join('. ')}.${ask}`
-}
-
-function sessionLabel(model: string, planMode: boolean): string {
-  if (model === '') {
-    return '?'
-  }
-
-  if (isOpusplan(model)) {
-    return planMode ? 'opusplan · Opus 5.5 planea' : 'opusplan · Sonnet 5.5 ejecuta'
-  }
-
-  return modelName(model)
-}
-
-export function statusText(decision: Decision | null, model: string, planMode = false): string {
-  if (decision === null) {
-    return `${sessionLabel(model, planMode)} · sin tarea clasificada`
-  }
-
-  const action = decision.action
-  const tail =
-    action.kind === 'delegate'
-      ? ` ${action.agent ?? ''}`
-      : action.kind === 'switch'
-        ? ` /model ${action.alias ?? ''}`
-        : action.kind === 'plan'
-          ? ' plan mode'
-          : ''
-
-  return `${shortLabel(decision.label)} → ${MODELS[decision.tier].name}·${decision.effort} ${MARK[action.kind]}${tail}`
 }
 
 export function describeAction(action: RouteAction): string {
@@ -185,6 +155,28 @@ export function bandModel(decision: Decision | null, signals: readonly string[],
     detail: decision.action.text,
     ...(kind === 'switch' && decision.action.alias !== undefined ? { switchAlias: decision.action.alias } : {}),
   }
+}
+
+export function indicatorText(band: BandModel | null, decision: Decision | null): string | null {
+  if (band === null) {
+    return null
+  }
+
+  if (band.key.startsWith('signal:')) {
+    return '↑ escalar'
+  }
+
+  const action = decision?.action
+
+  if (action?.kind === 'delegate' && action.agent !== undefined) {
+    return `${MARK.delegate} ${action.agent}`
+  }
+
+  if (action?.kind === 'switch' && action.alias !== undefined) {
+    return `${MARK.switch} /model ${action.alias}`
+  }
+
+  return action?.kind === 'plan' ? `${MARK.plan} plan mode` : null
 }
 
 export type BandHandlers = {

@@ -29,7 +29,7 @@ prompt del usuario
   │               con confianza baja no recomienda nada; cambiar exige evidencia fuerte
   ▼
 3. INFORMAR ──── contexto al modelo + rúbrica por modelo en el system prompt
-  │               + línea de estado + banda con botón /model cuando hay algo que hacer
+  │               + indicador corto en el pie del prompt y banda con botón /model, solo cuando hay algo que hacer
   ▼
 4. EJECUTAR
   ├─ Agent ───── juicio del brief: rechaza el agente equivocado nombrando el correcto,

@@ -29,6 +29,14 @@ export const BAND: RenderInput<'AbovePrompt'> = {
   },
 }
 
+export const MODE: RenderInput<'SessionMode'> = {
+  component: 'SessionMode',
+  surface: 'terminal',
+  requestId: 'mode',
+  viewport: { columns: 160, rows: 48, isFullscreen: true },
+  props: { modes: [] },
+}
+
 export const PANE: RenderInput<'Pane'> = {
   component: 'Pane',
   surface: 'terminal',
@@ -162,7 +170,11 @@ export function worldOf(on: On, options: WorldOptions = {}): World {
   on('turn.start', ($, e) => ({ turnId: e.turnId }))
   on('prompt.submit', ($, e) => ({ text: e.text, ...(e.context === undefined ? {} : { context: e.context }) }))
   on('prompt.compose', () => ({ sections: [{ id: 'intro', text: 'base', scope: 'shared' as const }] }))
-  on('ui.render', () => ({ type: 'Text', children: [''] }) as never)
+  on('ui.render', ($, e) =>
+    (e.component === 'SessionMode'
+      ? { type: 'Text', children: [(e.props as { modes: readonly string[] }).modes.join(' & ')] }
+      : { type: 'Text', children: [''] }) as never,
+  )
 
   on('classic.UserPromptSubmit', () => ({}))
   on('classic.Stop', () => ({}))

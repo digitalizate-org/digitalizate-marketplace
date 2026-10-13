@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'claude-code/testing'
 
-import { BAND, command, PANE, SESSION, spawnInput, textOf, worldOf } from './fixtures'
+import { BAND, command, MODE, PANE, SESSION, spawnInput, textOf, worldOf } from './fixtures'
 
 const MECHANICAL = 'Escribe tests unitarios para el parser con vitest'
 const DESIGN = 'Crea un nuevo proyecto desde cero: elige el stack y diseña el sistema'
@@ -31,7 +31,8 @@ describe('startup', () => {
     await $.session.start(SESSION)
 
     expect(world.commands).toEqual(['route'])
-    expect(world.statuses.at(-1)).toBe('Opus 5.5 · sin tarea clasificada')
+    expect(world.statuses.at(-1)).toBeUndefined()
+    expect(textOf(await $.ui.render(MODE))).toBe('')
   })
 
   test('detects the legacy bash hook', async ($, on) => {
@@ -60,7 +61,7 @@ describe('decision per prompt', () => {
     expect(line).toContain('Plan de modelos')
     expect(world.state.decision?.tier).toBe('sonnet')
     expect(world.state.decision?.action.kind).toBe('delegate')
-    expect(world.statuses.at(-1)).toContain('Sonnet 5.5·medium ⇢ sonnet-implementer')
+    expect(textOf(await $.ui.render(MODE))).toBe('⇢ sonnet-implementer')
   })
 
   test('a trivial message adds no context and does not change the decision', async ($, on) => {
@@ -565,7 +566,7 @@ describe('opusplan session', () => {
 
     await $.session.start(SESSION)
 
-    expect(world.statuses.at(-1)).toBe('opusplan · Sonnet 5.5 ejecuta · sin tarea clasificada')
+    expect(world.state.session?.model).toBe('opusplan')
 
     await $.classic.UserPromptSubmit({ prompt: ARCHITECTURE, prompt_id: 'p1' })
 
@@ -588,7 +589,7 @@ describe('opusplan session', () => {
 
     await $.session.start(SESSION)
 
-    expect(world.statuses.at(-1)).toBe('Opus 5.5 · sin tarea clasificada')
+    expect(world.state.session?.model).toBe('claude-opus-5-5')
   })
 
   test('a /model switch wins over the settings default', async ($, on) => {
@@ -607,5 +608,47 @@ describe('opusplan session', () => {
 
     expect(world.state.decision?.model).toBe('sonnet')
     expect(world.state.decision?.action.kind).toBe('switch')
+  })
+})
+
+describe('footer indicator', () => {
+  test('a session that fits the task shows nothing', async ($, on) => {
+    worldOf(on)
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: DESIGN, prompt_id: 'p1' })
+
+    expect(textOf(await $.ui.render(MODE))).toBe('')
+  })
+
+  test('a recommended switch shows the command, without a warning sign', async ($, on) => {
+    worldOf(on, { model: 'claude-sonnet-5-5' })
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: ARCHITECTURE, prompt_id: 'p1' })
+
+    expect(textOf(await $.ui.render(MODE))).toBe('↻ /model opus')
+  })
+
+  test('hiding the band hides the indicator too', async ($, on) => {
+    worldOf(on)
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: MECHANICAL, prompt_id: 'p1' })
+    await $.ui.render(BAND)
+    await $.ui.press({ plugin: 'digitalizate-model-router', key: 'dismiss' })
+
+    expect(textOf(await $.ui.render(MODE))).toBe('')
+  })
+
+  test('an escalation signal shows up and keeps the other modes', async ($, on) => {
+    worldOf(on, { model: 'claude-sonnet-5-5' })
+    on('tool.call', { tool: 'Edit' }, () => ({ result: {} as never, text: 'ok' }))
+    on('tool.call', { tool: 'Bash' }, () => ({ isError: true as const, result: 'Exit code 1', text: 'Exit code 1\nFAIL src/a.test.ts' }))
+
+    await $.session.start(SESSION)
+    await $.tool.call({ tool: 'Edit', file_path: '/work/src/a.ts', old_string: 'a', new_string: 'b' })
+    await $.tool.call({ tool: 'Bash', command: 'npm test' })
+    await $.tool.call({ tool: 'Bash', command: 'npm test' })
+    await $.tool.call({ tool: 'Bash', command: 'npm test' })
+
+    expect(textOf(await $.ui.render({ ...MODE, props: { modes: ['focus'] } }))).toBe('focus & ↑ escalar')
   })
 })

@@ -51,7 +51,7 @@ import {
   RUBRIC_ID,
   rubricFor,
   simulationText,
-  statusText,
+  indicatorText,
   taskLabel,
 } from './views'
 
@@ -441,14 +441,14 @@ export const register: Register = (on, options) => {
 
     const model = await sessionModel($, (await read($, sessionAtom)).planMode)
     const legacyHook = await hasLegacyHook($)
-    const session = await update($, sessionAtom, current => ({
+    await update($, sessionAtom, current => ({
       ...current,
       model,
       modelTier: currentOf(model, current.planMode).tier,
       legacyHook,
     }))
 
-    $.ui.status(statusText(await read($, decisionAtom), session.model, session.planMode))
+    $.ui.status(undefined)
 
     if (legacyHook) {
       $.ui.log(
@@ -518,8 +518,6 @@ export const register: Register = (on, options) => {
     const session = await update($, sessionAtom, view => ({ ...view, model, modelTier: current.tier, planMode }))
 
     if (classification.kind !== 'task') {
-      $.ui.status(statusText(await read($, decisionAtom), model, planMode))
-
       return result
     }
 
@@ -558,7 +556,6 @@ export const register: Register = (on, options) => {
     await update($, decisionAtom, () => decision)
     await update($, historyAtom, list => [...list, decision].slice(-HISTORY_MAX))
     await update($, signalsAtom, () => [])
-    $.ui.status(statusText(decision, model, planMode))
 
     const line = contextLine(decision, {
       isFirst: previous === undefined,
@@ -877,8 +874,6 @@ export const register: Register = (on, options) => {
     const decision = await read($, decisionAtom)
 
     if (decision === null) {
-      $.ui.status(statusText(null, model, session.planMode))
-
       return result
     }
 
@@ -901,7 +896,6 @@ export const register: Register = (on, options) => {
     }
 
     await update($, decisionAtom, () => refreshed)
-    $.ui.status(statusText(refreshed, model, session.planMode))
 
     return result
   })
@@ -977,6 +971,17 @@ export const register: Register = (on, options) => {
       },
       e.props.bodyColumns,
     )
+  })
+
+  on('ui.render', { component: 'SessionMode' }, async ($, e, next) => {
+    const decision = await read($, decisionAtom)
+    const signals = await read($, signalsAtom)
+    const dismissed = await read($, dismissedAtom)
+    const session = await read($, sessionAtom)
+    const band = bandModel(decision, signals, dismissed, currentOf(session.model, session.planMode, runtime.mainStepModel).tier)
+    const label = indicatorText(band, decision)
+
+    return label === null ? next(e) : next({ ...e, props: { ...e.props, modes: [...e.props.modes, label] } })
   })
 
   on('ui.render', { component: 'Pane', requestId: PANE_ID }, async ($, e) =>
