@@ -1,9 +1,10 @@
 import type { Elements, RenderChildren } from 'claude-code'
 
-import type { ActionKind, Calibration, Decision, Health, Ledger, ModelTier, RouteAction, SessionView, SpawnRecord } from '../types'
+import type { ActionKind, Calibration, Decision, Health, Ledger, ModelTier, PlanStats, RouteAction, SessionView, SpawnRecord } from '../types'
 import type { TaskClassification } from './classify'
 import { describeTask } from './classify'
 import { CATEGORIES, MODELS } from './matrix'
+import { planStatsLine } from './plan'
 import { CONFIDENCE_LABEL, SOURCE_LABEL, VERDICT_LABEL } from './labels'
 import { kTokens, modelName, usd } from './route'
 
@@ -78,9 +79,9 @@ export function describeAction(action: RouteAction): string {
   return `${MARK[action.kind]} ${action.text}`
 }
 
-export function describeDecision(decision: Decision | null, session: SessionView, health: Health): string {
+export function describeDecision(decision: Decision | null, session: SessionView, health: Health, plans: PlanStats): string {
   if (decision === null) {
-    return `model-router: sin decisión todavía. Sesión en ${modelName(session.model)}. /route <texto> clasifica una tarea; /route matrix muestra la matriz.\n${healthLine(health)}`
+    return `model-router: sin decisión todavía. Sesión en ${modelName(session.model)}. /route <texto> clasifica una tarea; /route matrix muestra la matriz.\n${planStatsLine(plans)}\n${healthLine(health)}`
   }
 
   const category = CATEGORIES.find(candidate => candidate.id === decision.category)
@@ -92,6 +93,7 @@ export function describeDecision(decision: Decision | null, session: SessionView
     `Sesión: ${modelName(decision.model)}${decision.planMode ? ' en plan mode' : ''} · contexto ${kTokens(session.contextTokens)}`,
     `Acción: ${describeAction(decision.action)}`,
     `Costo de esta tarea hasta ahora: ≈${usd(decision.usd)}`,
+    planStatsLine(plans),
     healthLine(health),
   ].join('\n')
 }
@@ -252,6 +254,7 @@ export type PaneData = {
   calibration: Calibration
   signals: readonly string[]
   health: Health
+  plans: PlanStats
 }
 
 function pad(text: string, width: number): string {
@@ -375,6 +378,17 @@ export function renderPane(kit: Kit, data: PaneData, columns: number) {
           </Text>
         ))
 
+  const planRows = [
+    <Text key="summary" wrap="wrap" dimColor={data.plans.requested === 0}>
+      {planStatsLine(data.plans).replace('Plan de modelos: ', '')}
+    </Text>,
+    ...data.plans.recent.slice(-3).map(entry => (
+      <Text key={`plan-${entry.at}`} color="warning" wrap="wrap">
+        ≠ «{entry.label}»: sugerido {entry.suggested} · declarado {entry.declared}
+      </Text>
+    )),
+  ]
+
   const firstActive = data.health.issues.length - data.health.active
   const healthRows =
     data.health.issues.length === 0
@@ -397,6 +411,7 @@ export function renderPane(kit: Kit, data: PaneData, columns: number) {
       {Section(kit, 'Sub-agentes', spawnRows)}
       {Section(kit, 'Costo por modelo (estimado)', ledgerRows)}
       {Section(kit, 'Calibración', calibrationRows)}
+      {Section(kit, 'Plan de modelos', planRows)}
       {Section(kit, 'Salud', healthRows)}
     </Box>
   )

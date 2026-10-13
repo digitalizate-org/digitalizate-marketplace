@@ -1,7 +1,7 @@
 import { atom, read, update } from 'claude-code'
 import type { EngineInterface, HookFailure, PluginOptions, Register, ToolCallResult, TurnUsage } from 'claude-code'
 
-import type { Calibration, CalibrationRow, Decision, Ledger, ModelTier, SpawnRecord } from '../types'
+import type { Calibration, CalibrationRow, Decision, Ledger, ModelTier, PlanStats, SpawnRecord } from '../types'
 import {
   type Classification,
   classify,
@@ -14,6 +14,7 @@ import {
   withSecondOpinion,
 } from './classify'
 import { DEFAULT_AGENT_MODELS, INHERITING_AGENTS, MODELS } from './matrix'
+import { type DeclaredPlan, EMPTY_PLAN_STATS, isAgentCall, parsePlanLine, planStatsOf, scorePlan } from './plan'
 import {
   agentKey,
   type CacheTtl,
@@ -74,6 +75,7 @@ const calibrationAtom = atom({ plugin: 'digitalizate-model-router', key: 'calibr
 const signalsAtom = atom({ plugin: 'digitalizate-model-router', key: 'signals' } as const, [])
 const dismissedAtom = atom({ plugin: 'digitalizate-model-router', key: 'dismissed' } as const, '')
 const healthAtom = atom({ plugin: 'digitalizate-model-router', key: 'health' } as const, { issues: [], active: 0 })
+const plansAtom = atom({ plugin: 'digitalizate-model-router', key: 'plans' } as const, EMPTY_PLAN_STATS)
 const sessionAtom = atom(
   { plugin: 'digitalizate-model-router', key: 'session' } as const,
   { model: '', modelTier: null, planMode: false, contextTokens: 0, legacyHook: false },
@@ -85,6 +87,15 @@ type Config = {
   isEffortByMatrix: boolean
   verify: 'sonnet' | 'all' | 'off'
   switchThreshold: number
+}
+
+type PlanTurn = {
+  isRequested: boolean
+  hasAnswered: boolean
+  plan: DeclaredPlan | null
+  agentCalls: number
+  isScored: boolean
+  isBlocked: boolean
 }
 
 type Runtime = {
@@ -102,6 +113,7 @@ type Runtime = {
   subTracks: Map<string, LoopTrack>
   loopModels: Map<string, string>
   spawnByToolUse: Map<string, SpawnRecord>
+  planTurn: PlanTurn
 }
 
 function configOf(options: PluginOptions): Config {
@@ -130,7 +142,12 @@ function freshRuntime(options: PluginOptions): Runtime {
     subTracks: new Map(),
     loopModels: new Map(),
     spawnByToolUse: new Map(),
+    planTurn: newPlanTurn(false),
   }
+}
+
+function newPlanTurn(isRequested: boolean): PlanTurn {
+  return { isRequested, hasAnswered: false, plan: null, agentCalls: 0, isScored: false, isBlocked: false }
 }
 
 const runtime: Runtime = freshRuntime({})
@@ -365,6 +382,47 @@ async function finalizeDecision($: EngineInterface): Promise<void> {
   await $.store.set('calibration', next)
 }
 
+async function savePlans($: EngineInterface, change: (stats: PlanStats) => PlanStats): Promise<void> {
+  const next = await update($, plansAtom, change)
+
+  await $.store.set('plans', next)
+}
+
+async function closePlanTurn($: EngineInterface): Promise<void> {
+  const turn = runtime.planTurn
+
+  if (!turn.isRequested || turn.isScored) {
+    return
+  }
+
+  turn.isScored = true
+
+  const decision = await read($, decisionAtom)
+
+  if (decision === null) {
+    return
+  }
+
+  await savePlans($, stats => scorePlan(stats, { action: decision.action, label: decision.label, at: decision.at, plan: turn.plan }))
+}
+
+function unkeptDelegation(): DeclaredPlan | null {
+  const turn = runtime.planTurn
+
+  return turn.plan?.kind === 'delegate' && turn.agentCalls === 0 && !turn.isBlocked ? turn.plan : null
+}
+
+function notePlanStep(answer: string, toolUses: readonly { name: string }[]): void {
+  const turn = runtime.planTurn
+
+  if (!turn.hasAnswered && answer.trim() !== '') {
+    turn.hasAnswered = true
+    turn.plan = parsePlanLine(answer)
+  }
+
+  turn.agentCalls += toolUses.filter(use => isAgentCall(use.name)).length
+}
+
 async function recordUsage($: EngineInterface, usage: TurnUsage, isMain: boolean): Promise<void> {
   const cost = usageUsd(usage, runtime.cacheTtl)
 
@@ -422,6 +480,7 @@ async function resetSession($: EngineInterface): Promise<void> {
   runtime.loopModels.clear()
   runtime.spawnByToolUse.clear()
   runtime.rejectedThisTurn.clear()
+  runtime.planTurn = newPlanTurn(false)
   await update($, decisionAtom, () => null)
   await update($, historyAtom, () => [])
   await update($, spawnsAtom, () => [])
@@ -450,6 +509,7 @@ export const register: Register = (on, options) => {
 
     const learned = await $.store.get('agentModels').catch(() => undefined)
     const calibration = await $.store.get('calibration').catch(() => undefined)
+    const plans = await $.store.get('plans').catch(() => undefined)
 
     runtime.agentModels = {
       ...(typeof learned === 'object' && learned !== null ? (learned as Record<string, string>) : {}),
@@ -460,6 +520,8 @@ export const register: Register = (on, options) => {
     if (typeof calibration === 'object' && calibration !== null) {
       await update($, calibrationAtom, () => calibration as Calibration)
     }
+
+    await update($, plansAtom, () => planStatsOf(plans))
 
     const model = await sessionModel($, (await read($, sessionAtom)).planMode)
     const legacyHook = await hasLegacyHook($)
@@ -528,6 +590,8 @@ export const register: Register = (on, options) => {
       return result
     }
 
+    runtime.planTurn = newPlanTurn(false)
+
     const images = runtime.pendingImages
     runtime.pendingImages = 0
     runtime.isUserPinned = PIN.test(normalize(e.prompt))
@@ -581,13 +645,16 @@ export const register: Register = (on, options) => {
     await update($, historyAtom, list => [...list, decision].slice(-HISTORY_MAX))
     await update($, signalsAtom, () => [])
 
-    const line = contextLine(decision, {
+    const flags = {
       isFirst: previous === undefined,
       changed:
         previous !== undefined &&
         decision.confidence !== 'low' &&
         (previous.tier !== decision.tier || previous.category !== decision.category),
-    })
+    }
+    const line = contextLine(decision, flags)
+
+    runtime.planTurn = newPlanTurn(flags.isFirst || flags.changed)
 
     await markHealthy($)
 
@@ -619,6 +686,10 @@ export const register: Register = (on, options) => {
     }
 
     const response = yield* next(request)
+
+    if (e.agentId === undefined) {
+      notePlanStep(response.answer, response.toolUses)
+    }
 
     if (response.usage !== null) {
       await recordUsage($, response.usage, e.agentId === undefined).catch((error: unknown) =>
@@ -777,7 +848,31 @@ export const register: Register = (on, options) => {
   on('classic.Stop', async ($, e, next) => {
     const result = await next(e)
 
-    if (runtime.config.verify === 'off' || e.stop_hook_active || result.block !== undefined) {
+    await closePlanTurn($)
+
+    if (e.stop_hook_active || result.block !== undefined) {
+      return result
+    }
+
+    const unkept = unkeptDelegation()
+
+    if (unkept !== null) {
+      runtime.planTurn.isBlocked = true
+      await savePlans($, stats => ({ ...stats, unkept: stats.unkept + 1 }))
+
+      if (!runtime.config.isEnforced) {
+        $.ui.toast('model-router: el Plan de modelos dijo «delego» y el turno cerró sin llamar a Agent')
+
+        return result
+      }
+
+      return {
+        ...result,
+        block: `model-router: tu Plan de modelos dice «${unkept.text}», pero el turno cerró sin llamar a Agent. Delega ahora con Agent${unkept.agent === undefined ? '' : ` (${unkept.agent})`}, o explica en una línea por qué al final no delegaste.`,
+      }
+    }
+
+    if (runtime.config.verify === 'off') {
       return result
     }
 
@@ -940,7 +1035,7 @@ export const register: Register = (on, options) => {
     if (args === '') {
       await $.ui.open({ id: PANE_ID, title: PANE_TITLE })
 
-      return { text: describeDecision(await read($, decisionAtom), session, await read($, healthAtom)) }
+      return { text: describeDecision(await read($, decisionAtom), session, await read($, healthAtom), await read($, plansAtom)) }
     }
 
     const { classification } = await classifyPrompt($, args, 0)
@@ -1025,6 +1120,7 @@ export const register: Register = (on, options) => {
         calibration: await read($, calibrationAtom),
         signals: await read($, signalsAtom),
         health: await read($, healthAtom),
+        plans: await read($, plansAtom),
       },
       e.props.bodyColumns,
     ),

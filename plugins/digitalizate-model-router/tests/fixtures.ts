@@ -1,7 +1,7 @@
 import type { AgentSpawnInput, On, RenderInput, RenderNode, SessionStartInput, TurnStepInput } from 'claude-code'
 import { mock } from 'claude-code/testing'
 
-import type { Calibration, Decision, Ledger, SessionView, SpawnRecord } from '../types'
+import type { Calibration, Decision, Ledger, PlanStats, SessionView, SpawnRecord } from '../types'
 
 export const SESSION: SessionStartInput = { surface: 'terminal', isInteractive: true, cwd: '/work' }
 
@@ -59,6 +59,7 @@ export type Captured = {
   signals?: string[]
   session?: SessionView
   calibration?: Calibration
+  plans?: PlanStats
 }
 
 export type World = {
@@ -73,6 +74,12 @@ export type World = {
   ran: string[]
   spawned: AgentSpawnInput[]
   steps: TurnStepInput[]
+  replies: StepReply[]
+}
+
+export type StepReply = {
+  answer: string
+  toolUses?: { name: string; input: unknown }[]
 }
 
 export type WorldOptions = {
@@ -96,6 +103,7 @@ export function worldOf(on: On, options: WorldOptions = {}): World {
     ran: [],
     spawned: [],
     steps: [],
+    replies: [],
   }
 
   mock.clock(on)
@@ -203,11 +211,13 @@ export function worldOf(on: On, options: WorldOptions = {}): World {
   on('turn.step', async function* ($, e) {
     world.steps.push(e)
 
+    const reply = world.replies.shift()
+
     return {
       turnId: e.turnId,
       index: e.index,
-      answer: '',
-      toolUses: [],
+      answer: reply?.answer ?? '',
+      toolUses: reply?.toolUses ?? [],
       stopReason: 'end_turn' as const,
       usage: {
         model: e.model,

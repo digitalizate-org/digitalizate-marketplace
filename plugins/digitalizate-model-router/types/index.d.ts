@@ -81,6 +81,22 @@ export type Health = {
   active: number
 }
 
+export type PlanDisagreement = {
+  at: number
+  label: string
+  suggested: string
+  declared: string
+}
+
+export type PlanStats = {
+  requested: number
+  declared: number
+  compared: number
+  disagreed: number
+  unkept: number
+  recent: PlanDisagreement[]
+}
+
 export type SessionView = {
   model: string
   modelTier: ModelTier | null
@@ -101,6 +117,7 @@ declare module 'claude-code' {
       dismissed: string
       session: SessionView
       health: Health
+      plans: PlanStats
     }
   }
 }

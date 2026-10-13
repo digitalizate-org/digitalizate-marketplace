@@ -340,6 +340,90 @@ describe('verification gate', () => {
   })
 })
 
+describe('model plan line', () => {
+  const DELEGATED = 'Plan de modelos: delego los tests a sonnet-implementer.'
+
+  test('declaring a delegation without calling Agent cannot close, once only', async ($, on) => {
+    const world = worldOf(on)
+
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: MECHANICAL, prompt_id: 'p1' })
+    world.replies.push({ answer: DELEGATED })
+    await drain($.turn.step({ turnId: 't1', index: 0, model: 'claude-opus-5-5', effort: 'high', messageCount: 3 }))
+
+    const blocked = await $.classic.Stop({ stop_hook_active: false })
+
+    expect(blocked.block).toContain('sin llamar a Agent')
+    expect(blocked.block).toContain('sonnet-implementer')
+    expect((await $.classic.Stop({ stop_hook_active: true })).block).toBeUndefined()
+    expect(world.state.plans).toMatchObject({ requested: 1, declared: 1, compared: 1, disagreed: 0, unkept: 1 })
+  })
+
+  test('a delegation that calls Agent closes and counts as agreement', async ($, on) => {
+    const world = worldOf(on)
+
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: MECHANICAL, prompt_id: 'p1' })
+    world.replies.push({ answer: DELEGATED, toolUses: [{ name: 'Agent', input: { subagent_type: 'sonnet-implementer' } }] })
+    await drain($.turn.step({ turnId: 't1', index: 0, model: 'claude-opus-5-5', effort: 'high', messageCount: 3 }))
+
+    expect((await $.classic.Stop({ stop_hook_active: false })).block).toBeUndefined()
+    expect(world.state.plans).toMatchObject({ requested: 1, declared: 1, disagreed: 0, unkept: 0 })
+  })
+
+  test('staying against the suggestion is recorded, not blocked', async ($, on) => {
+    const world = worldOf(on)
+
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: MECHANICAL, prompt_id: 'p1' })
+    world.replies.push({ answer: 'Plan de modelos: sigo en Opus 5.5; son dos tests.' })
+    await drain($.turn.step({ turnId: 't1', index: 0, model: 'claude-opus-5-5', effort: 'high', messageCount: 3 }))
+
+    expect((await $.classic.Stop({ stop_hook_active: false })).block).toBeUndefined()
+    expect(world.state.plans).toMatchObject({ requested: 1, declared: 1, compared: 1, disagreed: 1 })
+    expect(world.state.plans?.recent[0]?.declared).toBe('sigo en Opus 5.5; son dos tests.')
+  })
+
+  test('a missing line counts against compliance, and only the opening text is read', async ($, on) => {
+    const world = worldOf(on)
+
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: MECHANICAL, prompt_id: 'p1' })
+    world.replies.push({ answer: 'Reviso el parser.' }, { answer: DELEGATED })
+    await drain($.turn.step({ turnId: 't1', index: 0, model: 'claude-opus-5-5', effort: 'high', messageCount: 3 }))
+    await drain($.turn.step({ turnId: 't1', index: 1, model: 'claude-opus-5-5', effort: 'high', messageCount: 5 }))
+
+    expect((await $.classic.Stop({ stop_hook_active: false })).block).toBeUndefined()
+    expect(world.state.plans).toMatchObject({ requested: 1, declared: 0, unkept: 0 })
+  })
+
+  test('in advise mode an unkept delegation only warns', { options: { mode: 'advise' } }, async ($, on) => {
+    const world = worldOf(on)
+
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: MECHANICAL, prompt_id: 'p1' })
+    world.replies.push({ answer: DELEGATED })
+    await drain($.turn.step({ turnId: 't1', index: 0, model: 'claude-opus-5-5', effort: 'high', messageCount: 3 }))
+
+    expect((await $.classic.Stop({ stop_hook_active: false })).block).toBeUndefined()
+    expect(world.toasts.some(toast => toast.includes('sin llamar a Agent'))).toBe(true)
+  })
+
+  test('/route reports the plan line stats', async ($, on) => {
+    const world = worldOf(on)
+
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: MECHANICAL, prompt_id: 'p1' })
+    world.replies.push({ answer: DELEGATED, toolUses: [{ name: 'Agent', input: {} }] })
+    await drain($.turn.step({ turnId: 't1', index: 0, model: 'claude-opus-5-5', effort: 'high', messageCount: 3 }))
+    await $.classic.Stop({ stop_hook_active: false })
+
+    const shown = await $.command.run(command('route'))
+
+    expect(shown.text).toContain('declarado en 1/1 turnos')
+  })
+})
+
 describe('model switch', () => {
   test('switching to Fable with a warm cache and lots of context asks for confirmation with the engine cost', async ($, on) => {
     worldOf(on)

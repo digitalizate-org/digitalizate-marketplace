@@ -38,12 +38,14 @@ prompt del usuario
   │               3 fallos seguidos de tests tras editar → aviso al modelo y a la banda
   ▼
 5. CERRAR ────── Sonnet editó código sin correr tests, build ni el comando cambiado → bloquea una vez
+  │               la línea «Plan de modelos» dijo «delego» y no hubo llamada a Agent → bloquea una vez
   ▼
 6. MEDIR ─────── costo por tarea y por modelo → calibración entre sesiones
+                  línea «Plan de modelos»: cuántas veces aparece cuando se pidió y cuándo contradice la sugerencia
                   /model: cifra del engine (precio, TTL, caché fría o caliente) y confirmación si es caro
 ```
 
-`/route` abre el panel (decisión, matriz, sub-agentes, costo, calibración); `/route <texto>` simula una decisión; `/route matrix` imprime la tabla.
+`/route` abre el panel (decisión, matriz, sub-agentes, costo, calibración, plan de modelos); `/route <texto>` simula una decisión; `/route matrix` imprime la tabla.
 
 ## Configuración (`/config`)
 
@@ -81,5 +83,6 @@ npx --yes tsx scripts/route.ts matrix --md > skills/model-route/references/matri
 
 - La matriz es heurística. Una tarea ambigua queda en confianza baja y el mod no recomienda nada: decide el modelo principal.
 - El gate de verificación reconoce los comandos habituales de test, build, lint y typecheck, y correr el archivo editado. Un comando exótico no cuenta; el modelo puede decir que no pudo verificar y el gate lo deja cerrar.
+- La línea «Plan de modelos» se lee del primer texto del turno con patrones simples (`sigo`, `delego … a <agente>`, `recomiendo /model <alias>`, y su negación con «no»). Una redacción distinta cuenta como declarada pero no se compara con la sugerencia.
 - El libro de costo es una estimación con precios de lista; `/cost` es la cifra oficial.
 - El mod nunca cambia el modelo de la sesión por su cuenta: reescribiría la caché y descartaría el razonamiento sin que lo veas. Recomienda y deja el botón.
