@@ -1,6 +1,6 @@
 import type { Elements, RenderChildren } from 'claude-code'
 
-import type { ActionKind, Calibration, Decision, Ledger, ModelTier, RouteAction, SessionView, SpawnRecord } from '../types'
+import type { ActionKind, Calibration, Decision, Health, Ledger, ModelTier, RouteAction, SessionView, SpawnRecord } from '../types'
 import type { TaskClassification } from './classify'
 import { describeTask } from './classify'
 import { CATEGORIES, MODELS } from './matrix'
@@ -78,9 +78,9 @@ export function describeAction(action: RouteAction): string {
   return `${MARK[action.kind]} ${action.text}`
 }
 
-export function describeDecision(decision: Decision | null, session: SessionView): string {
+export function describeDecision(decision: Decision | null, session: SessionView, health: Health): string {
   if (decision === null) {
-    return `model-router: sin decisión todavía. Sesión en ${modelName(session.model)}. /route <texto> clasifica una tarea; /route matrix muestra la matriz.`
+    return `model-router: sin decisión todavía. Sesión en ${modelName(session.model)}. /route <texto> clasifica una tarea; /route matrix muestra la matriz.\n${healthLine(health)}`
   }
 
   const category = CATEGORIES.find(candidate => candidate.id === decision.category)
@@ -92,6 +92,7 @@ export function describeDecision(decision: Decision | null, session: SessionView
     `Sesión: ${modelName(decision.model)}${decision.planMode ? ' en plan mode' : ''} · contexto ${kTokens(session.contextTokens)}`,
     `Acción: ${describeAction(decision.action)}`,
     `Costo de esta tarea hasta ahora: ≈${usd(decision.usd)}`,
+    healthLine(health),
   ].join('\n')
 }
 
@@ -181,10 +182,28 @@ function indicatorAction(band: BandModel | null, decision: Decision | null): str
   return action?.kind === 'plan' ? `${MARK.plan} plan mode` : null
 }
 
-export function indicatorText(band: BandModel | null, decision: Decision | null): string {
-  const action = indicatorAction(band, decision)
+export function isFailing(health: Health): boolean {
+  return health.active > 0
+}
 
-  return action === null ? INDICATOR_TAG : `${INDICATOR_TAG} ${action}`
+export function indicatorText(band: BandModel | null, decision: Decision | null, health: Health): string {
+  if (isFailing(health)) {
+    return `${INDICATOR_TAG} ✗`
+  }
+
+  return `${INDICATOR_TAG} ${indicatorAction(band, decision) ?? '✓'}`
+}
+
+function healthLine(health: Health): string {
+  const last = health.issues.at(-1)
+
+  if (!isFailing(health) || last === undefined) {
+    return 'Salud: ✓ sin fallos'
+  }
+
+  const count = health.active === 1 ? 'falló' : `${health.active} fallos, el último en`
+
+  return `Salud: ✗ ${count} ${last.where}: ${last.reason}`
 }
 
 export type BandHandlers = {
@@ -232,6 +251,7 @@ export type PaneData = {
   ledger: Ledger
   calibration: Calibration
   signals: readonly string[]
+  health: Health
 }
 
 function pad(text: string, width: number): string {
@@ -355,6 +375,20 @@ export function renderPane(kit: Kit, data: PaneData, columns: number) {
           </Text>
         ))
 
+  const firstActive = data.health.issues.length - data.health.active
+  const healthRows =
+    data.health.issues.length === 0
+      ? [
+          <Text key="none" dimColor>
+            ✓ sin fallos
+          </Text>,
+        ]
+      : data.health.issues.map((issue, index) => (
+          <Text key={`health-${index}`} color={index >= firstActive ? 'error' : undefined} dimColor={index < firstActive} wrap="wrap">
+            {index >= firstActive ? '✗' : '·'} {issue.where}: {issue.reason}
+          </Text>
+        ))
+
   return (
     <Box flexDirection="column" gap={1}>
       {Section(kit, 'Sesión', sessionRows)}
@@ -363,6 +397,7 @@ export function renderPane(kit: Kit, data: PaneData, columns: number) {
       {Section(kit, 'Sub-agentes', spawnRows)}
       {Section(kit, 'Costo por modelo (estimado)', ledgerRows)}
       {Section(kit, 'Calibración', calibrationRows)}
+      {Section(kit, 'Salud', healthRows)}
     </Box>
   )
 }

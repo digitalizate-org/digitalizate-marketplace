@@ -1,5 +1,5 @@
 import { atom, read, update } from 'claude-code'
-import type { EngineInterface, PluginOptions, Register, ToolCallResult, TurnUsage } from 'claude-code'
+import type { EngineInterface, HookFailure, PluginOptions, Register, ToolCallResult, TurnUsage } from 'claude-code'
 
 import type { Calibration, CalibrationRow, Decision, Ledger, ModelTier, SpawnRecord } from '../types'
 import {
@@ -52,6 +52,7 @@ import {
   rubricFor,
   simulationText,
   indicatorText,
+  isFailing,
   taskLabel,
 } from './views'
 
@@ -60,6 +61,7 @@ const PANE_TITLE = 'Ruta de modelos'
 const HISTORY_MAX = 40
 const SPAWNS_MAX = 30
 const SIGNALS_MAX = 5
+const HEALTH_MAX = 5
 const CLASSIFIER_TIMEOUT_MS = 1500
 const PIN = /\b(sonnet|opus|fable|haiku|opusplan|sonnet-implementer|opus-reviewer|opus-debugger|fable-researcher)\b/
 const USER_ORIGINS: ReadonlySet<string> = new Set(['composer', 'bridge', 'sdk'])
@@ -71,6 +73,7 @@ const ledgerAtom = atom({ plugin: 'digitalizate-model-router', key: 'ledger' } a
 const calibrationAtom = atom({ plugin: 'digitalizate-model-router', key: 'calibration' } as const, {})
 const signalsAtom = atom({ plugin: 'digitalizate-model-router', key: 'signals' } as const, [])
 const dismissedAtom = atom({ plugin: 'digitalizate-model-router', key: 'dismissed' } as const, '')
+const healthAtom = atom({ plugin: 'digitalizate-model-router', key: 'health' } as const, { issues: [], active: 0 })
 const sessionAtom = atom(
   { plugin: 'digitalizate-model-router', key: 'session' } as const,
   { model: '', modelTier: null, planMode: false, contextTokens: 0, legacyHook: false },
@@ -243,6 +246,25 @@ async function hasLegacyHook($: EngineInterface): Promise<boolean> {
   const settings = await $.settings.read({ source: 'user' }).catch(() => undefined)
 
   return JSON.stringify(settings ?? {}).includes('hooks/model-router.sh')
+}
+
+async function noteIssue($: EngineInterface, where: string, reason: string): Promise<void> {
+  await update($, healthAtom, health => ({
+    issues: [...health.issues, { where, reason: reason.slice(0, 160) }].slice(-HEALTH_MAX),
+    active: health.active + 1,
+  })).catch(() => undefined)
+}
+
+async function failOpen($: EngineInterface, where: string, error: HookFailure): Promise<void> {
+  if (error.kind !== 're-entry') {
+    await noteIssue($, where, error.kind === 'timeout' ? 'se pasó de su presupuesto de tiempo' : (error.message ?? 'falló sin mensaje'))
+  }
+}
+
+async function markHealthy($: EngineInterface): Promise<void> {
+  if (isFailing(await read($, healthAtom))) {
+    await update($, healthAtom, health => ({ ...health, active: 0 }))
+  }
 }
 
 async function sessionModel($: EngineInterface, planMode: boolean): Promise<string> {
@@ -458,7 +480,7 @@ export const register: Register = (on, options) => {
     }
 
     return next(e)
-  })
+  }).catch(($, e, next) => failOpen($, 'session.start', next.error).then(() => next(e)))
 
   on('session.end', async ($, e, next) => {
     await finalizeDecision($)
@@ -468,7 +490,7 @@ export const register: Register = (on, options) => {
     }
 
     return next(e)
-  })
+  }).catch(($, e, next) => failOpen($, 'session.end', next.error).then(() => next(e)))
 
   on('prompt.compose', async ($, e, next) => {
     const composed = await next(e)
@@ -486,14 +508,14 @@ export const register: Register = (on, options) => {
     return {
       sections: [...composed.sections.filter(section => section.id !== RUBRIC_ID), { id: RUBRIC_ID, text, scope: 'session' }],
     }
-  })
+  }).catch(($, e, next) => failOpen($, 'prompt.compose', next.error).then(() => next(e)))
 
   on('prompt.submit', ($, e, next) => {
     runtime.pendingImages = (e.attachments ?? []).filter(attachment => attachment.type === 'image').length
     runtime.pendingOrigin = e.origin.kind
 
     return next(e)
-  })
+  }).catch(($, e, next) => failOpen($, 'prompt.submit', next.error).then(() => next(e)))
 
   on('classic.UserPromptSubmit', async ($, e, next) => {
     const result = await next(e)
@@ -518,6 +540,8 @@ export const register: Register = (on, options) => {
     const session = await update($, sessionAtom, view => ({ ...view, model, modelTier: current.tier, planMode }))
 
     if (classification.kind !== 'task') {
+      await markHealthy($)
+
       return result
     }
 
@@ -565,15 +589,17 @@ export const register: Register = (on, options) => {
         (previous.tier !== decision.tier || previous.category !== decision.category),
     })
 
+    await markHealthy($)
+
     return line === null ? result : { ...result, additionalContext: [...(result.additionalContext ?? []), line] }
-  })
+  }).catch(($, e, next) => failOpen($, 'UserPromptSubmit', next.error).then(() => next(e)))
 
   on('turn.start', async ($, e, next) => {
     runtime.mainTrack = newTrack()
     runtime.rejectedThisTurn.clear()
 
     return next(e)
-  })
+  }).catch(($, e, next) => failOpen($, 'turn.start', next.error).then(() => next(e)))
 
   on('turn.step', async function* ($, e, next) {
     let request = e
@@ -595,7 +621,9 @@ export const register: Register = (on, options) => {
     const response = yield* next(request)
 
     if (response.usage !== null) {
-      await recordUsage($, response.usage, e.agentId === undefined)
+      await recordUsage($, response.usage, e.agentId === undefined).catch((error: unknown) =>
+        noteIssue($, 'turn.step', error instanceof Error ? error.message : String(error)),
+      )
     }
 
     return response
@@ -669,7 +697,7 @@ export const register: Register = (on, options) => {
     }
 
     return started
-  })
+  }).catch(($, e, next) => failOpen($, 'agent.spawn', next.error).then(() => next(e)))
 
   on('tool.call', { tool: 'Agent' }, async ($, e, next) => {
     const ran = await next(e)
@@ -687,21 +715,21 @@ export const register: Register = (on, options) => {
         ? `model-router: ${record.agent} corrió en ${modelName(record.to)} en vez de ${modelName(record.from)}. ${record.reason}.`
         : `model-router: aviso sobre ${record.agent}: ${record.reason}.`,
     )
-  })
+  }).catch(($, e, next) => failOpen($, 'tool.call Agent', next.error).then(() => next(e)))
 
   on('tool.call', { tool: 'Edit' }, async ($, e, next) =>
     onEdit($, e.agentId, e.file_path, { before: e.old_string, after: e.new_string }, await next(e)),
-  )
+  ).catch(($, e, next) => failOpen($, 'tool.call Edit', next.error).then(() => next(e)))
 
   on('tool.call', { tool: 'Write' }, async ($, e, next) => {
     const ran = await next(e)
 
     return onEdit($, e.agentId, e.file_path, writeChange(trackFor(e.agentId), e.file_path, e.content), ran)
-  })
+  }).catch(($, e, next) => failOpen($, 'tool.call Write', next.error).then(() => next(e)))
 
   on('tool.call', { tool: 'NotebookEdit' }, async ($, e, next) =>
     onEdit($, e.agentId, e.notebook_path, { before: '', after: e.new_source }, await next(e)),
-  )
+  ).catch(($, e, next) => failOpen($, 'tool.call NotebookEdit', next.error).then(() => next(e)))
 
   on('tool.call', { tool: 'Bash' }, async ($, e, next) => {
     const ran = await next(e)
@@ -713,7 +741,7 @@ export const register: Register = (on, options) => {
     const signal = noteCommand(trackFor(e.agentId), e.command, commandFailed(ran.isError, ran.text))
 
     return signal === undefined ? ran : escalate($, e.agentId, ran, signal)
-  })
+  }).catch(($, e, next) => failOpen($, 'tool.call Bash', next.error).then(() => next(e)))
 
   on('tool.call', { tool: 'EnterPlanMode' }, async ($, e, next) => {
     const ran = await next(e)
@@ -723,7 +751,7 @@ export const register: Register = (on, options) => {
     }
 
     return ran
-  })
+  }).catch(($, e, next) => failOpen($, 'tool.call EnterPlanMode', next.error).then(() => next(e)))
 
   on('tool.call', { tool: 'ExitPlanMode' }, async ($, e, next) => {
     const ran = await next(e)
@@ -744,7 +772,7 @@ export const register: Register = (on, options) => {
       ran,
       'model-router: el plan quedó aprobado en Fable 5.1. No implementes en Fable: delega la implementación a sonnet-implementer o pide al usuario /model opusplan antes de seguir (Fable cuesta 2.5x Opus y rinde menos en código).',
     )
-  })
+  }).catch(($, e, next) => failOpen($, 'tool.call ExitPlanMode', next.error).then(() => next(e)))
 
   on('classic.Stop', async ($, e, next) => {
     const result = await next(e)
@@ -779,7 +807,7 @@ export const register: Register = (on, options) => {
       ...result,
       block: `model-router: editaste ${pending.length} archivo(s) de código (${files}) y no corriste tests, build ni el comando cambiado después del último cambio. Corre la verificación real y reporta su resultado; si no hay forma de verificar, dilo explícitamente.`,
     }
-  })
+  }).catch(($, e, next) => failOpen($, 'Stop', next.error).then(() => next(e)))
 
   on('classic.SubagentStop', async ($, e, next) => {
     const result = await next(e)
@@ -813,7 +841,7 @@ export const register: Register = (on, options) => {
       ...result,
       block: `model-router: editaste ${pending.length} archivo(s) de código (${files}) sin correr tests, build ni el comando cambiado. Verifica y reporta el resultado real; si no hay forma de verificar, dilo explícitamente.`,
     }
-  })
+  }).catch(($, e, next) => failOpen($, 'SubagentStop', next.error).then(() => next(e)))
 
   on('classic.PreModelSwitch', async ($, e, next) => {
     const result = await next(e)
@@ -855,7 +883,7 @@ export const register: Register = (on, options) => {
     }
 
     return { ...result, permissionDecision: 'ask', permissionDecisionReason: text }
-  })
+  }).catch(($, e, next) => failOpen($, 'PreModelSwitch', next.error).then(() => next(e)))
 
   on('classic.PostModelSwitch', async ($, e, next) => {
     const result = await next(e)
@@ -898,7 +926,7 @@ export const register: Register = (on, options) => {
     await update($, decisionAtom, () => refreshed)
 
     return result
-  })
+  }).catch(($, e, next) => failOpen($, 'PostModelSwitch', next.error).then(() => next(e)))
 
   on('command.run', { command: 'route' }, async ($, e) => {
     const args = e.args.trim()
@@ -912,7 +940,7 @@ export const register: Register = (on, options) => {
     if (args === '') {
       await $.ui.open({ id: PANE_ID, title: PANE_TITLE })
 
-      return { text: describeDecision(await read($, decisionAtom), session) }
+      return { text: describeDecision(await read($, decisionAtom), session, await read($, healthAtom)) }
     }
 
     const { classification } = await classifyPrompt($, args, 0)
@@ -933,7 +961,9 @@ export const register: Register = (on, options) => {
     })
 
     return { text: simulationText(args, classification, action, model) }
-  })
+  }).catch(($, e, next) =>
+    failOpen($, 'command route', next.error).then(() => ({ text: `[ROUTER] ✗ /route falló: ${next.error.message ?? next.error.kind}` })),
+  )
 
   on('ui.render', { component: 'AbovePrompt' }, async ($, e, next) => {
     if (e.props.hasSurvey) {
@@ -978,8 +1008,10 @@ export const register: Register = (on, options) => {
     const signals = await read($, signalsAtom)
     const dismissed = await read($, dismissedAtom)
     const session = await read($, sessionAtom)
+    const health = await read($, healthAtom)
     const band = bandModel(decision, signals, dismissed, currentOf(session.model, session.planMode, runtime.mainStepModel).tier)
-    return next({ ...e, props: { ...e.props, modes: [...e.props.modes, indicatorText(band, decision)] } })
+
+    return next({ ...e, props: { ...e.props, modes: [...e.props.modes, indicatorText(band, decision, health)] } })
   })
 
   on('ui.render', { component: 'Pane', requestId: PANE_ID }, async ($, e) =>
@@ -992,6 +1024,7 @@ export const register: Register = (on, options) => {
         ledger: await read($, ledgerAtom),
         calibration: await read($, calibrationAtom),
         signals: await read($, signalsAtom),
+        health: await read($, healthAtom),
       },
       e.props.bodyColumns,
     ),

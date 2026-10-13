@@ -80,6 +80,7 @@ export type WorldOptions = {
   classified?: string
   settings?: unknown
   store?: Readonly<Record<string, unknown>>
+  failStore?: boolean
 }
 
 export function worldOf(on: On, options: WorldOptions = {}): World {
@@ -98,7 +99,12 @@ export function worldOf(on: On, options: WorldOptions = {}): World {
   }
 
   mock.clock(on)
-  mock.store(on, options.store ?? {})
+  if (options.failStore === true) {
+    on('store.get', () => ({ value: undefined }))
+    on('store.set', () => ({ deny: 'disco lleno' }))
+  } else {
+    mock.store(on, options.store ?? {})
+  }
 
   on('state.set', ($, e, next) => {
     if (e.plugin === 'digitalizate-model-router') {

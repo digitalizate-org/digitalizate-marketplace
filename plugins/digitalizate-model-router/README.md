@@ -29,7 +29,7 @@ prompt del usuario
   │               con confianza baja no recomienda nada; cambiar exige evidencia fuerte
   ▼
 3. INFORMAR ──── contexto al modelo + rúbrica por modelo en el system prompt
-  │               + [ROUTER] en el pie del prompt, con la acción al lado y la banda con botón /model cuando hay algo que hacer
+  │               + [ROUTER] en el pie del prompt: ✓ todo en orden, una acción (⇢ ↻ ◇ ↑) cuando hay algo que hacer, ✗ si un hook del router falló (/route dice cuál); la banda con botón /model aparece cuando hay un cambio recomendado
   ▼
 4. EJECUTAR
   ├─ Agent ───── juicio del brief: rechaza el agente equivocado nombrando el correcto,

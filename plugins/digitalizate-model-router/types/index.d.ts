@@ -71,6 +71,16 @@ export type CalibrationRow = {
 
 export type Calibration = Record<string, CalibrationRow>
 
+export type HealthIssue = {
+  where: string
+  reason: string
+}
+
+export type Health = {
+  issues: HealthIssue[]
+  active: number
+}
+
 export type SessionView = {
   model: string
   modelTier: ModelTier | null
@@ -90,6 +100,7 @@ declare module 'claude-code' {
       signals: string[]
       dismissed: string
       session: SessionView
+      health: Health
     }
   }
 }
