@@ -962,7 +962,7 @@ export const register: Register = (on, options) => {
 
     return { text: simulationText(args, classification, action, model) }
   }).catch(($, e, next) =>
-    failOpen($, 'command route', next.error).then(() => ({ text: `[ROUTER] ✗ /route falló: ${next.error.message ?? next.error.kind}` })),
+    failOpen($, 'command route', next.error).then(() => ({ text: `[MODEL ROUTER] ✗ /route falló: ${next.error.message ?? next.error.kind}` })),
   )
 
   on('ui.render', { component: 'AbovePrompt' }, async ($, e, next) => {

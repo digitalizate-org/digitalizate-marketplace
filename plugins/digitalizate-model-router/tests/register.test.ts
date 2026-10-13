@@ -32,7 +32,7 @@ describe('startup', () => {
 
     expect(world.commands).toEqual(['route'])
     expect(world.statuses.at(-1)).toBeUndefined()
-    expect(textOf(await $.ui.render(MODE))).toBe('[ROUTER] ✓')
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] ✓')
   })
 
   test('detects the legacy bash hook', async ($, on) => {
@@ -61,7 +61,7 @@ describe('decision per prompt', () => {
     expect(line).toContain('Plan de modelos')
     expect(world.state.decision?.tier).toBe('sonnet')
     expect(world.state.decision?.action.kind).toBe('delegate')
-    expect(textOf(await $.ui.render(MODE))).toBe('[ROUTER] ⇢ sonnet-implementer')
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] ⇢ sonnet-implementer')
   })
 
   test('a trivial message adds no context and does not change the decision', async ($, on) => {
@@ -617,7 +617,7 @@ describe('footer indicator', () => {
     await $.session.start(SESSION)
     await $.classic.UserPromptSubmit({ prompt: DESIGN, prompt_id: 'p1' })
 
-    expect(textOf(await $.ui.render(MODE))).toBe('[ROUTER] ✓')
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] ✓')
   })
 
   test('a recommended switch shows the command, without a warning sign', async ($, on) => {
@@ -625,7 +625,7 @@ describe('footer indicator', () => {
     await $.session.start(SESSION)
     await $.classic.UserPromptSubmit({ prompt: ARCHITECTURE, prompt_id: 'p1' })
 
-    expect(textOf(await $.ui.render(MODE))).toBe('[ROUTER] ↻ /model opus')
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] ↻ /model opus')
   })
 
   test('hiding the band leaves only the tag', async ($, on) => {
@@ -635,7 +635,7 @@ describe('footer indicator', () => {
     await $.ui.render(BAND)
     await $.ui.press({ plugin: 'digitalizate-model-router', key: 'dismiss' })
 
-    expect(textOf(await $.ui.render(MODE))).toBe('[ROUTER] ✓')
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] ✓')
   })
 
   test('an escalation signal shows up and keeps the other modes', async ($, on) => {
@@ -649,7 +649,7 @@ describe('footer indicator', () => {
     await $.tool.call({ tool: 'Bash', command: 'npm test' })
     await $.tool.call({ tool: 'Bash', command: 'npm test' })
 
-    expect(textOf(await $.ui.render({ ...MODE, props: { modes: ['focus'] } }))).toBe('focus & [ROUTER] ↑ escalar')
+    expect(textOf(await $.ui.render({ ...MODE, props: { modes: ['focus'] } }))).toBe('focus & [MODEL ROUTER] ↑ escalar')
   })
 })
 
@@ -660,7 +660,7 @@ describe('router health', () => {
     await $.classic.UserPromptSubmit({ prompt: MECHANICAL, prompt_id: 'p1' })
     await $.classic.UserPromptSubmit({ prompt: DESIGN, prompt_id: 'p2' })
 
-    expect(textOf(await $.ui.render(MODE))).toBe('[ROUTER] ✗')
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] ✗')
 
     const text = (await $.command.run(command('route'))).text
     expect(text).toContain('Salud: ✗')

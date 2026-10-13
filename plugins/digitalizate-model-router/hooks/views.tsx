@@ -158,7 +158,7 @@ export function bandModel(decision: Decision | null, signals: readonly string[],
   }
 }
 
-const INDICATOR_TAG = '[ROUTER]'
+const INDICATOR_TAG = '[MODEL ROUTER]'
 
 function indicatorAction(band: BandModel | null, decision: Decision | null): string | null {
   if (band === null) {
