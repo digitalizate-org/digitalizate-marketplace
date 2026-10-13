@@ -188,12 +188,30 @@ export function isFailing(health: Health): boolean {
   return health.active > 0
 }
 
-export function indicatorText(band: BandModel | null, decision: Decision | null, health: Health): string {
-  if (isFailing(health)) {
-    return `${INDICATOR_TAG} ✗`
+export type Live = {
+  tier: ModelTier | null
+  effort: string
+}
+
+function liveLabel(live: Live): string | null {
+  if (live.tier === null) {
+    return null
   }
 
-  return `${INDICATOR_TAG} ${indicatorAction(band, decision) ?? '✓'}`
+  const name = MODELS[live.tier].name
+
+  return live.effort === '' ? name : `${name} · ${live.effort}`
+}
+
+export function indicatorText(band: BandModel | null, decision: Decision | null, health: Health, live: Live): string {
+  const label = liveLabel(live)
+  const head = label === null ? INDICATOR_TAG : `${INDICATOR_TAG} ${label}`
+
+  if (isFailing(health)) {
+    return `${head} ✗`
+  }
+
+  return `${head} ${indicatorAction(band, decision) ?? '✓'}`
 }
 
 function healthLine(health: Health): string {

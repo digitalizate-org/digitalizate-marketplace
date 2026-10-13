@@ -78,7 +78,7 @@ const healthAtom = atom({ plugin: 'digitalizate-model-router', key: 'health' } a
 const plansAtom = atom({ plugin: 'digitalizate-model-router', key: 'plans' } as const, EMPTY_PLAN_STATS)
 const sessionAtom = atom(
   { plugin: 'digitalizate-model-router', key: 'session' } as const,
-  { model: '', modelTier: null, planMode: false, contextTokens: 0, legacyHook: false },
+  { model: '', modelTier: null, stepModel: '', effort: '', planMode: false, contextTokens: 0, legacyHook: false },
 )
 
 type Config = {
@@ -333,6 +333,15 @@ async function classifyPrompt(
   return label === undefined
     ? { classification: base, source: 'heuristic' }
     : { classification: withSecondOpinion(base, label), source: 'classifier' }
+}
+
+async function showLive($: EngineInterface, stepModel: string, effort: string | number | undefined): Promise<void> {
+  const shown = effort === undefined ? '' : String(effort)
+  const session = await read($, sessionAtom)
+
+  if (session.stepModel !== stepModel || session.effort !== shown) {
+    await update($, sessionAtom, view => ({ ...view, stepModel, effort: shown }))
+  }
 }
 
 async function loopTier($: EngineInterface, agentId: string | undefined): Promise<ModelTier | null> {
@@ -685,6 +694,10 @@ export const register: Register = (on, options) => {
       runtime.loopModels.set(e.agentId, e.model)
     }
 
+    if (e.agentId === undefined) {
+      await showLive($, request.model, request.effort)
+    }
+
     const response = yield* next(request)
 
     if (e.agentId === undefined) {
@@ -992,6 +1005,8 @@ export const register: Register = (on, options) => {
       ...view,
       model,
       modelTier: currentOf(model, view.planMode).tier,
+      stepModel: '',
+      effort: '',
       contextTokens: e.context_tokens,
     }))
     const decision = await read($, decisionAtom)
@@ -1105,8 +1120,9 @@ export const register: Register = (on, options) => {
     const session = await read($, sessionAtom)
     const health = await read($, healthAtom)
     const band = bandModel(decision, signals, dismissed, currentOf(session.model, session.planMode, runtime.mainStepModel).tier)
+    const live = { tier: tierOfModel(session.stepModel) ?? currentOf(session.model, session.planMode).tier, effort: session.effort }
 
-    return next({ ...e, props: { ...e.props, modes: [...e.props.modes, indicatorText(band, decision, health)] } })
+    return next({ ...e, props: { ...e.props, modes: [...e.props.modes, indicatorText(band, decision, health, live)] } })
   })
 
   on('ui.render', { component: 'Pane', requestId: PANE_ID }, async ($, e) =>

@@ -100,6 +100,8 @@ export type PlanStats = {
 export type SessionView = {
   model: string
   modelTier: ModelTier | null
+  stepModel: string
+  effort: string
   planMode: boolean
   contextTokens: number
   legacyHook: boolean
