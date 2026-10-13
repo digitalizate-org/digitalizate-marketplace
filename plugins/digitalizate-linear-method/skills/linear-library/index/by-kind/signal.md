@@ -1,0 +1,43 @@
+# signal
+
+39 entries.
+
+- LM-100 · Cycle completion below 60% over the last three cycles · ★★★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-101 · More than a quarter of cycle issues roll over · ★★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-102 · An issue has waited in triage for more than three days · ★★★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-103 · An active project has no lead · ★★★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-104 · An active project is older than six weeks and has no milestones · ★★★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-105 · The backlog holds more than four cycles of work · ★★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-106 · A recent cycle completed no bug or quality work · ★★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-107 · More than 20% of active issues are Urgent · ★★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-108 · An active project belongs to no initiative · ★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-109 · No GitHub or GitLab integration is connected · ★★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-110 · Cycles are disabled on a team that plans work · ★★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-111 · Open issues use the user-story template · ★★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-112 · More teams exist than distinct cadences · ★★★★ · signal · linear-internal · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-113 · An issue delegated to an agent has no human assignee · ★★★★★ · signal · linear-internal · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-114 · An active project has no update in the last 7 days · ★★★★★ · signal · linear-internal · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-115 · An active project has no target date · ★★★★ · signal · official-docs · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-116 · An active project has no spec content · ★★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-117 · A project has sat above 85% progress for more than a cycle · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-118 · Backlog issues untouched for six months · ★★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-119 · An active initiative has no owner · ★★★★★ · signal · official-docs · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-120 · More than four initiatives are active · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-121 · Started issues are not auto-added to the active cycle · ★★★ · signal · official-docs · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-122 · More than three upcoming cycles are created · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-123 · Auto-close of inactive backlog issues is off · ★★★ · signal · official-docs · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-124 · Open issues have titles longer than 80 characters · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-125 · Issues in Todo or In Progress have no assignee · ★★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-126 · Issues have been in progress for more than 14 days · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-127 · One person created most of the active issues · ★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-128 · Labels encode workflow status · ★★★★★ · signal · evidence · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-129 · Labels encode priority · ★★★★ · signal · evidence · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-130 · The team has states beyond the defaults plus In Review and Won't Fix · ★★★ · signal · official-docs · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-131 · No Bug/Feature/Improvement/Chore labels exist · ★★★ · signal · evidence · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-132 · An active initiative has no update in 30 days · ★★★ · signal · official-docs · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-133 · An active project has more than three members · ★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-134 · Triage is enabled but nobody is responsible · ★★★★ · signal · linear-internal · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-135 · Estimates are enabled · ★★★ · signal · official-docs · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-136 · Triage is disabled · ★★★★ · signal · official-docs · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-137 · Issues in the active cycle belong to no project · ★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
+- LM-138 · Every one of the last three cycles completed above 98% · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts · references/signals.md
