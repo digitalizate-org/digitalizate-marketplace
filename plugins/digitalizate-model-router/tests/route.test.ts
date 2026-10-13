@@ -13,6 +13,7 @@ import {
   type SpawnPolicy,
   tierOfModel,
 } from '../hooks/route'
+import { rubricFor } from '../hooks/views'
 
 function task(text: string): TaskClassification {
   const result = classify(text)
@@ -373,5 +374,21 @@ describe('intent to edit code', () => {
     expect(implementIntent('Crea un roadmap de 3 meses')).toBe(false)
     expect(implementIntent('Investiga cómo funciona el cache y propón un plan')).toBe(false)
     expect(implementIntent('Fix verification review\nRevisa los cambios. No edites archivos.')).toBe(false)
+  })
+})
+
+describe('rubricFor', () => {
+  test('backs the model plan line with delegation, switch and alias rules', () => {
+    const rubric = rubricFor('opus', true) ?? ''
+
+    expect(rubric).toContain('Plan de modelos')
+    expect(rubric).toContain('llama a Agent en ese mismo turno')
+    expect(rubric).toContain('sin esperar el cambio')
+    expect(rubric).toContain('Alias de /model: sonnet, opus, fable, opusplan')
+  })
+
+  test('without the Agent tool only Sonnet gets the verification rule', () => {
+    expect(rubricFor('opus', false)).toBeNull()
+    expect(rubricFor('sonnet', false)).toContain('Verificación')
   })
 })
