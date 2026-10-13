@@ -23,7 +23,14 @@ Plugin de Claude Code (y de claude.ai con el conector de Linear) para trabajar e
 
 ## Instalación
 
-Desde el marketplace de Digitalízate, o en local durante el desarrollo:
+Desde el marketplace de Digitalízate. Los repos son privados: hace falta una credencial git con lectura (`gh auth login` y `gh auth setup-git`).
+
+```
+/plugin marketplace add digitalizate-org/digitalizate-marketplace
+/plugin install digitalizate-linear-method@digitalizate
+```
+
+En local durante el desarrollo:
 
 ```bash
 claude --plugin-dir /ruta/a/digitalizate-linear-method
