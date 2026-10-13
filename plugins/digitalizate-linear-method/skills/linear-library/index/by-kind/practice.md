@@ -1,0 +1,61 @@
+# practice
+
+57 entries.
+
+- LM-010 · Set strategic initiatives that articulate the vision · ★★★★★ · practice · official-method · use: starting a workspace, a quarter, or a planning cycle; whenever projects exist with no stated purpose above them · references/direction.md
+- LM-011 · Keep the plan slightly out of reach and reserve space for unplanned work · ★★★★ · practice · official-method · use: filling a quarter or a cycle, or deciding how much capacity to commit to planned projects · references/direction.md
+- LM-012 · Set useful goals, not goal machinery · ★★★★ · practice · official-method · use: defining what an initiative or a quarter should achieve, especially without data · references/direction.md
+- LM-013 · Prioritize enablers and blockers · ★★★★ · practice · official-method · use: ranking candidate projects or triaging a request · references/direction.md
+- LM-014 · Prioritize what moves the needle this week or month · ★★★★ · practice · official-method · use: planning a cycle or deciding between two projects of similar value · references/direction.md
+- LM-015 · Plan continuously from candidate projects · ★★★★ · practice · linear-internal · use: a quarter or cycle starts with an empty page, or requests accumulate with no path into the plan · references/direction.md
+- LM-016 · One roadmap for the product · ★★★★ · practice · linear-internal · use: several teams or product areas keep separate plans, or leadership cannot see the whole product in one place · references/direction.md
+- LM-017 · Review initiatives and target dates on a cadence · ★★★ · practice · official-docs · use: setting up planning rituals for a team with more than one initiative · references/direction.md
+- LM-020 · Scope projects to one to three weeks with one to three people · ★★★★★ · practice · official-method · use: creating a project, reviewing an active one, or splitting a large piece of work · references/projects.md
+- LM-021 · Break large work into stages and milestones that ship · ★★★★ · practice · official-method · use: a project cannot fit in three weeks, or a date exists that the team must hit · references/projects.md
+- LM-022 · Every project has exactly one lead · ★★★★★ · practice · official-method · use: creating a project, auditing active projects, or when a project stalls with no one answering for it · references/projects.md
+- LM-023 · The lead writes a short spec with the why, the what and the how · ★★★★★ · practice · official-method · use: starting any project, and before writing its issues · references/projects.md
+- LM-024 · Give every project a target date and use it to guard scope · ★★★★ · practice · official-docs · use: creating or reviewing a project · references/projects.md
+- LM-025 · The lead writes a weekly project update with health · ★★★★★ · practice · linear-internal · use: any project is in a started status; setting up rituals; replacing status meetings · references/projects.md
+- LM-028 · Project teams are cross-functional and dissolve on completion · ★★★★ · practice · linear-internal · use: staffing a project or deciding how many projects run in parallel · references/projects.md
+- LM-029 · Close projects at done and move the leftovers · ★★★ · practice · interpretation · use: a project sits at 85-95% progress for more than a cycle · references/projects.md
+- LM-030 · Work in n-week cycles, two weeks by default · ★★★★★ · practice · official-method · use: enabling cycles for a team, or choosing their length · references/cycles.md
+- LM-032 · Don't overload cycles · ★★★★★ · practice · official-method · use: planning a cycle, or when completion stays low cycle after cycle · references/cycles.md
+- LM-033 · Unfinished work rolls over automatically; repeated rollover is a signal · ★★★★ · practice · official-docs · use: closing a cycle, or when the same issues appear in three consecutive cycles · references/cycles.md
+- LM-034 · Auto-add started and completed issues to the active cycle · ★★★★ · practice · official-docs · use: configuring a team's cycles, or when work is done outside the cycle and completion numbers look wrong · references/cycles.md
+- LM-035 · Cooldown is optional; use it for debt, tooling and planning · ★★★ · practice · official-docs · use: the team accumulates debt or exhaustion across cycles, or runs an open-source project with external PRs to review · references/cycles.md
+- LM-036 · Keep two or three upcoming cycles visible, not more · ★★★ · practice · interpretation · use: configuring upcoming cycle count, or when people plan issues months ahead · references/cycles.md
+- LM-037 · Use one-week cycles when the team is tiny or the product is early · ★★★ · practice · linear-internal · use: two to five people, pre-launch or just launched, many small changes, heavy use of agents · references/cycles.md
+- LM-040 · Write issues, not user stories · ★★★★★ · practice · official-method · use: creating any issue, reviewing a team's issue style, or migrating from Scrum · references/issues.md
+- LM-041 · Issue titles are short and say what to do · ★★★★ · practice · official-method · use: creating or reviewing issues · references/issues.md
+- LM-042 · Descriptions are optional; context lives in the project spec · ★★★ · practice · official-method · use: designing issue templates, or when every issue repeats the same background paragraph · references/issues.md
+- LM-043 · Write your own issues · ★★★★★ · practice · official-method · use: assigning work, onboarding someone, or when one person creates most of the issues · references/issues.md
+- LM-044 · When filing for someone else, describe the problem; the assignee rewrites it as a task · ★★★★ · practice · official-method · use: support, sales, a founder or a PM files work for an engineer or designer · references/issues.md
+- LM-045 · Cite the user verbatim in bugs and requests, and link the conversation · ★★★★ · practice · official-method · use: filing bugs or feature requests that come from users or customers · references/issues.md
+- LM-046 · Keep issues small enough to complete several per week · ★★★★ · practice · official-method · use: creating issues or reviewing work that stays in progress for weeks · references/issues.md
+- LM-047 · Every issue leaving triage has one assignee · ★★★★ · practice · official-method · use: accepting an issue from triage, planning a cycle, or when work is "owned by the team" · references/issues.md
+- LM-048 · Measure progress with actual work, not status reports · ★★★★ · practice · official-method · use: connecting the repository, reviewing how "done" is judged, or when status and reality diverge · references/issues.md
+- LM-049 · Use placeholder issues for exploration and specs · ★★★ · practice · official-method · use: a project starts with unknowns, or someone asks how to track research and design work · references/issues.md
+- LM-050 · Enable triage as the single inbox for unplanned work · ★★★★★ · practice · official-docs · use: setting up a team, or when requests arrive through Slack, email and DMs and get lost · references/triage-and-backlog.md
+- LM-051 · Assign a rotating triage responsibility · ★★★★★ · practice · linear-internal · use: nobody owns the inbox, or the same person always does · references/triage-and-backlog.md
+- LM-052 · Triage daily; nothing waits more than three days · ★★★★★ · practice · evidence · use: running triage, auditing inbox health · references/triage-and-backlog.md
+- LM-053 · Accept, decline with a comment, mark duplicate, or snooze; never park in triage · ★★★★ · practice · official-docs · use: processing any issue in triage, including ones created or pre-filled by agents · references/triage-and-backlog.md
+- LM-054 · Keep a manageable backlog; important things resurface · ★★★★★ · practice · official-method · use: the backlog grows past what fits in a few cycles, or before migrating from another tool · references/triage-and-backlog.md
+- LM-055 · Enable auto-close and auto-archive · ★★★★ · practice · official-docs · use: configuring a team, or when the backlog keeps stale items alive · references/triage-and-backlog.md
+- LM-056 · Create issues only for work likely within six months · ★★★ · practice · evidence · use: someone wants to "capture the idea" as an issue · references/triage-and-backlog.md
+- LM-057 · Review the backlog on a cadence · ★★★ · practice · evidence · use: setting rituals, or when the backlog has not been read in months · references/triage-and-backlog.md
+- LM-060 · Mix bugs and quality work into every cycle · ★★★★★ · practice · official-method · use: planning any cycle; auditing a team whose cycles contain only features · references/quality.md
+- LM-061 · Fix bugs on a deadline or declare won't fix; no bug backlog · ★★★★ · practice · linear-internal · use: bugs accumulate in the backlog, or the team debates which bugs deserve attention · references/quality.md
+- LM-062 · Invest in tooling as a force multiplier · ★★★ · practice · official-method · use: planning quality capacity, or when the same manual step slows every project · references/quality.md
+- LM-063 · Give every engineer a small weekly quality slot · ★★★ · practice · evidence · use: quality work never gets picked up because projects always win · references/quality.md
+- LM-079 · Use views so each person sees only what is actionable · ★★★ · practice · evidence · use: people say Linear is noisy, or they keep lists elsewhere · references/workflow-and-structure.md
+- LM-080 · Designers and engineers work in the same project · ★★★★★ · practice · official-method · use: staffing user-facing work, or when design happens in a separate tracker or team · references/design-and-users.md
+- LM-081 · Start UI projects with "Explore design" and share early · ★★★★ · practice · official-method · use: a project touches the interface · references/design-and-users.md
+- LM-082 · Asynchronous design feedback instead of formal reviews · ★★★ · practice · linear-internal · use: a team schedules weekly design reviews, or design feedback arrives too late · references/design-and-users.md
+- LM-083 · Ask for the problem behind every request · ★★★★★ · practice · official-method · use: triaging requests, writing specs, talking to users · references/design-and-users.md
+- LM-084 · Attach customer requests to issues; don't let feedback alone dictate the roadmap · ★★★★ · practice · official-method · use: handling feedback from support, sales or community · references/design-and-users.md
+- LM-085 · Launch and keep launching · ★★★★ · practice · official-method · use: a team waits for "the launch", or ships rarely · references/design-and-users.md
+- LM-086 · Keep a changelog and build in public · ★★★★ · practice · official-method · use: setting rituals for a team or a product with users · references/design-and-users.md
+- LM-090 · A delegated issue stays assigned to a human · ★★★★★ · practice · linear-internal · use: delegating any issue to Linear Agent, Copilot, Claude Code or another agent · references/agents.md
+- LM-091 · Every agent action has an accountable human and an audit trail · ★★★★★ · practice · evidence · use: letting agents change state in Linear (assign, move, close, prioritize, archive), including this plugin · references/agents.md
+- LM-092 · Project health is set by the lead, not generated · ★★★★ · practice · official-docs · use: using agents to draft project updates · references/agents.md
+- LM-093 · Write the context agents need: specs, templates, files to touch and not to touch · ★★★★ · practice · official-docs · use: adopting agents for triage, bugs or chores · references/agents.md

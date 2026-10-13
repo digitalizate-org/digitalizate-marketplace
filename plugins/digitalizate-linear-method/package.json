@@ -1,0 +1,22 @@
+{
+  "name": "digitalizate-linear-method",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Linear Method tooling for Claude Code and claude.ai: canon of rules, workspace audit, build pre-flight, setup, fix with undo, cycle planning.",
+  "type": "module",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "build": "tsx scripts/build-index.ts",
+    "snapshot": "tsx scripts/snapshot.ts",
+    "evaluate": "tsx scripts/evaluate.ts",
+    "audit": "tsx scripts/snapshot.ts && tsx scripts/evaluate.ts",
+    "fix": "tsx scripts/fix.ts",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
