@@ -1,7 +1,7 @@
 {
   "name": "digitalizate-model-router",
   "displayName": "Model Router (Digitalízate)",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "La guía de modelos de Digitalízate hecha herramienta. Skill model-route para decidir modelo, effort y delegación, repartir un plan entre modelos, escribir briefs y revisar el setup (también en claude.ai). En Claude Code, un mod que clasifica cada prompt, revisa cada delegación a sub-agentes, mide el costo de /model y no deja que Sonnet cierre sin verificar. Trae los cuatro sub-agentes de modelo fijo.",
   "author": {
     "name": "Digitalízate"
