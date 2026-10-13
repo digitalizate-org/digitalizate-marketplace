@@ -20,6 +20,7 @@ import {
   currentOf,
   estimateSwitch,
   implementIntent,
+  isOpusplan,
   judgeSpawn,
   modelName,
   sessionAction,
@@ -92,6 +93,7 @@ type Runtime = {
   rejectedThisTurn: Set<string>
   isUserPinned: boolean
   mainStepModel: string | undefined
+  switchedModel: string | undefined
   ownSwitch: ModelTier | null
   mainTrack: LoopTrack
   subTracks: Map<string, LoopTrack>
@@ -119,6 +121,7 @@ function freshRuntime(options: PluginOptions): Runtime {
     rejectedThisTurn: new Set(),
     isUserPinned: false,
     mainStepModel: undefined,
+    switchedModel: undefined,
     ownSwitch: null,
     mainTrack: newTrack(),
     subTracks: new Map(),
@@ -240,6 +243,25 @@ async function hasLegacyHook($: EngineInterface): Promise<boolean> {
   const settings = await $.settings.read({ source: 'user' }).catch(() => undefined)
 
   return JSON.stringify(settings ?? {}).includes('hooks/model-router.sh')
+}
+
+async function sessionModel($: EngineInterface, planMode: boolean): Promise<string> {
+  if (runtime.switchedModel !== undefined) {
+    return runtime.switchedModel
+  }
+
+  const resolved = await $.session.model().catch(() => '')
+
+  if (isOpusplan(resolved)) {
+    return resolved
+  }
+
+  const settings = await $.settings.read({}).catch(() => undefined)
+  const configured = (settings as { model?: unknown } | undefined)?.model
+  const tier = tierOfModel(resolved)
+  const runsAsOpusplan = tier === 'sonnet' || (planMode && tier === 'opus')
+
+  return typeof configured === 'string' && isOpusplan(configured) && runsAsOpusplan ? configured : resolved
 }
 
 async function secondOpinion($: EngineInterface, text: string): Promise<string | undefined> {
@@ -417,7 +439,7 @@ export const register: Register = (on, options) => {
       await update($, calibrationAtom, () => calibration as Calibration)
     }
 
-    const model = await $.session.model().catch(() => '')
+    const model = await sessionModel($, (await read($, sessionAtom)).planMode)
     const legacyHook = await hasLegacyHook($)
     const session = await update($, sessionAtom, current => ({
       ...current,
@@ -426,7 +448,7 @@ export const register: Register = (on, options) => {
       legacyHook,
     }))
 
-    $.ui.status(statusText(await read($, decisionAtom), session.model))
+    $.ui.status(statusText(await read($, decisionAtom), session.model, session.planMode))
 
     if (legacyHook) {
       $.ui.log(
@@ -491,12 +513,12 @@ export const register: Register = (on, options) => {
     const planMode = e.permission_mode === 'plan'
     const { classification, source } = await classifyPrompt($, e.prompt, images)
     const fallbackModel = (await read($, sessionAtom)).model
-    const model = await $.session.model().catch(() => fallbackModel)
+    const model = (await sessionModel($, planMode)) || fallbackModel
     const current = currentOf(model, planMode, runtime.mainStepModel)
     const session = await update($, sessionAtom, view => ({ ...view, model, modelTier: current.tier, planMode }))
 
     if (classification.kind !== 'task') {
-      $.ui.status(statusText(await read($, decisionAtom), model))
+      $.ui.status(statusText(await read($, decisionAtom), model, planMode))
 
       return result
     }
@@ -536,7 +558,7 @@ export const register: Register = (on, options) => {
     await update($, decisionAtom, () => decision)
     await update($, historyAtom, list => [...list, decision].slice(-HISTORY_MAX))
     await update($, signalsAtom, () => [])
-    $.ui.status(statusText(decision, model))
+    $.ui.status(statusText(decision, model, planMode))
 
     const line = contextLine(decision, {
       isFirst: previous === undefined,
@@ -843,6 +865,7 @@ export const register: Register = (on, options) => {
     const model = e.requested_model ?? e.to_model
 
     runtime.mainStepModel = undefined
+    runtime.switchedModel = model
     runtime.cacheTtl = e.cache_ttl
 
     const session = await update($, sessionAtom, view => ({
@@ -854,7 +877,7 @@ export const register: Register = (on, options) => {
     const decision = await read($, decisionAtom)
 
     if (decision === null) {
-      $.ui.status(statusText(null, model))
+      $.ui.status(statusText(null, model, session.planMode))
 
       return result
     }
@@ -878,7 +901,7 @@ export const register: Register = (on, options) => {
     }
 
     await update($, decisionAtom, () => refreshed)
-    $.ui.status(statusText(refreshed, model))
+    $.ui.status(statusText(refreshed, model, session.planMode))
 
     return result
   })
@@ -906,7 +929,7 @@ export const register: Register = (on, options) => {
       }
     }
 
-    const model = session.model === '' ? await $.session.model().catch(() => '') : session.model
+    const model = session.model === '' ? await sessionModel($, session.planMode) : session.model
     const action = sessionAction(classification, currentOf(model, session.planMode, runtime.mainStepModel), {
       contextTokens: session.contextTokens,
       mechanicalStreak: 0,

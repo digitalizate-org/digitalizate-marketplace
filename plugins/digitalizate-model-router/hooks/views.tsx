@@ -5,7 +5,7 @@ import type { TaskClassification } from './classify'
 import { describeTask } from './classify'
 import { CATEGORIES, MODELS } from './matrix'
 import { CONFIDENCE_LABEL, SOURCE_LABEL, VERDICT_LABEL } from './labels'
-import { kTokens, modelName, usd } from './route'
+import { isOpusplan, kTokens, modelName, usd } from './route'
 
 export { CONFIDENCE_LABEL, SOURCE_LABEL, VERDICT_LABEL }
 
@@ -74,11 +74,21 @@ export function contextLine(decision: Decision, flags: { isFirst: boolean; chang
   return `${parts.join('. ')}.${ask}`
 }
 
-export function statusText(decision: Decision | null, model: string): string {
-  const session = model === '' ? '?' : modelName(model)
+function sessionLabel(model: string, planMode: boolean): string {
+  if (model === '') {
+    return '?'
+  }
 
+  if (isOpusplan(model)) {
+    return planMode ? 'opusplan · Opus 5.5 planea' : 'opusplan · Sonnet 5.5 ejecuta'
+  }
+
+  return modelName(model)
+}
+
+export function statusText(decision: Decision | null, model: string, planMode = false): string {
   if (decision === null) {
-    return `${session} · sin tarea clasificada`
+    return `${sessionLabel(model, planMode)} · sin tarea clasificada`
   }
 
   const action = decision.action

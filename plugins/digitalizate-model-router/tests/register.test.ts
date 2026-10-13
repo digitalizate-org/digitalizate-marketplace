@@ -558,3 +558,54 @@ describe('effort per task', () => {
     expect(world.steps.map(step => step.effort)).toEqual(['medium', 'max'])
   })
 })
+
+describe('opusplan session', () => {
+  test('an opusplan default reads as opusplan while Sonnet executes', async ($, on) => {
+    const world = worldOf(on, { model: 'claude-sonnet-5-5', settings: { model: 'opusplan' } })
+
+    await $.session.start(SESSION)
+
+    expect(world.statuses.at(-1)).toBe('opusplan · Sonnet 5.5 ejecuta · sin tarea clasificada')
+
+    await $.classic.UserPromptSubmit({ prompt: ARCHITECTURE, prompt_id: 'p1' })
+
+    expect(world.state.decision?.model).toBe('opusplan')
+    expect(world.state.decision?.action.kind).toBe('plan')
+  })
+
+  test('plan mode under opusplan reads Opus as the planner', async ($, on) => {
+    const world = worldOf(on, { model: 'claude-opus-5-5', settings: { model: 'opusplan' } })
+
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: ARCHITECTURE, prompt_id: 'p1', permission_mode: 'plan' })
+
+    expect(world.state.decision?.model).toBe('opusplan')
+    expect(world.state.decision?.action.kind).toBe('stay')
+  })
+
+  test('an explicit Opus model over an opusplan default is not read as opusplan', async ($, on) => {
+    const world = worldOf(on, { model: 'claude-opus-5-5', settings: { model: 'opusplan' } })
+
+    await $.session.start(SESSION)
+
+    expect(world.statuses.at(-1)).toBe('Opus 5.5 · sin tarea clasificada')
+  })
+
+  test('a /model switch wins over the settings default', async ($, on) => {
+    const world = worldOf(on, { model: 'claude-sonnet-5-5', settings: { model: 'opusplan' } })
+
+    await $.session.start(SESSION)
+    await $.classic.PostModelSwitch({
+      ...SWITCH,
+      from_model: 'claude-sonnet-5-5',
+      to_model: 'claude-sonnet-5-5',
+      requested_model: 'sonnet',
+      context_tokens: 20000,
+      estimated_cache_write_usd: 0.08,
+    })
+    await $.classic.UserPromptSubmit({ prompt: ARCHITECTURE, prompt_id: 'p1' })
+
+    expect(world.state.decision?.model).toBe('sonnet')
+    expect(world.state.decision?.action.kind).toBe('switch')
+  })
+})
