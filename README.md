@@ -40,4 +40,4 @@ Los usuarios solo reciben cambios cuando sube el campo `version` del `plugin.jso
 
 ## Historial
 
-Antes de unificarse, cada plugin tuvo su propio repo: `digitalizate-org/digitalizate-linear-method` y `digitalizate-org/digitalizate-design-practices`. Su historial de commits sigue allí.
+Antes de unificarse, cada plugin tuvo su propio repo: `digitalizate-org/digitalizate-linear-method` y `digitalizate-org/digitalizate-design-practices`, ambos archivados. Su historial completo está en este repo: `git log` y `git blame` sobre cualquier archivo de `plugins/<nombre>/` llegan hasta los commits originales, con las rutas ya prefijadas. Los commits `import ... plugin` y el merge `merge snapshot import into history` son el rastro de la migración.
