@@ -1,0 +1,6 @@
+node_modules/
+.linear-method/snapshot.json
+.linear-method/findings.json
+.linear-method/runs/
+.linear-method/warnings.log
+*.log
