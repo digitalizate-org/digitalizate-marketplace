@@ -1,0 +1,20 @@
+# Navigation & Information Architecture (16)
+
+Reference: references/navigation-and-information-architecture.md
+
+- UX-276 · Left-Side Vertical Navigation for Complex Information Architectures [Desktop navigation structure] · ★5 · tags: desktop, navigation, enterprise · use: Use for enterprise applications with complex, multi-section navigation: ERP systems, analytics platforms, admin consoles, multi-module SaaS tools…
+- UX-277 · Always Expose Navigation on Desktop — No Hamburger Menus [Navigation visibility and discoverability] · ★5 · tags: desktop, navigation · use: Apply to all desktop applications. Hiding navigation in hamburger menus on desktop reduces usage, increases time-to-navigation, degrades content…
+- UX-278 · Front-Load Navigation Labels With Information-Rich Keywords [Navigation label writing] · ★5 · tags: forms, navigation · use: Apply to all navigation labels — menus, breadcrumbs, sidebar items, tab labels, dropdown menus. Users scan navigation, they don't read it.
+- UX-279 · Recently Viewed Records and Resume Incomplete Workflows [Re-finding and workflow continuity] · ★5 · tags: workflow · use: Apply to home/dashboard screens, navigation panels, and module entry screens to support the re-finding information-seeking mode.
+- UX-280 · Breadcrumbs for Deep Navigation Hierarchies [Wayfinding Patterns] · ★5 · tags: navigation · use: Use for applications with 3+ levels of navigation hierarchy, especially when users frequently arrive at deep records via search or deep links rather…
+- UX-281 · Help Users Maintain Orientation in Complex Applications [Wayfinding and orientation] · ★5 · tags: navigation · use: Apply to any enterprise application with 3+ levels of navigation depth. Users lose orientation in complex apps and the resulting confusion leads to abandonment.
+- UX-282 · Three-Level Navigation: Global / Contextual / Local [Navigation Architecture] · ★5 · tags: enterprise, navigation · use: Use when structuring navigation for complex enterprise applications with deeply nested content or multiple parallel workflows.
+- UX-283 · Active State Visibility in Navigation [Location Communication] · ★5 · tags: navigation · use: Use in all navigation components in all application contexts without exception.
+- UX-284 · Reducing Distance Between Intent and Action [Interaction Efficiency] · ★5 · tags: navigation · use: Use when analyzing navigation efficiency, and when designing features performed multiple times daily.
+- UX-285 · Contextual Secondary Navigation via Tabs [Secondary Navigation] · ★5 · tags: ai-patterns, navigation · use: When a screen has 2–7 distinct content categories users switch between frequently.
+- UX-286 · Progressive Disclosure for Complex Feature Sets [Information Hierarchy] · ★5 · tags: forms · use: Complex forms, configuration panels, settings pages, filter interfaces, and any feature with both simple and advanced usage modes.
+- UX-287 · In-Page Navigation for Long Single-Page Views [Page-level navigation] · ★4 · tags: navigation · use: Apply to long settings pages, comprehensive record detail views, multi-section dashboard pages, documentation articles with 4+ distinct sections.
+- UX-288 · Search as Primary Navigation [Search-Based Navigation] · ★4 · tags: search, enterprise, navigation · use: Large complex enterprise applications with many navigational destinations or experienced power users who know what they want and prefer speed over discovery.
+- UX-289 · In-App Help Panel (Help Hub) [Help Systems] · ★4 · tags: — · use: All enterprise applications with more than basic functionality. Especially important when serving non-technical users in professional contexts.
+- UX-290 · Contextual "Help for This Page" Auto-Surfacing [Help Systems] · ★4 · tags: — · use: All enterprise applications. Contextual help significantly reduces support ticket volume for common workflows by surfacing the right answer at the right moment.
+- UX-291 · Deep Linking and URL State Persistence [State Persistence] · ★4 · tags: search, navigation · use: All data tables, dashboards, record detail views, and any view with configurable state.

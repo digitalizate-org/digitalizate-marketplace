@@ -1,0 +1,70 @@
+# Duplicados cercanos
+
+Revisar a mano. Para fusionar: deja una ficha, mueve lo que aporte la otra y pon `status: "Merged"` en la sobrante (el build omite Proposed, Merged y Deprecated).
+
+- [1.00 título / 0.45 contexto] **UX-382 Von Restorff Effect: Visual Isolation to Drive Attention** (Behavioral Psychology) ↔ **UX-575 Von Restorff Effect (Isolation Effect)** (Human Biases in Interfaces)
+  - `library/behavioral-psychology/UX-382-von-restorff-effect-visual-isolation-to-drive-attention.md`
+  - `library/human-biases-in-interfaces/UX-575-von-restorff-effect-isolation-effect.md`
+- [1.00 título / 0.38 contexto] **AGP-091 Human On the Loop (HOTL)** (Agentic Patterns) ↔ **AGP-092 Human-in-the-Loop (HITL)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-091-human-on-the-loop-hotl.md`
+  - `library/agentic-patterns/AGP-092-human-in-the-loop-hitl.md`
+- [1.00 título / 0.37 contexto] **UX-570 Peak-End Rule (Evaluative Memory Heuristic)** (Human Biases in Interfaces) ↔ **UX-239 Peak-End Rule — Design Success States and Error Recovery With Care** (Interaction Patterns)
+  - `library/human-biases-in-interfaces/UX-570-peak-end-rule-evaluative-memory-heuristic.md`
+  - `library/interaction-patterns/UX-239-peak-end-rule-design-success-states-and-error-recovery-with.md`
+- [1.00 título / 0.35 contexto] **UX-573 Serial Position Effect (Primacy Effect & Recency Effect)** (Human Biases in Interfaces) ↔ **UX-264 Serial Position Effect — Place Critical Items First and Last** (Layout & Visual Hierarchy)
+  - `library/human-biases-in-interfaces/UX-573-serial-position-effect-primacy-effect-and-recency-effect.md`
+  - `library/layout-and-visual-hierarchy/UX-264-serial-position-effect-place-critical-items-first-and-last.md`
+- [1.00 título / 0.33 contexto] **UX-012 Data Visualization Accessibility** (Accessibility) ↔ **UX-547 Gestalt in Data Visualization Accessibility: Multi-Dimensional Encoding** (Gestalt Principles)
+  - `library/accessibility/UX-012-data-visualization-accessibility.md`
+  - `library/gestalt-principles/UX-547-gestalt-in-data-visualization-accessibility-multi-dimensiona.md`
+- [1.00 título / 0.31 contexto] **UX-575 Von Restorff Effect (Isolation Effect)** (Human Biases in Interfaces) ↔ **UX-255 Von Restorff Effect — Visual Isolation for Primary Actions** (Layout & Visual Hierarchy)
+  - `library/human-biases-in-interfaces/UX-575-von-restorff-effect-isolation-effect.md`
+  - `library/layout-and-visual-hierarchy/UX-255-von-restorff-effect-visual-isolation-for-primary-actions.md`
+- [1.00 título / 0.30 contexto] **AGP-197 Test-Time Compute Scaling (TTC)** (Agentic Patterns) ↔ **AGP-198 Test-Time Scaling (TTS)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-197-test-time-compute-scaling-ttc.md`
+  - `library/agentic-patterns/AGP-198-test-time-scaling-tts.md`
+- [1.00 título / 0.30 contexto] **UX-573 Serial Position Effect (Primacy Effect & Recency Effect)** (Human Biases in Interfaces) ↔ **UX-420 Serial Position Effect: Put Critical Items First or Last** (Reading Psychology)
+  - `library/human-biases-in-interfaces/UX-573-serial-position-effect-primacy-effect-and-recency-effect.md`
+  - `library/reading-psychology/UX-420-serial-position-effect-put-critical-items-first-or-last.md`
+- [1.00 título / 0.22 contexto] **UX-371 Peak-End Rule: Engineering Memorable Session Moments** (Behavioral Psychology) ↔ **UX-570 Peak-End Rule (Evaluative Memory Heuristic)** (Human Biases in Interfaces)
+  - `library/behavioral-psychology/UX-371-peak-end-rule-engineering-memorable-session-moments.md`
+  - `library/human-biases-in-interfaces/UX-570-peak-end-rule-evaluative-memory-heuristic.md`
+- [0.97 título / 0.23 contexto] **AGP-048 Contextual Structured Memory (CSM)** (Agentic Patterns) ↔ **AGP-049 Contextual Unstructured Memory (CUM)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-048-contextual-structured-memory-csm.md`
+  - `library/agentic-patterns/AGP-049-contextual-unstructured-memory-cum.md`
+- [0.96 título / 0.52 contexto] **AGP-179 Supervised Learning for Agents (SLA)** (Agentic Patterns) ↔ **AGP-190 Unsupervised Learning for Agents (ULA)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-179-supervised-learning-for-agents-sla.md`
+  - `library/agentic-patterns/AGP-190-unsupervised-learning-for-agents-ula.md`
+- [0.94 título / 0.29 contexto] **UX-264 Serial Position Effect — Place Critical Items First and Last** (Layout & Visual Hierarchy) ↔ **UX-420 Serial Position Effect: Put Critical Items First or Last** (Reading Psychology)
+  - `library/layout-and-visual-hierarchy/UX-264-serial-position-effect-place-critical-items-first-and-last.md`
+  - `library/reading-psychology/UX-420-serial-position-effect-put-critical-items-first-or-last.md`
+- [0.94 título / 0.37 contexto] **AGP-156 Reinforcement Learning from AI Feedback (RLAIF)** (Agentic Patterns) ↔ **AGP-157 Reinforcement Learning from Human Feedback (RLHF)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-156-reinforcement-learning-from-ai-feedback-rlaif.md`
+  - `library/agentic-patterns/AGP-157-reinforcement-learning-from-human-feedback-rlhf.md`
+- [0.90 título / 0.35 contexto] **UX-106 Card Sorting for User-Centric Information Architecture** (Design Process & Methodology) ↔ **UX-482 Card Sorting for User-Driven Information Architecture** (Human-Centered Design)
+  - `library/design-process-and-methodology/UX-106-card-sorting-for-user-centric-information-architecture.md`
+  - `library/human-centered-design/UX-482-card-sorting-for-user-driven-information-architecture.md`
+- [0.88 título / 0.40 contexto] **UX-447 Hick's Law: Minimize Choices at Decision Points** (Cognitive Load) ↔ **UX-015 Hick's Law — Reduce Choices at Decision Points** (Cognitive Psychology)
+  - `library/cognitive-load/UX-447-hick-s-law-minimize-choices-at-decision-points.md`
+  - `library/cognitive-psychology/UX-015-hick-s-law-reduce-choices-at-decision-points.md`
+- [0.87 título / 0.31 contexto] **AGP-039 Context Isolate Patterns (CIP)** (Agentic Patterns) ↔ **AGP-046 Context Write Patterns (CWP)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-039-context-isolate-patterns-cip.md`
+  - `library/agentic-patterns/AGP-046-context-write-patterns-cwp.md`
+- [0.87 título / 0.25 contexto] **AGP-061 Direct Preference Optimization (DPO)** (Agentic Patterns) ↔ **AGP-174 Simple Preference Optimization (SimPO)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-061-direct-preference-optimization-dpo.md`
+  - `library/agentic-patterns/AGP-174-simple-preference-optimization-simpo.md`
+- [0.87 título / 0.34 contexto] **UX-382 Von Restorff Effect: Visual Isolation to Drive Attention** (Behavioral Psychology) ↔ **UX-255 Von Restorff Effect — Visual Isolation for Primary Actions** (Layout & Visual Hierarchy)
+  - `library/behavioral-psychology/UX-382-von-restorff-effect-visual-isolation-to-drive-attention.md`
+  - `library/layout-and-visual-hierarchy/UX-255-von-restorff-effect-visual-isolation-for-primary-actions.md`
+- [0.86 título / 0.25 contexto] **AGP-105 LLM-based Routing (LBR)** (Agentic Patterns) ↔ **AGP-160 Rule-based Routing (RBR)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-105-llm-based-routing-lbr.md`
+  - `library/agentic-patterns/AGP-160-rule-based-routing-rbr.md`
+- [0.85 título / 0.16 contexto] **AGP-039 Context Isolate Patterns (CIP)** (Agentic Patterns) ↔ **AGP-042 Context Select Patterns (CSEL)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-039-context-isolate-patterns-cip.md`
+  - `library/agentic-patterns/AGP-042-context-select-patterns-csel.md`
+- [0.85 título / 0.29 contexto] **UX-101 Customer Journey Mapping for End-to-End Workflow Design** (Design Process & Methodology) ↔ **UX-315 Story Mapping for End-to-End Workflow Design** (Product Strategy)
+  - `library/design-process-and-methodology/UX-101-customer-journey-mapping-for-end-to-end-workflow-design.md`
+  - `library/product-strategy/UX-315-story-mapping-for-end-to-end-workflow-design.md`
+- [0.84 título / 0.27 contexto] **AGP-012 Adaptive Interface Patterns (AIP)** (Agentic Patterns) ↔ **AGP-029 Chat Interface Patterns (CIP)** (Agentic Patterns)
+  - `library/agentic-patterns/AGP-012-adaptive-interface-patterns-aip.md`
+  - `library/agentic-patterns/AGP-029-chat-interface-patterns-cip.md`

@@ -1,0 +1,19 @@
+# Forms & Input (15)
+
+Reference: references/forms-and-input.md
+
+- UX-205 · Error Prevention [Proactive error elimination] · ★5 · tags: ai-patterns, forms, error-handling · use: Before designing error messages, first ask whether the error can be prevented entirely.
+- UX-206 · Inline Validation — Validate on Field Blur, Not on Keystroke [Real-Time Feedback] · ★5 · tags: forms, data-heavy, error-handling · use: Use when designing any data entry form, especially multi-field enterprise forms with complex validation rules.
+- UX-207 · Postel's Law — Accept Varied Input, Output Consistent Data [Input tolerance and normalization] · ★5 · tags: forms · use: Apply to all input fields with specific expected formats — phone numbers, dates, currencies, URLs, CSV imports, search fields — in any enterprise data entry context.
+- UX-208 · Keep Forms as Short as Possible — Eliminate Unnecessary Fields [Form length and field reduction] · ★5 · tags: forms · use: Apply to all form design — registration, data entry, configuration, checkout, filtering dialogs.
+- UX-209 · Single-Column Form Layouts and Logical Field Sequencing [Form layout and field ordering] · ★5 · tags: tables, forms · use: Apply to all forms with more than 3 fields. Single-column layouts maintain a clear reading path and eliminate eye-tracking ambiguity.
+- UX-210 · Group Related Form Fields With Section Headings [Form section organization] · ★5 · tags: cognitive-load, forms · use: Apply to forms with more than ~6 fields, or forms covering multiple distinct topics (personal information, billing, shipping, preferences).
+- UX-211 · Never Use Placeholder Text as a Substitute for Labels [Field Labeling Conventions] · ★5 · tags: forms, accessibility · use: Use when designing any form where the ratio of required to optional fields is significantly unbalanced in either direction.
+- UX-212 · Smart Defaults in Forms and Configuration [Intelligent defaults and pre-filling] · ★5 · tags: onboarding · use: Apply to new record creation, report configuration, filter defaults, notification preferences, and user profile completion wherever context enables…
+- UX-213 · Appropriate Control Selection for Form Inputs [Control Design] · ★5 · tags: forms · use: Use when designing form controls and data entry interfaces, and when reviewing existing forms for control type appropriateness.
+- UX-214 · Enterprise Form Design [Enterprise Forms] · ★5 · tags: enterprise, forms · use: All data entry forms in enterprise applications — record creation, settings configuration, wizard steps, import mapping, approval request forms.
+- UX-215 · Match Input Field Type and Size to Expected Input [Input field affordance] · ★4 · tags: forms · use: Apply to any form with varied input types — short IDs, addresses, descriptions, comments. Field size provides a visual affordance for expected input length.
+- UX-216 · Progress Communication in Multi-Step Forms [Form transparency and progress indicators] · ★4 · tags: forms · use: Apply to multi-step or multi-page forms, forms requiring external documents, and forms taking more than 2–3 minutes.
+- UX-217 · Prioritized Multi-Error Display [Validation Error Hierarchy] · ★4 · tags: forms, error-handling · use: Use when designing forms with multi-layer validation logic, especially in enterprise data entry tools where fields have format, logical, and…
+- UX-218 · Save & Resume for Long Forms [Form Persistence] · ★4 · tags: forms · use: Use for any form expected to take more than 3 minutes to complete or that requires information users may need to look up.
+- UX-219 · Parkinson's Law — Constrain Forms and Workflows to Reduce Task Inflation [Workflow efficiency and form design] · ★3 · tags: forms · use: Apply to form design, checkout/onboarding flow length, and complex wizard configuration where open-ended time availability leads to over-deliberation…

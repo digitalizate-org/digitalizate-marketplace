@@ -1,0 +1,43 @@
+{
+  "groups": {
+    "default": "ux",
+    "by_category": {
+      "Agentic Patterns": "agentic"
+    }
+  },
+  "id_prefix": {
+    "ux": "UX",
+    "agentic": "AGP"
+  },
+  "skills": {
+    "ux": "skills/ux-library",
+    "agentic": "skills/agentic-patterns"
+  },
+  "what_why_max_chars": 700,
+  "index_context_max_chars": 150,
+  "split_threshold": 60,
+  "max_reference_bytes": 120000,
+  "other_section_max_chars": 3000,
+  "duplicate_similarity": 0.82,
+  "notion": {
+    "database_id": "460a9aed534483afb4a301699e3d9614",
+    "data_source_id": "3dca9aed-5344-83a7-88bc-077efc9615a4",
+    "api_version": "2025-09-03",
+    "legacy_api_version": "2022-06-28",
+    "throttle_seconds": 0.35,
+    "properties": {
+      "title": "Best Practice",
+      "id": "ID",
+      "category": "Category",
+      "subcategory": "Subcategory",
+      "score": "Practicality Score",
+      "context": "Context",
+      "goals": "Helps With",
+      "tags": "Tags",
+      "status": "Status",
+      "verify": "How to Verify",
+      "verifiable_by": "Verifiable By",
+      "anti_pattern": "Anti-pattern"
+    }
+  }
+}
