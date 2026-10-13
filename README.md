@@ -8,6 +8,7 @@ Marketplace de plugins de Digitalízate para Claude Code, claude.ai y Cowork. Es
 |---|---|---|
 | `digitalizate-linear-method` | [`plugins/digitalizate-linear-method`](plugins/digitalizate-linear-method) | Linear Method: canon de reglas, auditoría, pre-flight, setup, correcciones con deshacer y planificación de ciclos |
 | `digitalizate-design-practices` | [`plugins/digitalizate-design-practices`](plugins/digitalizate-design-practices) | Librería de buenas prácticas de UX y product design, con skills para construir, auditar, sincronizar y enriquecer interfaces |
+| `digitalizate-model-router` | [`plugins/digitalizate-model-router`](plugins/digitalizate-model-router) | Guía de modelos: qué modelo, effort y delegación usar por tarea; en Claude Code, juicio de cada delegación, costo de `/model` y gate de verificación |
 
 Cada plugin tiene su propio README con el detalle de uso y desarrollo.
 
@@ -19,6 +20,7 @@ Claude Code:
 /plugin marketplace add digitalizate-org/digitalizate-marketplace
 /plugin install digitalizate-linear-method@digitalizate
 /plugin install digitalizate-design-practices@digitalizate
+/plugin install digitalizate-model-router@digitalizate
 ```
 
 claude.ai y Claude desktop: Customize > Plugins > Add marketplace, con `digitalizate-org/digitalizate-marketplace`. Para sincronizarlo a toda la organización, un Owner lo añade en Organization settings > Plugins & skills > Sync from GitHub con la Claude GitHub App instalada sobre este repo; los miembros no necesitan acceso al repo.

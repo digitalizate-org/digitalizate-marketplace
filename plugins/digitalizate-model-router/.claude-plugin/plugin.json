@@ -1,0 +1,70 @@
+{
+  "name": "digitalizate-model-router",
+  "displayName": "Model Router (Digitalízate)",
+  "version": "0.1.0",
+  "description": "La guía de modelos de Digitalízate hecha herramienta. Skill model-route para decidir modelo, effort y delegación, repartir un plan entre modelos, escribir briefs y revisar el setup (también en claude.ai). En Claude Code, un mod que clasifica cada prompt, revisa cada delegación a sub-agentes, mide el costo de /model y no deja que Sonnet cierre sin verificar. Trae los cuatro sub-agentes de modelo fijo.",
+  "author": {
+    "name": "Digitalízate"
+  },
+  "repository": "https://github.com/digitalizate-org/digitalizate-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "models",
+    "routing",
+    "sonnet",
+    "opus",
+    "fable",
+    "subagents",
+    "cost"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "mode": {
+      "type": "string",
+      "title": "Modo",
+      "description": "enforce: corrige el modelo de los sub-agentes, rechaza delegaciones al agente equivocado, bloquea un 'listo' sin verificación y pide confirmación ante un /model caro. advise: solo informa (contexto, banda, estado y avisos).",
+      "default": "enforce",
+      "options": [
+        "enforce",
+        "advise"
+      ]
+    },
+    "classifier": {
+      "type": "string",
+      "title": "Clasificador",
+      "description": "hybrid: decide la matriz heurística y, cuando duda, un modelo pequeño desempata (como mucho 1.5 s, fracciones de centavo). heuristic: solo la matriz, sin llamadas extra.",
+      "default": "hybrid",
+      "options": [
+        "hybrid",
+        "heuristic"
+      ]
+    },
+    "effort": {
+      "type": "string",
+      "title": "Effort por tarea",
+      "description": "session: respeta el effort de la sesión (/effort, modelSettings). matrix: aplica el effort de la matriz en cada request del hilo principal; cada cambio de effort a mitad de sesión invalida la caché de mensajes.",
+      "default": "session",
+      "options": [
+        "session",
+        "matrix"
+      ]
+    },
+    "verification": {
+      "type": "string",
+      "title": "Gate de verificación",
+      "description": "sonnet: bloquea una vez el cierre de turno de Sonnet que editó código sin correr tests, build o el comando cambiado. all: igual en cualquier modelo. off: sin gate.",
+      "default": "sonnet",
+      "options": [
+        "sonnet",
+        "all",
+        "off"
+      ]
+    },
+    "switchThreshold": {
+      "type": "number",
+      "title": "Umbral de /model (USD)",
+      "description": "Costo estimado de reescribir la caché al cambiar de modelo a partir del cual el modo enforce pide confirmación.",
+      "default": 1
+    }
+  }
+}

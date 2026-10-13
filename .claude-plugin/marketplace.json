@@ -19,6 +19,13 @@
       "description": "Librería de buenas prácticas de UX y product design, compilada en skills para construir (ux-build), auditar (ux-review), sincronizar (ux-sync) y enriquecer (ux-enrich) interfaces.",
       "category": "design",
       "tags": ["ux", "design-system", "best-practices"]
+    },
+    {
+      "name": "digitalizate-model-router",
+      "source": "./plugins/digitalizate-model-router",
+      "description": "Guía de modelos hecha herramienta: skill model-route para decidir modelo, effort y delegación, repartir planes, escribir briefs y revisar el setup; en Claude Code, un mod que revisa cada delegación, mide el costo de /model y no deja cerrar a Sonnet sin verificar. Trae los cuatro sub-agentes de modelo fijo.",
+      "category": "productivity",
+      "tags": ["models", "routing", "sonnet", "opus", "fable", "subagents"]
     }
   ]
 }
