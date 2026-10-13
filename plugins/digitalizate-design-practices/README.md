@@ -2,7 +2,7 @@
 
 Plugin de Claude Code con una librería de 843 buenas prácticas de UX, product design y patrones de agentes, escrita en markdown y versionada en este repositorio, más las skills que la usan para construir y auditar interfaces citando prácticas por ID.
 
-El plugin vive en `plugins/digitalizate-design-practices/` y la raíz del repositorio es su marketplace; todas las rutas de este README son relativas a esa carpeta salvo que se diga lo contrario. La fuente de verdad es `library/<categoría>/<ID>-<slug>.md`: un archivo por ficha. Los archivos de `skills/*/index/` y `skills/*/references/` se compilan desde ahí con `/ux-sync` y no se editan a mano. La librería nació como copia de la base pública de Notion de 30k Strategy (https://30kstrategy.notion.site/83d76ed618e4463db4a6d78396feeff1), importada el 2026-10-07; Notion ya no interviene en el flujo.
+Este README vive en la carpeta del plugin, `plugins/digitalizate-design-practices/` del repositorio `digitalizate-marketplace`; todas las rutas son relativas a esa carpeta salvo que se diga lo contrario. La fuente de verdad es `library/<categoría>/<ID>-<slug>.md`: un archivo por ficha. Los archivos de `skills/*/index/` y `skills/*/references/` se compilan desde ahí con `/ux-sync` y no se editan a mano. La librería nació como copia de la base pública de Notion de 30k Strategy (https://30kstrategy.notion.site/83d76ed618e4463db4a6d78396feeff1), importada el 2026-10-07; Notion ya no interviene en el flujo.
 
 ## Qué incluye
 
@@ -26,12 +26,12 @@ Python 3.10 o superior, sin dependencias. No hace falta ningún token: solo `imp
 
 ## Instalación
 
-El repositorio es el marketplace privado (`.claude-plugin/marketplace.json` en la raíz) y contiene el plugin en `plugins/digitalizate-design-practices/`, el layout que piden Claude Code y la sincronización de claude.ai. Puede instalarlo quien tenga acceso de lectura al repo en GitHub: el control de acceso es el del repositorio, así que para dar acceso a alguien basta con añadirlo como colaborador.
+El repositorio `digitalizate-org/digitalizate-marketplace` es el marketplace privado de Digitalízate (`.claude-plugin/marketplace.json` en la raíz) y contiene este plugin en `plugins/digitalizate-design-practices/`, junto con los demás, con fuente de ruta relativa: el layout que piden Claude Code y la sincronización de claude.ai. Puede instalarlo quien tenga acceso de lectura al repo en GitHub: el control de acceso es el del repositorio, así que para dar acceso a alguien basta con añadirlo como colaborador.
 
 ### Claude Code (terminal, app de escritorio y VS Code)
 
 ```bash
-claude plugin marketplace add digitalizate-org/digitalizate-design-practices
+claude plugin marketplace add digitalizate-org/digitalizate-marketplace
 claude plugin install digitalizate-design-practices@digitalizate
 ```
 
@@ -39,7 +39,7 @@ Claude Code clona el repo con las credenciales de git de la máquina y nunca pre
 
 ### claude.ai y Cowork
 
-En claude.ai: **Customize → Plugins → Add → Add marketplace** con `digitalizate-org/digitalizate-design-practices`. Para un repo privado el diálogo pide conectar la cuenta de GitHub y dar acceso al repo a la Claude GitHub App. El plugin queda guardado en la cuenta: sus skills funcionan en el chat y en Cowork, y Claude Code lo sincroniza como `digitalizate-design-practices@synced` al iniciar sesión con esa cuenta. Si usas esta vía no lo instales además con el CLI, o tendrás las skills dos veces.
+En claude.ai: **Customize → Plugins → Add → Add marketplace** con `digitalizate-org/digitalizate-marketplace`. Para un repo privado el diálogo pide conectar la cuenta de GitHub y dar acceso al repo a la Claude GitHub App. El plugin queda guardado en la cuenta: sus skills funcionan en el chat y en Cowork, y Claude Code lo sincroniza como `digitalizate-design-practices@synced` al iniciar sesión con esa cuenta. Si usas esta vía no lo instales además con el CLI, o tendrás las skills dos veces.
 
 ### Para desarrollar
 
@@ -120,11 +120,11 @@ Cada página necesita un ID válido (`UX-001`, `AGP-001`) en su propiedad ID; el
 ## Estructura
 
 ```
-digitalizate-design-practices/            repositorio = marketplace privado
+digitalizate-marketplace/                 repositorio = marketplace privado (aloja también digitalizate-linear-method)
 ├── .claude-plugin/marketplace.json
-├── README.md
-├── docs/                          historia del proyecto
-└── plugins/digitalizate-design-practices/   el plugin
+└── plugins/digitalizate-design-practices/   este plugin
+    ├── README.md
+    ├── docs/                          historia del proyecto
     ├── .claude-plugin/plugin.json
     ├── config/build.json              grupos por categoría, prefijos de ID, umbrales de partición, ajustes del importador
     ├── library/<categoría>/<ID>-<slug>.md   la fuente de verdad

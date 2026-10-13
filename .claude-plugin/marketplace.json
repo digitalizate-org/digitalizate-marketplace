@@ -8,14 +8,17 @@
   "plugins": [
     {
       "name": "digitalizate-linear-method",
-      "source": {
-        "source": "github",
-        "repo": "digitalizate-org/digitalizate-linear-method"
-      },
+      "source": "./plugins/digitalizate-linear-method",
       "description": "Linear Method: canon de 129 reglas con fuentes, auditoría del workspace, pre-flight al crear objetos, implantación desde cero, correcciones en lote con deshacer y planificación de ciclos. Los guards bloquean las escrituras que rompen las reglas duras.",
-      "homepage": "https://github.com/digitalizate-org/digitalizate-linear-method",
       "category": "productivity",
       "tags": ["linear", "linear-method", "project-management", "audit"]
+    },
+    {
+      "name": "digitalizate-design-practices",
+      "source": "./plugins/digitalizate-design-practices",
+      "description": "Librería de buenas prácticas de UX y product design, compilada en skills para construir (ux-build), auditar (ux-review), sincronizar (ux-sync) y enriquecer (ux-enrich) interfaces.",
+      "category": "design",
+      "tags": ["ux", "design-system", "best-practices"]
     }
   ]
 }

@@ -33,10 +33,10 @@ Desde el marketplace de Digitalízate. Los repos son privados: hace falta una cr
 En local durante el desarrollo:
 
 ```bash
-claude --plugin-dir /ruta/a/digitalizate-linear-method
+claude --plugin-dir /ruta/a/digitalizate-marketplace/plugins/digitalizate-linear-method
 ```
 
-Dentro del repo, una vez:
+Dentro de `plugins/digitalizate-linear-method/`, una vez:
 
 ```bash
 npm install
