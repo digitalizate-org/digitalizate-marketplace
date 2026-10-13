@@ -1,0 +1,34 @@
+[
+  {
+    "skill_name": "ux-review",
+    "evals": [
+      {
+        "id": "customers-list-and-new-customer-modal",
+        "prompt": "/ux-review src/pages/customers/page.tsx src/pages/customers/newCustomers.tsx — revisa la pantalla de clientes (lista con tabla y modal de alta de cliente). Responde en español.",
+        "expected_output": "Reporte con la forma del SKILL.md: Scope, Checked, tabla de hallazgos (#, Sev, Practice, Evidence, Fix), Passes, Notes, Library proposals. Cada hallazgo cita un ID que existe en skills/ux-library/references/ y trae evidencia con archivo y líneas. Ningún ID AGP-xxx (la pantalla no es de agentes). Máximo ~15 hallazgos, los de severidad High (score 5) primero. Respeta las excepciones de design-decisions.md si las hay.",
+        "files": [
+          "src/pages/customers/page.tsx",
+          "src/pages/customers/newCustomers.tsx",
+          "src/components/Containers/InputContainer.tsx",
+          "src/components/Containers/ModalContainer.tsx",
+          "src/components/common/Table.tsx",
+          "design-decisions.md"
+        ]
+      }
+    ]
+  },
+  {
+    "skill_name": "ux-build",
+    "evals": [
+      {
+        "id": "customers-table-empty-state",
+        "prompt": "/ux-build Estado vacío para la tabla de clientes en src/pages/customers/page.tsx cuando todavía no hay clientes: explicación breve y una acción primaria que abra el modal existente de New Customer. Cambio pequeño: un componente nuevo en src/pages/customers y la integración mínima en page.tsx; no toques otros archivos salvo design-decisions.md. Responde en español.",
+        "expected_output": "Lee design-decisions.md antes de construir. Clasifica la pantalla en una línea. Shortlist de 5 a 15 prácticas tomadas de los índices (onboarding-and-empty-states, feedback-and-error-handling, usability-heuristics, accessibility, layout-and-visual-hierarchy) y abre sus entradas en references/ antes de escribir código. Crea el componente y la integración mínima. Añade a design-decisions.md una entrada con el formato del template (Context, Applied, Skipped, Exceptions, Open, Library proposals) con IDs que existen en references/.",
+        "files": [
+          "src/pages/customers/page.tsx",
+          "design-decisions.md"
+        ]
+      }
+    ]
+  }
+]

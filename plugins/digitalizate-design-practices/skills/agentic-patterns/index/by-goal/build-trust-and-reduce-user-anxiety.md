@@ -1,0 +1,51 @@
+# Goal: Build Trust & Reduce User Anxiety (47)
+
+Each line ends with the category; open references/<category>.md (or the split folder) for the full entry.
+
+- AGP-018 · Agent Status & Activity UI Patterns (ASP) [UI/UX & Human-AI Interaction] · ★5 · tags: ai-patterns · use: Long-running agent tasks (>2 seconds). · cat: agentic-patterns
+- AGP-092 · Human-in-the-Loop (HITL) [UI/UX & Human-AI Interaction] · ★5 · tags: ai-patterns · use: High-stakes decisions requiring human judgment. · cat: agentic-patterns
+- AGP-013 · Advanced RAG (ARAG) [Knowledge Retrieval (RAG)] · ★4 · tags: ai-patterns · use: Production RAG systems requiring high accuracy. · cat: agentic-patterns
+- AGP-032 · Confidence Visualization UI Patterns (CVP) [UI/UX & Human-AI Interaction] · ★4 · tags: ai-patterns · use: High-stakes decision making. · cat: agentic-patterns
+- AGP-104 · LLM as Judge (LJ) [Reflection] · ★4 · tags: ai-patterns · use: Evaluating multiple outputs. · cat: agentic-patterns
+- AGP-137 · Naive RAG (NRAG) [Knowledge Retrieval (RAG)] · ★4 · tags: ai-patterns · use: Simple Q&A over documents. · cat: agentic-patterns
+- AGP-146 · Privacy and Security UX (PSX) [UI/UX & Human-AI Interaction] · ★4 · tags: ai-patterns · use: Handling personal or sensitive data. · cat: agentic-patterns
+- AGP-148 · Producer-Critic Pattern (PC) [Reflection] · ★4 · tags: ai-patterns · use: High-quality content generation. · cat: agentic-patterns
+- AGP-165 · Self-Critique (SC) [Reflection] · ★4 · tags: ai-patterns · use: High-stakes content generation. · cat: agentic-patterns
+- AGP-181 · System Prompt Protection Pattern (SPP) [Security & Privacy] · ★4 · tags: ai-patterns · use: Proprietary system behaviors. · cat: agentic-patterns
+- AGP-188 · Trust and Transparency Patterns (TTP) [UI/UX & Human-AI Interaction] · ★4 · tags: ai-patterns · use: High-stakes decision-making applications (healthcare, finance, legal). · cat: agentic-patterns
+- AGP-003 · AGrail Adaptive Pattern (AAP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Evolving system requirements. · cat: agentic-patterns
+- AGP-020 · Agentic RAG (AgRAG) [Knowledge Retrieval (RAG)] · ★3 · tags: ai-patterns · use: Complex multi-step research requiring strategic information gathering. · cat: agentic-patterns
+- AGP-031 · Compliance Automation Patterns (CAP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Regulated industries (healthcare, finance). · cat: agentic-patterns
+- AGP-033 · Confidential Computing Patterns (CCP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Multi-party agentic AI collaboration. · cat: agentic-patterns
+- AGP-047 · Contextual Guardrailing Pattern (CGP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Multi-tenant applications. · cat: agentic-patterns
+- AGP-054 · Corrective RAG (CRAG) [Knowledge Retrieval (RAG)] · ★3 · tags: ai-patterns · use: High-stakes applications requiring verified accuracy and provenance. · cat: agentic-patterns
+- AGP-059 · Data Anonymization Patterns (DAP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Multi-agent federated learning. · cat: agentic-patterns
+- AGP-060 · Differential Privacy Patterns (DPP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Sensitive data processing. · cat: agentic-patterns
+- AGP-082 · Graph RAG (GRAG) [Knowledge Retrieval (RAG)] · ★3 · tags: ai-patterns · use: Complex multi-hop reasoning requiring entity relationship understanding. · cat: agentic-patterns
+- AGP-085 · GuardAgent Pattern (GAP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Autonomous agent deployments. · cat: agentic-patterns
+- AGP-094 · Hybrid Secret & Cache Management Pattern (HSCM) [Security & Privacy] · ★3 · tags: ai-patterns · use: Distributed agentic AI systems. · cat: agentic-patterns
+- AGP-095 · Identity & Access Management (IAM) [Security & Privacy] · ★3 · tags: ai-patterns · use: Enterprise AI systems. · cat: agentic-patterns
+- AGP-100 · Intrinsic Alignment Pattern (IAP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Advanced AI systems with autonomy. · cat: agentic-patterns
+- AGP-108 · Layered Defense Pattern (LDP) [Security & Privacy] · ★3 · tags: ai-patterns · use: High-stakes AI applications. · cat: agentic-patterns
+- AGP-110 · Local-Distant Agent Data Protection Pattern (LDADP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Multi-party sensitive data collaboration. · cat: agentic-patterns
+- AGP-111 · MAESTRO Multi-Agent Security Pattern (MAS) [Security & Privacy] · ★3 · tags: ai-patterns · use: Complex multi-agent deployments. · cat: agentic-patterns
+- AGP-122 · Memory Poisoning Prevention Pattern (MPP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Long-running conversational agents. · cat: agentic-patterns
+- AGP-129 · Modular RAG (MRAG) [Knowledge Retrieval (RAG)] · ★3 · tags: ai-patterns · use: Large-scale RAG systems requiring flexibility and maintainability. · cat: agentic-patterns
+- AGP-136 · Multimodal RAG (MMRAG) [Knowledge Retrieval (RAG)] · ★3 · tags: ai-patterns · use: Document analysis requiring understanding of both text and visual elements. · cat: agentic-patterns
+- AGP-147 · Privilege Compromise Mitigation Pattern (PCM) [Security & Privacy] · ★3 · tags: ai-patterns · use: Enterprise AI deployments. · cat: agentic-patterns
+- AGP-154 · Reflexion (RX) [Reflection] · ★3 · tags: ai-patterns · use: Multi-step reasoning tasks. · cat: agentic-patterns
+- AGP-164 · Secure Multi-Party Computation (SMPC) [Security & Privacy] · ★3 · tags: ai-patterns · use: Multi-organization data analysis. · cat: agentic-patterns
+- AGP-167 · Self-RAG (SRAG) [Knowledge Retrieval (RAG)] · ★3 · tags: ai-patterns · use: Factual accuracy and verifiability are critical requirements. · cat: agentic-patterns
+- AGP-184 · Threat Detection & Response (TDR) [Security & Privacy] · ★3 · tags: ai-patterns · use: Enterprise security operations. · cat: agentic-patterns
+- AGP-185 · Tool Misuse Prevention Pattern (TMP) [Security & Privacy] · ★3 · tags: ai-patterns · use: Tool-enabled autonomous agents. · cat: agentic-patterns
+- AGP-194 · Zero-Trust Agent Architecture (ZTAA) [Security & Privacy] · ★3 · tags: ai-patterns · use: Enterprise AI systems. · cat: agentic-patterns
+- AGP-024 · Attention Flow Analysis (AFA) [Interpretability] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need track and visualize where AI systems focus their attention during reasoning · cat: agentic-patterns
+- AGP-051 · Contrastive Explanations (CE) [Interpretability] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need explain AI decisions by showing what would change the outcome · cat: agentic-patterns
+- AGP-151 · RDF Knowledge Modeling (RDF) [Knowledge Representation] · ★2 · tags: ai-patterns · use: Use when building agentic systems that need structured knowledge representation using Resource Description Framework for semantic data modeling and linking · cat: agentic-patterns
+- AGP-027 · Causal Reasoning Transparency (CRT) [Interpretability] · ★1 · tags: ai-patterns · use: Use when building agentic systems that need make causal reasoning chains explicit and understandable · cat: agentic-patterns
+- AGP-102 · Knowledge Graph Construction (KGC) [Knowledge Representation] · ★1 · tags: ai-patterns · use: Use when building agentic systems that need systematic construction of knowledge graphs from structured and unstructured data sources · cat: agentic-patterns
+- AGP-107 · Latent Space Visualization (LSV) [Interpretability] · ★1 · tags: ai-patterns · use: Use when building agentic systems that need visualize and interpret AI reasoning processes in continuous latent spaces · cat: agentic-patterns
+- AGP-138 · OWL Ontological Reasoning (OWL) [Knowledge Representation] · ★1 · tags: ai-patterns · use: Use when building agentic systems that need web Ontology Language for defining complex semantic relationships and enabling automated logical reasoning · cat: agentic-patterns
+- AGP-161 · SHACL Constraint Validation (SHACL) [Knowledge Representation] · ★1 · tags: ai-patterns · use: Use when building agentic systems that need shapes Constraint Language for validating RDF data against defined schemas and business rules · cat: agentic-patterns
+- AGP-169 · Semantic Data Validation (SDV) [Knowledge Representation] · ★1 · tags: ai-patterns · use: Use when building agentic systems that need multi-layered validation of semantic data using ontological constraints, business rules, and logical consistency checks · cat: agentic-patterns
+- AGP-189 · Uncertainty Quantification (UQ) [Interpretability] · ★1 · tags: ai-patterns · use: Use when building agentic systems that need quantify and communicate AI confidence and uncertainty in predictions · cat: agentic-patterns

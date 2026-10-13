@@ -1,0 +1,21 @@
+# Feedback & Error Handling (17)
+
+Reference: references/feedback-and-error-handling.md
+
+- UX-188 · Visibility of System Status [Real-time feedback and system communication] · ★5 · tags: performance · use: Apply any time the system performs an action with a consequence the user initiated — file saves, submissions, background processing, data loads.
+- UX-189 · Error Messages — Plain Language with Constructive Solutions [Error message writing and presentation] · ★5 · tags: ai-patterns, forms, error-handling · use: Apply to all system errors, form validation messages, permission errors, empty result states, and API failures.
+- UX-190 · Error Severity Categorization — Match Presentation to Impact [Error severity and notification matching] · ★5 · tags: accessibility, forms, navigation, error-handling · use: Use when designing the full notification and error system for any enterprise application. Prevents "error fatigue" where users reflexively dismiss all alerts.
+- UX-191 · Provide Sufficient Context in Notifications [Notification content standards] · ★5 · tags: — · use: Apply to any notification triggered by asynchronous system events — batch job completion, assignment changes, alerts, approvals needed.
+- UX-192 · Opt-Out Confirmation for High-Consequence Actions [Confirmation patterns for irreversible actions] · ★5 · tags: — · use: Apply to genuinely irreversible, high-consequence actions where undo is architecturally impossible — permanent data purge, account deletion…
+- UX-193 · Design Error Recovery Paths at Every Failure Point [Error recovery design] · ★5 · tags: ai-patterns, error-handling · use: Apply when specifying behavior for any interactive workflow — map all possible failure points and design explicit recovery paths for each.
+- UX-194 · Inline Error Messages — Proximity to Source Field [Error Message Placement] · ★5 · tags: forms, error-handling · use: Use for all form validation in all contexts.
+- UX-195 · Graceful Degradation for Network Errors [Network Error Handling] · ★5 · tags: error-handling · use: Use in all web and mobile applications that make network requests, especially enterprise apps used in variable connectivity environments.
+- UX-196 · Change Blindness — Mark State Changes Explicitly [Real-Time Data Communication] · ★5 · tags: animation, data-heavy · use: Use when designing real-time data displays, status indicators, and alerting systems for monitoring or operational dashboards.
+- UX-197 · Habituation — Calibrate Alert Frequency to Maintain Urgency [Alert System Design] · ★5 · tags: — · use: Use when designing notification and alerting systems, especially for monitoring dashboards and operational applications with high event volume.
+- UX-198 · Success State Confirmation [Feedback Delivery] · ★5 · tags: forms · use: Use after all form submissions, save operations, exports, and any consequential user action.
+- UX-199 · Undo Feedback Toast [Action Feedback] · ★5 · tags: error-handling · use: After any destructive or high-impact action — delete, archive, move, status change — especially when undo is technically supported but not visually obvious.
+- UX-200 · Error State Messaging with Resolution Guidance [Error Messages] · ★5 · tags: ai-patterns, forms, error-handling · use: All validation errors, system errors, permission errors, and failed operations throughout the application.
+- UX-201 · Unified Notification and Feedback System [Notifications] · ★5 · tags: design-system · use: Throughout the entire application. Consistent feedback patterns are a core indicator of design system maturity.
+- UX-202 · Confirmation Dialogs for Destructive Actions [Destructive Action Safety] · ★5 · tags: — · use: Any action that is difficult or impossible to reverse — permanently deleting records, bulk archiving, overwriting data, revoking permissions.
+- UX-203 · Descriptive Wizard Navigation Button Labels [Dialog Design] · ★4 · tags: workflow, forms, navigation · use: Use in all modal dialogs with primary and secondary actions, especially for destructive or consequential operations.
+- UX-204 · Notification Center with Categorization [Notifications] · ★4 · tags: workflow · use: Any enterprise application with background events, multi-user activity, approval workflows, or system alerts.

@@ -1,0 +1,15 @@
+{
+  "name": "digitalizate-design-practices",
+  "description": "Librería de buenas prácticas de UX y product design en markdown (library/), compilada en skills para construir (ux-build), auditar (ux-review), sincronizar (ux-sync) y enriquecer (ux-enrich) interfaces.",
+  "version": "0.2.1",
+  "author": {
+    "name": "Estiven Valencia"
+  },
+  "repository": "https://github.com/digitalizate-org/digitalizate-marketplace",
+  "keywords": [
+    "ux",
+    "design-system",
+    "notion",
+    "best-practices"
+  ]
+}

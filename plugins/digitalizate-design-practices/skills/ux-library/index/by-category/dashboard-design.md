@@ -1,0 +1,23 @@
+# Dashboard Design (19)
+
+Reference: references/dashboard-design.md
+
+- UX-053 · Design Dashboards Around User Goals — Not Available Data [Dashboard information architecture] · ★5 · tags: data-heavy, dashboard · use: Apply at the start of any dashboard design project — executive, operational, analytical, monitoring.
+- UX-054 · Preattentive Attributes for Fast Visual Processing in Dashboards [Data visualization perception] · ★5 · tags: data-heavy, dashboard · use: Apply to any data visualization — bar charts, line charts, KPI cards, status indicators — where users need to identify patterns, outliers, or status at a glance.
+- UX-055 · Dashboard Hover Tooltips for Contextual Detail on Demand [Data visualization interaction] · ★5 · tags: ai-patterns, data-heavy, dashboard · use: Apply to all charts and data visualizations where exact values matter alongside readable summary views.
+- UX-056 · Dashboard Customization and Personalization [Dashboard personalization] · ★5 · tags: enterprise, dashboard · use: Apply to enterprise dashboards used by users with varying roles, priorities, or workflows. A one-size-fits-none compromise drives low adoption.
+- UX-057 · Card Component Anatomy for Dashboard KPIs [KPI card design patterns] · ★5 · tags: dashboard · use: Apply to dashboard KPI widgets, record summary views, entity listing in grid view, and feature promotion panels.
+- UX-058 · Dashboard Information Hierarchy [Dashboard Layout] · ★5 · tags: forms, dashboard · use: Use when designing any dashboard with 3+ data widgets or KPI cards.
+- UX-059 · Contextual Filtering and Date Ranges on Dashboards [Dashboard Filtering] · ★5 · tags: search, tables, dashboard · use: Use for any operational or analytical dashboard where data varies by time period, region, team, or other dimensions.
+- UX-060 · F-Pattern and Z-Pattern Dashboard Visual Hierarchy [Layout Hierarchy] · ★5 · tags: dashboard · use: Every dashboard. The reading hierarchy must be defined before any widget is placed.
+- UX-061 · Metrics Bar — KPI Highlight Row [KPI Display] · ★5 · tags: dashboard · use: All operational and monitoring dashboards where a handful of KPIs dominate decision-making — sales dashboards, financial dashboards, operations centers.
+- UX-062 · Dashboard Type and Audience Matching [Dashboard Strategy] · ★5 · tags: dashboard · use: At the start of every dashboard design project. Mismatching dashboard type to use case is a primary cause of poor adoption in enterprise analytics.
+- UX-063 · Delta Indicators and Contextual Comparisons [KPI Display] · ★5 · tags: dashboard · use: Every quantitative KPI card on any dashboard. A standalone number without a reference point communicates nothing about whether performance is good or bad.
+- UX-064 · Data Freshness Indicators [Real-Time Data Display] · ★5 · tags: data-heavy · use: Any dashboard or data view that refreshes automatically or may have a delay between the data source and the display.
+- UX-065 · Data-Ink Ratio and Anti-Clutter [Visual Clarity] · ★4 · tags: — · use: Every dashboard review cycle. Apply during QA before launch and at each design iteration. Decoration is the most common dashboard quality degrader over time.
+- UX-066 · Sparklines for Inline Trend Visualization [Data Visualization] · ★4 · tags: tables, dashboard · use: Dashboard KPI cards, data table columns with historical series, monitoring panels where trend direction is as important as the current value.
+- UX-067 · Role-Based Dashboard Personalization [Dashboard Personalization] · ★4 · tags: enterprise, dashboard · use: Any enterprise application serving 2+ distinct user roles with materially different primary metrics and tasks.
+- UX-068 · Alert and Threshold-Based Notifications [Monitoring & Alerts] · ★4 · tags: data-heavy · use: Any operational dashboard or monitoring tool where users need to be informed of anomalies — IT operations, financial monitoring, supply chain…
+- UX-069 · Comparison Mode for Time-Series Data [Data Visualization] · ★4 · tags: — · use: Any time-series chart on a monitoring or reporting dashboard where trend comparison is a common user task.
+- UX-070 · Subtle Micro-Animations for Live Data Updates [Real-Time Data Display] · ★3 · tags: animation, cognitive-load, data-heavy · use: Real-time monitoring dashboards, live analytics, financial trading interfaces, operational control centers where data changes frequently and users…
+- UX-071 · Pause/Freeze Option for Live Data Streams [Real-Time Data Display] · ★3 · tags: data-heavy, dashboard · use: High-frequency updating dashboards — stock tickers, real-time operational metrics, live event monitoring — where users need to read and analyze data…
