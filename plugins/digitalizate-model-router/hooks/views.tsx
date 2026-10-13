@@ -157,7 +157,9 @@ export function bandModel(decision: Decision | null, signals: readonly string[],
   }
 }
 
-export function indicatorText(band: BandModel | null, decision: Decision | null): string | null {
+const INDICATOR_TAG = '[ROUTER]'
+
+function indicatorAction(band: BandModel | null, decision: Decision | null): string | null {
   if (band === null) {
     return null
   }
@@ -177,6 +179,12 @@ export function indicatorText(band: BandModel | null, decision: Decision | null)
   }
 
   return action?.kind === 'plan' ? `${MARK.plan} plan mode` : null
+}
+
+export function indicatorText(band: BandModel | null, decision: Decision | null): string {
+  const action = indicatorAction(band, decision)
+
+  return action === null ? INDICATOR_TAG : `${INDICATOR_TAG} ${action}`
 }
 
 export type BandHandlers = {

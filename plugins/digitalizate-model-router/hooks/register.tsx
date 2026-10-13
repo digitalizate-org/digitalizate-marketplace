@@ -979,9 +979,7 @@ export const register: Register = (on, options) => {
     const dismissed = await read($, dismissedAtom)
     const session = await read($, sessionAtom)
     const band = bandModel(decision, signals, dismissed, currentOf(session.model, session.planMode, runtime.mainStepModel).tier)
-    const label = indicatorText(band, decision)
-
-    return label === null ? next(e) : next({ ...e, props: { ...e.props, modes: [...e.props.modes, label] } })
+    return next({ ...e, props: { ...e.props, modes: [...e.props.modes, indicatorText(band, decision)] } })
   })
 
   on('ui.render', { component: 'Pane', requestId: PANE_ID }, async ($, e) =>
