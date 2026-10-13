@@ -200,7 +200,7 @@ function liveLabel(live: Live): string | null {
 
   const name = MODELS[live.tier].name
 
-  return live.effort === '' ? name : `${name} · ${live.effort}`
+  return live.effort ? `${name} · ${live.effort}` : name
 }
 
 export function indicatorText(band: BandModel | null, decision: Decision | null, health: Health, live: Live): string {

@@ -66,6 +66,7 @@ const HEALTH_MAX = 5
 const CLASSIFIER_TIMEOUT_MS = 1500
 const PIN = /\b(sonnet|opus|fable|haiku|opusplan|sonnet-implementer|opus-reviewer|opus-debugger|fable-researcher)\b/
 const USER_ORIGINS: ReadonlySet<string> = new Set(['composer', 'bridge', 'sdk'])
+const EFFORT_LEVELS: ReadonlySet<string> = new Set(['low', 'medium', 'high', 'xhigh', 'max'])
 
 const decisionAtom = atom({ plugin: 'digitalizate-model-router', key: 'decision' } as const, null)
 const historyAtom = atom({ plugin: 'digitalizate-model-router', key: 'history' } as const, [])
@@ -335,6 +336,28 @@ async function classifyPrompt(
     : { classification: withSecondOpinion(base, label), source: 'classifier' }
 }
 
+async function configuredEffort($: EngineInterface, model: string, planMode: boolean): Promise<string> {
+  const { tier } = currentOf(model, planMode)
+
+  if (tier === null) {
+    return ''
+  }
+
+  const settings = (await $.settings.read({}).catch(() => undefined)) as
+    | { effortLevel?: unknown; modelSettings?: Record<string, { effortLevel?: unknown } | undefined> }
+    | undefined
+  const level = settings?.modelSettings?.[MODELS[tier].id]?.effortLevel ?? settings?.effortLevel
+
+  return typeof level === 'string' && EFFORT_LEVELS.has(level) ? level : ''
+}
+
+async function applyEffortCommand($: EngineInterface, requested: string): Promise<void> {
+  const session = await read($, sessionAtom)
+  const effort = EFFORT_LEVELS.has(requested) ? requested : await configuredEffort($, session.model, session.planMode)
+
+  await update($, sessionAtom, view => ({ ...view, effort }))
+}
+
 async function showLive($: EngineInterface, stepModel: string, effort: string | number | undefined): Promise<void> {
   const shown = effort === undefined ? '' : String(effort)
   const session = await read($, sessionAtom)
@@ -532,12 +555,16 @@ export const register: Register = (on, options) => {
 
     await update($, plansAtom, () => planStatsOf(plans))
 
-    const model = await sessionModel($, (await read($, sessionAtom)).planMode)
+    const planMode = (await read($, sessionAtom)).planMode
+    const model = await sessionModel($, planMode)
     const legacyHook = await hasLegacyHook($)
+    const effort = await configuredEffort($, model, planMode)
     await update($, sessionAtom, current => ({
       ...current,
       model,
       modelTier: currentOf(model, current.planMode).tier,
+      stepModel: '',
+      effort,
       legacyHook,
     }))
 
@@ -1001,12 +1028,13 @@ export const register: Register = (on, options) => {
     runtime.switchedModel = model
     runtime.cacheTtl = e.cache_ttl
 
+    const effort = await configuredEffort($, model, (await read($, sessionAtom)).planMode)
     const session = await update($, sessionAtom, view => ({
       ...view,
       model,
       modelTier: currentOf(model, view.planMode).tier,
       stepModel: '',
-      effort: '',
+      effort,
       contextTokens: e.context_tokens,
     }))
     const decision = await read($, decisionAtom)
@@ -1037,6 +1065,17 @@ export const register: Register = (on, options) => {
 
     return result
   }).catch(($, e, next) => failOpen($, 'PostModelSwitch', next.error).then(() => next(e)))
+
+  on('command.run', { command: 'effort' }, async ($, e, next) => {
+    const result = await next(e)
+    const requested = e.args.trim().toLowerCase()
+
+    await applyEffortCommand($, requested).catch((error: unknown) =>
+      noteIssue($, 'command effort', error instanceof Error ? error.message : String(error)),
+    )
+
+    return result
+  })
 
   on('command.run', { command: 'route' }, async ($, e) => {
     const args = e.args.trim()

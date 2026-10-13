@@ -1,5 +1,6 @@
 import { describe, expect, test } from 'claude-code/testing'
 
+import { indicatorText } from '../hooks/views'
 import { BAND, command, MODE, PANE, SESSION, spawnInput, textOf, worldOf } from './fixtures'
 
 const MECHANICAL = 'Escribe tests unitarios para el parser con vitest'
@@ -753,6 +754,44 @@ describe('footer indicator', () => {
     await $.classic.PostModelSwitch({ from_model: 'claude-opus-5-5', to_model: 'claude-sonnet-5-5', requested_model: 'claude-sonnet-5-5', context_tokens: 1000 } as never)
 
     expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] Sonnet 5.5 ✓')
+  })
+
+  test('before any step the effort comes from the settings of the running model', async ($, on) => {
+    worldOf(on, { settings: { modelSettings: { 'claude-opus-5-5': { effortLevel: 'high' }, 'claude-sonnet-5-5': { effortLevel: 'xhigh' } } } })
+    await $.session.start(SESSION)
+
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] Opus 5.5 · high ✓')
+  })
+
+  test('switching the model takes the effort saved for the new one', async ($, on) => {
+    worldOf(on, { settings: { modelSettings: { 'claude-opus-5-5': { effortLevel: 'high' }, 'claude-sonnet-5-5': { effortLevel: 'xhigh' } } } })
+    await $.session.start(SESSION)
+    await $.classic.PostModelSwitch({ from_model: 'claude-opus-5-5', to_model: 'claude-sonnet-5-5', requested_model: 'claude-sonnet-5-5', context_tokens: 1000 } as never)
+
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] Sonnet 5.5 · xhigh ✓')
+  })
+
+  test('/effort with a level shows it at once, saved or not', async ($, on) => {
+    const world = worldOf(on)
+    await $.session.start(SESSION)
+    await $.command.run(command('effort', 'max'))
+
+    expect(world.ran).toContain('effort max')
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] Opus 5.5 · max ✓')
+  })
+
+  test('/effort without a level reads the saved one back', async ($, on) => {
+    worldOf(on, { settings: { modelSettings: { 'claude-opus-5-5': { effortLevel: 'medium' } } } })
+    await $.session.start(SESSION)
+    await $.command.run(command('effort'))
+
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] Opus 5.5 · medium ✓')
+  })
+
+  test('a state saved before the effort existed never prints undefined', () => {
+    const live = { tier: 'opus' as const, effort: undefined as unknown as string }
+
+    expect(indicatorText(null, null, { issues: [], active: 0 }, live)).toBe('[MODEL ROUTER] Opus 5.5 ✓')
   })
 
   test('hiding the band leaves only the tag', async ($, on) => {

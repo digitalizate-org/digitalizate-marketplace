@@ -202,6 +202,12 @@ export function worldOf(on: On, options: WorldOptions = {}): World {
     return { model: e.model ?? e.parentModel, agentId: `agent-${world.spawned.length}` }
   })
 
+  on('command.run', { command: 'effort' }, ($, e) => {
+    world.ran.push(`effort ${e.args}`)
+
+    return { text: '' }
+  })
+
   on('command.run', { command: 'model' }, ($, e) => {
     world.ran.push(`model ${e.args}`)
 
