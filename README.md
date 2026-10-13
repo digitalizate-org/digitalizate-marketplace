@@ -7,6 +7,7 @@ Marketplace de plugins de Digitalízate para Claude Code, claude.ai y Cowork. Es
 | Plugin | Repo | Para qué |
 |---|---|---|
 | `digitalizate-linear-method` | [digitalizate-org/digitalizate-linear-method](https://github.com/digitalizate-org/digitalizate-linear-method) | Linear Method: canon de reglas, auditoría, pre-flight, setup, correcciones con deshacer y planificación de ciclos |
+| `digitalizate-design-practices` | [digitalizate-org/digitalizate-design-practices](https://github.com/digitalizate-org/digitalizate-design-practices) (`plugins/digitalizate-design-practices`) | Librería de buenas prácticas de UX y product design, con skills para construir, auditar, sincronizar y enriquecer interfaces |
 
 ## Uso
 
@@ -23,7 +24,7 @@ Los repos son privados. En Claude Code hace falta una credencial git con lectura
 
 ## Agregar un plugin
 
-1. Añadir una entrada a `plugins` en `.claude-plugin/marketplace.json` con `source: { "source": "github", "repo": "digitalizate-org/<repo>" }`.
+1. Añadir una entrada a `plugins` en `.claude-plugin/marketplace.json` con `source: { "source": "github", "repo": "digitalizate-org/<repo>" }`. Si el plugin vive en una subcarpeta del repo, usar `{ "source": "git-subdir", "url": "<repo>.git", "path": "<subcarpeta>" }`.
 2. El `name` de la entrada debe coincidir con el `name` de su `plugin.json`, en kebab-case.
 3. No fijar `version` en la entrada: manda la de `plugin.json`.
 4. Validar con `claude plugin validate .` y push a `main`.
