@@ -669,6 +669,34 @@ describe('opusplan session', () => {
     expect(world.state.decision?.action.kind).toBe('stay')
   })
 
+  test('the footer says opusplan and that Sonnet is executing', async ($, on) => {
+    worldOf(on, { model: 'claude-sonnet-5-5', settings: { model: 'opusplan' } })
+    await $.session.start(SESSION)
+
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] opusplan: ejecuta · Sonnet 5.5 ✓')
+  })
+
+  test('the footer says opusplan and that Opus is planning', async ($, on) => {
+    worldOf(on, { model: 'claude-opus-5-5', settings: { model: 'opusplan' } })
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: ARCHITECTURE, prompt_id: 'p1', permission_mode: 'plan' })
+    await drain($.turn.step({ turnId: 't1', index: 0, model: 'claude-opus-5-5', effort: 'xhigh', messageCount: 3 }))
+
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] opusplan: plan · Opus 5.5 · xhigh ✓')
+  })
+
+  test('accepting the plan flips the footer back to Sonnet executing', async ($, on) => {
+    worldOf(on, { model: 'claude-opus-5-5', settings: { model: 'opusplan' } })
+    on('tool.call', { tool: 'ExitPlanMode' }, () => ({ result: {} as never, text: 'ok' }))
+
+    await $.session.start(SESSION)
+    await $.classic.UserPromptSubmit({ prompt: ARCHITECTURE, prompt_id: 'p1', permission_mode: 'plan' })
+    await drain($.turn.step({ turnId: 't1', index: 0, model: 'claude-opus-5-5', effort: 'xhigh', messageCount: 3 }))
+    await $.tool.call({ tool: 'ExitPlanMode' } as never)
+
+    expect(textOf(await $.ui.render(MODE))).toBe('[MODEL ROUTER] opusplan: ejecuta · Sonnet 5.5 · xhigh ✓')
+  })
+
   test('an explicit Opus model over an opusplan default is not read as opusplan', async ($, on) => {
     const world = worldOf(on, { model: 'claude-opus-5-5', settings: { model: 'opusplan' } })
 

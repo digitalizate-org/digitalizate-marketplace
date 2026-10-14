@@ -858,7 +858,7 @@ export const register: Register = (on, options) => {
     const ran = await next(e)
 
     if (e.agentId === undefined && ran.deny === undefined && ran.isError !== true) {
-      await update($, sessionAtom, session => ({ ...session, planMode: true }))
+      await update($, sessionAtom, session => ({ ...session, planMode: true, stepModel: '' }))
     }
 
     return ran
@@ -871,7 +871,7 @@ export const register: Register = (on, options) => {
       return ran
     }
 
-    const session = await update($, sessionAtom, view => ({ ...view, planMode: false }))
+    const session = await update($, sessionAtom, view => ({ ...view, planMode: false, stepModel: '' }))
 
     if (tierOfModel(session.model) !== 'fable') {
       return ran
@@ -1159,7 +1159,11 @@ export const register: Register = (on, options) => {
     const session = await read($, sessionAtom)
     const health = await read($, healthAtom)
     const band = bandModel(decision, signals, dismissed, currentOf(session.model, session.planMode, runtime.mainStepModel).tier)
-    const live = { tier: tierOfModel(session.stepModel) ?? currentOf(session.model, session.planMode).tier, effort: session.effort }
+    const live = {
+      tier: tierOfModel(session.stepModel) ?? currentOf(session.model, session.planMode).tier,
+      effort: session.effort,
+      isOpusplan: isOpusplan(session.model),
+    }
 
     return next({ ...e, props: { ...e.props, modes: [...e.props.modes, indicatorText(band, decision, health, live)] } })
   })

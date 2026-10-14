@@ -191,7 +191,10 @@ export function isFailing(health: Health): boolean {
 export type Live = {
   tier: ModelTier | null
   effort: string
+  isOpusplan?: boolean
 }
+
+const OPUSPLAN_PHASE: Partial<Record<ModelTier, string>> = { opus: 'plan', sonnet: 'ejecuta' }
 
 function liveLabel(live: Live): string | null {
   if (live.tier === null) {
@@ -199,8 +202,11 @@ function liveLabel(live: Live): string | null {
   }
 
   const name = MODELS[live.tier].name
+  const phase = live.isOpusplan === true ? OPUSPLAN_PHASE[live.tier] : undefined
+  const model = phase === undefined ? name : `${phase} · ${name}`
+  const label = live.effort ? `${model} · ${live.effort}` : model
 
-  return live.effort ? `${name} · ${live.effort}` : name
+  return live.isOpusplan === true ? `opusplan: ${label}` : label
 }
 
 export function indicatorText(band: BandModel | null, decision: Decision | null, health: Health, live: Live): string {
