@@ -59,8 +59,7 @@ Run each once in a test team:
 
 ## 4. Things I could not verify offline
 
-- Whether `permissionDecision: "deny"` plus exit 0 is honored by the installed Claude Code version (docs say yes). If not, change `guard.mjs` to also `process.exit(2)` after writing the reason to stderr.
-- Whether PostToolUse `additionalContext` reaches the model in the installed version. If not, warnings are still in `.linear-method/warnings.log`; the skills tell Claude to read it after writes.
+- Verified live on 2026-10-14 (Claude Code 2.1.296, Linear MCP `mcp__claude_ai_Linear__*`): `permissionDecision: "deny"` plus exit 0 blocks the call with the LM-040 reason, and PostToolUse `additionalContext` reaches the model with the warnings. No change needed.
 - `issueLabelRestore` behavior for retired labels (used by undo of LM-128/LM-129).
 - `Project.content` availability through the API for the spec-presence metric (LM-116). If it comes back null for projects that do have content, switch the metric to `documents` + `description` only.
 - `save_initiative` input field names (`owner`, `targetDate`, `status`) in the guard's `checkInitiative`; adjust `hooks/rules.mjs` if the MCP uses `ownerId` or different names.
@@ -76,4 +75,5 @@ Run each once in a test team:
 
 (append here: date, file, what and why; newest first)
 
+2026-10-14 · live check · Section 1 run against a test team: story title denied (LM-040); task without labels allowed with LM-073 surfaced and logged; with `issue.primary_reader: business`, a technical description warned LM-160, the fifth sub-issue under one parent within ten minutes warned LM-165 with `parentId` in `mcp-writes.log`, and a 2,829-character description warned LM-161 on edit; without the reader line, no LM-160. The 0.2.0 hooks ran as processes on the real tool inputs and responses because the session still loaded the 0.1.0 copy (plugins reload on restart). Test issues canceled with a comment. Known gap: Type labels named in Spanish (Mejora, Funcionalidad) trigger LM-073 on every issue; the alias support proposed in the Contravía audit is still pending.
 2026-10-13 · 0.2.0 · Canon grows to 143 rules (new `writing` category, LM-094/095/058, antipatterns LM-153/154, signals LM-139/170/171, eight rules edited). New source tier `external-method` with `deviates_from`. Guard adds three non-blocking warnings (LM-160, LM-161, LM-165); declared reader in `linear-decisions.md` and a `writing` threshold block. New issue templates (business, request, support). 24 tests.
