@@ -22,6 +22,7 @@ Ask only what cannot be observed, in one message:
 - Who rotates triage weekly (names), or Triage responsibility on a Business plan (LM-051).
 - Definition of Done: merged, deployed, or documented (LM-048).
 - Priority definitions and the bug deadlines (LM-074, LM-061). Defaults: Urgent = incident or hard blocker, today; High = this or next cycle; Medium = normal; Low = closes if it does not rise in three cycles; bugs 48 h / 7 days.
+- Who reads the issues: only the people who implement them (technical, the method's default), or also a client or business stakeholder (business or external)? With business or external, the five blocks of LM-160 and the business templates apply.
 - Agent policy: run owner, allowed operations, batch limit (LM-091).
 
 ### 3. Configure, in this order
@@ -29,10 +30,10 @@ Ask only what cannot be observed, in one message:
 1. Team settings: cycles (duration, start day, auto-add started and completed, 2 upcoming cycles, no cooldown, lock off), triage enabled, auto-close 6 months, auto-archive 1 month, estimates off. The MCP cannot change team settings: write a plan of `team.update` operations and apply it with `npx tsx "${CLAUDE_PLUGIN_ROOT}/scripts/fix.ts" apply --plan <file> --owner "<name>"`, or do it in the Linear UI and record it.
 2. States: keep the defaults; add In Review (started) only if code review is a real wait; add Won't Fix (canceled) if the bug deadline rule is adopted (LM-071). Remove any other state.
 3. Labels: a Type group with Bug, Feature, Improvement, Chore at workspace scope; an Area group with 4-6 values only if the product needs it (LM-073). Retire status-like and priority-like labels (LM-072).
-4. Templates: a bug template and a project template from `templates/` (`save_document` is not a template tool; use the Linear UI for templates if the MCP cannot create them, and record it).
+4. Templates: a bug template and a project template from `templates/`; with a business or external reader, install also `issue-task-business.md`, `issue-request.md` and `issue-support.md` (`save_document` is not a template tool; use the Linear UI for templates if the MCP cannot create them, and record it).
 5. Integrations: GitHub or GitLab (PRs move states), Slack (triage intake and update syndication), the error tracker into Triage (LM-109, LM-050).
 6. Views: current cycle, triage, release blockers, stale projects, and a personal "My Issues: actionable" (LM-079).
-7. `linear-decisions.md`: create it from `templates/linear-decisions.md` with every choice above and its reason.
+7. `linear-decisions.md`: create it from `templates/linear-decisions.md` with every choice above and its reason, including the `issue.primary_reader` line when the reader is business or external.
 
 ### 4. Seed the work
 

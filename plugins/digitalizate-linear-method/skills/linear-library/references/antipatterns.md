@@ -157,13 +157,13 @@ Linear's bug deadlines distinguish high priority (48 h) from the rest (7 days) (
 Kind: antipattern · Score: 5 · Tier: evidence · Verifiable by: judgment
 Use when: the symptom below appears in an audit, a review or a conversation about how the team works
 Verify: The symptom is absent
-Violates: LM-043, LM-044
+Violates: LM-043, LM-044, LM-095
 Sources: Linear Method, Principles & Practices (https://linear.app/method/introduction, 2026-10)
 File: library/antipatterns/LM-146-single-issue-writer.md
 
 ### Symptom
 
-A PO or lead creates most issues; engineers receive solutions instead of problems; the writer is a bottleneck.
+A PO or lead creates most issues; engineers receive solutions instead of problems; the writer is a bottleneck. Or an agent drafts every issue from whatever context its session has (often a diagnosis), and nobody rewrites them for the reader.
 
 ### Cause
 
@@ -171,7 +171,7 @@ Scrum habits (the PO owns the backlog) carried into the method.
 
 ### Fix
 
-Give the team the spec and milestones; each person writes their own issues; outsiders file problems, assignees rewrite them as tasks.
+Give the team the spec and milestones; each person writes their own issues; outsiders file problems, assignees rewrite them as tasks. With an agent writer: route its drafts to Triage, require a proposed list for batches, and have the implementer write the plan (LM-163, LM-095).
 
 ### Evidence
 
@@ -196,7 +196,7 @@ The team dropped the Scrum vocabulary but kept the artifact, because no spec rep
 
 ### Fix
 
-Write the one-page spec per project; rewrite issues as tasks; keep criteria only when verifiable in one line.
+Write the one-page spec per project; rewrite issues as tasks; keep acceptance as "Done when" checkboxes the declared reader can observe, and the why as one plain line (LM-040, LM-160).
 
 ### Evidence
 
@@ -326,4 +326,54 @@ Remove the ceremonies the method replaces, reset states to defaults, import only
 ### Evidence
 
 Opendoor wrote its operating rules before choosing the tool; Oscar Health dropped custom fields and workflows at migration (Linear customer stories, 2025). Interested sources.
+
+## LM-153 The issue is a runbook
+
+Kind: antipattern · Score: 4 · Tier: evidence · Verifiable by: judgment
+Use when: the symptom below appears in an audit, a review or a conversation about how the team works
+Verify: The symptom is absent
+Violates: LM-160, LM-161, LM-044, LM-163
+Sources: Armin Ronacher, Building Pi With Pi (https://lucumr.pocoo.org/2026/5/24/pi-oss/, 2026-05-24); Mozilla, Bug writing guidelines (https://bugzilla.mozilla.org/page.cgi?id=bug-writing.html, 2026-10); Birgitta Böckeler, Understanding Spec-Driven-Development (https://www.martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html, 2025-10-15)
+File: library/antipatterns/LM-153-issue-as-runbook.md
+
+### Symptom
+
+For any reader: descriptions copy the diagnosis and the procedure instead of linking them, with a "Cause" section before any statement of who is affected. When the declared reader is business or external, file paths, line numbers, commands, code blocks and loose data tables are symptoms too: the sentence that reader needs is buried in the middle, "Done when" is a command, and status reports drafted from these issues inherit the jargon.
+
+### Cause
+
+The issue is written by whoever diagnosed the problem (a person after an investigation, or an agent with the diagnosis in its context), for themselves or for an implementing agent. A template asks for file, line or command. Agent-facing guidance ("add a Context for the agent block") is applied by a writer who writes every issue.
+
+### Fix
+
+Rewrite the top for the declared reader (LM-160); move the diagnosis to the repo document and link it (LM-161); keep observed facts separate from hypotheses (LM-044); the implementer writes the plan as a comment (LM-163); remove file, line and command fields from templates (LM-168).
+
+### Evidence
+
+Ronacher on issues with diagnoses: "That is worse than no diagnosis" (May 2026, independent). Mozilla: "explain the problem, not your suggested solution" (independent). Böckeler found agent-oriented specs "very verbose and tedious to review" (martinfowler.com, Oct 2025, independent).
+
+## LM-154 The partition mirrors the source document
+
+Kind: antipattern · Score: 4 · Tier: evidence · Verifiable by: judgment
+Use when: the symptom below appears in an audit, a review or a conversation about how the team works
+Verify: The symptom is absent
+Violates: LM-165, LM-166, LM-046
+Sources: Endor Labs, Jira integration (https://docs.endorlabs.com/integrations/jira/jira-with-endor-labs.md, 2026-10); Lawrence and Green, The Humanizing Work Guide to Splitting User Stories (https://www.humanizingwork.com/the-humanizing-work-guide-to-splitting-user-stories/, 2026-10); Shape Up, Map the Scopes; Show Progress (https://basecamp.com/shapeup/3.3-chapter-12, 2019)
+File: library/antipatterns/LM-154-partition-mirrors-the-source.md
+
+### Symptom
+
+One issue per finding of an audit, per field of a form, per screen or per file. Many siblings created within seconds by the same writer, with the same assignee, waiting on the same third party, verified the same way. Siblings overlap because several findings share one remedy. Some are cancelled minutes later and folded into one issue.
+
+### Cause
+
+The issues were cut along the structure of the document they came from (sections, findings, fields) instead of the work (who, what it waits on, how it is checked). Tools and instructions encourage it: finding-to-ticket integrations default to one ticket per finding; a rule such as "a requirement is a parent issue with sub-issues" produces one child per item.
+
+### Fix
+
+Re-partition by action, gate and verification (LM-166); fold children that share all three into a checklist (LM-165); move the set to a project when it spans more than a cycle.
+
+### Evidence
+
+Endor Labs warns that one ticket per finding "can produce a high volume of Jira tickets" (vendor). Lawrence: splitting step by step "is the wrong way to go" (external-method). Shape Up: "to-do lists actually grow as the team makes progress", so counting items does not show progress (external-method).
 

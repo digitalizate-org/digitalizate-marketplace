@@ -1,6 +1,6 @@
 # practice
 
-57 entries.
+66 entries.
 
 - LM-010 · Set strategic initiatives that articulate the vision · ★★★★★ · practice · official-method · use: starting a workspace, a quarter, or a planning cycle; whenever projects exist with no stated purpose above them · references/direction.md
 - LM-011 · Keep the plan slightly out of reach and reserve space for unplanned work · ★★★★ · practice · official-method · use: filling a quarter or a cycle, or deciding how much capacity to commit to planned projects · references/direction.md
@@ -29,7 +29,7 @@
 - LM-041 · Issue titles are short and say what to do · ★★★★ · practice · official-method · use: creating or reviewing issues · references/issues.md
 - LM-042 · Descriptions are optional; context lives in the project spec · ★★★ · practice · official-method · use: designing issue templates, or when every issue repeats the same background paragraph · references/issues.md
 - LM-043 · Write your own issues · ★★★★★ · practice · official-method · use: assigning work, onboarding someone, or when one person creates most of the issues · references/issues.md
-- LM-044 · When filing for someone else, describe the problem; the assignee rewrites it as a task · ★★★★ · practice · official-method · use: support, sales, a founder or a PM files work for an engineer or designer · references/issues.md
+- LM-044 · Whoever does not implement describes the problem; the implementer rewrites it as a task and owns the plan · ★★★★ · practice · official-method · use: support, sales, a founder, a PM, the client or a drafting agent files work for an engineer, a designer or another agent · references/issues.md
 - LM-045 · Cite the user verbatim in bugs and requests, and link the conversation · ★★★★ · practice · official-method · use: filing bugs or feature requests that come from users or customers · references/issues.md
 - LM-046 · Keep issues small enough to complete several per week · ★★★★ · practice · official-method · use: creating issues or reviewing work that stays in progress for weeks · references/issues.md
 - LM-047 · Every issue leaving triage has one assignee · ★★★★ · practice · official-method · use: accepting an issue from triage, planning a cycle, or when work is "owned by the team" · references/issues.md
@@ -43,6 +43,7 @@
 - LM-055 · Enable auto-close and auto-archive · ★★★★ · practice · official-docs · use: configuring a team, or when the backlog keeps stale items alive · references/triage-and-backlog.md
 - LM-056 · Create issues only for work likely within six months · ★★★ · practice · evidence · use: someone wants to "capture the idea" as an issue · references/triage-and-backlog.md
 - LM-057 · Review the backlog on a cadence · ★★★ · practice · evidence · use: setting rituals, or when the backlog has not been read in months · references/triage-and-backlog.md
+- LM-058 · Technical debt lives in a register; the tracker receives the decision to act on it · ★★★ · practice · interpretation · use: a team records technical debt found while working, a "technical debt" issue template exists, or the backlog fills with debt nobody will schedule · references/triage-and-backlog.md
 - LM-060 · Mix bugs and quality work into every cycle · ★★★★★ · practice · official-method · use: planning any cycle; auditing a team whose cycles contain only features · references/quality.md
 - LM-061 · Fix bugs on a deadline or declare won't fix; no bug backlog · ★★★★ · practice · linear-internal · use: bugs accumulate in the backlog, or the team debates which bugs deserve attention · references/quality.md
 - LM-062 · Invest in tooling as a force multiplier · ★★★ · practice · official-method · use: planning quality capacity, or when the same manual step slows every project · references/quality.md
@@ -58,4 +59,12 @@
 - LM-090 · A delegated issue stays assigned to a human · ★★★★★ · practice · linear-internal · use: delegating any issue to Linear Agent, Copilot, Claude Code or another agent · references/agents.md
 - LM-091 · Every agent action has an accountable human and an audit trail · ★★★★★ · practice · evidence · use: letting agents change state in Linear (assign, move, close, prioritize, archive), including this plugin · references/agents.md
 - LM-092 · Project health is set by the lead, not generated · ★★★★ · practice · official-docs · use: using agents to draft project updates · references/agents.md
-- LM-093 · Write the context agents need: specs, templates, files to touch and not to touch · ★★★★ · practice · official-docs · use: adopting agents for triage, bugs or chores · references/agents.md
+- LM-093 · Give agents context through the repository and the plan, not through a block in every issue · ★★★★ · practice · official-docs · use: adopting agents for triage, bugs or chores · references/agents.md
+- LM-094 · Standing technical context lives in the repository, not in each issue · ★★★★ · practice · external-method · use: adopting coding agents, writing agent-facing templates, or when issues repeat the same conventions, commands or "do not touch" lists · references/agents.md
+- LM-095 · When an agent drafts issues, a human accepts the reader layer and the partition · ★★★★ · practice · evidence · use: an agent creates or edits issues (from a session, a document, Slack, email or meeting notes) · references/agents.md
+- LM-160 · Write the description for the workspace's declared reader, outcome first · ★★★ · practice · interpretation · use: writing or reviewing any issue description, designing issue templates, or when the client or a business reader reads the tracker or the reports built from it · deviates from LM-042 · references/writing.md
+- LM-161 · Keep the technical trail where it is maintained; the issue links it · ★★★★ · practice · external-method · use: an issue comes from an audit, an investigation or a diagnosis already written somewhere else, or a description carries tables, commands or long procedures · references/writing.md
+- LM-163 · The implementer adds the technical plan when taking the issue · ★★★ · practice · interpretation · use: an issue is delegated to an agent, will take more than a day, or was written by someone who will not implement it · references/writing.md
+- LM-165 · One deliverable is one issue with a checklist; split only for another assignee, another gate or a separate delivery · ★★★ · practice · interpretation · use: deciding between a checklist, sub-issues, sibling issues or a project; reviewing a parent with many children; turning a plan or requirement into issues · references/writing.md
+- LM-166 · Turn a report into issues by action, gate and verification, and propose the partition first · ★★★ · practice · interpretation · use: an audit, a pentest, an investigation, meeting notes or a plan has to become issues, especially when an agent creates them · references/writing.md
+- LM-168 · Templates ask for outcome, impact and acceptance; technical fields are optional, and absent for business readers · ★★★ · practice · evidence · use: creating or reviewing issue templates for a team, or when issues written from a template come out technical · references/writing.md

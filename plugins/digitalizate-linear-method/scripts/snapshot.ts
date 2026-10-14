@@ -1,9 +1,10 @@
 // Fetches a workspace through Linear's GraphQL API and writes .linear-method/snapshot.json (plus raw.json for debugging).
-// Usage: LINEAR_API_KEY=... npx tsx scripts/snapshot.ts [--team KEY] [--out .linear-method/snapshot.json] [--completed-days 180]
-import { mkdirSync, writeFileSync } from "node:fs";
+// Usage: LINEAR_API_KEY=... npx tsx scripts/snapshot.ts [--team KEY] [--out .linear-method/snapshot.json] [--completed-days 180] [--decisions linear-decisions.md]
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { LinearClient } from "./lib/graphql.js";
 import { computeSnapshot } from "./lib/metrics.js";
+import { parseWriting } from "./lib/evaluate-core.js";
 import type { RawWorkspace, RawTeam, RawCycle, RawIssue, RawProject, RawInitiative, RawLabel } from "./lib/raw-types.js";
 
 const args = process.argv.slice(2);
@@ -44,6 +45,13 @@ const Q_PROJECTS_DONE = `query ProjectsDone($first: Int, $after: String, $since:
 const Q_INITIATIVES = `query Initiatives($first: Int, $after: String) { initiatives(first: $first, after: $after) { pageInfo { hasNextPage endCursor } nodes {
   id name status owner { id name } targetDate health updatedAt lastUpdate { createdAt health } projects(first: 50) { nodes { id } } } } }`;
 
+function writingOptions() {
+  const file = [opt("--decisions", ""), "linear-decisions.md", ".linear-method/linear-decisions.md", "docs/linear-decisions.md"].find((p) => p && existsSync(p));
+  const writing = parseWriting(file ? readFileSync(file, "utf8") : null);
+  console.error(writing.primaryReader ? `reader: ${writing.primaryReader}` : "no reader declared; LM-139 will be skipped");
+  return writing;
+}
+
 async function main() {
   const client = new LinearClient();
   const now = new Date();
@@ -83,7 +91,7 @@ async function main() {
   const initiatives = await client.paginate<RawInitiative>(Q_INITIATIVES, {}, ["initiatives"], 50);
 
   const raw: RawWorkspace = { fetchedAt: now.toISOString(), organization: org, integrations, workspaceLabels, teams: fullTeams, projects, initiatives };
-  const snapshot = computeSnapshot(raw, now);
+  const snapshot = computeSnapshot(raw, now, writingOptions());
   mkdirSync(dirname(out), { recursive: true });
   writeFileSync(out, JSON.stringify(snapshot, null, 2));
   writeFileSync(out.replace(/snapshot\.json$/, "raw.json"), JSON.stringify(raw));

@@ -27,8 +27,11 @@ for (const e of entries) {
 }
 
 const star = (n: number) => "★".repeat(n);
-const indexLine = (e: Entry) =>
-  `${e.id} · ${e.title} · ${star(e.score)} · ${e.kind} · ${e.sourceTier} · use: ${e.useWhen}`;
+const indexLine = (e: Entry) => {
+  const deviation = e.deviatesFrom.length ? ` · deviates from ${e.deviatesFrom.join(", ")}` : "";
+  const status = e.status === "Active" ? "" : ` · ${e.status}`;
+  return `${e.id} · ${e.title} · ${star(e.score)} · ${e.kind} · ${e.sourceTier} · use: ${e.useWhen}${deviation}${status}`;
+};
 
 for (const [cat, list] of byCategory) {
   const lines = [`# ${cat}`, "", `${list.length} entries. Full text in references/${cat}.md`, ""];
@@ -43,6 +46,8 @@ for (const [kind, list] of byKind) {
 
 const tierCounts = new Map<string, number>();
 for (const e of entries) tierCounts.set(e.sourceTier, (tierCounts.get(e.sourceTier) ?? 0) + 1);
+const proposed = entries.filter((e) => e.status !== "Active");
+const deviating = entries.filter((e) => e.deviatesFrom.length);
 const overview = [
   "# linear-library overview",
   "",
@@ -61,6 +66,14 @@ const overview = [
   "",
   ...[...tierCounts].map(([t, n]) => `- ${t}: ${n}`),
   "",
+  "## Proposed entries",
+  "",
+  ...(proposed.length ? proposed.map((e) => `- ${e.id} (${e.status})`) : ["none"]),
+  "",
+  "## Entries that deviate from the Linear Method",
+  "",
+  ...(deviating.length ? deviating.map((e) => `- ${e.id} → ${e.deviatesFrom.join(", ")}`) : ["none"]),
+  "",
   "## Signals with automatic checks",
   "",
   ...entries.filter((e) => e.check).map((e) => `- ${e.id} (${e.checkScope}, ${e.severity}): \`${e.check}\` measures ${e.measures.join(", ")}`),
@@ -74,6 +87,8 @@ for (const [cat, list] of byCategory) {
     out.push(`## ${e.id} ${e.title}`);
     out.push("");
     out.push(`Kind: ${e.kind} · Score: ${e.score} · Tier: ${e.sourceTier} · Verifiable by: ${e.verifiableBy}`);
+    if (e.status !== "Active") out.push(`Status: ${e.status}`);
+    if (e.deviatesFrom.length) out.push(`Deviates from: ${e.deviatesFrom.join(", ")}`);
     out.push(`Use when: ${e.useWhen}`);
     out.push(`Verify: ${e.verify}`);
     if (e.check) out.push(`Check: \`${e.check}\` (${e.checkScope}, severity ${e.severity})`);
@@ -93,7 +108,7 @@ for (const [cat, list] of byCategory) {
 const ids = new Set(entries.map((e) => e.id));
 const problems: string[] = [];
 for (const e of entries) {
-  for (const ref of [...e.measuredBy, ...e.measures, ...e.violates]) {
+  for (const ref of [...e.measuredBy, ...e.measures, ...e.violates, ...e.deviatesFrom]) {
     if (!ids.has(ref)) problems.push(`${e.id} references unknown ${ref}`);
   }
   if (e.kind === "signal" && (!e.check || !e.checkScope || !e.severity)) problems.push(`${e.id} signal missing check/scope/severity`);
@@ -102,4 +117,9 @@ if (problems.length) {
   console.error(problems.join("\n"));
   process.exit(1);
 }
-console.log(`Built ${entries.length} entries into ${outDir}`);
+const statusCounts = new Map<string, number>();
+for (const e of entries) statusCounts.set(e.status, (statusCounts.get(e.status) ?? 0) + 1);
+if (!statusCounts.has("Active")) statusCounts.set("Active", 0);
+if (!statusCounts.has("Proposed")) statusCounts.set("Proposed", 0);
+const statusSummary = [...statusCounts].map(([st, n]) => `${n} ${st}`).join(", ");
+console.log(`Built ${entries.length} entries (${statusSummary}) into ${outDir}`);

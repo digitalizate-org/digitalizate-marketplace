@@ -8,17 +8,18 @@ Kind: practice · Score: 5 · Tier: official-method · Verifiable by: query
 Use when: creating any issue, reviewing a team's issue style, or migrating from Scrum
 Verify: No open issue title or description follows the "As a <role>, I want <x>, so that <y>" pattern; the user context lives in the project spec
 Measured by: LM-111
-Sources: Linear Method, Write issues not user stories (https://linear.app/method/write-issues-not-user-stories, 2026-10); Hitask, Linear method madness, sans user stories (https://medium.com/hitask/linear-method-madness-sans-user-stories-0af082b3c652, 2024-07-03)
+Sources: Linear Method, Write issues not user stories (https://linear.app/method/write-issues-not-user-stories, 2026-10); Intercom, How we accidentally invented Job Stories (https://www.intercom.com/blog/accidentally-invented-job-stories/, 2016-06-28); Hitask, Linear method madness, sans user stories (https://medium.com/hitask/linear-method-madness-sans-user-stories-0af082b3c652, 2024-07-03); The Glimpse, Building Product at Linear with Nan Yu (https://www.theglimpse.co/p/nan-yu, 2023-04-11)
 File: library/issues/LM-040-write-issues-not-user-stories.md
 
 ### Why
 
-"We don't write user stories and think they're an anti-pattern." Linear's argument: stories became "a cargo cult ritual" that obscures the task and "can silo engineers into a mechanical role where they code to the issue requirements". An issue describes a concrete task with a defined outcome; the user problem and experience are discussed at the product and project level, in the spec. Placeholder issues for exploration ("Explore design", "Write project spec") are fine.
+"We don't write user stories and think they're an anti-pattern." Linear's argument: stories became "a cargo cult ritual" that obscures the task. Intercom dropped them for a related reason: they "describe functionality to be built, rather than motivations people have". What the story format was trying to carry (who it is for, why it matters) is still needed; it goes in one plain line, not in a template (LM-160).
 
 ### Do
 
 - One issue = one concrete task with a visible result (code, design, document, decision).
-- Put who, why and the experience in the project spec, once.
+- Put the experience and the full why in the project spec, once.
+- In the issue, a one- or two-sentence "Why it matters" in the reader's words is allowed, and required when the workspace declares a business or external reader (LM-160).
 - Allow exploration placeholders; forbid story templates in descriptions.
 
 ### Anti-pattern
@@ -27,12 +28,13 @@ Issue templates that require "As a... I want... so that..." plus Gherkin accepta
 
 ### Fix
 
-Move the why to the spec's Why section; rewrite the issue as a task; keep acceptance criteria only when they are verifiable in one line.
+Rewrite the issue as a task; keep the why as one plain line (or in the spec); keep acceptance as "Done when" checkboxes the reader can observe (LM-160).
 
 ### Evidence
 
 - The Hitask critique shows the failure mode of dropping stories without specs: the team found the product "disjointed and confusing" (Medium, Jul 2024). Competitor opinion.
-- "you can just say build a login screen" (Nan Yu, The Glimpse). Linear-internal.
+- Intercom replaced stories with a one-page brief and job stories, keeping the problem written down (Intercom, 2016). Independent company docs.
+- In The Glimpse (Apr 2023) the interviewer, Jacob Jolibois, says "you can just say build a login screen"; Nan Yu answers "You can just say, do the pattern". Linear-internal.
 
 ## LM-041 Issue titles are short and say what to do
 
@@ -80,7 +82,7 @@ File: library/issues/LM-042-descriptions-optional-context-in-spec.md
 ### Do
 
 - Keep descriptions free-form; add a link to the spec, a design file or a log when useful.
-- For agents, add a short "Context for the agent" block only when delegating.
+- For agents, standing context lives in the repository or in Linear's agent guidance (LM-094); the issue carries only what is specific to the task (LM-093).
 
 ### Anti-pattern
 
@@ -126,23 +128,23 @@ Give the team the spec and the milestone; let them write the issues; review toge
 - "Everyone maintains their own issues and projects"; nobody manages the backlog centrally (Langfuse handbook, 2026). Independent company docs.
 - Linear's engineers and designers create their own tasks (Lenny's Newsletter, Sep 2023). Linear-internal.
 
-## LM-044 When filing for someone else, describe the problem; the assignee rewrites it as a task
+## LM-044 Whoever does not implement describes the problem; the implementer rewrites it as a task and owns the plan
 
 Kind: practice · Score: 4 · Tier: official-method · Verifiable by: judgment
-Use when: support, sales, a founder or a PM files work for an engineer or designer
-Verify: Issues created by non-assignees are phrased as problems or questions, and the assignee rewrites the title into a task when accepting
-Sources: Linear Method, Write issues not user stories (https://linear.app/method/write-issues-not-user-stories, 2026-10)
+Use when: support, sales, a founder, a PM, the client or a drafting agent files work for an engineer, a designer or another agent
+Verify: Issues created by non-implementers are phrased as problems, outcomes or questions, with observed facts separated from hypotheses, and the implementer rewrites the title into a task when taking them
+Sources: Linear Method, Write issues not user stories (https://linear.app/method/write-issues-not-user-stories, 2026-10); Linear docs, Assign and delegate issues (https://linear.app/docs/assigning-issues, 2026-10); Mozilla, Bug writing guidelines (https://bugzilla.mozilla.org/page.cgi?id=bug-writing.html, 2026-10); Armin Ronacher, Building Pi With Pi (https://lucumr.pocoo.org/2026/5/24/pi-oss/, 2026-05-24)
 File: library/issues/LM-044-file-problems-for-others.md
 
 ### Why
 
-"Let the assignee come up with the solution and then rewrite the issue as a task." Prescribing the solution from outside skips the person who knows the system, and it is how user stories sneak back in through the side door.
+"Let the assignee come up with the solution and then rewrite the issue as a task." Prescribing the solution from outside skips the person who knows the system, and it is how user stories sneak back in through the side door. With agents drafting a large share of issues, the writer and the implementer are often different even in a team of one.
 
 ### Do
 
-- Non-assignees write the symptom or the question, with evidence.
-- The assignee rewrites the title as a task when they pick it up (or in triage).
-- Keep the original report in the description for context.
+- Non-implementers (support, a PM, the client, a drafting agent) write the symptom, the outcome or the question, with evidence and the requester's words.
+- They separate observed facts from hypotheses and mark hypotheses as such ("hypothesis, not verified"), because a plausible but wrong diagnosis is worse than none (Ronacher; Mozilla: "explain the problem, not your suggested solution").
+- The implementer rewrites the title as a task when taking the issue, keeps the original report in the description, and puts the plan in the PR or a comment (LM-163).
 
 ### Anti-pattern
 
@@ -150,11 +152,12 @@ Support tickets that arrive as implementation instructions.
 
 ### Fix
 
-Add "problem, not solution" to the bug template; rewrite at triage.
+Add "problem, not solution" to the bug template, with a place for hypotheses marked as such; rewrite at triage.
 
 ### Evidence
 
 - Linear's CX team files bugs with templates and the customer's literal quote; engineering decides the fix (Linear, How our Customer Experience team works in Linear, Nov 2025). Linear-internal.
+- Ronacher, maintaining an open-source project with agents, calls a wrong diagnosis in an issue "worse than no diagnosis" (May 2026). Independent practitioner report. Mozilla asks to "Clearly separate facts (observations) from speculations". Independent practice.
 
 ## LM-045 Cite the user verbatim in bugs and requests, and link the conversation
 
@@ -171,6 +174,7 @@ The user's own words carry what a summary loses. Linking the conversation lets t
 ### Do
 
 - Quote the user ("Pongo mi cuenta y me dice formato no válido") and link the ticket, thread or Customer Request.
+- If the literal words or the source are missing, say so in the description ("quote and source missing"); never paraphrase in quotation marks.
 - Add steps, expected versus observed, and environment for bugs.
 - When the PR merges, let the Customer Request notify the reporter.
 
@@ -191,7 +195,7 @@ Use the bug template; attach the request.
 
 Kind: practice · Score: 4 · Tier: official-method · Verifiable by: query
 Use when: creating issues or reviewing work that stays in progress for weeks
-Verify: No issue stays in a started state for more than 14 days; a person completes several issues per week
+Verify: No issue stays in a started state for more than 14 days; a person completes several issues per week; sub-issues differ from each other by assignee, gate or delivery (LM-165)
 Measured by: LM-126
 Sources: Linear Method, Principles & Practices (https://linear.app/method/introduction, 2026-10)
 File: library/issues/LM-046-keep-issues-small.md
@@ -202,8 +206,9 @@ File: library/issues/LM-046-keep-issues-small.md
 
 ### Do
 
-- Split anything that will take more than two or three days into sub-issues with visible results.
+- Split anything that will take more than two or three days by verifiable delivery, never by step, field, finding or file (LM-165).
 - Use sub-issues to separate design from implementation.
+- Steps of one deliverable are checklist items, not sub-issues.
 - Read "in progress for two weeks" as a signal to split or unblock.
 
 ### Anti-pattern
@@ -212,7 +217,7 @@ Issues that are really projects, open for a month with one giant PR at the end.
 
 ### Fix
 
-Split into sub-issues; close the parent when the children are done.
+Split by deliverable; fold step-sized sub-issues back into a checklist; close the parent when the children are done.
 
 ### Evidence
 

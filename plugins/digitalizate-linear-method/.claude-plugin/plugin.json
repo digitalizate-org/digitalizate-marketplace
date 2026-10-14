@@ -1,7 +1,7 @@
 {
   "name": "digitalizate-linear-method",
   "displayName": "Linear Method (Digitalízate)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Linear Method tooling: canon of rules with sources, workspace audit on real data, build pre-flight for issues/projects/initiatives/specs/updates, setup from zero, batch fixes with undo, cycle planning. Guards on every Linear MCP write.",
   "author": { "name": "Digitalízate" },
   "license": "MIT",

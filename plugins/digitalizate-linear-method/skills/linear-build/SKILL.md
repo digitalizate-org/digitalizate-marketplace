@@ -15,7 +15,7 @@ Pick the object: issue (bug or task), project (with spec), initiative, update, c
 
 ### 2. Read the conventions
 
-Read `linear-decisions.md` (project root, `.linear-method/` or `docs/`). It fixes team keys, cycle length, label groups, priority definitions, Definition of Done, the triage rotation and the agent policy. If it does not exist and you are about to write to Linear, create it from `templates/linear-decisions.md` with what you can observe from the workspace (`list_teams`, `list_issue_labels`, `list_issue_statuses`) and ask only for what you cannot observe.
+Read `linear-decisions.md` (project root, `.linear-method/` or `docs/`). It fixes team keys, cycle length, label groups, priority definitions, Definition of Done, the triage rotation and the agent policy. It also fixes the declared reader (`issue.primary_reader`) and the numbers under `writing`. If it does not exist and you are about to write to Linear, create it from `templates/linear-decisions.md` with what you can observe from the workspace (`list_teams`, `list_issue_labels`, `list_issue_statuses`) and ask only for what you cannot observe.
 
 ### 3. Pre-flight
 
@@ -36,6 +36,7 @@ This plugin runs autonomously by design. What keeps it safe:
 - The guard denies hard-rule violations and surfaces warnings after each write.
 - Every MCP write lands in `.linear-method/mcp-writes.log` with the run owner (`LINEAR_METHOD_RUN_OWNER`), the tool and the key fields (LM-091).
 - Prefer reversible operations: archive or cancel with a comment, never delete. Bulk changes go through `linear-fix`, which logs the inverse of each change and can undo a run.
+- Creating more than one issue from one source (an audit, a plan, meeting notes) proposes the list first and creates after the human confirms (LM-095).
 - Health on updates is written only when the user or the lead states it; never infer it (LM-092).
 
 ## Things that go wrong
@@ -44,4 +45,6 @@ This plugin runs autonomously by design. What keeps it safe:
 - Creating a project without a lead "to fill in later".
 - Inventing conventions (a new label, a new state) without recording them.
 - Setting Urgent because the user sounds stressed.
+- Turning a diagnosis into the issue description (LM-153).
+- Cutting issues along the sections of a document instead of the work (LM-154).
 - Creating issues for ideas that will not start within six months (LM-056): make a candidate project instead.

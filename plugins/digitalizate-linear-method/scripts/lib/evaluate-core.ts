@@ -1,6 +1,6 @@
 // Evaluates signal rules (entries with a `check`) against a Snapshot. Pure; used by evaluate.ts and tests.
 import type { Entry } from "./library.js";
-import type { Snapshot, Metric, Sample } from "./metrics.js";
+import { DEFAULT_WRITING, type PrimaryReader, type Snapshot, type Metric, type Sample, type WritingOptions } from "./metrics.js";
 
 export interface Finding {
   id: string; title: string; severity: "high" | "medium" | "low"; scope: "workspace" | "team"; team: string | null;
@@ -44,6 +44,27 @@ export function parseOverrides(decisionsText: string | null): Record<string, num
     } catch { /* ignore malformed blocks */ }
   }
   return {};
+}
+
+const READER_RE = /^\s*-?\s*`?issue\.primary_reader`?\s*:\s*`?(technical|business|external)`?\s*$/mi;
+
+export function parseWriting(decisionsText: string | null): WritingOptions {
+  if (!decisionsText) return { ...DEFAULT_WRITING };
+  const reader = READER_RE.exec(decisionsText)?.[1].toLowerCase() as PrimaryReader | undefined;
+  let config: Record<string, unknown> = {};
+  for (const b of decisionsText.matchAll(/```json\s*\n([\s\S]*?)```/g)) {
+    try {
+      const obj = JSON.parse(b[1]) as { writing?: Record<string, unknown> };
+      if (obj && typeof obj === "object" && obj.writing && typeof obj.writing === "object") { config = obj.writing; break; }
+    } catch { /* ignore malformed blocks */ }
+  }
+  const positive = (v: unknown, fallback: number) => (typeof v === "number" && Number.isFinite(v) && v > 0 ? v : fallback);
+  return {
+    primaryReader: reader ?? null,
+    descriptionMaxChars: positive(config.description_max_chars, DEFAULT_WRITING.descriptionMaxChars),
+    batchCount: positive(config.subissue_batch_count, DEFAULT_WRITING.batchCount),
+    batchMinutes: positive(config.subissue_batch_minutes, DEFAULT_WRITING.batchMinutes),
+  };
 }
 
 function sectionText(body: string, heading: string): string {

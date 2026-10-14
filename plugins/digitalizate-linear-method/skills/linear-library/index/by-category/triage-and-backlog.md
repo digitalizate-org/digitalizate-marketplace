@@ -1,6 +1,6 @@
 # triage-and-backlog
 
-8 entries. Full text in references/triage-and-backlog.md
+9 entries. Full text in references/triage-and-backlog.md
 
 - LM-050 · Enable triage as the single inbox for unplanned work · ★★★★★ · practice · official-docs · use: setting up a team, or when requests arrive through Slack, email and DMs and get lost
 - LM-051 · Assign a rotating triage responsibility · ★★★★★ · practice · linear-internal · use: nobody owns the inbox, or the same person always does
@@ -10,3 +10,4 @@
 - LM-055 · Enable auto-close and auto-archive · ★★★★ · practice · official-docs · use: configuring a team, or when the backlog keeps stale items alive
 - LM-056 · Create issues only for work likely within six months · ★★★ · practice · evidence · use: someone wants to "capture the idea" as an issue
 - LM-057 · Review the backlog on a cadence · ★★★ · practice · evidence · use: setting rituals, or when the backlog has not been read in months
+- LM-058 · Technical debt lives in a register; the tracker receives the decision to act on it · ★★★ · practice · interpretation · use: a team records technical debt found while working, a "technical debt" issue template exists, or the backlog fills with debt nobody will schedule

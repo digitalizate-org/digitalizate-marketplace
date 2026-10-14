@@ -1,6 +1,6 @@
 # signals
 
-39 entries. Full text in references/signals.md
+42 entries. Full text in references/signals.md
 
 - LM-100 · Cycle completion below 60% over the last three cycles · ★★★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
 - LM-101 · More than a quarter of cycle issues roll over · ★★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
@@ -41,3 +41,6 @@
 - LM-136 · Triage is disabled · ★★★★ · signal · official-docs · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
 - LM-137 · Issues in the active cycle belong to no project · ★★★ · signal · official-method · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
 - LM-138 · Every one of the last three cycles completed above 98% · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
+- LM-139 · Many open issue descriptions carry a technical trail · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
+- LM-170 · Many open issue descriptions exceed the agreed length · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
+- LM-171 · A parent has many sub-issues created in one batch · ★★★ · signal · interpretation · use: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts

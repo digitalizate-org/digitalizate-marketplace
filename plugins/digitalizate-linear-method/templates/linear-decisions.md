@@ -17,6 +17,10 @@ Workspace conventions the team agreed on. Read by the linear-* skills before act
 - Type (required): Bug, Feature, Improvement, Chore
 - Area: <values or "none">
 
+## Issue writing
+- issue.primary_reader: <technical | business | external>
+<!-- Leave the line out to follow the method: descriptions optional, no reader-based warnings. business or external turns on the five blocks of LM-160, the technical-trail warning and the business templates. -->
+
 ## Definition of Done
 <merged | deployed | documented and changelog written>
 
@@ -35,7 +39,10 @@ Workspace conventions the team agreed on. Read by the linear-* skills before act
 ## Threshold overrides
 ```json
 {
-  "thresholds": {}
+  "thresholds": {},
+  "writing": {}
 }
 ```
-<!-- Example: {"thresholds": {"LM-102": 5, "LM-105": 6}} replaces the numeric threshold of a signal's check. -->
+<!-- Example: {"thresholds": {"LM-102": 5, "LM-105": 6}} replaces the numeric threshold of a signal's check.
+     "writing" takes three optional numbers: description_max_chars (default 2500; counts the text outside checklist checkboxes), subissue_batch_count (default 5) and subissue_batch_minutes (default 10).
+     Example: {"thresholds": {}, "writing": {"description_max_chars": 3000, "subissue_batch_count": 6}} -->

@@ -7,6 +7,34 @@ export const PRIORITY_LABEL_RE = /\b(urgent|urgente|critical|cr[ií]tico|p0|p1|p
 const TYPE_LABELS = ["bug", "feature", "improvement", "chore"];
 const INCIDENT_RE = /\b(incident|incidente|outage|caída|caida|down in production|producción caída|data (loss|error|corruption)|datos (incorrectos|corruptos)|security|seguridad|blocker|bloquea a|hard blocker|P0)\b/i;
 const NEXT_RE = /\b(next|siguiente|próximo|proximo|next week|la próxima|la proxima)\b/i;
+const FENCE_RE = /```[\s\S]*?```/g;
+const CODE_SPAN_RE = /`[^`\n]+`/g;
+const PATH_RE = /(?:^|[\s(`"'])((?![\w-]+\.[a-z][\w.-]*\/)(?:[\w.-]+\/)+[\w.-]+\.\w{1,5}|[a-z0-9][\w-]*\.(?:vue|yml|yaml|env|md|php|js|ts|tsx|json|sh|py|sql|rb|go|java|cs))(?=[\s)`"',.:;]|$)/g;
+const COMMAND_RE = /(?:^|[\s`])(?:(?:doctl|npx|npm|pnpm|yarn|ssh|ufw|curl|wget|docker|kubectl|composer|artisan|chmod|chown|systemctl|brew|pip|psql|mysql)\s+[a-z-]|git\s+(?:pull|push|clone|checkout|rebase|merge|commit|fetch|log|diff|status|reset|revert|tag|branch|stash|apply|switch|cherry-pick)(?![\w-]))/gm;
+const CHECKLIST_ITEM_RE = /^\s*[-*]\s*\[[ xX]\]/;
+const countOf = (s, re) => (s.match(re) ?? []).length;
+
+export function technicalTrail(desc, bug) {
+  const fences = countOf(desc, FENCE_RE);
+  const rest = desc.replace(FENCE_RE, " ");
+  const spans = countOf(rest, CODE_SPAN_RE);
+  const paths = countOf(rest, PATH_RE);
+  const commands = countOf(rest, COMMAND_RE);
+  return { technical: (fences > 0 && !bug) || spans >= 10 || paths >= 3 || commands >= 2, spans, paths, commands, fences };
+}
+
+export function proseLength(description) {
+  let inItem = false;
+  let n = 0;
+  for (const line of description.split("\n")) {
+    if (CHECKLIST_ITEM_RE.test(line)) { inItem = true; continue; }
+    if (inItem && /^\s+\S/.test(line)) continue;
+    inItem = false;
+    n += line.length + 1;
+  }
+  return Math.max(0, n - 1);
+}
+
 const TITLE_PREFIX_RE = /^\s*(\[[^\]]+\]|(urgent|urgente|bug|feature|frontend|backend|fe|be)\s*:)/i;
 
 export function toolKind(toolName) {
@@ -46,7 +74,18 @@ export function checkIssue(input, ctx) {
   if (input.delegate && (input.assignee === null || (creating && input.assignee === undefined))) out.push({ level: "deny", id: "LM-090", message: "Delegated issues keep a human assignee. Set assignee together with delegate." });
   if (input.cycle && creating && !input.assignee) out.push({ level: "deny", id: "LM-047", message: "An issue entering a cycle needs an assignee." });
   if (creating && input.state && /^(todo|in progress|in review|started|unstarted)$/i.test(String(input.state)) && !input.assignee) out.push({ level: "warn", id: "LM-047", message: "Issue created directly in a planned state without an assignee." });
-  if (creating && !input.template && desc.length > 2500) out.push({ level: "warn", id: "LM-042", message: "Description is very long; context belongs in the project spec, the issue should be a task." });
+  const bug = labels.some((l) => /^bug$/i.test(l));
+  if (input.description !== undefined && !input.template) {
+    const maxChars = ctx.descriptionMaxChars ?? 2500;
+    const prose = proseLength(desc);
+    if (prose > maxChars) out.push({ level: "warn", id: "LM-161", message: `Description has ${prose} characters outside the checklist; the agreed maximum is ${maxChars}. Move the diagnosis, procedure or data to the linked document or the plan (PR or comment, LM-163); project context belongs in the spec.` });
+    if (ctx.primaryReader === "business" || ctx.primaryReader === "external") {
+      const trail = technicalTrail(desc, bug || (!creating && labels.length === 0));
+      if (trail.technical) out.push({ level: "warn", id: "LM-160", message: `Description carries a technical trail (${trail.spans} code spans, ${trail.paths} paths, ${trail.commands} commands, ${trail.fences} code blocks) and the declared reader is ${ctx.primaryReader}. Keep outcome, why, done-when and out-of-scope here; move the diagnosis to the linked document and the plan to the PR or a comment (LM-161, LM-163).` });
+    }
+  }
+  const siblings = (ctx.recentSiblings ?? 0) + 1;
+  if (creating && input.parentId && siblings >= (ctx.batchCount ?? 5)) out.push({ level: "warn", id: "LM-165", message: `This is sub-issue number ${siblings} under the same parent within ${ctx.batchMinutes ?? 10} minutes. Split only for another assignee, another gate or a separate delivery; otherwise make it a checklist item of the parent. A batch from one source is proposed as a list before creating it (LM-095).` });
   return out;
 }
 

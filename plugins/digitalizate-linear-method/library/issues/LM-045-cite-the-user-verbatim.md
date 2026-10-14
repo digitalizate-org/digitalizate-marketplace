@@ -22,6 +22,7 @@ The user's own words carry what a summary loses. Linking the conversation lets t
 ## Do
 
 - Quote the user ("Pongo mi cuenta y me dice formato no válido") and link the ticket, thread or Customer Request.
+- If the literal words or the source are missing, say so in the description ("quote and source missing"); never paraphrase in quotation marks.
 - Add steps, expected versus observed, and environment for bugs.
 - When the PR merges, let the Customer Request notify the reporter.
 

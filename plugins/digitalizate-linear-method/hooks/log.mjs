@@ -14,7 +14,7 @@ const input = payload.tool_input ?? {};
 const response = payload.tool_response;
 
 const summary = {};
-for (const k of ["id", "title", "name", "team", "project", "initiative", "lead", "assignee", "delegate", "priority", "state", "health", "labels", "addLabels", "targetDate", "cycle"]) if (input[k] !== undefined) summary[k] = input[k];
+for (const k of ["id", "title", "name", "team", "project", "initiative", "lead", "assignee", "delegate", "priority", "state", "health", "labels", "addLabels", "targetDate", "cycle", "parentId"]) if (input[k] !== undefined) summary[k] = input[k];
 const createdRef = (() => {
   try {
     const text = typeof response === "string" ? response : JSON.stringify(response ?? "");

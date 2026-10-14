@@ -25,7 +25,7 @@ The team dropped the Scrum vocabulary but kept the artifact, because no spec rep
 
 ## Fix
 
-Write the one-page spec per project; rewrite issues as tasks; keep criteria only when verifiable in one line.
+Write the one-page spec per project; rewrite issues as tasks; keep acceptance as "Done when" checkboxes the declared reader can observe, and the why as one plain line (LM-040, LM-160).
 
 ## Evidence
 

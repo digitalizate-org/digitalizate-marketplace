@@ -103,7 +103,85 @@ function cycleMetrics(cycles: RawCycle[], now: Date): { metrics: Metrics; sample
   };
 }
 
-function teamSnapshot(t: RawTeam, workspaceLabels: RawLabel[], now: Date): TeamSnapshot {
+export type PrimaryReader = "technical" | "business" | "external";
+export interface WritingOptions {
+  primaryReader: PrimaryReader | null;
+  descriptionMaxChars: number;
+  batchCount: number;
+  batchMinutes: number;
+}
+export const DEFAULT_WRITING: WritingOptions = { primaryReader: null, descriptionMaxChars: 2500, batchCount: 5, batchMinutes: 10 };
+
+const FENCE_RE = /```[\s\S]*?```/g;
+const CODE_SPAN_RE = /`[^`\n]+`/g;
+const PATH_RE = /(?:^|[\s(`"'])((?![\w-]+\.[a-z][\w.-]*\/)(?:[\w.-]+\/)+[\w.-]+\.\w{1,5}|[a-z0-9][\w-]*\.(?:vue|yml|yaml|env|md|php|js|ts|tsx|json|sh|py|sql|rb|go|java|cs))(?=[\s)`"',.:;]|$)/g;
+const COMMAND_RE = /(?:^|[\s`])(?:(?:doctl|npx|npm|pnpm|yarn|ssh|ufw|curl|wget|docker|kubectl|composer|artisan|chmod|chown|systemctl|brew|pip|psql|mysql)\s+[a-z-]|git\s+(?:pull|push|clone|checkout|rebase|merge|commit|fetch|log|diff|status|reset|revert|tag|branch|stash|apply|switch|cherry-pick)(?![\w-]))/gm;
+const CHECKLIST_ITEM_RE = /^\s*[-*]\s*\[[ xX]\]/;
+const countOf = (s: string, re: RegExp): number => (s.match(re) ?? []).length;
+const isBug = (i: RawIssue): boolean => i.labels.nodes.some((l) => /^bug$/i.test(l.name));
+
+export function proseLength(description: string): number {
+  let inItem = false;
+  let n = 0;
+  for (const line of description.split("\n")) {
+    if (CHECKLIST_ITEM_RE.test(line)) { inItem = true; continue; }
+    if (inItem && /^\s+\S/.test(line)) continue;
+    inItem = false;
+    n += line.length + 1;
+  }
+  return Math.max(0, n - 1);
+}
+
+export function technicalTrail(i: RawIssue): { technical: boolean; detail: string } {
+  const d = i.description ?? "";
+  const fences = countOf(d, FENCE_RE);
+  const rest = d.replace(FENCE_RE, " ");
+  const spans = countOf(rest, CODE_SPAN_RE);
+  const paths = countOf(rest, PATH_RE);
+  const commands = countOf(rest, COMMAND_RE);
+  const technical = (fences > 0 && !isBug(i)) || spans >= 10 || paths >= 3 || commands >= 2;
+  return { technical, detail: `${spans} code spans, ${paths} paths, ${commands} commands, ${fences} code blocks` };
+}
+
+function writingMetrics(issues: RawIssue[], o: WritingOptions): { metrics: Metrics; samples: Samples } {
+  const described = issues.filter((i) => (i.description ?? "").trim().length > 0);
+  const readerIsOutsider = o.primaryReader === "business" || o.primaryReader === "external";
+  const trails = readerIsOutsider ? described.map((i) => ({ i, t: technicalTrail(i) })).filter((x) => x.t.technical) : [];
+  const long = described.filter((i) => proseLength(i.description ?? "") > o.descriptionMaxChars);
+  const children = new Map<string, RawIssue[]>();
+  for (const i of issues) if (i.parent) children.set(i.parent.id, [...(children.get(i.parent.id) ?? []), i]);
+  const widestBatch = (kids: RawIssue[]): number => {
+    const byCreator = new Map<string, number[]>();
+    for (const k of kids) byCreator.set(k.creator?.id ?? "", [...(byCreator.get(k.creator?.id ?? "") ?? []), new Date(k.createdAt).getTime()]);
+    let best = 0;
+    for (const raw of byCreator.values()) {
+      const times = raw.sort((a, b) => a - b);
+      let lo = 0;
+      for (let hi = 0; hi < times.length; hi++) {
+        while (times[hi] - times[lo] > o.batchMinutes * 60_000) lo++;
+        best = Math.max(best, hi - lo + 1);
+      }
+    }
+    return best;
+  };
+  const batched = [...children].map(([pid, kids]) => ({ pid, size: widestBatch(kids) })).filter((b) => b.size >= o.batchCount);
+  const parentRef = (id: string) => issues.find((i) => i.id === id)?.identifier ?? id;
+  return {
+    metrics: {
+      "issues.with_description_count": described.length,
+      "issues.technical_description_share": readerIsOutsider ? share(trails.length, described.length) : null,
+      "issues.long_description_share": share(long.length, described.length),
+      "issues.batched_subissue_parent_count": batched.length,
+    },
+    samples: {
+      "issues.technical_description_share": cap(trails.map((x) => ({ ref: x.i.identifier, detail: x.t.detail }))),
+      "issues.long_description_share": cap(long.map((i) => ({ ref: i.identifier, detail: `${proseLength(i.description ?? "")} chars outside the checklist` }))),
+      "issues.batched_subissue_parent_count": cap(batched.map(({ pid, size }) => ({ ref: parentRef(pid), detail: `${size} sub-issues by one creator within ${o.batchMinutes} min` }))),
+    },
+  };
+}
+
+function teamSnapshot(t: RawTeam, workspaceLabels: RawLabel[], now: Date, writing: WritingOptions = DEFAULT_WRITING): TeamSnapshot {
   const issues = t.issues.filter(isActiveIssue);
   const triage = issues.filter((i) => i.state.type === "triage");
   const backlog = issues.filter((i) => i.state.type === "backlog");
@@ -127,6 +205,7 @@ function teamSnapshot(t: RawTeam, workspaceLabels: RawLabel[], now: Date): TeamS
   const extraStates = t.states.nodes.filter((s) => !DEFAULT_STATES.has(s.name.toLowerCase()));
   const lab = labelMetrics([...t.labels.nodes, ...workspaceLabels]);
   const urgent = issues.filter((i) => i.priority === 1);
+  const wr = writingMetrics(issues, writing);
   const metrics: Metrics = {
     "cycles.enabled": t.cyclesEnabled,
     "cycles.duration_weeks": t.cyclesEnabled ? t.cycleDuration : null,
@@ -155,6 +234,7 @@ function teamSnapshot(t: RawTeam, workspaceLabels: RawLabel[], now: Date): TeamS
     "issues.in_cycle_without_project_count": inCycleNoProject.length,
     "issues.delegated_without_assignee_count": delegatedNoAssignee.length,
     "issues.single_creator_share": share(topCreator, issues.length),
+    ...wr.metrics,
     ...lab.metrics,
     "states.count": t.states.nodes.length,
     "states.extra_count": extraStates.length,
@@ -175,6 +255,7 @@ function teamSnapshot(t: RawTeam, workspaceLabels: RawLabel[], now: Date): TeamS
     "issues.started_over_14d_count": cap(startedOld.map((i) => ({ ref: ref(i), detail: `started ${days(i.startedAt, now)} days ago` }))),
     "issues.in_cycle_without_project_count": cap(inCycleNoProject.map((i) => ({ ref: ref(i), detail: i.title.slice(0, 60) }))),
     "issues.delegated_without_assignee_count": cap(delegatedNoAssignee.map((i) => ({ ref: ref(i), detail: "delegate set, no human assignee" }))),
+    ...wr.samples,
     "issues.urgent_share": cap(urgent.map((i) => ({ ref: ref(i), detail: i.title.slice(0, 60) }))),
     "states.extra_count": cap(extraStates.map((s) => ({ ref: s.name, detail: `category ${s.type}` }))),
   };
@@ -249,8 +330,8 @@ function initiativeMetrics(initiatives: RawWorkspace["initiatives"], now: Date):
   };
 }
 
-export function computeSnapshot(raw: RawWorkspace, now = new Date(raw.fetchedAt)): Snapshot {
-  const teams = raw.teams.map((t) => teamSnapshot(t, raw.workspaceLabels, now));
+export function computeSnapshot(raw: RawWorkspace, now = new Date(raw.fetchedAt), writing: WritingOptions = DEFAULT_WRITING): Snapshot {
+  const teams = raw.teams.map((t) => teamSnapshot(t, raw.workspaceLabels, now, writing));
   const cadences = new Set(raw.teams.map((t) => (t.cyclesEnabled ? `${t.cycleDuration}-${t.cycleStartDay}-${t.cycleCooldownTime}` : "none")));
   const proj = projectMetrics(raw.projects, now);
   const init = initiativeMetrics(raw.initiatives, now);

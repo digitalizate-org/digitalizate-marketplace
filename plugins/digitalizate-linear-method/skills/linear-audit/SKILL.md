@@ -39,6 +39,8 @@ The scripts only see numbers. Check, with the snapshot and the MCP, what needs r
 - Projects as containers: names like areas, teams or "v2"; indefinite status misuse (LM-026, LM-140).
 - Initiatives phrased as feature lists instead of outcomes (LM-010).
 - Issue style in a sample of 10 recent issues: titles as actions, problems filed by outsiders, quotes in bugs (LM-041, LM-044, LM-045).
+- Descriptions for the declared reader: with `issue.primary_reader` business or external, the five blocks of LM-160, no technical trail (LM-161), plan in the PR or a comment (LM-163); without a declared reader, technical descriptions are not a finding.
+- Partition: parents with many sub-issues cut by finding, field or file (LM-154, LM-165); templates with required file, line or command fields (LM-168).
 - Templates (`list_templates`): required description, story format, prefixes (LM-040, LM-042).
 - Rituals and roles only if the user describes them; never infer meetings from data.
 
@@ -52,7 +54,7 @@ Each judgment finding needs evidence you saw (identifier, project name, template
 | Medium | Signal severity medium, or a score-4 practice unmet |
 | Low | Signal severity low, score-3 practices, polish |
 
-Interpretation-tier thresholds (LM-100, LM-102, LM-105, LM-107...) keep their severity but the report says the threshold is a recommendation that `linear-decisions.md` can override.
+Interpretation-tier thresholds (LM-100, LM-102, LM-105, LM-107, LM-139, LM-170, LM-171...) keep their severity but the report says the threshold is a recommendation that `linear-decisions.md` can override. LM-139 is evaluated only with `issue.primary_reader` business or external.
 
 ### 6. Write the report
 

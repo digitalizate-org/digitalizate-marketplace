@@ -9,7 +9,7 @@
     {
       "name": "digitalizate-linear-method",
       "source": "./plugins/digitalizate-linear-method",
-      "description": "Linear Method: canon de 129 reglas con fuentes, auditoría del workspace, pre-flight al crear objetos, implantación desde cero, correcciones en lote con deshacer y planificación de ciclos. Los guards bloquean las escrituras que rompen las reglas duras.",
+      "description": "Linear Method: canon de 143 reglas con fuentes, auditoría del workspace, pre-flight al crear objetos, implantación desde cero, correcciones en lote con deshacer y planificación de ciclos. Los guards bloquean las escrituras que rompen las reglas duras y avisan, sin bloquear, sobre descripciones largas, rastro técnico para lectores de negocio y sub-issues en lote.",
       "category": "productivity",
       "tags": ["linear", "linear-method", "project-management", "audit"]
     },

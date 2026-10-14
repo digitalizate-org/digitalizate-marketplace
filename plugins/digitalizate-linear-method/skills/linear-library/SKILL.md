@@ -14,6 +14,8 @@ A compiled view of the markdown library in `library/<category>/<ID>-<slug>.md`, 
 - `index/by-kind/<kind>.md`: the same lines grouped by kind (principle, practice, model, antipattern, signal) with the reference file at the end.
 - `references/<category>.md`: the full entry: Why, Do, Anti-pattern, Fix, Evidence (for practices and models); Symptom, Cause, Fix, Evidence (antipatterns); What it measures, When it fires, Fix (signals); plus the frontmatter facts (verify, check, measured by, sources, file).
 
+Index lines and `references/` headers show `Proposed` when an entry is not active (skills do not apply it; Proposed signals are not evaluated) and `deviates from` when it declares a deviation.
+
 IDs look like `LM-022`. They are unique and stable (the build refuses duplicates), so citing them is safe.
 
 ## Source tiers
@@ -22,6 +24,7 @@ Every rule carries a `source_tier`. Treat them differently:
 
 - `official-method`: stated on linear.app/method. Quote it as what Linear says.
 - `official-docs`: documented behavior or settings of the app.
+- `external-method`: a published method, standard or product documentation from outside Linear (Shape Up, plain-language guides, GitHub, GitLab and Atlassian docs, coding-agent vendors' docs). Quote it as what that source says, never as "Linear says". When it conflicts with the Linear Method, `official-method` wins unless the entry declares the deviation in `deviates_from`; `index/_overview.md` lists those entries, and the entry's Evidence says which way Digitalízate goes and why.
 - `linear-internal`: how Linear itself works, from interviews and its blog. Not part of the published method.
 - `evidence`: a documented adoption by another company (Langfuse, Opendoor, Sierra, Scale, Retool, Descript, Cursor, Cotera, Oscar...). The Evidence section says whether the source is interested (Linear customer stories) or independent.
 - `interpretation`: the author's threshold or recommendation. Score 3 at most. Present it as a recommendation, never as "Linear says".
@@ -45,13 +48,14 @@ Never cite an ID you have not opened in `references/`. The index line is for sho
 | Work | Categories |
 |---|---|
 | Setting up a workspace or team | workflow-and-structure, cycles, triage-and-backlog, principles |
-| Creating an issue | issues, workflow-and-structure (labels, priorities) |
+| Creating an issue | issues, writing, workflow-and-structure (labels, priorities) |
 | Creating a project or spec | projects, direction, design-and-users |
 | Creating an initiative or planning a quarter | direction, projects |
 | Planning a cycle | cycles, quality, triage-and-backlog, direction |
-| Running triage | triage-and-backlog, issues, quality |
+| Running triage | triage-and-backlog, issues, writing, quality |
 | Writing an update | projects, agents (if drafted by an agent) |
-| Delegating to agents | agents, issues |
+| Delegating to agents | agents, issues, writing |
+| Turning a report, audit or plan into issues | writing, projects, agents |
 | Auditing a workspace | signals first (automatic checks), then every category the findings point to |
 | Explaining why something feels wrong | antipatterns, then the practices they violate |
 

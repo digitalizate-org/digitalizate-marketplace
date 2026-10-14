@@ -1016,3 +1016,81 @@ Plan a little above last cycle's completed count; keep rollover automatic.
 
 See the practices this signal measures (LM-011, LM-032); their Evidence sections carry the sources. The threshold tier is `interpretation`: official thresholds come from the method or docs, interpretation thresholds are the author's and should be tuned per workspace.
 
+## LM-139 Many open issue descriptions carry a technical trail
+
+Kind: signal · Score: 3 · Tier: interpretation · Verifiable by: query
+Use when: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
+Verify: Many open issue descriptions carry a technical trail is false for the audited scope
+Check: `issues.technical_description_share > 0.3` (team, severity low)
+Measures: LM-160, LM-161
+Sources: Linear Method, Write issues not user stories (https://linear.app/method/write-issues-not-user-stories, 2026-10); Mozilla, Bug writing guidelines (https://bugzilla.mozilla.org/page.cgi?id=bug-writing.html, 2026-10)
+File: library/signals/LM-139-technical-descriptions.md
+
+### What it measures
+
+Share of active issues with a non-empty description whose description carries a technical trail: 10 or more inline code spans, or 3 or more file paths, or 2 or more shell commands, or a fenced code block in an issue without a Bug label. Fenced blocks are allowed in bugs because a log or stack trace is evidence.
+
+### When it fires
+
+`issues.technical_description_share > 0.3` evaluated against the team metrics of the snapshot. Evaluated only when `linear-decisions.md` declares `issue.primary_reader` business or external; otherwise the metric is null and the signal is skipped. Also skipped when no active issue has a description.
+
+### Fix
+
+Rewrite the samples for the declared reader (LM-160): move the diagnosis to the repo document and the plan to the PR or a comment (LM-161, LM-163); remove file, line and command fields from templates (LM-168).
+
+### Evidence
+
+See the practices this signal measures (LM-160, LM-161). The density definition and the 0.3 threshold are interpretation: they were tested on one real workspace (7 of 11 open issues flagged) and on the healthy fixture (no flags), and should be tuned per workspace.
+
+## LM-170 Many open issue descriptions exceed the agreed length
+
+Kind: signal · Score: 3 · Tier: interpretation · Verifiable by: query
+Use when: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
+Verify: Many open issue descriptions exceed the agreed length is false for the audited scope
+Check: `issues.long_description_share > 0.25` (team, severity low)
+Measures: LM-160, LM-161, LM-042
+Sources: Linear Method, Write issues not user stories (https://linear.app/method/write-issues-not-user-stories, 2026-10); Malte Ubl, Design Docs at Google (https://www.industrialempathy.com/posts/design-docs-at-google/, 2020-07-06)
+File: library/signals/LM-170-long-descriptions.md
+
+### What it measures
+
+Share of active issues with a non-empty description whose text outside checklist items is longer than the agreed maximum: 2 500 characters by default (`writing.description_max_chars` in the JSON block of `linear-decisions.md`); there is no separate value for bugs. Checklist items and their indented continuation lines do not count: a long "Done when" with a check per item is the shape the standard asks for, and counting it flagged the reference issue of the workspace where it was tested.
+
+### When it fires
+
+`issues.long_description_share > 0.25` evaluated against the team metrics of the snapshot. Skipped when no active issue has a description.
+
+### Fix
+
+Check the samples: a long description usually holds a diagnosis, a procedure or a data table. Move it to the linked document or the plan comment (LM-161, LM-163); keep the five blocks of LM-160.
+
+### Evidence
+
+"Write only as much as you need" (Linear Method); "Keep it succinct!" (Google design docs). No source gives a number: the lengths and the 0.25 share are interpretation, tuned per workspace.
+
+## LM-171 A parent has many sub-issues created in one batch
+
+Kind: signal · Score: 3 · Tier: interpretation · Verifiable by: query
+Use when: auditing a workspace or a team with a snapshot; this signal is evaluated automatically by evaluate.ts
+Verify: A parent has many sub-issues created in one batch is false for the audited scope
+Check: `issues.batched_subissue_parent_count > 0` (team, severity low)
+Measures: LM-165, LM-166, LM-095
+Sources: Linear docs, Parent and sub-issues (https://linear.app/docs/parent-and-sub-issues, 2026-10); Lawrence and Green, The Humanizing Work Guide to Splitting User Stories (https://www.humanizingwork.com/the-humanizing-work-guide-to-splitting-user-stories/, 2026-10)
+File: library/signals/LM-171-batched-sub-issues.md
+
+### What it measures
+
+Number of parents with at least `writing.subissue_batch_count` active sub-issues (default 5) created by the same creator within `writing.subissue_batch_minutes` minutes (default 10), both in the JSON block of `linear-decisions.md`.
+
+### When it fires
+
+`issues.batched_subissue_parent_count > 0` evaluated against the team metrics of the snapshot. Only active sub-issues are counted, because the snapshot does not fetch completed or cancelled issues.
+
+### Fix
+
+Check each sample against the three split reasons of LM-165. Fold children that share assignee, gate and verification into the parent as a checklist; move the set to a project if it spans more than a cycle.
+
+### Evidence
+
+See LM-165 and LM-166. A batch under one parent is not wrong by itself (a lead may decompose a spec at once); it is the pattern of a partition copied from a source document (LM-154). Thresholds are interpretation, tested on one real workspace (one parent with 6 sub-issues in 22 seconds) and on the healthy fixture (no flags).
+

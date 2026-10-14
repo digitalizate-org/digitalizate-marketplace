@@ -1,7 +1,7 @@
 # linear-library overview
 
-Build date: 2026-10-13
-Entries: 129
+Build date: 2026-10-14
+Entries: 143
 
 ## Categories
 
@@ -10,29 +10,39 @@ Entries: 129
 - projects: 10 entries → index/by-category/projects.md, references/projects.md
 - cycles: 8 entries → index/by-category/cycles.md, references/cycles.md
 - issues: 10 entries → index/by-category/issues.md, references/issues.md
-- triage-and-backlog: 8 entries → index/by-category/triage-and-backlog.md, references/triage-and-backlog.md
+- triage-and-backlog: 9 entries → index/by-category/triage-and-backlog.md, references/triage-and-backlog.md
 - quality: 4 entries → index/by-category/quality.md, references/quality.md
 - workflow-and-structure: 10 entries → index/by-category/workflow-and-structure.md, references/workflow-and-structure.md
 - design-and-users: 7 entries → index/by-category/design-and-users.md, references/design-and-users.md
-- agents: 4 entries → index/by-category/agents.md, references/agents.md
-- signals: 39 entries → index/by-category/signals.md, references/signals.md
-- antipatterns: 13 entries → index/by-category/antipatterns.md, references/antipatterns.md
+- agents: 6 entries → index/by-category/agents.md, references/agents.md
+- signals: 42 entries → index/by-category/signals.md, references/signals.md
+- antipatterns: 15 entries → index/by-category/antipatterns.md, references/antipatterns.md
+- writing: 6 entries → index/by-category/writing.md, references/writing.md
 
 ## Kinds
 
 - principle: 8 → index/by-kind/principle.md
-- practice: 57 → index/by-kind/practice.md
+- practice: 66 → index/by-kind/practice.md
 - model: 12 → index/by-kind/model.md
-- signal: 39 → index/by-kind/signal.md
-- antipattern: 13 → index/by-kind/antipattern.md
+- signal: 42 → index/by-kind/signal.md
+- antipattern: 15 → index/by-kind/antipattern.md
 
 ## Source tiers
 
 - official-method: 50
 - linear-internal: 15
 - official-docs: 26
-- interpretation: 14
-- evidence: 24
+- interpretation: 22
+- evidence: 28
+- external-method: 2
+
+## Proposed entries
+
+none
+
+## Entries that deviate from the Linear Method
+
+- LM-160 → LM-042
 
 ## Signals with automatic checks
 
@@ -75,4 +85,7 @@ Entries: 129
 - LM-136 (team, medium): `triage.enabled == false` measures LM-050
 - LM-137 (team, low): `issues.in_cycle_without_project_count > 3` measures LM-004
 - LM-138 (team, low): `cycles.last3_completion_min > 0.98` measures LM-011, LM-032
+- LM-139 (team, low): `issues.technical_description_share > 0.3` measures LM-160, LM-161
+- LM-170 (team, low): `issues.long_description_share > 0.25` measures LM-160, LM-161, LM-042
+- LM-171 (team, low): `issues.batched_subissue_parent_count > 0` measures LM-165, LM-166, LM-095
 

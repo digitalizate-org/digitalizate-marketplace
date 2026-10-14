@@ -31,7 +31,7 @@ export function issue(key: string, n: number, p: Partial<RawIssue> & { stateType
     startedTriageAt: p.startedTriageAt ?? (st.type === "triage" ? ago(1) : null), triagedAt: null,
     assignee: p.assignee === undefined ? (st.type === "triage" || st.type === "backlog" ? null : { id: "u1" }) : p.assignee,
     delegate: p.delegate ?? null, creator: p.creator ?? { id: `u${(n % 3) + 1}` }, project: p.project === undefined ? { id: "proj-1" } : p.project,
-    cycle: p.cycle ?? null, parent: null, state: { id: st.id, name: st.name, type: st.type }, labels: { nodes: (p.labelNames ?? ["Feature"]).map((name) => ({ name })) },
+    cycle: p.cycle ?? null, parent: p.parent ?? null, state: { id: st.id, name: st.name, type: st.type }, labels: { nodes: (p.labelNames ?? ["Feature"]).map((name) => ({ name })) },
   };
 }
 
@@ -99,10 +99,10 @@ export function healthyWorkspace(): RawWorkspace {
   const eng = team("ENG");
   eng.issues = [
     issue("ENG", 1, { stateType: "triage" }),
-    issue("ENG", 2, { stateType: "backlog", updatedAt: ago(20) }),
+    issue("ENG", 2, { stateType: "backlog", updatedAt: ago(20), description: "Link to the spec. Pagination follows the invoices design." }),
     issue("ENG", 3, { stateType: "unstarted", cycle: { id: "cyc-4" } }),
     issue("ENG", 4, { stateType: "started", cycle: { id: "cyc-4" }, labelNames: ["Bug"], project: null }),
-    issue("ENG", 5, { stateType: "started", cycle: { id: "cyc-4" }, creator: { id: "u2" } }),
+    issue("ENG", 5, { stateType: "started", cycle: { id: "cyc-4" }, creator: { id: "u2" }, description: "Reported by two tutors; see the Customer Request." }),
   ];
   return workspace({ teams: [eng], projects: [project("Two-step checkout", { id: "proj-1" })], initiatives: [initiative("Activation", { projects: { nodes: [{ id: "proj-1" }] } })] });
 }
@@ -124,8 +124,16 @@ export function messyWorkspace(): RawWorkspace {
     issue("FE", 302, { stateType: "started", description: "As a parent, I want to see grades so that I know", priority: 1, creator: { id: "po" }, cycle: { id: "cyc-4" }, project: null }),
     issue("FE", 303, { stateType: "unstarted", priority: 1, creator: { id: "po" }, cycle: { id: "cyc-4" }, project: null }),
     issue("FE", 304, { stateType: "unstarted", priority: 1, creator: { id: "po" }, cycle: { id: "cyc-4" }, project: null }),
+    ...runbookIssues(),
   ];
   const be = mk("BE"); const qa = mk("QA"); const dz = mk("DZ");
   const container = project("App familias v2", { startedAt: ago(150), startDate: ago(150).slice(0, 10), lead: null, targetDate: null, lastUpdate: null, health: null, projectMilestones: { nodes: [] }, initiatives: { nodes: [] }, members: { nodes: [{ id: "u1" }, { id: "u2" }, { id: "u3" }, { id: "u4" }, { id: "u5" }] }, content: "", description: "v2", progress: 0.9 });
   return workspace({ integrations: [{ service: "slack" }], teams: [fe, be, qa, dz], projects: [container], initiatives: [initiative("Q3", { owner: null, lastUpdate: null }), initiative("Q3b"), initiative("Q3c"), initiative("Q3d"), initiative("Q3e")] });
+}
+
+export function runbookIssues(): RawIssue[] {
+  const parent = issue("FE", 400, { stateType: "backlog", creator: { id: "agent-writer" }, description: "Audit findings. Each finding is a sub-issue." });
+  const trail = "Cause: `src/views/Plan.vue` and `src/api/plan.php` and `config/deploy.yml`. Run `git pull` then `ssh deploy@host` and `npx build`. " + "`x` ".repeat(10) + "a".repeat(2600);
+  const kids = Array.from({ length: 6 }, (_, k) => issue("FE", 401 + k, { stateType: "backlog", creator: { id: "agent-writer" }, createdAt: new Date(NOW.getTime() - 3 * DAY + k * 4000).toISOString(), parent: { id: parent.id }, description: trail }));
+  return [parent, ...kids];
 }

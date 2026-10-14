@@ -1,6 +1,6 @@
 # antipattern
 
-13 entries.
+15 entries.
 
 - LM-140 · Projects used as eternal epics · ★★★★★ · antipattern · evidence · use: the symptom below appears in an audit, a review or a conversation about how the team works · references/antipatterns.md
 - LM-141 · Too many teams · ★★★★★ · antipattern · evidence · use: the symptom below appears in an audit, a review or a conversation about how the team works · references/antipatterns.md
@@ -15,3 +15,5 @@
 - LM-150 · Tool kept away from where the work lives · ★★★★★ · antipattern · evidence · use: the symptom below appears in an audit, a review or a conversation about how the team works · references/antipatterns.md
 - LM-151 · Design handoff inside the project · ★★★★★ · antipattern · evidence · use: the symptom below appears in an audit, a review or a conversation about how the team works · references/antipatterns.md
 - LM-152 · Previous process translated instead of replaced · ★★★★★ · antipattern · evidence · use: the symptom below appears in an audit, a review or a conversation about how the team works · references/antipatterns.md
+- LM-153 · The issue is a runbook · ★★★★ · antipattern · evidence · use: the symptom below appears in an audit, a review or a conversation about how the team works · references/antipatterns.md
+- LM-154 · The partition mirrors the source document · ★★★★ · antipattern · evidence · use: the symptom below appears in an audit, a review or a conversation about how the team works · references/antipatterns.md

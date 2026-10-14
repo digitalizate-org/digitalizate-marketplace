@@ -21,7 +21,7 @@ status: Active
 ## Do
 
 - Keep descriptions free-form; add a link to the spec, a design file or a log when useful.
-- For agents, add a short "Context for the agent" block only when delegating.
+- For agents, standing context lives in the repository or in Linear's agent guidance (LM-094); the issue carries only what is specific to the task (LM-093).
 
 ## Anti-pattern
 

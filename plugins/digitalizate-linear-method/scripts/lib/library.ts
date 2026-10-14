@@ -3,7 +3,7 @@ import { join, relative } from "node:path";
 import { parseFrontmatter, asString, asList, asNumber } from "./frontmatter.js";
 
 export type Kind = "principle" | "practice" | "model" | "antipattern" | "signal";
-export type Tier = "official-method" | "official-docs" | "linear-internal" | "evidence" | "interpretation";
+export type Tier = "official-method" | "official-docs" | "linear-internal" | "evidence" | "interpretation" | "external-method";
 
 export interface Source {
   title: string;
@@ -25,6 +25,7 @@ export interface Entry {
   measuredBy: string[];
   measures: string[];
   violates: string[];
+  deviatesFrom: string[];
   check?: string;
   checkScope?: "team" | "workspace";
   severity?: "high" | "medium" | "low";
@@ -76,6 +77,7 @@ export function loadEntry(root: string, file: string): Entry {
     measuredBy: asList(fm.measured_by),
     measures: asList(fm.measures),
     violates: asList(fm.violates),
+    deviatesFrom: asList(fm.deviates_from),
     check: fm.check === undefined ? undefined : asString(fm.check),
     checkScope: fm.check_scope === undefined ? undefined : (asString(fm.check_scope) as Entry["checkScope"]),
     severity: fm.severity === undefined ? undefined : (asString(fm.severity) as Entry["severity"]),
