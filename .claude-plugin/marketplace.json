@@ -26,6 +26,13 @@
       "description": "Guía de modelos hecha herramienta: skill model-route para decidir modelo, effort y delegación, repartir planes, escribir briefs y revisar el setup; en Claude Code, un mod que revisa cada delegación, mide el costo de /model y no deja cerrar a Sonnet sin verificar. Trae los cuatro sub-agentes de modelo fijo.",
       "category": "productivity",
       "tags": ["models", "routing", "sonnet", "opus", "fable", "subagents"]
+    },
+    {
+      "name": "digitalizate-figma-linux",
+      "source": "./plugins/digitalizate-figma-linux",
+      "description": "Figma con lectura y escritura desde Claude Code en Linux sin la app de escritorio ni la cuota del MCP oficial: Talk to Figma para crear, editar y anotar, figma-console en modo token para comentarios. Skill con instalación, chequeo y uso, y scripts install, doctor y figma-relay.",
+      "category": "design",
+      "tags": ["figma", "linux", "mcp", "design"]
     }
   ]
 }

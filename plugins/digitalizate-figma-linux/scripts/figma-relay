@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+dir="${TALK_TO_FIGMA_HOME:-$HOME/.local/share/talk-to-figma}"
+state="${XDG_STATE_HOME:-$HOME/.local/state}/talk-to-figma"
+pidfile="$state/relay.pid"
+log="$state/relay.log"
+mkdir -p "$state"
+
+running() { [[ -f $pidfile ]] && kill -0 "$(cat "$pidfile")" 2>/dev/null; }
+
+case "${1:-status}" in
+  start)
+    if running; then echo "relay ya corre (pid $(cat "$pidfile"))"; exit 0; fi
+    [[ -f $dir/socket.ts ]] || { echo "falta $dir/socket.ts: corre install.sh"; exit 1; }
+    nohup bun run "$dir/socket.ts" >"$log" 2>&1 &
+    echo $! >"$pidfile"
+    sleep 1
+    if running; then
+      echo "relay en ws://127.0.0.1:3055 (pid $(cat "$pidfile"), log $log)"
+    else
+      echo "relay no arrancó, ver $log"; exit 1
+    fi
+    ;;
+  stop)
+    if running; then kill "$(cat "$pidfile")"; echo "relay detenido"; else echo "relay no corría"; fi
+    rm -f "$pidfile"
+    ;;
+  restart)
+    "$0" stop
+    "$0" start
+    ;;
+  status)
+    if running; then
+      echo "relay corre (pid $(cat "$pidfile"))"
+      ss -ltn 'sport = :3055' | tail -n +2
+    else
+      echo "relay detenido"; exit 1
+    fi
+    ;;
+  channels)
+    grep -o 'joined channel "[^"]*" ([0-9]* total clients)' "$log" | tail -n 5 || echo "nadie se ha unido a un canal"
+    ;;
+  log) tail -n "${2:-40}" "$log" ;;
+  *) echo "uso: figma-relay start|stop|restart|status|channels|log [n]"; exit 2 ;;
+esac

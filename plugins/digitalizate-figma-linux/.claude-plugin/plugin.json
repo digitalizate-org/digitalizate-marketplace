@@ -1,0 +1,19 @@
+{
+  "name": "digitalizate-figma-linux",
+  "displayName": "Figma en Linux (Digitalízate)",
+  "version": "0.1.0",
+  "description": "Figma con lectura y escritura desde Claude Code en Linux sin gastar la cuota del MCP oficial: Talk to Figma (relay local + plugin de Community) para crear, editar y anotar, y figma-console-mcp en modo token para comentarios. Skill figma-linux con instalación, chequeo y uso, más scripts install, doctor y figma-relay.",
+  "author": {
+    "name": "Digitalízate"
+  },
+  "repository": "https://github.com/digitalizate-org/digitalizate-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "figma",
+    "linux",
+    "mcp",
+    "design",
+    "annotations",
+    "comments"
+  ]
+}
